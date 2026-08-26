@@ -1,0 +1,534 @@
+- generic [active] [ref=f59e1]:
+  - banner [ref=f59e2]:
+    - generic [ref=f59e4]:
+      - link "Pine Labs DOCS" [ref=f59e5] [cursor=pointer]:
+        - /url: /docs/online-payments
+        - img "Pine Labs" [ref=f59e6]
+        - generic [ref=f59e8]: DOCS
+      - generic [ref=f59e9]:
+        - button "Search /" [ref=f59e10]:
+          - generic [ref=f59e14]: Search
+          - generic [ref=f59e15]: /
+        - button "Ask AI" [ref=f59e16] [cursor=pointer]
+        - button "What's New" [ref=f59e20]
+      - generic [ref=f59e25]:
+        - link "Download Postman Collection" [ref=f59e26] [cursor=pointer]:
+          - /url: /docs/online-payments/developer-tools/postman-collections
+          - text: Postman
+        - link "Download OpenAPI Spec" [ref=f59e30] [cursor=pointer]:
+          - /url: /docs/online-payments/developer-tools/postman-collections
+          - text: OpenAPI Spec
+        - button "🇮🇳" [ref=f59e36]
+        - button "Toggle color theme" [ref=f59e40]
+        - link "Create Account" [ref=f59e43] [cursor=pointer]:
+          - /url: https://dashboardv2.pluralonline.com/signup
+        - link "Sign in" [ref=f59e44] [cursor=pointer]:
+          - /url: https://dashboardv2.pluralonline.com/login
+    - generic [ref=f59e46]:
+      - navigation [ref=f59e47]:
+        - link "Get Started" [ref=f59e48] [cursor=pointer]:
+          - /url: /docs/online-payments/quick-start-guide
+        - link "Docs" [ref=f59e49] [cursor=pointer]:
+          - /url: /docs/online-payments/overview
+        - link "API Reference" [ref=f59e50] [cursor=pointer]:
+          - /url: /docs/online-payments/api
+        - link "AI Solutions" [ref=f59e51] [cursor=pointer]:
+          - /url: /docs/online-payments/ai
+        - link "Playground" [ref=f59e53] [cursor=pointer]:
+          - /url: /docs/online-payments/playground
+        - link "Developer Tools" [ref=f59e54] [cursor=pointer]:
+          - /url: /docs/online-payments/developer-tools
+        - link "Changelog" [ref=f59e55] [cursor=pointer]:
+          - /url: /docs/online-payments/changelog
+        - link "Agentic Commerce" [ref=f59e56] [cursor=pointer]:
+          - /url: /docs/online-payments/ai/agentic-commerce
+      - generic [ref=f59e57]:
+        - button "APIs & SDKs" [ref=f59e59]
+        - button "Help" [ref=f59e63]
+  - main [ref=f59e66]:
+    - generic [ref=f59e67]:
+      - complementary [ref=f59e68]:
+        - navigation [ref=f59e70]:
+          - generic [ref=f59e71]:
+            - link "Quick Start Guide" [ref=f59e72] [cursor=pointer]:
+              - /url: /docs/online-payments/quick-start-guide
+            - link "Overview" [ref=f59e74] [cursor=pointer]:
+              - /url: /docs/online-payments/overview
+          - generic [ref=f59e76]:
+            - generic [ref=f59e78]: ACCEPT PAYMENTS
+            - link "Accept Payments on a Website or Mobile App" [ref=f59e79] [cursor=pointer]:
+              - /url: /docs/online-payments/accept-payments
+            - link "Tokenization" [ref=f59e81] [cursor=pointer]:
+              - /url: /docs/online-payments/tokenization
+            - button "Use Payment Links 7" [ref=f59e83]:
+              - generic [ref=f59e84]: Use Payment Links
+              - generic [ref=f59e85]: "7"
+            - button "Checkout Options 6" [ref=f59e89]:
+              - generic [ref=f59e90]: Checkout Options
+              - generic [ref=f59e91]: "6"
+            - button "Payment Lifecycle 6" [ref=f59e95]:
+              - generic [ref=f59e96]: Payment Lifecycle
+              - generic [ref=f59e97]: "6"
+            - button "Payment Methods 10" [ref=f59e101]:
+              - generic [ref=f59e102]: Payment Methods
+              - generic [ref=f59e103]: "10"
+            - button "Settlements 5" [ref=f59e107]:
+              - generic [ref=f59e108]: Settlements
+              - generic [ref=f59e109]: "5"
+          - generic [ref=f59e113]:
+            - generic [ref=f59e115]: PAYMENT PRODUCTS
+            - link "Overview" [ref=f59e116] [cursor=pointer]:
+              - /url: /docs/online-payments/payment-products
+            - button "Subscriptions 3" [ref=f59e118]:
+              - generic [ref=f59e119]: Subscriptions
+              - generic [ref=f59e120]: "3"
+            - button "One Time Mandate 4" [ref=f59e124]:
+              - generic [ref=f59e125]: One Time Mandate
+              - generic [ref=f59e126]: "4"
+            - button "UPI Reserve Pay 3" [ref=f59e130]:
+              - generic [ref=f59e131]: UPI Reserve Pay
+              - generic [ref=f59e132]: "3"
+            - button "Affordability Suite 6" [ref=f59e136]:
+              - generic [ref=f59e137]: Affordability Suite
+              - generic [ref=f59e138]: "6"
+            - button "International Payments 6" [ref=f59e142]:
+              - generic [ref=f59e143]: International Payments
+              - generic [ref=f59e144]: "6"
+            - button "Payouts 2" [ref=f59e148]:
+              - generic [ref=f59e149]: Payouts
+              - generic [ref=f59e150]: "2"
+            - button "Split Settlement 4" [ref=f59e154]:
+              - generic [ref=f59e155]: Split Settlement
+              - generic [ref=f59e156]: "4"
+            - button "Convenience Fees 3" [ref=f59e160]:
+              - generic [ref=f59e161]: Convenience Fees
+              - generic [ref=f59e162]: "3"
+          - generic [ref=f59e166]:
+            - generic [ref=f59e168]: EXTENDED PAYMENT CAPABILITIES
+            - button "Third Party Validations 5" [ref=f59e169]:
+              - generic [ref=f59e170]: Third Party Validations
+              - generic [ref=f59e171]: "5"
+            - button "Pay By Points 3" [ref=f59e175]:
+              - generic [ref=f59e176]: Pay By Points
+              - generic [ref=f59e177]: "3"
+            - button "Payments E Challan 3" [ref=f59e181]:
+              - generic [ref=f59e182]: Payments E Challan
+              - generic [ref=f59e183]: "3"
+          - generic [ref=f59e187]:
+            - generic [ref=f59e189]: SDKs
+            - link "Overview" [ref=f59e190] [cursor=pointer]:
+              - /url: /docs/online-payments/sdks
+            - link "SDKs Best Practices" [ref=f59e192] [cursor=pointer]:
+              - /url: /docs/online-payments/sdks/best-practices
+            - button "Server SDKs 8" [ref=f59e194]:
+              - generic [ref=f59e195]: Server SDKs
+              - generic [ref=f59e196]: "8"
+            - button "Mobile SDKs 6" [ref=f59e200]:
+              - generic [ref=f59e201]: Mobile SDKs
+              - generic [ref=f59e202]: "6"
+            - button "Web SDKs 6" [ref=f59e206]:
+              - generic [ref=f59e207]: Web SDKs
+              - generic [ref=f59e208]: "6"
+          - generic [ref=f59e212]:
+            - generic [ref=f59e214]: CLI
+            - link "CLI" [ref=f59e215] [cursor=pointer]:
+              - /url: /docs/online-payments/cli
+          - generic [ref=f59e217]:
+            - generic [ref=f59e219]: ECOMMERCE PLUGINS
+            - link "Overview" [ref=f59e220] [cursor=pointer]:
+              - /url: /docs/online-payments/e-commerce-plugins
+            - link "Shopify" [ref=f59e222] [cursor=pointer]:
+              - /url: /docs/online-payments/e-commerce-plugins/shopify
+            - link "WooCommerce" [ref=f59e224] [cursor=pointer]:
+              - /url: /docs/online-payments/e-commerce-plugins/woocommerce
+            - link "Magento" [ref=f59e226] [cursor=pointer]:
+              - /url: /docs/online-payments/e-commerce-plugins/magento
+            - link "OpenCart" [ref=f59e228] [cursor=pointer]:
+              - /url: /docs/online-payments/e-commerce-plugins/opencart
+          - generic [ref=f59e230]:
+            - generic [ref=f59e232]: AI SOLUTIONS
+            - link "Overview" [ref=f59e233] [cursor=pointer]:
+              - /url: /docs/online-payments/ai
+            - link "Agentic Commerce" [ref=f59e235] [cursor=pointer]:
+              - /url: /docs/online-payments/ai/agentic-commerce
+            - button "MCP Server 5" [ref=f59e237]:
+              - generic [ref=f59e238]: MCP Server
+              - generic [ref=f59e239]: "5"
+            - link "Agent Enablement Toolkit" [ref=f59e243] [cursor=pointer]:
+              - /url: /docs/online-payments/ai/agent-enablement-toolkit
+            - button "Pine Labs Payments Protocol 3" [ref=f59e245]:
+              - generic [ref=f59e246]: Pine Labs Payments Protocol
+              - generic [ref=f59e247]: "3"
+            - button "Agent Skills 5" [ref=f59e251]:
+              - generic [ref=f59e252]: Agent Skills
+              - generic [ref=f59e253]: "5"
+          - generic [ref=f59e257]:
+            - generic [ref=f59e259]: DASHBOARD
+            - link "Overview" [ref=f59e260] [cursor=pointer]:
+              - /url: /docs/online-payments/dashboard
+            - link "Payments" [ref=f59e262] [cursor=pointer]:
+              - /url: /docs/online-payments/dashboard/payments
+            - link "Refunds" [ref=f59e264] [cursor=pointer]:
+              - /url: /docs/online-payments/dashboard/refunds
+            - link "Settlements" [ref=f59e266] [cursor=pointer]:
+              - /url: /docs/online-payments/dashboard/settlements
+            - link "Brand Wallets" [ref=f59e268] [cursor=pointer]:
+              - /url: /docs/online-payments/dashboard/brand-wallets
+            - link "Payouts" [ref=f59e270] [cursor=pointer]:
+              - /url: /docs/online-payments/dashboard/payouts
+            - link "Payment Links" [ref=f59e272] [cursor=pointer]:
+              - /url: /docs/online-payments/dashboard/payment-links
+            - link "Settings" [ref=f59e274] [cursor=pointer]:
+              - /url: /docs/online-payments/dashboard/settings
+            - link "Sign Up" [ref=f59e276] [cursor=pointer]:
+              - /url: /docs/online-payments/dashboard/sign-up
+          - generic [ref=f59e278]:
+            - generic [ref=f59e280]: COMMON USE CASES
+            - link "Overview" [ref=f59e281] [cursor=pointer]:
+              - /url: /docs/online-payments/use-cases
+            - link "Accept Payments for a Startup" [ref=f59e283] [cursor=pointer]:
+              - /url: /docs/online-payments/use-cases/accept-payments-startup
+            - link "Accept Payments via Payment Links" [ref=f59e285] [cursor=pointer]:
+              - /url: /docs/online-payments/use-cases/accept-payments-via-payment-links
+            - link "Accept Payments via UPI" [ref=f59e287] [cursor=pointer]:
+              - /url: /docs/online-payments/use-cases/accept-payments-upi
+            - link "Set Up Subscriptions & Recurring Payments" [ref=f59e289] [cursor=pointer]:
+              - /url: /docs/online-payments/use-cases/setup-subscriptions-recurring
+            - link "Build with AI Agents" [ref=f59e291] [cursor=pointer]:
+              - /url: /docs/online-payments/use-cases/build-with-ai-agents
+            - link "Migrate to Pine Labs Payment Gateway" [ref=f59e293] [cursor=pointer]:
+              - /url: /docs/online-payments/use-cases/migrate-to-pinelabs
+          - generic [ref=f59e295]:
+            - generic [ref=f59e297]: DEVELOPER TOOLS
+            - link "Overview" [ref=f59e298] [cursor=pointer]:
+              - /url: /docs/online-payments/developer-tools
+            - button "Developer Tools Error Codes 8" [ref=f59e300]:
+              - generic [ref=f59e301]: Developer Tools Error Codes
+              - generic [ref=f59e302]: "8"
+            - link "Postman and OpenAPI Collection" [ref=f59e306] [cursor=pointer]:
+              - /url: /docs/online-payments/developer-tools/postman-collections
+            - link "IPs & Ciphers" [ref=f59e308] [cursor=pointer]:
+              - /url: /docs/online-payments/developer-tools/ip-and-ciphers
+            - button "Webhooks 4" [ref=f59e310]:
+              - generic [ref=f59e311]: Webhooks
+              - generic [ref=f59e312]: "4"
+            - link "Test Cards Details" [ref=f59e316] [cursor=pointer]:
+              - /url: /docs/online-payments/test-card-details
+          - generic [ref=f59e318]:
+            - generic [ref=f59e320]: GUIDES & REFERENCE
+            - link "FAQs" [ref=f59e321] [cursor=pointer]:
+              - /url: /docs/online-payments/guide-faqs
+            - link "Go Live Checklist" [ref=f59e323] [cursor=pointer]:
+              - /url: /docs/online-payments/go-live-checklist
+            - link "Changelog" [ref=f59e325] [cursor=pointer]:
+              - /url: /docs/online-payments/changelog
+            - link "Glossary" [ref=f59e327] [cursor=pointer]:
+              - /url: /docs/online-payments/glossary
+      - complementary [ref=f59e329]:
+        - generic [ref=f59e330]:
+          - heading "Pine Labs Payments Protocol" [level=3] [ref=f59e331]
+          - navigation [ref=f59e332]:
+            - link "Overview" [ref=f59e333] [cursor=pointer]:
+              - /url: /docs/online-payments/ai/p3p
+            - link "Quickstart" [ref=f59e335] [cursor=pointer]:
+              - /url: /docs/online-payments/ai/p3p/quickstart
+            - link "P3P SDKs" [ref=f59e337] [cursor=pointer]:
+              - /url: /docs/online-payments/ai/p3p/sdks
+      - article [ref=f59e342]:
+        - navigation "Breadcrumb" [ref=f59e343]:
+          - link "Docs" [ref=f59e345] [cursor=pointer]:
+            - /url: /docs/online-payments
+          - link "AI Solutions" [ref=f59e349] [cursor=pointer]:
+            - /url: /docs/online-payments/ai-solutions
+          - link "Pine Labs Payments Protocol" [ref=f59e353] [cursor=pointer]:
+            - /url: /docs/online-payments/machine-payments
+          - generic [ref=f59e354]: Pine Labs Payments Protocol (P3P)
+        - generic [ref=f59e358]:
+          - heading "Pine Labs Payments Protocol (P3P)" [level=1] [ref=f59e359]
+          - paragraph [ref=f59e360]: Build autonomous agent-to-agent payment flows using Pine Labs Payment Protocol (P3P).
+          - generic [ref=f59e362]:
+            - button "Copy for LLM" [ref=f59e363]
+            - link "View as Markdown" [ref=f59e367] [cursor=pointer]:
+              - /url: /docs/online-payments/ai/p3p.md
+            - link "Open in ChatGPT" [ref=f59e371] [cursor=pointer]:
+              - /url: https://chatgpt.com/?q=Hi!%20Can%20you%20please%20read%20%5BPine%20Labs%20Payments%20Protocol%20(P3P)%5D(https%3A%2F%2Fwww.pinelabs.com%2Fdocs%2Fonline-payments%2Fai%2Fp3p.md)%20and%20prepare%20to%20answer%20questions%20about%20it%3F
+            - link "Open in Claude" [ref=f59e376] [cursor=pointer]:
+              - /url: https://claude.ai/new?q=Hi!%20Can%20you%20please%20read%20%5BPine%20Labs%20Payments%20Protocol%20(P3P)%5D(https%3A%2F%2Fwww.pinelabs.com%2Fdocs%2Fonline-payments%2Fai%2Fp3p.md)%20and%20prepare%20to%20answer%20questions%20about%20it%3F
+            - link "Open in Perplexity" [ref=f59e381] [cursor=pointer]:
+              - /url: https://www.perplexity.ai/search?q=Hi!%20Can%20you%20please%20read%20%5BPine%20Labs%20Payments%20Protocol%20(P3P)%5D(https%3A%2F%2Fwww.pinelabs.com%2Fdocs%2Fonline-payments%2Fai%2Fp3p.md)%20and%20prepare%20to%20answer%20questions%20about%20it%3F
+        - generic [ref=f59e386]:
+          - heading "What is Pine Labs Payments Protocol (P3P)?" [level=2] [ref=f59e387]
+          - paragraph [ref=f59e388]: Pine Labs Payments Protocol (P3P) is an open payments protocol that enables AI agents, merchants, and autonomous systems to securely initiate, authorize, and execute payments without a human at the point of transaction.
+          - paragraph [ref=f59e389]: P3P uses standard HTTP interfaces to let participants discover services, create orders, obtain delegated authorization, process payments, and exchange verifiable receipts. A consent-driven mandate model gives users upfront control over agent spending while enabling fully autonomous commerce.
+          - link "Quickstart Guide" [ref=f59e390] [cursor=pointer]:
+            - /url: p3p/quickstart
+          - heading "Who Uses Pine Labs Payments Protocol (P3P)?" [level=2] [ref=f59e391]
+          - paragraph [ref=f59e392]: P3P is designed for merchants, AI agents, applications, and autonomous systems that need to support secure, consent-driven machine payments.
+          - table [ref=f59e394]:
+            - rowgroup [ref=f59e395]:
+              - row [ref=f59e396]:
+                - columnheader "Participant" [ref=f59e397]
+                - columnheader "What they do" [ref=f59e398]
+            - rowgroup [ref=f59e399]:
+              - row [ref=f59e400]:
+                - cell [ref=f59e401]:
+                  - strong [ref=f59e402]: Merchants
+                - cell "Enable AI agents and applications to securely pay for products, services, subscriptions, and digital resources." [ref=f59e403]
+              - row [ref=f59e404]:
+                - cell [ref=f59e405]:
+                  - strong [ref=f59e406]: AI Agents & Applications
+                - cell "Execute payments on behalf of users within approved authorization and spending limits." [ref=f59e407]
+              - row [ref=f59e408]:
+                - cell [ref=f59e409]:
+                  - strong [ref=f59e410]: Users
+                - cell "Control how, when, and how much agents can spend on their behalf." [ref=f59e411]
+              - row [ref=f59e412]:
+                - cell [ref=f59e413]:
+                  - strong [ref=f59e414]: Pine Labs
+                - cell "Coordinates payment authorization, transaction processing, receipt exchange, and settlement across participants." [ref=f59e415]
+          - heading "How P3P Works?" [level=2] [ref=f59e416]
+          - heading "Key Features" [level=2] [ref=f59e418]
+          - generic [ref=f59e419]:
+            - generic [ref=f59e420]:
+              - heading "Agent-Native Payments" [level=4] [ref=f59e426]
+              - paragraph [ref=f59e427]: P3P lets AI agents, autonomous pipelines, and embedded commerce systems initiate and complete transactions without requiring a human at the point of payment.
+            - generic [ref=f59e428]:
+              - heading "Standardized Communication" [level=4] [ref=f59e432]
+              - paragraph [ref=f59e433]: A single HTTP-native protocol for payment authorization, capture, and receipt exchange that works consistently across agents, merchants, and payment providers.
+            - generic [ref=f59e434]:
+              - heading "Secure Payment Authorization" [level=4] [ref=f59e439]
+              - paragraph [ref=f59e440]: Every transaction is scoped and bounded at issuance. Payment tokens are tied to a specific resource, amount, and expiry. They cannot be replayed, redirected, or reused.
+            - generic [ref=f59e441]:
+              - heading "Multi-Payment Method Support" [level=4] [ref=f59e445]
+              - paragraph [ref=f59e446]:
+                - text: Currently live on
+                - strong [ref=f59e447]: UPI ReservePay
+                - text: and
+                - strong [ref=f59e448]: Cards
+                - text: . Net Banking, Wallets, and EMI options are on the roadmap. The P3P challenge and receipt format remains the same across all rails.
+            - generic [ref=f59e449]:
+              - heading "Real-Time Status Tracking" [level=4] [ref=f59e454]
+              - paragraph [ref=f59e455]: Track payment lifecycle events and transaction updates in real time. Every state change, from challenge to capture to receipt, is observable and auditable.
+            - generic [ref=f59e456]:
+              - heading "Verifiable Receipts" [level=4] [ref=f59e461]
+              - paragraph [ref=f59e462]: Every completed transaction returns a cryptographically verifiable receipt. Receipts serve as proof of payment for audit trails, compliance, and dispute resolution.
+          - heading "Supported Use Cases" [level=2] [ref=f59e463]
+          - generic [ref=f59e464]:
+            - generic [ref=f59e465]:
+              - heading "AI Shopping Assistants" [level=4] [ref=f59e471]
+              - paragraph [ref=f59e472]: Enable AI assistants to complete purchases on behalf of customers by selecting, authorizing, and confirming transactions without manual intervention at each step.
+            - generic [ref=f59e473]:
+              - heading "Marketplace Transactions" [level=4] [ref=f59e479]
+              - paragraph [ref=f59e480]: Support machine-to-machine commerce across marketplace platforms, where client and server systems interact directly through the P3P protocol.
+            - generic [ref=f59e481]:
+              - heading "Embedded Commerce" [level=4] [ref=f59e486]
+              - paragraph [ref=f59e487]: Integrate payment execution directly into applications and workflows, so purchasing happens as a native step in the process rather than a redirect to an external checkout.
+            - generic [ref=f59e488]:
+              - heading "Autonomous Procurement" [level=4] [ref=f59e492]
+              - paragraph [ref=f59e493]: Automate purchasing flows for both B2B and B2C scenarios, where systems initiate and complete transactions based on predefined rules and approved spending limits.
+          - heading "Next Steps" [level=2] [ref=f59e494]
+          - generic [ref=f59e495]:
+            - link [ref=f59e496] [cursor=pointer]:
+              - /url: p3p/quickstart
+              - generic [ref=f59e497]:
+                - heading "P3P Quickstart Guide" [level=4] [ref=f59e504]
+                - paragraph [ref=f59e505]: Protocol architecture, concepts, and your first paid endpoint
+            - link [ref=f59e506] [cursor=pointer]:
+              - /url: p3p/sdks
+              - generic [ref=f59e507]:
+                - heading "P3P SDKs" [level=4] [ref=f59e513]
+                - paragraph [ref=f59e514]: Full SDK reference for TypeScript and Python
+          - generic [ref=f59e515]:
+            - heading "Need help with integration?" [level=2] [ref=f59e516]
+            - paragraph [ref=f59e517]: Reach out to our integration support team
+            - link "Contact Us" [ref=f59e519] [cursor=pointer]:
+              - /url: mailto:pgintegration@pinelabs.com?subject=P3P%20Integration%20Support%20Query
+        - generic [ref=f59e520]:
+          - link "Previous Pine Labs Payments Protocol" [ref=f59e521] [cursor=pointer]:
+            - /url: /docs/online-payments/machine-payments
+            - generic [ref=f59e522]: Previous
+            - generic [ref=f59e525]: Pine Labs Payments Protocol
+          - link "Next Pine Labs Payment Protocol - Quickstart" [ref=f59e526] [cursor=pointer]:
+            - /url: /docs/online-payments/ai/p3p/quickstart
+            - generic [ref=f59e527]: Next
+            - generic [ref=f59e530]: Pine Labs Payment Protocol - Quickstart
+  - contentinfo [ref=f59e531]:
+    - generic [ref=f59e532]:
+      - link [ref=f59e534] [cursor=pointer]:
+        - /url: https://www.pinelabs.com
+        - img "Pine Labs" [ref=f59e535]
+      - generic [ref=f59e536]:
+        - generic [ref=f59e537]:
+          - heading "Products" [level=3] [ref=f59e538]
+          - list [ref=f59e539]:
+            - listitem [ref=f59e540]:
+              - link "Online Payments" [ref=f59e541] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments
+            - listitem [ref=f59e542]:
+              - link "Payment Gateway" [ref=f59e543] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payment-gateway
+            - listitem [ref=f59e544]:
+              - link "Affordability Suite" [ref=f59e545] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments/buy-now-pay-later
+            - listitem [ref=f59e546]:
+              - link "Payment Links" [ref=f59e547] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments/payment-links
+            - listitem [ref=f59e548]:
+              - link "Tokeniser" [ref=f59e549] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments/card-tokeniser
+            - listitem [ref=f59e550]:
+              - link "Payouts" [ref=f59e551] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments/instant-payouts
+            - listitem [ref=f59e552]:
+              - link "Subscriptions" [ref=f59e553] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments/subscription-payments
+            - listitem [ref=f59e554]:
+              - link "Shopify Integration" [ref=f59e555] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments/shopify-payment-gateway
+            - listitem [ref=f59e556]:
+              - link "Payment Forms" [ref=f59e557] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments/payment-forms
+            - listitem [ref=f59e558]:
+              - link "Fee Collect" [ref=f59e559] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments/fee-collection
+            - listitem [ref=f59e560]:
+              - link "UPIverse" [ref=f59e561] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments/upi-payment-gateway
+            - listitem [ref=f59e562]:
+              - link "Cross-border Payments" [ref=f59e563] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/online-payments/cross-border-payments
+        - generic [ref=f59e564]:
+          - heading "Developers" [level=3] [ref=f59e565]
+          - list [ref=f59e566]:
+            - listitem [ref=f59e567]:
+              - link "Docs" [ref=f59e568] [cursor=pointer]:
+                - /url: /docs/online-payments/overview
+            - listitem [ref=f59e569]:
+              - link "APIs" [ref=f59e570] [cursor=pointer]:
+                - /url: /docs/online-payments/api
+            - listitem [ref=f59e571]:
+              - link "Agent Skills" [ref=f59e572] [cursor=pointer]:
+                - /url: /docs/online-payments/ai/agent-skills
+            - listitem [ref=f59e573]:
+              - link "AI solutions" [ref=f59e574] [cursor=pointer]:
+                - /url: /docs/online-payments/ai
+            - listitem [ref=f59e575]:
+              - link "Playground" [ref=f59e576] [cursor=pointer]:
+                - /url: /docs/online-payments/playground
+            - listitem [ref=f59e577]:
+              - link "Developer Tools" [ref=f59e578] [cursor=pointer]:
+                - /url: /docs/online-payments/developer-tools
+            - listitem [ref=f59e579]:
+              - link "Changelog" [ref=f59e580] [cursor=pointer]:
+                - /url: /docs/online-payments/changelog
+        - generic [ref=f59e581]:
+          - heading "Free Tools" [level=3] [ref=f59e582]
+          - list [ref=f59e583]:
+            - listitem [ref=f59e584]:
+              - link "GST Calculator" [ref=f59e585] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/gst-calculator
+            - listitem [ref=f59e586]:
+              - link "No Cost EMI Calculator" [ref=f59e587] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/no-cost-emi-calculator
+            - listitem [ref=f59e588]:
+              - link "ROI Calculator" [ref=f59e589] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/roi-calculator
+            - listitem [ref=f59e590]:
+              - link "GST State Code List" [ref=f59e591] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/gst-state-code
+            - listitem [ref=f59e592]:
+              - link "GST Number Search" [ref=f59e593] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/gst-number-search
+        - generic [ref=f59e594]:
+          - heading "Resources" [level=3] [ref=f59e595]
+          - list [ref=f59e596]:
+            - listitem [ref=f59e597]:
+              - link "Error Codes" [ref=f59e598] [cursor=pointer]:
+                - /url: /docs/online-payments/developer-tools/error-codes
+            - listitem [ref=f59e599]:
+              - link "Webhooks" [ref=f59e600] [cursor=pointer]:
+                - /url: /docs/online-payments/developer-tools/webhooks
+            - listitem [ref=f59e601]:
+              - link "Postman and OpenAPI" [ref=f59e602] [cursor=pointer]:
+                - /url: /docs/online-payments/developer-tools/postman-collections
+            - listitem [ref=f59e603]:
+              - link "Product Blogs" [ref=f59e604] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/blog?category=online-payments
+        - generic [ref=f59e605]:
+          - heading "Corporate" [level=3] [ref=f59e606]
+          - list [ref=f59e607]:
+            - listitem [ref=f59e608]:
+              - link "About Us" [ref=f59e609] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/about
+            - listitem [ref=f59e610]:
+              - link "Awards" [ref=f59e611] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/about/awards
+            - listitem [ref=f59e612]:
+              - link "Newsroom" [ref=f59e613] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/about/media-analyst
+            - listitem [ref=f59e614]:
+              - link "Careers" [ref=f59e615] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/careers
+        - generic [ref=f59e616]:
+          - heading "Sales & Support" [level=3] [ref=f59e617]
+          - list [ref=f59e618]:
+            - listitem [ref=f59e619]:
+              - link "Contact Sales" [ref=f59e620] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/contact-sales
+            - listitem [ref=f59e621]:
+              - link "Contact Support" [ref=f59e622] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/contact-support#online-payments
+            - listitem [ref=f59e623]:
+              - link "Office Addresses" [ref=f59e624] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/contact-location
+      - generic [ref=f59e625]:
+        - generic [ref=f59e626]:
+          - list [ref=f59e627]:
+            - listitem [ref=f59e628]:
+              - link "Privacy Policy" [ref=f59e629] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/privacy-policy
+              - generic [ref=f59e630]: "|"
+            - listitem [ref=f59e631]:
+              - link "Terms of Use" [ref=f59e632] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/terms-of-use
+              - generic [ref=f59e633]: "|"
+            - listitem [ref=f59e634]:
+              - link "Terms and Conditions" [ref=f59e635] [cursor=pointer]:
+                - /url: https://www.pinelabs.com/terms-and-conditions
+          - generic [ref=f59e636]:
+            - link "LinkedIn" [ref=f59e637] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/pinelabs/
+            - link "Facebook" [ref=f59e640] [cursor=pointer]:
+              - /url: https://www.facebook.com/PineLabsIndia/
+            - link "X" [ref=f59e643] [cursor=pointer]:
+              - /url: https://x.com/PineLabs_India
+            - link "Instagram" [ref=f59e646] [cursor=pointer]:
+              - /url: https://www.instagram.com/pinelabs_india/
+            - link "YouTube" [ref=f59e649] [cursor=pointer]:
+              - /url: https://www.youtube.com/@pinelabsonline
+        - generic [ref=f59e652]:
+          - generic [ref=f59e653]:
+            - img "Payment Card Industry Data Security Standard" [ref=f59e654]
+            - 'img "Pine Labs: PCI P2PE certification" [ref=f59e655]'
+            - img "PA DSS validated" [ref=f59e656]
+            - img "PCI DSS certified" [ref=f59e657]
+          - paragraph [ref=f59e658]: © 2026 Pine Labs
+  - alert [ref=f59e659]
+  - generic [ref=f59e660]:
+    - generic [ref=f59e662]:
+      - generic [ref=f59e663]:
+        - img "Pine Labs" [ref=f59e664]
+        - heading "Pine Labs" [level=2] [ref=f59e666]
+      - button "Close chat" [ref=f59e668]
+    - generic [ref=f59e672]:
+      - paragraph [ref=f59e676]: You are chatting with an AI assistant. To help you, we need your consent for this chat to process personal information under our Terms & Privacy Policy.
+      - generic [ref=f59e677] [cursor=pointer]:
+        - checkbox "I agree to the Terms of Use and Privacy Policy" [ref=f59e678]
+        - generic [ref=f59e679]:
+          - text: I agree to the
+          - link "Terms of Use" [ref=f59e680]:
+            - /url: /terms-of-use/ai-chatbot
+          - text: and
+          - link "Privacy Policy" [ref=f59e681]:
+            - /url: https://www.pinelabs.com/privacy-policy
+      - button "Accept & Continue" [disabled] [ref=f59e682]

@@ -1,0 +1,353 @@
+- generic [active] [ref=f198e1]:
+  - banner [ref=f198e2]:
+    - navigation [ref=f198e3]:
+      - generic [ref=f198e4]:
+        - link "Solana" [ref=f198e5] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f198e10]:
+          - button "Search" [ref=f198e13] [cursor=pointer]:
+            - generic [ref=f198e16]: ⌘ K
+          - button "Open navigation menu" [ref=f198e17] [cursor=pointer]
+  - generic [ref=f198e22]:
+    - generic [ref=f198e24]:
+      - img "Solana X402 Hackathon" [ref=f198e26]
+      - generic [ref=f198e28]:
+        - heading "Solana X402 Hackathon" [level=1] [ref=f198e29]
+        - paragraph [ref=f198e30]: Join developers hacking on the frontier of internet payments and compete for up to $135,000 in prizes
+        - generic [ref=f198e31]:
+          - link "Register" [ref=f198e32] [cursor=pointer]:
+            - /url: https://solanafoundation.typeform.com/to/ZpxQvxER
+          - link "Resources" [ref=f198e33] [cursor=pointer]:
+            - /url: "#resources"
+    - generic [ref=f198e41]:
+      - generic [ref=f198e42]: Welcome Builders
+      - heading "The opportunity to build on the agent economy is here" [level=2] [ref=f198e44]
+      - paragraph [ref=f198e45]: This remote hackathon is geared to building new innovative tools, apps, infra, and agents on x402. Join the community to find teams and build with other developers on Solana worldwide
+      - link "Join the community" [ref=f198e46] [cursor=pointer]:
+        - /url: https://t.me/+ty0DKt1lVZBlNjZh
+    - generic [ref=f198e48]:
+      - heading "Event Timeline" [level=2] [ref=f198e49]
+      - table [ref=f198e52]:
+        - rowgroup [ref=f198e53]:
+          - row [ref=f198e54]:
+            - columnheader "Phase" [ref=f198e55]
+            - columnheader "Date" [ref=f198e56]
+        - rowgroup [ref=f198e57]:
+          - row [ref=f198e58]:
+            - cell "Start" [ref=f198e59]
+            - cell "10/28/25" [ref=f198e60]
+          - row [ref=f198e61]:
+            - cell "Building Period" [ref=f198e62]
+            - cell "10/28/25 - 11/11/25" [ref=f198e63]
+          - row [ref=f198e64]:
+            - cell "Submission Deadline" [ref=f198e65]
+            - cell "11/11/25" [ref=f198e66]
+          - row [ref=f198e67]:
+            - cell "Winners Announced" [ref=f198e68]
+            - cell "11/17/25" [ref=f198e69]
+    - generic [ref=f198e71]:
+      - heading "Get Started" [level=2] [ref=f198e72]
+      - generic [ref=f198e74]:
+        - generic [ref=f198e75]:
+          - generic [ref=f198e76]:
+            - heading "x402 Intro" [level=3] [ref=f198e77]
+            - link "Learn" [ref=f198e78] [cursor=pointer]:
+              - /url: https://solana.com/x402
+          - paragraph [ref=f198e83]: Learn about the x402 protocol and how it enables instant, blockchain-based payments for APIs and agents
+        - generic [ref=f198e84]:
+          - generic [ref=f198e85]:
+            - heading "Build on Solana" [level=3] [ref=f198e86]
+            - link "Build" [ref=f198e87] [cursor=pointer]:
+              - /url: "#resources"
+          - paragraph [ref=f198e91]: Get started with Solana development, wallets, and deploying your first program
+        - generic [ref=f198e92]:
+          - generic [ref=f198e93]:
+            - heading "x402 Next Template" [level=3] [ref=f198e94]
+            - link "Build" [ref=f198e95] [cursor=pointer]:
+              - /url: https://templates.solana.com/x402-template
+          - paragraph [ref=f198e99]: Build and deploy your Next.js dApp with an X402 integration
+    - generic [ref=f198e102]:
+      - generic [ref=f198e103]:
+        - heading "What are we looking for?" [level=2] [ref=f198e104]
+        - paragraph [ref=f198e105]: Build open-source infrastructure and applications that advance the agent economy on Solana. Create tools that enable AI agents to transact autonomously, develop innovative payment solutions, or build practical agent applications. This is your opportunity to define how autonomous agents interact with the digital economy.
+      - generic [ref=f198e106]:
+        - heading "Submission Requirements" [level=3] [ref=f198e107]
+        - list [ref=f198e108]:
+          - listitem [ref=f198e109]:
+            - generic [ref=f198e114]: All code must be open sourced
+          - listitem [ref=f198e115]:
+            - generic [ref=f198e120]: Projects must integrate x402 protocol or related agent infrastructure with Solana
+          - listitem [ref=f198e121]:
+            - generic [ref=f198e126]: All programs must be deployed to Solana devnet or mainnet
+          - listitem [ref=f198e127]:
+            - generic [ref=f198e132]: Submit a demo video (maximum 3 minutes) showcasing your project
+          - listitem [ref=f198e133]:
+            - generic [ref=f198e138]: Include documentation on how to run and use your project
+    - generic [ref=f198e140]:
+      - generic [ref=f198e141]:
+        - heading "Hackathon Tracks" [level=2] [ref=f198e142]
+        - paragraph [ref=f198e143]: Compete in one of five categories with prizes up to $20,000.
+      - generic [ref=f198e144]:
+        - generic [ref=f198e145]:
+          - heading "Best Trustless Agent" [level=3] [ref=f198e152]
+          - paragraph [ref=f198e153]: Build Autonomous agents with identity, reputation, and validation systems.
+          - generic [ref=f198e154]: $10,000prize
+        - generic [ref=f198e155]:
+          - heading "Best x402 API Integration" [level=3] [ref=f198e159]
+          - paragraph [ref=f198e160]: Create Agent-to-agent payments and micropayments with x402.
+          - generic [ref=f198e161]: $10,000prize
+        - generic [ref=f198e162]:
+          - heading "Best MCP Server" [level=3] [ref=f198e168]
+          - paragraph [ref=f198e169]: Develop Model Context Protocol servers connecting AI agents to payments.
+          - generic [ref=f198e170]: $10,000prize
+        - generic [ref=f198e171]:
+          - heading "Best x402 Dev Tool" [level=3] [ref=f198e175]
+          - paragraph [ref=f198e176]: Create SDKs, libraries, frameworks, or infrastructure accelerate x402 development on Solana.
+          - generic [ref=f198e177]: $10,000prize
+        - generic [ref=f198e178]:
+          - heading "Best x402 Agent Application" [level=3] [ref=f198e182]
+          - paragraph [ref=f198e183]: Build practical AI agent applications that use x402 for autonomous payments. Supported by Gradient Network.
+          - generic [ref=f198e184]: $20,000prize
+    - generic [ref=f198e186]:
+      - heading "Supported by the best builders in x402" [level=2] [ref=f198e188]
+      - generic "Scrolling content" [ref=f198e190]:
+        - generic [ref=f198e192]:
+          - generic:
+            - img "Phantom"
+          - generic:
+            - img "Visa"
+          - generic:
+            - img "Atxp"
+          - generic:
+            - img "Coinbase"
+          - generic:
+            - img "Gradient Network"
+          - generic:
+            - img "Openmined"
+          - generic:
+            - img "Dark Research"
+          - generic:
+            - img "Switchboard"
+          - generic:
+            - img "Triton"
+    - generic [ref=f198e195]:
+      - generic [ref=f198e196]:
+        - heading "Sponsor Bounties" [level=2] [ref=f198e197]
+        - paragraph [ref=f198e198]: Additional prizes from our x402 ecosystem partners
+      - generic [ref=f198e199]:
+        - generic [ref=f198e200]:
+          - heading "Best Use of CASH" [level=3] [ref=f198e207]
+          - paragraph [ref=f198e208]: Build an x402 agent that uses Phantom CASH for payments
+          - generic [ref=f198e209]: $10,000prize
+        - generic [ref=f198e210]:
+          - heading "Best Use of Visa TAP" [level=3] [ref=f198e214]
+          - paragraph [ref=f198e215]: Create an agent that interfaces with Visa's Trusted Agent Protocol
+          - generic [ref=f198e216]: $10,000prize
+        - generic [ref=f198e217]:
+          - heading "Best Multi-Protocol Agent" [level=3] [ref=f198e223]
+          - paragraph [ref=f198e224]: use x402, ATXP, and ACP or AP2 in an end-to-end agent flow
+          - generic [ref=f198e225]: $10,000 in ATXP Creditsprize
+        - generic [ref=f198e226]:
+          - heading "Best Usage of CDP Embedded Wallets" [level=3] [ref=f198e230]
+          - paragraph [ref=f198e231]: Using CDP Embedded Wallets (SVM) build demand-side agents that autonomously discover, reason over, and pay for chained tool calls
+          - generic [ref=f198e232]: $5,000prize
+        - generic [ref=f198e233]:
+          - heading "Parallax Eco Track" [level=3] [ref=f198e237]
+          - paragraph [ref=f198e238]: Best agent built on top of Gradient Parallax
+          - generic [ref=f198e239]: $5,000prize
+        - generic [ref=f198e240]:
+          - heading "Machine Economy Prize" [level=3] [ref=f198e247]
+          - paragraph [ref=f198e248]: Use OM1 to build autonomous agents with the x402 protocol
+          - generic [ref=f198e249]: $5,000 in cash + creditsprize
+        - generic [ref=f198e250]:
+          - heading "Dark Research Prize" [level=3] [ref=f198e254]
+          - paragraph [ref=f198e255]: Built on top of Dark Research open source bounties like Mallory
+          - generic [ref=f198e256]: $10,000prize
+        - generic [ref=f198e257]:
+          - heading "Best Use of Switchboard" [level=3] [ref=f198e263]
+          - paragraph [ref=f198e264]: Build with data from Switchboard's permissionless oracle protocol
+          - generic [ref=f198e265]: $5,000prize
+        - generic [ref=f198e266]:
+          - heading "Best x402 Integration with Old Faithful" [level=3] [ref=f198e270]
+          - paragraph [ref=f198e271]: Automate sustainable access to all of Solana's history by integrating x402 payments into Old Faithful RPC
+          - generic [ref=f198e272]: $2,500prize
+        - generic [ref=f198e273]:
+          - heading "Best AgentPay Demo" [level=3] [ref=f198e277]
+          - paragraph [ref=f198e278]: Create AI Agents or services that autonomously pay for APIs, LLM tokens, or data via Solana USDC + HTTP-402 micropayments
+          - generic [ref=f198e279]: $5,000prize
+    - generic [ref=f198e281]:
+      - generic [ref=f198e282]:
+        - heading "Resources for Building" [level=2] [ref=f198e283]
+        - paragraph [ref=f198e284]: Everything you need to build on x402 and Solana
+      - generic [ref=f198e285]:
+        - heading "Getting Started" [level=3] [ref=f198e286]
+        - generic [ref=f198e287]:
+          - link "Documentation Learn about x402 Understand the x402 protocol and what it enables for developers and agents. Learn More" [ref=f198e288] [cursor=pointer]:
+            - /url: https://solana.com/x402/what-is-x402
+            - generic [ref=f198e289]:
+              - generic [ref=f198e290]:
+                - generic [ref=f198e291]: Documentation
+                - generic [ref=f198e292]:
+                  - heading "Learn about x402" [level=3] [ref=f198e294]
+                  - paragraph [ref=f198e295]: Understand the x402 protocol and what it enables for developers and agents.
+              - generic [ref=f198e296]: Learn More
+          - link "Developer Tools Add x402 to your project Easily integrate with x402 on your API and applications. Learn More" [ref=f198e301] [cursor=pointer]:
+            - /url: https://docs.corbits.dev/build-with-corbits/ride-or-die
+            - generic [ref=f198e302]:
+              - generic [ref=f198e303]:
+                - generic [ref=f198e304]: Developer Tools
+                - generic [ref=f198e305]:
+                  - heading "Add x402 to your project" [level=3] [ref=f198e307]
+                  - paragraph [ref=f198e308]: Easily integrate with x402 on your API and applications.
+              - generic [ref=f198e309]: Learn More
+          - link "Documentation Launch a x402 Facilitator Go live with x402 by launching your own facilitator on Solana. Learn More" [ref=f198e314] [cursor=pointer]:
+            - /url: https://solana.com/docs/payments/agentic-payments/x402-facilitator
+            - generic [ref=f198e315]:
+              - generic [ref=f198e316]:
+                - generic [ref=f198e317]: Documentation
+                - generic [ref=f198e318]:
+                  - heading "Launch a x402 Facilitator" [level=3] [ref=f198e320]
+                  - paragraph [ref=f198e321]: Go live with x402 by launching your own facilitator on Solana.
+              - generic [ref=f198e322]: Learn More
+          - link "Documentation Ship with a x402 template Get started quickly on Solana with a x402 template. Learn More" [ref=f198e327] [cursor=pointer]:
+            - /url: https://templates.solana.com/x402-template
+            - generic [ref=f198e328]:
+              - generic [ref=f198e329]:
+                - generic [ref=f198e330]: Documentation
+                - generic [ref=f198e331]:
+                  - heading "Ship with a x402 template" [level=3] [ref=f198e333]
+                  - paragraph [ref=f198e334]: Get started quickly on Solana with a x402 template.
+              - generic [ref=f198e335]: Learn More
+  - generic [ref=f198e341]:
+    - generic [ref=f198e342]:
+      - link "Solana Foundation" [ref=f198e343] [cursor=pointer]:
+        - /url: /
+      - button "en" [ref=f198e349] [cursor=pointer]
+    - generic [ref=f198e355]:
+      - generic [ref=f198e356]:
+        - generic [ref=f198e357]: Use Solana
+        - list [ref=f198e358]:
+          - listitem [ref=f198e359]:
+            - link "Use Solana" [ref=f198e360] [cursor=pointer]:
+              - /url: /use-solana
+          - listitem [ref=f198e361]:
+            - link "Wallets" [ref=f198e362] [cursor=pointer]:
+              - /url: /wallets
+          - listitem [ref=f198e363]:
+            - link "Learn" [ref=f198e364] [cursor=pointer]:
+              - /url: /learn
+          - listitem [ref=f198e365]:
+            - link "Staking" [ref=f198e366] [cursor=pointer]:
+              - /url: /staking
+      - generic [ref=f198e367]:
+        - generic [ref=f198e368]: Build
+        - list [ref=f198e369]:
+          - listitem [ref=f198e370]:
+            - link "Developer hub" [ref=f198e371] [cursor=pointer]:
+              - /url: /developers
+          - listitem [ref=f198e372]:
+            - link "Docs" [ref=f198e373] [cursor=pointer]:
+              - /url: /docs
+          - listitem [ref=f198e374]:
+            - link "Templates" [ref=f198e375] [cursor=pointer]:
+              - /url: /developers/templates
+      - generic [ref=f198e376]:
+        - generic [ref=f198e377]: Enterprise
+        - list [ref=f198e378]:
+          - listitem [ref=f198e379]:
+            - link "Enterprise" [ref=f198e380] [cursor=pointer]:
+              - /url: /enterprise
+          - listitem [ref=f198e381]:
+            - link "Institutional payments" [ref=f198e382] [cursor=pointer]:
+              - /url: /solutions/institutional-payments
+          - listitem [ref=f198e383]:
+            - link "Tokenization" [ref=f198e384] [cursor=pointer]:
+              - /url: /solutions/tokenization
+          - listitem [ref=f198e385]:
+            - link "Reports" [ref=f198e386] [cursor=pointer]:
+              - /url: /reports
+      - generic [ref=f198e387]:
+        - generic [ref=f198e388]: Products
+        - list [ref=f198e389]:
+          - listitem [ref=f198e390]:
+            - link "Products" [ref=f198e391] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=f198e392]:
+            - link "Solana Developer Platform" [ref=f198e393] [cursor=pointer]:
+              - /url: /solutions/sdp
+          - listitem [ref=f198e394]:
+            - link "x402" [ref=f198e395] [cursor=pointer]:
+              - /url: /x402
+          - listitem [ref=f198e396]:
+            - link "Agent Registry" [ref=f198e397] [cursor=pointer]:
+              - /url: /agent-registry
+          - listitem [ref=f198e398]:
+            - link "Skills" [ref=f198e399] [cursor=pointer]:
+              - /url: /skills
+      - generic [ref=f198e400]:
+        - generic [ref=f198e401]: Ecosystem
+        - list [ref=f198e402]:
+          - listitem [ref=f198e403]:
+            - link "Ecosystem" [ref=f198e404] [cursor=pointer]:
+              - /url: /ecosystem
+          - listitem [ref=f198e405]:
+            - link "Network" [ref=f198e406] [cursor=pointer]:
+              - /url: /network
+          - listitem [ref=f198e407]:
+            - link "Events" [ref=f198e408] [cursor=pointer]:
+              - /url: /events
+          - listitem [ref=f198e409]:
+            - link "Community" [ref=f198e410] [cursor=pointer]:
+              - /url: /community
+          - listitem [ref=f198e411]:
+            - link "News" [ref=f198e412] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=f198e413]:
+            - link "Newsletter" [ref=f198e414] [cursor=pointer]:
+              - /url: /newsletter
+      - generic [ref=f198e415]:
+        - generic [ref=f198e416]: AI agents
+        - list [ref=f198e417]:
+          - listitem [ref=f198e418]:
+            - link "llms.txt" [ref=f198e419] [cursor=pointer]:
+              - /url: /llms.txt
+          - listitem [ref=f198e420]:
+            - link "llms-full.txt" [ref=f198e421] [cursor=pointer]:
+              - /url: /llms-full.txt
+          - listitem [ref=f198e422]:
+            - link "SKILL.md" [ref=f198e423] [cursor=pointer]:
+              - /url: /SKILL.md
+          - listitem [ref=f198e424]:
+            - link "Agent skills" [ref=f198e425] [cursor=pointer]:
+              - /url: /skills
+    - generic [ref=f198e426]:
+      - generic [ref=f198e427]:
+        - list [ref=f198e428]:
+          - listitem [ref=f198e429]:
+            - link "Grants" [ref=f198e430] [cursor=pointer]:
+              - /url: https://solana.org/grants
+          - listitem [ref=f198e431]:
+            - link "Media Kit" [ref=f198e432] [cursor=pointer]:
+              - /url: /branding
+          - listitem [ref=f198e433]:
+            - link "Careers" [ref=f198e434] [cursor=pointer]:
+              - /url: https://jobs.solana.com/
+          - listitem [ref=f198e435]:
+            - link "Disclaimer" [ref=f198e436] [cursor=pointer]:
+              - /url: /tos
+          - listitem [ref=f198e437]:
+            - link "Privacy Policy" [ref=f198e438] [cursor=pointer]:
+              - /url: /privacy-policy
+        - generic [ref=f198e439]:
+          - link "YouTube" [ref=f198e440] [cursor=pointer]:
+            - /url: /youtube
+          - link "Twitter" [ref=f198e443] [cursor=pointer]:
+            - /url: /twitter
+          - link "Discord" [ref=f198e446] [cursor=pointer]:
+            - /url: /discord
+          - link "Reddit" [ref=f198e449] [cursor=pointer]:
+            - /url: /reddit
+          - link "GitHub" [ref=f198e452] [cursor=pointer]:
+            - /url: /github
+      - generic [ref=f198e456]: © 2026 Solana Foundation. All rights reserved.
+  - button "Ask AI" [ref=f198e457] [cursor=pointer]

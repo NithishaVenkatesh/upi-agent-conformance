@@ -1,0 +1,9 @@
+[     460ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=%22Digital+Personal+Data+Protection+Rules%2C+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation:11
+[     464ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=%22Digital+Personal+Data+Protection+Rules%2C+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation:11
+[     464ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=%22Digital+Personal+Data+Protection+Rules%2C+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation:11
+[     464ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=%22Digital+Personal+Data+Protection+Rules%2C+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation:11
+[     464ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=%22Digital+Personal+Data+Protection+Rules%2C+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation:11
+[     648ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/cricket/manifest.json:0
+[     648ms] [ERROR] Manifest fetch from https://www.bing.com/cricket/manifest.json failed, code 404 @ https://www.bing.com/search?q=%22Digital+Personal+Data+Protection+Rules%2C+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation:23
+[    1072ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/cricket/manifest.json:0
+[    1072ms] [ERROR] Manifest fetch from https://www.bing.com/cricket/manifest.json failed, code 404 @ https://www.bing.com/search?q=%22Digital+Personal+Data+Protection+Rules%2C+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation:0

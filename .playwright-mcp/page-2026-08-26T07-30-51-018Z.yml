@@ -1,0 +1,328 @@
+- generic [ref=f832e3]:
+  - banner [ref=f832e4]:
+    - generic [ref=f832e5]:
+      - generic [ref=f832e6]:
+        - link [ref=f832e7] [cursor=pointer]:
+          - /url: /
+          - img "Brave logo" [ref=f832e8]
+        - generic [ref=f832e10]:
+          - textbox "Search" [ref=f832e11]:
+            - /placeholder: Ask anything, find anything…
+            - text: NPCI OC-228 Reserve Pay effective date members compliance SBMD
+          - generic [ref=f832e12]:
+            - button "Clear" [ref=f832e13] [cursor=pointer]
+            - button "Search" [ref=f832e17] [cursor=pointer]
+            - button "Ask" [ref=f832e20] [cursor=pointer]
+      - generic [ref=f832e29]:
+        - button "Rerank" [ref=f832e30] [cursor=pointer]
+        - button "Quick settings" [ref=f832e36] [cursor=pointer]
+  - navigation [ref=f832e42]:
+    - list [ref=f832e43]:
+      - listitem [ref=f832e44]:
+        - link "Ask" [ref=f832e45] [cursor=pointer]:
+          - /url: /ask?q=NPCI+OC-228+Reserve+Pay+effective+date+members+compliance+SBMD&source=web
+      - listitem [ref=f832e47]:
+        - link "All" [ref=f832e48] [cursor=pointer]:
+          - /url: /search?q=NPCI+OC-228+Reserve+Pay+effective+date+members+compliance+SBMD&source=web
+      - listitem [ref=f832e50]:
+        - link "Images" [ref=f832e51] [cursor=pointer]:
+          - /url: /images?q=NPCI+OC-228+Reserve+Pay+effective+date+members+compliance+SBMD&source=web
+      - listitem [ref=f832e53]:
+        - link "News" [ref=f832e54] [cursor=pointer]:
+          - /url: /news?q=NPCI+OC-228+Reserve+Pay+effective+date+members+compliance+SBMD&source=web
+      - listitem [ref=f832e56]:
+        - link "Videos" [ref=f832e57] [cursor=pointer]:
+          - /url: /videos?q=NPCI+OC-228+Reserve+Pay+effective+date+members+compliance+SBMD&source=web
+      - listitem [ref=f832e59]:
+        - link "Maps" [ref=f832e60] [cursor=pointer]:
+          - /url: /maps/search?q=NPCI+OC-228+Reserve+Pay+effective+date+members+compliance+SBMD&source=web
+      - listitem [ref=f832e62]:
+        - link "Goggles" [ref=f832e63] [cursor=pointer]:
+          - /url: /goggles?q=NPCI+OC-228+Reserve+Pay+effective+date+members+compliance+SBMD&source=web
+    - list [ref=f832e65]:
+      - button "Filters" [ref=f832e66] [cursor=pointer]
+  - main [ref=f832e70]:
+    - main [ref=f832e85]:
+      - generic [ref=f832e86]:
+        - generic [ref=f832e90]:
+          - link "🌐 National Payments Corporation of India npci.org.in › uploads › UPI_OC_No_228_FY_2025_26_Enhancement_in_UPI_Single_Block_Multiple_Debits_UPI_Reserve_Pay_a9095c181d.pdf pdf UPI Reserve Pay" [ref=f832e91] [cursor=pointer]:
+            - /url: https://www.npci.org.in/uploads/UPI_OC_No_228_FY_2025_26_Enhancement_in_UPI_Single_Block_Multiple_Debits_UPI_Reserve_Pay_a9095c181d.pdf
+            - generic [ref=f832e92]:
+              - img "🌐" [ref=f832e96]
+              - generic [ref=f832e97]:
+                - generic [ref=f832e98]: National Payments Corporation of India
+                - generic [ref=f832e99]:
+                  - generic [ref=f832e100]: npci.org.in › uploads › UPI_OC_No_228_FY_2025_26_Enhancement_in_UPI_Single_Block_Multiple_Debits_UPI_Reserve_Pay_a9095c181d.pdf
+                  - generic [ref=f832e101]: pdf
+            - generic "UPI Reserve Pay" [ref=f832e102]
+          - generic [ref=f832e103]: 8 October 2025 - National Payments Corporation of India is an Umbrella Organisation that facilitates services like UPI Payment, Bharat Bill Pay, RuPay Card, FASTag, NACH, UPI & Adhaar Based Digital Payments in India. Know More.
+        - generic [ref=f832e108]:
+          - link "🌐 NPCI npci.org.in › what-we-do › imps › circular IMPS Circulars | NPCI - National Payments Corporation of India" [ref=f832e109] [cursor=pointer]:
+            - /url: https://www.npci.org.in/what-we-do/imps/circular
+            - generic [ref=f832e110]:
+              - img "🌐" [ref=f832e114]
+              - generic [ref=f832e115]:
+                - generic [ref=f832e116]: NPCI
+                - generic [ref=f832e117]: npci.org.in › what-we-do › imps › circular
+            - generic "IMPS Circulars | NPCI - National Payments Corporation of India" [ref=f832e119]
+          - generic [ref=f832e120]: Product Compliance | 001 | Initiation of Self-Attestation of Members/Participants for F.Y.
+        - generic [ref=f832e124]:
+          - generic [ref=f832e125]:
+            - link "🌐 Scribd scribd.com › document › 523006823 › Circular-no-001-Adherence-to-NPCI-guidelines-by-members-or-participants-NACH Circular No 001 Adherence To NPCI Guidelines by Members or Participants (NACH) | PDF | Regulatory Compliance | Business" [ref=f832e126] [cursor=pointer]:
+              - /url: https://www.scribd.com/document/523006823/Circular-no-001-Adherence-to-NPCI-guidelines-by-members-or-participants-NACH
+              - generic [ref=f832e127]:
+                - img "🌐" [ref=f832e131]
+                - generic [ref=f832e132]:
+                  - generic [ref=f832e133]: Scribd
+                  - generic [ref=f832e134]: scribd.com › document › 523006823 › Circular-no-001-Adherence-to-NPCI-guidelines-by-members-or-participants-NACH
+              - generic "Circular No 001 Adherence To NPCI Guidelines by Members or Participants (NACH) | PDF | Regulatory Compliance | Business" [ref=f832e136]
+            - generic [ref=f832e138]:
+              - strong [ref=f832e139]: The document communicates NPCI's implementation of a process to obtain self-attestations from members/participants confirming their adherence to NPCI guidelines for various payment products
+              - text: .…Full description
+          - link [ref=f832e141] [cursor=pointer]:
+            - /url: https://www.scribd.com/document/523006823/Circular-no-001-Adherence-to-NPCI-guidelines-by-members-or-participants-NACH
+        - generic [ref=f832e145]:
+          - 'link "🌐 complinity complinity.com › home › legal update NPCI: New PCOMP (Product Compliance) Portal for Self-Attestation from F.Y. 2023- 24 for Members / Participants" [ref=f832e146] [cursor=pointer]':
+            - /url: https://complinity.com/legal-update/npci-new-pcomp-product-compliance-portal-for-self-attestation-from-f-y-2023-24-for-members-participants-12852/
+            - generic [ref=f832e147]:
+              - img "🌐" [ref=f832e151]
+              - generic [ref=f832e152]:
+                - generic [ref=f832e153]: complinity
+                - generic [ref=f832e154]: complinity.com › home › legal update
+            - 'generic "NPCI: New PCOMP (Product Compliance) Portal for Self-Attestation from F.Y. 2023- 24 for Members / Participants" [ref=f832e156]'
+          - generic [ref=f832e158]:
+            - text: 27 August 2025 - National Payment Corporation of India (NPCI) has issued a Circular regarding New PCOMP (Product Compliance) Portal for Self-Attestation from F.Y. 2023- 24 for Members / Participants, effective from
+            - strong [ref=f832e159]: 28th December 2023
+            - text: . By virtue of the Circular, it
+        - generic [ref=f832e163]:
+          - link "🌐 NPCI npci.org.in › PDF › npci › bhim-aadhaar › circular › 2024 › BAP-OC-002-Reference-Guidelines-for-Members-on-Merchant-Acquisition-for-BHIM-Aadhaar-Pay.pdf National Payments Corporation of India (NPCI) - Enabling digital payments in India" [ref=f832e164] [cursor=pointer]:
+            - /url: https://www.npci.org.in/PDF/npci/bhim-aadhaar/circular/2024/BAP-OC-002-Reference-Guidelines-for-Members-on-Merchant-Acquisition-for-BHIM-Aadhaar-Pay.pdf
+            - generic [ref=f832e165]:
+              - img "🌐" [ref=f832e169]
+              - generic [ref=f832e170]:
+                - generic [ref=f832e171]: NPCI
+                - generic [ref=f832e172]: npci.org.in › PDF › npci › bhim-aadhaar › circular › 2024 › BAP-OC-002-Reference-Guidelines-for-Members-on-Merchant-Acquisition-for-BHIM-Aadhaar-Pay.pdf
+            - generic "National Payments Corporation of India (NPCI) - Enabling digital payments in India" [ref=f832e174]
+          - generic [ref=f832e175]: National Payments Corporation of India is an Umbrella Organisation that facilitates services like UPI Payment, Bharat Bill Pay, RuPay Card, FASTag, NACH, UPI & Adhaar Based Digital Payments in India. Know More.
+        - generic [ref=f832e180]:
+          - link "🌐 NPCI npci.org.in › what-we-do › nfs › circulars NFS – Important Circulars | NPCI" [ref=f832e181] [cursor=pointer]:
+            - /url: https://www.npci.org.in/what-we-do/nfs/circulars
+            - generic [ref=f832e182]:
+              - img "🌐" [ref=f832e186]
+              - generic [ref=f832e187]:
+                - generic [ref=f832e188]: NPCI
+                - generic [ref=f832e189]: npci.org.in › what-we-do › nfs › circulars
+            - generic "NFS – Important Circulars | NPCI" [ref=f832e191]
+          - generic [ref=f832e192]: Product Compliance | 001 | Initiation of Self-Attestation of Members/Participants for F.Y.
+        - generic [ref=f832e197]:
+          - link "🌐 NPCI npci.org.in › what-we-do › rupay › circulars RuPay Card Circulars | NPCI" [ref=f832e198] [cursor=pointer]:
+            - /url: https://www.npci.org.in/what-we-do/rupay/circulars
+            - generic [ref=f832e199]:
+              - img "🌐" [ref=f832e203]
+              - generic [ref=f832e204]:
+                - generic [ref=f832e205]: NPCI
+                - generic [ref=f832e206]: npci.org.in › what-we-do › rupay › circulars
+            - generic "RuPay Card Circulars | NPCI" [ref=f832e208]
+          - generic [ref=f832e209]: Product Compliance | 001 | Initiation of Self-Attestation of Members/Participants for F.Y.
+        - generic [ref=f832e214]:
+          - link "🌐 National Payments Corporation of India npci.org.in › uploads › UPI_Reserve_Pay_Guidlines_b4cb359cbc.pdf pdf Brand Guideline RESERVE PAY" [ref=f832e215] [cursor=pointer]:
+            - /url: https://www.npci.org.in/uploads/UPI_Reserve_Pay_Guidlines_b4cb359cbc.pdf
+            - generic [ref=f832e216]:
+              - img "🌐" [ref=f832e220]
+              - generic [ref=f832e221]:
+                - generic [ref=f832e222]: National Payments Corporation of India
+                - generic [ref=f832e223]:
+                  - generic [ref=f832e224]: npci.org.in › uploads › UPI_Reserve_Pay_Guidlines_b4cb359cbc.pdf
+                  - generic [ref=f832e225]: pdf
+            - generic "Brand Guideline RESERVE PAY" [ref=f832e226]
+          - generic [ref=f832e227]: What is UPI RESERVE PAY · UPI Reserve Pay allows users to reserve a set
+        - generic [ref=f832e231]:
+          - generic [ref=f832e232]:
+            - link "🌐 Team Lease RegTech teamleaseregtech.com › updates › article › 28803 › npci-issued-a-master-circular-regarding-the-maximum-period-for-a-manda TeamLease RegTech - NPCI issued a Master Circular regarding the Maximum period for a mandate and the Final collection date (end date) of the mandate" [ref=f832e233] [cursor=pointer]:
+              - /url: https://www.teamleaseregtech.com/updates/article/28803/npci-issued-a-master-circular-regarding-the-maximum-period-for-a-manda/
+              - generic [ref=f832e234]:
+                - img "🌐" [ref=f832e238]
+                - generic [ref=f832e239]:
+                  - generic [ref=f832e240]: Team Lease RegTech
+                  - generic [ref=f832e241]: teamleaseregtech.com › updates › article › 28803 › npci-issued-a-master-circular-regarding-the-maximum-period-for-a-manda
+              - generic "TeamLease RegTech - NPCI issued a Master Circular regarding the Maximum period for a mandate and the Final collection date (end date) of the mandate" [ref=f832e243]
+            - generic [ref=f832e245]:
+              - text: The National Payments Corporation of India (NPCI) on
+              - strong [ref=f832e246]: December 29, 2023
+              - text: ", issued a Master Circular regarding the Maximum period for a mandate and the Final collection date (end-date) of the mandate."
+          - link [ref=f832e248] [cursor=pointer]:
+            - /url: https://www.teamleaseregtech.com/updates/article/28803/npci-issued-a-master-circular-regarding-the-maximum-period-for-a-manda/
+        - generic [ref=f832e251]:
+          - generic [ref=f832e252]:
+            - link "🌐 Team Lease RegTech teamleaseregtech.com › updates › article › 31026 › npci-amended-the-master-circular-related-to-the-maximum-period-for-a-m TeamLease RegTech - NPCI amended the master circular related to the Maximum period for a mandate and the Final collection date of the mandate" [ref=f832e253] [cursor=pointer]:
+              - /url: https://www.teamleaseregtech.com/updates/article/31026/npci-amended-the-master-circular-related-to-the-maximum-period-for-a-m/
+              - generic [ref=f832e254]:
+                - img "🌐" [ref=f832e258]
+                - generic [ref=f832e259]:
+                  - generic [ref=f832e260]: Team Lease RegTech
+                  - generic [ref=f832e261]: teamleaseregtech.com › updates › article › 31026 › npci-amended-the-master-circular-related-to-the-maximum-period-for-a-m
+              - generic "TeamLease RegTech - NPCI amended the master circular related to the Maximum period for a mandate and the Final collection date of the mandate" [ref=f832e263]
+            - generic [ref=f832e264]: NPCI amended the master circular related to the Maximum period for a mandate and the Final collection date of the mandate
+          - link [ref=f832e267] [cursor=pointer]:
+            - /url: https://www.teamleaseregtech.com/updates/article/31026/npci-amended-the-master-circular-related-to-the-maximum-period-for-a-m/
+        - generic [ref=f832e269]:
+          - generic [ref=f832e270]: Find elsewhere
+          - generic [ref=f832e274]:
+            - link "Google" [ref=f832e275] [cursor=pointer]:
+              - /url: /search?q=NPCI%20OC-228%20Reserve%20Pay%20effective%20date%20members%20compliance%20SBMD%20!g
+            - link "Bing" [ref=f832e276] [cursor=pointer]:
+              - /url: /search?q=NPCI%20OC-228%20Reserve%20Pay%20effective%20date%20members%20compliance%20SBMD%20!b
+            - link "Mojeek" [ref=f832e277] [cursor=pointer]:
+              - /url: /search?q=NPCI%20OC-228%20Reserve%20Pay%20effective%20date%20members%20compliance%20SBMD%20!mojeek
+        - generic [ref=f832e280]:
+          - generic [ref=f832e281]:
+            - link "🌐 Team Lease RegTech teamleaseregtech.com › updates › article › 28968 › npci-issued-a-circular-regarding-the-new-pcomp-product-compliance-port TeamLease RegTech - NPCI issued a circular regarding the New PCOMP (Product Compliance) Portal for Self-Attestation from F.Y. 2023- 24 for Members/Participants" [ref=f832e282] [cursor=pointer]:
+              - /url: https://www.teamleaseregtech.com/updates/article/28968/npci-issued-a-circular-regarding-the-new-pcomp-product-compliance-port/
+              - generic [ref=f832e283]:
+                - img "🌐" [ref=f832e287]
+                - generic [ref=f832e288]:
+                  - generic [ref=f832e289]: Team Lease RegTech
+                  - generic [ref=f832e290]: teamleaseregtech.com › updates › article › 28968 › npci-issued-a-circular-regarding-the-new-pcomp-product-compliance-port
+              - generic "TeamLease RegTech - NPCI issued a circular regarding the New PCOMP (Product Compliance) Portal for Self-Attestation from F.Y. 2023- 24 for Members/Participants" [ref=f832e292]
+            - generic [ref=f832e294]:
+              - text: 6 January 2024 - The National Payments Corporation of India (NPCI) on
+              - strong [ref=f832e295]: December 28, 2023
+              - text: ", issued a circular regarding the New PCOMP (Product Compliance) Portal for Self-Attestation from F.Y. 2023- 24 for Members/Participants with reference to OC No."
+          - link [ref=f832e297] [cursor=pointer]:
+            - /url: https://www.teamleaseregtech.com/updates/article/28968/npci-issued-a-circular-regarding-the-new-pcomp-product-compliance-port/
+        - generic [ref=f832e300]:
+          - generic [ref=f832e301]:
+            - link "🌐 Team Lease RegTech teamleaseregtech.com › updates › article › 23519 › npci-issued-a-notification-regarding-the-validity-of-the-mandate TeamLease RegTech - NPCI issued a notification regarding the validity of the mandate" [ref=f832e302] [cursor=pointer]:
+              - /url: https://www.teamleaseregtech.com/updates/article/23519/npci-issued-a-notification-regarding-the-validity-of-the-mandate/
+              - generic [ref=f832e303]:
+                - img "🌐" [ref=f832e307]
+                - generic [ref=f832e308]:
+                  - generic [ref=f832e309]: Team Lease RegTech
+                  - generic [ref=f832e310]: teamleaseregtech.com › updates › article › 23519 › npci-issued-a-notification-regarding-the-validity-of-the-mandate
+              - generic "TeamLease RegTech - NPCI issued a notification regarding the validity of the mandate" [ref=f832e312]
+            - generic [ref=f832e314]:
+              - text: The National Payments Corporation of India (NPCI) on
+              - strong [ref=f832e315]: May 04, 2023
+              - text: ", issued a notification regarding the validity of the mandate."
+          - link [ref=f832e317] [cursor=pointer]:
+            - /url: https://www.teamleaseregtech.com/updates/article/23519/npci-issued-a-notification-regarding-the-validity-of-the-mandate/
+        - generic [ref=f832e320]:
+          - generic [ref=f832e321]:
+            - link "🌐 Indusface indusface.com › blog › npci-upi-api-security-guidelines NPCI UPI API Security (OC-215) Compliance | Indusface" [ref=f832e322] [cursor=pointer]:
+              - /url: https://www.indusface.com/blog/npci-upi-api-security-guidelines/
+              - generic [ref=f832e323]:
+                - img "🌐" [ref=f832e327]
+                - generic [ref=f832e328]:
+                  - generic [ref=f832e329]: Indusface
+                  - generic [ref=f832e330]: indusface.com › blog › npci-upi-api-security-guidelines
+              - generic "NPCI UPI API Security (OC-215) Compliance | Indusface" [ref=f832e332]
+            - generic [ref=f832e333]: 27 May 2026 - With rich metadata like authentication status, sensitive data exposure, and usage patterns, AppTrana helps identify risks, decommission outdated APIs, and enforce governance. This ensures continuous compliance with NPCI’s mandates on deprecated endpoint retirement, unintended API use prevention, and third-party access visibility.
+          - link [ref=f832e336] [cursor=pointer]:
+            - /url: https://www.indusface.com/blog/npci-upi-api-security-guidelines/
+        - generic [ref=f832e340]:
+          - link "🌐 National Payments Corporation of India npci.org.in › uploads › UPI_OC_No_222_A_FY_2025_26_Addendum_segregation_of_UPI_settlement_cycles_for_Auth_and_disputes_transactions_42766ab9aa.pdf pdf NPCI/2025-26/UPI/222A" [ref=f832e341] [cursor=pointer]:
+            - /url: https://www.npci.org.in/uploads/UPI_OC_No_222_A_FY_2025_26_Addendum_segregation_of_UPI_settlement_cycles_for_Auth_and_disputes_transactions_42766ab9aa.pdf
+            - generic [ref=f832e342]:
+              - img "🌐" [ref=f832e346]
+              - generic [ref=f832e347]:
+                - generic [ref=f832e348]: National Payments Corporation of India
+                - generic [ref=f832e349]:
+                  - generic [ref=f832e350]: npci.org.in › uploads › UPI_OC_No_222_A_FY_2025_26_Addendum_segregation_of_UPI_settlement_cycles_for_Auth_and_disputes_transactions_42766ab9aa.pdf
+                  - generic [ref=f832e351]: pdf
+            - generic "NPCI/2025-26/UPI/222A" [ref=f832e352]
+          - generic [ref=f832e353]: 29 October 2025 - National Payments Corporation of India is an Umbrella Organisation that facilitates services like UPI Payment, Bharat Bill Pay, RuPay Card, FASTag, NACH, UPI & Adhaar Based Digital Payments in India. Know More.
+        - generic [ref=f832e357]:
+          - generic [ref=f832e358]:
+            - link "🌐 Team Lease RegTech teamleaseregtech.com › updates › article › 23023 › npci-issued-a-circular-regarding-the-initiation-of-self-attestation-fo TeamLease RegTech - NPCI issued a circular regarding the initiation of Self Attestation for Q4 and General Compliance FY 22-23" [ref=f832e359] [cursor=pointer]:
+              - /url: https://teamleaseregtech.com/updates/article/23023/npci-issued-a-circular-regarding-the-initiation-of-self-attestation-fo/
+              - generic [ref=f832e360]:
+                - img "🌐" [ref=f832e364]
+                - generic [ref=f832e365]:
+                  - generic [ref=f832e366]: Team Lease RegTech
+                  - generic [ref=f832e367]: teamleaseregtech.com › updates › article › 23023 › npci-issued-a-circular-regarding-the-initiation-of-self-attestation-fo
+              - generic "TeamLease RegTech - NPCI issued a circular regarding the initiation of Self Attestation for Q4 and General Compliance FY 22-23" [ref=f832e369]
+            - generic [ref=f832e371]:
+              - text: The National Payments Corporation of India (NPCI) on
+              - strong [ref=f832e372]: April 13, 203
+              - text: ", issued a circular regarding the initiation of Self Attestation for Q4 and General Compliance FY 22-23 with reference to circular no."
+          - link [ref=f832e374] [cursor=pointer]:
+            - /url: https://teamleaseregtech.com/updates/article/23023/npci-issued-a-circular-regarding-the-initiation-of-self-attestation-fo/
+        - generic [ref=f832e378]:
+          - link "🌐 NPCI npci.org.in › PDF › nfs › circular › 2021-22 › NFS-OC-389-Adherence-to-NPCI-guidelines-by-members.pdf NFS-OC-389-Adherence-to-NPCI-guidelines-by-members. ..." [ref=f832e379] [cursor=pointer]:
+            - /url: https://www.npci.org.in/PDF/nfs/circular/2021-22/NFS-OC-389-Adherence-to-NPCI-guidelines-by-members.pdf
+            - generic [ref=f832e380]:
+              - img "🌐" [ref=f832e384]
+              - generic [ref=f832e385]:
+                - generic [ref=f832e386]: NPCI
+                - generic [ref=f832e387]: npci.org.in › PDF › nfs › circular › 2021-22 › NFS-OC-389-Adherence-to-NPCI-guidelines-by-members.pdf
+            - generic "NFS-OC-389-Adherence-to-NPCI-guidelines-by-members. ..." [ref=f832e389]
+          - generic [ref=f832e390]: National Payments Corporation of India is an Umbrella Organisation that facilitates services like UPI Payment, Bharat Bill Pay, RuPay Card, FASTag, NACH, UPI & Adhaar Based Digital Payments in India. Know More.
+        - generic [ref=f832e395]:
+          - link "🌐 Team Lease RegTech teamleaseregtech.com › updates › article › 28037 › npci-notified-regarding-the-compliance-to-merchant-onboarding-in-upi-a TeamLease RegTech - NPCI notified regarding the compliance to Merchant Onboarding in UPI and Usage limits" [ref=f832e396] [cursor=pointer]:
+            - /url: https://www.teamleaseregtech.com/updates/article/28037/npci-notified-regarding-the-compliance-to-merchant-onboarding-in-upi-a/
+            - generic [ref=f832e397]:
+              - img "🌐" [ref=f832e401]
+              - generic [ref=f832e402]:
+                - generic [ref=f832e403]: Team Lease RegTech
+                - generic [ref=f832e404]: teamleaseregtech.com › updates › article › 28037 › npci-notified-regarding-the-compliance-to-merchant-onboarding-in-upi-a
+            - generic "TeamLease RegTech - NPCI notified regarding the compliance to Merchant Onboarding in UPI and Usage limits" [ref=f832e406]
+          - generic [ref=f832e407]: NPCI notified regarding the compliance to Merchant Onboarding in UPI and Usage limits
+        - generic [ref=f832e412]:
+          - link "🌐 National Payments Corporation of India npci.org.in › uploads › UPI_OC_No_223_FY_2025_26_Enhancement_of_UPI_Autopay_88b38535cb.pdf pdf UPI_OC_No_223_FY_2025_26_..." [ref=f832e413] [cursor=pointer]:
+            - /url: https://www.npci.org.in/uploads/UPI_OC_No_223_FY_2025_26_Enhancement_of_UPI_Autopay_88b38535cb.pdf
+            - generic [ref=f832e414]:
+              - img "🌐" [ref=f832e418]
+              - generic [ref=f832e419]:
+                - generic [ref=f832e420]: National Payments Corporation of India
+                - generic [ref=f832e421]:
+                  - generic [ref=f832e422]: npci.org.in › uploads › UPI_OC_No_223_FY_2025_26_Enhancement_of_UPI_Autopay_88b38535cb.pdf
+                  - generic [ref=f832e423]: pdf
+            - generic "UPI_OC_No_223_FY_2025_26_..." [ref=f832e424]
+          - generic [ref=f832e425]: National Payments Corporation of India is an Umbrella Organisation that facilitates services like UPI Payment, Bharat Bill Pay, RuPay Card, FASTag, NACH, UPI & Adhaar Based Digital Payments in India. Know More.
+        - link "Next" [ref=f832e429] [cursor=pointer]:
+          - /url: /search?q=NPCI+OC-228+Reserve+Pay+effective+date+members+compliance+SBMD&offset=1&spellcheck=0
+  - contentinfo [ref=f832e433]:
+    - generic [ref=f832e436]:
+      - generic [ref=f832e437]:
+        - heading "Resources" [level=6] [ref=f832e438]
+        - generic [ref=f832e439]:
+          - link "Brave Search Premium" [ref=f832e440] [cursor=pointer]:
+            - /url: https://account.brave.com/?intent=checkout&product=search
+          - link "Brave Search help" [ref=f832e441] [cursor=pointer]:
+            - /url: /help
+          - link "Transparency report" [ref=f832e442] [cursor=pointer]:
+            - /url: https://brave.com/transparency/
+          - link "Report a security issue" [ref=f832e443] [cursor=pointer]:
+            - /url: https://hackerone.com/brave
+          - link "Status" [ref=f832e444] [cursor=pointer]:
+            - /url: https://status.brave.app/
+      - generic [ref=f832e445]:
+        - heading "Products" [level=6] [ref=f832e446]
+        - generic [ref=f832e447]:
+          - link "Brave Browser" [ref=f832e448] [cursor=pointer]:
+            - /url: https://brave.com/download/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Search" [ref=f832e449] [cursor=pointer]:
+            - /url: https://search.brave.com
+          - link "Brave Wallet" [ref=f832e450] [cursor=pointer]:
+            - /url: https://brave.com/wallet/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Talk" [ref=f832e451] [cursor=pointer]:
+            - /url: https://talk.brave.com/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Firewall + VPN" [ref=f832e452] [cursor=pointer]:
+            - /url: https://brave.com/firewall-vpn/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Playlist" [ref=f832e453] [cursor=pointer]:
+            - /url: https://brave.com/playlist/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave News" [ref=f832e454] [cursor=pointer]:
+            - /url: https://brave.com/brave-news/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Rewards" [ref=f832e455] [cursor=pointer]:
+            - /url: https://brave.com/brave-rewards/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Search API" [ref=f832e456] [cursor=pointer]:
+            - /url: https://brave.com/search/api/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Ads" [ref=f832e457] [cursor=pointer]:
+            - /url: https://brave.com/brave-ads/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+      - generic [ref=f832e458]:
+        - heading "Policies" [level=6] [ref=f832e459]
+        - generic [ref=f832e460]:
+          - link "Privacy Policy" [ref=f832e461] [cursor=pointer]:
+            - /url: /help/privacy-policy
+          - link "Terms of Use" [ref=f832e462] [cursor=pointer]:
+            - /url: https://brave.com/terms-of-use/

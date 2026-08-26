@@ -1,0 +1,309 @@
+- generic [ref=f165e2]:
+  - generic [ref=f165e3]:
+    - button "Print" [ref=f165e6] [cursor=pointer]
+    - generic [ref=f165e7]:
+      - generic [ref=f165e8]: PIB Backgrounder
+      - img "azadi ka amrit mahotsav" [ref=f165e11]
+      - generic [ref=f165e12]:
+        - heading "DPDP Rules, 2025 Notified" [level=2] [ref=f165e13]
+        - heading "A Citizen-Centric Framework for Privacy Protection and Responsible Data Use" [level=3] [ref=f165e14]
+      - generic [ref=f165e16]: "Posted On: 17 NOV 2025 10:44AM by PIB Delhi"
+      - table [ref=f165e19]:
+        - rowgroup [ref=f165e20]:
+          - row [ref=f165e21]:
+            - cell "Key Takeaways DPDP Rules notified on 14 November 2025 after nationwide consultations. Consultation process received 6,915 inputs shaping the final Rules. Rules give full effect to the Digital Personal Data Protection Act, 2023." [ref=f165e22]:
+              - paragraph [ref=f165e23]:
+                - strong [ref=f165e25]:
+                  - generic [ref=f165e26]: Key Takeaways
+              - list [ref=f165e28]:
+                - listitem [ref=f165e29]:
+                  - strong [ref=f165e30]:
+                    - generic [ref=f165e31]: DPDP Rules notified
+                  - generic [ref=f165e32]: on 14 November 2025 after nationwide consultations.
+                - listitem [ref=f165e33]:
+                  - generic [ref=f165e35]:
+                    - text: Consultation process received
+                    - strong [ref=f165e36]: 6,915 inputs
+                    - text: shaping the final Rules.
+                - listitem [ref=f165e37]:
+                  - generic [ref=f165e39]:
+                    - text: Rules give
+                    - strong [ref=f165e40]: full effect
+                    - text: to the Digital Personal Data Protection Act, 2023.
+      - paragraph [ref=f165e41]:
+        - strong [ref=f165e45]: Introduction
+      - paragraph [ref=f165e46]:
+        - generic [ref=f165e48]:
+          - text: The Government of India notified the
+          - strong [ref=f165e49]: Digital Personal Data Protection (DPDP) Rules, 2025
+          - text: on 14 November 2025. This marks the full operationalisation of the
+          - strong [ref=f165e50]: Digital Personal Data Protection Act, 2023 (DPDP Act
+          - text: ). Together, the Act and the Rules form a clear and citizen-centred framework for the responsible use of digital personal data. They place equal weight on individual rights and lawful data processing.
+      - paragraph [ref=f165e51]:
+        - generic [ref=f165e52]: The Ministry of Electronics and Information Technology invited public comments on the draft Rules before finalising them. Consultations were held in Delhi, Mumbai, Guwahati, Kolkata, Hyderabad, Bengaluru and Chennai. A wide range of participants took part in these discussions. Startups, MSMEs, industry bodies, civil society groups and government departments all offered detailed suggestions. Citizens also shared their views. In total, 6,915 inputs were received during the consultation process. These contributions played a key role in shaping the final Rules.
+      - paragraph [ref=f165e53]:
+        - generic [ref=f165e54]: With the notification of the Rules, India now has a practical and innovation-friendly system for data protection. It supports ease of understanding, encourages compliance and strengthens trust in the country’s growing digital ecosystem.
+      - paragraph [ref=f165e55]
+      - paragraph [ref=f165e56]:
+        - strong [ref=f165e60]: Understanding the Digital Personal Data Protection Act, 2023
+      - paragraph [ref=f165e61]:
+        - generic [ref=f165e62]: Parliament enacted the Digital Personal Data Protection Act on 11 August 2023. The law creates a full framework for the protection of digital personal data in India. It explains what organisations must do when they collect or use such data. The Act follows the SARAL approach. This means it is Simple, Accessible, Rational and Actionable. The text uses plain language and clear illustrations so that people and businesses can understand the rules without difficulty.
+      - table [ref=f165e64]:
+        - rowgroup [ref=f165e65]:
+          - row [ref=f165e66]:
+            - cell [ref=f165e67]:
+              - paragraph [ref=f165e69]:
+                - strong [ref=f165e72]: Key Terms Under the DPDP Act, 2023
+              - list [ref=f165e73]:
+                - listitem [ref=f165e74]:
+                  - generic [ref=f165e76]:
+                    - strong [ref=f165e77]: "Data Fiduciary:"
+                    - text: An entity that decides why and how personal data is processed, either alone or with others.
+                - listitem [ref=f165e78]:
+                  - generic [ref=f165e80]:
+                    - strong [ref=f165e81]: "Data Principal:"
+                    - text: The individual to whom the personal data relates. In the case of a child, this includes a parent or lawful guardian. For a person with a disability who cannot act independently, this includes the lawful guardian acting on their behalf.
+                - listitem [ref=f165e82]:
+                  - generic [ref=f165e84]:
+                    - strong [ref=f165e85]: "Data Processor:"
+                    - text: Any entity that processes personal data on behalf of a Data Fiduciary.
+                - listitem [ref=f165e86]:
+                  - generic [ref=f165e88]:
+                    - strong [ref=f165e89]: "Consent Manager:"
+                    - text: An entity that provides a single, transparent and interoperable platform through which a Data Principal may give, manage, review or withdraw consent.
+                - listitem [ref=f165e90]:
+                  - generic [ref=f165e92]:
+                    - strong [ref=f165e93]: "Appellate Tribunal:"
+                    - text: The Telecom Disputes Settlement and Appellate Tribunal (TDSAT), which hears appeals against decisions of the Data Protection Board.
+      - paragraph [ref=f165e94]:
+        - generic [ref=f165e95]: The law rests on seven core principles. These include consent and transparency, purpose limitation, data minimisation, accuracy, storage limitation, security safeguards and accountability. These principles guide every stage of data processing. They also ensure that personal data is used only for lawful and specific purposes.
+      - paragraph [ref=f165e96]:
+        - generic [ref=f165e98]:
+          - text: A central feature of the Act is the creation of the
+          - strong [ref=f165e99]: Data Protection Board of India.
+          - text: The Board functions as an independent body that oversees compliance, inquires into breaches and ensures that corrective measures are taken. It plays a key role in enforcing the rights granted under the Act and maintaining trust in the system.
+      - table [ref=f165e101]:
+        - rowgroup [ref=f165e102]:
+          - row [ref=f165e103]:
+            - cell [ref=f165e104]:
+              - paragraph [ref=f165e106]:
+                - strong [ref=f165e109]: Penalties Under the DPDP Act, 2023
+              - paragraph [ref=f165e110]:
+                - generic [ref=f165e112]:
+                  - text: The DPDP Act imposes substantial financial penalties for non-compliance by Data Fiduciaries. The highest penalty up to
+                  - strong [ref=f165e113]: ₹
+                  - strong [ref=f165e114]: 250 crore
+                  - text: applies to failure of a Data Fiduciary to maintain reasonable security safeguards. Not notifying the Board or affected individuals of a personal data breach as well as violations of obligations relating to children can each attract penalties of up to
+                  - strong [ref=f165e115]: ₹
+                  - strong [ref=f165e116]: 200 crore
+                  - text: . Any other violation of the Act or Rules by a Data Fiduciary may attract penalties up to ₹50 crore.
+      - paragraph [ref=f165e117]:
+        - generic [ref=f165e118]: The Act places clear responsibilities on Data Fiduciaries to keep personal data safe and to stay accountable for its use. It also gives Data Principals the right to know how their data is handled and the right to seek correction or removal when needed.
+      - paragraph [ref=f165e119]:
+        - generic [ref=f165e120]: Together, the Act and the Rules create a strong and balanced system. They strengthen privacy, build public trust and support responsible innovation. They also help India’s digital economy grow in a secure and globally competitive way.
+      - paragraph [ref=f165e121]
+      - paragraph [ref=f165e122]:
+        - strong [ref=f165e126]: Overview of the Digital Personal Data Protection Rules, 2025
+      - paragraph [ref=f165e127]:
+        - generic [ref=f165e128]: The Digital Personal Data Protection Rules, 2025 give full effect to the DPDP Act, 2023. They build a clear and practical system to protect personal data in a fast-expanding digital environment. The Rules focus on the rights of citizens and on responsible data use by organisations. The Rules aim to curb unauthorized commercial use of data, reduce digital harms and create a safe space for innovation. They will also help India maintain a strong and trusted digital economy.
+      - paragraph [ref=f165e129]:
+        - generic [ref=f165e130]: "In carrying this vision forward, the Rules outline several core provisions that follow:"
+      - paragraph [ref=f165e131]
+      - paragraph [ref=f165e133]:
+        - strong [ref=f165e136]: Phased and Practical Implementation
+      - paragraph [ref=f165e137]:
+        - generic [ref=f165e138]: The Rules introduce an eighteen-month period for phased compliance. This gives organisations enough time to adjust their systems and adopt responsible data practices. Every Data Fiduciary must issue a separate consent notice that is clear and easy to understand. The notice must explain the specific purpose for which personal data is collected and used. Consent Managers, who help people manage their permissions, must be companies based in India.
+      - paragraph [ref=f165e139]
+      - paragraph [ref=f165e141]:
+        - strong [ref=f165e144]: Clear Protocols for Personal Data Breach Notification
+      - paragraph [ref=f165e145]:
+        - generic [ref=f165e146]: The Rules set out a simple and timely process for reporting personal data breaches. When a breach takes place, the Data Fiduciary must inform all affected individuals without delay. The message must be in plain language and must explain what happened, the possible impact and the steps taken to address the issue. It must also include contact details for help.
+      - paragraph [ref=f165e147]
+      - paragraph [ref=f165e149]:
+        - strong [ref=f165e152]: Transparency and Accountability Measures
+      - paragraph [ref=f165e153]:
+        - generic [ref=f165e154]: The Rules require every Data Fiduciary to display clear contact information for queries related to personal data. This may be the contact of a designated officer or a Data Protection Officer. Significant Data Fiduciaries face stronger duties. They must conduct independent audits and carry out impact assessments. They must also follow stricter checks while using new or sensitive technologies. In some cases, they must follow government directions on restricted categories of data, including local storage where needed.
+      - paragraph [ref=f165e155]
+      - paragraph [ref=f165e157]:
+        - strong [ref=f165e160]: Strengthening Rights of Data Principals
+      - paragraph [ref=f165e161]:
+        - generic [ref=f165e162]: The Rules reinforce the rights already provided under the Act. Individuals can ask to access their personal data or seek corrections and updates. They may also request the removal of data in certain situations. They can choose someone else to exercise these rights on their behalf. Data Fiduciaries must respond to such requests within ninety days.
+      - paragraph [ref=f165e163]
+      - paragraph [ref=f165e165]:
+        - strong [ref=f165e168]: Digital-First Data Protection Board
+      - paragraph [ref=f165e169]:
+        - generic [ref=f165e170]: The Rules establish a fully digital Data Protection Board of India, which will consist of four members. Citizens will be able to file complaints online and track their cases through a dedicated portal and mobile application. This digital system supports quicker decisions and simplifies grievance redressal. Appeals against the Board’s decisions will be heard by the Appellate Tribunal, TDSAT.
+      - paragraph [ref=f165e171]
+      - paragraph [ref=f165e172]:
+        - strong [ref=f165e176]: How the DPDP Rules Empower Individuals
+      - paragraph [ref=f165e177]:
+        - generic [ref=f165e178]: The DPDP framework places the individual at the centre of India’s data protection system. It aims to give every citizen clear control over personal data and confidence that it is being handled with care. The rules are written in plain language so that people can understand their rights without difficulty. They also ensure that organisations act responsibly and remain accountable for how they use personal data.
+      - paragraph [ref=f165e179]:
+        - generic [ref=f165e180]: "Rights and protections for citizens include:"
+      - paragraph [ref=f165e181]
+      - paragraph [ref=f165e183]:
+        - strong [ref=f165e186]: Right to Give or Refuse Consent
+      - paragraph [ref=f165e187]:
+        - generic [ref=f165e188]: Every person has the choice to allow or deny the use of their personal data. Consent must be clear, informed and easy to understand. Individuals may withdraw their consent at any time.
+      - paragraph [ref=f165e189]
+      - paragraph [ref=f165e191]:
+        - strong [ref=f165e194]: Right to Know How Data is Used
+      - paragraph [ref=f165e195]:
+        - generic [ref=f165e196]: Citizens can seek information on what personal data has been collected, why it has been collected and how it is being used. Organisations must provide this information in a simple form.
+      - paragraph [ref=f165e198]:
+        - strong [ref=f165e201]: Right to Access Personal Data
+      - paragraph [ref=f165e202]:
+        - generic [ref=f165e203]: Individuals can ask for a copy of their personal data that is held by a Data Fiduciary.
+      - paragraph [ref=f165e204]
+      - paragraph [ref=f165e206]:
+        - strong [ref=f165e209]: Right to Correct Personal Data
+      - paragraph [ref=f165e210]:
+        - generic [ref=f165e211]: People may request corrections to personal data that is inaccurate or incomplete.
+      - paragraph [ref=f165e212]
+      - paragraph [ref=f165e214]:
+        - strong [ref=f165e217]: Right to Update Personal Data
+      - paragraph [ref=f165e218]:
+        - generic [ref=f165e219]: Citizens can ask for changes when their details have altered, such as a new address or updated contact number.
+      - paragraph [ref=f165e220]
+      - paragraph [ref=f165e222]:
+        - strong [ref=f165e225]: Right to Erase Personal Data
+      - paragraph [ref=f165e226]:
+        - generic [ref=f165e227]: Individuals may request the removal of personal data in certain situations. The Data Fiduciary must consider and act on this request within the permitted time.
+      - paragraph [ref=f165e228]
+      - paragraph [ref=f165e230]:
+        - strong [ref=f165e233]: Right to Nominate Another Person
+      - paragraph [ref=f165e234]:
+        - generic [ref=f165e235]: Every individual can appoint someone to exercise their data rights on their behalf. This is helpful in cases of illness or other limitations.
+      - paragraph [ref=f165e236]
+      - paragraph [ref=f165e238]:
+        - strong [ref=f165e241]: Mandatory Response within Ninety Days
+      - paragraph [ref=f165e242]:
+        - generic [ref=f165e243]: Data Fiduciaries are required to address all requests related to access, correction, updating or erasure within a maximum of ninety days, ensuring timely action and accountability.
+      - paragraph [ref=f165e244]
+      - paragraph [ref=f165e246]:
+        - strong [ref=f165e249]: Protection During Personal Data Breaches
+      - paragraph [ref=f165e250]:
+        - generic [ref=f165e251]: If a breach takes place, citizens must be informed at the earliest. The message must explain what happened and what steps they can take. This helps people act quickly to reduce harm.
+      - paragraph [ref=f165e252]
+      - paragraph [ref=f165e254]:
+        - strong [ref=f165e257]: Clear Contact for Queries and Complaints
+      - paragraph [ref=f165e258]:
+        - generic [ref=f165e259]: Data Fiduciaries must provide a point of contact for questions relating to personal data. This may be a designated officer or a Data Protection Officer.
+      - paragraph [ref=f165e261]:
+        - strong [ref=f165e264]: Special Protection for Children
+      - paragraph [ref=f165e265]:
+        - generic [ref=f165e266]: When a child’s personal data is involved, verifiable consent from a parent or guardian is required. This consent is needed unless the processing relates to essential services such as healthcare, education or real-time safety.
+      - paragraph [ref=f165e267]
+      - paragraph [ref=f165e269]:
+        - strong [ref=f165e272]: Special Protection for Persons with Disabilities
+      - paragraph [ref=f165e273]:
+        - generic [ref=f165e274]: If a person with a disability cannot make legal decisions even with support, their lawful guardian must give consent. This guardian must be verified under the relevant laws.
+      - paragraph [ref=f165e275]
+      - paragraph [ref=f165e276]:
+        - strong [ref=f165e280]: How DPDP Aligns with the RTI Act
+      - paragraph [ref=f165e281]:
+        - generic [ref=f165e282]: Since the DPDP Act and the DPDP Rules expand citizens’ privacy rights, they also clarify how these rights work alongside the access to information guaranteed by the Right to Information (RTI) Act.
+      - paragraph [ref=f165e283]:
+        - generic [ref=f165e284]: The changes introduced through the DPDP Act revise Section 8(1)(j) of the RTI Act in a way that respects both rights without diminishing either. The amendment reflects the Supreme Court’s affirmation of privacy as a fundamental right in the Puttaswamy judgment. It brings the law in line with the reasoning already followed by courts, which have long applied reasonable restrictions to safeguard personal information. By codifying this approach, the amendment prevents uncertainty and avoids any conflict between the transparency regime of the RTI Act and the privacy safeguards introduced under the DPDP framework.
+      - paragraph [ref=f165e285]:
+        - generic [ref=f165e286]: The revision does not prevent the disclosure of personal information. It simply requires that such information be assessed with care and shared only after considering the privacy interests involved. At the same time, Section 8(2) of the RTI Act remains fully operative. This provision allows a public authority to release information when the public interest in disclosure is strong enough to outweigh any possible harm. This ensures that the essence of the RTI Act, which is to promote openness and accountability in public life, continues to guide decision making.
+      - paragraph [ref=f165e287]
+      - paragraph [ref=f165e288]:
+        - strong [ref=f165e292]: Conclusion
+      - paragraph [ref=f165e293]:
+        - generic [ref=f165e294]: The Digital Personal Data Protection Act and the DPDP Rules mark an important step in building a trustworthy and future-ready digital environment for the country. They bring clarity to how personal data must be handled, strengthen the rights of individuals and create firm responsibilities for organisations. The framework is practical in design and backed by wide public consultation, which makes it both inclusive and responsive to real needs. It supports the growth of India’s digital economy while ensuring that privacy remains central to its progress. With these measures now in place, India moves towards a safer, more transparent and innovation-friendly data ecosystem that serves citizens and strengthens public confidence in digital governance.
+      - paragraph [ref=f165e295]
+      - paragraph [ref=f165e296]:
+        - strong [ref=f165e299]: "References:"
+      - paragraph [ref=f165e300]:
+        - generic [ref=f165e301]: "Full DPDP Rules, 2025:"
+      - list [ref=f165e302]:
+        - listitem [ref=f165e303]:
+          - link "https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf" [ref=f165e306] [cursor=pointer]:
+            - /url: https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf
+      - paragraph [ref=f165e307]:
+        - generic [ref=f165e308]: Full DPDP Act, 2023
+      - list [ref=f165e309]:
+        - listitem [ref=f165e310]:
+          - link "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf" [ref=f165e313] [cursor=pointer]:
+            - /url: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf
+      - paragraph [ref=f165e314]:
+        - generic [ref=f165e315]: "MEITY:"
+      - list [ref=f165e316]:
+        - listitem [ref=f165e317]:
+          - link "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190014" [ref=f165e320] [cursor=pointer]:
+            - /url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190014
+        - listitem [ref=f165e321]:
+          - link "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/jan/doc202515481101.pdf" [ref=f165e324] [cursor=pointer]:
+            - /url: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/jan/doc202515481101.pdf
+        - listitem [ref=f165e325]:
+          - link "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2090271" [ref=f165e328] [cursor=pointer]:
+            - /url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2090271
+        - listitem [ref=f165e329]:
+          - link "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2148944" [ref=f165e332] [cursor=pointer]:
+            - /url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2148944
+        - listitem [ref=f165e333]:
+          - link "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2158506" [ref=f165e336] [cursor=pointer]:
+            - /url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2158506
+      - paragraph [ref=f165e337]:
+        - link "Click here to see pdf" [ref=f165e338] [cursor=pointer]:
+          - /url: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf
+          - strong [ref=f165e339]:
+            - generic [ref=f165e340]: Click here to see pdf
+      - paragraph [ref=f165e341]:
+        - strong [ref=f165e342]:
+          - generic [ref=f165e343]: "****"
+      - paragraph [ref=f165e344]:
+        - strong [ref=f165e347]: SA
+      - paragraph [ref=f165e350]
+      - text: "(Release ID: 2190655) Visitor Counter : 43140"
+      - generic [ref=f165e351]:
+        - text: "Read this release in:"
+        - link "Malayalam" [ref=f165e352] [cursor=pointer]:
+          - /url: https://pib.gov.in/PressReleasePage.aspx?PRID=2212884
+        - text: ","
+        - link "Gujarati" [ref=f165e353] [cursor=pointer]:
+          - /url: https://pib.gov.in/PressReleasePage.aspx?PRID=2190689
+        - text: ","
+        - link "Urdu" [ref=f165e354] [cursor=pointer]:
+          - /url: https://pib.gov.in/PressReleasePage.aspx?PRID=2190762
+        - text: ","
+        - link "Marathi" [ref=f165e355] [cursor=pointer]:
+          - /url: https://pib.gov.in/PressReleasePage.aspx?PRID=2190896
+        - text: ","
+        - link "हिन्दी" [ref=f165e356] [cursor=pointer]:
+          - /url: https://pib.gov.in/PressReleasePage.aspx?PRID=2190738
+        - text: ","
+        - link "Bengali" [ref=f165e357] [cursor=pointer]:
+          - /url: https://pib.gov.in/PressReleasePage.aspx?PRID=2190804
+        - text: ","
+        - link "Odia" [ref=f165e358] [cursor=pointer]:
+          - /url: https://pib.gov.in/PressReleasePage.aspx?PRID=2192088
+        - text: ","
+        - link "Tamil" [ref=f165e359] [cursor=pointer]:
+          - /url: https://pib.gov.in/PressReleasePage.aspx?PRID=2190773
+      - generic:
+        - list
+      - generic:
+        - list
+  - list [ref=f165e362]:
+    - link [ref=f165e363] [cursor=pointer]:
+      - /url: http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2190655
+      - listitem [ref=f165e364]:
+        - img "Share on facebook" [ref=f165e365]
+    - link [ref=f165e366] [cursor=pointer]:
+      - /url: https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2190655&text=DPDP Rules, 2025 Notified
+      - listitem [ref=f165e367]:
+        - img "Share on twitter" [ref=f165e368]
+    - link [ref=f165e369] [cursor=pointer]:
+      - /url: https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2190655
+      - listitem [ref=f165e370]:
+        - img "Share on whatsapp" [ref=f165e371]
+    - link [ref=f165e372] [cursor=pointer]:
+      - /url: https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=DPDP Rules, 2025 Notified&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2190655&ui=2&tf=1&pli=1
+      - listitem [ref=f165e373]:
+        - img "Share on email" [ref=f165e374]
+    - link [ref=f165e375] [cursor=pointer]:
+      - /url: https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2190655&title=DPDP Rules, 2025 Notified&summary=My%20favorite%20developer%20program&source=LinkedIn
+      - listitem [ref=f165e376]:
+        - img "Share on linkedin" [ref=f165e377]

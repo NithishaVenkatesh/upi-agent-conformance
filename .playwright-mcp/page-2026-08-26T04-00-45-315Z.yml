@@ -1,0 +1,357 @@
+- generic [ref=f134e2]:
+  - link "Skip to content" [ref=f134e3] [cursor=pointer]:
+    - /url: "#content"
+  - search [ref=f134e4]:
+    - generic [ref=f134e5]:
+      - generic [ref=f134e6]: "Search for:"
+      - searchbox "Search for:" [ref=f134e7]
+  - banner [ref=f134e8]:
+    - generic [ref=f134e9]:
+      - generic [ref=f134e10]:
+        - link [ref=f134e11] [cursor=pointer]:
+          - /url: https://www.medianama.com/
+          - img "MEDIANAMA" [ref=f134e12]
+        - paragraph [ref=f134e13]:
+          - link "MEDIANAMA" [ref=f134e14] [cursor=pointer]:
+            - /url: https://www.medianama.com/
+        - paragraph [ref=f134e15]: Technology and policy in India
+      - navigation [ref=f134e16]:
+        - list:
+          - listitem [ref=f134e17]:
+            - link "Latest" [ref=f134e18] [cursor=pointer]:
+              - /url: https://www.medianama.com/category/news/
+          - listitem [ref=f134e19]:
+            - link "Workshop" [ref=f134e20] [cursor=pointer]:
+              - /url: https://workshop.reasoned.live
+          - listitem [ref=f134e21]:
+            - link "Newsletter" [ref=f134e22] [cursor=pointer]:
+              - /url: https://www.medianama.com/daily-newsletter/
+          - listitem [ref=f134e23]:
+            - link "Insights" [ref=f134e24] [cursor=pointer]:
+              - /url: https://insights.medianama.com/
+          - listitem [ref=f134e25]:
+            - link "Reasoned" [ref=f134e26] [cursor=pointer]:
+              - /url: https://isreasoned.substack.com
+          - listitem [ref=f134e27]:
+            - link "Focus" [ref=f134e28] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f134e29]:
+            - link "For You" [ref=f134e30] [cursor=pointer]:
+              - /url: "#"
+    - button [ref=f134e32] [cursor=pointer]
+  - main [ref=f134e38]:
+    - article [ref=f134e39]:
+      - generic [ref=f134e40]:
+        - heading "How NPCI should approach agentic payments" [level=1] [ref=f134e41]
+        - generic [ref=f134e42]:
+          - link "Nikhil Pahwa" [ref=f134e45] [cursor=pointer]:
+            - /url: https://www.medianama.com/author/nikhil/
+          - generic [ref=f134e46]:
+            - text: "on"
+            - link [ref=f134e47] [cursor=pointer]:
+              - /url: https://www.medianama.com/2026/07/223-npci-agentic-payments-upi/
+              - time [ref=f134e48]: July 10, 2026
+          - generic [ref=f134e49]: 4 minute read
+        - generic [ref=f134e51]:
+          - generic:
+            - link "Facebook" [ref=f134e52] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.medianama.com%2F2026%2F07%2F223-npci-agentic-payments-upi%2F
+            - link "X" [ref=f134e56] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?text=How%20NPCI%20should%20approach%20agentic%20payments&url=https%3A%2F%2Fwww.medianama.com%2F2026%2F07%2F223-npci-agentic-payments-upi%2F
+            - link "Linkedin" [ref=f134e60] [cursor=pointer]:
+              - /url: https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.medianama.com%2F2026%2F07%2F223-npci-agentic-payments-upi%2F
+            - link "Whatsapp" [ref=f134e64] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?text=How%20NPCI%20should%20approach%20agentic%20payments%20https%3A%2F%2Fwww.medianama.com%2F2026%2F07%2F223-npci-agentic-payments-upi%2F
+            - link "Email" [ref=f134e70] [cursor=pointer]:
+              - /url: https://www.medianama.com/2026/07/223-npci-agentic-payments-upi/
+      - generic [ref=f134e74]:
+        - generic [ref=f134e76]:
+          - paragraph [ref=f134e77]:
+            - text: AI Agents might be allowed to make payments via India’s Unified Payments Interface (UPI),
+            - link "reports Business Standard" [ref=f134e78] [cursor=pointer]:
+              - /url: https://www.business-standard.com/finance/news/india-may-allow-agentic-ai-led-upi-transactions-under-new-npci-protocol-126070801343_1.html
+            - text: . The National Payments Corporation of India, a private non-profit company that is not under RTI, which runs UPI, is working on a Unified Agent Protocol.
+          - paragraph [ref=f134e79]: "While the report is scant on details about how this agentic protocol will work, there is some precedence:"
+          - list [ref=f134e80]:
+            - listitem [ref=f134e81]:
+              - text: Coinbase has the x402 protocol, which “enables AI agents to autonomously discover and procure third-party cloud resources, contextual data, and API tools—making it easier for them to achieve their targeted optimization goals without human-in-the-loop intervention.”…”This enables fully autonomous, AI-driven commerce—
+              - strong [ref=f134e82]: allowing goal-oriented agents to operate independently in an on-demand, permissionless economy.
+              - text: ” As I said earlier,
+              - link "I’m glad they didn’t name the protocol x420" [ref=f134e83] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Section_420_of_the_Indian_Penal_Code
+              - text: . On a more serious note, Cloudflare, which is allowing publishers to charge to allow agents to access content,
+              - link "is using payments via x402 to enable access" [ref=f134e84] [cursor=pointer]:
+                - /url: https://blog.cloudflare.com/monetization-gateway/
+              - text: ". Note to Cloudflare’s team: MediaNama is still waiting for approval. Nudge, nudge."
+            - listitem [ref=f134e85]:
+              - text: Pine Labs
+              - link "launched an agentic payments protocol" [ref=f134e86] [cursor=pointer]:
+                - /url: https://www.medianama.com/2026/06/223-pine-labs-agentic-payments-protocol-upi-liability-privacy-questions/
+              - text: called P3P, though some questions remain unanswered about data sharing. The company
+              - link "open sourced its agentic Oauth framework, for authenticating agents" [ref=f134e87] [cursor=pointer]:
+                - /url: https://github.com/mishrasanjeev/grantex
+              - text: ", which is commendable, and typically, the path to making a framework acceptable. Agentic commerce suffers from the OpenAI vs Google protocol dichotomy, while MCPs have a universal protocol which nobody owns."
+          - paragraph [ref=f134e88]:
+            - text: On a side note, inspired by a friend, I’ve given my AI Agent, Saki (
+            - link "named after this guy" [ref=f134e89] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Saki
+            - text: ", who wrote wonderfully subversive short stories"
+            - link "like this one" [ref=f134e90] [cursor=pointer]:
+              - /url: https://americanliterature.com/author/hh-munro-saki/short-story/the-open-window
+            - text: ), access to my credit card. Not made any agentic payments yet.
+          - paragraph [ref=f134e91]: "The reasoning: you get the OTP for completing a transaction anyway."
+          - paragraph [ref=f134e92]:
+            - text: I guess the RBI was prepared for agents before they knew what agents are, even though
+            - link "2FA caused much pain when it launched" [ref=f134e93] [cursor=pointer]:
+              - /url: https://www.medianama.com/2011/02/223-how-indias-banks-killed-the-future-of-commerce-hrush-bhatt-cleartrip/
+            - text: ", and RBI has still botched international payments and doesn’t really care about people getting stranded when they’re out of the country, because RBI appears to think it is god and is unaccountable, much like MeitY and DoT."
+          - paragraph [ref=f134e94]: "A few thoughts on how NPCI should approach agentic payments:"
+          - list [ref=f134e95]:
+            - listitem [ref=f134e96]:
+              - strong [ref=f134e97]: "Trust:"
+              - text: Agentic commerce fails because there is lack of trust. People in the US who have given their cards to agents have found, at least one person claimed, that an agent paid for a $2,500 course influenced by an Instagram influencer. We need guardrails, recourse and reversibility, though that is tricky in India.
+            - listitem [ref=f134e98]:
+              - strong [ref=f134e99]: "Identity:"
+              - list [ref=f134e100]:
+                - listitem [ref=f134e101]: Step one has to be to give agents their own delegated handles, or to make it even simpler, delegate a handle with agent or at agent. So something like agent-nixxin@ybl for me, or agent@nixxin@ybl for me.
+                - listitem [ref=f134e102]: Separate agent PIN, on by default. Allow users to turn the off. The moment they turn the PIN off, limit goes down to default level, and users have to increase it if they want.
+            - listitem [ref=f134e103]:
+              - strong [ref=f134e104]: "Limits:"
+              - text: "Step two should be to allow me to set transaction limits for my agent in three ways. By default:"
+              - list [ref=f134e105]:
+                - listitem [ref=f134e106]: Limit max amount per transaction, say Rs 100 by default.
+                - listitem [ref=f134e107]: Limit number of transactions (5) and amount transacted per month (Rs. 500)
+                - listitem [ref=f134e108]: Limit transactions per day (1), per week (2)
+            - listitem [ref=f134e109]:
+              - strong [ref=f134e110]: "Flexibility:"
+              - text: Allow users to change their limits depending on their comfort level.
+            - listitem [ref=f134e111]:
+              - strong [ref=f134e112]: "Recourse:"
+              - text: Nudge IRDAI to open up for agentic insurance.
+          - paragraph [ref=f134e113]: Default limits protect users by default. Separate transaction workflow for agents allows transparency and observability.
+          - heading [level=3] [ref=f134e114]:
+            - text: But what about
+            - strong [ref=f134e115]: Wallets
+            - text: "?"
+          - paragraph [ref=f134e116]:
+            - link "I wrote in March that Wallets are actually the natural approach to giving agents money" [ref=f134e117] [cursor=pointer]:
+              - /url: https://www.reasoned.live/p/ai-agents-need-wallets
+            - text: ", because they limit the surface area of impact: it is always what made wallets less risky than UPI. Bipin Preet Singh, who read that article in March,"
+            - link "agrees" [ref=f134e118] [cursor=pointer]:
+              - /url: https://x.com/BipinSingh/status/2075111099540910364
+            - text: ". I wrote then that:"
+          - blockquote [ref=f134e119]:
+            - text: “
+            - paragraph [ref=f134e120]:
+              - strong [ref=f134e121]: India sacrificed containment of risk for enabling bank integration for payments.
+            - paragraph [ref=f134e122]: Semi-closed prepaid wallets were more powerful because they not only compartmentalised risk, but they also didn’t require the additional authentication for transactions once money had been loaded into the wallet.
+          - paragraph [ref=f134e123]:
+            - text: "At the same time, we have to understand that adoption of agents and agentic payments has to overcome a substantial amount of friction: first agentic adoption, then payments adoption. Friction compounds. There’s (thankfully) unlikely to be a forced adoption of AI, like there was for digital payments with demonetization ("
+            - link "my rant from 2016 is still the best piece of writing I have ever done" [ref=f134e124] [cursor=pointer]:
+              - /url: https://www.medianama.com/2016/12/223-year-end-rant-2016-technology-has-never-been-this-political-in-india/
+            - text: ).
+          - paragraph [ref=f134e125]:
+            - text: I think in order to improve adoption of agentic payments, we’ll have to do both wallets and UPI, but UPI will be critical because wallets will mean fresh adoption friction for a large number of people. What apparently NPCI is planning to do is important for agentic payments and agentic commerce (
+            - link "which has its own issues" [ref=f134e126] [cursor=pointer]:
+              - /url: https://www.reasoned.live/p/understanding-openais-commerce-retreat
+            - text: ).
+          - paragraph [ref=f134e127]:
+            - strong [ref=f134e128]: "A note for Dilip Asbe:"
+            - text: I’m happy to volunteer Saki as a beta tester, if such a framework is planned. He already has my credit card.
+          - heading [level=3] [ref=f134e129]:
+            - strong [ref=f134e130]: On Agents and Autonomy
+          - paragraph [ref=f134e131]:
+            - text: "One of the defining characteristics of agents in autonomy, and yet we struggle with it enabling it because we don’t want to lose control. When coding, I’ll be honest, I don’t understand a thing, but the fact that everything has version control (git), allows me to move to yolo mode: it builds what it thinks is right. You might want to read this"
+            - link "silly thought experiment about autonomy and emergence" [ref=f134e132] [cursor=pointer]:
+              - /url: https://www.reasoned.live/p/a-declaration-of-the-independence
+            - text: .
+          - paragraph [ref=f134e133]: "On Sunday, after a chat with a friend running an agent, I started an experiment: I gave Saki access to Opencode, my Opencode plan, Deepseek-v4-flash as a default coding model, a free Vercel account and Vercel CLI, Github and Github CLI, Flutter, Node.js, and a skill I created called Nightly Magic Builds."
+          - paragraph [ref=f134e134]:
+            - strong [ref=f134e135]: "The instruction:"
+            - text: "Go through your interactions with me and my other three agents over the last month and a half (they have a shared Honcho database, but only Saki and Wilde have visibility across Honcho), and identify a job-to-be-done that will help me out. No content: only tools and platforms."
+          - paragraph [ref=f134e136]: "Saki builds at 3AM, and messages me a live Vercel link at 7AM every day. First 30 days is web. Then we’ll move to APK’s. So far he has built:"
+          - list [ref=f134e137]:
+            - listitem [ref=f134e138]:
+              - link "A follow up tracker" [ref=f134e139] [cursor=pointer]:
+                - /url: https://followup-tracker-self.vercel.app/
+              - text: ", because I have to follow up with people more than should need to."
+            - listitem [ref=f134e140]: A workshop particpant certificate generator (for my Vibe Coding participants)
+            - listitem [ref=f134e141]:
+              - link "A sales overview" [ref=f134e142] [cursor=pointer]:
+                - /url: https://sponsor-desk-iota.vercel.app/
+            - listitem [ref=f134e143]:
+              - link "A writing kan-ban board" [ref=f134e144] [cursor=pointer]:
+                - /url: https://article-pipeline-ten.vercel.app/
+            - listitem [ref=f134e145]:
+              - link "A “Books I’ve read” interface for my kid" [ref=f134e146] [cursor=pointer]:
+                - /url: https://kid-reads.vercel.app/
+              - text: (who reads a lot because he’s device free).
+          - paragraph [ref=f134e147]: "Why I’m telling you all this is because a thought crossed my mind: I’m now considering an experiment wherein Saki will buy me some small items every day, just to try out agentic payments."
+          - paragraph [ref=f134e148]: Should be fun.
+          - paragraph
+          - generic [ref=f134e149]:
+            - paragraph [ref=f134e150]: For You
+            - paragraph
+            - list [ref=f134e151]:
+              - listitem [ref=f134e152]:
+                - text: Read
+                - 'link "Reasoned by Nikhil Pahwa: How AI is changing our world" [ref=f134e153] [cursor=pointer]':
+                  - /url: https://isreasoned.substack.com
+              - listitem [ref=f134e154]:
+                - link "Sign up for MediaNama's Daily Newsletter" [ref=f134e155] [cursor=pointer]:
+                  - /url: https://www.medianama.com/daily-newsletter/
+                - text: to receive regular updates
+              - listitem [ref=f134e156]:
+                - link "Sponsor a MediaNama Event" [ref=f134e157] [cursor=pointer]:
+                  - /url: https://docs.google.com/forms/d/1_HZV6a6sZV1cXr6h44j97TyrBVytvJHh70odz_cAVEo/
+            - paragraph
+        - generic [ref=f134e158]:
+          - generic [ref=f134e159]:
+            - generic [ref=f134e160]: Discover more
+            - link "Artificial Intelligence agents" [ref=f134e161] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/ai-agents/
+            - link "Bipin Preet Singh" [ref=f134e162] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/bipin-preet-singh/
+            - link "Business Standard" [ref=f134e163] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/business-standard/
+            - link "Credit Cards" [ref=f134e164] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/credit-cards/
+            - link "data sharing" [ref=f134e165] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/data-sharing/
+            - link "Dilip Asbe" [ref=f134e166] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/dilip-asbe/
+            - link "Free Reads" [ref=f134e167] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/free-reads/
+            - link "Google India" [ref=f134e168] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/google-india/
+            - link "NPCI" [ref=f134e169] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/npci/
+            - link "Payments" [ref=f134e170] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/payments/
+            - link "payments bank" [ref=f134e171] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/payments-bank/
+            - link "Pine Labs" [ref=f134e172] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/pine-labs/
+            - link "Transparency Report" [ref=f134e173] [cursor=pointer]:
+              - /url: https://www.medianama.com/tag/transparency-report/
+          - generic [ref=f134e174]:
+            - heading "Related Stories" [level=3] [ref=f134e175]
+            - generic [ref=f134e176]:
+              - article [ref=f134e177]:
+                - link [ref=f134e178] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2026/06/223-pine-labs-agentic-payments-protocol-upi-liability-privacy-questions/
+                - heading [level=4] [ref=f134e180]:
+                  - link "Pine Labs launches agentic payments protocol, raising questions on UPI rules, liability and privacy" [ref=f134e181] [cursor=pointer]:
+                    - /url: https://www.medianama.com/2026/06/223-pine-labs-agentic-payments-protocol-upi-liability-privacy-questions/
+              - article [ref=f134e182]:
+                - link [ref=f134e183] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2024/02/223-views-response-npci-ceo-comments/
+                - heading [level=4] [ref=f134e185]:
+                  - 'link "Views: Response to NPCI CEO’s comments that what is not written in regulations is a no-go for fintech entities" [ref=f134e186] [cursor=pointer]':
+                    - /url: https://www.medianama.com/2024/02/223-views-response-npci-ceo-comments/
+              - article [ref=f134e187]:
+                - link [ref=f134e188] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2021/03/223-upi-market-share-sop-npci-3/
+                - heading [level=4] [ref=f134e190]:
+                  - 'link "UPI Market Share: Players to restrict on-boarding and cashbacks if in breach of 30% cap" [ref=f134e191] [cursor=pointer]':
+                    - /url: https://www.medianama.com/2021/03/223-upi-market-share-sop-npci-3/
+              - article [ref=f134e192]:
+                - link [ref=f134e193] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2020/11/223-npci-diversifies-shareholding-with-131-new-partners/
+                - heading [level=4] [ref=f134e195]:
+                  - link "NPCI diversifies shareholding with 131 new partners" [ref=f134e196] [cursor=pointer]:
+                    - /url: https://www.medianama.com/2020/11/223-npci-diversifies-shareholding-with-131-new-partners/
+              - article [ref=f134e197]:
+                - link [ref=f134e198] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2020/11/223-npci-introduces-market-share-cap-of-30-on-upi-players/
+                - heading [level=4] [ref=f134e200]:
+                  - link "NPCI introduces market share cap of 30% on UPI players" [ref=f134e201] [cursor=pointer]:
+                    - /url: https://www.medianama.com/2020/11/223-npci-introduces-market-share-cap-of-30-on-upi-players/
+              - article [ref=f134e202]:
+                - link [ref=f134e203] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2019/11/223-upi-npci-dilip-asbe-cic-hearing/
+                - heading [level=4] [ref=f134e205]:
+                  - link "‘UPI is NPCI’s invention but not a monopoly,’ says Dilip Asbe at CIC hearing" [ref=f134e206] [cursor=pointer]:
+                    - /url: https://www.medianama.com/2019/11/223-upi-npci-dilip-asbe-cic-hearing/
+              - article [ref=f134e207]:
+                - link [ref=f134e208] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2019/11/223-rbi-whatsapp-pay-data-localisation-necessary/
+                - heading [level=4] [ref=f134e210]:
+                  - link "‘No payment services on WhatsApp without data localisation,’ RBI to SC" [ref=f134e211] [cursor=pointer]:
+                    - /url: https://www.medianama.com/2019/11/223-rbi-whatsapp-pay-data-localisation-necessary/
+              - article [ref=f134e212]:
+                - link [ref=f134e213] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2018/01/223-ncpi-appoints-dilip-asbe-md-ceo/
+                - heading [level=4] [ref=f134e215]:
+                  - link "NPCI appoints Dilip Asbe as MD and CEO" [ref=f134e216] [cursor=pointer]:
+                    - /url: https://www.medianama.com/2018/01/223-ncpi-appoints-dilip-asbe-md-ceo/
+          - generic [ref=f134e217]:
+            - heading "From the Archives" [level=3] [ref=f134e218]
+            - generic [ref=f134e219]:
+              - article [ref=f134e220]:
+                - link [ref=f134e221] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2014/06/223-mobikwik-integrates-wallet-to-e-commerce-sites-but-skips-rbi-cashout-pilot/
+                  - generic [ref=f134e223]: "2014"
+                - heading [level=4] [ref=f134e225]:
+                  - link "Mobikwik integrates wallet to e-commerce sites" [ref=f134e226] [cursor=pointer]:
+                    - /url: https://www.medianama.com/2014/06/223-mobikwik-integrates-wallet-to-e-commerce-sites-but-skips-rbi-cashout-pilot/
+              - article [ref=f134e227]:
+                - link [ref=f134e228] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2013/09/223-mobikwik-mobile-wallet/
+                  - generic [ref=f134e230]: "2013"
+                - heading [level=4] [ref=f134e232]:
+                  - link "MobiKwik Launches Mobile Wallet" [ref=f134e233] [cursor=pointer]:
+                    - /url: https://www.medianama.com/2013/09/223-mobikwik-mobile-wallet/
+              - article [ref=f134e234]:
+                - link [ref=f134e235] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2013/07/223-on-mobikwiks-approach-to-wallet-user-acquisition/
+                  - generic [ref=f134e236]: "2013"
+                - heading [level=4] [ref=f134e238]:
+                  - link "On Mobikwik’s Approach To Wallet User Acquisition" [ref=f134e239] [cursor=pointer]:
+                    - /url: https://www.medianama.com/2013/07/223-on-mobikwiks-approach-to-wallet-user-acquisition/
+              - article [ref=f134e240]:
+                - link [ref=f134e241] [cursor=pointer]:
+                  - /url: https://www.medianama.com/2011/11/223-mobikwik-launches-closed-wallet-to-make-online-payments-easier/
+                  - generic [ref=f134e242]: "2011"
+                - heading [level=4] [ref=f134e244]:
+                  - link "Mobikwik Launches Closed Wallet To Make Online Payments Easier" [ref=f134e245] [cursor=pointer]:
+                    - /url: https://www.medianama.com/2011/11/223-mobikwik-launches-closed-wallet-to-make-online-payments-easier/
+  - contentinfo [ref=f134e246]:
+    - generic [ref=f134e247]:
+      - generic [ref=f134e249]:
+        - link [ref=f134e250] [cursor=pointer]:
+          - /url: https://www.medianama.com/
+        - paragraph [ref=f134e252]:
+          - text: MediaNama is the premier source of information and analysis on Technology Policy in India. More about MediaNama, and contact information,
+          - link "here." [ref=f134e253] [cursor=pointer]:
+            - /url: https://www.medianama.com/contact/
+        - paragraph [ref=f134e254]: © 2024 Mixed Bag Media Pvt. Ltd.
+      - list [ref=f134e257]:
+        - listitem [ref=f134e258]:
+          - link "Contact Us" [ref=f134e259] [cursor=pointer]:
+            - /url: https://www.medianama.com/contact-us/
+        - listitem [ref=f134e260]:
+          - link "About" [ref=f134e261] [cursor=pointer]:
+            - /url: https://www.medianama.com/about/
+        - listitem [ref=f134e262]:
+          - link "Events" [ref=f134e263] [cursor=pointer]:
+            - /url: https://www.medianama.com/tag/nama/
+        - listitem [ref=f134e264]:
+          - link "Careers at MediaNama" [ref=f134e265] [cursor=pointer]:
+            - /url: https://www.medianama.com/careers/
+        - listitem [ref=f134e266]:
+          - link "Support" [ref=f134e267] [cursor=pointer]:
+            - /url: https://www.instamojo.com/medianama/support-medianama/
+        - listitem [ref=f134e268]:
+          - link "Terms Of Use" [ref=f134e269] [cursor=pointer]:
+            - /url: https://www.medianama.com/terms-of-use/
+        - listitem [ref=f134e270]:
+          - link "Privacy Policy" [ref=f134e271] [cursor=pointer]:
+            - /url: https://www.medianama.com/privacy-policy-2/
+    - generic [ref=f134e272]:
+      - link "Proudly powered by WordPress" [ref=f134e273] [cursor=pointer]:
+        - /url: https://wordpress.org/
+      - text: "| Theme: Justread by"
+      - link "GretaThemes" [ref=f134e274] [cursor=pointer]:
+        - /url: https://gretathemes.com
+      - text: .

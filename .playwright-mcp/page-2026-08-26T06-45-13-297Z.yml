@@ -1,0 +1,436 @@
+- generic [ref=f792e3]:
+  - navigation [ref=f792e4]:
+    - generic [ref=f792e5]:
+      - generic [ref=f792e6]:
+        - link [ref=f792e8] [cursor=pointer]:
+          - /url: /docs/
+          - img "Razorpay Docs Logo" [ref=f792e10]
+        - generic [ref=f792e13]:
+          - textbox "Search the documentation" [disabled]
+          - generic: /
+      - generic [ref=f792e18]:
+        - button "change color scheme" [ref=f792e20] [cursor=pointer]
+        - generic [ref=f792e23]:
+          - link [ref=f792e26] [cursor=pointer]:
+            - /url: https://razorpay.com/pricing/
+            - paragraph [ref=f792e27]: Pricing
+          - link [ref=f792e30] [cursor=pointer]:
+            - /url: /docs/api
+            - paragraph [ref=f792e31]: API Reference
+          - link [ref=f792e34] [cursor=pointer]:
+            - /url: https://razorpay.com/support/
+            - paragraph [ref=f792e35]: Support
+        - generic [ref=f792e36]:
+          - button "change country" [ref=f792e38] [cursor=pointer]:
+            - img "IN" [ref=f792e40]
+          - link [ref=f792e45] [cursor=pointer]:
+            - /url: https://dashboard.razorpay.com/?next=%2Fpayments%2Frecurring-payments%2Fupi-reserve-pay%2F#/access/signin
+            - paragraph [ref=f792e46]: Log In
+          - link [ref=f792e48] [cursor=pointer]:
+            - /url: https://dashboard.razorpay.com/signup
+            - link [ref=f792e49]:
+              - paragraph [ref=f792e50]: Sign Up
+  - generic [ref=f792e51]:
+    - generic [ref=f792e52]:
+      - navigation [ref=f792e53]:
+        - link "Home" [ref=f792e56] [cursor=pointer]:
+          - /url: /docs/
+        - link "Payments" [ref=f792e63] [cursor=pointer]:
+          - /url: /docs/payments/
+        - link "Engage" [ref=f792e70] [cursor=pointer]:
+          - /url: /docs/engage/
+        - link "POS" [ref=f792e78] [cursor=pointer]:
+          - /url: /docs/pos/
+        - link "Banking Plus" [ref=f792e87] [cursor=pointer]:
+          - /url: /docs/x/
+        - link "Payroll" [ref=f792e94] [cursor=pointer]:
+          - /url: /docs/payroll/
+        - link "Partners" [ref=f792e101] [cursor=pointer]:
+          - /url: /docs/partners/
+        - link "API Reference" [ref=f792e108] [cursor=pointer]:
+          - /url: /docs/api/
+        - link "Developer Tools" [ref=f792e115] [cursor=pointer]:
+          - /url: /docs/developer-tools/
+      - navigation [ref=f792e120]:
+        - textbox "JUMP TO" [ref=f792e124]
+        - navigation [ref=f792e125]:
+          - link "Recurring Payments" [ref=f792e128] [cursor=pointer]:
+            - /url: /docs/payments/recurring-payments/
+          - paragraph [ref=f792e137] [cursor=pointer]: Emandate
+          - paragraph [ref=f792e146] [cursor=pointer]: Cards
+          - paragraph [ref=f792e155] [cursor=pointer]: Paper NACH
+          - paragraph [ref=f792e164] [cursor=pointer]: UPI
+          - link "UPI Reserve Pay" [ref=f792e167] [cursor=pointer]:
+            - /url: /docs/payments/recurring-payments/upi-reserve-pay/
+          - link "Autopay Interoperability" [ref=f792e170] [cursor=pointer]:
+            - /url: /docs/payments/recurring-payments/autopay-interoperability/
+          - paragraph [ref=f792e179] [cursor=pointer]: Dashboard
+          - link "Webhooks" [ref=f792e182] [cursor=pointer]:
+            - /url: /docs/payments/recurring-payments/subscribe-to-webhooks/
+          - link "Glossary" [ref=f792e185] [cursor=pointer]:
+            - /url: /docs/payments/recurring-payments/glossary/
+    - generic [ref=f792e187]:
+      - generic [ref=f792e188]:
+        - generic [ref=f792e189]:
+          - generic [ref=f792e192]:
+            - generic [ref=f792e193] [cursor=pointer]:
+              - link [ref=f792e194]:
+                - /url: /docs/payments
+                - paragraph [ref=f792e195]: Payments
+              - text: /
+            - generic [ref=f792e196] [cursor=pointer]:
+              - link [ref=f792e197]:
+                - /url: /docs/payments/recurring-payments
+                - paragraph [ref=f792e198]: Recurring Payments
+              - text: /
+            - paragraph [ref=f792e201]: Upi Reserve Pay
+          - generic [ref=f792e205]:
+            - paragraph [ref=f792e206]: Available in
+            - generic [ref=f792e208]:
+              - img "IN" [ref=f792e210]
+              - paragraph [ref=f792e211]: India
+          - generic [ref=f792e212]:
+            - heading "UPI Reserve Pay" [level=1] [ref=f792e213]
+            - paragraph [ref=f792e214]: Block customer funds upfront, debit as you deliver value. Boost conversion rates, reduce payment failures and enhance customer experience with UPI Reserve Pay.
+            - generic [ref=f792e215]:
+              - button [ref=f792e216] [cursor=pointer]:
+                - generic "Copy as Markdown for ChatGPT, Claude or Gemini" [ref=f792e217]: Copy for AI
+              - button [ref=f792e222] [cursor=pointer]:
+                - generic "Open this page as plain Markdown in a new tab" [ref=f792e223]: View as Markdown
+            - separator [ref=f792e226]
+          - main [ref=f792e227]:
+            - paragraph [ref=f792e228]: UPI Reserve Pay with Single Block Multi Debit (SBMD) enables businesses to block customer funds upfront and debit automatically as products or services are delivered. This payment method eliminates common issues with traditional online transactions where payment timing does not align with service delivery.
+            - list [ref=f792e229]:
+              - listitem [ref=f792e230]: Instead of customers paying the full amount upfront for uncertain outcomes or businesses delivering services before guaranteed payment collection, Reserve Pay allows customers to authorise a spending limit once.
+              - listitem [ref=f792e231]: Businesses can then debit exact amounts automatically as they fulfil orders, complete services or deliver products — without requiring additional customer authentication.
+            - generic [ref=f792e232]:
+              - heading [level=2] [ref=f792e233]:
+                - link [ref=f792e235] [cursor=pointer]:
+                  - /url: /docs/payments/recurring-payments/upi-reserve-pay/#how-reserve-pay-works
+                  - paragraph [ref=f792e236]: How Reserve Pay Works
+              - paragraph [ref=f792e237]: "Reserve Pay enables businesses to collect payments seamlessly through a simple four-step process:"
+              - list [ref=f792e238]:
+                - listitem [ref=f792e239]:
+                  - strong [ref=f792e240]: Customer Reserves Funds
+                  - text: ": Customers block estimated spending amount in their account via UPI PIN authorisation."
+                - listitem [ref=f792e241]:
+                  - strong [ref=f792e242]: Deliver Your Service
+                  - text: ": Provide products, complete rides, deliver food or render services as usual."
+                - listitem [ref=f792e243]:
+                  - strong [ref=f792e244]: Automatic Payment Collection
+                  - text: ": Debit exact amounts instantly from the pre-approved limit set by the customer."
+                - listitem [ref=f792e245]:
+                  - strong [ref=f792e246]: Guaranteed Settlement
+                  - text: ": Receive funds in your account with industry-leading success rates and faster reconciliation."
+            - generic [ref=f792e247]:
+              - heading [level=2] [ref=f792e248]:
+                - link [ref=f792e250] [cursor=pointer]:
+                  - /url: /docs/payments/recurring-payments/upi-reserve-pay/#advantages
+                  - paragraph [ref=f792e251]: Advantages
+              - generic [ref=f792e253]:
+                - tablist [ref=f792e254]:
+                  - tab [selected] [ref=f792e255] [cursor=pointer]:
+                    - paragraph [ref=f792e256]: For Businesses
+                  - tab [ref=f792e257] [cursor=pointer]:
+                    - paragraph [ref=f792e258]: For Customers
+                - tabpanel "For Businesses" [ref=f792e260]:
+                  - generic "For Businesses" [ref=f792e261]:
+                    - list [ref=f792e262]:
+                      - listitem [ref=f792e263]:
+                        - strong [ref=f792e264]: Reduced Cart Abandonment
+                        - text: ": Remove payment friction that causes customers to abandon purchases at checkout."
+                      - listitem [ref=f792e265]:
+                        - strong [ref=f792e266]: High Payment Success Rate
+                        - text: ": Eliminate revenue loss from payment failures that typically cost 10% of transactions."
+                      - listitem [ref=f792e267]:
+                        - strong [ref=f792e268]: Guaranteed Collection
+                        - text: ": Funds are pre-blocked, ensuring you receive payment regardless of customer's later financial situation."
+            - generic [ref=f792e269]:
+              - heading [level=2] [ref=f792e270]:
+                - link [ref=f792e272] [cursor=pointer]:
+                  - /url: /docs/payments/recurring-payments/upi-reserve-pay/#use-cases
+                  - paragraph [ref=f792e273]: Use Cases
+              - generic [ref=f792e274]:
+                - generic [ref=f792e275] [cursor=pointer]:
+                  - heading [level=4] [ref=f792e277]:
+                    - paragraph [ref=f792e278]: Quick Commerce & Grocery Delivery
+                    - link [ref=f792e280]:
+                      - /url: /docs/payments/recurring-payments/upi-reserve-pay/#quick-commerce-grocery-delivery
+                  - generic:
+                    - paragraph [ref=f792e287]: "Acme Quick uses Reserve Pay to handle payment failures during peak hours and streamline grocery ordering. Here is how Reserve Pay helps Acme Quick:"
+                    - list [ref=f792e288]:
+                      - listitem [ref=f792e289]:
+                        - strong [ref=f792e290]: Guaranteed Payment Processing
+                        - text: ": Customers reserve ₹2,000 monthly for groceries, ensuring payments process automatically even during bank downtimes or peak traffic."
+                      - listitem [ref=f792e291]:
+                        - strong [ref=f792e292]: Voice-Based Ordering
+                        - text: ": Enable seamless AI assistant integration with pre-authorised payment methods for hands-free grocery shopping."
+                      - listitem [ref=f792e293]:
+                        - strong [ref=f792e294]: Peak Hour Reliability
+                        - text: ": Process transactions successfully during high-demand periods when traditional payment systems may throttle or fail."
+                - generic [ref=f792e295] [cursor=pointer]:
+                  - heading [level=4] [ref=f792e297]:
+                    - paragraph [ref=f792e298]: Transportation & Mobility
+                    - link [ref=f792e300]:
+                      - /url: /docs/payments/recurring-payments/upi-reserve-pay/#transportation-mobility
+                  - generic:
+                    - paragraph [ref=f792e307]: "Acme Ride uses Reserve Pay to handle variable fares and billing disputes during rides. Here is how Reserve Pay helps Acme Ride:"
+                    - list [ref=f792e308]:
+                      - listitem [ref=f792e309]:
+                        - strong [ref=f792e310]: Automated Fare Collection
+                        - text: ": Block estimated trip amount upfront, then debit actual fare automatically after ride completion including tolls and waiting charges."
+                      - listitem [ref=f792e311]:
+                        - strong [ref=f792e312]: Driver Payment Guarantee
+                        - text: ": Ensure drivers receive guaranteed payments without collection issues at trip end."
+                      - listitem [ref=f792e313]:
+                        - strong [ref=f792e314]: Dispute Reduction
+                        - text: ": Minimise customer support queries related to payment disputes through transparent pre-authorisation."
+                - generic [ref=f792e315] [cursor=pointer]:
+                  - heading [level=4] [ref=f792e317]:
+                    - paragraph [ref=f792e318]: Travel & Hospitality
+                    - link [ref=f792e320]:
+                      - /url: /docs/payments/recurring-payments/upi-reserve-pay/#travel-hospitality
+                  - generic:
+                    - paragraph [ref=f792e327]: "Acme Trips uses Razorpay Reserve Pay to reduce booking abandonment and handle price fluctuations. Here is how Reserve Pay helps Acme Trips:"
+                    - list [ref=f792e328]:
+                      - listitem [ref=f792e329]:
+                        - strong [ref=f792e330]: Hotel Bookings
+                        - text: ": Block estimated stay amount during reservation, charge only after successful check-in to reduce booking anxiety."
+                      - listitem [ref=f792e331]:
+                        - strong [ref=f792e332]: Flight Price Protection
+                        - text: ": Handle fare changes during booking process without requiring customer re-authentication."
+                      - listitem [ref=f792e333]:
+                        - strong [ref=f792e334]: Package Tours
+                        - text: ": Charge incrementally as each travel service is delivered throughout the itinerary."
+                - generic [ref=f792e335] [cursor=pointer]:
+                  - heading [level=4] [ref=f792e337]:
+                    - paragraph [ref=f792e338]: Food Delivery Services
+                    - link [ref=f792e340]:
+                      - /url: /docs/payments/recurring-payments/upi-reserve-pay/#food-delivery-services
+                  - generic:
+                    - paragraph [ref=f792e347]: "Acme Eats uses Reserve Pay to maintain service availability during system outages. Here is how Reserve Pay helps Acme Eats:"
+                    - list [ref=f792e348]:
+                      - listitem [ref=f792e349]:
+                        - strong [ref=f792e350]: Downtime Protection
+                        - text: ": Process food orders using reserved balance even when banking systems are temporarily unavailable."
+                      - listitem [ref=f792e351]:
+                        - strong [ref=f792e352]: Express Checkout
+                        - text: ": Enable faster order completion for repeat customers with pre-authorised payment methods."
+                      - listitem [ref=f792e353]:
+                        - strong [ref=f792e354]: Order Success Rate
+                        - text: ": Reduce cancellations due to payment failures during critical meal times."
+                - generic [ref=f792e355] [cursor=pointer]:
+                  - heading [level=4] [ref=f792e357]:
+                    - paragraph [ref=f792e358]: E-commerce & Marketplace
+                    - link [ref=f792e360]:
+                      - /url: /docs/payments/recurring-payments/upi-reserve-pay/#e-commerce-marketplace
+                  - generic:
+                    - paragraph [ref=f792e367]: "Acme Kart uses Reserve Pay to handle complex multi-vendor transactions. Here is how Reserve Pay helps Acme Kart:"
+                    - list [ref=f792e368]:
+                      - listitem [ref=f792e369]:
+                        - strong [ref=f792e370]: Multi-Vendor Orders
+                        - text: ": Block total cart value upfront, then release payments to individual sellers as items ship from different locations."
+                      - listitem [ref=f792e371]:
+                        - strong [ref=f792e372]: Partial Fulfillment
+                        - text: ": Prevent order cancellations when some items in a multi-product cart are unavailable."
+                      - listitem [ref=f792e373]:
+                        - strong [ref=f792e374]: Seller Cash Flow
+                        - text: ": Provide predictable payment schedules for marketplace vendors based on shipping milestones."
+                - generic [ref=f792e375] [cursor=pointer]:
+                  - heading [level=4] [ref=f792e377]:
+                    - paragraph [ref=f792e378]: Healthcare Services
+                    - link [ref=f792e380]:
+                      - /url: /docs/payments/recurring-payments/upi-reserve-pay/#healthcare-services
+                  - generic:
+                    - paragraph [ref=f792e387]: "Acme Health uses Reserve Pay to streamline billing for ongoing treatments. Here is how Reserve Pay helps Acme Health:"
+                    - list [ref=f792e388]:
+                      - listitem [ref=f792e389]:
+                        - strong [ref=f792e390]: Treatment Cost Management
+                        - text: ": Block estimated treatment amount, then debit automatically as medical expenses occur throughout the care period."
+                      - listitem [ref=f792e391]:
+                        - strong [ref=f792e392]: Administrative Efficiency
+                        - text: ": Reduce billing overhead by eliminating multiple small payment transactions during treatment."
+                      - listitem [ref=f792e393]:
+                        - strong [ref=f792e394]: Family Experience
+                        - text: ": Minimise payment-related stress for families during medical emergencies with pre-authorised coverage."
+            - generic [ref=f792e395]:
+              - heading [level=2] [ref=f792e396]:
+                - link [ref=f792e398] [cursor=pointer]:
+                  - /url: /docs/payments/recurring-payments/upi-reserve-pay/#implementation-examples
+                  - paragraph [ref=f792e399]: Implementation Examples
+              - paragraph [ref=f792e400]: "Watch how apps can implement UPI Reserve Pay for their customers:"
+              - generic [ref=f792e402]:
+                - tablist [ref=f792e403]:
+                  - tab [selected] [ref=f792e404] [cursor=pointer]:
+                    - paragraph [ref=f792e405]: Gemini
+                  - tab [ref=f792e406] [cursor=pointer]:
+                    - paragraph [ref=f792e407]: ChatGPT
+                  - tab [ref=f792e408] [cursor=pointer]:
+                    - paragraph [ref=f792e409]: Vodafone
+                - tabpanel "Gemini" [ref=f792e411]:
+                  - generic "Gemini" [ref=f792e412]:
+                    - iframe [ref=f792e413]:
+                      - generic [ref=f794e1]:
+                        - generic "YouTube Video Player" [ref=f794e3]
+                        - generic [ref=f794e5]:
+                          - generic:
+                            - generic:
+                              - generic [ref=f794e6] [cursor=pointer]
+                              - button "Play video" [ref=f794e10] [cursor=pointer]
+                              - button "Hide player controls" [ref=f794e12] [cursor=pointer]
+                              - generic [ref=f794e14]:
+                                - generic [ref=f794e19]:
+                                  - generic [ref=f794e20]:
+                                    - 'link "Powering Agentic Commerce: Razorpay x Gemini" [ref=f794e21] [cursor=pointer]':
+                                      - /url: https://www.youtube.com/watch?v=Py5LJR0KJvc
+                                    - link "Razorpay-Agentic-Payments" [ref=f794e22] [cursor=pointer]:
+                                      - /url: /channel/UCFDBp1zc3HFwuGNeEXjzZCw
+                                  - generic [ref=f794e24]:
+                                    - button [ref=f794e25] [cursor=pointer]
+                                    - generic [ref=f794e27]:
+                                      - generic: Razorpay-Agentic-Payments
+                                      - generic: 1 subscriber
+                                - generic [ref=f794e28]:
+                                  - button "Share" [ref=f794e31] [cursor=pointer]
+                                  - link "Watch on YouTube" [ref=f794e42] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=Py5LJR0KJvc
+                                    - generic [ref=f794e43]: Watch on
+            - generic [ref=f792e414]:
+              - heading [level=2] [ref=f792e415]:
+                - link [ref=f792e417] [cursor=pointer]:
+                  - /url: /docs/payments/recurring-payments/upi-reserve-pay/#limits
+                  - paragraph [ref=f792e418]: Limits
+              - paragraph [ref=f792e419]: "The following standard limits apply to UPI Reserve Pay:"
+              - table [ref=f792e421]:
+                - rowgroup [ref=f792e422]:
+                  - row [ref=f792e423]:
+                    - columnheader "Parameter" [ref=f792e424]
+                    - columnheader "Limit" [ref=f792e425]
+                - rowgroup [ref=f792e426]:
+                  - row [ref=f792e427]:
+                    - cell "Maximum block amount" [ref=f792e428]
+                    - cell "₹10,000" [ref=f792e429]
+                  - row [ref=f792e430]:
+                    - cell "Token validity" [ref=f792e431]
+                    - cell "Up to 90 days" [ref=f792e432]
+                  - row [ref=f792e433]:
+                    - cell "Debits per token" [ref=f792e434]
+                    - cell "Multiple (until blocked amount is exhausted or token expires)" [ref=f792e435]
+              - generic [ref=f792e436]:
+                - paragraph [ref=f792e442]:
+                  - strong [ref=f792e443]: Handy Tips
+                - paragraph [ref=f792e445]:
+                  - text: Contact our
+                  - link [ref=f792e447] [cursor=pointer]:
+                    - /url: https://razorpay.com/support
+                    - paragraph [ref=f792e448]: Support team
+                  - text: to check eligibility or discuss custom configurations for specific use cases.
+            - generic [ref=f792e449]:
+              - heading [level=2] [ref=f792e450]:
+                - link [ref=f792e452] [cursor=pointer]:
+                  - /url: /docs/payments/recurring-payments/upi-reserve-pay/#supported-apps-and-issuers
+                  - paragraph [ref=f792e453]: Supported Apps and Issuers
+              - generic [ref=f792e455]:
+                - tablist [ref=f792e456]:
+                  - tab [selected] [ref=f792e457] [cursor=pointer]:
+                    - paragraph [ref=f792e458]: UPI Apps
+                  - tab [ref=f792e459] [cursor=pointer]:
+                    - paragraph [ref=f792e460]: Issuers
+                - tabpanel "UPI Apps" [ref=f792e462]:
+                  - generic "UPI Apps" [ref=f792e463]:
+                    - list [ref=f792e464]:
+                      - listitem [ref=f792e465]: BHIM
+                      - listitem [ref=f792e466]: INDMoney
+                      - listitem [ref=f792e467]: Navi
+                      - listitem [ref=f792e468]: Paytm
+            - generic [ref=f792e469]:
+              - heading [level=2] [ref=f792e470]:
+                - link [ref=f792e472] [cursor=pointer]:
+                  - /url: /docs/payments/recurring-payments/upi-reserve-pay/#next-steps
+                  - paragraph [ref=f792e473]: Next Steps
+              - list [ref=f792e474]:
+                - listitem [ref=f792e475]:
+                  - text: Raise a request with our
+                  - link [ref=f792e477] [cursor=pointer]:
+                    - /url: https://razorpay.com/support/#request
+                    - paragraph [ref=f792e478]: Support team
+                  - text: to get UPI Reserve Pay activated on your account.
+                - listitem [ref=f792e479]: Ensure your business category supports UPI mandate features and Single Block Multi Debit (SBMD) functionality.
+                - listitem [ref=f792e480]:
+                  - text: Integrate with
+                  - link [ref=f792e482] [cursor=pointer]:
+                    - /url: /docs/payments/payment-gateway/s2s-integration/recurring-payments/upi-reserve-pay/integration-steps/
+                    - paragraph [ref=f792e483]: Integrate Razorpay UPI Reserve APIs
+                  - text: .
+        - generic [ref=f792e484]:
+          - separator [ref=f792e485]
+          - generic [ref=f792e487]:
+            - paragraph [ref=f792e488]: Was this page helpful?
+            - generic [ref=f792e489]:
+              - button [ref=f792e490] [cursor=pointer]:
+                - paragraph [ref=f792e491]: "Yes"
+              - button [ref=f792e492] [cursor=pointer]:
+                - paragraph [ref=f792e493]: "No"
+        - separator [ref=f792e494]
+        - generic [ref=f792e497]:
+          - generic [ref=f792e498]: upi reserve pay
+          - generic [ref=f792e499]: single block multi debit
+          - generic [ref=f792e500]: sbmd
+          - generic [ref=f792e501]: recurring payments
+        - contentinfo [ref=f792e502]:
+          - separator [ref=f792e503]
+          - paragraph [ref=f792e504]: SUBSCRIBE TO DEVELOPER UPDATES
+          - generic [ref=f792e505]:
+            - generic [ref=f792e506]:
+              - generic "Your email address" [ref=f792e507]:
+                - textbox "Your email address" [ref=f792e508]
+                - button [ref=f792e509] [cursor=pointer]:
+                  - paragraph [ref=f792e510]: Subscribe
+              - paragraph [ref=f792e511]
+            - generic [ref=f792e512]:
+              - generic [ref=f792e513] [cursor=pointer]:
+                - link [ref=f792e514]:
+                  - /url: /docs/api
+                  - paragraph [ref=f792e515]: API Reference Guide
+                - text: "|"
+              - generic [ref=f792e516] [cursor=pointer]:
+                - link [ref=f792e517]:
+                  - /url: https://razorpay.com/integrations
+                  - paragraph [ref=f792e518]: Integrations
+                - text: "|"
+              - link [ref=f792e520] [cursor=pointer]:
+                - /url: https://razorpay.com/support
+                - paragraph [ref=f792e521]: Support
+      - generic [ref=f792e522]:
+        - button "hide on this page" [ref=f792e524] [cursor=pointer]
+        - generic [ref=f792e528]:
+          - paragraph [ref=f792e529]: ON THIS PAGE
+          - list [ref=f792e530]:
+            - listitem [ref=f792e531]:
+              - link [ref=f792e533] [cursor=pointer]:
+                - /url: /docs/payments/recurring-payments/upi-reserve-pay/#how-reserve-pay-works
+                - paragraph [ref=f792e534]: How Reserve Pay Works
+            - listitem [ref=f792e535]:
+              - link [ref=f792e537] [cursor=pointer]:
+                - /url: /docs/payments/recurring-payments/upi-reserve-pay/#advantages
+                - paragraph [ref=f792e538]: Advantages
+            - listitem [ref=f792e539]:
+              - link [ref=f792e541] [cursor=pointer]:
+                - /url: /docs/payments/recurring-payments/upi-reserve-pay/#use-cases
+                - paragraph [ref=f792e542]: Use Cases
+            - listitem [ref=f792e543]:
+              - link [ref=f792e545] [cursor=pointer]:
+                - /url: /docs/payments/recurring-payments/upi-reserve-pay/#implementation-examples
+                - paragraph [ref=f792e546]: Implementation Examples
+            - listitem [ref=f792e547]:
+              - link [ref=f792e549] [cursor=pointer]:
+                - /url: /docs/payments/recurring-payments/upi-reserve-pay/#limits
+                - paragraph [ref=f792e550]: Limits
+            - listitem [ref=f792e551]:
+              - link [ref=f792e553] [cursor=pointer]:
+                - /url: /docs/payments/recurring-payments/upi-reserve-pay/#supported-apps-and-issuers
+                - paragraph [ref=f792e554]: Supported Apps and Issuers
+            - listitem [ref=f792e555]:
+              - link [ref=f792e557] [cursor=pointer]:
+                - /url: /docs/payments/recurring-payments/upi-reserve-pay/#next-steps
+                - paragraph [ref=f792e558]: Next Steps

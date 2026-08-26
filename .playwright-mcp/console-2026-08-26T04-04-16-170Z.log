@@ -1,0 +1,58 @@
+[     343ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'connect-src'. @ https://www.meity.gov.in/data-protection-framework:0
+[     723ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://www.meity.gov.in/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[     741ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://www.meity.gov.in/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[     762ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://www.meity.gov.in/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[     814ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://www.meity.gov.in/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[     831ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://www.meity.gov.in/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[     870ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://www.meity.gov.in/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[     913ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://www.meity.gov.in/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    1246ms] [LOG] [Bhashini] Early init: Using localStorage/initial preference: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:1028
+[    1248ms] [LOG] JSHandle@node close @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:1843
+[    1251ms] [LOG] [Bhashini] === initializeTranslation START === @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2151
+[    1251ms] [LOG] [Bhashini] Current URL: https://www.meity.gov.in/data-protection-framework @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2152
+[    1251ms] [LOG] [Bhashini] isRedirection: true @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2153
+[    1251ms] [LOG] [Bhashini] defaultTranslatedLanguage: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2154
+[    1251ms] [LOG] [Bhashini] isFromTargetLangParam (from session): false @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2155
+[    1251ms] [LOG] [Bhashini] Priority 1 - target_lang param: null @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2160
+[    1251ms] [LOG] [Bhashini] Priority 2 check - languageToUse: null isRedirection: true @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2181
+[    1251ms] [LOG] [Bhashini] Priority 2 ENTERING - fetching domain language... @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2183
+[    1253ms] [LOG] Script loaded @ https://www.meity.gov.in/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    1414ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://translation-plugin.bhashini.co.in/redirection/language?domain=https%3A%2F%2Fwww.meity.gov.in%2Fdata-protection-framework:0
+[    1414ms] [LOG] [Bhashini] Original domain detected @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:98
+[    1414ms] [LOG] [Bhashini] Priority 2 - domainLanguage result: null @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2186
+[    1414ms] [LOG] [Bhashini] Priority 3 check - languageToUse: null defaultTranslatedLanguage: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2201
+[    1414ms] [LOG] [Bhashini] Priority 3 ENTERING @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2203
+[    1414ms] [LOG] [Bhashini] Priority 3 redirect check - isRedirection: true isFromTargetLangParam: false @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2205
+[    1414ms] [LOG] [Bhashini] Priority 3 - attempting redirect for: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2207
+[    1522ms] [LOG] {replacementUrl: https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/data-protection-framework} redirection data @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:1407
+[    1522ms] [LOG] [Bhashini] Redirecting to foreign-origin language URL: https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/data-protection-framework @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2220
+[    1875ms] [ERROR] Ignoring duplicate Content-Security-Policy directive 'connect-src'. @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/data-protection-framework:0
+[    3268ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    3281ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    3583ms] [LOG] [Bhashini] Early init: Using localStorage/initial preference: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:1028
+[    3584ms] [LOG] JSHandle@node close @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:1843
+[    3585ms] [LOG] [Bhashini] === initializeTranslation START === @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2151
+[    3585ms] [LOG] [Bhashini] Current URL: https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/data-protection-framework @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2152
+[    3585ms] [LOG] [Bhashini] isRedirection: true @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2153
+[    3585ms] [LOG] [Bhashini] defaultTranslatedLanguage: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2154
+[    3585ms] [LOG] [Bhashini] isFromTargetLangParam (from session): false @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2155
+[    3585ms] [LOG] [Bhashini] Priority 1 - target_lang param: null @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2160
+[    3585ms] [LOG] [Bhashini] Priority 2 check - languageToUse: null isRedirection: true @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2181
+[    3585ms] [LOG] [Bhashini] Priority 2 ENTERING - fetching domain language... @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2183
+[    3585ms] [LOG] Script loaded @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    3733ms] [LOG] [Bhashini] Domain configured for language: hi (whole domain) @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:84
+[    3733ms] [LOG] [Bhashini] Priority 2 - domainLanguage result: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2186
+[    3733ms] [LOG] [Bhashini] Priority 2 ACTIVE - Using domain-configured language: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2188
+[    3733ms] [LOG] [Bhashini] Priority 3 check - languageToUse: hi defaultTranslatedLanguage: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2201
+[    3733ms] [LOG] [Bhashini] Priority 3 SKIPPED - languageToUse already set or no defaultTranslatedLanguage @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2238
+[    3733ms] [LOG] [Bhashini] Priority 4 check - languageToUse: hi initialPreferredLanguage: hi savedPreference: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2245
+[    3733ms] [LOG] [Bhashini] Priority 4 SKIPPED - languageToUse: hi savedPreference: hi @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2283
+[    3734ms] [LOG] [Bhashini] Translation needed - languageToUse: hi pageSourceLanguage: en @ https://translation-plugin.bhashini.co.in/v3/website_translation_utility.js:2299
+[    3752ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    3761ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    3940ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    3997ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    4388ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    4503ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    4890ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0
+[    5383ms] [LOG] {selected: group5, selectedlayout: layout4, Website_Type: multiple_page, Site_Name: meity, bhashini_api_key: API Key} @ https://xn--m1bdba5a7gresc7dsa.xn--11b7cb3a6a.xn--h2brj9c/_next/static/chunks/5518-f2721fb6d33e0b63.js:0

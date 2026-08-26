@@ -1,0 +1,20 @@
+- generic [active] [ref=f867e1]:
+  - banner [ref=f867e2]:
+    - link [ref=f867e5] [cursor=pointer]:
+      - /url: https://devpost.com/
+      - img "Devpost" [ref=f867e6]
+  - article [ref=f867e8]:
+    - heading "Sorry, that page does not exist." [level=2] [ref=f867e9]
+    - paragraph [ref=f867e10]:
+      - text: But we'd love to help you find what you're looking for. Head to the
+      - link "homepage" [ref=f867e11] [cursor=pointer]:
+        - /url: https://devpost.com/
+      - text: or
+      - link "discover recent hackathons" [ref=f867e12] [cursor=pointer]:
+        - /url: https://devpost.com/hackathons
+      - text: .
+    - paragraph [ref=f867e13]:
+      - text: If you need assistance, please email us at
+      - link "support@devpost.com" [ref=f867e14] [cursor=pointer]:
+        - /url: mailto:support@devpost.com
+      - text: .

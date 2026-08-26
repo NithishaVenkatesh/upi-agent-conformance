@@ -1,0 +1,13 @@
+[    2202ms] [LOG] JQMIGRATE: Migrate is installed, version 1.4.1 @ https://js.honeybadger.io/v6.12/honeybadger.min.js:0
+[    2783ms] [WARNING] We would like to inform Cookie Control users that IAB has announced the end of support for TCFv1.1 at the end of March 2020. Full support for IAB TCFv2.0 and CCPA will be included in Cookie Control v9.0, which all users will be eligible to download for free once it is released. Customers who use the IAB functionality are strongly advised to plan for this upgrade as soon as possible. For more information, please visit https://www.civicuk.com @ https://js.honeybadger.io/v6.12/honeybadger.min.js:0
+[   12607ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/zoom:0
+[   12885ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/zoom-api:0
+[   13167ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/zoom-sdk:0
+[   13451ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/zoom-apps:0
+[   13735ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/zoom-apps-sdk:0
+[   14023ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/zoom-video-sdk:0
+[   14643ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/zoom-meeting-sdk:0
+[   18046ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/stripe-connect:0
+[   18327ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/stripe-checkout:0
+[   18611ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/notion:0
+[   18897ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://devpost.com/software/built-with/notion-api:0

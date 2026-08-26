@@ -1,0 +1,260 @@
+- generic [active] [ref=f170e1]:
+  - banner [ref=f170e2]:
+    - button "Skip to content" [ref=f170e3] [cursor=pointer]
+    - button "Accessibility Feedback" [ref=f170e6] [cursor=pointer]
+    - generic [ref=f170e9]:
+      - link [ref=f170e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=f170e11]
+      - search [ref=f170e12]:
+        - button "Search" [ref=f170e15] [cursor=pointer]
+        - searchbox "Enter your search here – Search suggestions will show as you type" [ref=f170e16]: rbi "Online Dispute Resolution (ODR) System for Digital Payments" circular number August 2020 DPSS
+        - generic [ref=f170e17] [cursor=pointer]
+        - button "Search using an image" [ref=f170e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f170e24]:
+      - button "Microsoft Rewards" [ref=f170e25] [cursor=pointer]:
+        - generic [ref=f170e26]: Rewards
+      - link "Sign in" [ref=f170e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Search Filter" [ref=f170e44]:
+      - list [ref=f170e45]:
+        - listitem [ref=f170e46]:
+          - link "All" [ref=f170e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=f170e48]:
+          - link "Web" [ref=f170e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8d000621a4c3d25fabdab643f7c98a63ee1870f46c6bba5d3e280e82470e056fJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPXJiaSslMjJPbmxpbmUrRGlzcHV0ZStSZXNvbHV0aW9uKyhPRFIpK1N5c3RlbStmb3IrRGlnaXRhbCtQYXltZW50cyUyMitjaXJjdWxhcitudW1iZXIrQXVndXN0KzIwMjArRFBTUyZ3ZWJzY3A9MSZGT1JNPUhEUldTQw&ntb=1
+        - listitem [ref=f170e50]:
+          - link "Search" [ref=f170e51] [cursor=pointer]:
+            - /url: /copilotsearch?q=rbi+%22Online+Dispute+Resolution+(ODR)+System+for+Digital+Payments%22+circular+number+August+2020+DPSS&FORM=CSSCOP
+        - listitem [ref=f170e54]:
+          - link "Images" [ref=f170e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=30b138f8a72b578fcb62bfcd22fae9213276324596d3a6f3022341fdfe0cebeeJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L2ltYWdlcy9zZWFyY2g_cT1yYmkrJTIyT25saW5lK0Rpc3B1dGUrUmVzb2x1dGlvbisoT0RSKStTeXN0ZW0rZm9yK0RpZ2l0YWwrUGF5bWVudHMlMjIrY2lyY3VsYXIrbnVtYmVyK0F1Z3VzdCsyMDIwK0RQU1MmRk9STT1IRFJTQzM&ntb=1
+        - listitem [ref=f170e56]:
+          - link "Videos" [ref=f170e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b6c227d27172d6a3a95df4ffd3799b665ddcf8c63762cdd779b153c5653c5fcbJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3ZpZGVvcy9zZWFyY2g_cT1yYmkrJTIyT25saW5lK0Rpc3B1dGUrUmVzb2x1dGlvbisoT0RSKStTeXN0ZW0rZm9yK0RpZ2l0YWwrUGF5bWVudHMlMjIrY2lyY3VsYXIrbnVtYmVyK0F1Z3VzdCsyMDIwK0RQU1MmRk9STT1IRFJTQzQ&ntb=1
+        - listitem [ref=f170e58]:
+          - link "Maps" [ref=f170e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=edb9d292896bec9fa9e18d728749f4d5b0db0ffe6dd648cac1150f443486fcb4JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L21hcHM_cT1yYmkrJTIyT25saW5lK0Rpc3B1dGUrUmVzb2x1dGlvbisoT0RSKStTeXN0ZW0rZm9yK0RpZ2l0YWwrUGF5bWVudHMlMjIrY2lyY3VsYXIrbnVtYmVyK0F1Z3VzdCsyMDIwK0RQU1MmRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=f170e60]:
+          - link "Copilot" [ref=f170e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8d41aea09b5923e60690e1f2e6812eba8e3c45d78a5ac7ce2c42e97ef3f703e9JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L2NoYXQ_cHJvbXB0PXJiaSslMjJPbmxpbmUrRGlzcHV0ZStSZXNvbHV0aW9uKyhPRFIpK1N5c3RlbStmb3IrRGlnaXRhbCtQYXltZW50cyUyMitjaXJjdWxhcitudW1iZXIrQXVndXN0KzIwMjArRFBTUyZzZW5kcXVlcnk9MSZGT1JNPVNDQ09EWA&ntb=1
+        - listitem [ref=f170e62]:
+          - button [ref=f170e63] [cursor=pointer]
+  - generic [ref=f170e67]:
+    - main "Search Results" [ref=f170e68]:
+      - generic [ref=f170e70]:
+        - generic [ref=f170e71]:
+          - generic [ref=f170e72] [cursor=pointer]
+          - generic [ref=f170e74] [cursor=pointer]
+          - generic [ref=f170e76] [cursor=pointer]
+        - text: About 25 results
+      - list [ref=f170e78]:
+        - listitem [ref=f170e79]:
+          - generic [ref=f170e83]:
+            - generic [ref=f170e85]:
+              - button "Like" [ref=f170e86]
+              - button "Dislike" [ref=f170e89]
+            - button "AI disclaimer" [ref=f170e92]
+        - listitem [ref=f170e117]:
+          - link "Reserve Bank of India" [ref=f170e119] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=354f6c8f40bfd10b52674ffb6a43121319583a0fa41c1aaa7e2c66c00af4ab0eJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9Db21tb25QZXJzb24vZW5nbGlzaC9zY3JpcHRzL05vdGlmaWNhdGlvbi5hc3B4P0lkPTMxOTQ&ntb=1
+            - img "Global web icon" [ref=f170e123]
+            - generic [ref=f170e124]:
+              - generic [ref=f170e125]: Reserve Bank of India
+              - generic [ref=f170e126]: https://www.rbi.org.in › CommonPerson › english › scripts › Notification.aspx
+          - heading [level=2] [ref=f170e129]:
+            - link "Online Dispute Resolution (ODR) System for Digital Payments" [ref=f170e130] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=354f6c8f40bfd10b52674ffb6a43121319583a0fa41c1aaa7e2c66c00af4ab0eJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9Db21tb25QZXJzb24vZW5nbGlzaC9zY3JpcHRzL05vdGlmaWNhdGlvbi5hc3B4P0lkPTMxOTQ&ntb=1
+          - paragraph [ref=f170e132]: 6 Aug 2020 · Please refer to the Statement on Developmental and Regulatory Policies dated August 6, 2020 wherein the Reserve …
+        - listitem [ref=f170e133]:
+          - link "Reserve Bank of India" [ref=f170e135] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7d5af1e6b7e1f58d6b785d3929ff6f91170e6dda2cc9dbde44358b49f561af40JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9zY3JpcHRzL05vdGlmaWNhdGlvblVzZXIuYXNweD9JZD0xMTk0Ng&ntb=1
+            - img "Global web icon" [ref=f170e139]
+            - generic [ref=f170e140]:
+              - generic [ref=f170e141]: Reserve Bank of India
+              - generic [ref=f170e142]: https://www.rbi.org.in › scripts › NotificationUser.aspx
+          - heading [level=2] [ref=f170e145]:
+            - link "Notifications | Official Website of Reserve Bank of India" [ref=f170e146] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=7d5af1e6b7e1f58d6b785d3929ff6f91170e6dda2cc9dbde44358b49f561af40JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9zY3JpcHRzL05vdGlmaWNhdGlvblVzZXIuYXNweD9JZD0xMTk0Ng&ntb=1
+          - paragraph [ref=f170e148]: 6 Aug 2020 · Please refer to the Statement on Developmental and Regulatory Policies dated August 6, 2020 wherein the Reserve …
+        - listitem [ref=f170e149]:
+          - link "Reserve Bank of India" [ref=f170e151] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9507bf24c746bdaa0b3e984ce7dd7de5879a415060e270c0b4c0c17aa6e7c17aJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9zY3JpcHRzL0JTX0NpcmN1bGFySW5kZXhEaXNwbGF5LmFzcHg_SWQ9MTE5NDY&ntb=1
+            - img "Global web icon" [ref=f170e155]
+            - generic [ref=f170e156]:
+              - generic [ref=f170e157]: Reserve Bank of India
+              - generic [ref=f170e158]: https://www.rbi.org.in › scripts › BS_CircularIndexDisplay.aspx
+          - heading [level=2] [ref=f170e161]:
+            - link "Index To RBI Circulars - Reserve Bank of India" [ref=f170e162] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=9507bf24c746bdaa0b3e984ce7dd7de5879a415060e270c0b4c0c17aa6e7c17aJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9zY3JpcHRzL0JTX0NpcmN1bGFySW5kZXhEaXNwbGF5LmFzcHg_SWQ9MTE5NDY&ntb=1
+          - paragraph [ref=f170e164]: 6 Aug 2020 · Please refer to the Statement on Developmental and Regulatory Policies dated August 6, 2020 wherein the Reserve …
+        - listitem [ref=f170e165]:
+          - link "Reserve Bank of India" [ref=f170e167] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7890ddb1d8f215c97687a85a724edde4d9949158b5516981fbba9a968d007346JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9zY3JpcHRzL05vdGlmaWNhdGlvblVzZXIuYXNweC93d3cubmNkcmMubmljLmluL2ltYWdlcy9Ob3RpZmljYXRpb25Vc2VyLmFzcHg_SWQ9MTE5NDY&ntb=1
+            - img "Global web icon" [ref=f170e171]
+            - generic [ref=f170e172]:
+              - generic [ref=f170e173]: Reserve Bank of India
+              - generic [ref=f170e174]: https://www.rbi.org.in › scripts › NotificationUser.aspx › www.ncdrc.nic.in › ...
+          - heading [level=2] [ref=f170e177]:
+            - link "Notifications - Reserve Bank of India" [ref=f170e178] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=7890ddb1d8f215c97687a85a724edde4d9949158b5516981fbba9a968d007346JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9zY3JpcHRzL05vdGlmaWNhdGlvblVzZXIuYXNweC93d3cubmNkcmMubmljLmluL2ltYWdlcy9Ob3RpZmljYXRpb25Vc2VyLmFzcHg_SWQ9MTE5NDY&ntb=1
+          - paragraph [ref=f170e180]: 6 Aug 2020 · Please refer to the Statement on Developmental and Regulatory Policies dated August 6, 2020 wherein the Reserve …
+        - listitem [ref=f170e181]:
+          - link "Reserve Bank of India" [ref=f170e183] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f7cb91989fc4767cdd52fff177beefa45d45c6c0354142ea836812050d301bdaJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9zY3JpcHRzL05vdGlmaWNhdGlvblVzZXIuYXNweC9TY3JpcHRzL05vdGlmaWNhdGlvblVzZXIuYXNweD9JZD0xMTk0Ng&ntb=1
+            - img "Global web icon" [ref=f170e187]
+            - generic [ref=f170e188]:
+              - generic [ref=f170e189]: Reserve Bank of India
+              - generic [ref=f170e190]: https://www.rbi.org.in › scripts › NotificationUser.aspx › Scripts › ...
+          - heading [level=2] [ref=f170e193]:
+            - link "Notifications - Reserve Bank of India" [ref=f170e194] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=f7cb91989fc4767cdd52fff177beefa45d45c6c0354142ea836812050d301bdaJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9zY3JpcHRzL05vdGlmaWNhdGlvblVzZXIuYXNweC9TY3JpcHRzL05vdGlmaWNhdGlvblVzZXIuYXNweD9JZD0xMTk0Ng&ntb=1
+          - paragraph [ref=f170e196]: Home Notifications Notifications
+        - listitem [ref=f170e197]:
+          - link "Reserve Bank of India" [ref=f170e199] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f0b6445f7fdcdcf85c4a6410cd2dcbdf7913ef69c740fcb6e4e3c3976e93e00bJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9zY3JpcHRzL2Rwc3N1c2Vydmlldy5hc3B4&ntb=1
+            - img "Global web icon" [ref=f170e203]
+            - generic [ref=f170e204]:
+              - generic [ref=f170e205]: Reserve Bank of India
+              - generic [ref=f170e206]: https://www.rbi.org.in › scripts › dpssuserview.aspx
+          - heading "DPSS | Official Website of Reserve Bank of India" [level=2] [ref=f170e209]:
+            - link "DPSS | Official Website of Reserve Bank of India":
+              - /url: https://www.bing.com/ck/a?!&&p=f0b6445f7fdcdcf85c4a6410cd2dcbdf7913ef69c740fcb6e4e3c3976e93e00bJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucmJpLm9yZy5pbi9zY3JpcHRzL2Rwc3N1c2Vydmlldy5hc3B4&ntb=1
+          - paragraph [ref=f170e211]: 4 days ago · Home History/Records Circulars which are redundant/superseded/subsumed within Master Directions/Master Circulars
+        - listitem [ref=f170e212]:
+          - link "dtf.in" [ref=f170e214] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a6b8b349b932b19d338233228cedd591bcc8b503ae6dabe55ef2a6f63e564ff5JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly9kdGYuaW4vd3AtY29udGVudC9maWxlcy9SQklfQ2lyY3VsYXJfZGF0ZWRfMDYuMDguMjAyMF8tX09ubGluZV9EaXNwdXRlX1Jlc29sdXRpb25fT0RSX1N5c3RlbV9mb3JfRGlnaXRhbF9QYXltZW50cy5wZGY&ntb=1
+            - img "Global web icon" [ref=f170e218]
+            - generic [ref=f170e219]:
+              - generic [ref=f170e220]: dtf.in
+              - generic [ref=f170e222]:
+                - generic [ref=f170e223]: https://dtf.in › wp-content › files
+                - text: · PDF file
+          - heading "भारतीय रज़वर्" [level=2] [ref=f170e224]:
+            - link "भारतीय रज़वर्":
+              - /url: https://www.bing.com/ck/a?!&&p=a6b8b349b932b19d338233228cedd591bcc8b503ae6dabe55ef2a6f63e564ff5JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly9kdGYuaW4vd3AtY29udGVudC9maWxlcy9SQklfQ2lyY3VsYXJfZGF0ZWRfMDYuMDguMjAyMF8tX09ubGluZV9EaXNwdXRlX1Jlc29sdXRpb25fT0RSX1N5c3RlbV9mb3JfRGlnaXRhbF9QYXltZW50cy5wZGY&ntb=1
+          - paragraph [ref=f170e226]: Statement on Developmental and Regulatory Policies dated August 6, 2020 wherein the Reserve Bank of India (RBI) had announced …
+        - listitem [ref=f170e227]:
+          - link "CA SANSAAR" [ref=f170e229] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7f540f1dae1aba869c51e5a43b67fee790594df9e0a4705f8e69e0e3c79d13afJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuY2FzYW5zYWFyLmNvbS9ub3RpZmljYXRpb24tUkJJL09ubGluZS1EaXNwdXRlLVJlc29sdXRpb24tT0RSLVN5c3RlbS1mb3ItRGlnaXRhbC1QYXltZW50cy80OTgyLmh0bWw&ntb=1
+            - img "Global web icon" [ref=f170e233]
+            - generic [ref=f170e234]:
+              - generic [ref=f170e235]: CA SANSAAR
+              - generic [ref=f170e236]: https://www.casansaar.com › notification-RBI › Online-Dispute-Resolution...
+          - heading "Online Dispute Resolution (ODR) System for Digital Payments" [level=2] [ref=f170e239]:
+            - link "Online Dispute Resolution (ODR) System for Digital Payments":
+              - /url: https://www.bing.com/ck/a?!&&p=7f540f1dae1aba869c51e5a43b67fee790594df9e0a4705f8e69e0e3c79d13afJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuY2FzYW5zYWFyLmNvbS9ub3RpZmljYXRpb24tUkJJL09ubGluZS1EaXNwdXRlLVJlc29sdXRpb24tT0RSLVN5c3RlbS1mb3ItRGlnaXRhbC1QYXltZW50cy80OTgyLmh0bWw&ntb=1
+          - paragraph [ref=f170e241]: 7 Aug 2020 · RBI/2020-21/21 DPSS.CO.PD No.116/02.12.004/2020-21 August 6, 2020 The Chairman / Managing Director / Chief …
+        - listitem [ref=f170e242]:
+          - link "argus-p.com" [ref=f170e244] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=43e5cc7b438c662060e0a0d9683b62dc634453165969b8fefb967c0760f55f6aJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuYXJndXMtcC5jb20vdXBkYXRlcy91cGRhdGVzL3JiaS1ub3RpZmllcy1vbmxpbmUtZGlzcHV0ZS1yZXNvbHV0aW9uLW9kci1zeXN0ZW0tZm9yLWRpZ2l0YWwtcGF5bWVudHMv&ntb=1
+            - img "Global web icon" [ref=f170e248]
+            - generic [ref=f170e249]:
+              - generic [ref=f170e250]: argus-p.com
+              - generic [ref=f170e251]: https://www.argus-p.com › updates › updates › rbi-notifies-online-dispute...
+          - heading "RBI notifies Online Dispute Resolution (ODR) System for Digital …" [level=2] [ref=f170e254]:
+            - link "RBI notifies Online Dispute Resolution (ODR) System for Digital …":
+              - /url: https://www.bing.com/ck/a?!&&p=43e5cc7b438c662060e0a0d9683b62dc634453165969b8fefb967c0760f55f6aJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuYXJndXMtcC5jb20vdXBkYXRlcy91cGRhdGVzL3JiaS1ub3RpZmllcy1vbmxpbmUtZGlzcHV0ZS1yZXNvbHV0aW9uLW9kci1zeXN0ZW0tZm9yLWRpZ2l0YWwtcGF5bWVudHMv&ntb=1
+          - paragraph [ref=f170e256]: 6 Aug 2020 · In this context, the RBI has proposed introduction of Online Dispute Resolution (“ ODR ”) systems for resolution of …
+        - listitem [ref=f170e257]:
+          - link "Tax Guru" [ref=f170e259] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=514edc3d79679f3f8265141f8413d38fb9e518d8e6a45ebb877224a8402e3f98JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly90YXhndXJ1LmluL3JiaS9yYmktb25saW5lLWRpc3B1dGUtcmVzb2x1dGlvbi1vZHItc3lzdGVtLWRpZ2l0YWwtcGF5bWVudHMuaHRtbA&ntb=1
+            - img "Global web icon" [ref=f170e263]
+            - generic [ref=f170e264]:
+              - generic [ref=f170e265]: Tax Guru
+              - generic [ref=f170e266]: https://taxguru.in › rbi › rbi-online-dispute-resolution-odr-system...
+          - 'heading "RBI: Online Dispute Resolution (ODR) System for Digital Payments" [level=2] [ref=f170e269]':
+            - 'link "RBI: Online Dispute Resolution (ODR) System for Digital Payments"':
+              - /url: https://www.bing.com/ck/a?!&&p=514edc3d79679f3f8265141f8413d38fb9e518d8e6a45ebb877224a8402e3f98JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly90YXhndXJ1LmluL3JiaS9yYmktb25saW5lLWRpc3B1dGUtcmVzb2x1dGlvbi1vZHItc3lzdGVtLWRpZ2l0YWwtcGF5bWVudHMuaHRtbA&ntb=1
+          - paragraph [ref=f170e271]: 6 Aug 2020 · Please refer to the Statement on Developmental and Regulatory Policies dated August 6, 2020 wherein the Reserve …
+        - listitem [ref=f170e272]:
+          - generic [ref=f170e273]:
+            - heading [level=2] [ref=f170e274]:
+              - text: Deep dive into
+              - strong [ref=f170e275]: rbi "Online Dispute Resolution (ODR) System for Digita
+              - text: …
+            - list [ref=f170e276]:
+              - listitem [ref=f170e277]:
+                - link "odr online dispute resolution" [ref=f170e278] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=2e2c3783d0e3b45a24084b96bdcd767613ce0d81466ab51678ea37b898016e34JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPW9kcitvbmxpbmUrZGlzcHV0ZStyZXNvbHV0aW9uJkZPUk09UVNSRTE&ntb=1
+              - listitem [ref=f170e281]:
+                - link "online dispute resolution system" [ref=f170e282] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=094514155b2882adb82a4d9afb0d8e70688695fb0d2bcf0b8699e08bf159433dJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPW9ubGluZStkaXNwdXRlK3Jlc29sdXRpb24rc3lzdGVtJkZPUk09UVNSRTI&ntb=1
+              - listitem [ref=f170e285]:
+                - link [ref=f170e286] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=5d25ac5068b903ec209f791fed239ba8115db166cec097893c3459d4820fd5b1JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPW9kcitkaXNwdXRlK2Zvcm0rUERGJkZPUk09UVNSRTM&ntb=1
+                  - generic [ref=f170e288]:
+                    - text: odr dispute
+                    - strong [ref=f170e289]: form pdf
+              - listitem [ref=f170e290]:
+                - link "odr dispute resolution number" [ref=f170e291] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=9ae863d85921deb8848beed88bcf2b3dffccff71c3a8389d126ace6c2c7249dbJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPW9kcitkaXNwdXRlK3Jlc29sdXRpb24rbnVtYmVyJkZPUk09UVNSRTQ&ntb=1
+              - listitem [ref=f170e294]:
+                - link [ref=f170e295] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=9918be7220fe15204b381878137d78e7dd0c64bf8a02a6b856ba5b7aff59a167JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPW9kcitkaXNwdXRlK3Byb2Nlc3MmRk9STT1RU1JFNQ&ntb=1
+                  - generic [ref=f170e297]:
+                    - text: odr dispute
+                    - strong [ref=f170e298]: process
+              - listitem [ref=f170e299]:
+                - link "rbi odr system" [ref=f170e300] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1ff3f9bdd52efb87a17a36c9ff40ba17d34437a987be79d09753469e53cf532cJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPXJiaStvZHIrc3lzdGVtJkZPUk09UVNSRTY&ntb=1
+              - listitem [ref=f170e303]:
+                - link [ref=f170e304] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=8064ec13199cf8022c6d175049021622cdae4da859efd84dbde318a31a86fb11JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPWJhbmsrb2YrSW5kaWErb2RyK3N5c3RlbSZGT1JNPVFTUkU3&ntb=1
+                  - generic [ref=f170e306]:
+                    - strong [ref=f170e307]: bank of india
+                    - text: odr system
+        - listitem [ref=f170e308]:
+          - link "Some results have been removed" [ref=f170e310] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=288f50fd427d33c5f3bb0bd0fa69f50e36583c4f9776a84a596345a07f22429dJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=f170e311]:
+          - navigation "More results for rbi \"Online Dispute Resolution (ODR) System for Digital Payments\" circular number August 2020 DPSS":
+            - list:
+              - listitem [ref=f170e312]:
+                - generic "Page 1" [ref=f170e313]: "1"
+              - listitem [ref=f170e314]:
+                - link "Next page" [ref=f170e315] [cursor=pointer]:
+                  - /url: /search?q=rbi+%22Online+Dispute+Resolution+(ODR)+System+for+Digital+Payments%22+circular+number+August+2020+DPSS&FPIG=18C5EC82D23545E1B5AE842D160289ED&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=f170e316]:
+      - list [ref=f170e317]:
+        - listitem [ref=f170e318]:
+          - generic "Related searches" [ref=f170e319]:
+            - generic [ref=f170e321]:
+              - heading [level=2] [ref=f170e323]:
+                - text: Deep dive into
+                - strong [ref=f170e324]: rbi "Online Dispute Resolution (ODR) System for Digita
+                - text: …
+              - generic [ref=f170e325]:
+                - link "odr online dispute resolution" [ref=f170e327] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e455390513aba7d56850f97634cf29140fb0bfb341158083640b44fa602983abJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPW9kcitvbmxpbmUrZGlzcHV0ZStyZXNvbHV0aW9uJkZPUk09UjVGRA&ntb=1
+                - link "online dispute resolution system" [ref=f170e331] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ac07fb8a7a8e8307e45ccc9d1b0a72c8b9bba5ec48e7e6072df783ed0cb3fd87JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPW9ubGluZStkaXNwdXRlK3Jlc29sdXRpb24rc3lzdGVtJkZPUk09UjVGRDE&ntb=1
+                - link [ref=f170e335] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=d6efae7773ceb0b4745b6c6e6313a36b6c58b0d8576d3ec0ddbe52847d709c13JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPW9kcitkaXNwdXRlK2Zvcm0rUERGJkZPUk09UjVGRDI&ntb=1
+                  - generic [ref=f170e337]:
+                    - text: odr dispute
+                    - strong [ref=f170e338]: form pdf
+                - link "odr dispute resolution number" [ref=f170e340] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=76d30a461303b7499c4cd2c4ae45dd8b186ad7dcc36179a943053143cff7dce9JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPW9kcitkaXNwdXRlK3Jlc29sdXRpb24rbnVtYmVyJkZPUk09UjVGRDM&ntb=1
+                - link [ref=f170e344] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=f3e9718b5c023ae2d2fd9eedcf5c9062ce79cbe195510e5fab33a40f392ae91bJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPW9kcitkaXNwdXRlK3Byb2Nlc3MmRk9STT1SNUZENA&ntb=1
+                  - generic [ref=f170e346]:
+                    - text: odr dispute
+                    - strong [ref=f170e347]: process
+                - link "rbi odr system" [ref=f170e349] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=29b87fd1533c2fbe68aeb0d3d45f39c78d0f70675fbaec2b9ccec4a1ad57c9c4JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPXJiaStvZHIrc3lzdGVtJkZPUk09UjVGRDU&ntb=1
+                - link [ref=f170e353] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b8bfb15515dfaea8135377dde294cc4d465a01162fb8daf241da2e6256db11d1JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPWJhbmsrb2YrSW5kaWErb2RyK3N5c3RlbSZGT1JNPVI1RkQ2&ntb=1
+                  - generic [ref=f170e355]:
+                    - strong [ref=f170e356]: bank of india
+                    - text: odr system
+  - contentinfo [ref=f170e357]:
+    - generic [ref=f170e358]:
+      - list:
+        - listitem [ref=f170e359]:
+          - link "Privacy" [ref=f170e360] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7046a8fc9f07ee6128d88f009b57af0b78149a29521e7e2ff7cb8c5658095c4fJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=f170e361]:
+          - link "Terms" [ref=f170e362] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=74f737b3a0c2954f5abe8f6489963fdf18108af5d7041fa64f2ddf0a4416bd2fJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

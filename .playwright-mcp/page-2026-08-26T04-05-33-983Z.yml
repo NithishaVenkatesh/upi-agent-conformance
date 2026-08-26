@@ -1,0 +1,443 @@
+- generic [ref=f169e2]:
+  - generic [ref=f169e4]:
+    - link "Skip to main content" [ref=f169e6] [cursor=pointer]:
+      - /url: "#mainsection"
+    - generic [ref=f169e7]:
+      - list:
+        - listitem [ref=f169e8]:
+          - button "Increase Letter Spacing Not Pressed" [ref=f169e9] [cursor=pointer]:
+            - img "Increase Letter Spacing" [ref=f169e10]
+            - generic [ref=f169e11]: Not Pressed
+        - listitem [ref=f169e12]:
+          - button "Increase Font Size Not Pressed" [ref=f169e13] [cursor=pointer]:
+            - img "Increase Font Size" [ref=f169e14]
+            - generic [ref=f169e15]: Not Pressed
+        - listitem [ref=f169e16]:
+          - button "Regular Font Size Pressed" [ref=f169e17] [cursor=pointer]:
+            - img "Regular Font Size" [ref=f169e18]
+            - generic [ref=f169e19]: Pressed
+        - listitem [ref=f169e20]:
+          - button "Decrease Font Size Not Pressed" [ref=f169e21] [cursor=pointer]:
+            - img "Decrease Font Size" [ref=f169e22]
+            - generic [ref=f169e23]: Not Pressed
+      - list:
+        - listitem [ref=f169e24] [cursor=pointer]:
+          - button "Apply Dark Theme Not Pressed" [ref=f169e25]:
+            - img "Apply Dark Theme" [ref=f169e26]
+            - generic [ref=f169e27]: Not Pressed
+        - listitem [ref=f169e28] [cursor=pointer]:
+          - button "Apply Normal Theme Pressed" [ref=f169e29]:
+            - img "Apply Normal Theme" [ref=f169e30]
+            - generic [ref=f169e31]: Pressed
+        - listitem [ref=f169e32] [cursor=pointer]:
+          - button "Apply Grey Theme Not Pressed" [ref=f169e33]:
+            - img "Apply Grey Theme" [ref=f169e34]
+            - generic [ref=f169e35]: Not Pressed
+      - generic:
+        - link "Print this page":
+          - /url: "#"
+          - img "Print this page" [ref=f169e36] [cursor=pointer]
+      - generic [ref=f169e37]:
+        - text: Change Language
+        - link "हिंदी" [ref=f169e38] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=f169e40]:
+    - banner [ref=f169e41]:
+      - link [ref=f169e43] [cursor=pointer]:
+        - /url: /home.aspx
+        - img "Logo of Official website of Reserve Bank of India" [ref=f169e44]
+    - search [ref=f169e45]:
+      - text: Search the Website
+      - textbox "Search the Website" [ref=f169e46]:
+        - /placeholder: Search
+      - status
+      - button "Search" [ref=f169e47] [cursor=pointer]
+    - img "Beti Bachao Beti Padhao Logo" [ref=f169e50]
+  - navigation "Main" [ref=f169e52]:
+    - list [ref=f169e55]:
+      - listitem [ref=f169e56]:
+        - link "Home" [ref=f169e57] [cursor=pointer]:
+          - /url: https://rbi.org.in/home.aspx
+      - listitem [ref=f169e58]:
+        - button "About Us ▼" [ref=f169e59] [cursor=pointer]
+      - listitem [ref=f169e60]:
+        - button "Notification ▼" [ref=f169e61] [cursor=pointer]
+      - listitem [ref=f169e62]:
+        - link "Press Releases" [ref=f169e63] [cursor=pointer]:
+          - /url: /scripts/BS_PressReleaseDisplay.aspx
+      - listitem [ref=f169e64]:
+        - button "Speeches & Media Interactions ▼" [ref=f169e65] [cursor=pointer]
+      - listitem [ref=f169e66]:
+        - button "Publications ▼" [ref=f169e67] [cursor=pointer]
+      - listitem [ref=f169e68]:
+        - button "Legal Framework ▼" [ref=f169e69] [cursor=pointer]
+      - listitem [ref=f169e70]:
+        - button "Research ▼" [ref=f169e71] [cursor=pointer]
+      - listitem [ref=f169e72]:
+        - button "Statistics ▼" [ref=f169e73] [cursor=pointer]
+      - listitem [ref=f169e74]:
+        - button "Regulatory Reporting ▼" [ref=f169e75] [cursor=pointer]
+  - generic [ref=f169e76]:
+    - list [ref=f169e78]:
+      - listitem [ref=f169e79]: Home
+    - generic [ref=f169e80]:
+      - heading "Search result related to '' Online Dispute Resolution System for Digital Payments''" [level=2] [ref=f169e82]
+      - generic:
+        - generic [ref=f169e83]:
+          - generic [ref=f169e84]:
+            - generic [ref=f169e85]:
+              - generic [ref=f169e86] [cursor=pointer]: Keyword to Search
+              - textbox [ref=f169e87]: Online Dispute Resolution System for Digital Payments
+            - link [ref=f169e90] [cursor=pointer]:
+              - /url: SearchUserGuide.aspx
+              - img "Search User Guide" [ref=f169e91]
+              - text: User Guide
+          - generic [ref=f169e92]:
+            - generic [ref=f169e93]:
+              - generic [ref=f169e94] [cursor=pointer]: Search by Keyword
+              - combobox [ref=f169e95]:
+                - option "with the exact phrase"
+                - option "with all of the words" [selected]
+                - option "with at least one of the words"
+            - generic [ref=f169e96]:
+              - generic [ref=f169e97] [cursor=pointer]: Search by Date/Frequently viewed
+              - combobox [ref=f169e98]:
+                - option "Date" [selected]
+                - option "Frequently Viewed"
+            - generic [ref=f169e99]:
+              - generic [ref=f169e100] [cursor=pointer]: Search In
+              - combobox [ref=f169e101]:
+                - option "Title of document"
+                - option "Keyword of document"
+                - option "Content of document" [selected]
+            - generic [ref=f169e102]:
+              - generic [ref=f169e103] [cursor=pointer]: Function
+              - combobox [ref=f169e104]:
+                - option "All" [selected]
+                - option "Monetary Policy"
+                - option "Research and Data"
+                - option "Issuer of Currency"
+                - option "Commercial Banking"
+                - option "Co-operative Banking"
+                - option "Non-Banking"
+                - option "Financial Markets"
+                - option "Financial Inclusion and Development"
+                - option "Consumer Education and Protection"
+                - option "Banker and Debt Manager to Government"
+                - option "Banker to Banks"
+                - option "Foreign Exchange Management"
+                - option "Payment and Settlement Systems"
+                - option "Financial Stability Unit"
+                - option "External Investments and Operations"
+          - generic [ref=f169e105]:
+            - generic [ref=f169e106]:
+              - generic [ref=f169e107] [cursor=pointer]: "Year-wise Search :"
+              - combobox [ref=f169e108]:
+                - option "Select Year"
+                - option "Past 1 Year"
+                - option "Past 3 Year"
+                - option "Past 5 Year"
+                - option "Any Year" [selected]
+            - generic [ref=f169e109]: Or
+            - generic [ref=f169e110]:
+              - generic [ref=f169e111] [cursor=pointer]: "Custom Range :"
+              - generic [ref=f169e112]:
+                - generic [ref=f169e113]:
+                  - textbox "Enter from date in the format DD/MM/YYYY" [ref=f169e114]:
+                    - /placeholder: From Date
+                  - img "Launch Date Picker to enter from date" [ref=f169e115]
+                - generic [ref=f169e116]: To
+                - generic [ref=f169e117]:
+                  - textbox "Enter To date in the format DD/MM/YYYY" [ref=f169e118]:
+                    - /placeholder: To Date
+                  - img "Launch Date Picker to enter to date" [ref=f169e119]
+              - button "Update Result" [ref=f169e122] [cursor=pointer]
+        - generic:
+          - button "All122" [ref=f169e123] [cursor=pointer]
+          - button "AnnualReport16" [ref=f169e124] [cursor=pointer]
+          - button "Bulletin9" [ref=f169e125] [cursor=pointer]
+          - button "FAQs1" [ref=f169e126] [cursor=pointer]
+          - button "Notifications31" [ref=f169e127] [cursor=pointer]
+          - button "Opportunities4" [ref=f169e128] [cursor=pointer]
+          - button "Pressreleases4" [ref=f169e129] [cursor=pointer]
+          - button "Publications22" [ref=f169e130] [cursor=pointer]
+          - button "Reports26" [ref=f169e131] [cursor=pointer]
+          - button "Speeches4" [ref=f169e132] [cursor=pointer]
+          - button "Tenders2" [ref=f169e133] [cursor=pointer]
+        - generic [ref=f169e134]:
+          - generic [ref=f169e135]: 1 to 15 of 122 Records
+          - generic [ref=f169e136]:
+            - generic [ref=f169e137]:
+              - link [ref=f169e138] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/NotificationUser.aspx?Mode=0&Id=13591
+                - heading "Reserve Bank of India (Non-Banking Financial Companies – Digital Payment Security Controls) Directions, 2026" [level=3] [ref=f169e139]
+              - generic [ref=f169e140]: Jul 31, 2026
+            - generic [ref=f169e141]:
+              - link [ref=f169e142] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/NotificationUser.aspx?Mode=0&Id=13615
+                - heading "Reserve Bank of India (Urban Co-operative Banks – Digital Payment Security Controls) Directions, 2026" [level=3] [ref=f169e143]
+              - generic [ref=f169e144]: Jul 31, 2026
+            - generic [ref=f169e145]:
+              - link [ref=f169e146] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/NotificationUser.aspx?Mode=0&Id=13624
+                - heading "Reserve Bank of India (Payments Banks – Digital Payment Security Controls) Directions, 2026" [level=3] [ref=f169e147]
+              - generic [ref=f169e148]: Jul 31, 2026
+            - generic [ref=f169e149]:
+              - link [ref=f169e150] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/NotificationUser.aspx?Mode=0&Id=13625
+                - 'heading "Reserve Bank of India (Payments Banks - Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026" [level=3] [ref=f169e151]'
+              - generic [ref=f169e152]: Jul 31, 2026
+            - generic [ref=f169e153]:
+              - link [ref=f169e154] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/NotificationUser.aspx?Mode=0&Id=13633
+                - heading "Reserve Bank of India (Small Finance Banks – Digital Payment Security Controls) Directions, 2026" [level=3] [ref=f169e155]
+              - generic [ref=f169e156]: Jul 31, 2026
+            - generic [ref=f169e157]:
+              - link [ref=f169e158] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/NotificationUser.aspx?Mode=0&Id=13642
+                - heading "Reserve Bank of India (Commercial Banks – Digital Payment Security Controls) Directions, 2026" [level=3] [ref=f169e159]
+              - generic [ref=f169e160]: Jul 31, 2026
+            - generic [ref=f169e161]:
+              - link [ref=f169e162] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/NotificationUser.aspx?Mode=0&Id=13643
+                - 'heading "Reserve Bank of India (Commercial Banks – Cybersecurity, Technology: Risk, Resilience and Assurance Framework) Directions, 2026" [level=3] [ref=f169e163]'
+              - generic [ref=f169e164]: Jul 31, 2026
+            - generic [ref=f169e165]:
+              - link [ref=f169e166] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/PublicationReportDetails.aspx?ID=1326
+                - 'heading "Chapter III: Regulatory Initiatives in the Financial Sector" [level=3] [ref=f169e167]'
+              - generic [ref=f169e168]: Jun 30, 2026
+            - generic [ref=f169e169]:
+              - link [ref=f169e170] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/PublicationsView.aspx?Id=23813
+                - heading "Payment System Report, December 2025" [level=3] [ref=f169e171]
+              - generic [ref=f169e172]: May 18, 2026
+            - generic [ref=f169e173]:
+              - link [ref=f169e174] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/Bs_viewcontent.aspx?Id=4987
+                - heading "Draft for Comments - Master Direction on Prepaid Payment Instruments (PPIs), 2026" [level=3] [ref=f169e175]
+              - generic [ref=f169e176]: Apr 22, 2026
+            - generic [ref=f169e177]:
+              - link [ref=f169e178] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/NotificationUser.aspx?Mode=0&Id=13374
+                - heading "Digital Payments – E-mandate Framework, 2026" [level=3] [ref=f169e179]
+              - generic [ref=f169e180]: Apr 21, 2026
+            - generic [ref=f169e181]:
+              - link [ref=f169e182] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/PublicationsView.aspx?Id=23810
+                - heading "Discussion Paper - Exploring safeguards in digital payments to curb frauds" [level=3] [ref=f169e183]
+              - generic [ref=f169e184]: Apr 09, 2026
+            - generic [ref=f169e185]:
+              - link [ref=f169e186] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/PublicationsView.aspx?Id=23794
+                - heading "RBI's Functions and Working" [level=3] [ref=f169e187]
+              - generic [ref=f169e188]: Feb 12, 2026
+            - generic [ref=f169e189]:
+              - link [ref=f169e190] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/PublicationsView.aspx?Id=23441
+                - heading "Annual Report of Ombudsman Scheme, 2024-25" [level=3] [ref=f169e191]
+              - generic [ref=f169e192]: Dec 01, 2025
+            - generic [ref=f169e193]:
+              - link [ref=f169e194] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/PublicationReportDetails.aspx?ID=1307
+                - 'heading "National Strategy for Financial Inclusion (NSFI): 2025-30 (Revised)" [level=3] [ref=f169e195]'
+              - generic [ref=f169e196]: Dec 01, 2025
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic:
+              - link:
+                - /url: ""
+                - heading [level=3]
+            - generic [ref=f169e197]:
+              - list [ref=f169e198]:
+                - listitem [ref=f169e199]: "1"
+                - listitem [ref=f169e200]:
+                  - link "2" [ref=f169e201] [cursor=pointer]:
+                    - /url: "\n                javascript:ProcessPaging('2')\n              "
+                - listitem [ref=f169e202]:
+                  - link "3" [ref=f169e203] [cursor=pointer]:
+                    - /url: "\n                javascript:ProcessPaging('3')\n              "
+                - listitem [ref=f169e204]:
+                  - link "4" [ref=f169e205] [cursor=pointer]:
+                    - /url: "\n                javascript:ProcessPaging('4')\n              "
+                - listitem [ref=f169e206]:
+                  - link "5" [ref=f169e207] [cursor=pointer]:
+                    - /url: "\n                javascript:ProcessPaging('5')\n              "
+                - listitem [ref=f169e208]:
+                  - link "6" [ref=f169e209] [cursor=pointer]:
+                    - /url: "\n                javascript:ProcessPaging('6')\n              "
+                - listitem [ref=f169e210]:
+                  - link "7" [ref=f169e211] [cursor=pointer]:
+                    - /url: "\n                javascript:ProcessPaging('7')\n              "
+                - listitem [ref=f169e212]:
+                  - link "8" [ref=f169e213] [cursor=pointer]:
+                    - /url: "\n                javascript:ProcessPaging('8')\n              "
+                - listitem [ref=f169e214]:
+                  - link "9" [ref=f169e215] [cursor=pointer]:
+                    - /url: "\n                javascript:ProcessPaging('9')\n              "
+              - link "Next" [ref=f169e217] [cursor=pointer]:
+                - /url: "               \n                javascript:ProcessPaging('2')\n              "
+  - link "Back to previous page" [ref=f169e219] [cursor=pointer]:
+    - /url: javascript:history.back()
+  - contentinfo [ref=f169e220]:
+    - generic [ref=f169e221]:
+      - generic [ref=f169e222]:
+        - generic [ref=f169e223]:
+          - heading "More Links :" [level=2] [ref=f169e224]
+          - list [ref=f169e225]:
+            - listitem [ref=f169e226]:
+              - link "Bank Holidays" [ref=f169e227] [cursor=pointer]:
+                - /url: /Scripts/HolidayMatrixDisplay.aspx
+            - listitem [ref=f169e228]:
+              - link "Banking Glossary" [ref=f169e229] [cursor=pointer]:
+                - /url: https://shabdavali.rbi.org.in/
+            - listitem [ref=f169e230]:
+              - link "Citizen's Charter" [ref=f169e231] [cursor=pointer]:
+                - /url: /Scripts/CitiChart.aspx
+            - listitem [ref=f169e232]:
+              - link "Complaints" [ref=f169e233] [cursor=pointer]:
+                - /url: /Scripts/Complaints.aspx
+            - listitem [ref=f169e234]:
+              - link "Contact Us" [ref=f169e235] [cursor=pointer]:
+                - /url: /Scripts/contactus.aspx
+            - listitem [ref=f169e236]:
+              - link "COVID-19 Measures" [ref=f169e237] [cursor=pointer]:
+                - /url: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894
+            - listitem [ref=f169e238]:
+              - link "E-LMS" [ref=f169e239] [cursor=pointer]:
+                - /url: https://ncfe.org.in/e-lms
+            - listitem [ref=f169e240]:
+              - link "Events" [ref=f169e241] [cursor=pointer]:
+                - /url: /Scripts/EventsDisplay.aspx
+            - listitem [ref=f169e242]:
+              - link "FAQs" [ref=f169e243] [cursor=pointer]:
+                - /url: /Scripts/FAQDisplay.aspx
+            - listitem [ref=f169e244]:
+              - link "Financial Education" [ref=f169e245] [cursor=pointer]:
+                - /url: https://www.rbi.org.in/FinancialEducation/
+            - listitem [ref=f169e246]:
+              - link "Forms" [ref=f169e247] [cursor=pointer]:
+                - /url: /Scripts/BS_ViewForms.aspx
+            - listitem [ref=f169e248]:
+              - link "IFSC/MICR Codes" [ref=f169e249] [cursor=pointer]:
+                - /url: /Scripts/IFSCMICRDetails.aspx
+            - listitem [ref=f169e250]:
+              - link "Important Websites" [ref=f169e251] [cursor=pointer]:
+                - /url: /Scripts/OtherLinks.aspx
+            - listitem [ref=f169e252]:
+              - link "Opportunities@RBI" [ref=f169e253] [cursor=pointer]:
+                - /url: https://opportunities.rbi.org.in/scripts/index.aspx
+            - listitem [ref=f169e254]:
+              - link "RBI Clarifications" [ref=f169e255] [cursor=pointer]:
+                - /url: /Scripts/rbi_clarification.aspx
+            - listitem [ref=f169e256]:
+              - link "RBI Kehta Hai" [ref=f169e257] [cursor=pointer]:
+                - /url: https://rbikehtahai.rbi.org.in/
+            - listitem [ref=f169e258]:
+              - link [ref=f169e259] [cursor=pointer]:
+                - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh202910042026.pdf
+                - text: RBI’s Vision and Values
+                - img "PDF document" [ref=f169e260]
+                - text: (652 KB)
+            - listitem [ref=f169e261]:
+              - link "Right to Information Act" [ref=f169e262] [cursor=pointer]:
+                - /url: /Scripts/Righttoinfoact.aspx
+            - listitem [ref=f169e263]:
+              - link "Tenders" [ref=f169e264] [cursor=pointer]:
+                - /url: /Scripts/BS_ViewTenders.aspx
+        - generic [ref=f169e265]:
+          - heading "Follow RBI" [level=2] [ref=f169e266]
+          - list [ref=f169e267]:
+            - listitem [ref=f169e268]:
+              - link [ref=f169e269] [cursor=pointer]:
+                - /url: /Scripts/rss.aspx
+                - img "RSS Icon" [ref=f169e270]
+                - text: RSS
+            - listitem [ref=f169e271]:
+              - link [ref=f169e272] [cursor=pointer]:
+                - /url: https://twitter.com/RBI
+                - img "Twitter Icon" [ref=f169e273]
+                - text: Twitter
+            - listitem [ref=f169e274]:
+              - link [ref=f169e275] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA
+                - img "YouTube Icon" [ref=f169e276]
+                - text: YouTube
+            - listitem [ref=f169e277]:
+              - link [ref=f169e278] [cursor=pointer]:
+                - /url: https://instagram.com/reservebankofindia
+                - img "Instagram Icon" [ref=f169e279]
+                - text: Instagram
+            - listitem [ref=f169e280]:
+              - link [ref=f169e281] [cursor=pointer]:
+                - /url: https://www.facebook.com/RBIsays
+                - img "Facebook Icon" [ref=f169e282]
+                - text: Facebook
+            - listitem [ref=f169e283]:
+              - link [ref=f169e284] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/reservebankofindia
+                - img "LinkedIn Icon" [ref=f169e285]
+                - text: LinkedIn
+          - link [ref=f169e286] [cursor=pointer]:
+            - /url: https://www.india.gov.in
+            - img "National Portal of India logo" [ref=f169e287]
+      - generic [ref=f169e290]:
+        - generic [ref=f169e291]: © Reserve Bank of India. All Rights Reserved.
+        - generic [ref=f169e292]:
+          - link "Sitemap" [ref=f169e293] [cursor=pointer]:
+            - /url: /Scripts/sitemap.aspx
+          - text: "|"
+          - link "Disclaimer" [ref=f169e294] [cursor=pointer]:
+            - /url: /Scripts/Disclaimer.aspx
+        - generic [ref=f169e296]: Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in
+        - generic [ref=f169e297]: "Website last updated date: Aug 25, 2026"
+        - link "Web Information Manager" [ref=f169e300] [cursor=pointer]:
+          - /url: https://www.rbi.org.in/scripts/wim.aspx
+        - generic [ref=f169e301]:
+          - link [ref=f169e302] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf
+            - text: Accessibility Statement
+            - img "PDF - Accessibility Statement" [ref=f169e303]
+            - text: (133 KB)
+          - text: "|"
+          - link "Screen Reader and Accessibility Help" [ref=f169e304] [cursor=pointer]:
+            - /url: /scripts/ScreenReader.aspx
+        - generic [ref=f169e306]: "Supports: Google Chrome 147+ | Firefox 150+ | Microsoft Edge Version 147+ | Safari 17+"

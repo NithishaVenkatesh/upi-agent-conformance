@@ -1,0 +1,521 @@
+- generic [active] [ref=f153e1]:
+  - generic [ref=f153e2]:
+    - generic [ref=f153e4]:
+      - link "Skip to main content" [ref=f153e6] [cursor=pointer]:
+        - /url: "#mainsection"
+      - generic [ref=f153e7]:
+        - list:
+          - listitem [ref=f153e8]:
+            - button "Increase Letter Spacing Not Pressed" [ref=f153e9] [cursor=pointer]:
+              - img "Increase Letter Spacing" [ref=f153e10]
+              - generic [ref=f153e11]: Not Pressed
+          - listitem [ref=f153e12]:
+            - button "Increase Font Size Not Pressed" [ref=f153e13] [cursor=pointer]:
+              - img "Increase Font Size" [ref=f153e14]
+              - generic [ref=f153e15]: Not Pressed
+          - listitem [ref=f153e16]:
+            - button "Regular Font Size Pressed" [ref=f153e17] [cursor=pointer]:
+              - img "Regular Font Size" [ref=f153e18]
+              - generic [ref=f153e19]: Pressed
+          - listitem [ref=f153e20]:
+            - button "Decrease Font Size Not Pressed" [ref=f153e21] [cursor=pointer]:
+              - img "Decrease Font Size" [ref=f153e22]
+              - generic [ref=f153e23]: Not Pressed
+        - list:
+          - listitem [ref=f153e24] [cursor=pointer]:
+            - button "Apply Dark Theme Not Pressed" [ref=f153e25]:
+              - img "Apply Dark Theme" [ref=f153e26]
+              - generic [ref=f153e27]: Not Pressed
+          - listitem [ref=f153e28] [cursor=pointer]:
+            - button "Apply Normal Theme Pressed" [ref=f153e29]:
+              - img "Apply Normal Theme" [ref=f153e30]
+              - generic [ref=f153e31]: Pressed
+          - listitem [ref=f153e32] [cursor=pointer]:
+            - button "Apply Grey Theme Not Pressed" [ref=f153e33]:
+              - img "Apply Grey Theme" [ref=f153e34]
+              - generic [ref=f153e35]: Not Pressed
+        - generic:
+          - link "Print this page":
+            - /url: "#"
+            - img "Print this page" [ref=f153e36] [cursor=pointer]
+        - generic [ref=f153e37]:
+          - text: Change Language
+          - link "हिंदी" [ref=f153e38] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=f153e40]:
+      - banner [ref=f153e41]:
+        - link [ref=f153e43] [cursor=pointer]:
+          - /url: /home.aspx
+          - img "Logo of Official website of Reserve Bank of India" [ref=f153e44]
+      - search [ref=f153e45]:
+        - text: Search the Website
+        - textbox "Search the Website" [ref=f153e46]:
+          - /placeholder: Search
+        - button "Search" [ref=f153e47] [cursor=pointer]
+      - img "Beti Bachao Beti Padhao Logo" [ref=f153e50]
+    - navigation "Main" [ref=f153e52]:
+      - list [ref=f153e55]:
+        - listitem [ref=f153e56]:
+          - link "Home" [ref=f153e57] [cursor=pointer]:
+            - /url: https://rbi.org.in/home.aspx
+        - listitem [ref=f153e58]:
+          - button "About Us ▼" [ref=f153e59] [cursor=pointer]
+        - listitem [ref=f153e60]:
+          - button "Notification ▼" [ref=f153e61] [cursor=pointer]
+        - listitem [ref=f153e62]:
+          - link "Press Releases" [ref=f153e63] [cursor=pointer]:
+            - /url: /scripts/BS_PressReleaseDisplay.aspx
+        - listitem [ref=f153e64]:
+          - button "Speeches & Media Interactions ▼" [ref=f153e65] [cursor=pointer]
+        - listitem [ref=f153e66]:
+          - button "Publications ▼" [ref=f153e67] [cursor=pointer]
+        - listitem [ref=f153e68]:
+          - button "Legal Framework ▼" [ref=f153e69] [cursor=pointer]
+        - listitem [ref=f153e70]:
+          - button "Research ▼" [ref=f153e71] [cursor=pointer]
+        - listitem [ref=f153e72]:
+          - button "Statistics ▼" [ref=f153e73] [cursor=pointer]
+        - listitem [ref=f153e74]:
+          - button "Regulatory Reporting ▼" [ref=f153e75] [cursor=pointer]
+    - generic [ref=f153e76]:
+      - main [ref=f153e77]:
+        - navigation "Breadcrumb" [ref=f153e78]:
+          - list [ref=f153e79]:
+            - listitem [ref=f153e80]:
+              - link "Home" [ref=f153e81] [cursor=pointer]:
+                - /url: ../Home.aspx
+            - listitem [ref=f153e83]: Notifications
+        - generic [ref=f153e86]:
+          - heading "Notifications" [level=1] [ref=f153e87]
+          - generic [ref=f153e89]:
+            - link [ref=f153e90] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT16738E653AADCEC4217BEFFA92C050F69AD.PDF
+              - img "PDF - Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Third Amendment Directions, 2026" [ref=f153e91]
+            - text: (354 kb)
+            - heading "Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Third Amendment Directions, 2026" [level=2] [ref=f153e92]
+            - table [ref=f153e93]:
+              - rowgroup [ref=f153e94]:
+                - row [ref=f153e95]:
+                  - cell [ref=f153e96]:
+                    - paragraph [ref=f153e97]: RBI/2026-27/167 DOR.MCS.REC.No.130/01-01-032/2026-27
+                    - paragraph [ref=f153e98]: June 24, 2026
+                    - paragraph [ref=f153e99]: Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Third Amendment Directions, 2026
+                    - paragraph [ref=f153e100]:
+                      - text: Instructions on ‘Limiting Liability of Customers in Unauthorised Electronic Banking Transactions’ for Commercial Banks (other than Small Finance Banks, Payments Banks, Regional Rural Banks, and Local Area Banks) (hereinafter referred to collectively as “banks” and individually as a “bank”) have been consolidated in the
+                      - link "Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Directions, 2025" [ref=f153e101] [cursor=pointer]:
+                        - /url: https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13140
+                      - text: . On a review, it has been decided to issue revised instructions on the subject.
+                    - paragraph [ref=f153e102]: 2. In exercise of the powers conferred by Section 35A of the Banking Regulation Act,1949, the Reserve Bank, being satisfied that it is necessary and expedient in public interest so to do, hereby issues the Amendment Directions hereinafter specified.
+                    - paragraph [ref=f153e103]: 3. Short Title and Commencement
+                    - paragraph [ref=f153e104]: (1) These Directions shall be called the Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Third Amendment Directions, 2026.
+                    - paragraph [ref=f153e105]: (2) These Directions shall apply in cases of electronic banking transactions undertaken by customers of a bank on or after January 1, 2027.
+                    - paragraph [ref=f153e106]:
+                      - text: 4. These Amendment Directions shall modify the
+                      - link "Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Directions, 2025" [ref=f153e107] [cursor=pointer]:
+                        - /url: https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13140
+                      - text: "as under:"
+                    - paragraph [ref=f153e108]: "(1) In paragraph 4, the following definitions shall be inserted after sub-paragraph 4(6), namely:"
+                    - paragraph [ref=f153e109]:
+                      - text: “4(6.1A) Card Not Present transaction shall have the same meaning as given in the
+                      - link "Reserve Bank of India (Authentication Mechanisms for Digital Payment Transactions) Directions, 2025" [ref=f153e110] [cursor=pointer]:
+                        - /url: https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12898
+                      - text: .
+                    - paragraph [ref=f153e111]:
+                      - text: 4(6.1B) Card Present transaction shall have the same meaning as given in the
+                      - link "Reserve Bank of India (Authentication Mechanisms for Digital Payment Transactions) Directions, 2025" [ref=f153e112] [cursor=pointer]:
+                        - /url: https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12898
+                      - text: .”.
+                    - paragraph [ref=f153e113]: "(2) In paragraph 4, the following definition shall be inserted after sub-paragraph 4(10C), namely:"
+                    - paragraph [ref=f153e114]: “4(10D) Electronic banking transaction (EBT) shall have the same meaning as ‘electronic funds transfer’ given in Section 2(c) of the Payment and Settlement Systems Act, 2007 and inter alia include both Card Not Present and Card Present transactions.”.
+                    - paragraph [ref=f153e115]: "(3) In paragraph 4, the following definition shall be inserted after sub-paragraph 4(15), namely:"
+                    - paragraph [ref=f153e116]: “4(15A) Fraudulent electronic banking transaction (Fraudulent EBT) means an EBT executed by a third-party using the credentials obtained from the customer through fraudulent means or executed by the customer by granting approval under coercion or duress from the third-party, and / or an unauthorised EBT as defined at paragraph 4(26B) below.”.
+                    - paragraph [ref=f153e117]: "(4) In paragraph 4, the following definitions shall be inserted after sub-paragraph 4(20A), namely:"
+                    - paragraph [ref=f153e118]: "“4(20B) Negligence by a bank inter alia includes the following actions by the bank:"
+                    - paragraph [ref=f153e119]: (i) not putting in place the mandated systems and procedures to ensure safety and security of EBTs; or
+                    - paragraph [ref=f153e120]: (ii) not sending mandatory alerts for EBTs; or
+                    - paragraph [ref=f153e121]: (iii) not providing 24x7 channels for reporting of fraudulent EBTs or loss of debit / credit card; or
+                    - paragraph [ref=f153e122]: (iv) not acting diligently upon a customer notification regarding unauthorised EBT(s) or loss of debit / credit card; or
+                    - paragraph [ref=f153e123]: (v) system malfunctions / security breaches / internal frauds leading to unauthorised EBTs.
+                    - paragraph [ref=f153e124]: "4(20C) Negligence by a customer inter alia includes the following actions by the customer:"
+                    - paragraph [ref=f153e125]: (i) failing to exercise reasonable care in usage of credentials such as PIN, password, OTP or other details (e.g., providing credentials for carrying out transactions to another person, whether intentionally or otherwise, writing down and storing the PIN with a debit / credit card, etc.); or
+                    - paragraph [ref=f153e126]: (ii) not notifying the bank promptly after finding out about a fraudulent EBT, or loss of a debit / credit card; or
+                    - paragraph [ref=f153e127]: (iii) not paying attention to specific, directed and clear warnings from the bank that a prospective transaction is likely a scam; or
+                    - paragraph [ref=f153e128]: (iv) downloading malicious apps; or
+                    - paragraph [ref=f153e129]: (v) failing to update her / his registered mobile number / email address with the bank in case of change.”.
+                    - paragraph [ref=f153e130]: "(5) In paragraph 4, the following definition shall be inserted after sub-paragraph 4(25), namely:"
+                    - paragraph [ref=f153e131]: “4(25A) Shadow reversal means the temporary / provisional credit, of the amount involved in fraudulent EBT(s), provided by a bank to a customer on receipt of notification from the customer, before the completion of internal investigation or settlement of insurance claim, if any, or any other settlement to be made with other parties. While the customer shall not be allowed to use such amount, he / she will not bear any additional burden of interest / charges.”.
+                    - paragraph [ref=f153e132]: "(6) In paragraph 4, the following definition shall be inserted after sub-paragraph 4(26), namely:"
+                    - paragraph [ref=f153e133]: “4(26.1A) Third-party breach means a situation where the deficiency lies neither with the bank nor with the customer but lies elsewhere in the system and includes deficiency on the part of an intermediary such as a Third-Party Application Provider (TPAP), Payment Aggregator (PA), Payment Gateway (PG), Telecom Service Provider (TSP), etc.”.
+                    - paragraph [ref=f153e134]: "(7) In paragraph 4, the following definition shall be inserted after sub-paragraph 4(26A), namely:"
+                    - paragraph [ref=f153e135]: “4(26B) Unauthorised electronic banking transaction (Unauthorised EBT) means an EBT which is not authorised by a customer and inter alia includes an EBT occurring on account of negligence by a bank and / or a third-party breach.”.
+                    - paragraph [ref=f153e136]: "(8) In Chapter IV on ‘Customer Guidance and Protection’, the section D. Limiting Liability of Customers in Unauthorised Electronic Banking Transactions and paragraphs 64 to 76 thereunder shall be deleted and substituted with the following section and paragraphs, namely:"
+                    - paragraph [ref=f153e137]: “DA. Customer Protection in Fraudulent Electronic Banking Transactions
+                    - paragraph [ref=f153e138]: DA.1 Policy
+                    - paragraph [ref=f153e139]: "76A. A bank, keeping in view the instructions contained in these Directions, shall formulate a policy to cover aspects of customer protection in EBTs, such as:"
+                    - paragraph [ref=f153e140]: (1) channels for alerting customers about occurrence of EBTs and reporting of fraudulent EBTs;
+                    - paragraph [ref=f153e141]: (2) define the rights and obligations of customers in case of EBTs, including fraudulent EBTs, after taking into account the risks to customers arising out of customer negligence / bank negligence / banking system frauds / third-party breaches in specified scenarios;
+                    - paragraph [ref=f153e142]: (3) timeline for resolution of complaints and disclosure to customer; and
+                    - paragraph [ref=f153e143]: (4) mechanism for creating customer awareness on their rights and obligations in EBTs along with the risks involved.
+                    - paragraph [ref=f153e144]: The policy must be transparent, non-discriminatory and shall be displayed on the bank’s website along with the details of grievance handling / escalation procedure.
+                    - paragraph [ref=f153e145]: "76B. A bank shall design its systems and procedures to make customers feel safe about carrying out EBTs. To achieve this, the bank shall put in place:"
+                    - paragraph [ref=f153e146]:
+                      - text: (1) appropriate systems and procedures to ensure safety and security of EBTs carried out by customers, including those mandated under the
+                      - link "Master Direction on Digital Payment Security Controls" [ref=f153e147] [cursor=pointer]:
+                        - /url: https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12032
+                      - text: ","
+                      - link "Reserve Bank of India (Authentication Mechanisms for Digital Payment Transactions) Directions, 2025" [ref=f153e148] [cursor=pointer]:
+                        - /url: https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12898
+                      - text: ", and other relevant instructions issued by the Reserve Bank on related matters, as amended from time to time;"
+                    - paragraph [ref=f153e149]: (2) robust and dynamic fraud detection and prevention mechanism;
+                    - paragraph [ref=f153e150]: (3) mechanism to assess the risks (for example, gaps in the bank’s existing systems) arising from fraudulent EBTs and measure the liabilities arising out of such events;
+                    - paragraph [ref=f153e151]: (4) appropriate measures to mitigate the risks and protect themselves against the liabilities arising therefrom; and
+                    - paragraph [ref=f153e152]: (5) a system of continually and repeatedly making the customers aware about evolving electronic banking and payments related frauds and the ways to protect themselves from such frauds.
+                    - paragraph [ref=f153e153]: DA.2 Alerts for EBTs
+                    - paragraph [ref=f153e154]: 76C. A bank shall ask its customer, availing the facility of EBTs (other than ATM cash withdrawals), to mandatorily provide her / his mobile number and wherever available, email address. The bank shall verify the mobile number and email address provided by the customer at the time of onboarding and subsequently at pre-defined intervals prescribed in its policy.
+                    - paragraph [ref=f153e155]: 76D. A bank shall mandatorily send instant SMS alerts to its customers for all EBTs of value more than ₹500. For EBTs of value up to ₹500, a bank may decide to send instant SMS as per its internal policy but without any charge to the customer.
+                    - paragraph [ref=f153e156]: 76E. A bank shall send email alerts for all EBTs, wherever email address is provided by the customer.
+                    - paragraph [ref=f153e157]: 76F. SMS and email alerts as above shall be in addition to any other form of alerts, e.g., in-app / push notifications, instant messaging, etc., which the bank may send as per its internal policy. Further, such transaction alerts shall contain relevant details pertaining to the EBT such as account / card number, amount, date, time, transaction channel, beneficiary / point of transaction, etc.
+                    - paragraph [ref=f153e158]: DA.3 Reporting of fraudulent EBTs by customers to banks
+                    - paragraph [ref=f153e159]:
+                      - text: 76G. A bank shall, from time to time, advise its customers to report any fraudulent EBT to the bank and also lodge a complaint through
+                      - link "National Cyber Crime Reporting Portal" [ref=f153e160] [cursor=pointer]:
+                        - /url: https://cybercrime.gov.in/Default.aspx
+                      - text: "or National Cyber Crime Helpline (1930) at the earliest. The bank shall also inform its customers that the longer the time taken to notify the bank, the higher will be the risk of loss to customer and also to the bank. To facilitate the same, the bank shall:"
+                    - paragraph [ref=f153e161]: (1) provide customers with 24x7 access through channels such as phone banking, SMS, instant messaging, dedicated email address, IVR, a dedicated toll-free helpline, reporting to home branch, etc., for reporting fraudulent EBTs that have taken place and / or loss or theft of debit / credit card, etc.;
+                    - paragraph [ref=f153e162]: (2) provide a number in the transaction alert SMS itself, to which the customer can immediately send an SMS to notify her / his objection, if any; and
+                    - paragraph [ref=f153e163]: (3) provide a direct link on the home page of its website and mobile application, if available, for reporting fraudulent EBTs.
+                    - paragraph [ref=f153e164]: 76H. The bank’s communication systems, deployed for sending alerts and receiving the responses thereto, shall record the date and time of delivery of the message and receipt of customer’s response, if any.
+                    - paragraph [ref=f153e165]: 76I. A bank shall ensure that its system registers the reporting of any fraudulent EBT as a complaint and sends an immediate acknowledgement to the customer, along with the complaint number and the date and time of receipt of the complaint, through any means such as message to the registered mobile number, email to the registered email address, in-app notification (if the complaint is registered through app), etc.
+                    - paragraph [ref=f153e166]:
+                      - text: 76J. On receipt of a complaint regarding any fraudulent EBT from a customer, a bank shall take prompt steps to prevent further unauthorised EBTs in the customer’s account(s) under advice to him / her. Further, the bank shall also advise the customer to lodge a complaint on
+                      - link "National Cyber Crime Reporting Portal" [ref=f153e167] [cursor=pointer]:
+                        - /url: https://cybercrime.gov.in/Default.aspx
+                      - text: or National Cyber Crime Helpline (1930) at the earliest.
+                    - paragraph [ref=f153e168]: DA.4 Processing of complaints and establishing liability in fraudulent EBTs
+                    - paragraph [ref=f153e169]: 76K. The burden of proving customer liability in complaints involving fraudulent EBTs shall lie on the bank. Accordingly, it shall examine and classify each complaint under the relevant categories of EBTs as defined in these Directions.
+                    - paragraph [ref=f153e170]: 76L. A customer shall be entitled to zero liability and reversal of the transaction in cases where the fraudulent EBT occurs due to negligence / deficiency on the part of the bank, irrespective of whether the transaction is reported by the customer or not.
+                    - paragraph [ref=f153e171]: 76M. A customer shall be entitled to zero liability and reversal of the transaction in cases of third-party breach where the customer reports the unauthorised fraudulent EBT to the bank within five calendar days from the date of its occurrence. In cases of third-party breach reported to the bank after five calendar days, the customer’s liability shall be determined as per the bank’s policy.
+                    - paragraph [ref=f153e172]: 76N. In cases where the fraudulent EBT occurs due to negligence by the customer, he / she shall be liable for the loss incurred by him / her, to the extent of loss not eligible for compensation as per the mechanism detailed at paragraph 76T below, until he / she reports the fraudulent EBT to the bank.
+                    - paragraph [ref=f153e173]: 76O. Loss arising from any unauthorised transaction occurring after the reporting of the fraudulent EBT by a customer to a bank shall be borne by the bank.
+                    - paragraph [ref=f153e174]: 76P. A bank may also, at its discretion, decide to waive off any customer liability in case of fraudulent EBTs.
+                    - paragraph [ref=f153e175]: 76Q. A bank shall ensure that a complaint arising out of fraudulent EBT(s) is examined, liability therein is established and response, as applicable, is issued to the customer within such time as may be specified in the bank’s policy. However, this timeline shall not exceed 45 calendar days from the date of receipt of the complaint by the bank in case of a complaint arising out of domestic fraudulent EBT(s) and 60 calendar days from the date of receipt of the complaint by the bank in case of a complaint arising out of cross-border fraudulent EBT(s). In cases where the customer is entitled to zero liability as provided at paragraphs 76L and 76M above, the response to the customer shall also include details of reversal of the transaction(s) concerned. In cases falling under paragraph 76N above, the response, in eligible cases, shall include details regarding the compensation mechanism prescribed at paragraph 76T below.
+                    - paragraph [ref=f153e176]: 76R. In cases where the bank is required to reverse a fraudulent EBT, it shall ensure that the reversal is value dated to its original date of occurrence and the customer does not suffer loss of interest or bear any additional burden of interest / charges, as applicable. Further, in case of a complaint arising out of fraudulent EBT(s) in a credit card, a bank shall provide shadow reversal equivalent to the amount involved in the fraudulent EBT(s) within five calendar days from the date of receipt of notification from the customer.
+                    - paragraph [ref=f153e177]: 76S. In case of rejected complaints, i.e., in cases where customer liability is established, a bank shall disclose the reason for such rejection and with the supporting details, if any, to the customer.
+                    - paragraph [ref=f153e178]: DA.5 Compensation for small value fraudulent EBTs
+                    - paragraph [ref=f153e179]: "76T. (1) A bona fide victim, being an individual person, including a sole proprietor, and having lodged a complaint involving gross loss of an amount up to ₹50,000 on account of fraudulent EBT(s) covered under paragraph 76N above, shall be compensated 85 per cent of the net loss amount (calculated after reducing recoveries made, whether before or after paying the compensation, from the gross loss amount), or ₹25,000, whichever is less, once during her / his lifetime, subject to the following:"
+                    - paragraph [ref=f153e180]: (a) loss is established to be bona fide, as per the internal processes covered in the bank’s policy, and
+                    - paragraph [ref=f153e181]:
+                      - text: (b) the victim has reported the fraudulent EBT(s) on the
+                      - link "National Cyber Crime Reporting Portal" [ref=f153e182] [cursor=pointer]:
+                        - /url: https://cybercrime.gov.in/Default.aspx
+                      - text: or National Cyber Crime Helpline (1930) and to the bank within five calendar days from its occurrence.
+                    - paragraph [ref=f153e183]: "Explanation: In case of joint account(s), only one of the account holders may submit a claim for compensation. The customer availing compensation as a joint account holder shall not be eligible for claiming compensation in her / his capacity as a single account holder in future and vice versa."
+                    - paragraph [ref=f153e184]: (2) (a) For a complaint related to fraudulent EBT(s) involving a loss amount of less than ₹29,412, where a compensation of 85 per cent is paid, 65 per cent shall be borne by the Reserve Bank, 10 per cent by the customer’s bank and the remaining 10 per cent by the beneficiary bank in case of a complaint arising out of domestic fraudulent EBT(s), whereas in case of a complaint arising out of cross-border fraudulent EBT(s), 65 per cent shall be borne by the Reserve Bank and the remaining 20 per cent by the customer’s bank.
+                    - paragraph [ref=f153e185]: (b) For a complaint related to fraudulent EBT(s) involving a loss amount of ₹29,412 or more but up to ₹50,000, where a compensation of ₹25,000 is paid, the Reserve Bank, the customer’s bank and the beneficiary bank shall contribute ₹19,118, ₹2,941 and ₹2,941 respectively towards the compensation in case of a complaint arising out of domestic fraudulent EBT(s), whereas in case of a complaint arising out of cross-border fraudulent EBT(s), the Reserve Bank and the customer’s bank shall contribute ₹19,118 and ₹5,882 respectively towards the compensation.
+                    - paragraph [ref=f153e186]: "Explanation: Beneficiary bank refers to the bank holding the account where the fraudulently debited amount is first credited. In cases where there is more than one beneficiary bank, the applicable compensation to be borne by each bank shall be in the proportion of the amount credited to their respective account(s)."
+                    - paragraph [ref=f153e187]: (3) In case any recovery is made in relation with a complaint involving fraudulent EBT(s) after the compensation is paid, the customer’s bank shall recalculate the compensation payable on the net loss amount and accordingly make additional payment from the recovered amount after factoring in the excess amount of compensation, if any, paid before the recovery.
+                    - paragraph [ref=f153e188]: "Illustration 1: Amount reported lost under the complaint arising out of domestic fraudulent EBT(s) – ₹40,000"
+                    - paragraph [ref=f153e189]: Recovery made & credited to customer before compensating – ₹15,000
+                    - paragraph [ref=f153e190]: Net loss faced by the customer - ₹25,000
+                    - paragraph [ref=f153e191]: Compensation to be paid to the customer (85% of net loss) – ₹21,250
+                    - paragraph [ref=f153e192]: Contribution of Reserve Bank - ₹16,250
+                    - paragraph [ref=f153e193]: Contribution of customer’s bank and beneficiary bank - ₹2,500 each
+                    - paragraph [ref=f153e194]: "Illustration 2: Amount reported lost under the complaint arising out of domestic fraudulent EBT(s) – ₹40,000"
+                    - paragraph [ref=f153e195]: Compensation paid to the customer – ₹25,000
+                    - paragraph [ref=f153e196]: Contribution of Reserve Bank - ₹19,118
+                    - paragraph [ref=f153e197]: Contribution of customer’s bank and beneficiary bank - ₹2,941 each
+                    - paragraph [ref=f153e198]: Recovery made - ₹40,000
+                    - paragraph [ref=f153e199]: "Apportionment of recovery shall be as under:"
+                    - paragraph [ref=f153e200]: To customer – ₹15,000
+                    - paragraph [ref=f153e201]: To Reserve Bank - ₹19,118
+                    - paragraph [ref=f153e202]: To customer’s bank and beneficiary bank – ₹2,941 each
+                    - paragraph [ref=f153e203]: "Illustration 3: Amount reported lost under the complaint arising out of domestic fraudulent EBT(s) – ₹40,000"
+                    - paragraph [ref=f153e204]: Compensation paid to the customer – ₹25,000
+                    - paragraph [ref=f153e205]: Contribution of Reserve Bank - ₹19,118
+                    - paragraph [ref=f153e206]: Contribution of customer’s bank and beneficiary bank - ₹2,941 each
+                    - paragraph [ref=f153e207]: Recovery made after compensation is paid - ₹15,000
+                    - paragraph [ref=f153e208]: Net loss - ₹25,000
+                    - paragraph [ref=f153e209]: Compensation payable – ₹21,250
+                    - paragraph [ref=f153e210]: Additional amount payable - ₹15,000 + ₹21,250 - ₹25,000 = ₹11,250
+                    - paragraph [ref=f153e211]: "Apportionment of recovery shall be as under:"
+                    - paragraph [ref=f153e212]: To customer – ₹11,250
+                    - paragraph [ref=f153e213]: To Reserve Bank - ₹19,118 – 16,250 = ₹2,868
+                    - paragraph [ref=f153e214]: To customer’s bank and beneficiary bank – ₹2941 - ₹2,500 = ₹441 each
+                    - paragraph [ref=f153e215]:
+                      - text: (4) Based on its examination carried out in accordance with paragraph 76Q, where the customer’s bank is satisfied that the complaint is bona fide, it shall provide the customer an application form as per the format provided at
+                      - link "Annex II(1)" [ref=f153e216] [cursor=pointer]:
+                        - /url: "#AN1"
+                      - text: to claim compensation for the loss suffered by her / him.
+                    - paragraph [ref=f153e217]: (5) The customer’s bank shall, within five calendar days of receipt of the application from a customer, compensate the customer as given above.
+                    - paragraph [ref=f153e218]:
+                      - text: (6) The customer’s bank shall seek reimbursement of the amount receivable from the Reserve Bank and the beneficiary bank(s) on a quarterly basis by submitting an application to the Reserve Bank as per the format provided at
+                      - link "Annex II(2)" [ref=f153e219] [cursor=pointer]:
+                        - /url: "#AN2"
+                      - text: . The application for reimbursement, duly signed by a Senior Executive identified by the Top Management of the bank, shall be submitted through email to
+                      - link "dea.fund@rbi.org.in" [ref=f153e220] [cursor=pointer]:
+                        - /url: mailto:dea.fund@rbi.org.in
+                      - text: within 30 calendar days from the end of the respective quarter. The Reserve Bank shall settle the claims from banks on a net basis i.e., the reimbursable amount to a bank shall be determined by deducting the amount owed by the bank (as beneficiary bank) to other banks from the amount claimed by it for reimbursement.
+                    - paragraph [ref=f153e221]: (7) The claims made by a bank to the Reserve Bank shall be subjected to internal audit / inspection, as per the bank’s internal guidelines.
+                    - paragraph [ref=f153e222]: 76U. The compensation shall be payable for losses incurred on fraudulent EBTs occurring up to one year from the effective date of these Directions. A bank shall retain the records, related to the compensation paid and amount claimed by it for reimbursement under the mechanism for audit, supervision and review purposes, for two years from the date of closure of the compensation mechanism.
+                    - paragraph [ref=f153e223]: DA.6 Monitoring mechanism
+                    - paragraph [ref=f153e224]: 76V. A bank shall put in place a suitable mechanism and structure for periodic reporting of complaints involving fraudulent EBTs to the Board or one of its Committees identified for the purpose. The reporting shall, inter alia, include volume / number of cases and the aggregate value involved and distribution across various categories of cases, viz., card present transactions, card not present transactions, internet banking, mobile banking, ATM transactions, etc. The Board or its Committee shall periodically review the fraudulent EBTs reported by customers, the action taken thereon, functioning of the grievance redressal and compensation mechanism, etc., and take appropriate measures to improve the systems and procedures.”.
+                    - paragraph [ref=f153e225]: "(9) In Chapter IV on ‘Customer Guidance and Protection’, paragraph 85 shall be substituted by the following, namely:"
+                    - paragraph [ref=f153e226]: “A bank shall not levy any charges on its customers for SMS sent in compliance to extant regulations or those sent for promotional / marketing / customer awareness purposes. In case of SMS sent for other purposes, the bank may levy or waive charges as per its internal policy.”.
+                    - paragraph [ref=f153e227]: "(10) In Annexures, the following Annexures shall be inserted after Annex II, namely:"
+                    - paragraph [ref=f153e228]: “Annex II(1) - Application Form for Compensation for Small Value Fraudulent Electronic Banking Transactions
+                    - text: "The Branch Manager, ______________________ Bank ______________________Branch Date: _______________"
+                    - paragraph [ref=f153e229]: Madam/ Dear Sir,
+                    - paragraph [ref=f153e230]: Application for Compensation for Small Value Fraudulent Electronic Banking Transactions
+                    - paragraph [ref=f153e231]:
+                      - text: Please refer to my complaint lodged with National Cyber Crime Reporting Portal (
+                      - link "https://cybercrime.gov.in/Default.aspx" [ref=f153e232] [cursor=pointer]:
+                        - /url: https://cybercrime.gov.in/Default.aspx
+                      - text: ) / National Cyber Crime Helpline (1930) with reference / complaint no. _________________ (copy enclosed) regarding the fraudulent electronic banking transaction(s) in my bank account / credit card no. _______________________.
+                    - paragraph [ref=f153e233]: 2. I understand that compensation for small value fraudulent electronic banking transactions is available to an individual only once and declare that I have not previously availed such a compensation from any bank.
+                    - paragraph [ref=f153e234]: 3. As per the advice dated ________________ received from the bank, an amount of ₹__________________ (Rupees ____________________________________ only) may please be credited to my aforesaid bank account / credit card.
+                    - paragraph [ref=f153e235]: 4. I understand that in case of my claim being established as ‘false’ or ‘repeated claims’ in future, I will be liable to refund the compensation received.
+                    - paragraph [ref=f153e236]: 5. I authorise the bank to debit the additional amount received by me over and above the amount lost in the fraudulent electronic banking transaction(s) if any subsequent recovery is credited to my account.
+                    - paragraph [ref=f153e237]: "Signature of the applicant:"
+                    - paragraph [ref=f153e238]: "Name of applicant: _____________________"
+                    - paragraph [ref=f153e239]: "Unique Customer Identification Code: _________________________"
+                    - paragraph [ref=f153e240]: "Address: _____________________________"
+                    - paragraph [ref=f153e241]: __________________________________
+                    - paragraph [ref=f153e242]: __________________________________
+                    - paragraph [ref=f153e243]: __________________________________
+                    - paragraph [ref=f153e244]: "Contact No.: _______________________"
+                    - paragraph [ref=f153e245]: "Email Address: _____________________"
+                    - paragraph [ref=f153e246]: FOR OFFICE USE
+                    - paragraph [ref=f153e247]: (may be modified by the bank as per its own requirement)
+                    - separator [ref=f153e248]
+                    - paragraph [ref=f153e249]: Annex II(2) - Compensation for Small Value Fraudulent Electronic Banking Transactions – Claim Form for Banks
+                    - paragraph [ref=f153e250]: "Name of the Bank: DEA Fund Code: Claim for the Quarter Ended: Mar’ 27/ Jun’ 27/ Sep’ 27/ Dec’ 27 (Put ✓) Bank’s Current Account No. Maintained with RBI / Sponsor Bank: IFSC:"
+                    - paragraph [ref=f153e251]: "I. Details of compensation paid by the bank to customers during the quarter:"
+                    - table [ref=f153e252]:
+                      - rowgroup [ref=f153e253]:
+                        - row [ref=f153e254]:
+                          - cell "Category of cases (A)" [ref=f153e255]
+                          - cell "No. of customers compensated (B)" [ref=f153e256]
+                          - cell "Total amount involved in the complaints (in ₹) (C)" [ref=f153e257]
+                          - cell "Amount of compensation paid (in ₹) (D)" [ref=f153e258]
+                          - cell "Amount receivable from RBI (in ₹) (E = 76.48% of (D))" [ref=f153e259]
+                          - cell "Amount receivable from beneficiary banks (in ₹) (F = 11.76% of (D))" [ref=f153e260]
+                          - cell "Details of amount receivable from beneficiary banks at (F) – Bank-wise" [ref=f153e261]
+                        - row [ref=f153e262]:
+                          - cell "Domestic Fraudulent EBTs" [ref=f153e263]
+                          - cell [ref=f153e264]
+                          - cell [ref=f153e265]
+                          - cell [ref=f153e266]
+                          - cell [ref=f153e267]
+                          - cell [ref=f153e268]
+                          - cell "Name of Bank" [ref=f153e269]
+                          - cell [ref=f153e270]:
+                            - text: DEA Fund Code
+                            - superscript [ref=f153e271]:
+                              - link "1" [ref=f153e272] [cursor=pointer]:
+                                - /url: "#FN1"
+                          - cell "Amount Receivable (in ₹)" [ref=f153e273]
+                        - row [ref=f153e274]:
+                          - cell [ref=f153e275]
+                          - cell [ref=f153e276]
+                          - cell [ref=f153e277]
+                        - row [ref=f153e278]:
+                          - cell [ref=f153e279]
+                          - cell [ref=f153e280]
+                          - cell [ref=f153e281]
+                        - row [ref=f153e282]:
+                          - cell [ref=f153e283]
+                          - cell [ref=f153e284]
+                          - cell [ref=f153e285]
+                        - row [ref=f153e286]:
+                          - cell "Cross-Border Fraudulent EBTs" [ref=f153e287]
+                          - cell [ref=f153e288]
+                          - cell [ref=f153e289]
+                          - cell [ref=f153e290]
+                          - cell [ref=f153e291]
+                          - cell "Not Applicable" [ref=f153e292]
+                        - row [ref=f153e293]:
+                          - cell "Total" [ref=f153e294]
+                          - cell [ref=f153e295]
+                          - cell [ref=f153e296]
+                          - cell [ref=f153e297]
+                          - cell [ref=f153e298]
+                          - cell [ref=f153e299]
+                          - cell "(G) Total amount receivable by the bank ((E)+(F)) (in ₹) = ______________________" [ref=f153e300]
+                    - paragraph [ref=f153e301]: "II. Details of recovery received by the bank during the quarter after compensation was paid to the customer:"
+                    - text: Category of cases (H) No. of cases where recovery was received by the bank (I) Total amount recovered (in ₹) (J) Net recovered amount available with the bank after paying the customer (in ₹) (K) Recovered amount refundable to RBI (in ₹) (L = 76.48% of (K)) Recovered amount refundable to beneficiary banks (in ₹) (M = 11.76% of (K)) Details of amount refundable to beneficiary banks at (M) – Bank-wise Domestic Fraudulent EBTs Name of Bank DEA Fund Code Amount Refundable (in ₹) Cross-Border Fraudulent EBTs Not Applicable Total (N) Total amount to be refunded by the bank ((L)+(M)) (in ₹) = __________________________
+                    - paragraph [ref=f153e302]: The claim for reimbursement for the quarter ended ________, 2027 is ₹__________________ (Rupees _________________________________________ only) ((G) – (N)).
+                    - paragraph [ref=f153e303]: i. I certify that the above details have been subjected to internal audit / inspection as per the bank’s internal guidelines and are verified and found to be correct.
+                    - paragraph [ref=f153e304]: ii. I confirm that no duplication of claims has been made in the submission.
+                    - paragraph [ref=f153e305]: (Signature) (To be signed and stamped by the Identified Executive)
+                    - paragraph [ref=f153e306]: "(Name & Designation) Date: Seal:"
+                    - paragraph [ref=f153e307]: ”.
+                    - paragraph [ref=f153e308]: (Veena Srivastava) Chief General Manager
+                    - separator [ref=f153e309]
+                    - paragraph [ref=f153e310]:
+                      - superscript [ref=f153e311]: "1"
+                      - text: Please refer to
+                      - link "The Depositor Education and Awareness Fund Scheme, 2014" [ref=f153e312] [cursor=pointer]:
+                        - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/DEAC27052014_AN.pdf
+                      - text: for DEA Fund Code.
+        - generic [ref=f153e314]:
+          - heading [level=2] [ref=f153e315] [cursor=pointer]:
+            - link "2026" [ref=f153e316]:
+              - /url: "#"
+          - heading [level=2] [ref=f153e317] [cursor=pointer]:
+            - link "2025" [ref=f153e318]:
+              - /url: "#"
+          - heading [level=2] [ref=f153e319] [cursor=pointer]:
+            - link "2024" [ref=f153e320]:
+              - /url: "#"
+          - heading [level=2] [ref=f153e321] [cursor=pointer]:
+            - link "2023" [ref=f153e322]:
+              - /url: "#"
+          - heading [level=2] [ref=f153e323] [cursor=pointer]:
+            - link "2022" [ref=f153e324]:
+              - /url: "#"
+          - heading [level=2] [ref=f153e325] [cursor=pointer]:
+            - link "2021" [ref=f153e326]:
+              - /url: "#"
+          - heading [level=2] [ref=f153e327] [cursor=pointer]:
+            - link "2020" [ref=f153e328]:
+              - /url: "#"
+          - heading [level=2] [ref=f153e329] [cursor=pointer]:
+            - link "2019" [ref=f153e330]:
+              - /url: "#"
+          - heading [level=2] [ref=f153e331] [cursor=pointer]:
+            - link "2018" [ref=f153e332]:
+              - /url: "#"
+          - heading [level=2] [ref=f153e333] [cursor=pointer]:
+            - link "2017" [ref=f153e334]:
+              - /url: "#"
+          - heading [level=2] [ref=f153e335]:
+            - link "Archives" [ref=f153e336] [cursor=pointer]:
+              - /url: javascript:void(0);
+      - generic [ref=f153e337]:
+        - link "Back to previous page" [ref=f153e339] [cursor=pointer]:
+          - /url: javascript:history.back()
+        - contentinfo [ref=f153e340]:
+          - generic [ref=f153e341]:
+            - generic [ref=f153e342]:
+              - generic [ref=f153e343]:
+                - heading "More Links :" [level=2] [ref=f153e344]
+                - list [ref=f153e345]:
+                  - listitem [ref=f153e346]:
+                    - link "Bank Holidays" [ref=f153e347] [cursor=pointer]:
+                      - /url: /Scripts/HolidayMatrixDisplay.aspx
+                  - listitem [ref=f153e348]:
+                    - link "Banking Glossary" [ref=f153e349] [cursor=pointer]:
+                      - /url: https://shabdavali.rbi.org.in/
+                  - listitem [ref=f153e350]:
+                    - link "Citizen's Charter" [ref=f153e351] [cursor=pointer]:
+                      - /url: /Scripts/CitiChart.aspx
+                  - listitem [ref=f153e352]:
+                    - link "Complaints" [ref=f153e353] [cursor=pointer]:
+                      - /url: /Scripts/Complaints.aspx
+                  - listitem [ref=f153e354]:
+                    - link "Contact Us" [ref=f153e355] [cursor=pointer]:
+                      - /url: /Scripts/contactus.aspx
+                  - listitem [ref=f153e356]:
+                    - link "COVID-19 Measures" [ref=f153e357] [cursor=pointer]:
+                      - /url: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894
+                  - listitem [ref=f153e358]:
+                    - link "E-LMS" [ref=f153e359] [cursor=pointer]:
+                      - /url: https://ncfe.org.in/e-lms
+                  - listitem [ref=f153e360]:
+                    - link "Events" [ref=f153e361] [cursor=pointer]:
+                      - /url: /Scripts/EventsDisplay.aspx
+                  - listitem [ref=f153e362]:
+                    - link "FAQs" [ref=f153e363] [cursor=pointer]:
+                      - /url: /Scripts/FAQDisplay.aspx
+                  - listitem [ref=f153e364]:
+                    - link "Financial Education" [ref=f153e365] [cursor=pointer]:
+                      - /url: https://www.rbi.org.in/FinancialEducation/
+                  - listitem [ref=f153e366]:
+                    - link "Forms" [ref=f153e367] [cursor=pointer]:
+                      - /url: /Scripts/BS_ViewForms.aspx
+                  - listitem [ref=f153e368]:
+                    - link "IFSC/MICR Codes" [ref=f153e369] [cursor=pointer]:
+                      - /url: /Scripts/IFSCMICRDetails.aspx
+                  - listitem [ref=f153e370]:
+                    - link "Important Websites" [ref=f153e371] [cursor=pointer]:
+                      - /url: /Scripts/OtherLinks.aspx
+                  - listitem [ref=f153e372]:
+                    - link "Opportunities@RBI" [ref=f153e373] [cursor=pointer]:
+                      - /url: https://opportunities.rbi.org.in/scripts/index.aspx
+                  - listitem [ref=f153e374]:
+                    - link "RBI Clarifications" [ref=f153e375] [cursor=pointer]:
+                      - /url: /Scripts/rbi_clarification.aspx
+                  - listitem [ref=f153e376]:
+                    - link "RBI Kehta Hai" [ref=f153e377] [cursor=pointer]:
+                      - /url: https://rbikehtahai.rbi.org.in/
+                  - listitem [ref=f153e378]:
+                    - link [ref=f153e379] [cursor=pointer]:
+                      - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh202910042026.pdf
+                      - text: RBI’s Vision and Values
+                      - img "PDF document" [ref=f153e380]
+                      - text: (652 KB)
+                  - listitem [ref=f153e381]:
+                    - link "Right to Information Act" [ref=f153e382] [cursor=pointer]:
+                      - /url: /Scripts/Righttoinfoact.aspx
+                  - listitem [ref=f153e383]:
+                    - link "Tenders" [ref=f153e384] [cursor=pointer]:
+                      - /url: /Scripts/BS_ViewTenders.aspx
+              - generic [ref=f153e385]:
+                - heading "Follow RBI" [level=2] [ref=f153e386]
+                - list [ref=f153e387]:
+                  - listitem [ref=f153e388]:
+                    - link [ref=f153e389] [cursor=pointer]:
+                      - /url: /Scripts/rss.aspx
+                      - img "RSS Icon" [ref=f153e390]
+                      - text: RSS
+                  - listitem [ref=f153e391]:
+                    - link [ref=f153e392] [cursor=pointer]:
+                      - /url: https://twitter.com/RBI
+                      - img "Twitter Icon" [ref=f153e393]
+                      - text: Twitter
+                  - listitem [ref=f153e394]:
+                    - link [ref=f153e395] [cursor=pointer]:
+                      - /url: https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA
+                      - img "YouTube Icon" [ref=f153e396]
+                      - text: YouTube
+                  - listitem [ref=f153e397]:
+                    - link [ref=f153e398] [cursor=pointer]:
+                      - /url: https://instagram.com/reservebankofindia
+                      - img "Instagram Icon" [ref=f153e399]
+                      - text: Instagram
+                  - listitem [ref=f153e400]:
+                    - link [ref=f153e401] [cursor=pointer]:
+                      - /url: https://www.facebook.com/RBIsays
+                      - img "Facebook Icon" [ref=f153e402]
+                      - text: Facebook
+                  - listitem [ref=f153e403]:
+                    - link [ref=f153e404] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/reservebankofindia
+                      - img "LinkedIn Icon" [ref=f153e405]
+                      - text: LinkedIn
+                - link [ref=f153e406] [cursor=pointer]:
+                  - /url: https://www.india.gov.in
+                  - img "National Portal of India logo" [ref=f153e407]
+            - generic [ref=f153e410]:
+              - generic [ref=f153e411]: © Reserve Bank of India. All Rights Reserved.
+              - generic [ref=f153e412]:
+                - link "Sitemap" [ref=f153e413] [cursor=pointer]:
+                  - /url: /Scripts/sitemap.aspx
+                - text: "|"
+                - link "Disclaimer" [ref=f153e414] [cursor=pointer]:
+                  - /url: /Scripts/Disclaimer.aspx
+              - generic [ref=f153e416]: Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in
+              - generic [ref=f153e417]: "Website last updated date: Aug 25, 2026"
+              - link "Web Information Manager" [ref=f153e420] [cursor=pointer]:
+                - /url: https://www.rbi.org.in/scripts/wim.aspx
+              - generic [ref=f153e421]:
+                - link [ref=f153e422] [cursor=pointer]:
+                  - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf
+                  - text: Accessibility Statement
+                  - img "PDF - Accessibility Statement" [ref=f153e423]
+                  - text: (133 KB)
+                - text: "|"
+                - link "Screen Reader and Accessibility Help" [ref=f153e424] [cursor=pointer]:
+                  - /url: /scripts/ScreenReader.aspx
+              - generic [ref=f153e426]: "Supports: Google Chrome 147+ | Firefox 150+ | Microsoft Edge Version 147+ | Safari 17+"
+  - status

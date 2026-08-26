@@ -1,0 +1,358 @@
+- generic [ref=f842e3]:
+  - banner [ref=f842e4]:
+    - generic [ref=f842e5]:
+      - generic [ref=f842e6]:
+        - link [ref=f842e7] [cursor=pointer]:
+          - /url: /
+          - img "Brave logo" [ref=f842e8]
+        - generic [ref=f842e10]:
+          - textbox "Search" [ref=f842e11]:
+            - /placeholder: Ask anything, find anything…
+            - text: "\"UPI Reserve Pay\" bank enabled rollout 2026"
+          - generic [ref=f842e12]:
+            - button "Clear" [ref=f842e13] [cursor=pointer]
+            - button "Search" [ref=f842e17] [cursor=pointer]
+            - button "Ask" [ref=f842e20] [cursor=pointer]
+      - generic [ref=f842e29]:
+        - button "Rerank" [ref=f842e30] [cursor=pointer]
+        - button "Quick settings" [ref=f842e36] [cursor=pointer]
+  - navigation [ref=f842e42]:
+    - list [ref=f842e43]:
+      - listitem [ref=f842e44]:
+        - link "Ask" [ref=f842e45] [cursor=pointer]:
+          - /url: /ask?q=%22UPI+Reserve+Pay%22+bank+enabled+rollout+2026&source=web
+      - listitem [ref=f842e47]:
+        - link "All" [ref=f842e48] [cursor=pointer]:
+          - /url: /search?q=%22UPI+Reserve+Pay%22+bank+enabled+rollout+2026&source=web
+      - listitem [ref=f842e50]:
+        - link "Images" [ref=f842e51] [cursor=pointer]:
+          - /url: /images?q=%22UPI+Reserve+Pay%22+bank+enabled+rollout+2026&source=web
+      - listitem [ref=f842e53]:
+        - link "News" [ref=f842e54] [cursor=pointer]:
+          - /url: /news?q=%22UPI+Reserve+Pay%22+bank+enabled+rollout+2026&source=web
+      - listitem [ref=f842e56]:
+        - link "Videos" [ref=f842e57] [cursor=pointer]:
+          - /url: /videos?q=%22UPI+Reserve+Pay%22+bank+enabled+rollout+2026&source=web
+      - listitem [ref=f842e59]:
+        - link "Maps" [ref=f842e60] [cursor=pointer]:
+          - /url: /maps/search?q=%22UPI+Reserve+Pay%22+bank+enabled+rollout+2026&source=web
+      - listitem [ref=f842e62]:
+        - link "Goggles" [ref=f842e63] [cursor=pointer]:
+          - /url: /goggles?q=%22UPI+Reserve+Pay%22+bank+enabled+rollout+2026&source=web
+    - list [ref=f842e65]:
+      - button "Filters" [ref=f842e66] [cursor=pointer]
+  - main [ref=f842e70]:
+    - generic [ref=f842e75]:
+      - generic [ref=f842e76]:
+        - text: Query contains
+        - link "search operators" [ref=f842e77] [cursor=pointer]:
+          - /url: /help/operators
+      - link "Ignore operators" [ref=f842e79] [cursor=pointer]:
+        - /url: /search?q=%22UPI%20Reserve%20Pay%22%20bank%20enabled%20rollout%202026&keywords=0&source=ignoreSiteOperators
+    - main [ref=f842e95]:
+      - generic [ref=f842e96]:
+        - generic [ref=f842e97]:
+          - generic [ref=f842e100]:
+            - 'link "🌐 TechnoFino technofino.in › forums › general › finance world news UPI Reserve Pay Launch | TechnoFino - #1 Community Of Credit Card & Banking Experts" [ref=f842e101] [cursor=pointer]':
+              - /url: https://technofino.in/community/threads/upi-reserve-pay-launch.44879/
+              - generic [ref=f842e102]:
+                - img "🌐" [ref=f842e106]
+                - generic [ref=f842e107]:
+                  - generic [ref=f842e108]: TechnoFino
+                  - generic [ref=f842e109]: technofino.in › forums › general › finance world news
+              - 'generic "UPI Reserve Pay Launch | TechnoFino - #1 Community Of Credit Card & Banking Experts" [ref=f842e111]'
+            - generic [ref=f842e112]: "9 October 2025 - UPI Reserve Pay Launch: UPI Reserve Pay: Credit Control Meets Convenience UPI Reserve Pay, which allows users to allocate (or “block”) part of a credit card or pre-approved credit line for recurring or one-time expenses. This mechanism enhances credit control and transparency across UPI and..."
+          - generic [ref=f842e114]:
+            - generic [ref=f842e116]:
+              - link [ref=f842e117] [cursor=pointer]:
+                - /url: https://technofino.in/community/threads/now-upi-autopay-on-rupay-credit-cards-launched.44880/
+                - text: Now
+                - strong [ref=f842e118]: UPI
+                - text: AutoPay on RuPay Credit Cards Launched
+              - generic [ref=f842e119]: 9 Oct 2025
+            - generic [ref=f842e121]:
+              - link [ref=f842e122] [cursor=pointer]:
+                - /url: https://technofino.in/community/threads/help-me-to-find-a-reliable-upi-app.48354/
+                - text: Help me to find a reliable
+                - strong [ref=f842e123]: UPI
+                - text: app
+              - generic [ref=f842e124]: 29 May 2026
+            - generic [ref=f842e126]:
+              - link [ref=f842e127] [cursor=pointer]:
+                - /url: https://technofino.in/community/threads/ppi-wallets-with-upi-facility-with-custom-upi-id-or-vpa.48629/
+                - text: Ppi wallets with
+                - strong [ref=f842e128]: UPI
+                - text: facility with custom
+                - strong [ref=f842e129]: UPI
+                - text: id or vpa
+              - generic [ref=f842e130]: 28 Jun 2026
+            - generic [ref=f842e132]:
+              - link [ref=f842e133] [cursor=pointer]:
+                - /url: https://technofino.in/community/threads/help-me-to-find-a-reliable-upi-app.48354/page-4
+                - text: Help me to find a reliable
+                - strong [ref=f842e134]: UPI
+                - text: app | Page 4
+              - generic [ref=f842e135]: 29 May 2026
+            - generic [ref=f842e137]:
+              - link [ref=f842e138] [cursor=pointer]:
+                - /url: https://technofino.in/community/threads/some-insights-on-upi.48708/
+                - text: Some insights on
+                - strong [ref=f842e139]: UPI
+                - text: ...
+              - generic [ref=f842e140]: 7 Jul 2026
+            - link "More results from technofino.in" [ref=f842e141] [cursor=pointer]:
+              - /url: https://search.brave.com/search?q=%22UPI+Reserve+Pay%22+bank+enabled+rollout+2026+site%3Atechnofino.in&source=sim-pages
+        - generic [ref=f842e148]:
+          - link "🌐 National Payments Corporation of India npci.org.in › uploads › UPI_OC_No_228_FY_2025_26_Enhancement_in_UPI_Single_Block_Multiple_Debits_UPI_Reserve_Pay_a9095c181d.pdf pdf UPI Reserve Pay" [ref=f842e149] [cursor=pointer]:
+            - /url: https://www.npci.org.in/uploads/UPI_OC_No_228_FY_2025_26_Enhancement_in_UPI_Single_Block_Multiple_Debits_UPI_Reserve_Pay_a9095c181d.pdf
+            - generic [ref=f842e150]:
+              - img "🌐" [ref=f842e154]
+              - generic [ref=f842e155]:
+                - generic [ref=f842e156]: National Payments Corporation of India
+                - generic [ref=f842e157]:
+                  - generic [ref=f842e158]: npci.org.in › uploads › UPI_OC_No_228_FY_2025_26_Enhancement_in_UPI_Single_Block_Multiple_Debits_UPI_Reserve_Pay_a9095c181d.pdf
+                  - generic [ref=f842e159]: pdf
+            - generic "UPI Reserve Pay" [ref=f842e160]
+          - generic [ref=f842e161]: 8 October 2025 - National Payments Corporation of India is an Umbrella Organisation that facilitates services like UPI Payment, Bharat Bill Pay, RuPay Card, FASTag, NACH, UPI & Adhaar Based Digital Payments in India. Know More.
+        - generic [ref=f842e163]:
+          - generic [ref=f842e164]: Videos
+          - generic [ref=f842e168]:
+            - link "01:05 🌐 YouTube UPI Reserve Pay - YouTube 9 January 2026" [ref=f842e169] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=gq4-o5ZFl_I
+              - generic [ref=f842e170]: 01:05
+              - generic [ref=f842e173]:
+                - generic [ref=f842e174]:
+                  - img "🌐" [ref=f842e175]
+                  - generic [ref=f842e176]: YouTube
+                - generic [ref=f842e177]: UPI Reserve Pay - YouTube
+                - generic [ref=f842e178]: 9 January 2026
+            - 'link "🌐 zeebiz.com UPI Reserve Pay: Budget Smarter, Pay Easier" [ref=f842e180] [cursor=pointer]':
+              - /url: https://www.zeebiz.com/short-videos/market-news/upi-reserve-pay-budget-smarter-pay-easier-380680
+              - generic [ref=f842e183]:
+                - generic [ref=f842e184]:
+                  - img "🌐" [ref=f842e185]
+                  - generic [ref=f842e186]: zeebiz.com
+                - generic [ref=f842e187]: "UPI Reserve Pay: Budget Smarter, Pay Easier"
+            - link "00:49 🌐 YouTube UPI Expands Payments to Smart Devices - YouTube 11 October 2025" [ref=f842e188] [cursor=pointer]:
+              - /url: https://www.youtube.com/shorts/xz_ownyV0-I
+              - generic [ref=f842e189]: 00:49
+              - generic [ref=f842e192]:
+                - generic [ref=f842e193]:
+                  - img "🌐" [ref=f842e194]
+                  - generic [ref=f842e195]: YouTube
+                - generic [ref=f842e196]: UPI Expands Payments to Smart Devices - YouTube
+                - generic [ref=f842e197]: 11 October 2025
+            - link "View all" [ref=f842e200] [cursor=pointer]:
+              - /url: /videos?q="UPI Reserve Pay" bank enabled rollout 2026&source=vcluster
+        - generic [ref=f842e206]:
+          - generic [ref=f842e207]:
+            - 'link "🌐 Razorpay razorpay.com › blog › upi › payments at the speed of intent: reimagining checkout with upi reserve pay UPI Reserve Pay: Checkout Reimagined" [ref=f842e208] [cursor=pointer]':
+              - /url: https://razorpay.com/blog/upi-reserve-pay/
+              - generic [ref=f842e209]:
+                - img "🌐" [ref=f842e213]
+                - generic [ref=f842e214]:
+                  - generic [ref=f842e215]: Razorpay
+                  - generic [ref=f842e216]: "razorpay.com › blog › upi › payments at the speed of intent: reimagining checkout with upi reserve pay"
+              - 'generic "UPI Reserve Pay: Checkout Reimagined" [ref=f842e218]'
+            - generic [ref=f842e219]: 12 March 2026 - This is the shift underway in India today, from checkout-led commerce to conversational, agent-driven execution. And powering this transition is Razorpay’s launch of UPI Reserve Pay, built on the National Payments Corporation of India’s Single Block Multi Debit (SBMD) framework.
+          - link [ref=f842e222] [cursor=pointer]:
+            - /url: https://razorpay.com/blog/upi-reserve-pay/
+        - generic [ref=f842e226]:
+          - link "🌐 PayU docs.payu.in › docs › upi-reserve-pay UPI Reserve Pay - Pre-Authorize Payments" [ref=f842e227] [cursor=pointer]:
+            - /url: https://docs.payu.in/docs/upi-reserve-pay
+            - generic [ref=f842e228]:
+              - img "🌐" [ref=f842e232]
+              - generic [ref=f842e233]:
+                - generic [ref=f842e234]: PayU
+                - generic [ref=f842e235]: docs.payu.in › docs › upi-reserve-pay
+            - generic "UPI Reserve Pay - Pre-Authorize Payments" [ref=f842e237]
+          - generic [ref=f842e239]:
+            - text: UPI Reserve Pay
+            - strong [ref=f842e240]: enables customers to securely block funds in their account for up to 90 days at the time of transaction
+            - text: . The actual payment is deducted only when the merchant initiates a debit request.
+        - generic [ref=f842e244]:
+          - link "🌐 complinity complinity.com › home › legal update NPCI issues Enhancements in UPI Single Block Multiple Debits (UPI Reserve Pay)" [ref=f842e245] [cursor=pointer]:
+            - /url: https://complinity.com/legal-update/npci-issues-enhancements-in-upi-single-block-multiple-debits-upi-reserve-pay--20722/
+            - generic [ref=f842e246]:
+              - img "🌐" [ref=f842e250]
+              - generic [ref=f842e251]:
+                - generic [ref=f842e252]: complinity
+                - generic [ref=f842e253]: complinity.com › home › legal update
+            - generic "NPCI issues Enhancements in UPI Single Block Multiple Debits (UPI Reserve Pay)" [ref=f842e255]
+          - generic [ref=f842e257]:
+            - text: 27 August 2025 - 2.
+            - strong [ref=f842e258]: Extended Applicability - UPI Reserve Pay can now be used with all UPI-permitted sources of funds, including Savings Accounts (SA), Current Accounts (CA), Overdrafts (OD), RuPay Credit Cards, and pre-sanctioned Credit Lines, for merchant transactions
+            - text: ...
+        - generic [ref=f842e262]:
+          - 'link "🌐 LinkedIn linkedin.com › posts › ishaamalik_upi-digitalpayments-fintech-activity-7394250676786159617-7vaI Introducing UPI Reserve Pay: A New Payment Method" [ref=f842e263] [cursor=pointer]':
+            - /url: https://www.linkedin.com/posts/ishaamalik_upi-digitalpayments-fintech-activity-7394250676786159617-7vaI
+            - generic [ref=f842e264]:
+              - img "🌐" [ref=f842e268]
+              - generic [ref=f842e269]:
+                - generic [ref=f842e270]: LinkedIn
+                - generic [ref=f842e271]: linkedin.com › posts › ishaamalik_upi-digitalpayments-fintech-activity-7394250676786159617-7vaI
+            - 'generic "Introducing UPI Reserve Pay: A New Payment Method" [ref=f842e273]'
+          - generic [ref=f842e274]: Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.
+        - generic [ref=f842e279]:
+          - link "🌐 Cashfree cashfree.com › docs › payments › upi-reserve-pay › reserve-pay UPI Reserve Pay Overview" [ref=f842e280] [cursor=pointer]:
+            - /url: https://www.cashfree.com/docs/payments/upi-reserve-pay/reserve-pay
+            - generic [ref=f842e281]:
+              - img "🌐" [ref=f842e285]
+              - generic [ref=f842e286]:
+                - generic [ref=f842e287]: Cashfree
+                - generic [ref=f842e288]: cashfree.com › docs › payments › upi-reserve-pay › reserve-pay
+            - generic "UPI Reserve Pay Overview" [ref=f842e290]
+          - generic [ref=f842e291]: Use this file to discover all available pages before exploring further.UPI Reserve Pay is a payment framework that enables you to block customer funds upfront and debit automatically as products or services are delivered. It combines the security of One-Time Mandates (OTM) with the flexibility of multiple debits, ensuring high payment success rates and enhanced customer experience.
+        - generic [ref=f842e295]:
+          - generic [ref=f842e296]:
+            - link "🌐 Razorpay razorpay.com › docs › payments › recurring-payments › upi-reserve-pay UPI Reserve Pay | Razorpay Docs" [ref=f842e297] [cursor=pointer]:
+              - /url: https://razorpay.com/docs/payments/recurring-payments/upi-reserve-pay/?preferred-country=IN
+              - generic [ref=f842e298]:
+                - img "🌐" [ref=f842e302]
+                - generic [ref=f842e303]:
+                  - generic [ref=f842e304]: Razorpay
+                  - generic [ref=f842e305]: razorpay.com › docs › payments › recurring-payments › upi-reserve-pay
+              - generic "UPI Reserve Pay | Razorpay Docs" [ref=f842e307]
+            - generic [ref=f842e308]: UPI Reserve Pay with Single Block Multi Debit (SBMD) enables businesses to block customer funds upfront and debit automatically as products or services are delivered.
+          - link [ref=f842e311] [cursor=pointer]:
+            - /url: https://razorpay.com/docs/payments/recurring-payments/upi-reserve-pay/?preferred-country=IN
+        - generic [ref=f842e314]:
+          - generic [ref=f842e315]:
+            - 'link "🌐 CNBCTV18 cnbctv18.com › home › photos › personal finance New UPI launches: How AI, IoT, and Reserve Pay may change digital payments - CNBC TV18" [ref=f842e316] [cursor=pointer]':
+              - /url: https://www.cnbctv18.com/photos/personal-finance/upi-new-launches-ai-iot-reserve-pay-upi-help-digital-payments-changes-19708991.htm
+              - generic [ref=f842e317]:
+                - img "🌐" [ref=f842e321]
+                - generic [ref=f842e322]:
+                  - generic [ref=f842e323]: CNBCTV18
+                  - generic [ref=f842e324]: cnbctv18.com › home › photos › personal finance
+              - 'generic "New UPI launches: How AI, IoT, and Reserve Pay may change digital payments - CNBC TV18" [ref=f842e326]'
+            - generic [ref=f842e327]: 9 October 2025 - Instead of navigating multiple bank portals or dealing with fragmented integrations, users can now complete transactions securely through their own bank app while enjoying faster checkouts. The platform also supports standardised QR and Intent-based payments, making it easier for users to pay merchants without switching apps or accounts. ... UPI Reserve Pay | UPI Reserve Pay allows users to block a portion of their credit line or pre-approved credit for specific transactions.
+          - link [ref=f842e330] [cursor=pointer]:
+            - /url: https://www.cnbctv18.com/photos/personal-finance/upi-new-launches-ai-iot-reserve-pay-upi-help-digital-payments-changes-19708991.htm
+        - generic [ref=f842e332]:
+          - generic [ref=f842e333]: Find elsewhere
+          - generic [ref=f842e337]:
+            - link "Google" [ref=f842e338] [cursor=pointer]:
+              - /url: /search?q=%22UPI%20Reserve%20Pay%22%20bank%20enabled%20rollout%202026%20!g
+            - link "Bing" [ref=f842e339] [cursor=pointer]:
+              - /url: /search?q=%22UPI%20Reserve%20Pay%22%20bank%20enabled%20rollout%202026%20!b
+            - link "Mojeek" [ref=f842e340] [cursor=pointer]:
+              - /url: /search?q=%22UPI%20Reserve%20Pay%22%20bank%20enabled%20rollout%202026%20!mojeek
+        - generic [ref=f842e343]:
+          - generic [ref=f842e344]:
+            - 'link "🌐 X x.com › PayUindia › status › 1977745230137798999 PayU India on X: \"UPI Reserve Pay by PayU brings a new level of trust and flexibility to UPI. It allows customers to block a desired amount in their account, enabling merchants to capture payments seamlessly across multiple transactions. Designed for high-frequency categories like quick https://t.co/EeBvF0a7Y2\" / X" [ref=f842e345] [cursor=pointer]':
+              - /url: https://x.com/PayUindia/status/1977745230137798999
+              - generic [ref=f842e346]:
+                - img "🌐" [ref=f842e350]
+                - generic [ref=f842e351]:
+                  - generic [ref=f842e352]: X
+                  - generic [ref=f842e353]: x.com › PayUindia › status › 1977745230137798999
+              - 'generic "PayU India on X: \"UPI Reserve Pay by PayU brings a new level of trust and flexibility to UPI. It allows customers to block a desired amount in their account, enabling merchants to capture payments seamlessly across multiple transactions. Designed for high-frequency categories like quick https://t.co/EeBvF0a7Y2\" / X" [ref=f842e355]'
+            - generic [ref=f842e356]: UPI Reserve Pay by PayU brings a new level of trust and flexibility to UPI. It allows customers to block a desired amount in their account, enabling merchants to capture payments seamlessly across multiple transactions. Designed for high-frequency categories like quick commerce, EV charging, and metro travel, Reserve Pay reduces refunds, streamlines operations, and delivers a true wallet-like UPI experience.
+          - link [ref=f842e359] [cursor=pointer]:
+            - /url: https://x.com/PayUindia/status/1977745230137798999
+        - generic [ref=f842e363]:
+          - 'link "🌐 LinkedIn linkedin.com › posts › samyak-jain-b4a31117b_upi-fintech-globalfintechfest-activity-7382328478593015808-2dKd \"Introducing UPI Reserve Pay: A Game-Changer for Digital ..." [ref=f842e364] [cursor=pointer]':
+            - /url: https://www.linkedin.com/posts/samyak-jain-b4a31117b_upi-fintech-globalfintechfest-activity-7382328478593015808-2dKd
+            - generic [ref=f842e365]:
+              - img "🌐" [ref=f842e369]
+              - generic [ref=f842e370]:
+                - generic [ref=f842e371]: LinkedIn
+                - generic [ref=f842e372]: linkedin.com › posts › samyak-jain-b4a31117b_upi-fintech-globalfintechfest-activity-7382328478593015808-2dKd
+            - 'generic "\"Introducing UPI Reserve Pay: A Game-Changer for Digital ..." [ref=f842e374]'
+          - generic [ref=f842e375]: Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.
+        - generic [ref=f842e379]:
+          - generic [ref=f842e380]:
+            - link "🌐 Code for Banks codeforbanks.com › banks › blog › manage-your-money-better-with-upi-reserve-pay Manage Your Money Better with UPI Reserve Pay" [ref=f842e381] [cursor=pointer]:
+              - /url: https://www.codeforbanks.com/banks/blog/manage-your-money-better-with-upi-reserve-pay/
+              - generic [ref=f842e382]:
+                - img "🌐" [ref=f842e386]
+                - generic [ref=f842e387]:
+                  - generic [ref=f842e388]: Code for Banks
+                  - generic [ref=f842e389]: codeforbanks.com › banks › blog › manage-your-money-better-with-upi-reserve-pay
+              - generic "Manage Your Money Better with UPI Reserve Pay" [ref=f842e391]
+            - generic [ref=f842e393]:
+              - text: 31 October 2025 -
+              - strong [ref=f842e394]: The NPCI or National Payments Corporation of India has now launched a new feature called the UPI Reserve Pay for the users to manage funds
+              - text: . With this feature, one can reserve his/her choice of amounts of funds to make specific payments to particular ...
+          - link [ref=f842e396] [cursor=pointer]:
+            - /url: https://www.codeforbanks.com/banks/blog/manage-your-money-better-with-upi-reserve-pay/
+        - generic [ref=f842e400]:
+          - link "🌐 LinkedIn linkedin.com › posts › sowmyapb_cashfreeatgff-upireservepay-cashfreepayments-activity-7382024804704423936-PZxh Introducing UPI Reserve Pay by Cashfree Payments" [ref=f842e401] [cursor=pointer]:
+            - /url: https://www.linkedin.com/posts/sowmyapb_cashfreeatgff-upireservepay-cashfreepayments-activity-7382024804704423936-PZxh
+            - generic [ref=f842e402]:
+              - img "🌐" [ref=f842e406]
+              - generic [ref=f842e407]:
+                - generic [ref=f842e408]: LinkedIn
+                - generic [ref=f842e409]: linkedin.com › posts › sowmyapb_cashfreeatgff-upireservepay-cashfreepayments-activity-7382024804704423936-PZxh
+            - generic "Introducing UPI Reserve Pay by Cashfree Payments" [ref=f842e411]
+          - generic [ref=f842e412]: Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.
+        - generic [ref=f842e416]:
+          - generic [ref=f842e417]:
+            - link "🌐 Cashfree cashfree.com › blog › upi-reserve-pay-by-cashfree-payments-the-next-breakthrough-in-upi-payments UPI Reserve Pay by Cashfree Payments" [ref=f842e418] [cursor=pointer]:
+              - /url: https://www.cashfree.com/blog/upi-reserve-pay-by-cashfree-payments-the-next-breakthrough-in-upi-payments/
+              - generic [ref=f842e419]:
+                - img "🌐" [ref=f842e423]
+                - generic [ref=f842e424]:
+                  - generic [ref=f842e425]: Cashfree
+                  - generic [ref=f842e426]: cashfree.com › blog › upi-reserve-pay-by-cashfree-payments-the-next-breakthrough-in-upi-payments
+              - generic "UPI Reserve Pay by Cashfree Payments" [ref=f842e428]
+            - generic [ref=f842e429]: 30 December 2025 - Unlike a traditional wallet, UPI Reserve Pay ensures customers never have to preload funds. The money remains in their bank account, continuing to earn interest. And if any funds are unused, they are automatically released, removing the friction of a refund.
+          - link [ref=f842e432] [cursor=pointer]:
+            - /url: https://www.cashfree.com/blog/upi-reserve-pay-by-cashfree-payments-the-next-breakthrough-in-upi-payments/
+        - generic [ref=f842e436]:
+          - link "🌐 LinkedIn linkedin.com › pulse › upi-reserve-pay-next-step-building-trust-digital-lagawnkar-cspo--kjoqf UPI Reserve Pay — The Next Step in Building Trust ..." [ref=f842e437] [cursor=pointer]:
+            - /url: https://www.linkedin.com/pulse/upi-reserve-pay-next-step-building-trust-digital-lagawnkar-cspo--kjoqf
+            - generic [ref=f842e438]:
+              - img "🌐" [ref=f842e442]
+              - generic [ref=f842e443]:
+                - generic [ref=f842e444]: LinkedIn
+                - generic [ref=f842e445]: linkedin.com › pulse › upi-reserve-pay-next-step-building-trust-digital-lagawnkar-cspo--kjoqf
+            - generic "UPI Reserve Pay — The Next Step in Building Trust ..." [ref=f842e447]
+          - generic [ref=f842e448]: Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.
+        - button "Next" [disabled] [ref=f842e452]
+  - contentinfo [ref=f842e456]:
+    - generic [ref=f842e459]:
+      - generic [ref=f842e460]:
+        - heading "Resources" [level=6] [ref=f842e461]
+        - generic [ref=f842e462]:
+          - link "Brave Search Premium" [ref=f842e463] [cursor=pointer]:
+            - /url: https://account.brave.com/?intent=checkout&product=search
+          - link "Brave Search help" [ref=f842e464] [cursor=pointer]:
+            - /url: /help
+          - link "Transparency report" [ref=f842e465] [cursor=pointer]:
+            - /url: https://brave.com/transparency/
+          - link "Report a security issue" [ref=f842e466] [cursor=pointer]:
+            - /url: https://hackerone.com/brave
+          - link "Status" [ref=f842e467] [cursor=pointer]:
+            - /url: https://status.brave.app/
+      - generic [ref=f842e468]:
+        - heading "Products" [level=6] [ref=f842e469]
+        - generic [ref=f842e470]:
+          - link "Brave Browser" [ref=f842e471] [cursor=pointer]:
+            - /url: https://brave.com/download/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Search" [ref=f842e472] [cursor=pointer]:
+            - /url: https://search.brave.com
+          - link "Brave Wallet" [ref=f842e473] [cursor=pointer]:
+            - /url: https://brave.com/wallet/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Talk" [ref=f842e474] [cursor=pointer]:
+            - /url: https://talk.brave.com/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Firewall + VPN" [ref=f842e475] [cursor=pointer]:
+            - /url: https://brave.com/firewall-vpn/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Playlist" [ref=f842e476] [cursor=pointer]:
+            - /url: https://brave.com/playlist/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave News" [ref=f842e477] [cursor=pointer]:
+            - /url: https://brave.com/brave-news/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Rewards" [ref=f842e478] [cursor=pointer]:
+            - /url: https://brave.com/brave-rewards/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Search API" [ref=f842e479] [cursor=pointer]:
+            - /url: https://brave.com/search/api/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Ads" [ref=f842e480] [cursor=pointer]:
+            - /url: https://brave.com/brave-ads/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+      - generic [ref=f842e481]:
+        - heading "Policies" [level=6] [ref=f842e482]
+        - generic [ref=f842e483]:
+          - link "Privacy Policy" [ref=f842e484] [cursor=pointer]:
+            - /url: /help/privacy-policy
+          - link "Terms of Use" [ref=f842e485] [cursor=pointer]:
+            - /url: https://brave.com/terms-of-use/

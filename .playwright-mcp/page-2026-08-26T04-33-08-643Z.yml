@@ -1,0 +1,402 @@
+- generic [active] [ref=f461e1]:
+  - generic [ref=f461e2]:
+    - generic [ref=f461e4]:
+      - generic [ref=f461e5]:
+        - generic [ref=f461e6]:
+          - link "DuckDuckGo home" [ref=f461e7] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f461e8]: DuckDuckGo
+          - generic [ref=f461e15]:
+            - combobox "Search privately" [ref=f461e17]: UPI Circle NPCI delegated payment limit per transaction
+            - button "search" [ref=f461e19] [cursor=pointer]
+        - button "Open menu" [ref=f461e23] [cursor=pointer]
+      - navigation [ref=f461e31]:
+        - list [ref=f461e32]:
+          - listitem [ref=f461e33]:
+            - link "All" [ref=f461e34] [cursor=pointer]:
+              - /url: /?q=UPI+Circle+NPCI+delegated+payment+limit+per+transaction&ia=web
+          - listitem [ref=f461e37]:
+            - link "Images" [ref=f461e38] [cursor=pointer]:
+              - /url: /?q=UPI+Circle+NPCI+delegated+payment+limit+per+transaction&ia=images&iax=images
+          - listitem [ref=f461e39]:
+            - link "Videos" [ref=f461e40] [cursor=pointer]:
+              - /url: /?q=UPI+Circle+NPCI+delegated+payment+limit+per+transaction&ia=videos&iax=videos
+          - listitem [ref=f461e41]:
+            - link "News" [ref=f461e42] [cursor=pointer]:
+              - /url: /?q=UPI+Circle+NPCI+delegated+payment+limit+per+transaction&ia=news&iar=news
+          - listitem [ref=f461e43]:
+            - link "Maps" [ref=f461e44] [cursor=pointer]:
+              - /url: /?q=UPI+Circle+NPCI+delegated+payment+limit+per+transaction&iaxm=maps
+        - list [ref=f461e45]:
+          - listitem [ref=f461e46]:
+            - link "Search Assist" [ref=f461e49] [cursor=pointer]:
+              - /url: /?q=UPI+Circle+NPCI+delegated+payment+limit+per+transaction&ia=web&assist=false
+          - listitem [ref=f461e54]:
+            - link "Duck.ai" [ref=f461e56] [cursor=pointer]:
+              - /url: /?q=UPI+Circle+NPCI+delegated+payment+limit+per+transaction&ia=chat
+          - listitem [ref=f461e60]:
+            - button "Search Settings ✀" [ref=f461e62] [cursor=pointer]:
+              - generic [ref=f461e65]: Search Settings
+              - generic [ref=f461e66]: ✀
+    - generic [ref=f461e73]:
+      - navigation [ref=f461e75]:
+        - generic [ref=f461e78] [cursor=pointer]:
+          - generic [ref=f461e79]: Private
+          - img [ref=f461e87]: ▼
+        - generic [ref=f461e91] [cursor=pointer]:
+          - generic [ref=f461e94]:
+            - switch "✓" [ref=f461e95]
+            - generic [ref=f461e97]: India (en)
+          - img [ref=f461e98]: ▼
+        - generic [ref=f461e102] [cursor=pointer]:
+          - generic [ref=f461e103]: "Safe search: moderate"
+          - img [ref=f461e104]: ▼
+        - generic [ref=f461e108] [cursor=pointer]:
+          - generic [ref=f461e109]: Any time
+          - img [ref=f461e110]: ▼
+      - generic [ref=f461e113]:
+        - list [ref=f461e114]:
+          - listitem [ref=f461e115]:
+            - generic [ref=f461e121]:
+              - button [ref=f461e124] [cursor=pointer]:
+                - generic [ref=f461e125]: Search Assist
+              - generic "Loading..." [ref=f461e130]: Reading search results...
+          - listitem [ref=f461e135]:
+            - article [ref=f461e136] [cursor=pointer]:
+              - button [ref=f461e138]
+              - generic [ref=f461e143]:
+                - link "Search domain oxigenwallet.com" [ref=f461e145]:
+                  - /url: /?q=UPI%20Circle%20NPCI%20delegated%20payment%20limit%20per%20transaction+site:www.oxigenwallet.com
+                - generic [ref=f461e148]:
+                  - paragraph [ref=f461e149]: oxigenwallet.com
+                  - link "https://www.oxigenwallet.com › upi › upi-circle-transaction-limit" [ref=f461e150]:
+                    - /url: https://www.oxigenwallet.com/upi/upi-circle-transaction-limit/
+                    - paragraph [ref=f461e152]:
+                      - generic [ref=f461e153]: https://www.oxigenwallet.com
+                      - generic [ref=f461e154]: › upi › upi-circle-transaction-limit
+              - heading [level=2] [ref=f461e156]:
+                - link "UPI Circle Transaction Limit - Full vs Partial Payment Delegation" [ref=f461e157]:
+                  - /url: https://www.oxigenwallet.com/upi/upi-circle-transaction-limit/
+              - generic [ref=f461e162]:
+                - text: 22 Jul 2026·
+                - generic [ref=f461e163]: "Conclusion: UPI Circle Transaction Limit of ₹5,000 Per Transaction and ₹15,000 Monthly UPI Circle allows delegated users to make payments within a capped structure of up to ₹5,000 per transaction and ₹15,000 per month, ensuring controlled and secure usage."
+          - listitem [ref=f461e164]:
+            - article [ref=f461e165] [cursor=pointer]:
+              - button [ref=f461e167]
+              - generic [ref=f461e172]:
+                - link "Search domain npci.org.in" [ref=f461e174]:
+                  - /url: /?q=UPI%20Circle%20NPCI%20delegated%20payment%20limit%20per%20transaction+site:www.npci.org.in
+                - generic [ref=f461e177]:
+                  - paragraph [ref=f461e178]: National Payments Corporation of India (NPCI)
+                  - link "https://www.npci.org.in › product › upi-circle" [ref=f461e179]:
+                    - /url: https://www.npci.org.in/product/upi-circle
+                    - paragraph [ref=f461e181]:
+                      - generic [ref=f461e182]: https://www.npci.org.in
+                      - generic [ref=f461e183]: › product › upi-circle
+              - heading [level=2] [ref=f461e185]:
+                - link "National Payments Corporation of India (NPCI)" [ref=f461e186]:
+                  - /url: https://www.npci.org.in/product/upi-circle
+              - generic [ref=f461e188]: "Please enable JavaScript to view the page content. Your support ID is: 11180116959455084558."
+          - listitem [ref=f461e192]:
+            - article [ref=f461e193] [cursor=pointer]:
+              - button [ref=f461e195]
+              - generic [ref=f461e200]:
+                - link "Search domain ujjivansfb.bank.in" [ref=f461e202]:
+                  - /url: /?q=UPI%20Circle%20NPCI%20delegated%20payment%20limit%20per%20transaction+site:www.ujjivansfb.bank.in
+                - generic [ref=f461e205]:
+                  - paragraph [ref=f461e206]: ujjivansfb.bank.in
+                  - link "https://www.ujjivansfb.bank.in › banking-blogs › banking-services › upi-circle-delegated-payments-how-it-works-limits" [ref=f461e207]:
+                    - /url: https://www.ujjivansfb.bank.in/banking-blogs/banking-services/upi-circle-delegated-payments-how-it-works-limits
+                    - paragraph [ref=f461e209]:
+                      - generic [ref=f461e210]: https://www.ujjivansfb.bank.in
+                      - generic [ref=f461e211]: › banking-blogs › banking-services › upi-circle-delegated-payments-how-it-works-limits
+              - heading [level=2] [ref=f461e213]:
+                - 'link "UPI Circle Explained: Delegated Payments, Limits & How It Works" [ref=f461e214]':
+                  - /url: https://www.ujjivansfb.bank.in/banking-blogs/banking-services/upi-circle-delegated-payments-how-it-works-limits
+              - generic [ref=f461e219]:
+                - text: 10 Apr 2026·
+                - generic [ref=f461e220]: As per NPCI rules, secondary users have a per transaction limit of ₹5,000 per device, while the monthly limit is capped at ₹15,000. There's also a cool-off period for newly linked UPI IDs where both primary and secondary users have lower per transaction limit of ₹5,000 during the first 24 hours.
+          - listitem [ref=f461e221]:
+            - article [ref=f461e222] [cursor=pointer]:
+              - button [ref=f461e224]
+              - generic [ref=f461e229]:
+                - link "Search domain business.phonepe.com" [ref=f461e231]:
+                  - /url: /?q=UPI%20Circle%20NPCI%20delegated%20payment%20limit%20per%20transaction+site:business.phonepe.com
+                - generic [ref=f461e234]:
+                  - paragraph [ref=f461e235]: PhonePe For Business
+                  - link "https://business.phonepe.com › articles › upi-circle-what-it-is-how-it-works-and-who-can-use-it" [ref=f461e236]:
+                    - /url: https://business.phonepe.com/articles/upi-circle-what-it-is-how-it-works-and-who-can-use-it
+                    - paragraph [ref=f461e238]:
+                      - generic [ref=f461e239]: https://business.phonepe.com
+                      - generic [ref=f461e240]: › articles › upi-circle-what-it-is-how-it-works-and-who-can-use-it
+              - heading [level=2] [ref=f461e242]:
+                - 'link "UPI Circle: What It Is, How It Works & Who Can Use It" [ref=f461e243]':
+                  - /url: https://business.phonepe.com/articles/upi-circle-what-it-is-how-it-works-and-who-can-use-it
+              - generic [ref=f461e245]: Transaction Limits and Security Features UPI Circle is designed with strict limits and built-in safeguards to ensure safe usage of UPI delegated payments. Transaction Limits Under Full Delegation, the primary user can set a monthly limit of up to ₹15,000 for the secondary user A per-transaction limit of ₹5,000 applies within this cap In Partial Delegation, transactions follow the existing ...
+          - listitem [ref=f461e250]:
+            - article [ref=f461e251] [cursor=pointer]:
+              - button [ref=f461e253]
+              - generic [ref=f461e258]:
+                - link "Search domain linkedin.com" [ref=f461e260]:
+                  - /url: /?q=UPI%20Circle%20NPCI%20delegated%20payment%20limit%20per%20transaction+site:www.linkedin.com
+                - generic [ref=f461e263]:
+                  - paragraph [ref=f461e264]: LinkedIn
+                  - link "https://www.linkedin.com › pulse › npci-introduces-upi-circle-new-era-secure-delegated-payments-uk7rc" [ref=f461e265]:
+                    - /url: https://www.linkedin.com/pulse/npci-introduces-upi-circle-new-era-secure-delegated-payments-uk7rc
+                    - paragraph [ref=f461e267]:
+                      - generic [ref=f461e268]: https://www.linkedin.com
+                      - generic [ref=f461e269]: › pulse › npci-introduces-upi-circle-new-era-secure-delegated-payments-uk7rc
+              - heading [level=2] [ref=f461e271]:
+                - 'link "NPCI Introduces UPI Circle: A New Era of Secure Delegated Payments" [ref=f461e272]':
+                  - /url: https://www.linkedin.com/pulse/npci-introduces-upi-circle-new-era-secure-delegated-payments-uk7rc
+              - generic [ref=f461e277]:
+                - text: 27 Aug 2024·
+                - generic [ref=f461e278]: A maximum monthly limit of ₹15,000 per delegation and a per transaction limit of ₹5,000 for full delegation. Partial delegation follows existing UPI limits, with a daily transaction limit of ...
+          - listitem [ref=f461e279]:
+            - article [ref=f461e280] [cursor=pointer]:
+              - button [ref=f461e282]
+              - generic [ref=f461e287]:
+                - link "Search domain herofincorp.com" [ref=f461e289]:
+                  - /url: /?q=UPI%20Circle%20NPCI%20delegated%20payment%20limit%20per%20transaction+site:www.herofincorp.com
+                - generic [ref=f461e292]:
+                  - paragraph [ref=f461e293]: Hero FinCorp
+                  - link "https://www.herofincorp.com › blog › what-is-upi-circle" [ref=f461e294]:
+                    - /url: https://www.herofincorp.com/blog/what-is-upi-circle
+                    - paragraph [ref=f461e296]:
+                      - generic [ref=f461e297]: https://www.herofincorp.com
+                      - generic [ref=f461e298]: › blog › what-is-upi-circle
+              - heading [level=2] [ref=f461e300]:
+                - link "What Is UPI Circle? Meaning, Benefits & How Does it Work" [ref=f461e301]:
+                  - /url: https://www.herofincorp.com/blog/what-is-upi-circle
+              - generic [ref=f461e306]:
+                - text: 9 Jun 2026·
+                - generic [ref=f461e307]: Primary users can choose full delegation (independent payments) or partial delegation (approval required for each transaction). NPCI limits UPI Circle transactions to ₹5,000 per transaction and ₹15,000 per month per secondary user. Users can set, modify, or revoke permissions anytime and receive visibility into all delegated transactions.
+          - listitem [ref=f461e308]:
+            - article [ref=f461e309] [cursor=pointer]:
+              - button [ref=f461e311]
+              - generic [ref=f461e316]:
+                - link "Search domain npci.org.in" [ref=f461e318]:
+                  - /url: /?q=UPI%20Circle%20NPCI%20delegated%20payment%20limit%20per%20transaction+site:www.npci.org.in
+                - generic [ref=f461e321]:
+                  - paragraph [ref=f461e322]: National Payments Corporation of India (NPCI)
+                  - link "https://www.npci.org.in › uploads › NBSL_Press_release_BHIM_Goes_Live_with_UPI_Circle_Full_Delegation_Enabling_Authorised_UPI_Payments_within_set_limits_7b308e643d.pdf" [ref=f461e323]:
+                    - /url: https://www.npci.org.in/uploads/NBSL_Press_release_BHIM_Goes_Live_with_UPI_Circle_Full_Delegation_Enabling_Authorised_UPI_Payments_within_set_limits_7b308e643d.pdf
+                    - paragraph [ref=f461e325]:
+                      - generic [ref=f461e326]: https://www.npci.org.in
+                      - generic [ref=f461e327]: › uploads › NBSL_Press_release_BHIM_Goes_Live_with_UPI_Circle_Full_Delegation_Enabling_Authorised_UPI_Payments_within_set_limits_7b308e643d.pdf
+              - heading [level=2] [ref=f461e329]:
+                - link "PDF BHIM Goes Live with UPI Circle Full Delegation, Enabling Authorised UPI ..." [ref=f461e330]:
+                  - /url: https://www.npci.org.in/uploads/NBSL_Press_release_BHIM_Goes_Live_with_UPI_Circle_Full_Delegation_Enabling_Authorised_UPI_Payments_within_set_limits_7b308e643d.pdf
+                  - generic [ref=f461e331]:
+                    - generic [ref=f461e332]: PDF
+                    - text: BHIM Goes Live with UPI Circle Full Delegation, Enabling Authorised UPI ...
+              - generic [ref=f461e333]: "Mumbai, November 25, 2025: NPCI BHIM Services Limited (NBSL), a wholly owned subsidiary of the National Payments Corporation of India (NPCI), today announced the introduction of UPI Circle Full Delegation on BHIM Payments App. This new feature allows users to authorise trusted contacts to make UPI payments from their account within a predefined monthly spending limit, simplifying shared and ..."
+          - listitem [ref=f461e338]:
+            - article [ref=f461e339] [cursor=pointer]:
+              - button [ref=f461e341]
+              - generic [ref=f461e346]:
+                - link "Search domain community.iqoo.com" [ref=f461e348]:
+                  - /url: /?q=UPI%20Circle%20NPCI%20delegated%20payment%20limit%20per%20transaction+site:community.iqoo.com
+                - generic [ref=f461e351]:
+                  - paragraph [ref=f461e352]: iQOO Connect
+                  - link "https://community.iqoo.com › in › thread › 61966" [ref=f461e353]:
+                    - /url: https://community.iqoo.com/in/thread/61966
+                    - paragraph [ref=f461e355]:
+                      - generic [ref=f461e356]: https://community.iqoo.com
+                      - generic [ref=f461e357]: › in › thread › 61966
+              - heading [level=2] [ref=f461e359]:
+                - 'link "One Bank Account, Multiple UPI Access: NPCI Launches \"UPI Circle\"" [ref=f461e360]':
+                  - /url: https://community.iqoo.com/in/thread/61966
+              - generic [ref=f461e362]: NPCI has launched "UPI Circle," allowing primary users to delegate payment responsibilities to trusted secondary users.In a recent UPI Steering Committee meeting on August 3, 2023, the introduction of "UPI Circle - Delegate Payments" was unanimously
+          - listitem [ref=f461e367]:
+            - article [ref=f461e368] [cursor=pointer]:
+              - button [ref=f461e370]
+              - generic [ref=f461e375]:
+                - link "Search domain paytm.com" [ref=f461e377]:
+                  - /url: /?q=UPI%20Circle%20NPCI%20delegated%20payment%20limit%20per%20transaction+site:paytm.com
+                - generic [ref=f461e380]:
+                  - paragraph [ref=f461e381]: Paytm
+                  - link "https://paytm.com › blog › payments › upi › what-is-upi-circle-and-how-does-it-work" [ref=f461e382]:
+                    - /url: https://paytm.com/blog/payments/upi/what-is-upi-circle-and-how-does-it-work/
+                    - paragraph [ref=f461e384]:
+                      - generic [ref=f461e385]: https://paytm.com
+                      - generic [ref=f461e386]: › blog › payments › upi › what-is-upi-circle-and-how-does-it-work
+              - heading [level=2] [ref=f461e388]:
+                - link "What is UPI Circle and how is it useful? | Paytm Blog" [ref=f461e389]:
+                  - /url: https://paytm.com/blog/payments/upi/what-is-upi-circle-and-how-does-it-work/
+              - generic [ref=f461e394]:
+                - text: 16 Sept 2025·
+                - generic [ref=f461e395]: "As per NPCI, the maximum UPI limit for secondary users is Rs. 15,000 per month and per transaction limit is Rs. 5,000. Partial Delegation: Unlike full delegation, here the secondary user is required to send a payment request to the primary user."
+          - listitem [ref=f461e396]:
+            - article [ref=f461e397] [cursor=pointer]:
+              - button [ref=f461e399]
+              - generic [ref=f461e404]:
+                - link "Search domain scribd.com" [ref=f461e406]:
+                  - /url: /?q=UPI%20Circle%20NPCI%20delegated%20payment%20limit%20per%20transaction+site:www.scribd.com
+                - generic [ref=f461e409]:
+                  - paragraph [ref=f461e410]: Scribd
+                  - link "https://www.scribd.com › document › 946945860 › Delegate-Payments-Procedural-Guidelines-V1-11" [ref=f461e411]:
+                    - /url: https://www.scribd.com/document/946945860/Delegate-Payments-Procedural-Guidelines-V1-11
+                    - paragraph [ref=f461e413]:
+                      - generic [ref=f461e414]: https://www.scribd.com
+                      - generic [ref=f461e415]: › document › 946945860 › Delegate-Payments-Procedural-Guidelines-V1-11
+              - heading [level=2] [ref=f461e417]:
+                - link "UPI Circle Feature Guidelines Overview - Scribd" [ref=f461e418]:
+                  - /url: https://www.scribd.com/document/946945860/Delegate-Payments-Procedural-Guidelines-V1-11
+              - generic [ref=f461e420]: The UPI Circle feature guidelines outline a system allowing primary users to delegate UPI transaction capabilities to secondary users, aimed at enhancing financial inclusion for individuals without bank accounts or those hesitant about digital payments. The document details user roles, transaction limits, and lifecycle management processes, along with various user stories illustrating ...
+        - button "More results" [ref=f461e427] [cursor=pointer]
+    - list [ref=f461e430]:
+      - button "Close menu" [ref=f461e431] [cursor=pointer]
+      - list [ref=f461e435]:
+        - listitem [ref=f461e436]: Search
+        - listitem [ref=f461e437]:
+          - link "Homepage" [ref=f461e438] [cursor=pointer]:
+            - /url: https://start.duckduckgo.com/
+        - listitem [ref=f461e439]:
+          - link "Themes" [ref=f461e440] [cursor=pointer]:
+            - /url: /settings#appearance
+        - listitem [ref=f461e441]:
+          - link "Settings" [ref=f461e442] [cursor=pointer]:
+            - /url: /settings
+      - list [ref=f461e443]:
+        - listitem [ref=f461e444]: Share Feedback
+        - listitem [ref=f461e445]:
+          - generic [ref=f461e448]:
+            - button "Positive feedback" [ref=f461e449] [cursor=pointer]
+            - button "Negative feedback" [ref=f461e453] [cursor=pointer]
+      - list [ref=f461e457]:
+        - listitem [ref=f461e458]: Downloads
+        - listitem [ref=f461e459]:
+          - link "iOS Browser" [ref=f461e460] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+        - listitem [ref=f461e461]:
+          - link "Android Browser" [ref=f461e462] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+        - listitem [ref=f461e463]:
+          - link "Mac Browser" [ref=f461e464] [cursor=pointer]:
+            - /url: /mac?origin=funnel_browser_searchresults
+        - listitem [ref=f461e465]:
+          - link "Windows Browser" [ref=f461e466] [cursor=pointer]:
+            - /url: /windows?origin=funnel_browser_searchresults
+        - listitem [ref=f461e467]: Browser Extensions
+      - list [ref=f461e468]:
+        - listitem [ref=f461e469]: More From DuckDuckGo
+        - listitem [ref=f461e470]:
+          - generic [ref=f461e473]:
+            - button "Dismiss promotion" [ref=f461e474] [cursor=pointer]
+            - generic [ref=f461e477]:
+              - paragraph [ref=f461e479]: Upgrade to our Private Browser
+              - paragraph [ref=f461e491]: Fast. Secure. Free.
+            - link "Install Mac Browser" [ref=f461e492] [cursor=pointer]:
+              - /url: /mac
+        - listitem [ref=f461e495]:
+          - link "Duck.ai" [ref=f461e496] [cursor=pointer]:
+            - /url: https://duck.ai
+        - listitem [ref=f461e497]:
+          - link "Email Protection" [ref=f461e498] [cursor=pointer]:
+            - /url: /email
+        - listitem [ref=f461e499]:
+          - link "Newsletter" [ref=f461e500] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=f461e501]:
+          - link "Blog" [ref=f461e502] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=f461e503]:
+          - link "Podcast" [ref=f461e504] [cursor=pointer]:
+            - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+        - listitem [ref=f461e505]:
+          - link "Collaborations" [ref=f461e506] [cursor=pointer]:
+            - /url: /collaborations
+      - list [ref=f461e507]:
+        - listitem [ref=f461e508]: Learn More
+        - listitem [ref=f461e509]:
+          - link "What’s New" [ref=f461e510] [cursor=pointer]:
+            - /url: /updates
+        - listitem [ref=f461e511]:
+          - link "Compare Privacy" [ref=f461e512] [cursor=pointer]:
+            - /url: /compare-privacy
+        - listitem [ref=f461e513]:
+          - link "About Our Browser" [ref=f461e514] [cursor=pointer]:
+            - /url: /app
+        - listitem [ref=f461e515]:
+          - link "About DuckDuckGo" [ref=f461e516] [cursor=pointer]:
+            - /url: /about
+      - list [ref=f461e517]:
+        - listitem [ref=f461e518]: Other Resources
+        - listitem [ref=f461e519]:
+          - link "Help" [ref=f461e520] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages
+        - listitem [ref=f461e521]:
+          - link "Community" [ref=f461e522] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/duckduckgo/
+        - listitem [ref=f461e523]:
+          - link "Careers" [ref=f461e524] [cursor=pointer]:
+            - /url: /careers
+        - listitem [ref=f461e525]:
+          - link "Privacy Policy" [ref=f461e526] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=f461e527]:
+          - link "Terms of Service" [ref=f461e528] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=f461e529]:
+          - link "Press Kit" [ref=f461e530] [cursor=pointer]:
+            - /url: /press
+        - listitem [ref=f461e531]:
+          - link "Advertise on Search" [ref=f461e532] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+  - generic [ref=f461e536]:
+    - generic [ref=f461e538]:
+      - generic [ref=f461e555]:
+        - heading "Get Our Mac Browser" [level=3] [ref=f461e556]
+        - paragraph [ref=f461e557]: Protect your data as you search, browse, and use AI.
+      - link "Download" [ref=f461e558] [cursor=pointer]:
+        - /url: https://duckduckgo.com/mac?origin=funnel_browser_searchresults__footercard
+    - generic [ref=f461e562]:
+      - generic [ref=f461e563]:
+        - heading "Learn More" [level=3] [ref=f461e564]
+        - list [ref=f461e565]:
+          - listitem [ref=f461e566]:
+            - link "What's New" [ref=f461e567] [cursor=pointer]:
+              - /url: https://duckduckgo.com/updates
+          - listitem [ref=f461e568]:
+            - link "About Browser" [ref=f461e569] [cursor=pointer]:
+              - /url: https://duckduckgo.com/app
+          - listitem [ref=f461e570]:
+            - link "Compare Privacy" [ref=f461e571] [cursor=pointer]:
+              - /url: https://duckduckgo.com/compare-privacy
+          - listitem [ref=f461e572]:
+            - link "Help Pages" [ref=f461e573] [cursor=pointer]:
+              - /url: https://duckduckgo.com/duckduckgo-help-pages/
+      - generic [ref=f461e574]:
+        - heading "Get More" [level=3] [ref=f461e575]
+        - list [ref=f461e576]:
+          - listitem [ref=f461e577]:
+            - link "Email Protection" [ref=f461e578] [cursor=pointer]:
+              - /url: https://duckduckgo.com/email
+          - listitem [ref=f461e579]:
+            - generic [ref=f461e580]:
+              - link "Podcast" [ref=f461e582] [cursor=pointer]:
+                - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+              - generic [ref=f461e583]:
+                - text: "&"
+                - link "Newsletter" [ref=f461e584] [cursor=pointer]:
+                  - /url: https://duckduckgo.com/newsletter
+          - listitem [ref=f461e585]:
+            - link "Collaborations" [ref=f461e586] [cursor=pointer]:
+              - /url: https://duckduckgo.com/collaborations
+  - button "Share Feedback" [ref=f461e591] [cursor=pointer]
+  - generic [ref=f461e592]:
+    - generic [ref=f461e594]:
+      - banner [ref=f461e595]:
+        - paragraph [ref=f461e597]: Upgrade to our browser.
+      - generic [ref=f461e598]:
+        - paragraph [ref=f461e604]:
+          - generic [ref=f461e605]:
+            - text: Try the
+            - strong [ref=f461e606]: DuckDuckGo Browser.
+            - text: Fast. Free. Private.
+        - link "Download Browser" [ref=f461e607] [cursor=pointer]:
+          - /url: https://duckduckgo.com/mac?origin=funnel_browser_searchresults__popover
+      - paragraph [ref=f461e613]:
+        - generic [ref=f461e614]: Free
+    - button [ref=f461e616] [cursor=pointer]

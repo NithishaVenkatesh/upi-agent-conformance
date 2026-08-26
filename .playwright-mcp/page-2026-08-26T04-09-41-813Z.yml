@@ -1,0 +1,151 @@
+- generic [active] [ref=f188e1]:
+  - generic [ref=f188e2]:
+    - generic [ref=f188e4]:
+      - link [ref=f188e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f188e18]:
+        - listitem [ref=f188e19]:
+          - link "Events" [ref=f188e20] [cursor=pointer]:
+            - /url: /events
+        - listitem [ref=f188e22]:
+          - link "ETHConf New" [ref=f188e23] [cursor=pointer]:
+            - /url: https://ethconf.com/?utm_source=ethglobal
+            - generic [ref=f188e24]:
+              - text: ETHConf
+              - generic [ref=f188e25]: New
+        - listitem [ref=f188e26]:
+          - link "Plus" [ref=f188e27] [cursor=pointer]:
+            - /url: /plus
+        - listitem [ref=f188e29]:
+          - link "Showcase" [ref=f188e30] [cursor=pointer]:
+            - /url: /showcase
+        - listitem [ref=f188e32]:
+          - link "Faucet" [ref=f188e33] [cursor=pointer]:
+            - /url: /faucet
+        - listitem [ref=f188e35]:
+          - link "Swag" [ref=f188e36] [cursor=pointer]:
+            - /url: /swag
+        - listitem [ref=f188e38]:
+          - link "About" [ref=f188e39] [cursor=pointer]:
+            - /url: /about
+      - link "Login" [ref=f188e42] [cursor=pointer]:
+        - /url: /auth?use_redirect=/showcase/deeptrace-7fqoz
+    - generic [ref=f188e44]:
+      - generic [ref=f188e46]:
+        - generic [ref=f188e47]:
+          - img "project screenshot 1" [ref=f188e50]
+          - img "project screenshot 2" [ref=f188e53]
+          - img "project screenshot 3" [ref=f188e56]
+        - banner [ref=f188e58]:
+          - heading "deeptrace" [level=1] [ref=f188e59]
+          - paragraph [ref=f188e60]: DeepTrace connects The Graph Subgraphs and NutHatch to reveal (via MCP) market and wallet behavior.
+          - generic [ref=f188e61]:
+            - link "Live Demo" [ref=f188e62] [cursor=pointer]:
+              - /url: https://mcp.ikodo.dev/
+            - link "Source Code" [ref=f188e63] [cursor=pointer]:
+              - /url: https://github.com/ikodo0/deeptrace
+      - generic [ref=f188e64]:
+        - generic [ref=f188e65]:
+          - generic [ref=f188e67]:
+            - heading "deeptrace" [level=2] [ref=f188e68]
+            - heading "Created At" [level=3] [ref=f188e69]
+            - link "ETHGlobal Lisbon 2026" [ref=f188e70] [cursor=pointer]:
+              - /url: /events/lisbon2026
+            - separator [ref=f188e72]
+            - heading "Winner of" [level=3] [ref=f188e73]
+            - generic [ref=f188e75]:
+              - img "The Graph" [ref=f188e76]
+              - heading "The Graph - Best AI Tooling for The Graph 3rd place" [level=4] [ref=f188e78]
+          - generic [ref=f188e79]:
+            - heading "Project Description" [level=3] [ref=f188e80]
+            - generic [ref=f188e81]:
+              - paragraph [ref=f188e82]: "The Graph gives us the global level: market trends, liquidity, volume, fees, and lending activity across different protocols."
+              - paragraph [ref=f188e83]: "NutHatch, our custom indexer, shows the individual level: swaps, wallets, large players, and their actions."
+              - paragraph [ref=f188e84]: DeepTrace connects both levels to find relationships between global market changes and the individual participants behind them.
+            - heading "How it's Made" [level=3] [ref=f188e85]
+            - generic [ref=f188e86]:
+              - paragraph [ref=f188e87]: We built DeepTrace as a read-only MCP server using Node.js, TypeScript, GraphQL, Zod, Vitest, and the MCP SDK.
+              - paragraph [ref=f188e88]: "The Graph provides the global level: standardized market data from Messari Subgraphs. We use it to compare WETH/USDC Uniswap V3 pools and USDC lending markets across Aave v3, Seamless, and Moonwell."
+              - paragraph [ref=f188e89]: "NutHatch, our custom Base indexer, provides the individual level: large swaps, wallets, token amounts, and data freshness. DeepTrace connects both levels to find relationships between general market behavior and individual players."
+              - paragraph [ref=f188e90]: If one source fails, we keep the successful results and clearly report what is missing.
+              - paragraph [ref=f188e91]: We created a SKILL.md for Agents. The project runs in a Proxmox container through Cloudflare Tunnel.
+        - generic [ref=f188e92]:
+          - img "background image" [ref=f188e93]
+          - generic [ref=f188e94]:
+            - heading "Join the mailing list" [level=2] [ref=f188e95]
+            - heading "Get the latest news and updates" [level=3] [ref=f188e96]
+            - generic [ref=f188e97]:
+              - textbox "Your email address" [ref=f188e99]
+              - button "Get on the list" [ref=f188e100] [cursor=pointer]
+    - contentinfo [ref=f188e101]:
+      - generic [ref=f188e102]:
+        - generic [ref=f188e114]:
+          - generic [ref=f188e115]:
+            - heading "Sign up to get the latest news and updates on ETHGlobal" [level=2] [ref=f188e116]
+            - generic [ref=f188e117]:
+              - textbox "Your email address" [ref=f188e118]
+              - button [ref=f188e119] [cursor=pointer]
+          - generic [ref=f188e122]:
+            - heading "Products" [level=2] [ref=f188e123]
+            - list [ref=f188e124]:
+              - listitem [ref=f188e125]:
+                - link "ETHConf" [ref=f188e126] [cursor=pointer]:
+                  - /url: https://ethconf.com/r/egcom
+              - listitem [ref=f188e127]:
+                - link "Events" [ref=f188e128] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f188e129]:
+                - link "Pragma" [ref=f188e130] [cursor=pointer]:
+                  - /url: /pragma
+              - listitem [ref=f188e131]:
+                - link "Packs" [ref=f188e132] [cursor=pointer]:
+                  - /url: /packs
+              - listitem [ref=f188e133]:
+                - link "Plus New" [ref=f188e134] [cursor=pointer]:
+                  - /url: /plus
+                  - text: Plus
+                  - generic [ref=f188e135]: New
+              - listitem [ref=f188e136]:
+                - link "Faucet" [ref=f188e137] [cursor=pointer]:
+                  - /url: /faucet
+          - generic [ref=f188e138]:
+            - heading "Legal" [level=2] [ref=f188e139]
+            - list [ref=f188e140]:
+              - listitem [ref=f188e141]:
+                - link "Rules & Conduct" [ref=f188e142] [cursor=pointer]:
+                  - /url: /rules
+              - listitem [ref=f188e143]:
+                - link "Privacy Policy" [ref=f188e144] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=f188e145]:
+            - heading "Company" [level=2] [ref=f188e146]
+            - list [ref=f188e147]:
+              - listitem [ref=f188e148]:
+                - link "About" [ref=f188e149] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f188e150]:
+                - link "Brand" [ref=f188e151] [cursor=pointer]:
+                  - /url: /brand
+              - listitem [ref=f188e152]:
+                - link "Careers Hiring" [ref=f188e153] [cursor=pointer]:
+                  - /url: /careers
+                  - text: Careers
+                  - generic [ref=f188e154]: Hiring
+        - generic [ref=f188e155]:
+          - paragraph [ref=f188e156]: © 2026 ETHGlobal. All rights reserved.
+          - list [ref=f188e157]:
+            - listitem [ref=f188e158]:
+              - link [ref=f188e159] [cursor=pointer]:
+                - /url: https://x.com/ethglobal
+            - listitem [ref=f188e163]:
+              - link [ref=f188e164] [cursor=pointer]:
+                - /url: /discord
+            - listitem [ref=f188e168]:
+              - link [ref=f188e169] [cursor=pointer]:
+                - /url: https://www.youtube.com/ethglobal
+            - listitem [ref=f188e172]:
+              - link [ref=f188e173] [cursor=pointer]:
+                - /url: https://mirror.xyz/blog.ethglobal.eth
+  - region "Notifications alt+T"
+  - region "Notifications alt+T"
+  - alert [ref=f188e178]

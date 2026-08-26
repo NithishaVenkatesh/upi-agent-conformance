@@ -1,0 +1,1127 @@
+- generic [ref=f204e1]:
+  - banner:
+    - navigation [ref=f204e2]:
+      - generic [ref=f204e3]:
+        - link [ref=f204e5] [cursor=pointer]:
+          - /url: /
+          - img "Visa Developer Center" [ref=f204e6]
+        - navigation "Site" [ref=f204e7]:
+          - list [ref=f204e8]:
+            - listitem [ref=f204e9]:
+              - button "Products" [ref=f204e10] [cursor=pointer]
+            - listitem [ref=f204e11]:
+              - button "Resources" [ref=f204e12] [cursor=pointer]
+            - listitem [ref=f204e13]:
+              - button "Guides" [ref=f204e14] [cursor=pointer]
+            - listitem [ref=f204e15]:
+              - button "Support" [ref=f204e16] [cursor=pointer]
+            - listitem [ref=f204e17]:
+              - link "Sign In" [ref=f204e18] [cursor=pointer]:
+                - /url: /identity
+          - generic [ref=f204e21]:
+            - button "search" [ref=f204e22] [cursor=pointer]
+            - text:      
+          - text: menu
+  - generic [ref=f204e29]:
+    - heading "Trusted Agent Protocol" [level=1] [ref=f204e30]
+    - heading [level=4]
+  - generic [ref=f204e33]:
+    - generic [ref=f204e34]:
+      - list [ref=f204e36]:
+        - listitem [ref=f204e37]:
+          - link "⬅️ Back to Getting Started" [ref=f204e38] [cursor=pointer]:
+            - /url: /capabilities/trusted-agent-protocol/docs-getting-started
+        - listitem [ref=f204e39]:
+          - link "Product Terms" [ref=f204e40] [cursor=pointer]:
+            - /url: /capabilities/trusted-agent-protocol/product-terms
+        - listitem [ref=f204e41]:
+          - link "Merchant Specifications" [ref=f204e42] [cursor=pointer]:
+            - /url: /capabilities/trusted-agent-protocol/trusted-agent-protocol-specifications/
+          - list [ref=f204e43]:
+            - listitem [ref=f204e44]:
+              - link "lens Introduction" [ref=f204e45] [cursor=pointer]:
+                - /url: "#section0"
+            - listitem [ref=f204e46]:
+              - link "lens Trust Model" [ref=f204e47] [cursor=pointer]:
+                - /url: "#section1"
+            - listitem [ref=f204e48]:
+              - link "lens Agent Recognition Signature" [ref=f204e49] [cursor=pointer]:
+                - /url: "#section2"
+            - listitem [ref=f204e50]:
+              - link "lens Example Agent Verification for Payments" [ref=f204e51] [cursor=pointer]:
+                - /url: "#section3"
+            - listitem [ref=f204e52]:
+              - link "lens Signature Verification" [ref=f204e53] [cursor=pointer]:
+                - /url: "#section4"
+            - listitem [ref=f204e54]:
+              - link "lens Consumer Recognition" [ref=f204e55] [cursor=pointer]:
+                - /url: "#section5"
+            - listitem [ref=f204e56]:
+              - link "lens Contextual Data (contextualData)" [ref=f204e57] [cursor=pointer]:
+                - /url: "#section6"
+            - listitem [ref=f204e58]:
+              - link "lens Payment" [ref=f204e59] [cursor=pointer]:
+                - /url: "#section7"
+            - listitem [ref=f204e60]:
+              - link "lens Verification Steps" [ref=f204e61] [cursor=pointer]:
+                - /url: "#section8"
+            - listitem [ref=f204e62]:
+              - link "lens Card Metadata (cardMetadata)" [ref=f204e63] [cursor=pointer]:
+                - /url: "#section9"
+            - listitem [ref=f204e64]:
+              - link "lens Payment Credential Hash (credentialHash)" [ref=f204e65] [cursor=pointer]:
+                - /url: "#section10"
+            - listitem [ref=f204e66]:
+              - link "lens Payment Object (payload)" [ref=f204e67] [cursor=pointer]:
+                - /url: "#section11"
+            - listitem [ref=f204e68]:
+              - link "lens Browsing IOU (browsingIOU)" [ref=f204e69] [cursor=pointer]:
+                - /url: "#section12"
+            - listitem [ref=f204e70]:
+              - link "lens Additional Information" [ref=f204e71] [cursor=pointer]:
+                - /url: "#section13"
+            - listitem [ref=f204e72]:
+              - link "lens Public Keys Retrieval Service" [ref=f204e73] [cursor=pointer]:
+                - /url: "#section14"
+            - listitem [ref=f204e74]:
+              - link "lens Public Key Retrieval" [ref=f204e75] [cursor=pointer]:
+                - /url: "#section15"
+            - listitem [ref=f204e76]:
+              - link "lens Public Key Retrieval Definition" [ref=f204e77] [cursor=pointer]:
+                - /url: "#section16"
+            - listitem [ref=f204e78]:
+              - link "lens ID Token" [ref=f204e79] [cursor=pointer]:
+                - /url: "#section17"
+            - listitem [ref=f204e80]:
+              - link "lens Token Header" [ref=f204e81] [cursor=pointer]:
+                - /url: "#section18"
+            - listitem [ref=f204e82]:
+              - link "lens Token Claims" [ref=f204e83] [cursor=pointer]:
+                - /url: "#section19"
+            - listitem [ref=f204e84]:
+              - link "lens Public Claims" [ref=f204e85] [cursor=pointer]:
+                - /url: "#section20"
+            - listitem [ref=f204e86]:
+              - link "lens Standard ID Token Claims" [ref=f204e87] [cursor=pointer]:
+                - /url: "#section21"
+            - listitem [ref=f204e88]:
+              - link "lens Private Claims" [ref=f204e89] [cursor=pointer]:
+                - /url: "#section22"
+            - listitem [ref=f204e90]:
+              - link "lens Sample Code to Create Signature Base" [ref=f204e91] [cursor=pointer]:
+                - /url: "#section23"
+      - text: lens lens lens lens lens lens lens lens lens lens lens lens lens lens lens lens lens lens lens lens lens lens lens lens
+    - generic [ref=f204e97]:
+      - heading "Merchant Specifications" [level=2] [ref=f204e98]
+      - paragraph [ref=f204e100]:
+        - emphasis [ref=f204e101]: By accessing, downloading, or using this specification, you agree to the terms and conditions outlined in the
+        - link [ref=f204e102] [cursor=pointer]:
+          - /url: /capabilities/trusted-agent-protocol/product-terms
+          - emphasis [ref=f204e103]: Visa Trusted Agent Protocol Product Terms
+        - text: .
+      - heading "Introduction" [level=3] [ref=f204e104]
+      - generic [ref=f204e105]:
+        - paragraph [ref=f204e106]: This material outlines the next phase of Agentic Commerce – focusing on how Merchants can recognize when an "approved Agent with commerce intent" is interacting with their website or server and how Merchants can make requests to the Agent (e.g. for payment or additional information).
+        - paragraph [ref=f204e107]: While it is possible that Agents could have bi-lateral agreements with Merchants and interact through authenticated, secure interfaces, this protocol is applicable to the scenario when the Agent is initially unknown to the Merchant. That is, this protocol is intended for those scenarios [where the Agent is initially unknown] and includes an Agent interacting with a Merchant website or message protocols exposed by a Merchant - and an agent is directed by the user with an intent for commerce.
+        - paragraph [ref=f204e108]: As agentic commerce becomes more prevalent, we believe this recognition will become necessary, as Merchants (or their Site Protection Providers) will/could confuse these Agent interactions with bots (web crawlers, etc.) or nefarious actors that could be attempting to degrade the Merchant services, be a product reseller of limited-edition releases, or be trying to actively attack the Merchant property. Additionally, it is envisaged that Merchants should have a mechanism to request payment for access to certain information (e.g. customer product reviews) or request additional information from an Agent (e.g. a consumer email address for an unrecognized consumer).
+        - paragraph [ref=f204e109]: While there are a number of ways that Merchants could identify Agents, such as through user agent headers, allow/white-listing of IP addresses, registries of approved Agents, or shared keys, a more efficient mechanism is to provide linked, verifiable, purpose-identifying, and time-based signed credentials in the headers and/or in the request body of messages when interacting with a Merchant especially when it is originating with a verified intent for commerce. Each of these signatures can be ignored by Merchants that do not adopt, or have not yet adopted, this mechanism.
+        - paragraph [ref=f204e110]: While there are a number of upstream processes that may occur for an Agent to determine whether a product or service is sold by a Merchant, this protocol is intended during two specific interactions with the Merchant. That is, (1) a browsing interaction, when the Agent has been initiated by a verified consumer with commerce intent and needs to determine further information about a product and whether inventory is available (e.g. in a specific size, color, etc. and shippable to an address) and to determine the final cost of a product after taxes and shipping, and (2) a payment interaction, when the Agent is providing all the information necessary to purchase a product from the Merchant or gain paid access to a Merchant resource.
+        - paragraph [ref=f204e111]: For Merchants that adopt this mechanism, the purpose of this material is to describe (i) the steps that can be taken to verify each of the signatures, (ii) how the data provided by each signature can be used to identify whether the interaction originated from a trusted Agent, and (iii) how that data can be used to control, limit or complement the interaction.
+        - paragraph [ref=f204e112]: "The protocol is designed to enable agentic commerce at scale with a framework where an Agent can:"
+        - list [ref=f204e113]:
+          - listitem [ref=f204e114]: lensFacilitate verifiable trust over existing web infrastructure (HTTP), with minimal changes required to existing merchant systems
+          - listitem [ref=f204e115]: lensSecurely carry various forms of payment credentials
+          - listitem [ref=f204e116]: lensCommunicate over a variety of channels (e.g., web, API) and protocols (e.g., MCP, ACP)
+      - heading "Audience" [level=4] [ref=f204e117]
+      - paragraph [ref=f204e119]: This material is intended for Merchants and Site Protection Providers to inform them how to recognize approved Agents and verify that the data agents are including in messages comply with the defined requirements. The document defines the framework for a generic protocol and references Visa’s implementation specifications. Where examples are provided, we label them explicitly as part of the Visa implementation to distinguish them from the broader Trusted Agent Protocol.
+      - heading "Participants" [level=4] [ref=f204e120]
+      - generic [ref=f204e121]:
+        - paragraph [ref=f204e122]:
+          - strong [ref=f204e123]: Agent Providers (Agent)
+          - text: are certified AI platforms that have been onboarded as an "Agent" to Payment Schemes and are approved and trusted by the respective Payment Schemes to make payments on behalf of thei account holders.
+        - paragraph [ref=f204e124]:
+          - strong [ref=f204e125]: Checkout Enablers
+          - text: may be used by agents to interact with Merchant websites. While the role of these Checkout Enablers is recognized, the only expectation in regard to this proposal is that these entities will pass through [to the Merchant] any message signatures and query parameters provided by the Agents.
+        - paragraph [ref=f204e126]:
+          - strong [ref=f204e127]: Consumers
+          - text: are account holders of respective Payment Schemes that have a profile created at an Agent and have at least one payment credential linked to their profile [for the purpose of being used by the Agent to make purchases on the consumer's behalf].
+        - paragraph [ref=f204e128]:
+          - strong [ref=f204e129]: Site Protection Providers
+          - text: are defined as systems that are typically a layer sitting in front of a Merchant's website. These systems also provide a level of protection to their customers by identifying traffic that could degrade services or be malicious. These are typically CDNs (Content Delivery Networks), trust management systems, or other such proxies.
+        - paragraph [ref=f204e130]:
+          - strong [ref=f204e131]: Identity Provider
+          - text: is an entity that has verified the credentials used to identify a Consumer and can provide a value [containing the verified credential] that can be authenticated by the relying entity [in this case the Merchant or its Site Protection Provider].
+        - paragraph [ref=f204e132]:
+          - strong [ref=f204e133]: Merchants
+          - text: are online entities selling goods or services and that, through their acquirer relationship, accept credentials from Payment Schemes as a payment method for these goods and services. Merchants are not required to use this proposal and do not necessarily have to be registered with the Payment Schemes to accept these payment credentials. Merchants can expose their goods or services directly to Agents through APIs or similar message protocols or through a web protocol. Merchants that expose web sites and can recognize when Agents are visiting their web properties may choose to present an agent-specific experience to the Agent - for example, present simpler html pages and/or scale down the number of checkout pages with less navigation.
+        - paragraph [ref=f204e134]:
+          - strong [ref=f204e135]: Payment Schemes
+          - text: refer to systems that facilitate electronic payments between consumers, merchants, and financial institutions. These schemes set the rules, standards, and infrastructure for Agent initiated transactions, ensuring interoperability, security, and efficiency across various payment channels and third-party payment providers.
+        - paragraph [ref=f204e136]:
+          - strong [ref=f204e137]: Key Store
+          - text: will be the location on the web where Merchants or Site Protection Providers can retrieve the public keys needed to verify the signatures.
+      - heading "Trust Model" [level=3] [ref=f204e138]
+      - generic [ref=f204e139]:
+        - paragraph [ref=f204e140]: The trust model described hereunder is comprised of three distinct signatures.
+        - list [ref=f204e141]:
+          - listitem [ref=f204e142]: lensAn agent recognition signature provided in the message header (HTTP header, REST API header or similar message header). This signature is intended to ensure that the Agent is a trusted agent interacting with the Merchant in order to retrieve additional information about a specific product/service sold by the Merchant or in order to make an actual purchase. This signature is provided both during the browsing and payment interactions.
+          - listitem [ref=f204e143]: lensA linked and signed consumer/device identity provided in the message request body. This signature is intended to allow the Merchant to determine whether the consumer that the Agent is shopping on behalf of is known to the Merchant. That is, whether the consumer (through a consumer or device identity) has previously shopped at the Merchant or whether the consumer (through a consumer identity, loyalty number, etc.) has an account at the Merchant. This signature is provided during the browsing interaction and may be provided during the payment interaction.
+          - listitem [ref=f204e144]: lensA linked and signed payment container provided in the message request body. This signature is intended to provide information related to the payment credentials and information necessary to complete or complement a purchase. The content provided in the signature is dependent upon the mechanism being used to interact with the Merchant and may contain a range of information. For example, if browser automation is being used to complete a web-based guest checkout, key entry experience, this signature may contain a hash of the payment credential data that will be key entered, while if the protocol allows the complete payment payload , this signature may contain all the data necessary to complete the payment. This signature can be provided during the payment interaction or at any point the Merchant is requesting a payment.
+      - heading "Agent Recognition Signature" [level=3] [ref=f204e145]
+      - generic [ref=f204e146]:
+        - paragraph [ref=f204e147]:
+          - text: The Agent recognition signature is based on the
+          - strong [ref=f204e148]: HTTP Message Signatures
+          - text: "defined by RCF 9421 [and aligned with web-bot-auth] and offers a secure, standardized, and verifiable way to ensure the legitimacy of clients (bots, agents, or any automated traffic) and the integrity of their requests. Here's why it's beneficial:"
+        - list [ref=f204e149]:
+          - listitem [ref=f204e150]:
+            - strong [ref=f204e151]: Strong Identity Verification
+            - paragraph [ref=f204e152]: Agents can sign requests using a private key. Servers verify the signature using the corresponding public key [retrieved from a trusted Key Store]. This proves the Agent's participation in the Payment Scheme specific program. In the case that the public key is associated with Visa, this would imply the Agent's participation in (and compliance with) Visa Intelligent Commerce program requirements.
+          - listitem [ref=f204e153]:
+            - strong [ref=f204e154]: Tamper-Proof Requests
+            - paragraph [ref=f204e155]: The signature covers critical parts of the message (e.g., method, path, headers). Any modification to the request (e.g., changing a header or path) invalidates the signature.
+          - listitem [ref=f204e156]:
+            - strong [ref=f204e157]: Replay Attack Protection
+            - paragraph [ref=f204e158]: Agents include timestamps (created, expires) and nonces in the signature. Servers are able to reject reused or expired signatures, thereby preventing replay attacks.
+          - listitem [ref=f204e159]:
+            - strong [ref=f204e160]: No Reliance on IP addresses or overloading of header fields
+            - text: Traditional bot detection often relies on IP addresses or adding content to other HTTP header fields. HTTP message signatures are specifically intended to provide cryptographic assurance of origin.
+        - paragraph [ref=f204e161]: "As per RFC9421, HTTP Message Signatures comprise the following 2 fields being present in the HTTP header or message header:"
+        - table [ref=f204e162]:
+          - rowgroup [ref=f204e163]:
+            - row [ref=f204e164]:
+              - columnheader "Field name" [ref=f204e165]
+              - columnheader "Description" [ref=f204e166]
+          - rowgroup [ref=f204e167]:
+            - row [ref=f204e168]:
+              - cell [ref=f204e169]:
+                - code [ref=f204e170]: Signature-Input
+              - cell "A Dictionary Structured Field containing the metadata of the message signature generated from components within the HTTP message" [ref=f204e171]
+            - row [ref=f204e172]:
+              - cell [ref=f204e173]:
+                - code [ref=f204e174]: Signature
+              - cell "A Dictionary Structured Field containing a message signature generated from the signature context of the target message" [ref=f204e175]
+        - paragraph [ref=f204e176]: "The following is a browsing example of the above fields as provided in a HTTP header as defined in this material:"
+        - code [ref=f204e178]: "Signature-Input: sig2=(\"@authority\" \"@path\"); created=1735689600; expires=1735693200; keyId=\"poqkLGiymh_W0uP6PZFw-dvez3QJT5SolqXBCW38r0U\"; alg=\"Ed25519\"; nonce= \"e8N7S2MFd/qrd6T2R3tdfAuuANngKI7LFtKYI/vowzk4lAZyadIX6wW25MwG7DCT9RUKAJ0qVkU0mEeLElW1qg==\"; tag=\"agent-browser-auth\" Signature: sig2=:jdq0SqOwHdyHr9+r5jw3iYZH6aNGKijYp/EstF4RQTQdi5N5YYKrD+mCT1HA1nZDsi6nJKuHxUi/5Syp3rLWBA==:"
+      - heading "Processes" [level=4] [ref=f204e179]
+      - generic [ref=f204e180]:
+        - paragraph [ref=f204e181]: The following section describes the processes used to validate the agent recognition signature and describes the steps that can be taken to verify the signed content. These validation processes can be performed independently by the Merchant or by a Site Protection Provider on behalf of the Merchant.
+        - paragraph [ref=f204e182]: In the context of Visa Intelligent Commerce, Agents are expected to interact with a Merchant site at two points.
+        - list [ref=f204e183]:
+          - listitem [ref=f204e184]: lensThe first point is when the Agent is navigating to a product detail page in order to retrieve more details about a specific product (for example, determine what materials were used in the production process) or, to determine whether the product is currently available is a specific size or color, etc.
+          - listitem [ref=f204e185]: lensThe second point is when the Agent is navigating to a checkout page to complete the purchase
+        - paragraph [ref=f204e186]: Both of the above interactions can contain a slightly different message signature and as such this section details the steps for either interaction.
+      - heading "Example Agent Verification for Payments" [level=3] [ref=f204e187]
+      - img "A diagram showing example agent verification for payments." [ref=f204e189]
+      - heading "Signature Verification" [level=3] [ref=f204e190]
+      - generic [ref=f204e191]:
+        - paragraph [ref=f204e192]: The following description is for any agent-to-merchant interaction and defines how a Merchant should verify the Message Signature.
+        - paragraph [ref=f204e193]:
+          - text: The Message Signature will follow the RFC9421 standard (
+          - link "https://datatracker.ietf.org/doc/html/rfc9421#section-2.3-3" [ref=f204e194] [cursor=pointer]:
+            - /url: https://datatracker.ietf.org/doc/html/rfc9421#section-2.3-3
+          - text: ) and contain the below minimum set of parameters that are required to be present for a trusted Agent.
+        - paragraph [ref=f204e195]:
+          - strong [ref=f204e196]: Sample Browsing Request with Message Signature
+        - code [ref=f204e198]: "URL: https://www.example.com/example-product Request Headers: Accept: User-Agent: Signature-Input: sig2=(\"@authority\" \"@path\"); created=1735689600; keyid=\"poqkLGiymh_W0uP6PZFw-dvez3QJT5SolqXBCW38r0U\"; alg=\"Ed25519\"; expires=1735693200; nonce=\"e8N7S2MFd/qrd6T2R3tdfAuuANngKI7LFtKYI/vowzk4lAZYadIX6wW25MwG7DCT9RUKAJ0qVkU0mEeLElW1qg==\"; tag=\"agent-browser-auth\" Signature: sig2=:jdq0SqOwHdyHr9+r5jw3iYZH6aNGKijYp/EstF4RQTQdi5N5YYKrD+mCT1HA1nZDsi6nJKuHxUi/5Syp3rLWBA==:"
+        - paragraph [ref=f204e199]:
+          - strong [ref=f204e200]: Sample Checkout Request with Message Signature
+        - code [ref=f204e202]: "URL: https://www.example.com/checkout Request Headers: Accept: User-Agent: Signature-Input: sig2=(\"@authority\" \"@path\"); created=1735689600; keyid=\"poqkLGiymh_W0uP6PZFw-dvez3QJT5SolqXBCW38r0U\"; alg=\"Ed25519\"; expires=1735693200; nonce=\"e8N7S2MFd/qrd6T2R3tdfAuuANngKI7LFtKYI/vowzk4lAZYadIX6wW25MwG7DCT9RUKAJ0qVkU0mEeLElW1qg==\"; tag=\"agent-payer-auth\" Signature: sig2=:jdq0SqOwHdyHr9+r5jw3iYZH6aNGKijYp/EstF4RQTQdi5N5YYKrD+mCT1HA1nZDsi6nJKuHxUi/5Syp3rLWBA==:"
+        - paragraph [ref=f204e203]:
+          - strong [ref=f204e204]: Required Message Signature Fields
+        - paragraph [ref=f204e205]: Below is the minimum list of fields required to be a trusted Agent. An Agent or a Payment Scheme may optionally define additional fields that could be part of the signature.
+        - table [ref=f204e206]:
+          - rowgroup [ref=f204e207]:
+            - row [ref=f204e208]:
+              - columnheader "Field" [ref=f204e209]
+              - columnheader "Description" [ref=f204e210]
+          - rowgroup [ref=f204e211]:
+            - row [ref=f204e212]:
+              - cell [ref=f204e213]:
+                - code [ref=f204e214]: "@authority"
+              - cell "The authority of the target URI for a request" [ref=f204e215]
+            - row [ref=f204e216]:
+              - cell [ref=f204e217]:
+                - code [ref=f204e218]: "@path"
+              - cell "The absolute path portion of the target URI for a request" [ref=f204e219]
+            - row [ref=f204e220]:
+              - cell [ref=f204e221]:
+                - code [ref=f204e222]: created
+              - cell "The timestamp of when the message request was created" [ref=f204e223]
+            - row [ref=f204e224]:
+              - cell [ref=f204e225]:
+                - code [ref=f204e226]: keyid
+              - cell "The identity of the public key that will be used to verify the signature. The Merchant may have cached the public key for the keyid." [ref=f204e227]
+            - row [ref=f204e228]:
+              - cell [ref=f204e229]:
+                - code [ref=f204e230]: expires
+              - cell "The timestamp of when the message request will no longer be valid" [ref=f204e231]
+            - row [ref=f204e232]:
+              - cell [ref=f204e233]:
+                - code [ref=f204e234]: tag
+              - cell [ref=f204e235]:
+                - text: Will contain the value of
+                - code [ref=f204e236]: agent-browser-auth
+                - text: or
+                - code [ref=f204e237]: agent-payer-auth
+                - text: based on the type of interaction
+            - row [ref=f204e238]:
+              - cell [ref=f204e239]:
+                - code [ref=f204e240]: alg
+              - cell "The algorithm used to generate/verify the signature" [ref=f204e241]
+            - row [ref=f204e242]:
+              - cell [ref=f204e243]:
+                - code [ref=f204e244]: nonce
+              - cell "A session identifier. If there are multiple message signatures in the header, the session identifier should be the same nonce used in other message signatures." [ref=f204e245]
+        - paragraph [ref=f204e246]:
+          - strong [ref=f204e247]: Verification Steps
+        - paragraph [ref=f204e248]: The Merchant should perform the following steps to verify that the message being received has not been manipulated in any way, is not being replayed or relayed, and has been signed using a key maintained by a trusted agent.
+        - list [ref=f204e249]:
+          - listitem [ref=f204e250]:
+            - text: lensIf the header does not contain a message signature with a
+            - code [ref=f204e251]: Signature-Input
+            - text: field containing a tag of either
+            - code [ref=f204e252]: agent-browser-auth
+            - text: or
+            - code [ref=f204e253]: agent-payer-auth
+            - text: ", the message has not been signed by a trusted agent. The Merchant may decide to block the message or use some other mechanism to determine whether the interaction can continue. The following steps only apply if the"
+            - code [ref=f204e254]: Signature-Input
+            - text: field contains a tag of either
+            - code [ref=f204e255]: agent-browser-auth
+            - text: or
+            - code [ref=f204e256]: agent-payer-auth
+            - text: .
+          - listitem [ref=f204e257]:
+            - text: lens
+            - strong [ref=f204e258]: Minimum fields
+            - list [ref=f204e259]:
+              - listitem [ref=f204e260]: lensIf any of the fields listed in the table above are missing, the message should be blocked.
+          - listitem [ref=f204e261]:
+            - text: lens
+            - strong [ref=f204e262]: Timestamps
+            - list [ref=f204e263]:
+              - listitem [ref=f204e264]:
+                - text: lensThe timestamps (
+                - code [ref=f204e265]: created
+                - text: and
+                - code [ref=f204e266]: expired
+                - text: ) should fall within the current GMT time and should not be more than 8 minutes apart. That is, if the interval between the
+                - code [ref=f204e267]: created
+                - text: and
+                - code [ref=f204e268]: expired
+                - text: timestamps is greater than 8 minutes, or if the
+                - code [ref=f204e269]: created
+                - text: timestamp is not in the past, or the
+                - code [ref=f204e270]: expired
+                - text: timestamp is not in the future, the message should be blocked.
+          - listitem [ref=f204e271]:
+            - text: lens
+            - strong [ref=f204e272]: Nonce
+            - list [ref=f204e273]:
+              - listitem [ref=f204e274]: lensIf maintaining a record of all nonces received in the last 8 minutes, if the nonce received matches a recorded nonce, the message should be blocked.
+          - listitem [ref=f204e275]:
+            - text: lens
+            - strong [ref=f204e276]: Locate the public key
+            - list [ref=f204e277]:
+              - listitem [ref=f204e278]:
+                - text: lensIf the public key for the
+                - code [ref=f204e279]: keyid
+                - text: in the
+                - code [ref=f204e280]: Signature-Input
+                - text: field has not been previously retrieved and cached, refer to the Public Keys Retrieval Service section for details of how to retrieve the public key. If the public key cannot be retrieved or the public key has expired, the message should be blocked.
+          - listitem [ref=f204e281]:
+            - text: lens
+            - strong [ref=f204e282]: Validate the signature
+            - list [ref=f204e283]:
+              - listitem [ref=f204e284]: lensCreate the signature base string. The signature base string is a canonical representation of critical request attributes—such as the authority, path, signature agent, timestamps, key identifier, nonce, and tag—formatted in a precise, structured manner. This ensures that both sender and receiver reconstruct the exact same data for signing and verification, and any alteration in order, spacing, or values will cause validation to fail.
+              - listitem [ref=f204e285]: lensProvide the signature base string and public key to the library used to validate the signature.
+              - listitem [ref=f204e286]: lensIf signature validation fails, the message should be blocked.
+        - paragraph [ref=f204e287]: If none of the steps above result in the message being blocked, and signature validation is successful, this implies that the signature was generated by a trusted agent and that the Agent is interacting with the Merchant to retrieve information about a specific product/service or attempting to make a payment to the Merchant for product(s)/service(s).
+        - paragraph [ref=f204e288]: Based on this validation the Merchant can allow the interaction to continue while still potentially limiting the interaction to these specific steps.
+      - heading "Consumer Recognition" [level=3] [ref=f204e289]
+      - generic [ref=f204e290]:
+        - paragraph [ref=f204e291]:
+          - text: An
+          - code [ref=f204e292]: Agentic Consumer Recognition Object
+          - text: is provided in the message request body and contains consumer recognition data and a signature that links the content provided in the object to the message signature. That is, the Agentic Consumer Recognition Object contains a signature signed with the same private key used to sign the message signature and one of the fields signed is the same
+          - code [ref=f204e293]: nonce
+          - text: present in the message signature.
+        - paragraph [ref=f204e294]:
+          - text: The
+          - code [ref=f204e295]: Agentic Consumer Recognition Object
+          - text: may contain one of more fields that can be used by the Merchant to identify the consumer that an Agent is acting on behalf of. For Visa Intelligent Commerce, Visa will provide an ID Token (see ID token section) but additional fields, such as consumer device identifiers, country and postal code, a loyalty number or an identity token provided by another entity may also be present.
+        - paragraph [ref=f204e296]:
+          - text: The
+          - code [ref=f204e297]: Agentic Consumer Recognition Object
+          - text: "comprises at least the following 5 fields being present in the Object:"
+        - table [ref=f204e298]:
+          - rowgroup [ref=f204e299]:
+            - row [ref=f204e300]:
+              - columnheader "Field name" [ref=f204e301]
+              - columnheader "Description" [ref=f204e302]
+          - rowgroup [ref=f204e303]:
+            - row [ref=f204e304]:
+              - cell [ref=f204e305]:
+                - code [ref=f204e306]: nonce
+              - cell [ref=f204e307]:
+                - text: The same
+                - code [ref=f204e308]: nonce
+                - text: present in the message signature
+            - row [ref=f204e309]:
+              - cell [ref=f204e310]:
+                - code [ref=f204e311]: idToken
+              - cell "A JWT" [ref=f204e312]
+            - row [ref=f204e313]:
+              - cell [ref=f204e314]:
+                - code [ref=f204e315]: contextualData
+              - cell "An object containing device and location consumer identifiers" [ref=f204e316]
+            - row [ref=f204e317]:
+              - cell [ref=f204e318]:
+                - code [ref=f204e319]: kid
+              - cell [ref=f204e320]:
+                - text: The identity of the public key that will be used to verify the signature. This value should be the same key identifier (
+                - code [ref=f204e321]: keyid
+                - text: ) present in the message signature.
+            - row [ref=f204e322]:
+              - cell [ref=f204e323]:
+                - code [ref=f204e324]: alg
+              - cell "The algorithm used to generate/verify the signature" [ref=f204e325]
+            - row [ref=f204e326]:
+              - cell [ref=f204e327]:
+                - code [ref=f204e328]: signature
+              - cell "A Signature" [ref=f204e329]
+        - paragraph [ref=f204e330]
+        - paragraph [ref=f204e331]: "The following is a JSON example of the above fields as provided in the request body as defined in this material:"
+        - code [ref=f204e333]: "\"agenticConsumer\" { \"nonce\" : \"e8N7S2MFd/qrd6T2R3tdfAuuANngKI7LFtKYI/vowzk4lAZyadIX6wW25MwG7DCT9RUKAJ0qVkU0mEeLElW1qg==\", \"IdToken\" : { }, \"contextualData\" : { }, \"kid\" : \"poqkLGiymh_W0uP6PZFw-dvez3QJT5SolqXBCW38r0U\", \"alg\" : \"PS256\", \"signature\" : \"jdq0SqOwHdyHr9+r5jw3iYZH6aNGKijYp/EstF4RQTQdi5N5YYKrD+mCT1HA1nZDsi5N5YYKrD+mCT1HA1nZDsi6nJKuHxUi/5Syp3rLWBA==\" }"
+      - heading "Processes" [level=4] [ref=f204e334]
+      - generic [ref=f204e335]:
+        - paragraph [ref=f204e336]: The following section describes the processes used to validate the Agentic Consumer Recognition Object and describes the steps that can be taken to verify the signed content.
+        - paragraph [ref=f204e337]: In the context of Visa Intelligent Commerce, Agents are expected to interact with a Merchant site at two points.
+        - list [ref=f204e338]:
+          - listitem [ref=f204e339]: lensThe first point is when the Agent is navigating to a product detail page in order to retrieve more details about a specific product (for example, determine what materials were used in the production process) or, to determine whether the product is currently available is a specific size or color, etc.
+          - listitem [ref=f204e340]: lensThe second point is when the Agent is navigating to a checkout page to complete the purchase
+        - paragraph [ref=f204e341]: Both of the above interactions may contain an Agentic Consumer Recognition Object and as such this section details the steps for both interactions.
+      - heading "Signature Verification" [level=4] [ref=f204e342]
+      - generic [ref=f204e343]:
+        - paragraph [ref=f204e344]: The following description is for any agent-to-merchant interaction and defines how a Merchant should verify the Agentic Consumer Recognition Object.
+        - paragraph [ref=f204e345]:
+          - strong [ref=f204e346]: Verification Steps
+        - paragraph [ref=f204e347]: The Merchant should perform the following steps to determine whether the object being received has not been manipulated in any way, is not being replayed or relayed and has been signed using a key maintained by a trusted agent. It is at the discretion of the Merchant to determine whether the content of the object is usable even if verification is not successful.
+        - list [ref=f204e348]:
+          - listitem [ref=f204e349]:
+            - text: lens
+            - strong [ref=f204e350]: Minimum fields
+            - list [ref=f204e351]:
+              - listitem [ref=f204e352]: lensIf any of the fields listed in the table above are missing, the content may be inaccurate.
+          - listitem [ref=f204e353]:
+            - text: lens
+            - strong [ref=f204e354]: Nonce
+            - list [ref=f204e355]:
+              - listitem [ref=f204e356]:
+                - text: lensIf the
+                - code [ref=f204e357]: nonce
+                - text: contained in the object does not match the
+                - code [ref=f204e358]: nonce
+                - text: received in the message signature, the content of the object may be inaccurate even if the signature verification is successful.
+          - listitem [ref=f204e359]:
+            - text: lens
+            - strong [ref=f204e360]: Locate the public key
+            - list [ref=f204e361]:
+              - listitem [ref=f204e362]:
+                - text: lensIf the public key for the
+                - code [ref=f204e363]: kid
+                - text: field has not been previously retrieved and cached, refer to the Public Keys Retrieval Service section for details of how to retrieve the public key. If the public key cannot be retrieved or the public key has expired, the content of the object may be inaccurate.
+          - listitem [ref=f204e364]:
+            - text: lens
+            - strong [ref=f204e365]: Validate the signature
+            - list [ref=f204e366]:
+              - listitem [ref=f204e367]:
+                - text: lensCreate the signature base string. The signature base string is a canonical representation of all fields in the object in the order received except for the
+                - code [ref=f204e368]: signature
+                - text: itself. This ensures that both sender and receiver reconstruct the exact same data for signing and verification, and any alteration in order, spacing, or values will cause validation to fail.
+              - listitem [ref=f204e369]: lensProvide the signature base string and public key to the library used to validate the signature.
+              - listitem [ref=f204e370]: lensIf signature validation fails, the content of the object may be inaccurate.
+        - paragraph [ref=f204e371]: If signature validation is successful, this implies that the signature was generated by a Visa trusted agent and that the Agent is interacting with the Merchant to retrieve information about a specific product/service or attempting to make a payment to the Merchant for product(s)/service(s). Based on this validation, or even if the validation was not successful, the Merchant may use the data to determine if they have a relationship with the consumer the Agent is acting on behalf of.
+        - paragraph [ref=f204e372]: If the Merchant is using the Visa ID Token to determine whether they have an account for the consumer, as no identities are provided in the clear, the Merchant must also maintain a mapping table that can be used to match a hashed phone number or hashed email address to an actual phone number or email address of their account holder.
+      - heading "Processing of Identity Data" [level=4] [ref=f204e373]
+      - generic [ref=f204e374]:
+        - paragraph [ref=f204e375]: This section describes the potential usage of each of the fields in the Contextual Data object present in the Agentic Consumer Recognition Object.
+        - heading [level=3] [ref=f204e376]:
+          - text: Contextual Data (
+          - code [ref=f204e377]: contextualData
+          - text: )
+        - paragraph [ref=f204e378]: The object contains the following fields.
+        - list [ref=f204e379]:
+          - listitem [ref=f204e380]:
+            - text: lens
+            - code [ref=f204e381]: countryCode
+            - text: – 2-digit country code as per
+            - code [ref=f204e382]: ISO 3166-1 alpha-2
+            - text: country code
+          - listitem [ref=f204e383]:
+            - text: lens
+            - code [ref=f204e384]: zip
+            - text: – 16 characters containing either a zip/postal code or a city/state combination
+          - listitem [ref=f204e385]:
+            - text: lens
+            - code [ref=f204e386]: ipAddress
+            - text: – IP Address of the consumer's device collected during Payment Instruction
+          - listitem [ref=f204e387]:
+            - text: lens
+            - code [ref=f204e388]: deviceData
+            - text: – A Device Data object of the consumer's device collected during Payment Instruction
+        - paragraph [ref=f204e389]:
+          - text: This data can be used by a Merchant to determine whether a previous interaction occurred using the same device data and
+          - code [ref=f204e390]: ipAddress
+          - text: and/or optimize the information provided based on the location information.
+      - heading "Payment" [level=3] [ref=f204e391]
+      - generic [ref=f204e392]:
+        - paragraph [ref=f204e393]:
+          - text: An
+          - code [ref=f204e394]: Agentic Payment Container
+          - text: object is provided in the message request body and contains payment data and a signature that links the content provided in the object to the message signature.
+        - paragraph [ref=f204e395]: That is, the agentic payment container object contains a signature signed with the same private key used to sign the message signature and one of the fields signed is the same nonce present in the message signature.
+        - paragraph [ref=f204e396]:
+          - text: The
+          - code [ref=f204e397]: Agentic Payment Container
+          - text: "object may contain one of more fields that can be used for processing of a payment. While the implementation of this may vary depending on type of payment method used, the following is an example of how this will be implemented in the case of Visa Intelligent Commerce where the fields present are dependent on what type of payment the Merchant is requesting or how the Merchant has indicated that the payment will be processed. For example:"
+        - list [ref=f204e398]:
+          - listitem [ref=f204e399]:
+            - text: lensIf the Merchant has requested a payment using a
+            - code [ref=f204e400]: "402"
+            - text: response code, a payment IOU will be present
+          - listitem [ref=f204e401]: lensIf the Merchant is expecting payment through a guest checkout, key entry form, a hash of the payment credentials will be present.
+          - listitem [ref=f204e402]: lensIf the Merchant is expecting a network token, a complete payment object will be present.
+          - listitem [ref=f204e403]: lensIn addition to payment data, card meta data may also be present.
+        - paragraph [ref=f204e404]:
+          - text: The
+          - code [ref=f204e405]: Agentic Payment Container
+          - text: "object comprises at least the following 4 fields being present in the Object:"
+        - table [ref=f204e406]:
+          - rowgroup [ref=f204e407]:
+            - row [ref=f204e408]:
+              - columnheader "Field name" [ref=f204e409]
+              - columnheader "Description" [ref=f204e410]
+          - rowgroup [ref=f204e411]:
+            - row [ref=f204e412]:
+              - cell [ref=f204e413]:
+                - code [ref=f204e414]: nonce
+              - cell "The same nonce present in the message signature" [ref=f204e415]
+            - row [ref=f204e416]:
+              - cell [ref=f204e417]:
+                - code [ref=f204e418]: kid
+              - cell [ref=f204e419]:
+                - text: The identity of the public key that will be used to verify the signature, This value should be the same key identifier (
+                - code [ref=f204e420]: keyid
+                - text: ) present in the message signature.
+            - row [ref=f204e421]:
+              - cell [ref=f204e422]:
+                - code [ref=f204e423]: alg
+              - cell "The algorithm used to generate/verify the signature" [ref=f204e424]
+            - row [ref=f204e425]:
+              - cell [ref=f204e426]:
+                - code [ref=f204e427]: signature
+              - cell "A Signature" [ref=f204e428]
+        - paragraph [ref=f204e429]: "The following is a JSON example of the above fields including a payment credential hash as provided in the request body as defined in this material:"
+        - code [ref=f204e431]: "\"agenticPaymentContainer\" { \"nonce\" : \"e8N7S2MFd/qrd6T2R3tdfAuuANngKI7LFtKYI/vowzk4lAZyadIX6wW25MwG7DCT9RUKAJ0qVkU0mEeLElW1qg==\", \"paymentCredentialsHash\" : { } \"kid\" : \"poqkLGiymh_W0uP6PZFw-dvez3QJT5SolqXBCW38r0U\", \"alg\" : \"PS256\", \"signature\" : \"jdq0SqOwHdyHr9+r5jw3iYZH6aNGKijYp/EstF4RQTQdi5N5YYKrD+mCT1HA1nZDsi6nJKuHxUi/5Syp3rLWBA==\" }"
+      - heading "Processes" [level=4] [ref=f204e432]
+      - generic [ref=f204e433]:
+        - paragraph [ref=f204e434]: The following section describes the processes used to validate the Agentic Payment Container and describes the steps that can be taken to verify the signed content.
+        - paragraph [ref=f204e435]: While the implementation of this may vary depending on type of payment method used, the following example demonstrates how this will be implemented for Visa Intelligent Commerce. Agents can be expected to interact with a Merchant site at two points.
+        - list [ref=f204e436]:
+          - listitem [ref=f204e437]: lensThe first point is when the Agent is navigating to a product detail page in order to retrieve more details about a specific product (for example, determine what materials were used in the production process) or, to determine whether the product is currently available is a specific size or color, etc.
+          - listitem [ref=f204e438]: lensThe second point is when the Agent is navigating to a checkout page to complete the purchase
+        - paragraph [ref=f204e439]: In addition to these 2 points, as there may be many instances where an Agent is required to make a payment, this section details the steps for any such interactions.
+      - heading "Signature Verification" [level=4] [ref=f204e440]
+      - generic [ref=f204e441]:
+        - paragraph [ref=f204e442]: The following description is for any agent-to-merchant interaction and defines how a Merchant should verify the Agentic Payment Container.
+        - heading "Verification Steps" [level=3] [ref=f204e443]
+        - paragraph [ref=f204e444]: The Merchant should perform the following steps to determine whether the object being received has not been manipulated in any way, is not being replayed or relayed and has been signed using a key maintained by a trusted agent. It is at the discretion of the Merchant to determine whether the content of the object is usable even if verification is not successful.
+        - list [ref=f204e445]:
+          - listitem [ref=f204e446]:
+            - text: lens
+            - strong [ref=f204e447]: Minimum fields
+            - list [ref=f204e448]:
+              - listitem [ref=f204e449]: lensIf any of the fields listed in the table above are missing, the content of the object is inaccurate and should not be used for processing any payment.
+          - listitem [ref=f204e450]:
+            - text: lens
+            - strong [ref=f204e451]: Nonce
+            - list [ref=f204e452]:
+              - listitem [ref=f204e453]:
+                - text: lensIf a message signature was present for this interaction and the
+                - code [ref=f204e454]: nonce
+                - text: contained in the object does not match the
+                - code [ref=f204e455]: nonce
+                - text: received in the message signature, the content of the object is inaccurate and should not be used for processing any payment. As there may be instances where a payment is required but a message signature is not required , this step may be skipped.
+          - listitem [ref=f204e456]:
+            - text: lens
+            - strong [ref=f204e457]: Locate the public key
+            - list [ref=f204e458]:
+              - listitem [ref=f204e459]:
+                - text: lensIf the public key for the
+                - code [ref=f204e460]: kid
+                - text: field has not been previously retrieved and cached, refer to the Public Keys Retrieval Service section for details of how to retrieve the public key. If the public key cannot be retrieved or the public key has expired, the content of the object may be inaccurate.
+          - listitem [ref=f204e461]:
+            - text: lens
+            - strong [ref=f204e462]: Validate the signature
+            - list [ref=f204e463]:
+              - listitem [ref=f204e464]:
+                - text: lensCreate the signature base string. The signature base string is a canonical representation of all fields in the object in the order received except for the
+                - code [ref=f204e465]: signature
+                - text: itself. This ensures that both sender and receiver reconstruct the exact same data for signing and verification, and any alteration in order, spacing, or values will cause validation to fail.
+              - listitem [ref=f204e466]: lensProvide the signature base string and public key to the library used to validate the signature.
+              - listitem [ref=f204e467]: lensIf signature validation fails, the content of the object is inaccurate and should not be used for processing any payment.
+        - paragraph [ref=f204e468]: If signature validation is successful, this implies that the signature was generated by a trusted agent and that the Agent is making a payment, is interacting with the Merchant to retrieve information about a specific product/service or attempting to make a payment to the Merchant for product(s)/service(s).
+      - heading "Processing of Payment Data" [level=4] [ref=f204e469]
+      - generic [ref=f204e470]:
+        - paragraph [ref=f204e471]: The describes the potential usage of each of the possible payment objects present in the Agentic Payment Container specifically for Cards. This may vary depending on the underlying payment source.
+        - heading [level=3] [ref=f204e472]:
+          - text: Card Metadata (
+          - code [ref=f204e473]: cardMetadata
+          - text: )
+        - paragraph [ref=f204e474]: The card metadata object contains the following fields and may be present if the payment is being processed through a guest checkout, key entry form.
+        - list [ref=f204e475]:
+          - listitem [ref=f204e476]:
+            - text: lens
+            - code [ref=f204e477]: lastFour
+            - text: – last 4 digits printed on the physical card link to the payment credential
+          - listitem [ref=f204e478]:
+            - text: lens
+            - code [ref=f204e479]: paymentAccountReference
+            - text: – reference to the underlying funding account of the payment credential
+          - listitem [ref=f204e480]:
+            - text: lens
+            - code [ref=f204e481]: shortDescription
+          - listitem [ref=f204e482]:
+            - text: lensa list of
+            - code [ref=f204e483]: CardData
+            - text: objects
+            - list [ref=f204e484]:
+              - listitem [ref=f204e485]:
+                - text: lens
+                - code [ref=f204e486]: contentType
+              - listitem [ref=f204e487]:
+                - text: lens
+                - code [ref=f204e488]: Content
+                - text: object
+                - list [ref=f204e489]:
+                  - listitem [ref=f204e490]:
+                    - text: lens
+                    - code [ref=f204e491]: mimeType
+                  - listitem [ref=f204e492]:
+                    - text: lens
+                    - code [ref=f204e493]: width
+                  - listitem [ref=f204e494]:
+                    - text: lens
+                    - code [ref=f204e495]: height
+        - paragraph [ref=f204e496]: This data can be used by a Merchant when providing receipt or order updates to the consumer and to link payments made with tokens or virtual cards to a single underlying funding account.
+        - heading [level=3] [ref=f204e497]:
+          - text: Payment Credential Hash (
+          - code [ref=f204e498]: credentialHash
+          - text: )
+        - paragraph [ref=f204e499]: "The payment credential hash contains a hash of the following fields and is present when the payment is being processed using a guest checkout, key entry form:"
+        - list [ref=f204e500]:
+          - listitem [ref=f204e501]: lens16-digit account number
+          - listitem [ref=f204e502]: lens2-digit expiration month
+          - listitem [ref=f204e503]: lens2-digit expiration year
+          - listitem [ref=f204e504]: lens3-digit card security code
+        - paragraph [ref=f204e505]: This data can be used by the Merchant to ensure that the data being key entered is the actual data provided by the respective Payment Scheme. The Merchant achieves this by using the same above key entered information to generate a hash and compares the hashes. If the hashes do not match, the information being key entered is most likely fraudulent and the Merchant should decline the transaction.
+        - heading [level=3] [ref=f204e506]:
+          - text: Payment Object (
+          - code [ref=f204e507]: payload
+          - text: )
+        - paragraph [ref=f204e508]: "The payload is encrypted using the Merchant's public key and containing the following fields, and is present when the Merchant is using an API or similar protocol to process the payment:"
+        - list [ref=f204e509]:
+          - listitem [ref=f204e510]:
+            - text: lensA
+            - code [ref=f204e511]: Token
+            - text: object
+            - list [ref=f204e512]:
+              - listitem [ref=f204e513]:
+                - text: lens
+                - code [ref=f204e514]: paymentToken
+              - listitem [ref=f204e515]:
+                - text: lens
+                - code [ref=f204e516]: expirationMonth
+              - listitem [ref=f204e517]:
+                - text: lens
+                - code [ref=f204e518]: expirationYear
+              - listitem [ref=f204e519]:
+                - text: lens
+                - code [ref=f204e520]: cardholderName
+          - listitem [ref=f204e521]:
+            - text: lens
+            - code [ref=f204e522]: dynamicData
+          - listitem [ref=f204e523]:
+            - text: lensA
+            - code [ref=f204e524]: ShippingAddress
+            - text: object
+          - listitem [ref=f204e525]:
+            - text: lensA
+            - code [ref=f204e526]: BillingAddress
+            - text: object
+          - listitem [ref=f204e527]:
+            - text: lens
+            - code [ref=f204e528]: consumerEmailAddress
+          - listitem [ref=f204e529]:
+            - text: lens
+            - code [ref=f204e530]: consumerName
+          - listitem [ref=f204e531]:
+            - text: lens
+            - code [ref=f204e532]: consumerMobileNumber
+        - paragraph [ref=f204e533]: This data is only present when using an API or similar protocol and the respective Payment Scheme is aware of the exact method the Merchant will use to process the payment.
+        - paragraph [ref=f204e534]: The Merchant public key is onboarded to all the Payment Schemes that the Merchant accepts using a Payment Scheme specific API.
+        - heading [level=3] [ref=f204e535]:
+          - text: Browsing IOU (
+          - code [ref=f204e536]: browsingIOU
+          - text: )
+        - paragraph [ref=f204e537]:
+          - text: The Browsing IOU object contains the following fields and is present if the Merchant has requested payment using a
+          - code [ref=f204e538]: "402"
+          - text: "response code:"
+        - list [ref=f204e539]:
+          - listitem [ref=f204e540]:
+            - text: lens
+            - code [ref=f204e541]: invoiceId
+            - text: (received in the
+            - code [ref=f204e542]: "402"
+            - text: response code)
+          - listitem [ref=f204e543]:
+            - text: lens
+            - code [ref=f204e544]: amount
+            - text: (amount received in the
+            - code [ref=f204e545]: "402"
+            - text: response code)
+          - listitem [ref=f204e546]:
+            - text: lens
+            - code [ref=f204e547]: cardAcceptorId
+            - text: (CAID received in the
+            - code [ref=f204e548]: "402"
+            - text: response code)
+          - listitem [ref=f204e549]:
+            - text: lens
+            - code [ref=f204e550]: acquirerId
+            - text: (AID of the acquirer with whom the funds will be settled)
+          - listitem [ref=f204e551]:
+            - text: lens
+            - code [ref=f204e552]: uri
+            - text: (the URI of the page requiring payment)
+          - listitem [ref=f204e553]:
+            - text: lens
+            - code [ref=f204e554]: sequenceCounter
+            - text: (agent tracking number)
+          - listitem [ref=f204e555]:
+            - text: lens
+            - code [ref=f204e556]: paymentService
+            - text: (the payment service with which the Agent has an account)
+          - listitem [ref=f204e557]:
+            - text: lens
+            - code [ref=f204e558]: kid
+          - listitem [ref=f204e559]:
+            - text: lens
+            - code [ref=f204e560]: alg
+          - listitem [ref=f204e561]:
+            - text: lens
+            - code [ref=f204e562]: signature
+        - paragraph [ref=f204e563]:
+          - text: Prior to granting access to the resource, the Merchant must verify that the data in the IOU matches the data returned in the
+          - code [ref=f204e564]: "402"
+          - text: response and verify the signature. If the data and the signature is valid, the Merchant can grant access with the expectation that the funds will be available when settlement occurs.
+      - heading "Additional Information" [level=3] [ref=f204e565]
+      - generic [ref=f204e566]:
+        - paragraph [ref=f204e567]: This section provides details on public key retrieval, ID Tokens and sample code to build the message signature base string.
+        - heading "Public Keys Retrieval Service" [level=3] [ref=f204e568]
+        - paragraph [ref=f204e569]: The Public Keys Retrieval service enables retrieval of cryptographic public keys from a well-known URL. For Visa's implementation, Visa will host a well-known URL. The goal would be to have a shared approach across Payment Schemes. The keys retrieved are used by Merchants for Message Signature, JWS signature and Agentic Consumer Recognition Object verification.
+        - paragraph [ref=f204e570]: "In the case of a Visa hosted well-known URL, cryptographic public keys will be available for retrieval to allow signature verification in the following cases:"
+        - list [ref=f204e571]:
+          - listitem [ref=f204e572]: lensThe ID Token provided by Visa as an object in the Agentic Consumer Recognition Object is a signed JWT in the form of a JWS
+          - listitem [ref=f204e573]:
+            - text: lensAgentic Consumer Recognition Object, Browser IOU Object and Payment Credentials are signed in the form identified by the
+            - code [ref=f204e574]: alg
+            - text: field.
+          - listitem [ref=f204e575]:
+            - text: lensThe message signature is signed in the form identified by the
+            - code [ref=f204e576]: alg
+            - text: field.
+        - paragraph [ref=f204e577]: For non-Visa keys, refer to the documentation for the specific JWS to determine the mechanism to retrieve public keys.
+        - paragraph [ref=f204e578]:
+          - text: Visa publishes public keys on the web in the following well-known location (
+          - link "https://mcp.visa.com/.well-known/jwks" [ref=f204e579] [cursor=pointer]:
+            - /url: https://mcp.visa.com/.well-known/jwks
+          - text: ) to allow discovery of the keys by the relying party. Each key must be easily identifiable so it can be selected by the relying party based on the
+          - code [ref=f204e580]: kid
+          - text: or
+          - code [ref=f204e581]: keyid
+          - text: specified in the header of the JWS or Signature-Input respectively.
+        - paragraph [ref=f204e582]: "For signature verification, key retrieval and selection process follows the steps below:"
+        - list [ref=f204e583]:
+          - listitem [ref=f204e584]:
+            - text: The relying party discovers the URI of the signature issuer by examining the JWS content (i.e.
+            - code [ref=f204e585]: iss
+            - text: ) or in the case of the message signature as specified in this material.
+          - listitem [ref=f204e586]: The relying party retrieves the set of public keys available at the well-known path as per the discovered or known URI.
+          - listitem [ref=f204e587]:
+            - text: The relying party examines JWS header or Signature-Input to discover the key ID (
+            - code [ref=f204e588]: kid
+            - text: or
+            - code [ref=f204e589]: keyid
+            - text: member) and cryptographic signature algorithm (
+            - code [ref=f204e590]: alg
+            - text: member).
+          - listitem [ref=f204e591]: The relying party selects the corresponding public key that matched the key ID and performs verification of the signature following the known or indicated algorithm
+      - heading "Public Key Retrieval" [level=3] [ref=f204e592]
+      - generic [ref=f204e593]:
+        - paragraph [ref=f204e594]: The Public Key Retrieval operation retrieves a set of public keys.
+        - heading "Public Key Retrieval Definition" [level=3] [ref=f204e595]
+        - table [ref=f204e596]:
+          - rowgroup [ref=f204e597]:
+            - row [ref=f204e598]:
+              - columnheader "Parameter" [ref=f204e599]
+              - columnheader "Value" [ref=f204e600]
+          - rowgroup [ref=f204e601]:
+            - row [ref=f204e602]:
+              - cell "HTTP Verb" [ref=f204e603]
+              - cell [ref=f204e604]:
+                - code [ref=f204e605]: GET
+            - row [ref=f204e606]:
+              - cell "Path" [ref=f204e607]
+              - cell [ref=f204e608]:
+                - code [ref=f204e609]: /keys
+            - row [ref=f204e610]:
+              - cell "Parameters" [ref=f204e611]
+              - cell [ref=f204e612]:
+                - code [ref=f204e613]: keyID
+        - paragraph [ref=f204e614]:
+          - text: If the operation is processed successfully (status code of
+          - code [ref=f204e615]: 2xx
+          - text: "), the response body will return a JWK Object (JSON Web Key) with the following fields:"
+        - table [ref=f204e616]:
+          - rowgroup [ref=f204e617]:
+            - row [ref=f204e618]:
+              - columnheader "Field" [ref=f204e619]
+              - columnheader "Description" [ref=f204e620]
+          - rowgroup [ref=f204e621]:
+            - row [ref=f204e622]:
+              - cell [ref=f204e623]:
+                - code [ref=f204e624]: kty
+              - cell [ref=f204e625]:
+                - text: Key type (e.g.,
+                - code [ref=f204e626]: RSA
+                - text: ","
+                - code [ref=f204e627]: EC
+                - text: ","
+                - code [ref=f204e628]: oct
+                - text: )
+            - row [ref=f204e629]:
+              - cell [ref=f204e630]:
+                - code [ref=f204e631]: kid
+              - cell "Key ID – used to identify the key" [ref=f204e632]
+            - row [ref=f204e633]:
+              - cell [ref=f204e634]:
+                - code [ref=f204e635]: use
+              - cell [ref=f204e636]:
+                - text: Intended use (
+                - code [ref=f204e637]: sig
+                - text: for signature)
+            - row [ref=f204e638]:
+              - cell [ref=f204e639]:
+                - code [ref=f204e640]: alg
+              - cell [ref=f204e641]:
+                - text: Algorithm (e.g.,
+                - code [ref=f204e642]: PS256
+                - text: ","
+                - code [ref=f204e643]: ES256
+                - text: )
+            - row [ref=f204e644]:
+              - cell [ref=f204e645]:
+                - code [ref=f204e646]: "n"
+              - cell "RSA modulus (base64url-encoded)" [ref=f204e647]
+            - row [ref=f204e648]:
+              - cell [ref=f204e649]:
+                - code [ref=f204e650]: e
+              - cell "RSA exponent (base64url-encoded)" [ref=f204e651]
+        - paragraph [ref=f204e652]: Refer to the common set of HTTP error status codes to determine the cause of any unsuccessful key retrieval.
+      - heading "ID Token" [level=3] [ref=f204e653]
+      - generic [ref=f204e654]:
+        - paragraph [ref=f204e655]: The ID Token is a JSON Web Token (JWT) in line with RFC 7519 and compatible with an OpenID Connect ID Token.
+        - paragraph [ref=f204e656]: The Visa implementation of the ID Token is digitally signed by Visa. Relying parties (Merchants) need to be able to validate this token using Visa's public key. The signature is compliant with JSON Web Signature (JWS) specification RFC 7515.
+      - heading "Token Header" [level=3] [ref=f204e657]
+      - generic [ref=f204e658]:
+        - paragraph [ref=f204e659]: The header of the JWT must be compliant with the JOSE Header as specified by RFC 7519. The following table describes required fields in the JOSE Header, in accordance with RFC.
+        - table [ref=f204e660]:
+          - rowgroup [ref=f204e661]:
+            - row [ref=f204e662]:
+              - columnheader "Parameter Name" [ref=f204e663]
+              - columnheader "Description" [ref=f204e664]
+          - rowgroup [ref=f204e665]:
+            - row [ref=f204e666]:
+              - cell [ref=f204e667]:
+                - code [ref=f204e668]: alg
+              - cell [ref=f204e669]:
+                - paragraph [ref=f204e670]: "Algorithm used to digitally sign the payload according to RFC 7518 Section 3.1:"
+                - list [ref=f204e671]:
+                  - listitem [ref=f204e672]:
+                    - text: lens
+                    - code [ref=f204e673]: None
+                    - text: is not supported
+                  - listitem [ref=f204e674]:
+                    - text: lens
+                    - code [ref=f204e675]: PS256
+                    - text: is preferred to
+                    - code [ref=f204e676]: RS256
+                    - text: following the recommendation in RFC 3447
+            - row [ref=f204e677]:
+              - cell [ref=f204e678]:
+                - code [ref=f204e679]: kid
+              - cell [ref=f204e680]:
+                - paragraph [ref=f204e681]: Key ID for the Visa public key to be used to verify the signature.
+                - paragraph [ref=f204e682]: Relying party SHOULD use the Key ID to select the appropriate key to verify the signature.
+                - paragraph [ref=f204e683]: The key type of the public key identified by the Key ID MUST match the type of the signing algorithm
+            - row [ref=f204e684]:
+              - cell [ref=f204e685]:
+                - code [ref=f204e686]: typ
+              - cell [ref=f204e687]:
+                - text: Media type of the token. For JWT tokens the value should be
+                - code [ref=f204e688]: JWT+ext.id_token
+      - heading "Token Claims" [level=3] [ref=f204e689]
+      - generic [ref=f204e690]:
+        - paragraph [ref=f204e691]: The ID Token represents a digitally-signed attestation that a Consumer has been identified by the respective Payment Scheme. The token contains Consumer Identities that allow Merchants to identify whether they have an existing account for the Consumer.
+        - paragraph [ref=f204e692]: As no identities are provided in the clear, the Merchant must also maintain a mapping table that can be used to match an obfuscated phone number or obfuscated email address to an actual phone number or email address of their account holder.
+        - heading "Public Claims" [level=3] [ref=f204e693]
+        - table [ref=f204e694]:
+          - rowgroup [ref=f204e695]:
+            - row [ref=f204e696]:
+              - columnheader "Claim Name" [ref=f204e697]
+              - columnheader "Cardinality" [ref=f204e698]
+              - columnheader "Notes" [ref=f204e699]
+          - rowgroup [ref=f204e700]:
+            - row [ref=f204e701]:
+              - cell [ref=f204e702]:
+                - code [ref=f204e703]: iss
+              - cell "1" [ref=f204e704]
+              - cell "Issuer identifier for the Issuer of the response." [ref=f204e705]
+            - row [ref=f204e706]:
+              - cell [ref=f204e707]:
+                - code [ref=f204e708]: sub
+              - cell "1" [ref=f204e709]
+              - cell "Subject Identifier. A locally unique and never reassigned identifier within the Issuer for the end user (Consumer)" [ref=f204e710]
+            - row [ref=f204e711]:
+              - cell [ref=f204e712]:
+                - code [ref=f204e713]: aud
+              - cell "1..n" [ref=f204e714]
+              - cell "JSON Array of the audience(s) that this ID Token is intended for." [ref=f204e715]
+            - row [ref=f204e716]:
+              - cell [ref=f204e717]:
+                - code [ref=f204e718]: exp
+              - cell "1" [ref=f204e719]
+              - cell [ref=f204e720]:
+                - text: Expiration time on or after which the ID Token SHOULD NOT be accepted for processing. Its value is a JSON number representing the number of seconds from
+                - code [ref=f204e721]: 1970-01-01T0:0:0Z
+                - text: as measured in UTC until the date/time.
+            - row [ref=f204e722]:
+              - cell [ref=f204e723]:
+                - code [ref=f204e724]: iat
+              - cell "1" [ref=f204e725]
+              - cell [ref=f204e726]:
+                - text: Time at which the ID Token was issued. Its value is a JSON number representing the number of seconds from
+                - code [ref=f204e727]: 1970-01-01T0:0:0Z
+                - text: as measured in UTC until the date/time.
+            - row [ref=f204e728]:
+              - cell [ref=f204e729]:
+                - code [ref=f204e730]: jti
+              - cell "0..1" [ref=f204e731]
+              - cell [ref=f204e732]:
+                - text: The
+                - code [ref=f204e733]: jti
+                - text: (JWT ID) claim provides a unique identifier for the JWT. The value is a case-sensitive string.
+            - row [ref=f204e734]:
+              - cell [ref=f204e735]:
+                - code [ref=f204e736]: auth_time
+              - cell "0..1" [ref=f204e737]
+              - cell [ref=f204e738]:
+                - text: Time when the end user authentication occurred. Its value is a JSON number representing the number of seconds from
+                - code [ref=f204e739]: 1970-01-01T0:0:0Z
+                - text: as measured in UTC until the date/time.
+            - row [ref=f204e740]:
+              - cell [ref=f204e741]:
+                - code [ref=f204e742]: amr
+              - cell "0..n" [ref=f204e743]
+              - cell "List of methods end user was authenticated with." [ref=f204e744]
+        - heading "Standard ID Token Claims" [level=3] [ref=f204e745]
+        - table [ref=f204e746]:
+          - rowgroup [ref=f204e747]:
+            - row [ref=f204e748]:
+              - columnheader "Claim Name" [ref=f204e749]
+              - columnheader "Cardinality" [ref=f204e750]
+              - columnheader "Notes" [ref=f204e751]
+          - rowgroup [ref=f204e752]:
+            - row [ref=f204e753]:
+              - cell [ref=f204e754]:
+                - code [ref=f204e755]: phone_number
+              - cell "0..1" [ref=f204e756]
+              - cell [ref=f204e757]:
+                - text: Obfuscated end user's preferred mobile phone number. Underlying phone number value MUST conform with
+                - code [ref=f204e758]: E.164
+                - text: format except that the leading
+                - code [ref=f204e759]: +
+                - text: special character MUST be excluded.
+            - row [ref=f204e760]:
+              - cell [ref=f204e761]:
+                - code [ref=f204e762]: phone_number_verified
+              - cell "0..1" [ref=f204e763]
+              - cell [ref=f204e764]:
+                - paragraph [ref=f204e765]:
+                  - code [ref=f204e766]: "true"
+                  - text: if the end user's phone number has been verified; otherwise
+                  - code [ref=f204e767]: "false"
+                  - text: .
+                - paragraph [ref=f204e768]:
+                  - text: When this claim value is
+                  - code [ref=f204e769]: "true"
+                  - text: ", this means that the OP (OpenID Provider) took affirmative steps to ensure that this phone number was controlled by the end user at the time the verification was performed. The means by which a phone number is verified is context-specific, and dependent upon the trust framework or contractual agreements within which the parties are operating."
+                - paragraph [ref=f204e770]: The Relying Party MUST NOT rely upon this value being unique.
+            - row [ref=f204e771]:
+              - cell [ref=f204e772]:
+                - code [ref=f204e773]: email
+              - cell "0..1" [ref=f204e774]
+              - cell [ref=f204e775]:
+                - text: Obfuscated end user's preferred e-mail address. Underlying email address value MUST conform to the
+                - code [ref=f204e776]: RFC 5322
+                - code [ref=f204e777]: addr-spec
+                - text: syntax simplified to all lowercase characters.
+            - row [ref=f204e778]:
+              - cell [ref=f204e779]:
+                - code [ref=f204e780]: email_verified
+              - cell "0..1" [ref=f204e781]
+              - cell [ref=f204e782]:
+                - paragraph [ref=f204e783]:
+                  - code [ref=f204e784]: "true"
+                  - text: if the end user's e-mail address has been verified; otherwise
+                  - code [ref=f204e785]: "false"
+                  - text: .
+                - paragraph [ref=f204e786]:
+                  - text: When this claim value is
+                  - code [ref=f204e787]: "true"
+                  - text: ", this means that the OP took affirmative steps to ensure that this e-mail address was controlled by the end user at the time the verification was performed. The means by which an e-mail address is verified is context-specific, and dependent upon the trust framework or contractual agreements within which the parties are operating."
+        - heading "Private Claims" [level=3] [ref=f204e788]
+        - table [ref=f204e789]:
+          - rowgroup [ref=f204e790]:
+            - row [ref=f204e791]:
+              - columnheader "Claim Name" [ref=f204e792]
+              - columnheader "Cardinality" [ref=f204e793]
+              - columnheader "Notes" [ref=f204e794]
+          - rowgroup [ref=f204e795]:
+            - row [ref=f204e796]:
+              - cell [ref=f204e797]:
+                - code [ref=f204e798]: phone_number_mask
+              - cell "0..1" [ref=f204e799]
+              - cell [ref=f204e800]:
+                - paragraph [ref=f204e801]:
+                  - text: Masked Consumer mobile phone number. This MUST use
+                  - code [ref=f204e802]: E.164
+                  - text: format with Payment Scheme-specific masking rules.
+                - paragraph [ref=f204e803]: Used by the Relying Party to properly render the UI and allow a frictionless user experience.
+            - row [ref=f204e804]:
+              - cell [ref=f204e805]:
+                - code [ref=f204e806]: email_mask
+              - cell "0..1" [ref=f204e807]
+              - cell [ref=f204e808]:
+                - paragraph [ref=f204e809]:
+                  - text: Masked Consumer e-mail address in
+                  - code [ref=f204e810]: RFC 5322
+                  - text: format with Payment Scheme-specific masking rules.
+                - paragraph [ref=f204e811]: Used by the Relying Party to properly render the UI and allow a frictionless user experience.
+      - heading "Sample Code to Create Signature Base" [level=3] [ref=f204e812]
+      - paragraph [ref=f204e814]: This is a Python example of how to create the signature base string. It can be done in any language preferred by the developer.
+      - generic [ref=f204e816]:
+        - button "Copy the code sample" [ref=f204e817] [cursor=pointer]:
+          - generic [ref=f204e818]: content_copy
+          - text: Copy
+        - code [ref=f204e820]:
+          - text: "# Input values from the HTTP request authority = \"example.com\" path = \"/example-product\" created = 1735689600 expires = 1735693200 keyid = \"poaKLGjymh_W0uP6PZFw-dvez3QJTSolqXBCW38r0U\" nonce = \"e8N7S2MFd/qrddE7R23tdfAuuANngKI7LFtKYI/vIowzk4lAZYadIX6wW25MwG7DCT9RUKAJ0qVkUOmEeLEWI1qq==\" tag = \"agent-browser-auth\" # Construct the signature base signature_base = ("
+          - generic [ref=f204e821]:
+            - text: "f\"@authority:"
+            - generic [ref=f204e822]: "{authority}"
+            - text: \n"
+          - generic [ref=f204e823]:
+            - text: "f\"@path:"
+            - generic [ref=f204e824]: "{path}"
+            - text: \n"
+          - generic [ref=f204e825]: "f\"\\\"@signature-params\\\": sig2=(\\\"@authority\\\" \\\"@path\\\");\""
+          - generic [ref=f204e826]:
+            - text: f"created=
+            - generic [ref=f204e827]: "{created}"
+            - text: ;"
+          - generic [ref=f204e828]:
+            - text: f"keyid=\"
+            - generic [ref=f204e829]: "{keyid}"
+            - text: \";"
+          - generic [ref=f204e830]:
+            - text: f"expires=
+            - generic [ref=f204e831]: "{expires}"
+            - text: ;"
+          - generic [ref=f204e832]:
+            - text: f"nonce=\"
+            - generic [ref=f204e833]: "{nonce}"
+            - text: \";"
+          - generic [ref=f204e834]:
+            - text: f"tag=\"
+            - generic [ref=f204e835]: "{tag}"
+            - text: \""
+          - text: ") print(signature_base) Result String authority: example.com\\ @path: /example.html\\ \"@signature-params\": sig2=(\"@authority\" \"@path\");created=1735689600;keyid=\"poaKLGjymh_W0uP6PZFw-dvez3QJTSolqXBCW38r0U\";expires=1735693200;nonce=\"e8N7S2MFd/qrddE7R23tdfAuuANngKI7LFtKYI/vIowzk4lAZYadIX6wW25MwG7DCT9RUKAJ0qVkUOmEeLEWI1qq==\";tag=\"agent-browser-auth\""
+      - heading "Result String" [level=4] [ref=f204e836]
+      - generic [ref=f204e838]:
+        - button "Copy the code sample" [ref=f204e839] [cursor=pointer]:
+          - generic [ref=f204e840]: content_copy
+          - text: Copy
+        - code [ref=f204e842]: "authority: example.com\\ @path: /example-product\\ \"@signature-params\": sig2=(\"@authority\" \"@path\");created=1735689600;keyid=\"poaKLGjymh_W0uP6PZFw-dvez3QJTSolqXBCW38r0U\";expires=1735693200;nonce=\"e8N7S2MFd/qrddE7R23tdfAuuANngKI7LFtKYI/vIowzk4lAZYadIX6wW25MwG7DCT9RUKAJ0qVkUOmEeLEWI1qq==\";tag=\"agent-browser-auth\""
+  - contentinfo [ref=f204e843]:
+    - generic [ref=f204e844]:
+      - generic [ref=f204e845]:
+        - generic [ref=f204e846]:
+          - link [ref=f204e847] [cursor=pointer]:
+            - /url: http://www.visa.com
+            - img "Visa Inc logo" [ref=f204e848]
+          - paragraph [ref=f204e849]: Copyright 2015–2026 Visa. All rights reserved.
+        - list [ref=f204e851]:
+          - listitem [ref=f204e852]:
+            - link "Visa Global Sites" [ref=f204e853] [cursor=pointer]:
+              - /url: http://www.visa.com/globalgateway/gg_selectcountry.jsp
+          - listitem [ref=f204e854]:
+            - link "Visa Partner" [ref=f204e855] [cursor=pointer]:
+              - /url: https://partner.visa.com
+          - listitem [ref=f204e856]:
+            - link "Privacy Notice" [ref=f204e857] [cursor=pointer]:
+              - /url: https://visa.com/privacy
+          - listitem [ref=f204e858]:
+            - link "Your Privacy Rights" [ref=f204e859] [cursor=pointer]:
+              - /url: https://usa.visa.com/legal/global-privacy-notice/ca-privacy-rights.html
+          - listitem [ref=f204e872]:
+            - link "Cookie Preferences" [ref=f204e873] [cursor=pointer]:
+              - /url: https://policy.cookiereports.com/58ca76cf_panel-en-gb.js
+          - listitem [ref=f204e874]:
+            - link "Terms of Use" [ref=f204e875] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f204e876]:
+            - link "Security Terms" [ref=f204e877] [cursor=pointer]:
+              - /url: /pages/security-terms
+      - generic [ref=f204e879]:
+        - link "" [ref=f204e880] [cursor=pointer]:
+          - /url: https://github.com/visa
+        - link "" [ref=f204e882] [cursor=pointer]:
+          - /url: https://twitter.com/VisaDeveloper
+        - link "" [ref=f204e884] [cursor=pointer]:
+          - /url: https://www.youtube.com/playlist?list=PLbcVgosgfo3pF-kiMi_kn4Y0ndjB40w5A
+  - dialog [ref=f204e887]:
+    - generic [ref=f204e888]:
+      - heading "Cookies" [level=2] [ref=f204e889]
+      - paragraph [ref=f204e891]:
+        - text: We use cookies and similar technologies where essential to provide our website. We also use them to remember your preferences so that we can give you the best online experience, analyse your visits to our sites and enable personalized marketing (including through our marketing partners). For details, see our
+        - link "Cookie Notice. (External link, opens in a new window)" [ref=f204e892] [cursor=pointer]:
+          - /url: https://www.visa.com/cookie-notice
+          - text: Cookie Notice.
+      - generic [ref=f204e893]:
+        - button "Accept" [ref=f204e894] [cursor=pointer]
+        - button "Reject all" [ref=f204e895] [cursor=pointer]
+        - button "Review choices" [active] [ref=f204e896] [cursor=pointer]
+    - text: ✔ ✖ ✔ ✖ ✔ ✖ ✔ ✖

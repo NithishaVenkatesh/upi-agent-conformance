@@ -1,0 +1,137 @@
+- generic [active] [ref=f186e1]:
+  - generic [ref=f186e2]:
+    - generic [ref=f186e4]:
+      - link [ref=f186e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f186e18]:
+        - listitem [ref=f186e19]:
+          - link "Events" [ref=f186e20] [cursor=pointer]:
+            - /url: /events
+        - listitem [ref=f186e22]:
+          - link "ETHConf New" [ref=f186e23] [cursor=pointer]:
+            - /url: https://ethconf.com/?utm_source=ethglobal
+            - generic [ref=f186e24]:
+              - text: ETHConf
+              - generic [ref=f186e25]: New
+        - listitem [ref=f186e26]:
+          - link "Plus" [ref=f186e27] [cursor=pointer]:
+            - /url: /plus
+        - listitem [ref=f186e29]:
+          - link "Showcase" [ref=f186e30] [cursor=pointer]:
+            - /url: /showcase
+        - listitem [ref=f186e32]:
+          - link "Faucet" [ref=f186e33] [cursor=pointer]:
+            - /url: /faucet
+        - listitem [ref=f186e35]:
+          - link "Swag" [ref=f186e36] [cursor=pointer]:
+            - /url: /swag
+        - listitem [ref=f186e38]:
+          - link "About" [ref=f186e39] [cursor=pointer]:
+            - /url: /about
+      - link "Login" [ref=f186e42] [cursor=pointer]:
+        - /url: /auth?use_redirect=/showcase/humanmandate-wbx5i
+    - generic [ref=f186e44]:
+      - banner [ref=f186e48]:
+        - heading "HumanMandate" [level=1] [ref=f186e49]
+        - paragraph [ref=f186e50]: An agent card for AI ，bound to a World humanId spending caps, revoke, Selfie step-up on-chain.
+        - generic [ref=f186e51]:
+          - link "Live Demo" [ref=f186e52] [cursor=pointer]:
+            - /url: https://human-mandate.vercel.app
+          - link "Source Code" [ref=f186e53] [cursor=pointer]:
+            - /url: https://github.com/LingSiewWin/HumanMandate
+      - generic [ref=f186e54]:
+        - generic [ref=f186e55]:
+          - generic [ref=f186e57]:
+            - heading "HumanMandate" [level=2] [ref=f186e58]
+            - heading "Created At" [level=3] [ref=f186e59]
+            - link "ETHGlobal Lisbon 2026" [ref=f186e60] [cursor=pointer]:
+              - /url: /events/lisbon2026
+          - generic [ref=f186e62]:
+            - heading "Project Description" [level=3] [ref=f186e63]
+            - generic [ref=f186e64]:
+              - paragraph [ref=f186e65]: Credit cards bind to cards. Allowances bind to addresses. Revoke either and the counterparty returns with a new credential.
+              - paragraph [ref=f186e66]: "HumanMandate is an agent card for unsupervised AI spenders, bound to a World AgentBook humanId and enforced in Solidity on World Chain mainnet: daily caps, a locked recipient, one-tap revoke that survives brand-new agent addresses, and a fresh Selfie liveness check to raise limits. Routine spend inside the cap needs no human present — like Face ID for money."
+            - heading "How it's Made" [level=3] [ref=f186e67]
+            - generic [ref=f186e68]:
+              - paragraph [ref=f186e69]: The core is one Solidity contract, HumanMandate, built with Foundry and live on World Chain mainnet.
+              - paragraph [ref=f186e70]: "AgentBook humanId — the contract reads the live AgentBook registry from Solidity to resolve agent→human — so caps and revocation follow the person, not the wallet: after revoke, a brand-new agent address still reverts NotAuthorized. All policy is enforced as custom-error reverts (CapExceeded, NotAuthorized, LivenessRequired)"
+              - paragraph [ref=f186e71]: Raising limits is the only action that requires a human. The World App mini-app (Next.js 15 + MiniKit) runs a Selfie liveness check; our backend verifies the proof (IDKit + RP signing — MiniKit 2.x removed verify()), binds it to the payer via signal_hash, and an attestor key signs an EIP-712 StepUp attestation that the contract checks inside raiseLimits.
+        - generic [ref=f186e72]:
+          - img "background image" [ref=f186e73]
+          - generic [ref=f186e74]:
+            - heading "Join the mailing list" [level=2] [ref=f186e75]
+            - heading "Get the latest news and updates" [level=3] [ref=f186e76]
+            - generic [ref=f186e77]:
+              - textbox "Your email address" [ref=f186e79]
+              - button "Get on the list" [ref=f186e80] [cursor=pointer]
+    - contentinfo [ref=f186e81]:
+      - generic [ref=f186e82]:
+        - generic [ref=f186e94]:
+          - generic [ref=f186e95]:
+            - heading "Sign up to get the latest news and updates on ETHGlobal" [level=2] [ref=f186e96]
+            - generic [ref=f186e97]:
+              - textbox "Your email address" [ref=f186e98]
+              - button [ref=f186e99] [cursor=pointer]
+          - generic [ref=f186e102]:
+            - heading "Products" [level=2] [ref=f186e103]
+            - list [ref=f186e104]:
+              - listitem [ref=f186e105]:
+                - link "ETHConf" [ref=f186e106] [cursor=pointer]:
+                  - /url: https://ethconf.com/r/egcom
+              - listitem [ref=f186e107]:
+                - link "Events" [ref=f186e108] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f186e109]:
+                - link "Pragma" [ref=f186e110] [cursor=pointer]:
+                  - /url: /pragma
+              - listitem [ref=f186e111]:
+                - link "Packs" [ref=f186e112] [cursor=pointer]:
+                  - /url: /packs
+              - listitem [ref=f186e113]:
+                - link "Plus New" [ref=f186e114] [cursor=pointer]:
+                  - /url: /plus
+                  - text: Plus
+                  - generic [ref=f186e115]: New
+              - listitem [ref=f186e116]:
+                - link "Faucet" [ref=f186e117] [cursor=pointer]:
+                  - /url: /faucet
+          - generic [ref=f186e118]:
+            - heading "Legal" [level=2] [ref=f186e119]
+            - list [ref=f186e120]:
+              - listitem [ref=f186e121]:
+                - link "Rules & Conduct" [ref=f186e122] [cursor=pointer]:
+                  - /url: /rules
+              - listitem [ref=f186e123]:
+                - link "Privacy Policy" [ref=f186e124] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=f186e125]:
+            - heading "Company" [level=2] [ref=f186e126]
+            - list [ref=f186e127]:
+              - listitem [ref=f186e128]:
+                - link "About" [ref=f186e129] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f186e130]:
+                - link "Brand" [ref=f186e131] [cursor=pointer]:
+                  - /url: /brand
+              - listitem [ref=f186e132]:
+                - link "Careers Hiring" [ref=f186e133] [cursor=pointer]:
+                  - /url: /careers
+                  - text: Careers
+                  - generic [ref=f186e134]: Hiring
+        - generic [ref=f186e135]:
+          - paragraph [ref=f186e136]: © 2026 ETHGlobal. All rights reserved.
+          - list [ref=f186e137]:
+            - listitem [ref=f186e138]:
+              - link [ref=f186e139] [cursor=pointer]:
+                - /url: https://x.com/ethglobal
+            - listitem [ref=f186e143]:
+              - link [ref=f186e144] [cursor=pointer]:
+                - /url: /discord
+            - listitem [ref=f186e148]:
+              - link [ref=f186e149] [cursor=pointer]:
+                - /url: https://www.youtube.com/ethglobal
+            - listitem [ref=f186e152]:
+              - link [ref=f186e153] [cursor=pointer]:
+                - /url: https://mirror.xyz/blog.ethglobal.eth
+  - region "Notifications alt+T"
+  - region "Notifications alt+T"

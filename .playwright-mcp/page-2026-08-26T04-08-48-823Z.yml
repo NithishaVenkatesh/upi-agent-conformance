@@ -1,0 +1,370 @@
+- generic [active] [ref=f181e1]:
+  - generic [ref=f181e2]:
+    - generic [ref=f181e4]:
+      - link [ref=f181e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f181e18]:
+        - listitem [ref=f181e19]:
+          - link "Events" [ref=f181e20] [cursor=pointer]:
+            - /url: /events
+        - listitem [ref=f181e22]:
+          - link "ETHConf New" [ref=f181e23] [cursor=pointer]:
+            - /url: https://ethconf.com/?utm_source=ethglobal
+            - generic [ref=f181e24]:
+              - text: ETHConf
+              - generic [ref=f181e25]: New
+        - listitem [ref=f181e26]:
+          - link "Plus" [ref=f181e27] [cursor=pointer]:
+            - /url: /plus
+        - listitem [ref=f181e29]:
+          - link "Showcase" [ref=f181e30] [cursor=pointer]:
+            - /url: /showcase
+        - listitem [ref=f181e32]:
+          - link "Faucet" [ref=f181e33] [cursor=pointer]:
+            - /url: /faucet
+        - listitem [ref=f181e35]:
+          - link "Swag" [ref=f181e36] [cursor=pointer]:
+            - /url: /swag
+        - listitem [ref=f181e38]:
+          - link "About" [ref=f181e39] [cursor=pointer]:
+            - /url: /about
+      - link "Login" [ref=f181e42] [cursor=pointer]:
+        - /url: /auth?use_redirect=/showcase
+    - generic [ref=f181e46]:
+      - generic [ref=f181e47]:
+        - banner [ref=f181e48]:
+          - heading "Find a Project" [level=1] [ref=f181e49]
+          - paragraph [ref=f181e50]: Check out the projects created at past events
+        - generic [ref=f181e51]:
+          - textbox "Search..." [ref=f181e55]
+          - button [ref=f181e56] [cursor=pointer]
+      - generic [ref=f181e60]:
+        - link "Blindsample banner Blindsample BlindSample lets buyers verify private datasets through 0G AI without exposing the seller's raw data ETHGlobal Lisbon 2026" [ref=f181e61] [cursor=pointer]:
+          - /url: /showcase/blindsample-07ci5
+          - img "Blindsample banner" [ref=f181e63]
+          - generic [ref=f181e64]:
+            - heading "Blindsample" [level=2] [ref=f181e65]
+            - paragraph [ref=f181e66]: BlindSample lets buyers verify private datasets through 0G AI without exposing the seller's raw data
+            - generic [ref=f181e67]: ETHGlobal Lisbon 2026
+        - link "PlanBound banner PlanBound Your agent asks for a plan, not a payment. One approval funds an envelope it cannot exceed. ETHGlobal Lisbon 2026" [ref=f181e68] [cursor=pointer]:
+          - /url: /showcase/planbound-wqxy5
+          - img "PlanBound banner" [ref=f181e70]
+          - generic [ref=f181e71]:
+            - heading "PlanBound" [level=2] [ref=f181e72]
+            - paragraph [ref=f181e73]: Your agent asks for a plan, not a payment. One approval funds an envelope it cannot exceed.
+            - generic [ref=f181e74]: ETHGlobal Lisbon 2026
+        - link "Kinora banner Kinora Autonomous agents negotiate and pay for real music licences with x402, settled live on Hedera. ETHGlobal Lisbon 2026" [ref=f181e75] [cursor=pointer]:
+          - /url: /showcase/kinora-5dtqg
+          - img "Kinora banner" [ref=f181e77]
+          - generic [ref=f181e78]:
+            - heading "Kinora" [level=2] [ref=f181e79]
+            - paragraph [ref=f181e80]: Autonomous agents negotiate and pay for real music licences with x402, settled live on Hedera.
+            - generic [ref=f181e81]: ETHGlobal Lisbon 2026
+        - link "Namesake banner Namesake Claim an ENS name, watch it become a live AI agent you can talk to. ENSv2 + ERC-8004 + 0G. ETHGlobal Lisbon 2026" [ref=f181e82] [cursor=pointer]:
+          - /url: /showcase/namesake-kq1ez
+          - img "Namesake banner" [ref=f181e84]
+          - generic [ref=f181e85]:
+            - heading "Namesake" [level=2] [ref=f181e86]
+            - paragraph [ref=f181e87]: Claim an ENS name, watch it become a live AI agent you can talk to. ENSv2 + ERC-8004 + 0G.
+            - generic [ref=f181e88]: ETHGlobal Lisbon 2026
+        - link "MultisigPEv2 banner MultisigPEv2 Multisig policy engine with on-chain governance, off-chain risk scoring, and 0G audit receipts. ETHGlobal Lisbon 2026" [ref=f181e89] [cursor=pointer]:
+          - /url: /showcase/multisigpev2-h41v6
+          - img "MultisigPEv2 banner" [ref=f181e91]
+          - generic [ref=f181e92]:
+            - heading "MultisigPEv2" [level=2] [ref=f181e93]
+            - paragraph [ref=f181e94]: Multisig policy engine with on-chain governance, off-chain risk scoring, and 0G audit receipts.
+            - generic [ref=f181e95]: ETHGlobal Lisbon 2026
+        - link "Crosscheck banner Crosscheck AI advisor that puts idle stablecoins to work at rates two sources agree on. You sign every step. ETHGlobal Lisbon 2026" [ref=f181e96] [cursor=pointer]:
+          - /url: /showcase/crosscheck-0pdkb
+          - img "Crosscheck banner" [ref=f181e98]
+          - generic [ref=f181e99]:
+            - heading "Crosscheck" [level=2] [ref=f181e100]
+            - paragraph [ref=f181e101]: AI advisor that puts idle stablecoins to work at rates two sources agree on. You sign every step.
+            - generic [ref=f181e102]: ETHGlobal Lisbon 2026
+        - link "Leg Agent banner Leg Agent Your AI for broker-free onchain stock trading and legendary fundamental analysis. ETHGlobal Lisbon 2026" [ref=f181e103] [cursor=pointer]:
+          - /url: /showcase/leg-agent-392uz
+          - img "Leg Agent banner" [ref=f181e105]
+          - generic [ref=f181e106]:
+            - heading "Leg Agent" [level=2] [ref=f181e107]
+            - paragraph [ref=f181e108]: Your AI for broker-free onchain stock trading and legendary fundamental analysis.
+            - generic [ref=f181e109]: ETHGlobal Lisbon 2026
+        - link "Aphotic banner Aphotic Aphotic A redemption-carry vault and a sealed-order batch auction for hBTC, on Sui. ETHGlobal Lisbon 2026" [ref=f181e110] [cursor=pointer]:
+          - /url: /showcase/aphotic-a9tce
+          - img "Aphotic banner" [ref=f181e112]
+          - generic [ref=f181e113]:
+            - heading "Aphotic" [level=2] [ref=f181e114]
+            - paragraph [ref=f181e115]: Aphotic A redemption-carry vault and a sealed-order batch auction for hBTC, on Sui.
+            - generic [ref=f181e116]: ETHGlobal Lisbon 2026
+        - link "ReDevice banner ReDevice QR-accessible, verifiable device passports and repair histories for second-hand electronics. ETHGlobal Lisbon 2026" [ref=f181e117] [cursor=pointer]:
+          - /url: /showcase/redevice-rr0s3
+          - img "ReDevice banner" [ref=f181e119]
+          - generic [ref=f181e120]:
+            - heading "ReDevice" [level=2] [ref=f181e121]
+            - paragraph [ref=f181e122]: QR-accessible, verifiable device passports and repair histories for second-hand electronics.
+            - generic [ref=f181e123]: ETHGlobal Lisbon 2026
+        - link "The Human Zoo banner The Human Zoo Prove you're human, learn which animal you are, and mint it as an ENS subname. No rerolls. ETHGlobal Lisbon 2026" [ref=f181e124] [cursor=pointer]:
+          - /url: /showcase/the-human-zoo-9de2b
+          - img "The Human Zoo banner" [ref=f181e126]
+          - generic [ref=f181e127]:
+            - heading "The Human Zoo" [level=2] [ref=f181e128]
+            - paragraph [ref=f181e129]: Prove you're human, learn which animal you are, and mint it as an ENS subname. No rerolls.
+            - generic [ref=f181e130]: ETHGlobal Lisbon 2026
+        - link "HumanMandate banner HumanMandate An agent card for AI ，bound to a World humanId spending caps, revoke, Selfie step-up on-chain. ETHGlobal Lisbon 2026" [ref=f181e131] [cursor=pointer]:
+          - /url: /showcase/humanmandate-wbx5i
+          - img "HumanMandate banner" [ref=f181e133]
+          - generic [ref=f181e134]:
+            - heading "HumanMandate" [level=2] [ref=f181e135]
+            - paragraph [ref=f181e136]: An agent card for AI ，bound to a World humanId spending caps, revoke, Selfie step-up on-chain.
+            - generic [ref=f181e137]: ETHGlobal Lisbon 2026
+        - link "investmade.fun banner investmade.fun Making stocks more accessible—and DCA across stocks and crypto actually fun. ETHGlobal Lisbon 2026" [ref=f181e138] [cursor=pointer]:
+          - /url: /showcase/investmade-fun-kd5tx
+          - img "investmade.fun banner" [ref=f181e140]
+          - generic [ref=f181e141]:
+            - heading "investmade.fun" [level=2] [ref=f181e142]
+            - paragraph [ref=f181e143]: Making stocks more accessible—and DCA across stocks and crypto actually fun.
+            - generic [ref=f181e144]: ETHGlobal Lisbon 2026
+        - link "ArcBook banner prize prize ArcBook An onchain order book where makers publish executable curves instead of fixed-price orders. ETHGlobal Lisbon 2026" [ref=f181e145] [cursor=pointer]:
+          - /url: /showcase/arcbook-twp2a
+          - img "ArcBook banner" [ref=f181e147]
+          - generic [ref=f181e148]:
+            - generic [ref=f181e149]:
+              - img "prize"
+            - generic [ref=f181e150]:
+              - img "prize"
+          - generic [ref=f181e151]:
+            - heading "ArcBook" [level=2] [ref=f181e152]
+            - paragraph [ref=f181e153]: An onchain order book where makers publish executable curves instead of fixed-price orders.
+            - generic [ref=f181e154]: ETHGlobal Lisbon 2026
+        - 'link "Do Not Rug Me banner Do Not Rug Me Trustless allowance for AI agents: cap it, scope it, kill it. Built on 0G. ETHGlobal Lisbon 2026" [ref=f181e155] [cursor=pointer]':
+          - /url: /showcase/do-not-rug-me-7i15x
+          - img "Do Not Rug Me banner" [ref=f181e157]
+          - generic [ref=f181e158]:
+            - heading "Do Not Rug Me" [level=2] [ref=f181e159]
+            - paragraph [ref=f181e160]: "Trustless allowance for AI agents: cap it, scope it, kill it. Built on 0G."
+            - generic [ref=f181e161]: ETHGlobal Lisbon 2026
+        - link "Print banner Print It's like 1inch but for proof of Humanity. One API that checks more than 20 protocols ETHGlobal Lisbon 2026" [ref=f181e162] [cursor=pointer]:
+          - /url: /showcase/print-fos6m
+          - img "Print banner" [ref=f181e164]
+          - generic [ref=f181e165]:
+            - heading "Print" [level=2] [ref=f181e166]
+            - paragraph [ref=f181e167]: It's like 1inch but for proof of Humanity. One API that checks more than 20 protocols
+            - generic [ref=f181e168]: ETHGlobal Lisbon 2026
+        - link "deeptrace banner prize deeptrace DeepTrace connects The Graph Subgraphs and NutHatch to reveal (via MCP) market and wallet behavior. ETHGlobal Lisbon 2026" [ref=f181e169] [cursor=pointer]:
+          - /url: /showcase/deeptrace-7fqoz
+          - img "deeptrace banner" [ref=f181e171]
+          - generic [ref=f181e173]:
+            - img "prize"
+          - generic [ref=f181e174]:
+            - heading "deeptrace" [level=2] [ref=f181e175]
+            - paragraph [ref=f181e176]: DeepTrace connects The Graph Subgraphs and NutHatch to reveal (via MCP) market and wallet behavior.
+            - generic [ref=f181e177]: ETHGlobal Lisbon 2026
+        - link "Covenant banner Covenant Tokenized property where Hedera itself refuses any transfer to an unverified wallet. ETHGlobal Lisbon 2026" [ref=f181e178] [cursor=pointer]:
+          - /url: /showcase/covenant-6j7sn
+          - img "Covenant banner" [ref=f181e180]
+          - generic [ref=f181e181]:
+            - heading "Covenant" [level=2] [ref=f181e182]
+            - paragraph [ref=f181e183]: Tokenized property where Hedera itself refuses any transfer to an unverified wallet.
+            - generic [ref=f181e184]: ETHGlobal Lisbon 2026
+        - 'link "Scipio: Agent Vaults banner Scipio: Agent Vaults ERC-4626 vault curated by an autonomous LLM agent that allocates against a co-designed mandate ETHGlobal Lisbon 2026" [ref=f181e185] [cursor=pointer]':
+          - /url: /showcase/scipio-agent-vaults-zfr47
+          - 'img "Scipio: Agent Vaults banner" [ref=f181e187]'
+          - generic [ref=f181e188]:
+            - 'heading "Scipio: Agent Vaults" [level=2] [ref=f181e189]'
+            - paragraph [ref=f181e190]: ERC-4626 vault curated by an autonomous LLM agent that allocates against a co-designed mandate
+            - generic [ref=f181e191]: ETHGlobal Lisbon 2026
+        - 'link "Sekaigent banner Sekaigent A secret-agent mission game on 0G: deploy AI spies, seal plays, win the prize pool. ETHGlobal Lisbon 2026" [ref=f181e192] [cursor=pointer]':
+          - /url: /showcase/sekaigent-opxax
+          - img "Sekaigent banner" [ref=f181e194]
+          - generic [ref=f181e195]:
+            - heading "Sekaigent" [level=2] [ref=f181e196]
+            - paragraph [ref=f181e197]: "A secret-agent mission game on 0G: deploy AI spies, seal plays, win the prize pool."
+            - generic [ref=f181e198]: ETHGlobal Lisbon 2026
+        - link "Ask Trivium banner Ask Trivium Nine LLM analyses predict how a neutral adjudicator would rule, $1 USDC over x402 ETHGlobal Lisbon 2026" [ref=f181e199] [cursor=pointer]:
+          - /url: /showcase/ask-trivium-x2dp4
+          - img "Ask Trivium banner" [ref=f181e201]
+          - generic [ref=f181e202]:
+            - heading "Ask Trivium" [level=2] [ref=f181e203]
+            - paragraph [ref=f181e204]: Nine LLM analyses predict how a neutral adjudicator would rule, $1 USDC over x402
+            - generic [ref=f181e205]: ETHGlobal Lisbon 2026
+        - link "Devot banner Devot On-chain autonomous AI agents that survive, evolve, and compete through natural selection ETHGlobal Lisbon 2026" [ref=f181e206] [cursor=pointer]:
+          - /url: /showcase/devot-u3djs
+          - img "Devot banner" [ref=f181e208]
+          - generic [ref=f181e209]:
+            - heading "Devot" [level=2] [ref=f181e210]
+            - paragraph [ref=f181e211]: On-chain autonomous AI agents that survive, evolve, and compete through natural selection
+            - generic [ref=f181e212]: ETHGlobal Lisbon 2026
+        - link "Joule banner Joule One unit of an agent's work, collateral-backed and market-priced. Deliver, or forfeit the stake. ETHGlobal Lisbon 2026" [ref=f181e213] [cursor=pointer]:
+          - /url: /showcase/joule-62t3r
+          - img "Joule banner" [ref=f181e215]
+          - generic [ref=f181e216]:
+            - heading "Joule" [level=2] [ref=f181e217]
+            - paragraph [ref=f181e218]: One unit of an agent's work, collateral-backed and market-priced. Deliver, or forfeit the stake.
+            - generic [ref=f181e219]: ETHGlobal Lisbon 2026
+        - 'link "Aivy Checkout banner Aivy Checkout Proof for anything you can photograph: AI verdicts that move real money on-chain. ETHGlobal Lisbon 2026" [ref=f181e220] [cursor=pointer]':
+          - /url: /showcase/aivy-checkout-q0gkf
+          - img "Aivy Checkout banner" [ref=f181e222]
+          - generic [ref=f181e223]:
+            - heading "Aivy Checkout" [level=2] [ref=f181e224]
+            - paragraph [ref=f181e225]: "Proof for anything you can photograph: AI verdicts that move real money on-chain."
+            - generic [ref=f181e226]: ETHGlobal Lisbon 2026
+        - 'link "NpmGuard banner prize prize NpmGuard NpmGuard: AI agents audit npm packages for malicious code and publish verifiable results on-chain ETHGlobal Lisbon 2026" [ref=f181e227] [cursor=pointer]':
+          - /url: /showcase/npmguard-wt7wh
+          - img "NpmGuard banner" [ref=f181e229]
+          - generic [ref=f181e230]:
+            - generic [ref=f181e231]:
+              - img "prize"
+            - generic [ref=f181e232]:
+              - img "prize"
+          - generic [ref=f181e233]:
+            - heading "NpmGuard" [level=2] [ref=f181e234]
+            - paragraph [ref=f181e235]: "NpmGuard: AI agents audit npm packages for malicious code and publish verifiable results on-chain"
+            - generic [ref=f181e236]: ETHGlobal Lisbon 2026
+        - link "Agora banner Agora A shared vault whose members are public but not who acts. ENS seats, self-expiring mandates. ETHGlobal Lisbon 2026" [ref=f181e237] [cursor=pointer]:
+          - /url: /showcase/agora-xt7f2
+          - img "Agora banner" [ref=f181e239]
+          - generic [ref=f181e240]:
+            - heading "Agora" [level=2] [ref=f181e241]
+            - paragraph [ref=f181e242]: A shared vault whose members are public but not who acts. ENS seats, self-expiring mandates.
+            - generic [ref=f181e243]: ETHGlobal Lisbon 2026
+        - link "Glassbox402 banner prize Glassbox402 Google Analytics for x402 - Convert any API into an x402. Track every payment in one dashboard. ETHGlobal Lisbon 2026" [ref=f181e244] [cursor=pointer]:
+          - /url: /showcase/glassbox402-qyepd
+          - img "Glassbox402 banner" [ref=f181e246]
+          - generic [ref=f181e248]:
+            - img "prize"
+          - generic [ref=f181e249]:
+            - heading "Glassbox402" [level=2] [ref=f181e250]
+            - paragraph [ref=f181e251]: Google Analytics for x402 - Convert any API into an x402. Track every payment in one dashboard.
+            - generic [ref=f181e252]: ETHGlobal Lisbon 2026
+        - link "Omega banner Omega Non-custodial yield desk that re-checks your ENS compliance attestation on-chain at every execution ETHGlobal Lisbon 2026" [ref=f181e253] [cursor=pointer]:
+          - /url: /showcase/omega-c2hji
+          - img "Omega banner" [ref=f181e255]
+          - generic [ref=f181e256]:
+            - heading "Omega" [level=2] [ref=f181e257]
+            - paragraph [ref=f181e258]: Non-custodial yield desk that re-checks your ENS compliance attestation on-chain at every execution
+            - generic [ref=f181e259]: ETHGlobal Lisbon 2026
+        - link "Hourglass banner Hourglass Automate subscriptions, payrolls, DCA, and yield for Safe — non-custodial, revocable delegations. ETHGlobal Lisbon 2026" [ref=f181e260] [cursor=pointer]:
+          - /url: /showcase/hourglass-0gp1c
+          - img "Hourglass banner" [ref=f181e262]
+          - generic [ref=f181e263]:
+            - heading "Hourglass" [level=2] [ref=f181e264]
+            - paragraph [ref=f181e265]: Automate subscriptions, payrolls, DCA, and yield for Safe — non-custodial, revocable delegations.
+            - generic [ref=f181e266]: ETHGlobal Lisbon 2026
+        - link "ENSignv2 banner prize ENSignv2 Your ENS name is the wallet. Lose your phone and your mom can hand it back, by name. ETHGlobal Lisbon 2026" [ref=f181e267] [cursor=pointer]:
+          - /url: /showcase/ensignv2-34544
+          - img "ENSignv2 banner" [ref=f181e269]
+          - generic [ref=f181e271]:
+            - img "prize"
+          - generic [ref=f181e272]:
+            - heading "ENSignv2" [level=2] [ref=f181e273]
+            - paragraph [ref=f181e274]: Your ENS name is the wallet. Lose your phone and your mom can hand it back, by name.
+            - generic [ref=f181e275]: ETHGlobal Lisbon 2026
+        - 'link "Overlap banner Overlap Sealed two-party negotiation: a TEE model sees both sides'' terms, everyone else sees one answer ETHGlobal Lisbon 2026" [ref=f181e276] [cursor=pointer]':
+          - /url: /showcase/overlap-7ninc
+          - img "Overlap banner" [ref=f181e278]
+          - generic [ref=f181e279]:
+            - heading "Overlap" [level=2] [ref=f181e280]
+            - paragraph [ref=f181e281]: "Sealed two-party negotiation: a TEE model sees both sides' terms, everyone else sees one answer"
+            - generic [ref=f181e282]: ETHGlobal Lisbon 2026
+        - link "VouchMe banner prize VouchMe People earn trust when other trusted people vouch for them, and that trust fades over time. ETHGlobal Lisbon 2026" [ref=f181e283] [cursor=pointer]:
+          - /url: /showcase/vouchme-m6fwb
+          - img "VouchMe banner" [ref=f181e285]
+          - generic [ref=f181e287]:
+            - img "prize"
+          - generic [ref=f181e288]:
+            - heading "VouchMe" [level=2] [ref=f181e289]
+            - paragraph [ref=f181e290]: People earn trust when other trusted people vouch for them, and that trust fades over time.
+            - generic [ref=f181e291]: ETHGlobal Lisbon 2026
+        - link "Binary Stamp banner prize Binary Stamp An on-chain provenance registry that lets you proof that a file existed, and that it was yours. ETHGlobal Lisbon 2026" [ref=f181e292] [cursor=pointer]:
+          - /url: /showcase/binary-stamp-703b3
+          - img "Binary Stamp banner" [ref=f181e294]
+          - generic [ref=f181e296]:
+            - img "prize"
+          - generic [ref=f181e297]:
+            - heading "Binary Stamp" [level=2] [ref=f181e298]
+            - paragraph [ref=f181e299]: An on-chain provenance registry that lets you proof that a file existed, and that it was yours.
+            - generic [ref=f181e300]: ETHGlobal Lisbon 2026
+        - link "KSwap-VM banner prize KSwap-VM A formal semantics for 1inch's swap-vm, and formal verification for it's modules. ETHGlobal Lisbon 2026" [ref=f181e301] [cursor=pointer]:
+          - /url: /showcase/kswap-vm-aix5n
+          - img "KSwap-VM banner" [ref=f181e303]
+          - generic [ref=f181e305]:
+            - img "prize"
+          - generic [ref=f181e306]:
+            - heading "KSwap-VM" [level=2] [ref=f181e307]
+            - paragraph [ref=f181e308]: A formal semantics for 1inch's swap-vm, and formal verification for it's modules.
+            - generic [ref=f181e309]: ETHGlobal Lisbon 2026
+      - generic [ref=f181e310]:
+        - list
+        - link [ref=f181e314] [cursor=pointer]:
+          - /url: /showcase?search=agent+payment&page=2
+    - contentinfo [ref=f181e317]:
+      - generic [ref=f181e318]:
+        - generic [ref=f181e330]:
+          - generic [ref=f181e331]:
+            - heading "Sign up to get the latest news and updates on ETHGlobal" [level=2] [ref=f181e332]
+            - generic [ref=f181e333]:
+              - textbox "Your email address" [ref=f181e334]
+              - button [ref=f181e335] [cursor=pointer]
+          - generic [ref=f181e338]:
+            - heading "Products" [level=2] [ref=f181e339]
+            - list [ref=f181e340]:
+              - listitem [ref=f181e341]:
+                - link "ETHConf" [ref=f181e342] [cursor=pointer]:
+                  - /url: https://ethconf.com/r/egcom
+              - listitem [ref=f181e343]:
+                - link "Events" [ref=f181e344] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f181e345]:
+                - link "Pragma" [ref=f181e346] [cursor=pointer]:
+                  - /url: /pragma
+              - listitem [ref=f181e347]:
+                - link "Packs" [ref=f181e348] [cursor=pointer]:
+                  - /url: /packs
+              - listitem [ref=f181e349]:
+                - link "Plus New" [ref=f181e350] [cursor=pointer]:
+                  - /url: /plus
+                  - text: Plus
+                  - generic [ref=f181e351]: New
+              - listitem [ref=f181e352]:
+                - link "Faucet" [ref=f181e353] [cursor=pointer]:
+                  - /url: /faucet
+          - generic [ref=f181e354]:
+            - heading "Legal" [level=2] [ref=f181e355]
+            - list [ref=f181e356]:
+              - listitem [ref=f181e357]:
+                - link "Rules & Conduct" [ref=f181e358] [cursor=pointer]:
+                  - /url: /rules
+              - listitem [ref=f181e359]:
+                - link "Privacy Policy" [ref=f181e360] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=f181e361]:
+            - heading "Company" [level=2] [ref=f181e362]
+            - list [ref=f181e363]:
+              - listitem [ref=f181e364]:
+                - link "About" [ref=f181e365] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f181e366]:
+                - link "Brand" [ref=f181e367] [cursor=pointer]:
+                  - /url: /brand
+              - listitem [ref=f181e368]:
+                - link "Careers Hiring" [ref=f181e369] [cursor=pointer]:
+                  - /url: /careers
+                  - text: Careers
+                  - generic [ref=f181e370]: Hiring
+        - generic [ref=f181e371]:
+          - paragraph [ref=f181e372]: © 2026 ETHGlobal. All rights reserved.
+          - list [ref=f181e373]:
+            - listitem [ref=f181e374]:
+              - link [ref=f181e375] [cursor=pointer]:
+                - /url: https://x.com/ethglobal
+            - listitem [ref=f181e379]:
+              - link [ref=f181e380] [cursor=pointer]:
+                - /url: /discord
+            - listitem [ref=f181e384]:
+              - link [ref=f181e385] [cursor=pointer]:
+                - /url: https://www.youtube.com/ethglobal
+            - listitem [ref=f181e388]:
+              - link [ref=f181e389] [cursor=pointer]:
+                - /url: https://mirror.xyz/blog.ethglobal.eth
+  - region "Notifications alt+T"
+  - region "Notifications alt+T"
+  - alert [ref=f181e394]

@@ -1,0 +1,388 @@
+- generic [active] [ref=f763e1]:
+  - generic [ref=f763e2]:
+    - generic [ref=f763e4]:
+      - generic [ref=f763e5]:
+        - generic [ref=f763e6]:
+          - link "DuckDuckGo home" [ref=f763e7] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f763e8]: DuckDuckGo
+          - generic [ref=f763e15]:
+            - combobox "Search privately" [ref=f763e17]: "\"agentic\" chargeback reason code Visa Mastercard agent-initiated transaction indicator"
+            - button "search" [ref=f763e19] [cursor=pointer]
+        - generic [ref=f763e22]:
+          - link "Protection. Privacy. Peace of mind." [ref=f763e24] [cursor=pointer]:
+            - /url: /compare-privacy
+          - button "Open menu" [ref=f763e25] [cursor=pointer]
+      - navigation [ref=f763e33]:
+        - list [ref=f763e34]:
+          - listitem [ref=f763e35]:
+            - link "All" [ref=f763e36] [cursor=pointer]:
+              - /url: /?q=%22agentic%22+chargeback+reason+code+Visa+Mastercard+agent-initiated+transaction+indicator&ia=web
+          - listitem [ref=f763e39]:
+            - link "Images" [ref=f763e40] [cursor=pointer]:
+              - /url: /?q=%22agentic%22+chargeback+reason+code+Visa+Mastercard+agent-initiated+transaction+indicator&ia=images&iax=images
+          - listitem [ref=f763e41]:
+            - link "Videos" [ref=f763e42] [cursor=pointer]:
+              - /url: /?q=%22agentic%22+chargeback+reason+code+Visa+Mastercard+agent-initiated+transaction+indicator&ia=videos&iax=videos
+          - listitem [ref=f763e43]:
+            - link "News" [ref=f763e44] [cursor=pointer]:
+              - /url: /?q=%22agentic%22+chargeback+reason+code+Visa+Mastercard+agent-initiated+transaction+indicator&ia=news&iar=news
+          - listitem [ref=f763e45]:
+            - link "Maps" [ref=f763e46] [cursor=pointer]:
+              - /url: /?q=%22agentic%22+chargeback+reason+code+Visa+Mastercard+agent-initiated+transaction+indicator&iaxm=maps
+        - list [ref=f763e47]:
+          - listitem [ref=f763e48]:
+            - link "Search Assist" [ref=f763e51] [cursor=pointer]:
+              - /url: /?q=%22agentic%22+chargeback+reason+code+Visa+Mastercard+agent-initiated+transaction+indicator&ia=web&assist=false
+          - listitem [ref=f763e56]:
+            - link "Duck.ai" [ref=f763e58] [cursor=pointer]:
+              - /url: /?q=%22agentic%22+chargeback+reason+code+Visa+Mastercard+agent-initiated+transaction+indicator&ia=chat
+          - listitem [ref=f763e62]:
+            - button "Search Settings ✀" [ref=f763e64] [cursor=pointer]:
+              - generic [ref=f763e67]: Search Settings
+              - generic [ref=f763e68]: ✀
+    - generic [ref=f763e75]:
+      - navigation [ref=f763e77]:
+        - generic [ref=f763e80] [cursor=pointer]:
+          - generic [ref=f763e81]: Private
+          - img [ref=f763e89]: ▼
+        - generic [ref=f763e93] [cursor=pointer]:
+          - generic [ref=f763e96]:
+            - switch "✓" [ref=f763e97]
+            - generic [ref=f763e99]: India (en)
+          - img [ref=f763e100]: ▼
+        - generic [ref=f763e104] [cursor=pointer]:
+          - generic [ref=f763e105]: "Safe search: moderate"
+          - img [ref=f763e106]: ▼
+        - generic [ref=f763e110] [cursor=pointer]:
+          - generic [ref=f763e111]: Any time
+          - img [ref=f763e112]: ▼
+      - generic [ref=f763e115]:
+        - list [ref=f763e116]:
+          - listitem [ref=f763e117]:
+            - generic [ref=f763e123]:
+              - button [ref=f763e126] [cursor=pointer]:
+                - generic [ref=f763e127]: Search Assist
+              - generic "Loading..." [ref=f763e132]: Reading search results...
+          - listitem [ref=f763e137]:
+            - article [ref=f763e138] [cursor=pointer]:
+              - button [ref=f763e140]
+              - generic [ref=f763e145]:
+                - link "Search domain chargeback.io" [ref=f763e147]:
+                  - /url: /?q=%22agentic%22%20chargeback%20reason%20code%20Visa%20Mastercard%20agent%2Dinitiated%20transaction%20indicator+site:www.chargeback.io
+                - generic [ref=f763e150]:
+                  - paragraph [ref=f763e151]: chargeback.io
+                  - link "https://www.chargeback.io › blog › agentic-payments-chargebacks" [ref=f763e152]:
+                    - /url: https://www.chargeback.io/blog/agentic-payments-chargebacks
+                    - paragraph [ref=f763e154]:
+                      - generic [ref=f763e155]: https://www.chargeback.io
+                      - generic [ref=f763e156]: › blog › agentic-payments-chargebacks
+              - heading [level=2] [ref=f763e158]:
+                - 'link "Agentic Payments and Chargebacks: A Merchant Guide" [ref=f763e159]':
+                  - /url: https://www.chargeback.io/blog/agentic-payments-chargebacks
+              - generic [ref=f763e161]: Agentic payments create chargebacks under existing reason codes, while the still-unsolved merchant need is evidence of the customer's mandate to the agent.
+          - listitem [ref=f763e166]:
+            - article [ref=f763e167] [cursor=pointer]:
+              - button [ref=f763e169]
+              - generic [ref=f763e174]:
+                - link "Search domain winningchargebacks.com" [ref=f763e176]:
+                  - /url: /?q=%22agentic%22%20chargeback%20reason%20code%20Visa%20Mastercard%20agent%2Dinitiated%20transaction%20indicator+site:www.winningchargebacks.com
+                - generic [ref=f763e179]:
+                  - paragraph [ref=f763e180]: winningchargebacks.com
+                  - link "https://www.winningchargebacks.com › blog › agentic-commerce-chargebacks.html" [ref=f763e181]:
+                    - /url: https://www.winningchargebacks.com/blog/agentic-commerce-chargebacks.html
+                    - paragraph [ref=f763e183]:
+                      - generic [ref=f763e184]: https://www.winningchargebacks.com
+                      - generic [ref=f763e185]: › blog › agentic-commerce-chargebacks.html
+              - heading [level=2] [ref=f763e187]:
+                - 'link "Agentic Commerce: Chargeback Rules Gaps | WinningChargebacks" [ref=f763e188]':
+                  - /url: https://www.winningchargebacks.com/blog/agentic-commerce-chargebacks.html
+              - generic [ref=f763e193]:
+                - text: 29 Mar 2026·
+                - generic [ref=f763e194]: Every reason code, every liability framework, every compelling evidence standard in the Visa Core Rules, the Mastercard Chargeback Guide, and the Amex dispute manual was written with a human at the keyboard in mind.
+          - listitem [ref=f763e195]:
+            - article [ref=f763e196] [cursor=pointer]:
+              - button [ref=f763e198]
+              - generic [ref=f763e203]:
+                - link "Search domain justt.ai" [ref=f763e205]:
+                  - /url: /?q=%22agentic%22%20chargeback%20reason%20code%20Visa%20Mastercard%20agent%2Dinitiated%20transaction%20indicator+site:justt.ai
+                - generic [ref=f763e208]:
+                  - paragraph [ref=f763e209]: justt.ai
+                  - link "https://justt.ai › blog › solving-agentic-commerce-chargebacks" [ref=f763e210]:
+                    - /url: https://justt.ai/blog/solving-agentic-commerce-chargebacks/
+                    - paragraph [ref=f763e212]:
+                      - generic [ref=f763e213]: https://justt.ai
+                      - generic [ref=f763e214]: › blog › solving-agentic-commerce-chargebacks
+              - heading [level=2] [ref=f763e216]:
+                - link "Agentic Commerce Chargebacks and the Evidence Gap" [ref=f763e217]:
+                  - /url: https://justt.ai/blog/solving-agentic-commerce-chargebacks/
+              - generic [ref=f763e222]:
+                - text: 1 Jul 2026·
+                - generic [ref=f763e223]: Which platforms are your agentic sales coming through, and what is your position relative to merchant on record (MOR) and chargeback liability on each? What transaction data is actually available to you from agent-initiated purchases, and how does it differ from standard eCommerce signals?
+          - listitem [ref=f763e224]:
+            - article [ref=f763e225] [cursor=pointer]:
+              - button [ref=f763e227]
+              - generic [ref=f763e232]:
+                - link "Search domain superiorpayments.com" [ref=f763e234]:
+                  - /url: /?q=%22agentic%22%20chargeback%20reason%20code%20Visa%20Mastercard%20agent%2Dinitiated%20transaction%20indicator+site:superiorpayments.com
+                - generic [ref=f763e237]:
+                  - paragraph [ref=f763e238]: superiorpayments.com
+                  - link "https://superiorpayments.com › insights › ai-agent-commerce-chargebacks" [ref=f763e239]:
+                    - /url: https://superiorpayments.com/insights/ai-agent-commerce-chargebacks
+                    - paragraph [ref=f763e241]:
+                      - generic [ref=f763e242]: https://superiorpayments.com
+                      - generic [ref=f763e243]: › insights › ai-agent-commerce-chargebacks
+              - heading [level=2] [ref=f763e245]:
+                - 'link "AI-Agent Commerce and the Chargeback Question: What Merchants Actually ..." [ref=f763e246]':
+                  - /url: https://superiorpayments.com/insights/ai-agent-commerce-chargebacks
+              - generic [ref=f763e251]:
+                - text: 14 Apr 2026·
+                - generic [ref=f763e252]: Agentic commerce has moved from speculative to operational in the last twelve months. Visa's Intelligent Commerce Connect and Mastercard's Agent Pay both treat agent-initiated traffic as first-class — supporting MPP (Multi-Party Protocol), ACP (Agent Commerce Protocol), UCP (Universal Commerce Protocol), and the Trusted Agent framework as recognized authentication surfaces. The protocols ...
+          - listitem [ref=f763e253]:
+            - article [ref=f763e254] [cursor=pointer]:
+              - button [ref=f763e256]
+              - generic [ref=f763e261]:
+                - link "Search domain beastinsights.com" [ref=f763e263]:
+                  - /url: /?q=%22agentic%22%20chargeback%20reason%20code%20Visa%20Mastercard%20agent%2Dinitiated%20transaction%20indicator+site:beastinsights.com
+                - generic [ref=f763e266]:
+                  - paragraph [ref=f763e267]: beastinsights.com
+                  - link "https://beastinsights.com › blog › ai-agent-chargeback-liability" [ref=f763e268]:
+                    - /url: https://beastinsights.com/blog/ai-agent-chargeback-liability
+                    - paragraph [ref=f763e270]:
+                      - generic [ref=f763e271]: https://beastinsights.com
+                      - generic [ref=f763e272]: › blog › ai-agent-chargeback-liability
+              - heading [level=2] [ref=f763e274]:
+                - 'link "AI Agent Chargeback Liability: Who Pays When Bots Buy?" [ref=f763e275]':
+                  - /url: https://beastinsights.com/blog/ai-agent-chargeback-liability
+              - generic [ref=f763e277]: As of August 2026, no card network has published a binding chargeback rule for disputes on agent-initiated transactions. Visa and Mastercard shipped scoped-credential rails for AI agents. The networks still process and dispute agent purchases under ordinary card-not-present rules, with no separate agentic dispute category.
+          - listitem [ref=f763e282]:
+            - article [ref=f763e283] [cursor=pointer]:
+              - button [ref=f763e285]
+              - generic [ref=f763e290]:
+                - link "Search domain github.com" [ref=f763e292]:
+                  - /url: /?q=%22agentic%22%20chargeback%20reason%20code%20Visa%20Mastercard%20agent%2Dinitiated%20transaction%20indicator+site:github.com
+                - generic [ref=f763e295]:
+                  - paragraph [ref=f763e296]: Github
+                  - link "https://github.com › Cryptorefills › agentic-commerce › blob › master › protocols › agentic-card-networks.md" [ref=f763e297]:
+                    - /url: https://github.com/Cryptorefills/agentic-commerce/blob/master/protocols/agentic-card-networks.md
+                    - paragraph [ref=f763e299]:
+                      - generic [ref=f763e300]: https://github.com
+                      - generic [ref=f763e301]: › Cryptorefills › agentic-commerce › blob › master › protocols › agentic-card-networks.md
+              - heading [level=2] [ref=f763e303]:
+                - link "agentic-commerce/protocols/agentic-card-networks.md at master ... - GitHub" [ref=f763e304]:
+                  - /url: https://github.com/Cryptorefills/agentic-commerce/blob/master/protocols/agentic-card-networks.md
+              - generic [ref=f763e306]: "Visa, Mastercard, and American Express have each published a program for authenticating, authorizing, and settling card transactions initiated by AI agents. The category shares a design: a tokenized or attested credential bound to a specific agent platform, a cardholder-authored delegation scope (merchants, MCCs, amount caps, time window), an indicator on the ISO 8583 authorization message ..."
+          - listitem [ref=f763e311]:
+            - article [ref=f763e312] [cursor=pointer]:
+              - button [ref=f763e314]
+              - generic [ref=f763e319]:
+                - link "Search domain chargeflow.io" [ref=f763e321]:
+                  - /url: /?q=%22agentic%22%20chargeback%20reason%20code%20Visa%20Mastercard%20agent%2Dinitiated%20transaction%20indicator+site:www.chargeflow.io
+                - generic [ref=f763e324]:
+                  - paragraph [ref=f763e325]: Chargeflow
+                  - link "https://www.chargeflow.io › blog › agentic-commerce-chargebacks-the-evidence-playbook-merchants-need" [ref=f763e326]:
+                    - /url: https://www.chargeflow.io/blog/agentic-commerce-chargebacks-the-evidence-playbook-merchants-need
+                    - paragraph [ref=f763e328]:
+                      - generic [ref=f763e329]: https://www.chargeflow.io
+                      - generic [ref=f763e330]: › blog › agentic-commerce-chargebacks-the-evidence-playbook-merchants-need
+              - heading [level=2] [ref=f763e332]:
+                - 'link "Agentic Commerce Chargebacks: Evidence Playbook" [ref=f763e333]':
+                  - /url: https://www.chargeflow.io/blog/agentic-commerce-chargebacks-the-evidence-playbook-merchants-need
+              - generic [ref=f763e338]:
+                - text: 4 Aug 2026·
+                - generic [ref=f763e339]: Agentic commerce chargebacks demand a new evidence standard beyond AVS matches and tracking numbers. Merchants need proof of delegated authority, purchase parameters, and notification timestamps. Merchants who start capturing this evidence now, and tighten their chargeback ratio defenses, will be the ones who win these disputes.
+          - listitem [ref=f763e340]:
+            - article [ref=f763e341] [cursor=pointer]:
+              - button [ref=f763e343]
+              - generic [ref=f763e348]:
+                - link "Search domain developer.mastercard.com" [ref=f763e350]:
+                  - /url: /?q=%22agentic%22%20chargeback%20reason%20code%20Visa%20Mastercard%20agent%2Dinitiated%20transaction%20indicator+site:developer.mastercard.com
+                - generic [ref=f763e353]:
+                  - paragraph [ref=f763e354]: Mastercard Developers
+                  - link "https://developer.mastercard.com › merchant-cloud › documentation › tutorials-and-guides › agentic-commerce-guide › 21" [ref=f763e355]:
+                    - /url: https://developer.mastercard.com/merchant-cloud/documentation/tutorials-and-guides/agentic-commerce-guide/21/
+                    - paragraph [ref=f763e357]:
+                      - generic [ref=f763e358]: https://developer.mastercard.com
+                      - generic [ref=f763e359]: › merchant-cloud › documentation › tutorials-and-guides › agentic-commerce-guide › 21
+              - heading [level=2] [ref=f763e361]:
+                - link "Level 1 Agentic Commerce - Enable Agent Support with Minimal Changes" [ref=f763e362]:
+                  - /url: https://developer.mastercard.com/merchant-cloud/documentation/tutorials-and-guides/agentic-commerce-guide/21/
+              - generic [ref=f763e364]: Every major payment network — Mastercard, Visa, and American Express — now has dedicated agentic commerce programs, and Visa forecasts millions of agent-initiated transactions by the 2026 holiday season. Acting now positions your site to capture this rapidly growing channel.
+          - listitem [ref=f763e369]:
+            - article [ref=f763e370] [cursor=pointer]:
+              - button [ref=f763e372]
+              - generic [ref=f763e377]:
+                - link "Search domain chargebacknerd.substack.com" [ref=f763e379]:
+                  - /url: /?q=%22agentic%22%20chargeback%20reason%20code%20Visa%20Mastercard%20agent%2Dinitiated%20transaction%20indicator+site:chargebacknerd.substack.com
+                - generic [ref=f763e382]:
+                  - paragraph [ref=f763e383]: chargebacknerd.substack.com
+                  - link "https://chargebacknerd.substack.com › p › agentic-commerce-is-coming" [ref=f763e384]:
+                    - /url: https://chargebacknerd.substack.com/p/agentic-commerce-is-coming
+                    - paragraph [ref=f763e386]:
+                      - generic [ref=f763e387]: https://chargebacknerd.substack.com
+                      - generic [ref=f763e388]: › p › agentic-commerce-is-coming
+              - heading [level=2] [ref=f763e390]:
+                - link "Agentic Commerce Is Coming - by Amber the Chargeback Nerd" [ref=f763e391]:
+                  - /url: https://chargebacknerd.substack.com/p/agentic-commerce-is-coming
+              - generic [ref=f763e396]:
+                - text: 12 Jan 2026·
+                - generic [ref=f763e397]: The system begins to strain when agentic commerce affects not only how customers initiate transactions, but also how disputes are interpreted, categorized, and resolved after an issue arises. What Agentic Commerce Does to Reason Codes Reason codes follow a basic, structured model. Fraud disputes assume no cardholder intent.
+        - generic [ref=f763e398]:
+          - paragraph [ref=f763e399]:
+            - generic [ref=f763e400]: No more results found for "agentic" chargeback reason code Visa Mastercard agent-initiated transaction indicator
+          - generic [ref=f763e401]:
+            - paragraph [ref=f763e402]: "Suggestions:"
+            - list [ref=f763e403]:
+              - listitem [ref=f763e404]: Check spelling
+              - listitem [ref=f763e405]: Try related keywords
+              - listitem [ref=f763e406]:
+                - generic [ref=f763e407]:
+                  - text: "Retry search without quotes:"
+                  - link "agentic chargeback reason code Visa Mastercard agent-initiated transaction indicator" [ref=f763e408] [cursor=pointer]:
+                    - /url: /?q=agentic+chargeback+reason+code+Visa+Mastercard+agent-initiated+transaction+indicator
+          - generic [ref=f763e409]:
+            - paragraph [ref=f763e410]:
+              - generic [ref=f763e411]: "Try asking Duck.ai, our private AI chat service:"
+            - generic [ref=f763e413]:
+              - textbox "Ask Duck.ai anything" [ref=f763e414]: "\"agentic\" chargeback reason code Visa Mastercard agent-initiated transaction indicator"
+              - button "Submit to Duck.ai" [ref=f763e415] [cursor=pointer]
+    - list [ref=f763e420]:
+      - button "Close menu" [ref=f763e421] [cursor=pointer]
+      - list [ref=f763e425]:
+        - listitem [ref=f763e426]: Search
+        - listitem [ref=f763e427]:
+          - link "Homepage" [ref=f763e428] [cursor=pointer]:
+            - /url: https://start.duckduckgo.com/
+        - listitem [ref=f763e429]:
+          - link "Themes" [ref=f763e430] [cursor=pointer]:
+            - /url: /settings#appearance
+        - listitem [ref=f763e431]:
+          - link "Settings" [ref=f763e432] [cursor=pointer]:
+            - /url: /settings
+      - list [ref=f763e433]:
+        - listitem [ref=f763e434]: Share Feedback
+        - listitem [ref=f763e435]:
+          - generic [ref=f763e438]:
+            - button "Positive feedback" [ref=f763e439] [cursor=pointer]
+            - button "Negative feedback" [ref=f763e443] [cursor=pointer]
+      - list [ref=f763e447]:
+        - listitem [ref=f763e448]: Downloads
+        - listitem [ref=f763e449]:
+          - link "iOS Browser" [ref=f763e450] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+        - listitem [ref=f763e451]:
+          - link "Android Browser" [ref=f763e452] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+        - listitem [ref=f763e453]:
+          - link "Mac Browser" [ref=f763e454] [cursor=pointer]:
+            - /url: /mac?origin=funnel_browser_searchresults
+        - listitem [ref=f763e455]:
+          - link "Windows Browser" [ref=f763e456] [cursor=pointer]:
+            - /url: /windows?origin=funnel_browser_searchresults
+        - listitem [ref=f763e457]: Browser Extensions
+      - list [ref=f763e458]:
+        - listitem [ref=f763e459]: More From DuckDuckGo
+        - listitem [ref=f763e460]:
+          - generic [ref=f763e463]:
+            - button "Dismiss promotion" [ref=f763e464] [cursor=pointer]
+            - generic [ref=f763e467]:
+              - paragraph [ref=f763e469]: Upgrade to our Private Browser
+              - paragraph [ref=f763e481]: Fast. Secure. Free.
+            - link "Install Mac Browser" [ref=f763e482] [cursor=pointer]:
+              - /url: /mac
+        - listitem [ref=f763e485]:
+          - link "Duck.ai" [ref=f763e486] [cursor=pointer]:
+            - /url: https://duck.ai
+        - listitem [ref=f763e487]:
+          - link "Email Protection" [ref=f763e488] [cursor=pointer]:
+            - /url: /email
+        - listitem [ref=f763e489]:
+          - link "Newsletter" [ref=f763e490] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=f763e491]:
+          - link "Blog" [ref=f763e492] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=f763e493]:
+          - link "Podcast" [ref=f763e494] [cursor=pointer]:
+            - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+        - listitem [ref=f763e495]:
+          - link "Collaborations" [ref=f763e496] [cursor=pointer]:
+            - /url: /collaborations
+      - list [ref=f763e497]:
+        - listitem [ref=f763e498]: Learn More
+        - listitem [ref=f763e499]:
+          - link "What’s New" [ref=f763e500] [cursor=pointer]:
+            - /url: /updates
+        - listitem [ref=f763e501]:
+          - link "Compare Privacy" [ref=f763e502] [cursor=pointer]:
+            - /url: /compare-privacy
+        - listitem [ref=f763e503]:
+          - link "About Our Browser" [ref=f763e504] [cursor=pointer]:
+            - /url: /app
+        - listitem [ref=f763e505]:
+          - link "About DuckDuckGo" [ref=f763e506] [cursor=pointer]:
+            - /url: /about
+      - list [ref=f763e507]:
+        - listitem [ref=f763e508]: Other Resources
+        - listitem [ref=f763e509]:
+          - link "Help" [ref=f763e510] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages
+        - listitem [ref=f763e511]:
+          - link "Community" [ref=f763e512] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/duckduckgo/
+        - listitem [ref=f763e513]:
+          - link "Careers" [ref=f763e514] [cursor=pointer]:
+            - /url: /careers
+        - listitem [ref=f763e515]:
+          - link "Privacy Policy" [ref=f763e516] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=f763e517]:
+          - link "Terms of Service" [ref=f763e518] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=f763e519]:
+          - link "Press Kit" [ref=f763e520] [cursor=pointer]:
+            - /url: /press
+        - listitem [ref=f763e521]:
+          - link "Advertise on Search" [ref=f763e522] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+  - generic [ref=f763e526]:
+    - generic [ref=f763e528]:
+      - generic [ref=f763e545]:
+        - heading "Get Our Mac Browser" [level=3] [ref=f763e546]
+        - paragraph [ref=f763e547]: Protect your data as you search, browse, and use AI.
+      - link "Download" [ref=f763e548] [cursor=pointer]:
+        - /url: https://duckduckgo.com/mac?origin=funnel_browser_searchresults__footercard
+    - generic [ref=f763e552]:
+      - generic [ref=f763e553]:
+        - heading "Learn More" [level=3] [ref=f763e554]
+        - list [ref=f763e555]:
+          - listitem [ref=f763e556]:
+            - link "What's New" [ref=f763e557] [cursor=pointer]:
+              - /url: https://duckduckgo.com/updates
+          - listitem [ref=f763e558]:
+            - link "About Browser" [ref=f763e559] [cursor=pointer]:
+              - /url: https://duckduckgo.com/app
+          - listitem [ref=f763e560]:
+            - link "Compare Privacy" [ref=f763e561] [cursor=pointer]:
+              - /url: https://duckduckgo.com/compare-privacy
+          - listitem [ref=f763e562]:
+            - link "Help Pages" [ref=f763e563] [cursor=pointer]:
+              - /url: https://duckduckgo.com/duckduckgo-help-pages/
+      - generic [ref=f763e564]:
+        - heading "Get More" [level=3] [ref=f763e565]
+        - list [ref=f763e566]:
+          - listitem [ref=f763e567]:
+            - link "Email Protection" [ref=f763e568] [cursor=pointer]:
+              - /url: https://duckduckgo.com/email
+          - listitem [ref=f763e569]:
+            - generic [ref=f763e570]:
+              - link "Podcast" [ref=f763e572] [cursor=pointer]:
+                - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+              - generic [ref=f763e573]:
+                - text: "&"
+                - link "Newsletter" [ref=f763e574] [cursor=pointer]:
+                  - /url: https://duckduckgo.com/newsletter
+          - listitem [ref=f763e575]:
+            - link "Collaborations" [ref=f763e576] [cursor=pointer]:
+              - /url: https://duckduckgo.com/collaborations
+  - button "Share Feedback" [ref=f763e581] [cursor=pointer]

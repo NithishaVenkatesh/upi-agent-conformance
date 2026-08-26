@@ -1,0 +1,6 @@
+[    4973ms] [WARNING] react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour. @ https://developer.mastercard.com/js/vendors~bundle.4a80bb8c51a9c989e07b.js:0
+[    5659ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ https://developer.mastercard.com/devzone/api/user/login?heracles_operation=AUTHORIZATION&heracles_result_code=11001&referral_path=%2Fdevzone%2Fapi%2Fsecure%2Fping&heracles_correlation_id=1ecd5e4103db435cb5f11e2e187c3176:0
+[    7848ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://static.developer.mastercard.com/content/agent-pay/documentation/index.html?v=fc253b69e2443745feb18ebe488d96fe:0
+[    7856ms] [ERROR] Response @ https://developer.mastercard.com/js/vendors~bundle.4a80bb8c51a9c989e07b.js:0
+[    7950ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://static.developer.mastercard.com/content/agent-pay/documentation/index.notifications.json?v=3b414b02c5f31ae1865199a5bd25e69e:0
+[    7950ms] [ERROR] Response @ https://developer.mastercard.com/js/vendors~bundle.4a80bb8c51a9c989e07b.js:0

@@ -1,0 +1,292 @@
+- generic [ref=f775e3]:
+  - banner [ref=f775e4]:
+    - generic [ref=f775e6]:
+      - generic [ref=f775e7]:
+        - button "Har Payment Digital"
+      - list [ref=f775e8]:
+        - listitem [ref=f775e9]:
+          - link "Careers" [ref=f775e10] [cursor=pointer]:
+            - /url: /careers
+        - listitem [ref=f775e11]:
+          - link "Contact us" [ref=f775e12] [cursor=pointer]:
+            - /url: /get-in-touch
+        - listitem [ref=f775e13]:
+          - button "Skip to content" [ref=f775e14] [cursor=pointer]
+        - listitem [ref=f775e15]:
+          - list [ref=f775e16]:
+            - listitem [ref=f775e17]:
+              - button "increment font size" [ref=f775e18] [cursor=pointer]: A+
+            - listitem [ref=f775e19]:
+              - button "deafult font size" [ref=f775e20] [cursor=pointer]: A
+            - listitem [ref=f775e21]:
+              - button "decrement font size" [ref=f775e22] [cursor=pointer]: A-
+        - listitem [ref=f775e23]:
+          - generic [ref=f775e24]:
+            - generic [ref=f775e25]: Select Language
+            - button "Select Language" [ref=f775e27] [cursor=pointer]: English
+    - navigation "primary" [ref=f775e29]:
+      - generic [ref=f775e30]:
+        - generic [ref=f775e31]:
+          - link "NPCI - National Payments Corporation of India Logo" [ref=f775e32] [cursor=pointer]:
+            - /url: /
+            - link "National Payment Corporation of India logo to navigate home page"
+          - list [ref=f775e34]:
+            - listitem [ref=f775e35]:
+              - button "About NPCI" [ref=f775e36] [cursor=pointer]:
+                - img "About NPCI"
+            - listitem [ref=f775e38]:
+              - button "Customer" [ref=f775e39] [cursor=pointer]:
+                - img "Customer"
+            - listitem [ref=f775e41]:
+              - button "Business" [ref=f775e42] [cursor=pointer]:
+                - img "Business"
+            - listitem [ref=f775e44]:
+              - button "Statistics" [ref=f775e45] [cursor=pointer]:
+                - img "Statistics"
+        - button "All products" [ref=f775e49] [cursor=pointer]:
+          - paragraph [ref=f775e50]: All products
+  - generic [ref=f775e54]:
+    - img "page-not- found"
+    - heading "404" [level=2] [ref=f775e55]
+    - generic [ref=f775e56]: Page Not Found
+    - paragraph [ref=f775e57]: The page you are looking for might have been removed, had its name changed or is temporary unavailable.
+  - generic [ref=f775e59]:
+    - generic [ref=f775e61]:
+      - generic [ref=f775e62]:
+        - heading "About NPCI" [level=2] [ref=f775e63]
+        - generic [ref=f775e64]:
+          - heading "Who we are" [level=3] [ref=f775e65]
+          - list [ref=f775e66]:
+            - listitem [ref=f775e67]:
+              - link "Purpose, Mission & Value" [ref=f775e68] [cursor=pointer]:
+                - /url: /purpose-value
+            - listitem [ref=f775e72]:
+              - link "Board of Directors" [ref=f775e73] [cursor=pointer]:
+                - /url: /board-directors
+            - listitem [ref=f775e77]:
+              - link "Corporate Governance" [ref=f775e78] [cursor=pointer]:
+                - /url: /corporate-governance
+            - listitem [ref=f775e82]:
+              - link "Speeches" [ref=f775e83] [cursor=pointer]:
+                - /url: /speeches
+        - generic [ref=f775e87]:
+          - heading "Meet the Team" [level=3] [ref=f775e88]
+          - list [ref=f775e89]:
+            - listitem [ref=f775e90]:
+              - link "Management Team" [ref=f775e91] [cursor=pointer]:
+                - /url: /management-team
+            - listitem [ref=f775e95]:
+              - link "Advisors" [ref=f775e96] [cursor=pointer]:
+                - /url: /advisors
+            - listitem [ref=f775e100]:
+              - link "Organization Structure" [ref=f775e101] [cursor=pointer]:
+                - /url: /organization-structure
+            - listitem [ref=f775e105]:
+              - link "Calendar Meetings" [ref=f775e106] [cursor=pointer]:
+                - /url: /meeting-calendar
+            - listitem [ref=f775e110]:
+              - link "Past Chairman & CEO" [ref=f775e111] [cursor=pointer]:
+                - /url: /pastchairmenceo
+        - generic [ref=f775e115]:
+          - heading "Our Commitments" [level=3] [ref=f775e116]
+          - list [ref=f775e117]:
+            - listitem [ref=f775e118]:
+              - link "Corporate Social Responsibility" [ref=f775e119] [cursor=pointer]:
+                - /url: /csr/overview
+            - listitem [ref=f775e123]:
+              - link "Risk Management" [ref=f775e124] [cursor=pointer]:
+                - /url: /risk-management
+            - listitem [ref=f775e128]:
+              - link "Business Continuity Management" [ref=f775e129] [cursor=pointer]:
+                - /url: /corporate-governance
+        - generic [ref=f775e133]:
+          - heading "Group Companies" [level=3] [ref=f775e134]
+          - list [ref=f775e135]:
+            - listitem [ref=f775e136]:
+              - link "NPCI International" [ref=f775e137] [cursor=pointer]:
+                - /url: https://nipl.com/
+            - listitem [ref=f775e141]:
+              - link "NPCI BharatBillPay Ltd." [ref=f775e142] [cursor=pointer]:
+                - /url: https://www.bharat-connect.com/
+            - listitem [ref=f775e146]:
+              - link "NPCI BHIM Service Limited" [ref=f775e147] [cursor=pointer]:
+                - /url: https://www.bhimupi.org.in/
+      - generic [ref=f775e151]:
+        - heading "Customers" [level=2] [ref=f775e152]
+        - generic [ref=f775e153]:
+          - heading "Get help" [level=3] [ref=f775e154]
+          - list [ref=f775e155]:
+            - listitem [ref=f775e156]:
+              - link "Register a complaint" [ref=f775e157] [cursor=pointer]:
+                - /url: /complaint-register
+            - listitem [ref=f775e161]:
+              - link "NETC FASTag Status" [ref=f775e162] [cursor=pointer]:
+                - /url: /netcfastag-status
+            - listitem [ref=f775e166]:
+              - link "Aadhar Seeding Status" [ref=f775e167] [cursor=pointer]
+            - listitem [ref=f775e168]:
+              - link "Find an ATM near you" [ref=f775e169] [cursor=pointer]:
+                - /url: /find-atm
+            - listitem [ref=f775e173]:
+              - link "UPI Complaint/Support" [ref=f775e174] [cursor=pointer]:
+                - /url: "https://www.upihelp.npci.org.in "
+            - listitem [ref=f775e178]:
+              - link "DigiSaathi" [ref=f775e179] [cursor=pointer]:
+                - /url: /digisaathi
+        - generic [ref=f775e183]:
+          - heading "Learning centre" [level=3] [ref=f775e184]
+          - list [ref=f775e185]:
+            - listitem [ref=f775e186]:
+              - link "How to use NPCI Products" [ref=f775e187] [cursor=pointer]:
+                - /url: /product/upi/use-npci
+            - listitem [ref=f775e191]:
+              - link "Safety Features" [ref=f775e192] [cursor=pointer]:
+                - /url: /safety-feature
+            - listitem [ref=f775e196]:
+              - link "Live Bank Members" [ref=f775e197] [cursor=pointer]:
+                - /url: /product/nach/all-members
+            - listitem [ref=f775e201]:
+              - link "Fraud Awareness" [ref=f775e202] [cursor=pointer]:
+                - /url: "/fraud-awareness  "
+        - generic [ref=f775e206]:
+          - heading "Offers" [level=3] [ref=f775e207]
+          - list [ref=f775e208]:
+            - listitem [ref=f775e209]:
+              - link "RuPay Credit card Offers" [ref=f775e210] [cursor=pointer]:
+                - /url: https://www.rupay.co.in/rupay-festive-carnival
+            - listitem [ref=f775e214]:
+              - link "BHIM UPI Offers" [ref=f775e215] [cursor=pointer]:
+                - /url: https://www.bhimupi.org.in/offers
+      - generic [ref=f775e219]:
+        - heading "Business" [level=2] [ref=f775e220]
+        - generic [ref=f775e221]:
+          - heading "Resources" [level=3] [ref=f775e222]
+          - list [ref=f775e223]:
+            - listitem [ref=f775e224]:
+              - link "Circulars & Notifications" [ref=f775e225] [cursor=pointer]:
+                - /url: /circulars/upi
+            - listitem [ref=f775e229]:
+              - link "Research and Publications" [ref=f775e230] [cursor=pointer]:
+                - /url: /research-and-publications
+            - listitem [ref=f775e234]:
+              - link "All Members" [ref=f775e235] [cursor=pointer]:
+                - /url: /product/nach/all-members
+            - listitem [ref=f775e239]:
+              - link "NPCI Partner Program" [ref=f775e240] [cursor=pointer]:
+                - /url: https://partner.npci.org.in/
+        - generic [ref=f775e244]:
+          - heading "Developer Studio" [level=3] [ref=f775e245]
+          - list [ref=f775e246]:
+            - listitem [ref=f775e247]:
+              - link "API Accelerator Program" [ref=f775e248] [cursor=pointer]:
+                - /url: https://nfinite.in/
+            - listitem [ref=f775e252]:
+              - link "API Development Kit" [ref=f775e253] [cursor=pointer]:
+                - /url: https://nfinite.in/
+        - generic [ref=f775e257]:
+          - heading "Others" [level=3] [ref=f775e258]
+          - list [ref=f775e259]:
+            - listitem [ref=f775e260]:
+              - link "Onboarding & Offboarding" [ref=f775e261] [cursor=pointer]:
+                - /url: /onboarding-offboarding
+            - listitem [ref=f775e265]:
+              - link "Transactions & Settlement Lifecycle" [ref=f775e266] [cursor=pointer]:
+                - /url: /transaction-settlement-lifecycle
+      - generic [ref=f775e270]:
+        - heading "Statistics" [level=2] [ref=f775e271]
+        - generic [ref=f775e272]:
+          - heading [level=3]
+          - list [ref=f775e273]:
+            - listitem [ref=f775e274]:
+              - link "Product statistics" [ref=f775e275] [cursor=pointer]:
+                - /url: /product/upi/product-statistics
+            - listitem [ref=f775e279]:
+              - link "Ecosystem statistics" [ref=f775e280] [cursor=pointer]:
+                - /url: /product/ecosystem-statistics/upi
+            - listitem [ref=f775e284]:
+              - link "RBI Bulletin" [ref=f775e285] [cursor=pointer]:
+                - /url: https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx
+            - listitem [ref=f775e289]:
+              - link "Bankwise Data of Volumes" [ref=f775e290] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/NEFTView.aspx
+            - listitem [ref=f775e294]:
+              - link "Bank-wise ATM/POS/Card statistics" [ref=f775e295] [cursor=pointer]:
+                - /url: https://rbi.org.in/scripts/ATMView.aspx
+            - listitem [ref=f775e299]:
+              - link "RBI -Payment System Indicators" [ref=f775e300] [cursor=pointer]:
+                - /url: https://www.rbi.org.in/Scripts/PSIUserView.aspx
+            - listitem [ref=f775e304]:
+              - link "NPCI Retail Payment Statistics" [ref=f775e305] [cursor=pointer]:
+                - /url: /retail-payment-statistics
+      - generic [ref=f775e309]:
+        - heading "Media" [level=2] [ref=f775e310]
+        - generic [ref=f775e311]:
+          - heading "Newsroom" [level=3] [ref=f775e312]
+          - list [ref=f775e313]:
+            - listitem [ref=f775e314]:
+              - link "Press Releases / Publications" [ref=f775e315] [cursor=pointer]:
+                - /url: /media/press-release
+            - listitem [ref=f775e319]:
+              - link "Product Campaigns" [ref=f775e320] [cursor=pointer]:
+                - /url: /product/upi/product-campaign
+            - listitem [ref=f775e324]:
+              - link "Events & Awards" [ref=f775e325] [cursor=pointer]:
+                - /url: /events-awards
+            - listitem [ref=f775e329]:
+              - link "Innovators Playground Podcast" [ref=f775e330] [cursor=pointer]:
+                - /url: /media/innovators-playground-podcast
+            - listitem [ref=f775e334]:
+              - link "Brand guidelines & Logos" [ref=f775e335] [cursor=pointer]:
+                - /url: /digital-media-kit
+            - listitem [ref=f775e339]:
+              - link "Blog" [ref=f775e340] [cursor=pointer]:
+                - /url: /blogs
+            - listitem [ref=f775e344]:
+              - link "Tenders & Notices" [ref=f775e345] [cursor=pointer]:
+                - /url: /tenders-notices
+        - list [ref=f775e349]:
+          - listitem [ref=f775e350]:
+            - link "Careers" [ref=f775e351] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=f775e355]:
+            - link "Contact us" [ref=f775e356] [cursor=pointer]:
+              - /url: /get-in-touch
+    - generic [ref=f775e361]:
+      - generic [ref=f775e362]:
+        - generic [ref=f775e364]:
+          - link "Disclaimer" [ref=f775e366] [cursor=pointer]:
+            - /url: /disclaimer
+          - link "Terms and Condition" [ref=f775e368] [cursor=pointer]:
+            - /url: /terms-and-condition
+          - link "Accessibility Statement" [ref=f775e370] [cursor=pointer]:
+            - /url: /legal/accessibility-statement
+          - link "Privacy Policy" [ref=f775e372] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Site Map" [ref=f775e374] [cursor=pointer]:
+            - /url: /site-map
+        - generic [ref=f775e376]:
+          - link "Facebook" [ref=f775e377] [cursor=pointer]:
+            - /url: https://www.facebook.com/NPCI.org.in/?ref=br_rs
+            - generic [ref=f775e378]:
+              - img "Facebook"
+          - link "LinkedIn" [ref=f775e379] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/npci/?originalSubdomain=in
+            - generic [ref=f775e380]:
+              - img "LinkedIn"
+          - link "X" [ref=f775e381] [cursor=pointer]:
+            - /url: https://x.com/NPCI_NPCI
+            - generic [ref=f775e382]:
+              - img "X"
+          - link "Youtube" [ref=f775e383] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCF3QKWw5HX5pHYlUM_OjiEw
+            - generic [ref=f775e384]:
+              - img "Youtube"
+          - link "Instagram" [ref=f775e385] [cursor=pointer]:
+            - /url: https://www.instagram.com/npcigroup?igsh=YXpzbmZhZWsyb25r
+            - generic [ref=f775e386]:
+              - img "Instagram"
+      - generic [ref=f775e387]:
+        - paragraph [ref=f775e389]: "Corporate Identity Number (CIN) : U74990MH2008NPL189067"
+        - paragraph [ref=f775e391]: © 2025 NPCI. All rights reserved
+  - button "Back to Top" [ref=f775e392] [cursor=pointer]:
+    - img "Back to top"

@@ -1,0 +1,377 @@
+- generic [ref=f814e3]:
+  - banner [ref=f814e4]:
+    - generic [ref=f814e5]:
+      - generic [ref=f814e6]:
+        - link [ref=f814e7] [cursor=pointer]:
+          - /url: /
+          - img "Brave logo" [ref=f814e8]
+        - generic [ref=f814e10]:
+          - textbox "Search" [ref=f814e11]:
+            - /placeholder: Ask anything, find anything…
+            - text: "\"Reserve Pay\" UPI NPCI bank launched"
+          - generic [ref=f814e12]:
+            - button "Clear" [ref=f814e13] [cursor=pointer]
+            - button "Search" [ref=f814e17] [cursor=pointer]
+            - button "Ask" [ref=f814e20] [cursor=pointer]
+      - generic [ref=f814e29]:
+        - button "Rerank" [ref=f814e30] [cursor=pointer]
+        - button "Quick settings" [ref=f814e36] [cursor=pointer]
+  - navigation [ref=f814e42]:
+    - list [ref=f814e43]:
+      - listitem [ref=f814e44]:
+        - link "Ask" [ref=f814e45] [cursor=pointer]:
+          - /url: /ask?q=%22Reserve+Pay%22+UPI+NPCI+bank+launched&source=web
+      - listitem [ref=f814e47]:
+        - link "All" [ref=f814e48] [cursor=pointer]:
+          - /url: /search?q=%22Reserve+Pay%22+UPI+NPCI+bank+launched&source=web
+      - listitem [ref=f814e50]:
+        - link "Images" [ref=f814e51] [cursor=pointer]:
+          - /url: /images?q=%22Reserve+Pay%22+UPI+NPCI+bank+launched&source=web
+      - listitem [ref=f814e53]:
+        - link "News" [ref=f814e54] [cursor=pointer]:
+          - /url: /news?q=%22Reserve+Pay%22+UPI+NPCI+bank+launched&source=web
+      - listitem [ref=f814e56]:
+        - link "Videos" [ref=f814e57] [cursor=pointer]:
+          - /url: /videos?q=%22Reserve+Pay%22+UPI+NPCI+bank+launched&source=web
+      - listitem [ref=f814e59]:
+        - link "Maps" [ref=f814e60] [cursor=pointer]:
+          - /url: /maps/search?q=%22Reserve+Pay%22+UPI+NPCI+bank+launched&source=web
+      - listitem [ref=f814e62]:
+        - link "Goggles" [ref=f814e63] [cursor=pointer]:
+          - /url: /goggles?q=%22Reserve+Pay%22+UPI+NPCI+bank+launched&source=web
+    - list [ref=f814e65]:
+      - button "Filters" [ref=f814e66] [cursor=pointer]
+  - main [ref=f814e70]:
+    - generic [ref=f814e75]:
+      - generic [ref=f814e76]:
+        - text: Query contains
+        - link "search operators" [ref=f814e77] [cursor=pointer]:
+          - /url: /help/operators
+      - link "Ignore operators" [ref=f814e79] [cursor=pointer]:
+        - /url: /search?q=%22Reserve%20Pay%22%20UPI%20NPCI%20bank%20launched&keywords=0&source=ignoreSiteOperators
+    - generic [ref=f814e93]:
+      - main [ref=f814e95]:
+        - generic [ref=f814e96]:
+          - generic [ref=f814e97]:
+            - generic [ref=f814e100]:
+              - link "🌐 Wikipedia en.wikipedia.org › wiki › Unified_Payments_Interface Unified Payments Interface - Wikipedia" [ref=f814e101] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface
+                - generic [ref=f814e102]:
+                  - img "🌐" [ref=f814e106]
+                  - generic [ref=f814e107]:
+                    - generic [ref=f814e108]: Wikipedia
+                    - generic [ref=f814e109]: en.wikipedia.org › wiki › Unified_Payments_Interface
+                - generic "Unified Payments Interface - Wikipedia" [ref=f814e111]
+              - generic [ref=f814e113]:
+                - text: 2 days ago - It was also part of the Green ... domestic payments market.
+                - strong [ref=f814e114]: UPI
+                - text: was officially
+                - strong [ref=f814e115]: launched
+                - text: in 2016 for public use. The pilot
+                - strong [ref=f814e116]: launch
+                - text: took place on 11 April 2016, inaugurated by Dr. Raghuram G. Rajan, Governor of the
+                - strong [ref=f814e117]: Reserve
+                - strong [ref=f814e118]: Bank
+                - text: of India, in Mumbai, with 21 member
+                - strong [ref=f814e119]: banks
+                - text: participating. Under RBI guidance,
+                - strong [ref=f814e120]: NPCI
+                - text: became the ...
+            - generic [ref=f814e121]:
+              - link "History" [ref=f814e122] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface#History
+              - link "Transaction Fees" [ref=f814e124] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface#Transaction_Fees
+              - link "Service" [ref=f814e126] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface#Service
+              - link "Market share" [ref=f814e128] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface#Market_share
+              - link "Internationalization" [ref=f814e130] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface#Internationalization
+              - link "Acceptance" [ref=f814e132] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface#Acceptance
+              - link "Technology export to foreign nations" [ref=f814e134] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface#Technology_export_to_foreign_nations
+              - link "Studies on UPI" [ref=f814e136] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface#Studies_on_UPI
+              - link "Outage and downtime" [ref=f814e138] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface#Outage_and_downtime
+              - link "Misuse" [ref=f814e140] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface#Misuse
+          - generic [ref=f814e144]:
+            - generic [ref=f814e145]:
+              - link "🌐 Code for Banks codeforbanks.com › banks › blog › manage-your-money-better-with-upi-reserve-pay Manage Your Money Better with UPI Reserve Pay" [ref=f814e146] [cursor=pointer]:
+                - /url: https://www.codeforbanks.com/banks/blog/manage-your-money-better-with-upi-reserve-pay/
+                - generic [ref=f814e147]:
+                  - img "🌐" [ref=f814e151]
+                  - generic [ref=f814e152]:
+                    - generic [ref=f814e153]: Code for Banks
+                    - generic [ref=f814e154]: codeforbanks.com › banks › blog › manage-your-money-better-with-upi-reserve-pay
+                - generic "Manage Your Money Better with UPI Reserve Pay" [ref=f814e156]
+              - generic [ref=f814e158]:
+                - text: 31 October 2025 -
+                - strong [ref=f814e159]: The NPCI or National Payments Corporation of India has now launched a new feature called the UPI Reserve Pay for the users to manage funds
+                - text: . With this feature, one can reserve his/her choice of amounts of funds to make specific payments to particular ...
+            - link [ref=f814e161] [cursor=pointer]:
+              - /url: https://www.codeforbanks.com/banks/blog/manage-your-money-better-with-upi-reserve-pay/
+          - generic [ref=f814e165]:
+            - link "🌐 complinity complinity.com › home › legal update NPCI issues Enhancements in UPI Single Block Multiple Debits (UPI Reserve Pay)" [ref=f814e166] [cursor=pointer]:
+              - /url: https://complinity.com/legal-update/npci-issues-enhancements-in-upi-single-block-multiple-debits-upi-reserve-pay--20722/
+              - generic [ref=f814e167]:
+                - img "🌐" [ref=f814e171]
+                - generic [ref=f814e172]:
+                  - generic [ref=f814e173]: complinity
+                  - generic [ref=f814e174]: complinity.com › home › legal update
+              - generic "NPCI issues Enhancements in UPI Single Block Multiple Debits (UPI Reserve Pay)" [ref=f814e176]
+            - generic [ref=f814e178]:
+              - text: 27 August 2025 - NPCI has issued Enhancements in
+              - strong [ref=f814e179]: UPI Single Block Multiple Debits
+              - text: "(UPI Reserve Pay). Key Highlights: 1. NPCI has launched"
+              - strong [ref=f814e180]: UPI Single Block Multiple Debits
+              - text: ", now called UPI Reserve Pay, allowing customers to block funds for multiple debits on a ..."
+          - generic [ref=f814e183]:
+            - generic [ref=f814e184]:
+              - link "🌐 Zee Business zeebiz.com › hindi › banking › upi-reserve-pay-npci-new-feature-stop-overspending-2025-235406 UPI पर नहीं लगता महीने के खर्चों का हिसाब? लॉन्च हुआ नया फीचर ‘Reserve Pay’, जो रोकेगा आपकी फिजूलखर्ची| Zee Business Hindi" [ref=f814e185] [cursor=pointer]:
+                - /url: https://www.zeebiz.com/hindi/banking/upi-reserve-pay-npci-new-feature-stop-overspending-2025-235406
+                - generic [ref=f814e186]:
+                  - img "🌐" [ref=f814e190]
+                  - generic [ref=f814e191]:
+                    - generic [ref=f814e192]: Zee Business
+                    - generic [ref=f814e193]: zeebiz.com › hindi › banking › upi-reserve-pay-npci-new-feature-stop-overspending-2025-235406
+                - generic "UPI पर नहीं लगता महीने के खर्चों का हिसाब? लॉन्च हुआ नया फीचर ‘Reserve Pay’, जो रोकेगा आपकी फिजूलखर्ची| Zee Business Hindi" [ref=f814e195]
+              - generic [ref=f814e197]:
+                - text: 8 October 2025 - NPCI ने UPI का नया ... किया है,
+                - strong [ref=f814e198]: जिससे यूज़र किसी भी ऐप के लिए मासिक खर्च सीमा तय कर सकेंगे
+                - text: ....
+            - link [ref=f814e200] [cursor=pointer]:
+              - /url: https://www.zeebiz.com/hindi/banking/upi-reserve-pay-npci-new-feature-stop-overspending-2025-235406
+          - generic [ref=f814e203]:
+            - generic [ref=f814e204]:
+              - link "🌐 MEDIANAMA medianama.com › home › npci introduces ai-driven upi features but raises concerns over liability and security risks NPCI Launches New UPI Features, But Risks of AI Payments Loom" [ref=f814e205] [cursor=pointer]:
+                - /url: https://www.medianama.com/2025/10/223-npci-new-upi-features-global-fintech-fest/
+                - generic [ref=f814e206]:
+                  - img "🌐" [ref=f814e210]
+                  - generic [ref=f814e211]:
+                    - generic [ref=f814e212]: MEDIANAMA
+                    - generic [ref=f814e213]: medianama.com › home › npci introduces ai-driven upi features but raises concerns over liability and security risks
+                - generic "NPCI Launches New UPI Features, But Risks of AI Payments Loom" [ref=f814e215]
+              - generic [ref=f814e216]: "10 October 2025 - Banking Connect: NPCI describes this as an “interoperable net banking solution offering seamless payments and standardized merchant onboarding.” NPCI Bharat BillPay Limited (NBBL) will provide a platform that streamlines backend infrastructure to connect banks and merchants within the UPI ecosystem. UPI Reserve Pay: This feature allows users to “securely block and manage credit limits for specific purposes across merchant and UPI apps.” It appears to be the backbone for agentic payments, where a user can securely pre-authorize their trusted AI agent to make purchases within pre-set, user-defined spending limits."
+            - link [ref=f814e219] [cursor=pointer]:
+              - /url: https://www.medianama.com/2025/10/223-npci-new-upi-features-global-fintech-fest/
+          - generic [ref=f814e222]:
+            - generic [ref=f814e223]:
+              - 'link "🌐 CNBCTV18 cnbctv18.com › home › photos › personal finance New UPI launches: How AI, IoT, and Reserve Pay may change digital payments - CNBC TV18" [ref=f814e224] [cursor=pointer]':
+                - /url: https://www.cnbctv18.com/photos/personal-finance/upi-new-launches-ai-iot-reserve-pay-upi-help-digital-payments-changes-19708991.htm
+                - generic [ref=f814e225]:
+                  - img "🌐" [ref=f814e229]
+                  - generic [ref=f814e230]:
+                    - generic [ref=f814e231]: CNBCTV18
+                    - generic [ref=f814e232]: cnbctv18.com › home › photos › personal finance
+                - 'generic "New UPI launches: How AI, IoT, and Reserve Pay may change digital payments - CNBC TV18" [ref=f814e234]'
+              - generic [ref=f814e236]:
+                - text: 9 October 2025 - By Anshul
+                - strong [ref=f814e237]: October 9, 2025
+                - text: ", 1:31:39 PM IST (Updated) ... AI-based UPI HELP | For users who face challenges in tracking transactions or resolving disputes, AI-based UPI HELP brings instant assistance through NPCI..."
+            - link [ref=f814e239] [cursor=pointer]:
+              - /url: https://www.cnbctv18.com/photos/personal-finance/upi-new-launches-ai-iot-reserve-pay-upi-help-digital-payments-changes-19708991.htm
+          - generic [ref=f814e242]:
+            - generic [ref=f814e243]:
+              - link "🌐 Zee Business zeebiz.com › personal-finance › news-upi-reserve-pay-launched-to-help-users-manage-spending-expands-payments-to-smart-devices-380499 UPI Reserve Pay launched to help users manage spending, expands payments to smart devices" [ref=f814e244] [cursor=pointer]:
+                - /url: https://www.zeebiz.com/personal-finance/news-upi-reserve-pay-launched-to-help-users-manage-spending-expands-payments-to-smart-devices-380499
+                - generic [ref=f814e245]:
+                  - img "🌐" [ref=f814e249]
+                  - generic [ref=f814e250]:
+                    - generic [ref=f814e251]: Zee Business
+                    - generic [ref=f814e252]: zeebiz.com › personal-finance › news-upi-reserve-pay-launched-to-help-users-manage-spending-expands-payments-to-smart-devices-380499
+                - generic "UPI Reserve Pay launched to help users manage spending, expands payments to smart devices" [ref=f814e254]
+              - generic [ref=f814e256]:
+                - text: "8 October 2025 - UPI Reserve Pay introduced to help users manage spending. Source: Pexels · The NPCI has rolled out UPI Reserve Pay,"
+                - strong [ref=f814e257]: a new feature designed to help users manage spending, alongside several innovations enabling payments through smart devices
+                - text: .
+            - link [ref=f814e259] [cursor=pointer]:
+              - /url: https://www.zeebiz.com/personal-finance/news-upi-reserve-pay-launched-to-help-users-manage-spending-expands-payments-to-smart-devices-380499
+          - generic [ref=f814e263]:
+            - link "🌐 National Payments Corporation of India npci.org.in › uploads › RBI_Governor_unveils_New_Generation_of_Digital_Payment_Initiatives_at_GFF_6494fabdfc.pdf pdf RBI Governor unveils New Generation of Digital Payment Initiatives at GFF 2025" [ref=f814e264] [cursor=pointer]:
+              - /url: https://www.npci.org.in/uploads/RBI_Governor_unveils_New_Generation_of_Digital_Payment_Initiatives_at_GFF_6494fabdfc.pdf
+              - generic [ref=f814e265]:
+                - img "🌐" [ref=f814e269]
+                - generic [ref=f814e270]:
+                  - generic [ref=f814e271]: National Payments Corporation of India
+                  - generic [ref=f814e272]:
+                    - generic [ref=f814e273]: npci.org.in › uploads › RBI_Governor_unveils_New_Generation_of_Digital_Payment_Initiatives_at_GFF_6494fabdfc.pdf
+                    - generic [ref=f814e274]: pdf
+              - generic "RBI Governor unveils New Generation of Digital Payment Initiatives at GFF 2025" [ref=f814e275]
+            - generic [ref=f814e276]: 8 October 2025 - By combining transparency, security, and convenience, UPI Reserve Pay on Credit enhances · trust in online commerce and empowers customers with greater convenience, control and ... National Payments Corporation of India (NPCI) is the umbrella entity responsible for operating retail · payments and settlement systems in India. It is established by the Reserve Bank ...
+          - generic [ref=f814e281]:
+            - link "🌐 National Payments Corporation of India npci.org.in › uploads › UPI_OC_No_228_FY_2025_26_Enhancement_in_UPI_Single_Block_Multiple_Debits_UPI_Reserve_Pay_a9095c181d.pdf pdf UPI Reserve Pay" [ref=f814e282] [cursor=pointer]:
+              - /url: https://www.npci.org.in/uploads/UPI_OC_No_228_FY_2025_26_Enhancement_in_UPI_Single_Block_Multiple_Debits_UPI_Reserve_Pay_a9095c181d.pdf
+              - generic [ref=f814e283]:
+                - img "🌐" [ref=f814e287]
+                - generic [ref=f814e288]:
+                  - generic [ref=f814e289]: National Payments Corporation of India
+                  - generic [ref=f814e290]:
+                    - generic [ref=f814e291]: npci.org.in › uploads › UPI_OC_No_228_FY_2025_26_Enhancement_in_UPI_Single_Block_Multiple_Debits_UPI_Reserve_Pay_a9095c181d.pdf
+                    - generic [ref=f814e292]: pdf
+              - generic "UPI Reserve Pay" [ref=f814e293]
+            - generic [ref=f814e294]: 8 October 2025 - National Payments Corporation of India is an Umbrella Organisation that facilitates services like UPI Payment, Bharat Bill Pay, RuPay Card, FASTag, NACH, UPI & Adhaar Based Digital Payments in India. Know More.
+          - generic [ref=f814e299]:
+            - 'link "🌐 TechnoFino technofino.in › forums › general › finance world news UPI Reserve Pay Launch | TechnoFino - #1 Community Of Credit Card & Banking Experts" [ref=f814e300] [cursor=pointer]':
+              - /url: https://technofino.in/community/threads/upi-reserve-pay-launch.44879/
+              - generic [ref=f814e301]:
+                - img "🌐" [ref=f814e305]
+                - generic [ref=f814e306]:
+                  - generic [ref=f814e307]: TechnoFino
+                  - generic [ref=f814e308]: technofino.in › forums › general › finance world news
+              - 'generic "UPI Reserve Pay Launch | TechnoFino - #1 Community Of Credit Card & Banking Experts" [ref=f814e310]'
+            - generic [ref=f814e312]:
+              - text: "9 October 2025 - UPI Reserve Pay Launch: UPI Reserve Pay: Credit Control Meets Convenience UPI Reserve Pay, which"
+              - strong [ref=f814e313]: allows users to allocate (or “block”) part of a credit card or pre-approved credit line for recurring or one-time expenses
+              - text: .
+          - generic [ref=f814e315]:
+            - generic [ref=f814e316]: Find elsewhere
+            - generic [ref=f814e320]:
+              - link "Google" [ref=f814e321] [cursor=pointer]:
+                - /url: /search?q=%22Reserve%20Pay%22%20UPI%20NPCI%20bank%20launched%20!g
+              - link "Bing" [ref=f814e322] [cursor=pointer]:
+                - /url: /search?q=%22Reserve%20Pay%22%20UPI%20NPCI%20bank%20launched%20!b
+              - link "Mojeek" [ref=f814e323] [cursor=pointer]:
+                - /url: /search?q=%22Reserve%20Pay%22%20UPI%20NPCI%20bank%20launched%20!mojeek
+          - generic [ref=f814e327]:
+            - 'link "🌐 LinkedIn linkedin.com › posts › ankit-mishra-48969714_upireservepay-upilearning-linkedin-activity-7401843874589237248-wL9z UPI Reserve Pay: RBI/NPCI''s New Feature for Guaranteed ..." [ref=f814e328] [cursor=pointer]':
+              - /url: https://www.linkedin.com/posts/ankit-mishra-48969714_upireservepay-upilearning-linkedin-activity-7401843874589237248-wL9z
+              - generic [ref=f814e329]:
+                - img "🌐" [ref=f814e333]
+                - generic [ref=f814e334]:
+                  - generic [ref=f814e335]: LinkedIn
+                  - generic [ref=f814e336]: linkedin.com › posts › ankit-mishra-48969714_upireservepay-upilearning-linkedin-activity-7401843874589237248-wL9z
+              - 'generic "UPI Reserve Pay: RBI/NPCI''s New Feature for Guaranteed ..." [ref=f814e338]'
+            - generic [ref=f814e339]: Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.
+          - generic [ref=f814e344]:
+            - link "🌐 Facebook facebook.com › BHIM.NPCI › posts › soon-coming-on-bhim-payments-app-upi-reserve-pay-will-offer-more-control-transpa › 1230570875764192 Soon coming on BHIM Payments App, UPI Reserve Pay ..." [ref=f814e345] [cursor=pointer]:
+              - /url: https://www.facebook.com/BHIM.NPCI/posts/soon-coming-on-bhim-payments-app-upi-reserve-pay-will-offer-more-control-transpa/1230570875764192/
+              - generic [ref=f814e346]:
+                - img "🌐" [ref=f814e350]
+                - generic [ref=f814e351]:
+                  - generic [ref=f814e352]: Facebook
+                  - generic [ref=f814e353]: facebook.com › BHIM.NPCI › posts › soon-coming-on-bhim-payments-app-upi-reserve-pay-will-offer-more-control-transpa › 1230570875764192
+              - generic "Soon coming on BHIM Payments App, UPI Reserve Pay ..." [ref=f814e355]
+            - generic [ref=f814e356]: BHIM. 42,715 likes · 3,918 talking about this. BHIM - India's go-to payment app for secure, quick, and easy UPI transactions.
+          - generic [ref=f814e360]:
+            - generic [ref=f814e361]:
+              - link "🌐 Medium medium.com › @nishantkumar.jss › upi-reserve-pay-9f04ec0e1b76 UPI Reserve Pay:" [ref=f814e362] [cursor=pointer]:
+                - /url: https://medium.com/@nishantkumar.jss/upi-reserve-pay-9f04ec0e1b76
+                - generic [ref=f814e363]:
+                  - img "🌐" [ref=f814e367]
+                  - generic [ref=f814e368]:
+                    - generic [ref=f814e369]: Medium
+                    - generic [ref=f814e370]: medium.com › @nishantkumar.jss › upi-reserve-pay-9f04ec0e1b76
+                - generic "UPI Reserve Pay:" [ref=f814e372]
+              - generic [ref=f814e373]: "9 October 2025 - As per Setu, it’s a “specialized One-Time Mandate product within UPI Autopay that enables any merchant to provide Auth & Capture over UPI.” · Here’s how it works: Merchants can block funds up to ₹1 lakh (for most merchant category codes except 6211). Once the service is complete, they can debit either the full amount or just a portion. If it’s a partial debit, the remaining funds automatically get unblocked in your bank account."
+            - link [ref=f814e376] [cursor=pointer]:
+              - /url: https://medium.com/@nishantkumar.jss/upi-reserve-pay-9f04ec0e1b76
+          - generic [ref=f814e380]:
+            - link "🌐 LinkedIn linkedin.com › posts › kiya-ai_techthursday-upi-reserve-pay-activity-7394698449775935488-rvHY How NPCI's UPI Reserve Pay simplifies credit and payments" [ref=f814e381] [cursor=pointer]:
+              - /url: https://www.linkedin.com/posts/kiya-ai_techthursday-upi-reserve-pay-activity-7394698449775935488-rvHY
+              - generic [ref=f814e382]:
+                - img "🌐" [ref=f814e386]
+                - generic [ref=f814e387]:
+                  - generic [ref=f814e388]: LinkedIn
+                  - generic [ref=f814e389]: linkedin.com › posts › kiya-ai_techthursday-upi-reserve-pay-activity-7394698449775935488-rvHY
+              - generic "How NPCI's UPI Reserve Pay simplifies credit and payments" [ref=f814e391]
+            - generic [ref=f814e392]: Login to LinkedIn to keep in touch with people you know, share ideas, and build your career.
+          - button "Next" [disabled] [ref=f814e396]
+      - generic [ref=f814e404]:
+        - generic [ref=f814e405]:
+          - generic [ref=f814e406]:
+            - generic [ref=f814e407]:
+              - link "Unified Payments Interface" [ref=f814e409] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface
+              - generic [ref=f814e410]: digital payment system for inter-bank transfer in India
+              - link "npci.org.in" [ref=f814e414] [cursor=pointer]:
+                - /url: https://www.npci.org.in/what-we-do/upi/product-overview
+            - link [ref=f814e417] [cursor=pointer]:
+              - /url: /images?q=Unified+Payments+Interface&context=W3sic3JjIjoiaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy90aHVtYi82LzZmL1VQSV9sb2dvLnN2Zy8yNTBweC1VUElfbG9nby5zdmcucG5nP3V0bV9zb3VyY2U9d3d3Lndpa2lkYXRhLm9yZyZhbXA7dXRtX2NhbXBhaWduPXJlc3QmYW1wO3V0bV9jb250ZW50PXRodW1ibmFpbCIsInRleHQiOiJVUEkgbG9nbyIsInBhZ2VfdXJsIjoiaHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVW5pZmllZF9QYXltZW50c19JbnRlcmZhY2UifV0%3D&sig=25ca53cc8905525e6c7921accaa2b9b43029e80b0f88e0508ddc1e62727b405d&nonce=43a6c47aeb21de7d677b793e7eb95021&source=infoboxImg
+              - img "UPI logo" [ref=f814e418]
+          - generic [ref=f814e419]:
+            - generic [ref=f814e421]:
+              - text: Unified Payments Interface (UPI) is an Indian instant payment system and protocol developed by the National Payments Corporation of India (NPCI) in April 11th 2016. The interface facilitates inter-bank peer-to-peer (P2P) and …
+              - link "Wikipedia" [ref=f814e422] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface
+            - generic [ref=f814e425]:
+              - generic [ref=f814e426]:
+                - generic [ref=f814e427]: Product type
+                - generic [ref=f814e428]:
+                  - link "instant" [ref=f814e429] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Instant_payment
+                  - link "payment system" [ref=f814e430] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/wiki/Payment_system
+              - generic [ref=f814e431]:
+                - generic [ref=f814e432]: Owner
+                - link "National Payments Corporation of India" [ref=f814e434] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/National_Payments_Corporation_of_India
+              - generic [ref=f814e435]:
+                - generic [ref=f814e436]: Country
+                - link "India" [ref=f814e438] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/India
+              - button "More about Unified Payments Interface" [ref=f814e439] [cursor=pointer]
+            - generic [ref=f814e443]:
+              - link "Wikipedia" [ref=f814e444] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface
+                - img "🌐" [ref=f814e445]
+              - link "Wikidata" [ref=f814e446] [cursor=pointer]:
+                - /url: http://www.wikidata.org/entity/Q24949969
+                - img "🌐" [ref=f814e447]
+              - link "X" [ref=f814e448] [cursor=pointer]:
+                - /url: https://x.com/UPI_NPCI
+                - img "🌐" [ref=f814e449]
+        - generic [ref=f814e451]:
+          - generic [ref=f814e453]:
+            - text: Data from
+            - link "Wikipedia" [ref=f814e454] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Unified_Payments_Interface
+          - button "Feedback" [ref=f814e456] [cursor=pointer]
+  - contentinfo [ref=f814e459]:
+    - generic [ref=f814e462]:
+      - generic [ref=f814e463]:
+        - heading "Resources" [level=6] [ref=f814e464]
+        - generic [ref=f814e465]:
+          - link "Brave Search Premium" [ref=f814e466] [cursor=pointer]:
+            - /url: https://account.brave.com/?intent=checkout&product=search
+          - link "Brave Search help" [ref=f814e467] [cursor=pointer]:
+            - /url: /help
+          - link "Transparency report" [ref=f814e468] [cursor=pointer]:
+            - /url: https://brave.com/transparency/
+          - link "Report a security issue" [ref=f814e469] [cursor=pointer]:
+            - /url: https://hackerone.com/brave
+          - link "Status" [ref=f814e470] [cursor=pointer]:
+            - /url: https://status.brave.app/
+      - generic [ref=f814e471]:
+        - heading "Products" [level=6] [ref=f814e472]
+        - generic [ref=f814e473]:
+          - link "Brave Browser" [ref=f814e474] [cursor=pointer]:
+            - /url: https://brave.com/download/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Search" [ref=f814e475] [cursor=pointer]:
+            - /url: https://search.brave.com
+          - link "Brave Wallet" [ref=f814e476] [cursor=pointer]:
+            - /url: https://brave.com/wallet/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Talk" [ref=f814e477] [cursor=pointer]:
+            - /url: https://talk.brave.com/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Firewall + VPN" [ref=f814e478] [cursor=pointer]:
+            - /url: https://brave.com/firewall-vpn/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Playlist" [ref=f814e479] [cursor=pointer]:
+            - /url: https://brave.com/playlist/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave News" [ref=f814e480] [cursor=pointer]:
+            - /url: https://brave.com/brave-news/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Rewards" [ref=f814e481] [cursor=pointer]:
+            - /url: https://brave.com/brave-rewards/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Search API" [ref=f814e482] [cursor=pointer]:
+            - /url: https://brave.com/search/api/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Ads" [ref=f814e483] [cursor=pointer]:
+            - /url: https://brave.com/brave-ads/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+      - generic [ref=f814e484]:
+        - heading "Policies" [level=6] [ref=f814e485]
+        - generic [ref=f814e486]:
+          - link "Privacy Policy" [ref=f814e487] [cursor=pointer]:
+            - /url: /help/privacy-policy
+          - link "Terms of Use" [ref=f814e488] [cursor=pointer]:
+            - /url: https://brave.com/terms-of-use/

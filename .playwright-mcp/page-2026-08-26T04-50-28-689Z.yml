@@ -1,0 +1,34 @@
+- generic [ref=f737e2]:
+  - generic [ref=f737e3]:
+    - generic [ref=f737e4]:
+      - link [ref=f737e5] [cursor=pointer]:
+        - /url: /en
+        - img "OpenAI" [ref=f737e6]
+      - generic [ref=f737e7]:
+        - generic [ref=f737e8]:
+          - generic [ref=f737e9]: Language
+          - button "Language" [ref=f737e10] [cursor=pointer]:
+            - generic [ref=f737e13]: English
+        - link "Login" [ref=f737e14] [cursor=pointer]:
+          - /url: /auth/login?redirectTo=%2Fauth%2Flogin-success%3FreturnTo%3D%252Fen%252Farticles%252F12016917-instant-checkout
+    - searchbox "Search for articles..." [ref=f737e16]
+  - generic [ref=f737e18]:
+    - heading "Uh oh. That page doesn't exist." [level=1] [ref=f737e19]
+    - paragraph [ref=f737e20]: Try searching for your answer or just send us a message.
+    - link "Go back home" [ref=f737e21] [cursor=pointer]:
+      - /url: /en
+    - paragraph [ref=f737e22]:
+      - text: Have an account? Try
+      - link "logging in" [ref=f737e23] [cursor=pointer]:
+        - /url: /auth/login
+      - text: .
+  - contentinfo [ref=f737e24]:
+    - img "OpenAI logo" [ref=f737e25]
+    - navigation [ref=f737e26]:
+      - link "ChatGPT" [ref=f737e27] [cursor=pointer]:
+        - /url: https://chatgpt.com
+      - link "API" [ref=f737e28] [cursor=pointer]:
+        - /url: https://platform.openai.com/docs/
+      - link "Service Status" [ref=f737e29] [cursor=pointer]:
+        - /url: https://status.openai.com
+      - button "Open cookie preferences dialog" [ref=f737e30] [cursor=pointer]: Cookie Preferences

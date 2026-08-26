@@ -1,0 +1,3 @@
+[    3862ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://help.openai.com/en/articles/12016917-instant-checkout:0
+[   12932ms] [INFO] [Support chat] backend=not yet selected auth=guest thread=none requested=default @ https://help-center-cdn.oaistatic.com/assets/entry.client-ClL-A3JS.js:37
+[   12937ms] [WARNING]   WARN  [Statsig] The user does not have the required id_type "conversation_id" for Dynamic config "quartz_support_disclosure" @ https://help-center-cdn.oaistatic.com/assets/entry.client-ClL-A3JS.js:37

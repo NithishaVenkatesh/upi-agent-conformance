@@ -1,0 +1,366 @@
+- generic [active] [ref=f730e1]:
+  - link "Skip to main content" [ref=f730e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f730e5]:
+    - link [ref=f730e7] [cursor=pointer]:
+      - /url: /us/en.html
+      - img "Mastercard brand symbol - a global technology company in the payments industry" [ref=f730e8]
+    - generic "Open Menu" [ref=f730e11]:
+      - menubar [ref=f730e12]:
+        - menuitem [ref=f730e13]:
+          - button "For you" [ref=f730e14] [cursor=pointer]
+        - menuitem [ref=f730e15]:
+          - button "For business" [ref=f730e16] [cursor=pointer]
+        - menuitem [ref=f730e17]:
+          - button "For the world" [ref=f730e18] [cursor=pointer]
+        - menuitem [ref=f730e19]:
+          - button "For innovators" [ref=f730e20] [cursor=pointer]
+        - menuitem [ref=f730e21]:
+          - button "News and trends" [ref=f730e22] [cursor=pointer]
+    - button "Open search" [ref=f730e24] [cursor=pointer]:
+      - generic [ref=f730e25]: 
+      - generic [ref=f730e26]: 
+  - generic [ref=f730e32]:
+    - generic [ref=f730e34]:
+      - generic [ref=f730e35]:
+        - paragraph [ref=f730e36]:
+          - generic [ref=f730e37]: 
+          - text: Mastercard agent pay
+        - heading "Powering the next frontier of commerce" [level=1] [ref=f730e38]
+        - paragraph [ref=f730e40]: Bringing smarter, more secure and more personal payments experiences to every agentic transaction.
+      - img "Digital illustration of a smartphone with holographic shopping icons." [ref=f730e43]
+    - generic [ref=f730e48]:
+      - paragraph [ref=f730e49]:
+        - generic [ref=f730e50]: 
+        - text: Transforming Commerce
+      - heading "AI is rapidly changing commerce" [level=3] [ref=f730e51]
+      - paragraph [ref=f730e53]: Consumers are quickly shifting from traditional search engines to AI for product discovery and purchases.
+    - generic [ref=f730e56]:
+      - generic [ref=f730e59]:
+        - heading "800M" [level=3] [ref=f730e60]
+        - paragraph [ref=f730e62]:
+          - text: active OpenAI users, doubling in a “just a few weeks” from February to April 2025
+          - superscript [ref=f730e63]:
+            - link "footnote 1" [ref=f730e64] [cursor=pointer]:
+              - /url: "#note1"
+              - text: "1"
+      - generic [ref=f730e67]:
+        - heading "20%" [level=3] [ref=f730e68]
+        - paragraph [ref=f730e70]:
+          - text: Agentic AI is expected to handle up to 20% of e-commerce tasks in 2025
+          - superscript [ref=f730e71]:
+            - link "footnote 2" [ref=f730e72] [cursor=pointer]:
+              - /url: "#note2"
+              - text: "2"
+      - generic [ref=f730e75]:
+        - heading "39%" [level=3] [ref=f730e76]
+        - paragraph [ref=f730e78]:
+          - text: of U.S. consumers have used generative AI for online shopping, and 53% plan to do so in 2025
+          - superscript [ref=f730e79]:
+            - link "footnote 3" [ref=f730e80] [cursor=pointer]:
+              - /url: "#note3"
+              - text: "3"
+    - generic [ref=f730e85]:
+      - paragraph [ref=f730e86]:
+        - generic [ref=f730e87]: 
+        - text: Transforming Commerce
+      - heading "Introducing Mastercard Agent Pay" [level=3] [ref=f730e88]
+      - paragraph [ref=f730e90]: Mastercard’s new infrastructure for enabling secure, scalable and trusted payments in agentic commerce.
+    - generic [ref=f730e93]:
+      - generic [ref=f730e96]:
+        - heading "Trust" [level=2] [ref=f730e97]
+        - paragraph [ref=f730e99]: We’re reimagining trust for the agentic era — anchored in Mastercard’s industry-leading standards.
+      - generic [ref=f730e103]:
+        - heading "Security" [level=2] [ref=f730e104]
+        - paragraph [ref=f730e106]: Creating a world where agent-led payments are secure, seamless and future-ready.
+      - generic [ref=f730e110]:
+        - heading "Visibility" [level=2] [ref=f730e111]
+        - paragraph [ref=f730e113]: Enabling insight, personalization and confidence in every transaction.
+      - generic [ref=f730e120]:
+        - img "poster" [ref=f730e121]
+        - button "Play video" [ref=f730e122]:
+          - generic [ref=f730e123]: 
+      - generic [ref=f730e128]:
+        - paragraph [ref=f730e129]:
+          - generic [ref=f730e130]: 
+          - text: Why mastercard
+        - heading "A new level of trusted AI-powered commerce" [level=3] [ref=f730e131]
+    - generic [ref=f730e134]:
+      - generic [ref=f730e137]:
+        - heading "Built for trust, engineered for scale" [level=2] [ref=f730e138]
+        - paragraph [ref=f730e140]: Works seamlessly across existing payment networks — no friction, just instant global scalability.
+      - generic [ref=f730e144]:
+        - heading "Designed for what's next" [level=2] [ref=f730e145]
+        - paragraph [ref=f730e147]: Together with industry leaders, we’re creating scalable solutions, unlocking the power of AI.
+      - generic [ref=f730e151]:
+        - heading "Made for you and your customers" [level=2] [ref=f730e152]
+        - paragraph [ref=f730e154]: Supports both consumer and business use cases, creating a future that works seamlessly for everyone.
+    - generic [ref=f730e157]:
+      - heading "Growing Agentic commerce with our industry-leading partners" [level=3] [ref=f730e163]
+      - generic [ref=f730e165]:
+        - generic [ref=f730e166]: 
+        - generic [ref=f730e169]: 
+        - generic [ref=f730e172]:
+          - img "tbd" [ref=f730e175]
+          - text: 
+        - generic [ref=f730e176]: 
+      - generic [ref=f730e183]:
+        - generic [ref=f730e184]: 
+        - generic [ref=f730e187]: 
+        - generic [ref=f730e190]: 
+        - generic [ref=f730e193]: 
+    - generic [ref=f730e200]:
+      - heading "Setting the standard for agentic payments" [level=2] [ref=f730e206]
+      - generic [ref=f730e209]:
+        - generic [ref=f730e211]:
+          - generic [ref=f730e212]:
+            - heading "Know your agent" [level=2] [ref=f730e213]
+            - paragraph [ref=f730e215]: Only registered agents can transact — governed and traceable with Mastercard network tokens — setting new standards for trust and accountability.
+          - img "Woman checking bank account on her phone." [ref=f730e218]
+        - generic [ref=f730e220]:
+          - generic [ref=f730e221]:
+            - heading "Interface standards" [level=2] [ref=f730e222]
+            - paragraph [ref=f730e224]: We’re building the future of agentic commerce with a universal data exchange protocol enabling seamless, scalable personalization.
+          - img "Hands holding a tablet showing a screen titled \"Choose your card,\" displaying Mastercard options." [ref=f730e227]
+        - generic [ref=f730e229]:
+          - generic [ref=f730e230]:
+            - heading "Verifiable intent" [level=2] [ref=f730e231]
+            - paragraph [ref=f730e233]: Purpose-built for agentic commerce, ensuring every transaction is verified by authenticated user intent and explicit consent before an action is taken.
+          - img "Woman petting her cat and christmas shopping on a tablet." [ref=f730e236]
+        - generic [ref=f730e238]:
+          - generic [ref=f730e239]:
+            - heading "Agent Pay for Machines" [level=2] [ref=f730e240]
+            - paragraph [ref=f730e242]: Enables trusted devices and AI-powered agents to securely initiate, authenticate, and complete payments on behalf of users and businesses.
+            - link "Learn more" [ref=f730e244] [cursor=pointer]:
+              - /url: /us/en/business/artificial-intelligence/mastercard-agent-pay/agent-pay-for-machines.html
+          - img "An abstract, high-speed view from a machine on a track, its motion illustrating forward-moving technology." [ref=f730e247]
+    - generic [ref=f730e254]:
+      - generic [ref=f730e257]:
+        - paragraph [ref=f730e258]:
+          - generic [ref=f730e259]: 
+          - text: Spotlight on AI Solutions
+        - heading "Explore other AI-powered solutions" [level=2] [ref=f730e260]
+        - paragraph [ref=f730e262]: Mastercard’s AI capabilities are embedded in a wide range of solutions that drive insights, personalization and security.
+      - generic [ref=f730e265]:
+        - generic [ref=f730e268]:
+          - heading "Tokenization" [level=3] [ref=f730e270]
+          - paragraph [ref=f730e272]: Increase transactions and reduce costs and fraud with Mastercard tokenization — secure, convenient and seamless tokenized payments.
+          - link "Learn more about tokenization." [ref=f730e274] [cursor=pointer]:
+            - /url: /us/en/business/payments/consumer-payments/network-processing/tokenization.html
+            - text: Learn more 
+        - generic [ref=f730e277]:
+          - heading "Decision intelligence" [level=3] [ref=f730e279]
+          - paragraph [ref=f730e281]: Decision Intelligence is a transaction risk monitoring solution powered by AI that helps you prevent fraud and approve genuine transactions in real time.
+          - link "Learn more about Card on file tokenization" [ref=f730e283] [cursor=pointer]:
+            - /url: https://developer.mastercard.com/product/card-on-file-tokenization
+            - text: Learn more 
+        - generic [ref=f730e286]:
+          - heading "Dynamic yield" [level=3] [ref=f730e288]
+          - paragraph [ref=f730e290]: Provides hyper-personalized consumer experiences using advanced AI and numerous data sources to create real-time recommendations and personalization.
+          - link "Learn more about personalization" [ref=f730e292] [cursor=pointer]:
+            - /url: /us/en/business/consumer-acquisition-and-engagement/personalization.html
+            - text: Learn more 
+        - generic [ref=f730e295]:
+          - heading "Brighterion" [level=3] [ref=f730e297]
+          - paragraph [ref=f730e299]: Delivering advanced artificial intelligence and machine learning, Brighterion AI is used by leading organizations around the world to fight fraud.
+        - generic [ref=f730e302]:
+          - heading "Open finance" [level=3] [ref=f730e304]
+          - paragraph [ref=f730e306]: Linking your bank accounts to financial services generates billions of transactions per day, which is used to train AI models to generate valuable insights for consumers.
+          - link "Learn more about open finance" [ref=f730e308] [cursor=pointer]:
+            - /url: /us/en/business/open-finance.html
+            - text: Learn more 
+        - generic [ref=f730e311]:
+          - heading "AI & advanced analytics consulting" [level=3] [ref=f730e313]
+          - paragraph [ref=f730e315]: Explore how ethical artificial intelligence can generate sustainable revenue and growth.
+      - generic [ref=f730e319]:
+        - heading "Insights and perspectives" [level=2] [ref=f730e324]
+        - group [ref=f730e326]:
+          - generic:  
+          - generic [ref=f730e327]:
+            - tabpanel "Slide 1 of 2" [ref=f730e328]:
+              - generic [ref=f730e330]:
+                - generic [ref=f730e331]:
+                  - paragraph [ref=f730e332]: News and Trends
+                  - heading "Explore the latest perspectives and news on AI from Mastercard" [level=2] [ref=f730e333]
+                  - link "Learn more about AI at Mastercard." [ref=f730e335] [cursor=pointer]:
+                    - /url: /us/en/news-and-trends/featured-topic/artificial-intelligence-featured-topic.html
+                    - text: Learn more
+                - img "A flowing red silk fabric." [ref=f730e338]
+            - tabpanel "Slide 2 of 2" [ref=f730e339]:
+              - generic [ref=f730e341]:
+                - generic [ref=f730e342]:
+                  - paragraph [ref=f730e343]: Perspectives
+                  - heading "Explore Mastercard’s data and responsibility principles" [level=1] [ref=f730e344]
+                  - link "Learn more" [ref=f730e346] [cursor=pointer]:
+                    - /url: /us/en/for-the-world/about-us/mastercard-privacy-and-data-responsibility.html
+                - img "Abstract artwork featuring a dark marble texture with gold veining." [ref=f730e349]
+    - generic [ref=f730e353]:
+      - paragraph [ref=f730e354]:
+        - text: "1. PYMNTS, “Sam Altman: OpenAI Has Reached Roughly 800 Million Users,” April 13, 2025."
+        - link "Back to footnote 1 reference" [ref=f730e355] [cursor=pointer]:
+          - /url: "#fn1"
+          - text: ↩
+      - paragraph [ref=f730e356]:
+        - text: 2. PYMNTS, “Agentic AI and Personalized Shopping Experiences Will Dominate 2025,” December 23, 2024.
+        - link "Back to footnote 2 reference" [ref=f730e357] [cursor=pointer]:
+          - /url: "#fn2"
+          - text: ↩
+      - paragraph [ref=f730e358]:
+        - text: "3. Adobe Blog, “Adobe Analytics: Traffic to U.S. retail websites from Generative AI sources jumps 1,200 percent,” March 17, 2025."
+        - link "Back to footnote 3 reference" [ref=f730e359] [cursor=pointer]:
+          - /url: "#fn3"
+          - text: ↩
+  - contentinfo [ref=f730e360]:
+    - generic [ref=f730e362]:
+      - navigation "Breadcrumb" [ref=f730e364]:
+        - list [ref=f730e365]:
+          - listitem [ref=f730e366]:
+            - link "Home" [ref=f730e367] [cursor=pointer]:
+              - /url: /us/en.html
+            - text: 
+          - listitem [ref=f730e368]:
+            - link "Artificial Intelligence" [ref=f730e369] [cursor=pointer]:
+              - /url: /us/en/business/artificial-intelligence.html
+      - paragraph [ref=f730e372]: We're always here when you need us
+      - generic [ref=f730e374]:
+        - generic [ref=f730e376]:
+          - heading "Need help?" [level=6] [ref=f730e379]:
+            - button "Need help?" [expanded]
+          - list "Need help?" [ref=f730e382]:
+            - listitem [ref=f730e383]:
+              - link " Get support" [ref=f730e384] [cursor=pointer]:
+                - /url: /us/en/personal/get-support.html
+            - listitem [ref=f730e385]:
+              - link " Report a lost or stolen card" [ref=f730e386] [cursor=pointer]:
+                - /url: /us/en/personal/get-support.html
+            - listitem [ref=f730e387]:
+              - link " Find ATM" [ref=f730e388] [cursor=pointer]:
+                - /url: /us/en/personal/get-support/atm-near-me.html
+            - listitem [ref=f730e389]:
+              - link " FAQs" [ref=f730e390] [cursor=pointer]:
+                - /url: /us/en/personal/get-support/frequently-asked-questions.html
+        - generic [ref=f730e392]:
+          - heading "COMPANY" [level=6] [ref=f730e395]:
+            - button "COMPANY" [expanded]
+          - list "COMPANY" [ref=f730e398]:
+            - listitem [ref=f730e399]:
+              - link "About" [ref=f730e400] [cursor=pointer]:
+                - /url: /us/en/for-the-world/about-us.html
+            - listitem [ref=f730e401]:
+              - link "Careers opens in a new tab " [ref=f730e402] [cursor=pointer]:
+                - /url: https://careers.mastercard.com/us/en
+                - text: Careers
+                - generic [ref=f730e403]: opens in a new tab
+                - text: 
+            - listitem [ref=f730e404]:
+              - link "Newsroom" [ref=f730e405] [cursor=pointer]:
+                - /url: /us/en/news-and-trends/stories.html
+            - listitem [ref=f730e406]:
+              - link "Investor Relations opens in a new tab " [ref=f730e407] [cursor=pointer]:
+                - /url: https://investor.mastercard.com/overview/default.aspx
+                - text: Investor Relations
+                - generic [ref=f730e408]: opens in a new tab
+                - text: 
+        - generic [ref=f730e410]:
+          - heading "LEGAL & PRIVACY" [level=6] [ref=f730e413]:
+            - button "LEGAL & PRIVACY" [expanded]
+          - list "LEGAL & PRIVACY" [ref=f730e416]:
+            - listitem [ref=f730e417]:
+              - link "Privacy & Data Responsibility" [ref=f730e418] [cursor=pointer]:
+                - /url: /us/en/for-the-world/about-us/mastercard-privacy-and-data-responsibility.html
+            - listitem [ref=f730e419]:
+              - link "U.S. Trademarks" [ref=f730e420] [cursor=pointer]:
+                - /url: /us/en/us-trademarks.html
+            - listitem [ref=f730e421]:
+              - link "Binding Corporate Rules (BCRs)" [ref=f730e422] [cursor=pointer]:
+                - /url: /content/dam/mccom/shared/footer/mastercard-bcrs.pdf
+            - listitem [ref=f730e423]:
+              - link "California Privacy Notice" [ref=f730e424] [cursor=pointer]:
+                - /url: /us/en/global-privacy-notice.html#addendum
+            - listitem [ref=f730e425]:
+              - link "Modern Slavery Statement" [ref=f730e426] [cursor=pointer]:
+                - /url: /us/en/for-the-world/about-us/mastercard-modern-slavery-and-human-trafficking-statement.html
+        - generic [ref=f730e428]:
+          - heading "MASTERCARD SITES" [level=6] [ref=f730e431]:
+            - button "MASTERCARD SITES" [expanded]
+          - list "MASTERCARD SITES" [ref=f730e434]:
+            - listitem [ref=f730e435]:
+              - link "Visit priceless.com website" [ref=f730e436] [cursor=pointer]:
+                - /url: https://www.priceless.com/
+                - text: Priceless.com
+                - generic [ref=f730e437]: opens in a new tab
+                - text: 
+            - listitem [ref=f730e438]:
+              - link "Visit Mastercard business intelligence for more insights from mastercard" [ref=f730e439] [cursor=pointer]:
+                - /url: https://mbi.mastercardservices.com/?utm_source=mastercardwebsite&utm_medium=footer&utm_campaign=services&utm_id=mbi&utm_term=global&utm_content=mastercard_business_intelligence
+                - text: Mastercard Business Intelligence
+                - generic [ref=f730e440]: opens in a new tab
+                - text: 
+            - listitem [ref=f730e441]:
+              - link "Mastercard Developers opens in a new tab " [ref=f730e442] [cursor=pointer]:
+                - /url: https://developer.mastercard.com
+                - text: Mastercard Developers
+                - generic [ref=f730e443]: opens in a new tab
+                - text: 
+            - listitem [ref=f730e444]:
+              - link "Mastercard Marketing Center opens in a new tab " [ref=f730e445] [cursor=pointer]:
+                - /url: https://www.mastercard.com/marketingcenter
+                - text: Mastercard Marketing Center
+                - generic [ref=f730e446]: opens in a new tab
+                - text: 
+            - listitem [ref=f730e447]:
+              - link "Center for Inclusive Growth opens in a new tab " [ref=f730e448] [cursor=pointer]:
+                - /url: https://www.mastercardcenter.org/
+                - text: Center for Inclusive Growth
+                - generic [ref=f730e449]: opens in a new tab
+                - text: 
+      - separator [ref=f730e452]
+      - generic [ref=f730e454]:
+        - generic [ref=f730e456]:
+          - paragraph [ref=f730e459]: © 1994-2026 Mastercard.
+          - list [ref=f730e463]:
+            - listitem [ref=f730e464]:
+              - link "Privacy" [ref=f730e465] [cursor=pointer]:
+                - /url: /us/en/global-privacy-notice.html
+              - text: 
+            - listitem [ref=f730e466]:
+              - link "Terms" [ref=f730e467] [cursor=pointer]:
+                - /url: /us/en/terms-of-use.html
+              - text: 
+            - listitem [ref=f730e468]:
+              - link "Manage cookies" [ref=f730e469] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=f730e470]:
+              - link "Your Privacy Choices" [ref=f730e471] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f730e473]:
+          - generic [ref=f730e477]:
+            - generic [ref=f730e478]: Select a country
+            - generic [ref=f730e480]:
+              - combobox [ref=f730e481] [cursor=pointer]: United States (English)
+              - generic [ref=f730e482] [cursor=pointer]
+            - alert
+          - list [ref=f730e487]:
+            - listitem [ref=f730e488]:
+              - link " Linkedin" [ref=f730e489] [cursor=pointer]:
+                - /url: http://www.linkedin.com/company/mastercard
+            - listitem [ref=f730e490]:
+              - link " Facebook" [ref=f730e491] [cursor=pointer]:
+                - /url: https://www.facebook.com/MasterCardUS?brand_redir=1
+            - listitem [ref=f730e492]:
+              - link " Twitter/X" [ref=f730e493] [cursor=pointer]:
+                - /url: https://x.com/mastercardnews
+            - listitem [ref=f730e494]:
+              - link " Youtube" [ref=f730e495] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/MasterCard
+  - dialog "How we use cookies and your consent" [ref=f730e498]:
+    - generic [ref=f730e499]:
+      - generic [ref=f730e500]:
+        - generic:
+          - heading "How we use cookies and your consent" [level=2] [ref=f730e501]
+          - generic [ref=f730e502]: We use cookies and similar technologies (‘Cookies’) on our websites to improve them, measure their performance, understand our audience and enhance the user experience. On some sites, we also use Cookies to show ads based on users’ browsing activities and interests on the site and other sites. Click ‘Manage Cookies’ below to learn what Cookies we use on this site and why. You can always change your consent preferences using the ‘Manage Cookies’ tool at the bottom of the screen (available as a link instead of a button on some sites). This includes rejecting some or all Cookies, except those that are strictly necessary for the site to work.
+      - generic [ref=f730e504]:
+        - button "Accept cookies" [ref=f730e505] [cursor=pointer]
+        - button "Reject all" [ref=f730e506] [cursor=pointer]
+        - button "Manage cookies, Opens the preference center dialog" [ref=f730e507] [cursor=pointer]: Manage cookies

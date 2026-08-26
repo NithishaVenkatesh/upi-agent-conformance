@@ -1,0 +1,273 @@
+- generic [ref=f718e1]:
+  - link "Skip to main content" [ref=f718e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f718e5]:
+    - link [ref=f718e7] [cursor=pointer]:
+      - /url: /us/en.html
+      - img "Mastercard brand symbol - a global technology company in the payments industry" [ref=f718e8]
+    - generic "Open Menu" [ref=f718e11]:
+      - menubar [ref=f718e12]:
+        - menuitem [ref=f718e13]:
+          - button "For you" [ref=f718e14] [cursor=pointer]
+        - menuitem [ref=f718e15]:
+          - button "For business" [ref=f718e16] [cursor=pointer]
+        - menuitem [ref=f718e17]:
+          - button "For the world" [ref=f718e18] [cursor=pointer]
+        - menuitem [ref=f718e19]:
+          - button "For innovators" [ref=f718e20] [cursor=pointer]
+        - menuitem [ref=f718e21]:
+          - button "News and trends" [ref=f718e22] [cursor=pointer]
+    - button "Open search" [ref=f718e24] [cursor=pointer]:
+      - generic [ref=f718e25]: 
+      - generic [ref=f718e26]: 
+  - generic [ref=f718e32]:
+    - generic [ref=f718e34]:
+      - heading "Press Releases" [level=1] [ref=f718e36]
+      - img "hero orange gradient with keylines" [ref=f718e39]
+    - generic [ref=f718e51]:
+      - generic [ref=f718e54]:
+        - paragraph [ref=f718e55]:
+          - generic [ref=f718e56]: 
+          - text: PRESS
+        - heading "Latest company news and announcements" [level=2] [ref=f718e57]
+      - generic [ref=f718e59]:
+        - generic [ref=f718e60]:
+          - heading [level=3] [ref=f718e61]:
+            - button "August 2026" [expanded] [ref=f718e62] [cursor=pointer]
+          - region "August 2026" [ref=f718e67]:
+            - generic [ref=f718e69]:
+              - link [ref=f718e72] [cursor=pointer]:
+                - /url: /us/en/news-and-trends/press/2026/august/mastercard-announces-new-lead-for-eastern-europe--middle-east-an.html
+                - generic [ref=f718e73]:
+                  - heading "Mastercard announces new lead for Eastern Europe, Middle East and Africa region" [level=3] [ref=f718e74]
+                  - generic [ref=f718e75]:
+                    - paragraph [ref=f718e76]: August 10, 2026
+                    - paragraph [ref=f718e77]
+              - link [ref=f718e80] [cursor=pointer]:
+                - /url: /us/en/news-and-trends/press/2026/august/Mastercard-elevates-premium-travel-with-Asia-Pacific-s-first-Taste-by-Priceless-dining-club-at-Hong-Kong-International-Airport.html
+                - generic [ref=f718e81]:
+                  - heading "Mastercard elevates premium travel with Asia Pacific’s first Taste by Priceless dining club at Hong Kong International Airport" [level=3] [ref=f718e82]
+                  - generic [ref=f718e83]:
+                    - paragraph [ref=f718e84]: August 5, 2026
+                    - paragraph [ref=f718e85]
+              - link [ref=f718e88] [cursor=pointer]:
+                - /url: /us/en/news-and-trends/press/2026/july/Mastercard-expands-virtual-card-platform.html
+                - generic [ref=f718e89]:
+                  - heading "Mastercard completes acquisition of BVNK to advance global stablecoin capabilities" [level=3] [ref=f718e90]
+                  - paragraph [ref=f718e92]: August 3, 2026
+        - heading [level=3] [ref=f718e94]:
+          - button "July 2026" [ref=f718e95] [cursor=pointer]
+        - heading [level=3] [ref=f718e101]:
+          - button "June 2026" [ref=f718e102] [cursor=pointer]
+        - heading [level=3] [ref=f718e108]:
+          - button "May 2026" [ref=f718e109] [cursor=pointer]
+        - heading [level=3] [ref=f718e115]:
+          - button "April 2026" [ref=f718e116] [cursor=pointer]
+        - heading [level=3] [ref=f718e122]:
+          - button "March 2026" [ref=f718e123] [cursor=pointer]
+        - heading [level=3] [ref=f718e129]:
+          - button "February 2026" [ref=f718e130] [cursor=pointer]
+        - heading [level=3] [ref=f718e136]:
+          - button "January 2026" [ref=f718e137] [cursor=pointer]
+        - heading [level=3] [ref=f718e143]:
+          - button "December 2025" [ref=f718e144] [cursor=pointer]
+        - heading [level=3] [ref=f718e150]:
+          - button "November 2025" [ref=f718e151] [cursor=pointer]
+        - heading [level=3] [ref=f718e157]:
+          - button "October 2025" [ref=f718e158] [cursor=pointer]
+        - heading [level=3] [ref=f718e164]:
+          - button "September 2025" [ref=f718e165] [cursor=pointer]
+        - heading [level=3] [ref=f718e171]:
+          - button "August 2025" [ref=f718e172] [cursor=pointer]
+        - heading [level=3] [ref=f718e178]:
+          - button "July 2025" [ref=f718e179] [cursor=pointer]
+        - heading [level=3] [ref=f718e185]:
+          - button "June 2025" [ref=f718e186] [cursor=pointer]
+        - heading [level=3] [ref=f718e192]:
+          - button "May 2025" [ref=f718e193] [cursor=pointer]
+        - heading [level=3] [ref=f718e199]:
+          - button "April 2025" [ref=f718e200] [cursor=pointer]
+        - heading [level=3] [ref=f718e206]:
+          - button "March 2025" [ref=f718e207] [cursor=pointer]
+        - heading [level=3] [ref=f718e213]:
+          - button "February 2025" [ref=f718e214] [cursor=pointer]
+        - heading [level=3] [ref=f718e220]:
+          - button "January 2025" [ref=f718e221] [cursor=pointer]
+        - heading [level=3] [ref=f718e227]:
+          - button "December 2024" [ref=f718e228] [cursor=pointer]
+        - heading [level=3] [ref=f718e234]:
+          - button "November 2024" [ref=f718e235] [cursor=pointer]
+        - heading [level=3] [ref=f718e241]:
+          - button "October 2024" [ref=f718e242] [cursor=pointer]
+        - heading [level=3] [ref=f718e248]:
+          - button "September 2024" [ref=f718e249] [cursor=pointer]
+        - heading [level=3] [ref=f718e255]:
+          - button "August 2024" [ref=f718e256] [cursor=pointer]
+        - heading [level=3] [ref=f718e262]:
+          - button "July 2024" [ref=f718e263] [cursor=pointer]
+        - heading [level=3] [ref=f718e269]:
+          - button "June 2024" [ref=f718e270] [cursor=pointer]
+        - heading [level=3] [ref=f718e276]:
+          - button "May 2024" [ref=f718e277] [cursor=pointer]
+        - heading [level=3] [ref=f718e283]:
+          - button "April 2024" [ref=f718e284] [cursor=pointer]
+        - heading [level=3] [ref=f718e290]:
+          - button "March 2024" [ref=f718e291] [cursor=pointer]
+        - heading [level=3] [ref=f718e297]:
+          - button "February 2024" [ref=f718e298] [cursor=pointer]
+        - heading [level=3] [ref=f718e304]:
+          - button "January 2024" [ref=f718e305] [cursor=pointer]
+  - contentinfo [ref=f718e310]:
+    - generic [ref=f718e312]:
+      - navigation "Breadcrumb" [ref=f718e314]:
+        - list [ref=f718e315]:
+          - listitem [ref=f718e316]:
+            - link "Home" [ref=f718e317] [cursor=pointer]:
+              - /url: /us/en.html
+            - text: 
+          - listitem [ref=f718e318]:
+            - link "News and trends" [ref=f718e319] [cursor=pointer]:
+              - /url: /us/en/news-and-trends.html
+      - paragraph [ref=f718e322]: We're always here when you need us
+      - generic [ref=f718e324]:
+        - generic [ref=f718e326]:
+          - heading "Need help?" [level=6] [ref=f718e329]:
+            - button "Need help?" [expanded]
+          - list "Need help?" [ref=f718e332]:
+            - listitem [ref=f718e333]:
+              - link " Get support" [ref=f718e334] [cursor=pointer]:
+                - /url: /us/en/personal/get-support.html
+            - listitem [ref=f718e335]:
+              - link " Report a lost or stolen card" [ref=f718e336] [cursor=pointer]:
+                - /url: /us/en/personal/get-support.html
+            - listitem [ref=f718e337]:
+              - link " Find ATM" [ref=f718e338] [cursor=pointer]:
+                - /url: /us/en/personal/get-support/atm-near-me.html
+            - listitem [ref=f718e339]:
+              - link " FAQs" [ref=f718e340] [cursor=pointer]:
+                - /url: /us/en/personal/get-support/frequently-asked-questions.html
+        - generic [ref=f718e342]:
+          - heading "COMPANY" [level=6] [ref=f718e345]:
+            - button "COMPANY" [expanded]
+          - list "COMPANY" [ref=f718e348]:
+            - listitem [ref=f718e349]:
+              - link "About" [ref=f718e350] [cursor=pointer]:
+                - /url: /us/en/for-the-world/about-us.html
+            - listitem [ref=f718e351]:
+              - link "Careers opens in a new tab " [ref=f718e352] [cursor=pointer]:
+                - /url: https://careers.mastercard.com/us/en
+                - text: Careers
+                - generic [ref=f718e353]: opens in a new tab
+                - text: 
+            - listitem [ref=f718e354]:
+              - link "Newsroom" [ref=f718e355] [cursor=pointer]:
+                - /url: /us/en/news-and-trends/stories.html
+            - listitem [ref=f718e356]:
+              - link "Investor Relations opens in a new tab " [ref=f718e357] [cursor=pointer]:
+                - /url: https://investor.mastercard.com/overview/default.aspx
+                - text: Investor Relations
+                - generic [ref=f718e358]: opens in a new tab
+                - text: 
+        - generic [ref=f718e360]:
+          - heading "LEGAL & PRIVACY" [level=6] [ref=f718e363]:
+            - button "LEGAL & PRIVACY" [expanded]
+          - list "LEGAL & PRIVACY" [ref=f718e366]:
+            - listitem [ref=f718e367]:
+              - link "Privacy & Data Responsibility" [ref=f718e368] [cursor=pointer]:
+                - /url: /us/en/for-the-world/about-us/mastercard-privacy-and-data-responsibility.html
+            - listitem [ref=f718e369]:
+              - link "U.S. Trademarks" [ref=f718e370] [cursor=pointer]:
+                - /url: /us/en/us-trademarks.html
+            - listitem [ref=f718e371]:
+              - link "Binding Corporate Rules (BCRs)" [ref=f718e372] [cursor=pointer]:
+                - /url: /content/dam/mccom/shared/footer/mastercard-bcrs.pdf
+            - listitem [ref=f718e373]:
+              - link "California Privacy Notice" [ref=f718e374] [cursor=pointer]:
+                - /url: /us/en/global-privacy-notice.html#addendum
+            - listitem [ref=f718e375]:
+              - link "Modern Slavery Statement" [ref=f718e376] [cursor=pointer]:
+                - /url: /us/en/for-the-world/about-us/mastercard-modern-slavery-and-human-trafficking-statement.html
+        - generic [ref=f718e378]:
+          - heading "MASTERCARD SITES" [level=6] [ref=f718e381]:
+            - button "MASTERCARD SITES" [expanded]
+          - list "MASTERCARD SITES" [ref=f718e384]:
+            - listitem [ref=f718e385]:
+              - link "Visit priceless.com website" [ref=f718e386] [cursor=pointer]:
+                - /url: https://www.priceless.com/
+                - text: Priceless.com
+                - generic [ref=f718e387]: opens in a new tab
+                - text: 
+            - listitem [ref=f718e388]:
+              - link "Visit Mastercard business intelligence for more insights from mastercard" [ref=f718e389] [cursor=pointer]:
+                - /url: https://mbi.mastercardservices.com/?utm_source=mastercardwebsite&utm_medium=footer&utm_campaign=services&utm_id=mbi&utm_term=global&utm_content=mastercard_business_intelligence
+                - text: Mastercard Business Intelligence
+                - generic [ref=f718e390]: opens in a new tab
+                - text: 
+            - listitem [ref=f718e391]:
+              - link "Mastercard Developers opens in a new tab " [ref=f718e392] [cursor=pointer]:
+                - /url: https://developer.mastercard.com
+                - text: Mastercard Developers
+                - generic [ref=f718e393]: opens in a new tab
+                - text: 
+            - listitem [ref=f718e394]:
+              - link "Mastercard Marketing Center opens in a new tab " [ref=f718e395] [cursor=pointer]:
+                - /url: https://www.mastercard.com/marketingcenter
+                - text: Mastercard Marketing Center
+                - generic [ref=f718e396]: opens in a new tab
+                - text: 
+            - listitem [ref=f718e397]:
+              - link "Center for Inclusive Growth opens in a new tab " [ref=f718e398] [cursor=pointer]:
+                - /url: https://www.mastercardcenter.org/
+                - text: Center for Inclusive Growth
+                - generic [ref=f718e399]: opens in a new tab
+                - text: 
+      - separator [ref=f718e402]
+      - generic [ref=f718e404]:
+        - generic [ref=f718e406]:
+          - paragraph [ref=f718e409]: © 1994-2026 Mastercard.
+          - list [ref=f718e413]:
+            - listitem [ref=f718e414]:
+              - link "Privacy" [ref=f718e415] [cursor=pointer]:
+                - /url: /us/en/global-privacy-notice.html
+              - text: 
+            - listitem [ref=f718e416]:
+              - link "Terms" [ref=f718e417] [cursor=pointer]:
+                - /url: /us/en/terms-of-use.html
+              - text: 
+            - listitem [ref=f718e418]:
+              - link "Manage cookies" [ref=f718e419] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=f718e420]:
+              - link "Your Privacy Choices" [ref=f718e421] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f718e423]:
+          - generic [ref=f718e427]:
+            - generic [ref=f718e428]: Select a country
+            - generic [ref=f718e430]:
+              - combobox [ref=f718e431] [cursor=pointer]: United States (English)
+              - generic [ref=f718e432] [cursor=pointer]
+            - alert
+          - list [ref=f718e437]:
+            - listitem [ref=f718e438]:
+              - link " Linkedin" [ref=f718e439] [cursor=pointer]:
+                - /url: http://www.linkedin.com/company/mastercard
+            - listitem [ref=f718e440]:
+              - link " Facebook" [ref=f718e441] [cursor=pointer]:
+                - /url: https://www.facebook.com/MasterCardUS?brand_redir=1
+            - listitem [ref=f718e442]:
+              - link " Twitter/X" [ref=f718e443] [cursor=pointer]:
+                - /url: https://x.com/mastercardnews
+            - listitem [ref=f718e444]:
+              - link " Youtube" [ref=f718e445] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/MasterCard
+  - dialog "How we use cookies and your consent" [ref=f718e448]:
+    - generic [ref=f718e449]:
+      - generic [ref=f718e450]:
+        - generic:
+          - heading "How we use cookies and your consent" [level=2] [ref=f718e451]
+          - generic [ref=f718e452]: We use cookies and similar technologies (‘Cookies’) on our websites to improve them, measure their performance, understand our audience and enhance the user experience. On some sites, we also use Cookies to show ads based on users’ browsing activities and interests on the site and other sites. Click ‘Manage Cookies’ below to learn what Cookies we use on this site and why. You can always change your consent preferences using the ‘Manage Cookies’ tool at the bottom of the screen (available as a link instead of a button on some sites). This includes rejecting some or all Cookies, except those that are strictly necessary for the site to work.
+      - generic [ref=f718e454]:
+        - button "Accept cookies" [ref=f718e455] [cursor=pointer]
+        - button "Reject all" [ref=f718e456] [cursor=pointer]
+        - button "Manage cookies, Opens the preference center dialog" [ref=f718e457] [cursor=pointer]: Manage cookies

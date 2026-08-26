@@ -1,0 +1,337 @@
+- generic [active] [ref=f745e1]:
+  - generic [ref=f745e4]:
+    - banner [ref=f745e5]:
+      - generic [ref=f745e7]:
+        - generic [ref=f745e8]: Wednesday, August 26, 2026 | 10:30 AM IST
+        - link "हिंदी में पढें" [ref=f745e10] [cursor=pointer]:
+          - /url: https://hindi.business-standard.com/
+      - generic [ref=f745e11]:
+        - generic [ref=f745e13] [cursor=pointer]
+        - link [ref=f745e17] [cursor=pointer]:
+          - /url: https://www.business-standard.com
+          - img "Business Standard" [ref=f745e19]
+        - generic [ref=f745e22]:
+          - img "Notification Icon" [ref=f745e24] [cursor=pointer]
+          - link [ref=f745e25] [cursor=pointer]:
+            - /url: "#"
+            - img "userprofile Icon" [ref=f745e26]
+          - img "Search" [ref=f745e28] [cursor=pointer]
+      - navigation [ref=f745e29]:
+        - list [ref=f745e30]:
+          - listitem [ref=f745e31]:
+            - link "Home" [ref=f745e32] [cursor=pointer]:
+              - /url: https://www.business-standard.com
+          - listitem [ref=f745e33]:
+            - link "Finance" [ref=f745e34] [cursor=pointer]:
+              - /url: https://www.business-standard.com/finance
+          - listitem [ref=f745e35]:
+            - link "News" [ref=f745e36] [cursor=pointer]:
+              - /url: https://www.business-standard.com/finance/news
+          - listitem [ref=f745e37]:
+            - link "Analysis" [ref=f745e38] [cursor=pointer]:
+              - /url: https://www.business-standard.com/finance/analysis
+          - listitem [ref=f745e39]:
+            - link "Personal Finance" [ref=f745e40] [cursor=pointer]:
+              - /url: https://www.business-standard.com/finance/personal-finance
+          - listitem [ref=f745e41]:
+            - generic [ref=f745e42]:
+              - link "E-Paper" [ref=f745e43] [cursor=pointer]:
+                - /url: https://epaper.business-standard.com/
+              - link "Decoded" [ref=f745e45] [cursor=pointer]:
+                - /url: https://www.business-standard.com/bs-decoded
+              - link "Opinion" [ref=f745e47] [cursor=pointer]:
+                - /url: https://www.business-standard.com/opinion
+              - link "India News" [ref=f745e49] [cursor=pointer]:
+                - /url: https://www.business-standard.com/india-news
+              - link "Latest News" [ref=f745e51] [cursor=pointer]:
+                - /url: https://www.business-standard.com/latest-news
+        - button [ref=f745e53] [cursor=pointer]:
+          - link "Subscribe" [ref=f745e54]:
+            - /url: https://www.business-standard.com/subscription-cart/product
+    - generic [ref=f745e57]:
+      - heading "Buzzing :" [level=2] [ref=f745e58]
+      - generic [ref=f745e59]:
+        - button "Next topic" [ref=f745e60] [cursor=pointer]
+        - generic [ref=f745e61]:
+          - link "Stock Market Highlights" [ref=f745e62] [cursor=pointer]:
+            - /url: https://www.business-standard.com/markets/news/stock-market-live-5-august-nse-bse-sensex-today-nifty-gift-nifty-rbi-mpc-brent-crude-oil-price-ipo-q1-result-share-market-today-126080500092_1.html
+          - link "Delhi SIR Deadline" [ref=f745e63] [cursor=pointer]:
+            - /url: https://www.business-standard.com/india-news/delhi-sir-deadline-extended-for-the-second-time-what-you-need-to-know-126080500580_1.html
+          - link "Ola Electric Share" [ref=f745e64] [cursor=pointer]:
+            - /url: https://www.business-standard.com/markets/news/ola-electric-share-price-up-11-after-axis-energy-pact-stock-up-91-from-march-low-126080500920_1.html
+          - link "RBI MPC Repo Rate" [ref=f745e65] [cursor=pointer]:
+            - /url: https://www.business-standard.com/finance/news/rbi-mpc-meet-august-repo-rate-governor-sanjay-malhotra-inflation-growth-gdp-126080500231_1.html
+          - link "Q1 Results Today" [ref=f745e66] [cursor=pointer]:
+            - /url: https://www.business-standard.com/companies/quarterly-results/q1-results-today-aurobindo-pharma-biocon-pb-fintech-130-more-on-aug-5-126080500219_1.html
+          - link "Manipal Health Share Price" [ref=f745e67] [cursor=pointer]:
+            - /url: https://www.business-standard.com/markets/news/manipal-health-share-price-lists-at-11-premium-beats-gmp-expectations-126080500123_1.html
+          - link "Titan Q1 Preview" [ref=f745e68] [cursor=pointer]:
+            - /url: https://www.business-standard.com/markets/news/titan-q1-preview-jewellery-biz-to-drive-growth-profit-may-rise-up-to-32-126080500120_1.html
+          - link "Realty Firms on Repo Rate" [ref=f745e69] [cursor=pointer]:
+            - /url: https://www.business-standard.com/industry/news/real-estate-industry-rbi-repo-rate-pause-housing-demand-affordability-126080500409_1.html
+          - 'link "RBI Policy: Market Outlook" [ref=f745e70] [cursor=pointer]':
+            - /url: https://www.business-standard.com/markets/news/rbi-policy-market-outlook-calm-is-conditional-say-analysts-126080500532_1.html
+    - generic [ref=f745e74]:
+      - article [ref=f745e75]:
+        - generic [ref=f745e78]:
+          - link "Home" [ref=f745e79] [cursor=pointer]:
+            - /url: /
+          - text: /
+          - link "Finance" [ref=f745e80] [cursor=pointer]:
+            - /url: /finance
+          - text: /
+          - link "News" [ref=f745e81] [cursor=pointer]:
+            - /url: /finance/news
+          - text: / India may allow agentic AI-led UPI transactions under new NPCI protocol
+        - generic [ref=f745e83]:
+          - heading "India may allow agentic AI-led UPI transactions under new NPCI protocol" [level=1] [ref=f745e84]
+          - heading "NPCI is developing a Unified Agent Protocol to enable trusted AI agents to make UPI payments, positioning India at the forefront of agentic commerce" [level=2] [ref=f745e85]
+          - generic [ref=f745e86]:
+            - generic [ref=f745e87]:
+              - img "UPI" [ref=f745e89]
+              - generic [ref=f745e90]: premium
+            - paragraph [ref=f745e92]: "(Photo: AdobeStock)"
+          - generic [ref=f745e93]:
+            - link "Ajinkya Kawale" [ref=f745e94] [cursor=pointer]:
+              - /url: /author/ajinkya-kawale
+            - generic [ref=f745e95]: Mumbai
+          - generic [ref=f745e96]: "5 min read Last Updated : Jul 09 2026 | 12:21 AM IST"
+          - heading "Listen to This Article" [level=4] [ref=f745e100]
+          - generic [ref=f745e102]:
+            - generic [ref=f745e103]: India is building the digital infrastructure for allowing next generation artificial intelligence (AI) tools to make financial transactions with minimal human involvement through devices such as smart phones, relying on the country’s Unified Payments Interface (UPI), according to four persons aware about the development.
+            - generic [ref=f745e107]:
+              - generic [ref=f745e108]: The proposed new standard for artificial intelligence (AI)-led agentic payments, a Unified Agent Protocol (UAP), could place the country among the first to build national infrastructure for agentic payments, said the persons, who spoke on condition anonymity. Work is underway at the National Payments Corporation of India (NPCI) to develop the proposed UAP in consultation with the industry, they said.
+              - generic [ref=f745e111]: The proposed protocol is being designed to create a trusted, common, interoperable infrastructure through which AI agents can be registered, verified, and authorised to transact across the UPI ecosystem without changing the underlying rails of the payments system.
+          - generic [ref=f745e116]:
+            - strong [ref=f745e117]: "Topics :"
+            - link "artifical intelligence" [ref=f745e118] [cursor=pointer]:
+              - /url: https://www.business-standard.com/topic/artifical-intelligence
+            - link "UPI" [ref=f745e120] [cursor=pointer]:
+              - /url: https://www.business-standard.com/topic/upi
+            - link "Fintech sector" [ref=f745e122] [cursor=pointer]:
+              - /url: https://www.business-standard.com/topic/fintech-sector
+      - complementary [ref=f745e124]:
+        - generic [ref=f745e125]:
+          - generic [ref=f745e126]:
+            - superscript [ref=f745e127]: "*"
+            - text: Subscribe to Business Standard digital and get complimentary access to The New York Times
+          - generic [ref=f745e132]:
+            - generic [ref=f745e133]:
+              - paragraph [ref=f745e137] [cursor=pointer]
+              - generic [ref=f745e138]:
+                - generic [ref=f745e139]:
+                  - heading "Smart Quarterly" [level=3] [ref=f745e140]
+                  - heading "₹900" [level=3] [ref=f745e141]
+                - generic [ref=f745e142]:
+                  - paragraph [ref=f745e143]: 3 Months
+                  - paragraph [ref=f745e144]: ₹300/Month
+            - generic [ref=f745e145]:
+              - generic [ref=f745e146]: SAVE 25%
+              - paragraph [ref=f745e150] [cursor=pointer]
+              - generic [ref=f745e151]:
+                - generic [ref=f745e152]:
+                  - heading "Smart Essential" [level=3] [ref=f745e153]
+                  - heading "₹2,700" [level=3] [ref=f745e154]
+                - generic [ref=f745e155]:
+                  - paragraph [ref=f745e156]: 1 Year
+                  - paragraph [ref=f745e157]: ₹225/Month
+            - generic [ref=f745e158]:
+              - generic [ref=f745e159]: SAVE 46%
+              - generic [ref=f745e160] [cursor=pointer]:
+                - paragraph [ref=f745e163]
+                - generic [ref=f745e164]: "*Complimentary New York Times access for the 2nd year will be given after 12 months"
+              - generic [ref=f745e165]:
+                - generic [ref=f745e166]:
+                  - heading "Super Saver" [level=3] [ref=f745e167]
+                  - heading "₹3,900" [level=3] [ref=f745e168]
+                - generic [ref=f745e169]:
+                  - paragraph [ref=f745e170]: 2 Years
+                  - paragraph [ref=f745e171]: ₹162/Month
+          - generic [ref=f745e172]:
+            - button "Subscribe" [ref=f745e173] [cursor=pointer]
+            - paragraph [ref=f745e174]: Renews automatically, cancel anytime
+    - contentinfo [ref=f745e176]:
+      - generic [ref=f745e177]:
+        - img "Business Standard" [ref=f745e179]
+        - generic [ref=f745e180]:
+          - generic [ref=f745e182]:
+            - generic [ref=f745e183]: HOT STOCKS
+            - list [ref=f745e185]:
+              - listitem [ref=f745e186]:
+                - link "Suzlon Energy Share Price" [ref=f745e187] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/suzlon-energy-ltd-share-price-13872.html
+                - link "Adani Enterprises Share Price" [ref=f745e188] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/adani-enterprises-ltd-share-price-4244.html
+                - link "Adani Power Share Price" [ref=f745e189] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/adani-power-ltd-share-price-17808.html
+                - link "IRFC Share Price" [ref=f745e190] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/indian-railway-finance-corporation-ltd-share-price-12854.html
+                - link "Tata Motors PV Share price" [ref=f745e191] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/tata-motors-passenger-vehicles-ltd-share-price-560.html
+                - link "BHEL Share Price" [ref=f745e192] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/bharat-heavy-electricals-ltd-share-price-2306.html
+                - link "Dr Reddy Share Price" [ref=f745e193] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/dr-reddys-laboratories-ltd-share-price-815.html
+                - link "Vodafone Idea Share Price" [ref=f745e194] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/vodafone-idea-ltd-share-price-23040.html
+          - generic [ref=f745e196]:
+            - generic [ref=f745e197]: TRENDING NEWS
+            - list [ref=f745e199]:
+              - listitem [ref=f745e200]:
+                - link "Stock Market LIVE" [ref=f745e201] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/news/stock-market-live-5-august-nse-bse-sensex-today-nifty-gift-nifty-rbi-mpc-brent-crude-oil-price-ipo-q1-result-share-market-today-126080500092_1.html?1785901479
+                - link "Q1 Results" [ref=f745e202] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/companies/quarterly-results/q1-results-today-aurobindo-pharma-biocon-pb-fintech-130-more-on-aug-5-126080500219_1.html?1785903888
+                - link "Bank holidays in August 2026" [ref=f745e203] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/industry/banking/bank-holidays-in-august-2026-banks-to-stay-closed-for-14-days-check-list-nc-126073100332_1.html
+                - link "Titan Q1 Preview" [ref=f745e204] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/news/titan-q1-preview-jewellery-biz-to-drive-growth-profit-may-rise-up-to-32-126080500120_1.html?1785901479
+                - link "Stocks to Buy Today" [ref=f745e205] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/news/stocks-to-buy-today-two-breakout-ideas-from-hdfc-securities-126080500097_1.html?1785901479
+                - link "Rate Sensitive Sectors" [ref=f745e206] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/news/are-auto-bank-realty-stocks-worth-your-money-post-the-rbi-policy-tech-view-here-126080500540_1.html?1785913352
+                - link "Repo Rate Today" [ref=f745e207] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/news/rbi-mpc-meet-august-repo-rate-governor-sanjay-malhotra-inflation-growth-gdp-126080500231_1.html?1785904464
+                - link "CMF Clip Pro Features" [ref=f745e208] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/technology/gadgets/nothing-unveils-cmf-clip-pro-open-ear-earbuds-with-smart-dial-ldac-support-126080500285_1.html?1785905603
+                - link "General Insurance Stocks Rally" [ref=f745e209] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/news/general-insurance-stocks-new-india-assurance-go-digit-soar-up-to-10-on-huge-volume-here-s-why-126080500730_1.html?1785918965
+                - link "RBI MPC Meeting Aug 2026" [ref=f745e210] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/news/rbi-mpc-august-meet-governor-monetary-policy-repo-rate-when-where-to-watch-126080300374_1.html
+                - link "Rate Sensitive Stocks" [ref=f745e211] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/news/rate-sensitives-shine-realty-up-3-nse-auto-hits-new-peak-on-rate-pause-126080500331_1.html?1785908812
+                - link "RBI MPC on Inflation" [ref=f745e212] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/news/rbi-mpc-lowers-fy27-inflation-forecast-to-5-projects-gdp-growth-at-6-7-126080500300_1.html
+                - link "Actor Pradeep Rawat Death" [ref=f745e213] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/entertainment/ghajini-lagaan-actor-pradeep-rawat-dies-at-74-after-battling-cancer-nc-126080500371_1.html?1785909088
+                - link "Shah Rukh Khan claims No 1 spot" [ref=f745e214] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/entertainment/shah-rukh-khan-tops-india-celebrity-brand-value-ranking-2025-126080500715_1.html
+                - link "BJP MP's warning to Meta" [ref=f745e215] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/india-news/nishikant-dubey-mark-zuckerberg-pm-modi-facebook-video-student-protest-126080501016_1.html
+          - generic [ref=f745e217]:
+            - generic [ref=f745e218]: CALCULATORS
+            - list [ref=f745e220]:
+              - listitem [ref=f745e221]:
+                - link "Income Tax Calculator" [ref=f745e222] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance/tax-calculator-tool
+                - link "Crorepati Calculator" [ref=f745e223] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance/crorepati-calculator-tool
+                - link "Net Worth Calculator" [ref=f745e224] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance/net-worth-calculator-tool
+                - link "EMI Calculator" [ref=f745e225] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance/emi-calculator-tool
+                - link "SIP Calculator" [ref=f745e226] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance/sip-calculator-tool
+                - link "Retirement Calculator" [ref=f745e227] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance/retirement-calculator-tool
+                - link "Car Loan Calculator" [ref=f745e228] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance/car-loan-calculator-tool
+                - link "Home Loan Calculator" [ref=f745e229] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance/home-loan-calculator-tool
+                - link "Education Loan Calculator" [ref=f745e230] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance/education-loan-calculator-tool
+                - link "Marriage Plan Calculator" [ref=f745e231] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance/marriage-plan-calculator-tool
+          - generic [ref=f745e233]:
+            - generic [ref=f745e234]: QUICK LINKS
+            - list [ref=f745e236]:
+              - listitem [ref=f745e237]:
+                - link "Stock Companies List" [ref=f745e238] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/stock-companies-list
+                - link "Subscribe to Newsletters" [ref=f745e239] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/newsletters
+                - link "Free Sudoku Puzzle" [ref=f745e240] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/sudoku-puzzle-online
+                - link "Free Crossword Puzzle" [ref=f745e241] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/crossword-puzzle-online
+          - generic [ref=f745e243]:
+            - generic [ref=f745e244]: TOP SECTIONS
+            - list [ref=f745e246]:
+              - listitem [ref=f745e247]:
+                - link "Latest News" [ref=f745e248] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/latest-news
+                - link "Company News" [ref=f745e249] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/companies
+                - link "Market News" [ref=f745e250] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets
+                - link "IPO News" [ref=f745e251] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/ipo
+                - link "Commodity News" [ref=f745e252] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/markets/commodities
+                - link "Immigration News" [ref=f745e253] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/immigration
+                - link "Cricket News" [ref=f745e254] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/cricket/news
+                - link "Personal Finance" [ref=f745e255] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/finance/personal-finance
+                - link "Technology News" [ref=f745e256] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/technology
+                - link "World News" [ref=f745e257] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/world-news
+                - link "Industry News" [ref=f745e258] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/industry
+                - link "Education News" [ref=f745e259] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/education
+                - link "Opinion" [ref=f745e260] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/opinion
+                - link "Health News" [ref=f745e261] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/health
+                - link "Economy News" [ref=f745e262] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/economy
+                - link "India News" [ref=f745e263] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/india-news
+                - link "Politics News" [ref=f745e264] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/politics
+                - link "Budget 2026" [ref=f745e265] [cursor=pointer]:
+                  - /url: https://www.business-standard.com/budget
+          - list [ref=f745e270]:
+            - listitem [ref=f745e271]:
+              - link "Today's Paper" [ref=f745e272] [cursor=pointer]:
+                - /url: https://www.business-standard.com/todays-paper
+              - link "About Us" [ref=f745e273] [cursor=pointer]:
+                - /url: https://www.business-standard.com/about-us
+              - link "T&C" [ref=f745e274] [cursor=pointer]:
+                - /url: https://www.business-standard.com/terms-conditions
+              - link "Privacy Policy" [ref=f745e275] [cursor=pointer]:
+                - /url: https://www.business-standard.com/privacy-policy
+              - link "Cookie Policy" [ref=f745e276] [cursor=pointer]:
+                - /url: https://www.business-standard.com/cookie-policy
+              - link "Disclaimer" [ref=f745e277] [cursor=pointer]:
+                - /url: https://www.business-standard.com/disclaimer
+              - link "Investor Communication" [ref=f745e278] [cursor=pointer]:
+                - /url: https://www.business-standard.com/investor-communication.html
+              - link "GST registration number List" [ref=f745e279] [cursor=pointer]:
+                - /url: https://bsmedia.business-standard.com/advertisement/gstin/business-standard_gstin.pdf
+              - link "Compliance" [ref=f745e280] [cursor=pointer]:
+                - /url: https://bsmedia.business-standard.com/_media/bs/compliance/Compliances.pdf
+              - link "Contact Us" [ref=f745e281] [cursor=pointer]:
+                - /url: https://www.business-standard.com/contact-us
+              - link "Advertise with Us" [ref=f745e282] [cursor=pointer]:
+                - /url: https://www.business-standard.com/advertise-with-us
+              - link "Sitemap" [ref=f745e283] [cursor=pointer]:
+                - /url: https://www.business-standard.com/sitemap.html
+              - link "Subscribe" [ref=f745e284] [cursor=pointer]:
+                - /url: https://www.business-standard.com/subscription-cart/product
+              - link "Careers" [ref=f745e285] [cursor=pointer]:
+                - /url: https://www.business-standard.com/careers
+              - link "BS Apps" [ref=f745e286] [cursor=pointer]:
+                - /url: https://www.business-standard.com/apps
+        - generic [ref=f745e287]:
+          - generic [ref=f745e288]: Copyrights © 2026 Business Standard Private Ltd. All rights reserved
+          - generic [ref=f745e290]:
+            - link [ref=f745e291] [cursor=pointer]:
+              - /url: https://www.facebook.com/bsindia
+            - link [ref=f745e295] [cursor=pointer]:
+              - /url: https://www.whatsapp.com/channel/0029Va6cbsSDuMRmPCIgXS2t
+            - link [ref=f745e299] [cursor=pointer]:
+              - /url: https://x.com/bsindia
+            - link [ref=f745e304] [cursor=pointer]:
+              - /url: https://in.linkedin.com/company/business-standard
+              - img "LinkedIN Icon" [ref=f745e305]
+            - link [ref=f745e306] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/BusinessStandardLtd
+            - link [ref=f745e310] [cursor=pointer]:
+              - /url: https://t.me/bsindiaofficial
+            - link [ref=f745e314] [cursor=pointer]:
+              - /url: https://www.business-standard.com/rss-feeds/listing
+  - alert [ref=f745e318]

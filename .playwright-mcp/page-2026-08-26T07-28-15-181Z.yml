@@ -1,0 +1,413 @@
+- generic [ref=f825e3]:
+  - banner [ref=f825e4]:
+    - generic [ref=f825e5]:
+      - generic [ref=f825e6]:
+        - link [ref=f825e7] [cursor=pointer]:
+          - /url: /
+          - img "Brave logo" [ref=f825e8]
+        - generic [ref=f825e10]:
+          - textbox "Search" [ref=f825e11]:
+            - /placeholder: Ask anything, find anything…
+            - text: "\"Reserve Pay\" UPI PhonePe OR \"Google Pay\" OR CRED OR \"super.money\" 2026"
+          - generic [ref=f825e12]:
+            - button "Clear" [ref=f825e13] [cursor=pointer]
+            - button "Search" [ref=f825e17] [cursor=pointer]
+            - button "Ask" [ref=f825e20] [cursor=pointer]
+      - generic [ref=f825e29]:
+        - button "Rerank" [ref=f825e30] [cursor=pointer]
+        - button "Quick settings" [ref=f825e36] [cursor=pointer]
+  - navigation [ref=f825e42]:
+    - list [ref=f825e43]:
+      - listitem [ref=f825e44]:
+        - link "Ask" [ref=f825e45] [cursor=pointer]:
+          - /url: /ask?q=%22Reserve+Pay%22+UPI+PhonePe+OR+%22Google+Pay%22+OR+CRED+OR+%22super.money%22+2026&source=web
+      - listitem [ref=f825e47]:
+        - link "All" [ref=f825e48] [cursor=pointer]:
+          - /url: /search?q=%22Reserve+Pay%22+UPI+PhonePe+OR+%22Google+Pay%22+OR+CRED+OR+%22super.money%22+2026&source=web
+      - listitem [ref=f825e50]:
+        - link "Images" [ref=f825e51] [cursor=pointer]:
+          - /url: /images?q=%22Reserve+Pay%22+UPI+PhonePe+OR+%22Google+Pay%22+OR+CRED+OR+%22super.money%22+2026&source=web
+      - listitem [ref=f825e53]:
+        - link "News" [ref=f825e54] [cursor=pointer]:
+          - /url: /news?q=%22Reserve+Pay%22+UPI+PhonePe+OR+%22Google+Pay%22+OR+CRED+OR+%22super.money%22+2026&source=web
+      - listitem [ref=f825e56]:
+        - link "Videos" [ref=f825e57] [cursor=pointer]:
+          - /url: /videos?q=%22Reserve+Pay%22+UPI+PhonePe+OR+%22Google+Pay%22+OR+CRED+OR+%22super.money%22+2026&source=web
+      - listitem [ref=f825e59]:
+        - link "Maps" [ref=f825e60] [cursor=pointer]:
+          - /url: /maps/search?q=%22Reserve+Pay%22+UPI+PhonePe+OR+%22Google+Pay%22+OR+CRED+OR+%22super.money%22+2026&source=web
+      - listitem [ref=f825e62]:
+        - link "Goggles" [ref=f825e63] [cursor=pointer]:
+          - /url: /goggles?q=%22Reserve+Pay%22+UPI+PhonePe+OR+%22Google+Pay%22+OR+CRED+OR+%22super.money%22+2026&source=web
+    - list [ref=f825e65]:
+      - button "Filters" [ref=f825e66] [cursor=pointer]
+  - main [ref=f825e70]:
+    - generic [ref=f825e74]:
+      - generic [ref=f825e75]:
+        - link "search operators" [ref=f825e76] [cursor=pointer]:
+          - /url: /help/operators
+        - text: were not applied
+      - generic [ref=f825e77]: Too few matches were found
+    - main [ref=f825e92]:
+      - generic [ref=f825e93]:
+        - generic [ref=f825e97]:
+          - link "🌐 Oxigen Wallet oxigenwallet.com › home › upi apps market share 2026 – yearly transactions data & trends UPI Apps Market Share 2026 – Yearly Transactions Data & Trends" [ref=f825e98] [cursor=pointer]:
+            - /url: https://www.oxigenwallet.com/upi/apps-market-share/
+            - generic [ref=f825e99]:
+              - img "🌐" [ref=f825e103]
+              - generic [ref=f825e104]:
+                - generic [ref=f825e105]: Oxigen Wallet
+                - generic [ref=f825e106]: oxigenwallet.com › home › upi apps market share 2026 – yearly transactions data & trends
+            - generic "UPI Apps Market Share 2026 – Yearly Transactions Data & Trends" [ref=f825e108]
+          - generic [ref=f825e110]:
+            - text: 16 July 2026 -
+            - strong [ref=f825e111]: PhonePe leads the UPI market value with 46.26%, followed by Google Pay with 32.75%
+            - text: and Paytm with 7.91%. Apps like Navi, super.money, CRED, BHIM, and Amazon Pay are controlling a combined 13.08% market share.
+        - generic [ref=f825e114]:
+          - generic [ref=f825e115]:
+            - 'link "🌐 Avekshaa avekshaa.com › home › google pay vs phonepe vs paytm: the 2026 performance battle Google Pay vs PhonePe vs Paytm: The 2026 Performance Battle" [ref=f825e116] [cursor=pointer]':
+              - /url: https://avekshaa.com/google-pay-vs-phonepe-vs-paytm-the-2026-performance-battle/
+              - generic [ref=f825e117]:
+                - img "🌐" [ref=f825e121]
+                - generic [ref=f825e122]:
+                  - generic [ref=f825e123]: Avekshaa
+                  - generic [ref=f825e124]: "avekshaa.com › home › google pay vs phonepe vs paytm: the 2026 performance battle"
+              - 'generic "Google Pay vs PhonePe vs Paytm: The 2026 Performance Battle" [ref=f825e126]'
+            - generic [ref=f825e128]:
+              - text: "19 May 2026 - Beyond the big three, a new tier is establishing itself: Navi – processed approximately 800 million transactions in March 2026, with a focused UX targeting younger borrowers · CRED –"
+              - strong [ref=f825e129]: approximately 219–340 million monthly transactions
+              - text: ", with ..."
+          - link [ref=f825e131] [cursor=pointer]:
+            - /url: https://avekshaa.com/google-pay-vs-phonepe-vs-paytm-the-2026-performance-battle/
+        - generic [ref=f825e134]:
+          - generic [ref=f825e135]:
+            - link "🌐 Easebuzz easebuzz.in › explainers › upi › upi-apps-and-transaction-limit UPI Transaction Limit 2026-27 Explained | Easebuzz Insights" [ref=f825e136] [cursor=pointer]:
+              - /url: https://easebuzz.in/explainers/upi/upi-apps-and-transaction-limit/
+              - generic [ref=f825e137]:
+                - img "🌐" [ref=f825e141]
+                - generic [ref=f825e142]:
+                  - generic [ref=f825e143]: Easebuzz
+                  - generic [ref=f825e144]: easebuzz.in › explainers › upi › upi-apps-and-transaction-limit
+              - generic "UPI Transaction Limit 2026-27 Explained | Easebuzz Insights" [ref=f825e146]
+            - generic [ref=f825e148]:
+              - text: "Daily UPI Cap:"
+              - strong [ref=f825e149]: You can transact up to ₹1 lakh per day via PhonePe across all UPI transfers, including person‑to‑person (P2P) and person‑to‑merchant (P2M) payments
+              - text: .
+          - link [ref=f825e151] [cursor=pointer]:
+            - /url: https://easebuzz.in/explainers/upi/upi-apps-and-transaction-limit/
+        - generic [ref=f825e152]:
+          - generic [ref=f825e153]: People also ask
+          - separator [ref=f825e157]
+          - group [ref=f825e160]:
+            - generic "Can banks and fintechs apply lessons from consumer UPI apps?" [ref=f825e161] [cursor=pointer]:
+              - button [ref=f825e163]
+          - group [ref=f825e168]:
+            - generic "Which UPI app is best for bill payments?" [ref=f825e169] [cursor=pointer]:
+              - button [ref=f825e171]
+          - group [ref=f825e176]:
+            - generic "Which UPI app is best for online payments?" [ref=f825e177] [cursor=pointer]:
+              - button [ref=f825e179]
+          - button "Feedback" [ref=f825e186] [cursor=pointer]
+        - generic [ref=f825e191]:
+          - generic [ref=f825e192]:
+            - link "🌐 Hero Fin Corp herofincorp.com › home › blog › upi › best upi apps in india for 2026 – features, limits & charges Best UPI Apps in India for 2026 – Features, Limits & Charges" [ref=f825e193] [cursor=pointer]:
+              - /url: https://www.herofincorp.com/blog/best-upi-apps-india-features-and-limits
+              - generic [ref=f825e194]:
+                - img "🌐" [ref=f825e198]
+                - generic [ref=f825e199]:
+                  - generic [ref=f825e200]: Hero Fin Corp
+                  - generic [ref=f825e201]: herofincorp.com › home › blog › upi › best upi apps in india for 2026 – features, limits & charges
+              - generic "Best UPI Apps in India for 2026 – Features, Limits & Charges" [ref=f825e203]
+            - generic [ref=f825e205]:
+              - text: 1 month ago -
+              - strong [ref=f825e206]: Hero Digital Lending & UPI App offers a fast and secure way to pay EMIs, track loan repayments, and manage your loan in one place. Reward programmes vary by app and promotional campaigns. PhonePe, Google Pay, Paytm, and CRED regularly offer cashback or rewards on eligible transactions
+              - text: ...
+          - link [ref=f825e208] [cursor=pointer]:
+            - /url: https://www.herofincorp.com/blog/best-upi-apps-india-features-and-limits
+        - generic [ref=f825e212]:
+          - 'link "🌐 Hero FinCorp herofincorp.com › hi › blog › top-10-upi-apps-in-india भारत के टॉप 10 UPI ऐप्स 2026: फीचर्स, लिमिट और पूरी जानकारी" [ref=f825e213] [cursor=pointer]':
+            - /url: https://www.herofincorp.com/hi/blog/top-10-upi-apps-in-india
+            - generic [ref=f825e214]:
+              - img "🌐" [ref=f825e218]
+              - generic [ref=f825e219]:
+                - generic [ref=f825e220]: Hero FinCorp
+                - generic [ref=f825e221]: herofincorp.com › hi › blog › top-10-upi-apps-in-india
+            - 'generic "भारत के टॉप 10 UPI ऐप्स 2026: फीचर्स, लिमिट और पूरी जानकारी" [ref=f825e223]'
+          - generic [ref=f825e225]:
+            - text: Navi UPI – यह एक ... –
+            - strong [ref=f825e226]: यूपीआई पेमेंट सुविधा के साथ स्मार्ट खर्च और बचत फीचर्स जैसी सुविधा प्रदान करता है
+            - text: । · CRED – ...
+        - generic [ref=f825e229]:
+          - generic [ref=f825e230]:
+            - 'link "🌐 X x.com › TrakinTech › status › 2066870384113435034 TrakinTech on X: \"UPI apps market share in May 2026📊 1. PhonePe - 46.26% 2. Google Pay - 32.75% 3. Paytm - 7.91% 4. Navi - 3.55% 5. Super Money - 1.8% 6. BHIM - 0.98% 7. FamApp - 0.85% 8. CRED - 0.68% 9. WhatsApp - 0.65% 10. Axis Bank Apps - 0.58% Others - 4.30% Which UPI app do you use for making payments? Source : NPCI\" / X" [ref=f825e231] [cursor=pointer]':
+              - /url: https://x.com/TrakinTech/status/2066870384113435034
+              - generic [ref=f825e232]:
+                - img "🌐" [ref=f825e236]
+                - generic [ref=f825e237]:
+                  - generic [ref=f825e238]: X
+                  - generic [ref=f825e239]: x.com › TrakinTech › status › 2066870384113435034
+              - 'generic "TrakinTech on X: \"UPI apps market share in May 2026📊 1. PhonePe - 46.26% 2. Google Pay - 32.75% 3. Paytm - 7.91% 4. Navi - 3.55% 5. Super Money - 1.8% 6. BHIM - 0.98% 7. FamApp - 0.85% 8. CRED - 0.68% 9. WhatsApp - 0.65% 10. Axis Bank Apps - 0.58% Others - 4.30% Which UPI app do you use for making payments? Source : NPCI\" / X" [ref=f825e241]'
+            - generic [ref=f825e243]:
+              - text: 16 June 2026 - UPI apps market share in May 2026📊 1. PhonePe - 46.26% 2. Google Pay - 32.75% 3. Paytm - 7.91% 4. Navi - 3.55% 5.
+              - strong [ref=f825e244]: Super Money - 1.8%
+              - text: 6. BHIM - 0.98% 7. FamApp - 0.85% 8. CRED - 0.68% 9. WhatsApp - 0.65% 10.
+          - link [ref=f825e246] [cursor=pointer]:
+            - /url: https://x.com/TrakinTech/status/2066870384113435034
+        - generic [ref=f825e249]:
+          - generic [ref=f825e250]:
+            - link "🌐 Indian Startup News indianstartupnews.com › indian startup news › phonepe becomes india's first upi app to cross 10 billion monthly transactions; google pay remains second PhonePe becomes India's first UPI app to cross 10 billion monthly transactions; Google Pay remains second" [ref=f825e251] [cursor=pointer]:
+              - /url: https://indianstartupnews.com/news/phonepe-becomes-indias-first-upi-app-to-cross-10-billion-monthly-transactions-google-pay-remains-second-11758702
+              - generic [ref=f825e252]:
+                - img "🌐" [ref=f825e256]
+                - generic [ref=f825e257]:
+                  - generic [ref=f825e258]: Indian Startup News
+                  - generic [ref=f825e259]: indianstartupnews.com › indian startup news › phonepe becomes india's first upi app to cross 10 billion monthly transactions; google pay remains second
+              - generic "PhonePe becomes India's first UPI app to cross 10 billion monthly transactions; Google Pay remains second" [ref=f825e261]
+            - generic [ref=f825e263]:
+              - text: 23 April 2026 - Among niche players,
+              - strong [ref=f825e264]: CRED processed 163 million transactions worth Rs 62,029.55 crore
+              - text: ", holding a value share of more than 2%, suggesting a higher average transaction size. WhatsApp handled about 130 million transactions, while apps from Axis ..."
+          - link [ref=f825e266] [cursor=pointer]:
+            - /url: https://indianstartupnews.com/news/phonepe-becomes-indias-first-upi-app-to-cross-10-billion-monthly-transactions-google-pay-remains-second-11758702
+        - generic [ref=f825e269]:
+          - generic [ref=f825e270]:
+            - link "🌐 GiveRefer giverefer.com › blog-detail › top-5-best-upi-apps-for-cashback-in-india-2026 Top 5 Best UPI Apps for Cashback in India 2026" [ref=f825e271] [cursor=pointer]:
+              - /url: https://www.giverefer.com/blog-detail/top-5-best-upi-apps-for-cashback-in-india-2026
+              - generic [ref=f825e272]:
+                - img "🌐" [ref=f825e276]
+                - generic [ref=f825e277]:
+                  - generic [ref=f825e278]: GiveRefer
+                  - generic [ref=f825e279]: giverefer.com › blog-detail › top-5-best-upi-apps-for-cashback-in-india-2026
+              - generic "Top 5 Best UPI Apps for Cashback in India 2026" [ref=f825e281]
+            - generic [ref=f825e283]:
+              - text: 2 weeks ago -
+              - strong [ref=f825e284]: SuperMoney gives up to 5% cashback on online UPI payments and a unique cashback-match referral reward of up to ₹100 per friend over 30 days
+              - text: . CRED rewards credit card users with CRED Coins and periodic UPI cashback campaigns, plus a 4-level ...
+          - link [ref=f825e286] [cursor=pointer]:
+            - /url: https://www.giverefer.com/blog-detail/top-5-best-upi-apps-for-cashback-in-india-2026
+        - generic [ref=f825e289]:
+          - generic [ref=f825e290]:
+            - link "🌐 TechCrunch techcrunch.com › home › amazon, meta join fight to end google pay, phonepe dominance in india Amazon, Meta join fight to end Google Pay, PhonePe dominance in India | TechCrunch" [ref=f825e291] [cursor=pointer]:
+              - /url: https://techcrunch.com/2026/04/29/amazon-meta-join-fight-to-end-google-pay-phonepe-dominance-in-india/
+              - generic [ref=f825e292]:
+                - img "🌐" [ref=f825e296]
+                - generic [ref=f825e297]:
+                  - generic [ref=f825e298]: TechCrunch
+                  - generic [ref=f825e299]: techcrunch.com › home › amazon, meta join fight to end google pay, phonepe dominance in india
+              - generic "Amazon, Meta join fight to end Google Pay, PhonePe dominance in India | TechCrunch" [ref=f825e301]
+            - generic [ref=f825e303]:
+              - text: 30 April 2026 -
+              - strong [ref=f825e304]: PhonePe and Google Pay combined accounted for roughly 80% of the 22.6 billion transactions on the UPI network in March
+              - text: ", data from NPCI shows. That scale far outpaces rivals such as Paytm, Flipkart’s Super.money, CRED, Amazon Pay, and MobiKwik."
+          - link [ref=f825e306] [cursor=pointer]:
+            - /url: https://techcrunch.com/2026/04/29/amazon-meta-join-fight-to-end-google-pay-phonepe-dominance-in-india/
+        - generic [ref=f825e308]:
+          - generic [ref=f825e309]: Find elsewhere
+          - generic [ref=f825e313]:
+            - link "Google" [ref=f825e314] [cursor=pointer]:
+              - /url: /search?q=%22Reserve%20Pay%22%20UPI%20PhonePe%20OR%20%22Google%20Pay%22%20OR%20CRED%20OR%20%22super.money%22%202026%20!g
+            - link "Bing" [ref=f825e315] [cursor=pointer]:
+              - /url: /search?q=%22Reserve%20Pay%22%20UPI%20PhonePe%20OR%20%22Google%20Pay%22%20OR%20CRED%20OR%20%22super.money%22%202026%20!b
+            - link "Mojeek" [ref=f825e316] [cursor=pointer]:
+              - /url: /search?q=%22Reserve%20Pay%22%20UPI%20PhonePe%20OR%20%22Google%20Pay%22%20OR%20CRED%20OR%20%22super.money%22%202026%20!mojeek
+        - generic [ref=f825e319]:
+          - generic [ref=f825e320]:
+            - 'link "🌐 Threads threads.com › @trakintech › post › DZpduDyFzOQ › upi-apps-market-share-in-may-phone-pe-google-pay-paytm-navi-super-money-bhim UPI apps market share in May 2026📊 1. PhonePe - 46.26% 2. Google Pay - 32.75% 3. Paytm - 7.91% 4. Navi - 3.55% 5. Super Money - 1.8% 6. BHIM - 0.98% 7. FamApp - 0.85% 8. CRED - 0.68% 9. WhatsApp - 0.65% 10. Axis Bank Apps - 0.58% Others - 4.30% Which UPI app do you use for making payments? Source : NPCI" [ref=f825e321] [cursor=pointer]':
+              - /url: https://www.threads.com/@trakintech/post/DZpduDyFzOQ/upi-apps-market-share-in-may-phone-pe-google-pay-paytm-navi-super-money-bhim/
+              - generic [ref=f825e322]:
+                - img "🌐" [ref=f825e326]
+                - generic [ref=f825e327]:
+                  - generic [ref=f825e328]: Threads
+                  - generic [ref=f825e329]: threads.com › @trakintech › post › DZpduDyFzOQ › upi-apps-market-share-in-may-phone-pe-google-pay-paytm-navi-super-money-bhim
+              - 'generic "UPI apps market share in May 2026📊 1. PhonePe - 46.26% 2. Google Pay - 32.75% 3. Paytm - 7.91% 4. Navi - 3.55% 5. Super Money - 1.8% 6. BHIM - 0.98% 7. FamApp - 0.85% 8. CRED - 0.68% 9. WhatsApp - 0.65% 10. Axis Bank Apps - 0.58% Others - 4.30% Which UPI app do you use for making payments? Source : NPCI" [ref=f825e331]'
+            - generic [ref=f825e333]:
+              - text: 16 June 2026 - UPI apps market share in May 2026📊 1. PhonePe - 46.26% 2. Google Pay - 32.75% 3. Paytm - 7.91% 4. Navi - 3.55% 5.
+              - strong [ref=f825e334]: Super Money - 1.8%
+              - text: 6. BHIM - 0.98% 7. FamApp - 0.85% 8. CRED - 0.68% 9. WhatsApp - 0.65% 10.
+          - link [ref=f825e336] [cursor=pointer]:
+            - /url: https://www.threads.com/@trakintech/post/DZpduDyFzOQ/upi-apps-market-share-in-may-phone-pe-google-pay-paytm-navi-super-money-bhim/
+        - generic [ref=f825e340]:
+          - link "🌐 Reddit reddit.com › r › UPI › comments › 1ucri0k › phonepe_google_pay_paytm_credif_a_new_upi_app PhonePe, Google Pay, Paytm, CRED…If a new UPI app ..." [ref=f825e341] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/UPI/comments/1ucri0k/phonepe_google_pay_paytm_credif_a_new_upi_app/
+            - generic [ref=f825e342]:
+              - img "🌐" [ref=f825e346]
+              - generic [ref=f825e347]:
+                - generic [ref=f825e348]: Reddit
+                - generic [ref=f825e349]: reddit.com › r › UPI › comments › 1ucri0k › phonepe_google_pay_paytm_credif_a_new_upi_app
+            - generic "PhonePe, Google Pay, Paytm, CRED…If a new UPI app ..." [ref=f825e351]
+          - generic [ref=f825e352]: For discussions and questions related to Unified Payment Interface.
+        - generic [ref=f825e356]:
+          - generic [ref=f825e357]:
+            - link "🌐 Freo freo.money › guides › best-upi-apps-in-india 21 Best UPI Apps in India 2026 – Comparison of Top Payment Apps" [ref=f825e358] [cursor=pointer]:
+              - /url: https://freo.money/guides/best-upi-apps-in-india/
+              - generic [ref=f825e359]:
+                - img "🌐" [ref=f825e363]
+                - generic [ref=f825e364]:
+                  - generic [ref=f825e365]: Freo
+                  - generic [ref=f825e366]: freo.money › guides › best-upi-apps-in-india
+              - generic "21 Best UPI Apps in India 2026 – Comparison of Top Payment Apps" [ref=f825e368]
+            - generic [ref=f825e370]:
+              - text: 1 April 2026 -
+              - strong [ref=f825e371]: It combines payments, recharges, investments, insurance, and bill payments all in one app
+              - text: . You can link multiple bank accounts, make UPI payments, pay with debit/credit cards, or even use your wallet.
+          - link [ref=f825e373] [cursor=pointer]:
+            - /url: https://freo.money/guides/best-upi-apps-in-india/
+        - generic [ref=f825e376]:
+          - generic [ref=f825e377]:
+            - 'link "🌐 Hero Fin Corp herofincorp.com › home › blog › upi › best upi apps for cashback in 2026: top options to save money on every payment Best UPI Apps for Cashback in 2026: Top Apps to Save on Payments" [ref=f825e378] [cursor=pointer]':
+              - /url: https://www.herofincorp.com/blog/best-upi-apps-for-cashback
+              - generic [ref=f825e379]:
+                - img "🌐" [ref=f825e383]
+                - generic [ref=f825e384]:
+                  - generic [ref=f825e385]: Hero Fin Corp
+                  - generic [ref=f825e386]: "herofincorp.com › home › blog › upi › best upi apps for cashback in 2026: top options to save money on every payment"
+              - 'generic "Best UPI Apps for Cashback in 2026: Top Apps to Save on Payments" [ref=f825e388]'
+            - generic [ref=f825e389]: 8 February 2026 - Apps like PhonePe, Paytm, BHIM, and Super.money support RuPay credit card-linked UPI cashback on eligible transactions.
+          - link [ref=f825e392] [cursor=pointer]:
+            - /url: https://www.herofincorp.com/blog/best-upi-apps-for-cashback
+        - generic [ref=f825e395]:
+          - generic [ref=f825e396]:
+            - link "🌐 Jmfinancialservices jmfinancialservices.in › home › blogs and articles › new upi rule from 1st april 2026 for paytm and google pay users New UPI Rule from April 1, 2026 for Paytm and Google Pay Users" [ref=f825e397] [cursor=pointer]:
+              - /url: https://www.jmfinancialservices.in/blogs-and-articles/new-upi-rule-from-1st-april-2026-for-paytm-and-google-pay-users
+              - generic [ref=f825e398]:
+                - img "🌐" [ref=f825e402]
+                - generic [ref=f825e403]:
+                  - generic [ref=f825e404]: Jmfinancialservices
+                  - generic [ref=f825e405]: jmfinancialservices.in › home › blogs and articles › new upi rule from 1st april 2026 for paytm and google pay users
+              - generic "New UPI Rule from April 1, 2026 for Paytm and Google Pay Users" [ref=f825e407]
+            - generic [ref=f825e409]:
+              - text: 1 April 2026 - In general,
+              - strong [ref=f825e410]: the daily limit continues to be ₹1 lakh for most payments
+              - text: . For special categories like medical, education, insurance, travel, credit card payments, capital market transactions and IPO applications, higher limits can apply.
+          - link [ref=f825e412] [cursor=pointer]:
+            - /url: https://www.jmfinancialservices.in/blogs-and-articles/new-upi-rule-from-1st-april-2026-for-paytm-and-google-pay-users
+        - generic [ref=f825e415]:
+          - generic [ref=f825e416]:
+            - 'link "🌐 X x.com › IndianTechGuide › status › 2067487558519427381 Indian Tech & Infra on X: \"🚨 Top 10 UPI apps market share in May 2026. PhonePe - 46.2% Google Pay - 32.7% Paytm - 7.9% Navi - 3.6% super money - 1.8% BHIM - 0.98% FamPay - 0.85% CRED - 0.68% WhatsApp Pay - 0.65% Amazon Pay - 0.38%\" / X" [ref=f825e417] [cursor=pointer]':
+              - /url: https://x.com/IndianTechGuide/status/2067487558519427381
+              - generic [ref=f825e418]:
+                - img "🌐" [ref=f825e422]
+                - generic [ref=f825e423]:
+                  - generic [ref=f825e424]: X
+                  - generic [ref=f825e425]: x.com › IndianTechGuide › status › 2067487558519427381
+              - 'generic "Indian Tech & Infra on X: \"🚨 Top 10 UPI apps market share in May 2026. PhonePe - 46.2% Google Pay - 32.7% Paytm - 7.9% Navi - 3.6% super money - 1.8% BHIM - 0.98% FamPay - 0.85% CRED - 0.68% WhatsApp Pay - 0.65% Amazon Pay - 0.38%\" / X" [ref=f825e427]'
+            - generic [ref=f825e429]:
+              - text: 18 June 2026 - 🚨 Top 10 UPI apps market share in May 2026. PhonePe - 46.2% Google Pay - 32.7% Paytm - 7.9% Navi - 3.6% super money -
+              - strong [ref=f825e430]: 1.8%
+              - text: BHIM - 0.98% FamPay - 0.85% CRED - 0.68% WhatsApp Pay - 0.65% Amazon Pay
+          - link [ref=f825e432] [cursor=pointer]:
+            - /url: https://x.com/IndianTechGuide/status/2067487558519427381
+        - generic [ref=f825e436]:
+          - 'link "🌐 Moneyview moneyview.in › home › upi › best upi apps Best UPI App in India (2026): Top 10 Ranked for Rewards & Security" [ref=f825e437] [cursor=pointer]':
+            - /url: https://moneyview.in/upi/best-upi-app-in-india
+            - generic [ref=f825e438]:
+              - img "🌐" [ref=f825e442]
+              - generic [ref=f825e443]:
+                - generic [ref=f825e444]: Moneyview
+                - generic [ref=f825e445]: moneyview.in › home › upi › best upi apps
+            - 'generic "Best UPI App in India (2026): Top 10 Ranked for Rewards & Security" [ref=f825e447]'
+          - generic [ref=f825e449]:
+            - text: The best UPI app in 2026 depends on how you spend your money.
+            - strong [ref=f825e450]: If you want the most reliable merchant network, PhonePe remains the market leader
+            - text: . For those who prefer a clean, ad-free experience, Google Pay is the top choice.
+        - generic [ref=f825e453]:
+          - generic [ref=f825e454]:
+            - 'link "🌐 Razorpay razorpay.com › learn › payments › upi transaction charges 2026: understanding ppi fees & zero mdr UPI Transaction Charges 2026: Understanding PPI Fees & Zero MDR" [ref=f825e455] [cursor=pointer]':
+              - /url: https://razorpay.com/learn/upi-transaction-charges/
+              - generic [ref=f825e456]:
+                - img "🌐" [ref=f825e460]
+                - generic [ref=f825e461]:
+                  - generic [ref=f825e462]: Razorpay
+                  - generic [ref=f825e463]: "razorpay.com › learn › payments › upi transaction charges 2026: understanding ppi fees & zero mdr"
+              - 'generic "UPI Transaction Charges 2026: Understanding PPI Fees & Zero MDR" [ref=f825e465]'
+            - generic [ref=f825e466]: "10 February 2026 - Newly registered PhonePe UPI users are initially limited to Rs. 5,000 within the first 24 hours. Gpay Charges: Google Pay does not impose any fees on users for P2P or P2M transactions. Merchants utilizing Google Pay for transactions may incur interchange fees based on the type of service. Transaction Limit: The daily transaction limit for GPay users is set at ₹1 lakh, with a cap of 20 transactions per day. For newly registered GPay users, an initial UPI transaction limit of ₹5,000 is applicable for the first 24 hours."
+          - link [ref=f825e469] [cursor=pointer]:
+            - /url: https://razorpay.com/learn/upi-transaction-charges/
+        - generic [ref=f825e471]:
+          - generic [ref=f825e473]:
+            - 'link "🌐 Google Play play.google.com › store › apps › details CRED: Credit Cards, Bills, UPI – Apps on Google Play" [ref=f825e474] [cursor=pointer]':
+              - /url: https://play.google.com/store/apps/details?id=com.dreamplug.androidapp&hl=en_IN
+              - generic [ref=f825e475]:
+                - img "🌐" [ref=f825e479]
+                - generic [ref=f825e480]:
+                  - generic [ref=f825e481]: Google Play
+                  - generic [ref=f825e482]: play.google.com › store › apps › details
+              - 'generic "CRED: Credit Cards, Bills, UPI – Apps on Google Play" [ref=f825e484]'
+            - generic [ref=f825e486]:
+              - text: 1 month ago - ✔️
+              - strong [ref=f825e487]: "Online payments: Pay via UPI or credit card on Swiggy, Myntra & more, with CRED pay"
+              - text: ". ✔️ Offline payments: Scan QR codes or activate Tap to Pay for contactless payments."
+          - generic [ref=f825e488]: "Rating: 4.7 - 2.98m votes"
+        - generic [ref=f825e495]:
+          - generic [ref=f825e496]:
+            - link "🌐 WithUPI withupi.com › home › blog › top 10 upi apps for cashback in india in 2026 Top 10 UPI apps for cashback in India in 2026 | WithUPI" [ref=f825e497] [cursor=pointer]:
+              - /url: https://withupi.com/blog/top-10-upi-apps-for-cashback-in-india-2026
+              - generic [ref=f825e498]:
+                - img "🌐" [ref=f825e502]
+                - generic [ref=f825e503]:
+                  - generic [ref=f825e504]: WithUPI
+                  - generic [ref=f825e505]: withupi.com › home › blog › top 10 upi apps for cashback in india in 2026
+              - generic "Top 10 UPI apps for cashback in India in 2026 | WithUPI" [ref=f825e507]
+            - generic [ref=f825e508]: 3 weeks ago - Choose MobiKwik if you want one of the best visible public cashback campaigns on plain UPI without making a credit card product the center of your setup. Choose Paytm, Google Pay, or PhonePe if reliability and reach matter more to you than fixed cashback, and you are happy to hunt for live offers inside the app.
+          - link [ref=f825e511] [cursor=pointer]:
+            - /url: https://withupi.com/blog/top-10-upi-apps-for-cashback-in-india-2026
+        - generic [ref=f825e515]:
+          - link "🌐 UPI Apps upiapps.in › home Top 12 UPI Apps India 2026 – Fastest & Highest Used Platforms" [ref=f825e516] [cursor=pointer]:
+            - /url: https://www.upiapps.in/
+            - generic [ref=f825e517]:
+              - img "🌐" [ref=f825e521]
+              - generic [ref=f825e522]:
+                - generic [ref=f825e523]: UPI Apps
+                - generic [ref=f825e524]: upiapps.in › home
+            - generic "Top 12 UPI Apps India 2026 – Fastest & Highest Used Platforms" [ref=f825e526]
+          - generic [ref=f825e528]:
+            - text: 17 July 2026 - Use a UPI ID or scan a QR code for secure, cashless payments. Manage multiple bank accounts in one app and make transactions anytime, even on weekends.
+            - strong [ref=f825e529]: Trusted UPI apps include Google Pay, PhonePe, Paytm, BHIM, and Amazon Pay
+            - text: .
+        - link "Next" [ref=f825e532] [cursor=pointer]:
+          - /url: /search?q=%22Reserve+Pay%22+UPI+PhonePe+OR+%22Google+Pay%22+OR+CRED+OR+%22super.money%22+2026&offset=1&spellcheck=0
+  - contentinfo [ref=f825e536]:
+    - generic [ref=f825e539]:
+      - generic [ref=f825e540]:
+        - heading "Resources" [level=6] [ref=f825e541]
+        - generic [ref=f825e542]:
+          - link "Brave Search Premium" [ref=f825e543] [cursor=pointer]:
+            - /url: https://account.brave.com/?intent=checkout&product=search
+          - link "Brave Search help" [ref=f825e544] [cursor=pointer]:
+            - /url: /help
+          - link "Transparency report" [ref=f825e545] [cursor=pointer]:
+            - /url: https://brave.com/transparency/
+          - link "Report a security issue" [ref=f825e546] [cursor=pointer]:
+            - /url: https://hackerone.com/brave
+          - link "Status" [ref=f825e547] [cursor=pointer]:
+            - /url: https://status.brave.app/
+      - generic [ref=f825e548]:
+        - heading "Products" [level=6] [ref=f825e549]
+        - generic [ref=f825e550]:
+          - link "Brave Browser" [ref=f825e551] [cursor=pointer]:
+            - /url: https://brave.com/download/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Search" [ref=f825e552] [cursor=pointer]:
+            - /url: https://search.brave.com
+          - link "Brave Wallet" [ref=f825e553] [cursor=pointer]:
+            - /url: https://brave.com/wallet/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Talk" [ref=f825e554] [cursor=pointer]:
+            - /url: https://talk.brave.com/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Firewall + VPN" [ref=f825e555] [cursor=pointer]:
+            - /url: https://brave.com/firewall-vpn/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Playlist" [ref=f825e556] [cursor=pointer]:
+            - /url: https://brave.com/playlist/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave News" [ref=f825e557] [cursor=pointer]:
+            - /url: https://brave.com/brave-news/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Rewards" [ref=f825e558] [cursor=pointer]:
+            - /url: https://brave.com/brave-rewards/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Search API" [ref=f825e559] [cursor=pointer]:
+            - /url: https://brave.com/search/api/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Ads" [ref=f825e560] [cursor=pointer]:
+            - /url: https://brave.com/brave-ads/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+      - generic [ref=f825e561]:
+        - heading "Policies" [level=6] [ref=f825e562]
+        - generic [ref=f825e563]:
+          - link "Privacy Policy" [ref=f825e564] [cursor=pointer]:
+            - /url: /help/privacy-policy
+          - link "Terms of Use" [ref=f825e565] [cursor=pointer]:
+            - /url: https://brave.com/terms-of-use/

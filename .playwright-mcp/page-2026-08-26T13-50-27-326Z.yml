@@ -1,0 +1,215 @@
+- generic [active] [ref=f851e1]:
+  - generic [ref=f851e2]:
+    - generic [ref=f851e4]:
+      - generic [ref=f851e5]:
+        - generic [ref=f851e6]:
+          - link "DuckDuckGo home" [ref=f851e7] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f851e8]: DuckDuckGo
+          - generic [ref=f851e15]:
+            - combobox "Search privately" [ref=f851e17]: "\"Zoom Apps\" hackathon winners devpost"
+            - button "search" [ref=f851e19] [cursor=pointer]
+        - generic [ref=f851e22]:
+          - link "Protection. Privacy. Peace of mind." [ref=f851e24] [cursor=pointer]:
+            - /url: /compare-privacy
+          - button "Open menu" [ref=f851e25] [cursor=pointer]
+      - navigation [ref=f851e33]:
+        - list [ref=f851e34]:
+          - listitem [ref=f851e35]:
+            - link "All" [ref=f851e36] [cursor=pointer]:
+              - /url: /?q=%22Zoom+Apps%22+hackathon+winners+devpost&ia=web
+          - listitem [ref=f851e39]:
+            - link "Images" [ref=f851e40] [cursor=pointer]:
+              - /url: /?q=%22Zoom+Apps%22+hackathon+winners+devpost&ia=images&iax=images
+          - listitem [ref=f851e41]:
+            - link "Videos" [ref=f851e42] [cursor=pointer]:
+              - /url: /?q=%22Zoom+Apps%22+hackathon+winners+devpost&ia=videos&iax=videos
+          - listitem [ref=f851e43]:
+            - link "News" [ref=f851e44] [cursor=pointer]:
+              - /url: /?q=%22Zoom+Apps%22+hackathon+winners+devpost&ia=news&iar=news
+          - listitem [ref=f851e45]:
+            - link "Maps" [ref=f851e46] [cursor=pointer]:
+              - /url: /?q=%22Zoom+Apps%22+hackathon+winners+devpost&iaxm=maps
+        - list [ref=f851e47]:
+          - listitem [ref=f851e48]:
+            - link "Duck.ai" [ref=f851e50] [cursor=pointer]:
+              - /url: /?q=%22Zoom+Apps%22+hackathon+winners+devpost&ia=chat
+          - listitem [ref=f851e54]:
+            - button "Search Settings ✀" [ref=f851e56] [cursor=pointer]:
+              - generic [ref=f851e59]: Search Settings
+              - generic [ref=f851e60]: ✀
+    - generic [ref=f851e67]:
+      - navigation [ref=f851e69]:
+        - generic [ref=f851e72] [cursor=pointer]:
+          - generic [ref=f851e73]: Private
+          - img [ref=f851e81]: ▼
+        - generic [ref=f851e85] [cursor=pointer]:
+          - generic [ref=f851e88]:
+            - switch "✓" [ref=f851e89]
+            - generic [ref=f851e91]: India (en)
+          - img [ref=f851e92]: ▼
+        - generic [ref=f851e96] [cursor=pointer]:
+          - generic [ref=f851e97]: "Safe search: moderate"
+          - img [ref=f851e98]: ▼
+        - generic [ref=f851e102] [cursor=pointer]:
+          - generic [ref=f851e103]: Any time
+          - img [ref=f851e104]: ▼
+      - generic [ref=f851e109]:
+        - paragraph [ref=f851e110]:
+          - generic [ref=f851e111]: No results found for "Zoom Apps" hackathon winners devpost
+        - generic [ref=f851e112]:
+          - paragraph [ref=f851e113]: "Suggestions:"
+          - list [ref=f851e114]:
+            - listitem [ref=f851e115]: Check spelling
+            - listitem [ref=f851e116]: Try related keywords
+            - listitem [ref=f851e117]:
+              - generic [ref=f851e118]:
+                - text: "Retry search without quotes:"
+                - link "Zoom Apps hackathon winners devpost" [ref=f851e119] [cursor=pointer]:
+                  - /url: /?q=Zoom+Apps+hackathon+winners+devpost
+        - generic [ref=f851e120]:
+          - paragraph [ref=f851e121]:
+            - generic [ref=f851e122]: "Try asking Duck.ai, our private AI chat service:"
+          - generic [ref=f851e124]:
+            - textbox "Ask Duck.ai anything" [ref=f851e125]: "\"Zoom Apps\" hackathon winners devpost"
+            - button "Submit to Duck.ai" [ref=f851e126] [cursor=pointer]
+    - list [ref=f851e131]:
+      - button "Close menu" [ref=f851e132] [cursor=pointer]
+      - list [ref=f851e136]:
+        - listitem [ref=f851e137]: Search
+        - listitem [ref=f851e138]:
+          - link "Homepage" [ref=f851e139] [cursor=pointer]:
+            - /url: https://start.duckduckgo.com/
+        - listitem [ref=f851e140]:
+          - link "Themes" [ref=f851e141] [cursor=pointer]:
+            - /url: /settings#appearance
+        - listitem [ref=f851e142]:
+          - link "Settings" [ref=f851e143] [cursor=pointer]:
+            - /url: /settings
+      - list [ref=f851e144]:
+        - listitem [ref=f851e145]: Share Feedback
+        - listitem [ref=f851e146]:
+          - generic [ref=f851e149]:
+            - button "Positive feedback" [ref=f851e150] [cursor=pointer]
+            - button "Negative feedback" [ref=f851e154] [cursor=pointer]
+      - list [ref=f851e158]:
+        - listitem [ref=f851e159]: Downloads
+        - listitem [ref=f851e160]:
+          - link "iOS Browser" [ref=f851e161] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+        - listitem [ref=f851e162]:
+          - link "Android Browser" [ref=f851e163] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+        - listitem [ref=f851e164]:
+          - link "Mac Browser" [ref=f851e165] [cursor=pointer]:
+            - /url: /mac?origin=funnel_browser_searchresults
+        - listitem [ref=f851e166]:
+          - link "Windows Browser" [ref=f851e167] [cursor=pointer]:
+            - /url: /windows?origin=funnel_browser_searchresults
+        - listitem [ref=f851e168]: Browser Extensions
+      - list [ref=f851e169]:
+        - listitem [ref=f851e170]: More From DuckDuckGo
+        - listitem [ref=f851e171]:
+          - generic [ref=f851e174]:
+            - button "Dismiss promotion" [ref=f851e175] [cursor=pointer]
+            - generic [ref=f851e178]:
+              - paragraph [ref=f851e180]: Upgrade to our Private Browser
+              - paragraph [ref=f851e192]: Fast. Secure. Free.
+            - link "Install Mac Browser" [ref=f851e193] [cursor=pointer]:
+              - /url: /mac
+        - listitem [ref=f851e196]:
+          - link "Duck.ai" [ref=f851e197] [cursor=pointer]:
+            - /url: https://duck.ai
+        - listitem [ref=f851e198]:
+          - link "Email Protection" [ref=f851e199] [cursor=pointer]:
+            - /url: /email
+        - listitem [ref=f851e200]:
+          - link "Newsletter" [ref=f851e201] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=f851e202]:
+          - link "Blog" [ref=f851e203] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=f851e204]:
+          - link "Podcast" [ref=f851e205] [cursor=pointer]:
+            - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+        - listitem [ref=f851e206]:
+          - link "Collaborations" [ref=f851e207] [cursor=pointer]:
+            - /url: /collaborations
+      - list [ref=f851e208]:
+        - listitem [ref=f851e209]: Learn More
+        - listitem [ref=f851e210]:
+          - link "What’s New" [ref=f851e211] [cursor=pointer]:
+            - /url: /updates
+        - listitem [ref=f851e212]:
+          - link "Compare Privacy" [ref=f851e213] [cursor=pointer]:
+            - /url: /compare-privacy
+        - listitem [ref=f851e214]:
+          - link "About Our Browser" [ref=f851e215] [cursor=pointer]:
+            - /url: /app
+        - listitem [ref=f851e216]:
+          - link "About DuckDuckGo" [ref=f851e217] [cursor=pointer]:
+            - /url: /about
+      - list [ref=f851e218]:
+        - listitem [ref=f851e219]: Other Resources
+        - listitem [ref=f851e220]:
+          - link "Help" [ref=f851e221] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages
+        - listitem [ref=f851e222]:
+          - link "Community" [ref=f851e223] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/duckduckgo/
+        - listitem [ref=f851e224]:
+          - link "Careers" [ref=f851e225] [cursor=pointer]:
+            - /url: /careers
+        - listitem [ref=f851e226]:
+          - link "Privacy Policy" [ref=f851e227] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=f851e228]:
+          - link "Terms of Service" [ref=f851e229] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=f851e230]:
+          - link "Press Kit" [ref=f851e231] [cursor=pointer]:
+            - /url: /press
+        - listitem [ref=f851e232]:
+          - link "Advertise on Search" [ref=f851e233] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+  - generic [ref=f851e237]:
+    - generic [ref=f851e239]:
+      - generic [ref=f851e250]:
+        - heading "Introducing DuckDuckGo Collaborations" [level=3] [ref=f851e251]
+        - paragraph [ref=f851e252]: Expertly crafted products for people who give a duck about privacy.
+      - link "See More" [ref=f851e253] [cursor=pointer]:
+        - /url: https://duckduckgo.com/collaborations
+    - generic [ref=f851e255]:
+      - generic [ref=f851e256]:
+        - heading "Learn More" [level=3] [ref=f851e257]
+        - list [ref=f851e258]:
+          - listitem [ref=f851e259]:
+            - link "What's New" [ref=f851e260] [cursor=pointer]:
+              - /url: https://duckduckgo.com/updates
+          - listitem [ref=f851e261]:
+            - link "About Browser" [ref=f851e262] [cursor=pointer]:
+              - /url: https://duckduckgo.com/app
+          - listitem [ref=f851e263]:
+            - link "Compare Privacy" [ref=f851e264] [cursor=pointer]:
+              - /url: https://duckduckgo.com/compare-privacy
+          - listitem [ref=f851e265]:
+            - link "Help Pages" [ref=f851e266] [cursor=pointer]:
+              - /url: https://duckduckgo.com/duckduckgo-help-pages/
+      - generic [ref=f851e267]:
+        - heading "Get More" [level=3] [ref=f851e268]
+        - list [ref=f851e269]:
+          - listitem [ref=f851e270]:
+            - link "Email Protection" [ref=f851e271] [cursor=pointer]:
+              - /url: https://duckduckgo.com/email
+          - listitem [ref=f851e272]:
+            - generic [ref=f851e273]:
+              - link "Podcast" [ref=f851e275] [cursor=pointer]:
+                - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+              - generic [ref=f851e276]:
+                - text: "&"
+                - link "Newsletter" [ref=f851e277] [cursor=pointer]:
+                  - /url: https://duckduckgo.com/newsletter
+          - listitem [ref=f851e278]:
+            - link "Collaborations" [ref=f851e279] [cursor=pointer]:
+              - /url: https://duckduckgo.com/collaborations
+  - button "Share Feedback" [ref=f851e284] [cursor=pointer]

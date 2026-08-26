@@ -1,0 +1,516 @@
+- generic [active] [ref=f726e1]:
+  - link "Skip to main content" [ref=f726e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f726e5]:
+    - link [ref=f726e7] [cursor=pointer]:
+      - /url: /us/en.html
+      - img "Mastercard brand symbol - a global technology company in the payments industry" [ref=f726e8]
+    - generic "Open Menu" [ref=f726e11]:
+      - menubar [ref=f726e12]:
+        - menuitem [ref=f726e13]:
+          - button "For you" [ref=f726e14] [cursor=pointer]
+        - menuitem [ref=f726e15]:
+          - button "For business" [ref=f726e16] [cursor=pointer]
+        - menuitem [ref=f726e17]:
+          - button "For the world" [ref=f726e18] [cursor=pointer]
+        - menuitem [ref=f726e19]:
+          - button "For innovators" [ref=f726e20] [cursor=pointer]
+        - menuitem [ref=f726e21]:
+          - button "News and trends" [ref=f726e22] [cursor=pointer]
+    - button "Open search" [ref=f726e24] [cursor=pointer]:
+      - generic [ref=f726e25]: 
+      - generic [ref=f726e26]: 
+  - generic [ref=f726e35]:
+    - generic [ref=f726e41]:
+      - paragraph [ref=f726e47]: PRESS RELEASE
+      - generic [ref=f726e49]:
+        - generic [ref=f726e51]:
+          - paragraph [ref=f726e52]: June 10, 2026 | Purchase, NY
+          - paragraph [ref=f726e53]
+        - heading "Mastercard launches Agent Pay for Machines to unlock super-fast, always-on payments" [level=1] [ref=f726e56]
+        - separator [ref=f726e61]
+    - generic [ref=f726e66]:
+      - generic [ref=f726e68]:
+        - heading "More than 30 industry leaders, including Adyen, Ant International, BVNK, Checkout.com, Cloudflare, Coinbase, Getnet by Santander, Global Payments, Lovable, OKX, Stripe and Tempo, are among the first to leverage and support adoption." [level=2] [ref=f726e73]
+        - separator [ref=f726e78]
+        - generic [ref=f726e82]:
+          - paragraph [ref=f726e83]: The rise of AI has created new ways to buy and sell goods and services. Now it’s requiring a new class of payments.
+          - paragraph [ref=f726e84]: Mastercard envisions a future where businesses create services for AI agents to buy and use. Operating at machine speed, these agents could transact with each other continuously at high velocity, executing chains of transactions, including microtransactions. This shift could unlock a massive new wave of innovation, business models and economic activity, where any company, from solopreneurs to the largest enterprises, can become a virtual powerhouse.
+          - paragraph [ref=f726e85]:
+            - text: "To enable this new form of commerce, Mastercard developed a new way to pay for these services: payments, some only fractions of a cent, to be completed quickly, programmatically and securely. Today, the company is introducing"
+            - link "Agent Pay for Machines (AP4M)" [ref=f726e86] [cursor=pointer]:
+              - /url: https://www.mastercard.com/us/en/business/artificial-intelligence/mastercard-agent-pay/agent-pay-for-machines.html
+            - text: ", a new service that will allow these transactions to be permissioned, orchestrated and settled at machine speed across its global payments network."
+          - paragraph [ref=f726e87]: “Agent Pay for Machines will create the conditions for a superbloom of AI business models,” said Jorn Lambert, Mastercard’s chief product officer. “Machine payments can make it possible for services to be bought and sold among agents at fundamentally different scales than payments today — very high volumes, very small values, very fast and at extremely low latency.”
+          - paragraph [ref=f726e88]: Unlike traditional point-of-sale or person-to-merchant payments, which are discrete and user-initiated, these transactions are programmatic, always-on and executed between systems in the background of digital commerce. Agent Pay for Machines allows Mastercard network participants to bring the trust and controls of the company’s global network to machine-driven commerce, helping AI innovators enable secure, reliable payments as software begins to transact on its own.
+        - generic [ref=f726e90]:
+          - heading "Building a new class of payments" [level=4] [ref=f726e93]
+          - generic [ref=f726e95]:
+            - paragraph [ref=f726e96]: AI agents are no longer just assisting decisions. They are able to act on human intent, coordinate services and complete transactions that are bespoke for their users. An entrepreneur opening a flower shop could instruct an AI agent to build and launch the store's web presence — buying a domain name, a hosting service, images and checkout pages within a defined budget — turning one human‑initiated request into a chain of transactions executed automatically across providers.
+            - paragraph [ref=f726e97]: Or a logistics agent managing a delivery route could pay for freight, reserve loading-bay access, purchase temporary cold-chain monitoring data and settle warehouse handling fees automatically as a shipment moves from origin to destination.
+            - paragraph [ref=f726e98]: "Payments don’t just increase. They change form. They become continuous, embedded, permissioned and executed at machine speed. And that creates a new requirement: infrastructure that can keep up."
+            - paragraph [ref=f726e99]: In this new environment, businesses need peace of mind they will get paid. Agents need transactions to move instantly, with every transaction completed securely and as expected. Mastercard Agent Pay for Machines is designed to meet these needs.
+            - paragraph [ref=f726e100]:
+              - text: The service builds on
+              - link "Mastercard’s Agent Pay program" [ref=f726e101] [cursor=pointer]:
+                - /url: https://www.mastercard.com/us/en/business/artificial-intelligence/mastercard-agent-pay.html
+              - text: ", introduced in 2025, by providing a system to scale high-frequency, low-latency, low-value payments executed by agents and machines. Where Agent Pay defines how trusted AI agents participate in payments, Agent Pay for Machines is designed for a complementary opportunity: automated, micro- and machine-driven transactions that happen continuously in the background of digital commerce."
+            - paragraph [ref=f726e102]: This is where Mastercard’s global network plays a critical role. Mastercard Agent Pay for Machines supports credentialing, controls and guaranteed settlement across multiple payment types, from cards to stablecoins, enabling organizations to deploy automated payments with the interoperability, reliability and governance that the digital economy requires.
+            - paragraph [ref=f726e103]
+          - generic [ref=f726e107]:
+            - img "poster" [ref=f726e108]
+            - button "Play video" [ref=f726e109]:
+              - generic [ref=f726e110]: 
+        - generic [ref=f726e112]:
+          - paragraph [ref=f726e115]
+          - heading "How it works" [level=4] [ref=f726e118]
+          - generic [ref=f726e120]:
+            - paragraph [ref=f726e121]: "Mastercard Agent Pay for Machines establishes a trusted system for machine-driven transactions through a set of foundational capabilities:"
+            - list [ref=f726e122]:
+              - listitem [ref=f726e123]:
+                - text: "Credentialing: Every agent is credentialed, and with"
+                - link "Verifiable Intent" [ref=f726e124] [cursor=pointer]:
+                  - /url: https://www.mastercard.com/us/en/news-and-trends/stories/2026/verifiable-intent.html
+                - text: ", can be recognized and transact with trust across ecosystems."
+              - listitem [ref=f726e125]: "Permissioning: Organizations can set authorization rules and spending limits that are programmatically enforced, ensuring transactions stay within defined parameters."
+              - listitem [ref=f726e126]: "Transacting: Verified participants can connect and transact across providers and systems, enabling continuous, high-frequency automated commerce."
+              - listitem [ref=f726e127]: "Settling: Supports reliable, guaranteed multi-rail settlement across cards, accounts and stablecoins."
+            - paragraph [ref=f726e128]: Transactions move predictably, improving transparency and consistency.
+            - paragraph [ref=f726e129]
+        - generic [ref=f726e131]:
+          - heading "Partnering to scale an open ecosystem" [level=4] [ref=f726e134]
+          - paragraph [ref=f726e137]:
+            - text: "Mastercard is collaborating with a broad set of partners to validate priority use cases, establish common rules and accelerate adoption across industries. Initial participants and supporters include:"
+            - link "Aave Labs" [ref=f726e138] [cursor=pointer]:
+              - /url: https://aave.com/
+            - text: ","
+            - link "Adyen" [ref=f726e139] [cursor=pointer]:
+              - /url: https://www.adyen.com/
+            - text: ","
+            - link "Alchemy" [ref=f726e140] [cursor=pointer]:
+              - /url: https://www.alchemy.com/
+            - text: ","
+            - link "Anchorage Digital" [ref=f726e141] [cursor=pointer]:
+              - /url: http://anchorage.com/
+            - text: ","
+            - link "Ant International" [ref=f726e142] [cursor=pointer]:
+              - /url: https://www.ant-intl.com/
+            - text: ","
+            - link "Basis Theory" [ref=f726e143] [cursor=pointer]:
+              - /url: https://basistheory.com/
+            - text: ","
+            - link "BVNK" [ref=f726e144] [cursor=pointer]:
+              - /url: https://bvnk.com/
+            - text: ","
+            - link "Catena" [ref=f726e145] [cursor=pointer]:
+              - /url: https://catena.com/
+            - text: ","
+            - link "Checkout.com" [ref=f726e146] [cursor=pointer]:
+              - /url: https://www.checkout.com/
+            - text: ","
+            - link "Cloudflare" [ref=f726e147] [cursor=pointer]:
+              - /url: https://www.cloudflare.com/
+            - text: ","
+            - link "Coinbase" [ref=f726e148] [cursor=pointer]:
+              - /url: http://coinbase.com/
+            - text: ","
+            - link "Coinflow" [ref=f726e149] [cursor=pointer]:
+              - /url: https://coinflow.cash/
+            - text: ","
+            - link "Crossmint" [ref=f726e150] [cursor=pointer]:
+              - /url: https://www.crossmint.com/
+            - text: ","
+            - link "Getnet by Santander" [ref=f726e151] [cursor=pointer]:
+              - /url: https://www.getnetworld.com/
+            - text: ","
+            - link "Global Payments" [ref=f726e152] [cursor=pointer]:
+              - /url: https://www.globalpayments.com/
+            - text: ","
+            - link "Lovable" [ref=f726e153] [cursor=pointer]:
+              - /url: https://lovable.dev/
+            - text: ","
+            - link "Mastercard Merchant Cloud" [ref=f726e154] [cursor=pointer]:
+              - /url: https://www.mastercard.com/us/en/business/payments/merchant-cloud.html
+            - text: ","
+            - link "MoonPay" [ref=f726e155] [cursor=pointer]:
+              - /url: https://www.moonpay.com/
+            - text: ","
+            - link "Nevermined" [ref=f726e156] [cursor=pointer]:
+              - /url: https://nevermined.ai/
+            - text: ","
+            - link "OKX" [ref=f726e157] [cursor=pointer]:
+              - /url: https://www.okx.com/
+            - text: ","
+            - link "PayOS" [ref=f726e158] [cursor=pointer]:
+              - /url: https://payos.ai/
+            - text: ","
+            - link "Polygon" [ref=f726e159] [cursor=pointer]:
+              - /url: https://polygon.technology/
+            - text: ","
+            - link "Rain" [ref=f726e160] [cursor=pointer]:
+              - /url: https://rain.xyz/
+            - text: ","
+            - link "Ripple" [ref=f726e161] [cursor=pointer]:
+              - /url: https://ripple.com/
+            - text: ","
+            - link "Sapiom" [ref=f726e162] [cursor=pointer]:
+              - /url: https://www.sapiom.ai/
+            - text: ","
+            - link "Skyfire" [ref=f726e163] [cursor=pointer]:
+              - /url: https://skyfire.xyz/
+            - text: ","
+            - link "Solana Foundation" [ref=f726e164] [cursor=pointer]:
+              - /url: https://solana.org/
+            - text: ","
+            - link "Stripe" [ref=f726e165] [cursor=pointer]:
+              - /url: https://stripe.com/
+            - text: ","
+            - link "t54 Labs" [ref=f726e166] [cursor=pointer]:
+              - /url: https://www.t54.ai/
+            - text: ","
+            - link "Tempo" [ref=f726e167] [cursor=pointer]:
+              - /url: https://tempo.xyz/
+            - text: ","
+            - link "Turnkey" [ref=f726e168] [cursor=pointer]:
+              - /url: https://www.turnkey.com/
+            - text: and
+            - link "Utila" [ref=f726e169] [cursor=pointer]:
+              - /url: https://utila.io/
+            - text: .
+          - heading "Supporting the next phase of digital commerce" [level=4] [ref=f726e172]
+          - generic [ref=f726e174]:
+            - paragraph [ref=f726e175]: Mastercard Agent Pay for Machines expands Mastercard’s efforts to enable trusted digital interactions, from identity and authentication to trusted data exchange, so businesses can adopt new technologies without compromising the security, reliability and reach they expect from Mastercard’s global network. Together with Agent Pay and Verifiable Intent, Mastercard Agent Pay for Machines reflects Mastercard’s continued investment in building trusted, open infrastructure for autonomous, agent-driven and machine-driven payments.
+            - paragraph [ref=f726e176]:
+              - text: To learn more about Mastercard Agent Pay for Machines, please visit
+              - link "https://www.mastercard.com/us/en/business/artificial-intelligence/mastercard-agent-pay/agent-pay-for-machines.html" [ref=f726e177] [cursor=pointer]:
+                - /url: https://www.mastercard.com/us/en/business/artificial-intelligence/mastercard-agent-pay/agent-pay-for-machines.html
+              - text: .
+            - paragraph [ref=f726e178]
+          - heading "Quote sheet" [level=4] [ref=f726e181]
+          - generic [ref=f726e183]:
+            - paragraph [ref=f726e184]:
+              - text: “Payments and treasury management are inseparable,” said Stani Kulechov, founder and CEO of
+              - link "Aave Labs" [ref=f726e185] [cursor=pointer]:
+                - /url: https://aave.com/
+              - text: . “As Mastercard Agent Pay for Machines transforms payments, Aave delivers the foundational credit layer and deep liquidity to optimize treasury capital at machine speed.”
+            - paragraph [ref=f726e186]:
+              - text: “Machine-to-machine payments are still in their early stages, but the infrastructure decisions made now will determine how this space develops,” said Karan Katyal, head of Agentic Commerce at
+              - link "Adyen" [ref=f726e187] [cursor=pointer]:
+                - /url: https://www.adyen.com/
+              - text: . “Building these foundations with partners like Mastercard, openly and with merchant outcomes at the center, is how we ensure this next era of commerce works for everyone in the ecosystem.”
+            - paragraph [ref=f726e188]:
+              - text: “We're heading toward an economy where most transactions never involve a person at all - machines paying each other, constantly, for things too small to bother a human with. That unlocks business models nobody can build today, but only once the payment layer can keep up,’ said Joe Lau, co-founder and president of
+              - link "Alchemy" [ref=f726e189] [cursor=pointer]:
+                - /url: https://www.alchemy.com/
+              - text: . “Getting that right is one of the most important problems in tech right now.”
+            - paragraph [ref=f726e190]:
+              - text: "\"The future of commerce isn't just digital, it's autonomous. At Anchorage Digital, we've long believed that programmable, machine-driven payments are the inevitable next layer of financial infrastructure, and this collaboration with Mastercard turns that conviction into reality,” said Nathan McCauley, co-founder and CEO,"
+              - link "Anchorage Digital" [ref=f726e191] [cursor=pointer]:
+                - /url: http://anchorage.com/
+              - text: . “What makes this initiative so significant is that it brings together the trust and global reach of Mastercard's network with the flexibility of multi-rail settlement, including digital assets, creating a foundation that our clients can build on with confidence. This is exactly the kind of open, interoperable infrastructure the industry needs to bring agentic commerce to scale.”
+            - paragraph [ref=f726e192]:
+              - text: "\"We are pleased to partner with Mastercard to accelerate the growth of agentic commerce through continuous innovation in agent-driven payments,” said Jiang-Ming Yang, chief innovation officer,"
+              - link "Ant International" [ref=f726e193] [cursor=pointer]:
+                - /url: https://www.ant-intl.com/
+              - text: . “Through Antom, our merchant payment service, Ant International empowers global merchants to access leading agentic commerce platforms with one simple integration while delivering cutting-edge agentic payment capabilities and seamless payment experiences. Together, we are helping merchants capture new growth opportunities in the AI commerce era with greater security, intelligence, and efficiency."
+            - paragraph [ref=f726e194]:
+              - text: “Agentic commerce only matters if it helps humans get something done. The payment should fade into the background while the business, the agent, and the merchant coordinate around the customer’s intent,” said James Armstead, chief technology officer at
+              - link "Basis Theory" [ref=f726e195] [cursor=pointer]:
+                - /url: https://basistheory.com/
+              - text: . “That’s the future Mastercard is helping unlock, and Basis Theory is excited to help bring it to life.”
+            - paragraph [ref=f726e196]:
+              - text: “We’re seeing a fundamental shift in commerce as businesses increasingly use AI agents to transact on their behalf,” said Chris Harmse, co-founder and chief business officer at
+              - link "BVNK" [ref=f726e197] [cursor=pointer]:
+                - /url: https://bvnk.com/
+              - text: . “At BVNK, we believe stablecoins will play a powerful role in enabling this change, bringing greater speed, programmability and efficiency to how value moves. Our position at the intersection of currencies, rails and formats makes us uniquely well-suited to power agentic commerce at scale, enabling trusted movement of value with the controls, reliability, visibility and flexibility that merchants need.”
+            - paragraph [ref=f726e198]:
+              - text: “Catena gives businesses a single control plane to govern agent-driven payments across networks and rails, applying identity, policies, approvals and auditability wherever money moves,” said Sean Neville, CEO of
+              - link "Catena" [ref=f726e199] [cursor=pointer]:
+                - /url: https://catena.com/
+              - text: . “Mastercard Agent Pay for Machines initiative is an important addition to that interoperable ecosystem, and we’re excited to help make autonomous commerce safer and more practical for customers under one consistent set of controls.”
+            - paragraph [ref=f726e200]:
+              - text: “As AI agents begin to play a larger role in digital commerce, the payments infrastructure must evolve to support the enterprise merchants driving this economy,” said Matthieu Barral, global head of Partnerships at
+              - link "Checkout.com" [ref=f726e201] [cursor=pointer]:
+                - /url: https://www.checkout.com/
+              - text: . “We're working with Mastercard to define how programmable, agent-driven payments operate in practice — combining our processing capabilities with their secure network to give businesses the precise control and flexibility required to thrive in this next chapter of commerce.”
+            - paragraph [ref=f726e202]:
+              - text: "\"The internet was built for human interactions, but the infrastructure of the future must be built for autonomous ones,” said Stephanie Cohen, chief strategy officer at"
+              - link "Cloudflare" [ref=f726e203] [cursor=pointer]:
+                - /url: https://www.cloudflare.com/
+              - text: . “Cloudflare has already become the premier environment to build and secure AI agents; now, those agents need a trusted way to independently pay for the resources they consume. By partnering with Mastercard on Agent Pay for Machines, we are connecting our industry-leading developer and security platform with world-class payments infrastructure to power the next era of machine-to-machine commerce."
+            - paragraph [ref=f726e204]:
+              - text: “AI agents are creating entirely new forms of commerce that require payments to move at machine speed,” said Nina Coughlin, head of Stablecoin Business Development at
+              - link "Coinbase" [ref=f726e205] [cursor=pointer]:
+                - /url: http://coinbase.com/
+              - text: . “We’re excited to work alongside Mastercard to help advance an open and interoperable framework for agentic payments, combining trusted payment networks with programmable digital dollars and open standards like x402 to enable secure, scalable commerce between agents, businesses, and developers worldwide.”
+            - paragraph [ref=f726e206]:
+              - text: “Coinflow has spent years making instant payments frictionless by bridging stablecoin infrastructure with traditional payment networks,” said Ben Meeder chief technology officer at
+              - link "Coinflow" [ref=f726e207] [cursor=pointer]:
+                - /url: https://coinflow.cash/
+              - text: . “Now we’re thrilled to partner with Mastercard to bring that same simplicity to agentic commerce, enabling businesses to accept payments from AI agents as effortlessly as they do from humans.”
+            - paragraph [ref=f726e208]:
+              - text: "\"The barrier to agentic commerce is no longer capability, it's trust: knowing an agent is authorized to act, that it stays within its limits and that every payment is accountable,” said Alfonso Gomez Jordana, co-founder of"
+              - link "Crossmint" [ref=f726e209] [cursor=pointer]:
+                - /url: https://www.crossmint.com/
+              - text: . “Mastercard solves this, extending the risk, fraud and compliance infrastructure of its network to machine payments. Crossmint is excited to serve as the PSP of the agent in this trusted network.”
+            - paragraph [ref=f726e210]:
+              - text: “Machine-to-machine payments represent the next frontier of commerce, where trust, speed and intelligence converge at the transaction layer,” said Bruno Oliveira Da Silva, global head of Getnet Data and AI Products at
+              - link "Getnet by Santander" [ref=f726e211] [cursor=pointer]:
+                - /url: https://www.getnetworld.com/
+              - text: . “At Getnet, we believe the future belongs to acquirers who can enable autonomous commerce at scale, and our partnership with Mastercard puts us at the center of that transformation, from Latin America to Europe and beyond.”
+            - paragraph [ref=f726e212]:
+              - text: “As programmatic, machine-led commerce emerges, where agents pay for compute and other resources, getting the payment layer right is essential,” said Cindy Turner, chief product officer at
+              - link "Global Payments" [ref=f726e213] [cursor=pointer]:
+                - /url: https://www.globalpayments.com/
+              - text: . “Open collaboration across the ecosystem will be key. We are proud to partner with Mastercard on Agent Pay for Machines to help deliver trusted, interoperable infrastructure that can scale with our customers’ needs.”
+            - paragraph [ref=f726e214]:
+              - text: "\"As commerce shifts from clicks to continuous machine-speed transactions, merchants need payment infrastructure that keeps up, without giving up control,” said Maria Parpou, executive vice president,"
+              - link "Mastercard Merchant Cloud" [ref=f726e215] [cursor=pointer]:
+                - /url: https://www.mastercard.com/us/en/business/payments/merchant-cloud.html
+              - text: . “Through Mastercard Merchant Cloud, we're connecting merchants to Agent Pay for Machines so they can confidently accept and orchestrate agent-driven payments, backed by the trust, governance and multi-rail reach of Mastercard's global network."
+            - paragraph [ref=f726e216]:
+              - text: "“Machine payments underpin the business model of AI agents: metered pricing. Before an agent’s labor is metered, authorized, and settled with real trust, it needs the ability to pay and get paid,” Don Gossen, co-founder and CEO,"
+              - link "Nevermined" [ref=f726e217] [cursor=pointer]:
+                - /url: https://nevermined.ai/
+              - text: . “We are proud to partner with Mastercard to build the Commerce Logic Layer, which lets AI agents transact with other agents and agentic services.”
+            - paragraph [ref=f726e218]:
+              - text: "\"OKX moves billions in settlement daily across some of the most complex, high-velocity markets in the world. We're executing a bold vision laid out by our Founder and CEO, Star Xu, having already built our Agentic Wallet and Agent Payments Protocol to handle exactly this kind of autonomous, machine-speed commerce,” said Haider Rafique, global managing partner at"
+              - link "OKX" [ref=f726e219] [cursor=pointer]:
+                - /url: https://www.okx.com/
+              - text: . “Partnering with Mastercard to bring that infrastructure to scale globally is where this was always heading. We're ready for it."
+            - paragraph [ref=f726e220]:
+              - text: “AI agents are becoming economic participants, and machine-to-machine payments are a critical building block for that future,” said Johnathan McGowan, CEO of
+              - link "PayOS" [ref=f726e221] [cursor=pointer]:
+                - /url: https://payos.ai/
+              - text: . “We believe agents will become embedded across every experience. As that happens, they’ll need a trusted way to participate in the economy at machine speed. We’re proud to partner with Mastercard on this initiative to build the infrastructure needed to make that possible.”
+            - paragraph [ref=f726e222]:
+              - text: "\"Polygon Labs is building the infrastructure for programmable payments and agent-driven commerce at global scale, with the Open Money Stack helping make digital financial services more accessible and interoperable,” said Aishwary Gupta, global head of business at"
+              - link "Polygon" [ref=f726e223] [cursor=pointer]:
+                - /url: https://polygon.technology/
+              - text: . “Mastercard's exploration of machine payments underscores how blockchain and traditional payment networks can work together to unlock new consumer and business experiences while accelerating the evolution of the digital payments ecosystem."
+            - paragraph [ref=f726e224]:
+              - text: "\"Payments made by machines look very different from payments made by people, happening far more often and at far smaller amounts than today's systems were designed for. Change at this scale needs creative answers from more than one company, because the future of payments cannot run through a single closed ecosystem,” said Farooq Malik, co-founder and CEO of"
+              - link "Rain" [ref=f726e225] [cursor=pointer]:
+                - /url: https://rain.xyz/
+              - text: . “Rain is excited to build on our Mastercard principal membership and partner on Agent Pay for Machines as we expand to support the agentic future."
+            - paragraph [ref=f726e226]:
+              - text: "\"Autonomous agents are already settling invoices and paying for compute on their own, but institutions can only move at that speed if the controls move with them,” said Markus Infanger, senior vice president of"
+              - link "RippleX" [ref=f726e227] [cursor=pointer]:
+                - /url: https://ripple.com/
+              - text: . “XRPL and RLUSD are built so enterprises can let agents transact at machine speed within rules the chain itself enforces, with settlement in seconds, predictable costs, programmable compliance, and a full audit trail, so agents can only ever do what they are authorized to do. Mastercard's move toward regulated stablecoin settlement on-chain is an important signal that this is evolving from an emerging capability into an enterprise standard."
+            - paragraph [ref=f726e228]:
+              - text: “Most agent projects stall before production, because the infrastructure was never built for them,” said Ilan Zerbib, founder and CEO of
+              - link "Sapiom" [ref=f726e229] [cursor=pointer]:
+                - /url: https://www.sapiom.ai/
+              - text: . “Payment rails designed for humans cannot authorize an agent. Mastercard Agent Pay for Machines closes that gap at the settlement layer. Sapiom handles runtime, execution and access to the machine economy. Together they enable agents to act, transact and complete work in production without months of bespoke infrastructure.”
+            - paragraph [ref=f726e230]:
+              - text: "\"Trust enables machine payments at scale and we're excited to partner with Mastercard so verified agents can transact anywhere,” said Ankit Agarwal, chief technology officer at"
+              - link "Skyfire" [ref=f726e231] [cursor=pointer]:
+                - /url: https://skyfire.xyz/
+              - text: .
+            - paragraph [ref=f726e232]:
+              - text: "\"Right now, there is an opportunity to define how AI agents will seamlessly pay for the goods and services they need,” said Rishin Sharma, head of AI Growth,"
+              - link "Solana Foundation" [ref=f726e233] [cursor=pointer]:
+                - /url: https://solana.org/
+              - text: . “The infrastructure powering these transactions will need to operate across stablecoins, card networks, and other payment rails. Solana is built to enable these types of solutions at scale, and we’re excited to work alongside Mastercard." “Agentic commerce needs payment infrastructure that can support autonomous execution and reliable settlement. Mastercard Agent Pay for Machines is a meaningful step in that direction, connecting agent-initiated payments to global infrastructure built for real-world scale,” said Chandler Fang, co-founder of
+              - link "t54 Labs" [ref=f726e234] [cursor=pointer]:
+                - /url: https://www.t54.ai/
+              - text: . “By partnering with Mastercard, t54 brings its trust layer to Machine Payments, adding real-time transaction-level risk assessment, Know Your Agent verification and traceability across the payment lifecycle. This helps create a clear evidence layer for agent authorization, chargebacks, dispute resolution, and liability review, making agent-led payments more secure, auditable and accountable.”
+            - paragraph [ref=f726e235]:
+              - text: "\"Agentic commerce needs open standards at the protocol layer and open settlement rails underneath,” said Dan Romero, go-to-market at"
+              - link "Tempo" [ref=f726e236] [cursor=pointer]:
+                - /url: https://tempo.xyz/
+              - text: . “We're excited to work with Mastercard on Machine Payments Protocol compatibility, with Tempo providing stablecoin settlement for agent-driven payments at scale.”
+            - paragraph [ref=f726e237]:
+              - text: "\"We're entering an era where AI agents are becoming economic actors, making purchases and moving value without any human in the loop,” said Bryce Ferguson, Co-Founder & CEO,"
+              - link "Turnkey" [ref=f726e238] [cursor=pointer]:
+                - /url: https://www.turnkey.com/
+              - text: . Machine-to-machine payments only work if agent actions are secure, auditable, and policy-controlled. Mastercard's agentic commerce initiative is building the common framework the industry needs to make that possible, and Turnkey is excited to provide the secure wallet infrastructure that enables trusted, programmable transactions at scale."
+            - paragraph [ref=f726e239]:
+              - text: "\"The next phase of payments will be increasingly programmable, automated and embedded into how machines and businesses interact,” said Bentzi Rabi, co-founder and CEO of"
+              - link "Utila" [ref=f726e240] [cursor=pointer]:
+                - /url: https://utila.io/
+              - text: . “We are excited to work with Mastercard to help provide the secure stablecoin and digital asset infrastructure needed to make these flows fast, governed and scalable.”
+      - separator [ref=f726e243]
+    - generic [ref=f726e245]:
+      - generic [ref=f726e248]:
+        - heading "Media contact" [level=2] [ref=f726e249]
+        - generic [ref=f726e250]:
+          - paragraph [ref=f726e251]
+          - paragraph [ref=f726e252]: Biz Cozine
+          - paragraph [ref=f726e253]:
+            - link "biz.cozine@mastercard.com" [ref=f726e254] [cursor=pointer]:
+              - /url: mailto:biz.cozine@mastercard.com
+      - separator [ref=f726e259]
+      - heading "About Mastercard" [level=6] [ref=f726e262]
+      - generic [ref=f726e264]:
+        - paragraph [ref=f726e265]: Mastercard powers economies and empowers people in 200+ countries and territories worldwide. Together with our customers, we’re building a resilient economy where everyone can prosper. We support a wide range of digital payments choices, making transactions secure, simple, smart and accessible. Our technology and innovation, partnerships and networks combine to deliver a unique set of products and services that help people, businesses and governments realize their greatest potential.
+        - paragraph [ref=f726e266]:
+          - link "www.mastercard.com" [ref=f726e267] [cursor=pointer]:
+            - /url: https://author-p58776-e1271253.adobeaemcloud.com/content/mccom/language-masters/en.html
+  - contentinfo [ref=f726e268]:
+    - generic [ref=f726e270]:
+      - navigation "Breadcrumb" [ref=f726e272]:
+        - list [ref=f726e273]:
+          - listitem [ref=f726e274]:
+            - link "Home" [ref=f726e275] [cursor=pointer]:
+              - /url: /us/en.html
+            - text: 
+          - listitem [ref=f726e276]:
+            - link "News and trends" [ref=f726e277] [cursor=pointer]:
+              - /url: /us/en/news-and-trends.html
+            - text: 
+          - listitem [ref=f726e278]:
+            - link "Press" [ref=f726e279] [cursor=pointer]:
+              - /url: /us/en/news-and-trends/press.html
+            - text: 
+          - listitem [ref=f726e280]:
+            - link "2026" [ref=f726e281] [cursor=pointer]:
+              - /url: /us/en/news-and-trends/press/2026.html
+            - text: 
+          - listitem [ref=f726e282]:
+            - link "June" [ref=f726e283] [cursor=pointer]:
+              - /url: /us/en/news-and-trends/press/2026/june.html
+      - paragraph [ref=f726e286]: We're always here when you need us
+      - generic [ref=f726e288]:
+        - generic [ref=f726e290]:
+          - heading "Need help?" [level=6] [ref=f726e293]:
+            - button "Need help?" [expanded]
+          - list "Need help?" [ref=f726e296]:
+            - listitem [ref=f726e297]:
+              - link " Get support" [ref=f726e298] [cursor=pointer]:
+                - /url: /us/en/personal/get-support.html
+            - listitem [ref=f726e299]:
+              - link " Report a lost or stolen card" [ref=f726e300] [cursor=pointer]:
+                - /url: /us/en/personal/get-support.html
+            - listitem [ref=f726e301]:
+              - link " Find ATM" [ref=f726e302] [cursor=pointer]:
+                - /url: /us/en/personal/get-support/atm-near-me.html
+            - listitem [ref=f726e303]:
+              - link " FAQs" [ref=f726e304] [cursor=pointer]:
+                - /url: /us/en/personal/get-support/frequently-asked-questions.html
+        - generic [ref=f726e306]:
+          - heading "COMPANY" [level=6] [ref=f726e309]:
+            - button "COMPANY" [expanded]
+          - list "COMPANY" [ref=f726e312]:
+            - listitem [ref=f726e313]:
+              - link "About" [ref=f726e314] [cursor=pointer]:
+                - /url: /us/en/for-the-world/about-us.html
+            - listitem [ref=f726e315]:
+              - link "Careers opens in a new tab " [ref=f726e316] [cursor=pointer]:
+                - /url: https://careers.mastercard.com/us/en
+                - text: Careers
+                - generic [ref=f726e317]: opens in a new tab
+                - text: 
+            - listitem [ref=f726e318]:
+              - link "Newsroom" [ref=f726e319] [cursor=pointer]:
+                - /url: /us/en/news-and-trends/stories.html
+            - listitem [ref=f726e320]:
+              - link "Investor Relations opens in a new tab " [ref=f726e321] [cursor=pointer]:
+                - /url: https://investor.mastercard.com/overview/default.aspx
+                - text: Investor Relations
+                - generic [ref=f726e322]: opens in a new tab
+                - text: 
+        - generic [ref=f726e324]:
+          - heading "LEGAL & PRIVACY" [level=6] [ref=f726e327]:
+            - button "LEGAL & PRIVACY" [expanded]
+          - list "LEGAL & PRIVACY" [ref=f726e330]:
+            - listitem [ref=f726e331]:
+              - link "Privacy & Data Responsibility" [ref=f726e332] [cursor=pointer]:
+                - /url: /us/en/for-the-world/about-us/mastercard-privacy-and-data-responsibility.html
+            - listitem [ref=f726e333]:
+              - link "U.S. Trademarks" [ref=f726e334] [cursor=pointer]:
+                - /url: /us/en/us-trademarks.html
+            - listitem [ref=f726e335]:
+              - link "Binding Corporate Rules (BCRs)" [ref=f726e336] [cursor=pointer]:
+                - /url: /content/dam/mccom/shared/footer/mastercard-bcrs.pdf
+            - listitem [ref=f726e337]:
+              - link "California Privacy Notice" [ref=f726e338] [cursor=pointer]:
+                - /url: /us/en/global-privacy-notice.html#addendum
+            - listitem [ref=f726e339]:
+              - link "Modern Slavery Statement" [ref=f726e340] [cursor=pointer]:
+                - /url: /us/en/for-the-world/about-us/mastercard-modern-slavery-and-human-trafficking-statement.html
+        - generic [ref=f726e342]:
+          - heading "MASTERCARD SITES" [level=6] [ref=f726e345]:
+            - button "MASTERCARD SITES" [expanded]
+          - list "MASTERCARD SITES" [ref=f726e348]:
+            - listitem [ref=f726e349]:
+              - link "Visit priceless.com website" [ref=f726e350] [cursor=pointer]:
+                - /url: https://www.priceless.com/
+                - text: Priceless.com
+                - generic [ref=f726e351]: opens in a new tab
+                - text: 
+            - listitem [ref=f726e352]:
+              - link "Visit Mastercard business intelligence for more insights from mastercard" [ref=f726e353] [cursor=pointer]:
+                - /url: https://mbi.mastercardservices.com/?utm_source=mastercardwebsite&utm_medium=footer&utm_campaign=services&utm_id=mbi&utm_term=global&utm_content=mastercard_business_intelligence
+                - text: Mastercard Business Intelligence
+                - generic [ref=f726e354]: opens in a new tab
+                - text: 
+            - listitem [ref=f726e355]:
+              - link "Mastercard Developers opens in a new tab " [ref=f726e356] [cursor=pointer]:
+                - /url: https://developer.mastercard.com
+                - text: Mastercard Developers
+                - generic [ref=f726e357]: opens in a new tab
+                - text: 
+            - listitem [ref=f726e358]:
+              - link "Mastercard Marketing Center opens in a new tab " [ref=f726e359] [cursor=pointer]:
+                - /url: https://www.mastercard.com/marketingcenter
+                - text: Mastercard Marketing Center
+                - generic [ref=f726e360]: opens in a new tab
+                - text: 
+            - listitem [ref=f726e361]:
+              - link "Center for Inclusive Growth opens in a new tab " [ref=f726e362] [cursor=pointer]:
+                - /url: https://www.mastercardcenter.org/
+                - text: Center for Inclusive Growth
+                - generic [ref=f726e363]: opens in a new tab
+                - text: 
+      - separator [ref=f726e366]
+      - generic [ref=f726e368]:
+        - generic [ref=f726e370]:
+          - paragraph [ref=f726e373]: © 1994-2026 Mastercard.
+          - list [ref=f726e377]:
+            - listitem [ref=f726e378]:
+              - link "Privacy" [ref=f726e379] [cursor=pointer]:
+                - /url: /us/en/global-privacy-notice.html
+              - text: 
+            - listitem [ref=f726e380]:
+              - link "Terms" [ref=f726e381] [cursor=pointer]:
+                - /url: /us/en/terms-of-use.html
+              - text: 
+            - listitem [ref=f726e382]:
+              - link "Manage cookies" [ref=f726e383] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=f726e384]:
+              - link "Your Privacy Choices" [ref=f726e385] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f726e387]:
+          - generic [ref=f726e391]:
+            - generic [ref=f726e392]: Select a country
+            - generic [ref=f726e394]:
+              - combobox [ref=f726e395] [cursor=pointer]: United States (English)
+              - generic [ref=f726e396] [cursor=pointer]
+            - alert
+          - list [ref=f726e401]:
+            - listitem [ref=f726e402]:
+              - link " Linkedin" [ref=f726e403] [cursor=pointer]:
+                - /url: http://www.linkedin.com/company/mastercard
+            - listitem [ref=f726e404]:
+              - link " Facebook" [ref=f726e405] [cursor=pointer]:
+                - /url: https://www.facebook.com/MasterCardUS?brand_redir=1
+            - listitem [ref=f726e406]:
+              - link " Twitter/X" [ref=f726e407] [cursor=pointer]:
+                - /url: https://x.com/mastercardnews
+            - listitem [ref=f726e408]:
+              - link " Youtube" [ref=f726e409] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/MasterCard
+  - dialog "How we use cookies and your consent" [ref=f726e412]:
+    - generic [ref=f726e413]:
+      - generic [ref=f726e414]:
+        - generic:
+          - heading "How we use cookies and your consent" [level=2] [ref=f726e415]
+          - generic [ref=f726e416]: We use cookies and similar technologies (‘Cookies’) on our websites to improve them, measure their performance, understand our audience and enhance the user experience. On some sites, we also use Cookies to show ads based on users’ browsing activities and interests on the site and other sites. Click ‘Manage Cookies’ below to learn what Cookies we use on this site and why. You can always change your consent preferences using the ‘Manage Cookies’ tool at the bottom of the screen (available as a link instead of a button on some sites). This includes rejecting some or all Cookies, except those that are strictly necessary for the site to work.
+      - generic [ref=f726e418]:
+        - button "Accept cookies" [ref=f726e419] [cursor=pointer]
+        - button "Reject all" [ref=f726e420] [cursor=pointer]
+        - button "Manage cookies, Opens the preference center dialog" [ref=f726e421] [cursor=pointer]: Manage cookies

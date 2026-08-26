@@ -1,0 +1,151 @@
+- generic [active] [ref=f192e1]:
+  - generic [ref=f192e2]:
+    - generic [ref=f192e4]:
+      - link [ref=f192e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f192e18]:
+        - listitem [ref=f192e19]:
+          - link "Events" [ref=f192e20] [cursor=pointer]:
+            - /url: /events
+        - listitem [ref=f192e22]:
+          - link "ETHConf New" [ref=f192e23] [cursor=pointer]:
+            - /url: https://ethconf.com/?utm_source=ethglobal
+            - generic [ref=f192e24]:
+              - text: ETHConf
+              - generic [ref=f192e25]: New
+        - listitem [ref=f192e26]:
+          - link "Plus" [ref=f192e27] [cursor=pointer]:
+            - /url: /plus
+        - listitem [ref=f192e29]:
+          - link "Showcase" [ref=f192e30] [cursor=pointer]:
+            - /url: /showcase
+        - listitem [ref=f192e32]:
+          - link "Faucet" [ref=f192e33] [cursor=pointer]:
+            - /url: /faucet
+        - listitem [ref=f192e35]:
+          - link "Swag" [ref=f192e36] [cursor=pointer]:
+            - /url: /swag
+        - listitem [ref=f192e38]:
+          - link "About" [ref=f192e39] [cursor=pointer]:
+            - /url: /about
+      - link "Login" [ref=f192e42] [cursor=pointer]:
+        - /url: /auth?use_redirect=/showcase/kinora-5dtqg
+    - generic [ref=f192e44]:
+      - generic [ref=f192e46]:
+        - generic [ref=f192e47]:
+          - generic [ref=f192e50]:
+            - img "Kinora video demo" [ref=f192e51]
+            - button [ref=f192e53] [cursor=pointer]
+          - img "project screenshot 1" [ref=f192e58]
+          - img "project screenshot 2" [ref=f192e61]
+          - img "project screenshot 3" [ref=f192e64]
+        - banner [ref=f192e66]:
+          - heading "Kinora" [level=1] [ref=f192e67]
+          - paragraph [ref=f192e68]: Autonomous agents negotiate and pay for real music licences with x402, settled live on Hedera.
+          - generic [ref=f192e69]:
+            - link "Live Demo" [ref=f192e70] [cursor=pointer]:
+              - /url: https://github.com/SweetieBirdX/Kinora
+            - link "Source Code" [ref=f192e71] [cursor=pointer]:
+              - /url: https://github.com/SweetieBirdX/Kinora
+      - generic [ref=f192e72]:
+        - generic [ref=f192e73]:
+          - generic [ref=f192e75]:
+            - heading "Kinora" [level=2] [ref=f192e76]
+            - heading "Created At" [level=3] [ref=f192e77]
+            - link "ETHGlobal Lisbon 2026" [ref=f192e78] [cursor=pointer]:
+              - /url: /events/lisbon2026
+          - generic [ref=f192e80]:
+            - heading "Project Description" [level=3] [ref=f192e81]
+            - generic [ref=f192e82]:
+              - paragraph [ref=f192e83]: Kinora is an autonomous music licensing marketplace where two AI agents — one representing a rights holder, one representing a buyer — negotiate, verify each other's identity, pay, and settle real licences entirely on Hedera, with no human approving the deal.
+              - paragraph [ref=f192e84]: "The rights holder writes their licensing terms once, in plain English. An LLM parses that sentence into machine-enforced rules: which licence types are allowed, the minimum price per share, the maximum share a single licence can grant, and any forbidden use cases. From that point on, every incoming offer is checked against three fail-closed gates, in order. Identity: the buyer's HCS-14 agent ID is resolved from an on-chain registry on Hedera Consensus Service and must pass a compliance attestation. Policy: the offer's licence type, price, and share count are checked deterministically against the rights holder's rules — the same offer always gets the same verdict, so it can't be gamed. Availability: is there actually enough of the track's licensing capacity left to grant. Any single failure rejects the offer outright, before anything is priced or paid."
+              - paragraph [ref=f192e85]: "If an offer is accepted, the buyer's agent settles payment over the x402 protocol, moving real HBAR on Hedera testnet, cryptographically bound to the exact negotiated terms so a different request can't be substituted at payment time. Settlement triggers an idempotent chain: an audit entry and reputation feedback are written to Hedera Consensus Service, the track's remaining capacity is decremented, and a licence certificate is minted to the buyer as an NFT via Hedera Token Service — carrying a real 5% royalty fee schedule that automatically pays the rights holder on any future resale."
+              - paragraph [ref=f192e86]: "Negotiation is a genuine multi-round exchange over the A2A protocol: a buyer can open with a low offer, get declined with the price floor disclosed, and counter-offer autonomously within the same session — backed by real, persisted protocol state, not a scripted exchange."
+              - paragraph [ref=f192e87]: Kinora runs entirely on native Hedera services, with zero Solidity and zero smart contracts, verified by both a source-code grep and a full automated regression suite. Every completed licence, identity check, and payment is independently verifiable through Hedera's mirror node, not just our own database.
+            - heading "How it's Made" [level=3] [ref=f192e88]
+            - generic [ref=f192e89]:
+              - paragraph [ref=f192e90]: Kinora is TypeScript end to end, built directly on Hedera SDKs — no Solidity, no EVM. Two agent processes talk over the A2A protocol (@a2a-js/sdk, AgentCard 1.0/0.3 over JSON-RPC), each backed by a genuine Task state machine — offers, counter-offers, and decisions persist and carry context across rounds, they aren't scripted request/response calls dressed up to look like a negotiation.
+              - paragraph [ref=f192e91]: Payments run over x402 (@x402/hedera), settled with the blocky402 testnet facilitator, which handled the 402 → sign → 200 payment-verification flow for us so we didn't have to build our own settlement server. The paid endpoint cross-checks every incoming request against the exact terms that were actually negotiated and accepted — track, shares, licence type, territory, use case — so a buyer can't negotiate a cheap licence and then request something different at payment time.
+              - paragraph [ref=f192e92]: "Identity runs on HCS-14: each agent's UAID is derived deterministically from its Hedera account, and its profile is published to a Hedera Consensus Service topic we treat as an on-chain registry, since the HCS-14 spec itself doesn't mandate one. A completed licence triggers an idempotent chain — HCS audit entry, HCS reputation feedback, capacity decrement, and an HTS certificate NFT minted to the buyer, with a real 5% royalty fee schedule baked in at token creation."
+              - paragraph [ref=f192e93]: The rights holder's licensing terms are written once in plain English and parsed into structured, machine-checkable rules by Groq (llama-3.3-70b), which we chose specifically for low-latency inference so policy updates feel instant in the demo.
+              - paragraph [ref=f192e94]: "The hackiest bug we caught ourselves: our A2A layer was generating a taskId on every reply that looked resumable but wasn't — nothing was actually persisted, so following up on that id threw \"task not found.\" We fixed it by wiring the executor to actually persist the task before replying, which is also what made real multi-round negotiation possible — a buyer's counter-offer now genuinely continues the same session instead of starting fresh. We also deliberately left the royalty's fallback fee unset — our certificate delivery transfer carries no accompanying HBAR, so a fallback fee would have silently charged buyers on every legitimate delivery, not just resales."
+        - generic [ref=f192e95]:
+          - img "background image" [ref=f192e96]
+          - generic [ref=f192e97]:
+            - heading "Join the mailing list" [level=2] [ref=f192e98]
+            - heading "Get the latest news and updates" [level=3] [ref=f192e99]
+            - generic [ref=f192e100]:
+              - textbox "Your email address" [ref=f192e102]
+              - button "Get on the list" [ref=f192e103] [cursor=pointer]
+    - contentinfo [ref=f192e104]:
+      - generic [ref=f192e105]:
+        - generic [ref=f192e117]:
+          - generic [ref=f192e118]:
+            - heading "Sign up to get the latest news and updates on ETHGlobal" [level=2] [ref=f192e119]
+            - generic [ref=f192e120]:
+              - textbox "Your email address" [ref=f192e121]
+              - button [ref=f192e122] [cursor=pointer]
+          - generic [ref=f192e125]:
+            - heading "Products" [level=2] [ref=f192e126]
+            - list [ref=f192e127]:
+              - listitem [ref=f192e128]:
+                - link "ETHConf" [ref=f192e129] [cursor=pointer]:
+                  - /url: https://ethconf.com/r/egcom
+              - listitem [ref=f192e130]:
+                - link "Events" [ref=f192e131] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f192e132]:
+                - link "Pragma" [ref=f192e133] [cursor=pointer]:
+                  - /url: /pragma
+              - listitem [ref=f192e134]:
+                - link "Packs" [ref=f192e135] [cursor=pointer]:
+                  - /url: /packs
+              - listitem [ref=f192e136]:
+                - link "Plus New" [ref=f192e137] [cursor=pointer]:
+                  - /url: /plus
+                  - text: Plus
+                  - generic [ref=f192e138]: New
+              - listitem [ref=f192e139]:
+                - link "Faucet" [ref=f192e140] [cursor=pointer]:
+                  - /url: /faucet
+          - generic [ref=f192e141]:
+            - heading "Legal" [level=2] [ref=f192e142]
+            - list [ref=f192e143]:
+              - listitem [ref=f192e144]:
+                - link "Rules & Conduct" [ref=f192e145] [cursor=pointer]:
+                  - /url: /rules
+              - listitem [ref=f192e146]:
+                - link "Privacy Policy" [ref=f192e147] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=f192e148]:
+            - heading "Company" [level=2] [ref=f192e149]
+            - list [ref=f192e150]:
+              - listitem [ref=f192e151]:
+                - link "About" [ref=f192e152] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f192e153]:
+                - link "Brand" [ref=f192e154] [cursor=pointer]:
+                  - /url: /brand
+              - listitem [ref=f192e155]:
+                - link "Careers Hiring" [ref=f192e156] [cursor=pointer]:
+                  - /url: /careers
+                  - text: Careers
+                  - generic [ref=f192e157]: Hiring
+        - generic [ref=f192e158]:
+          - paragraph [ref=f192e159]: © 2026 ETHGlobal. All rights reserved.
+          - list [ref=f192e160]:
+            - listitem [ref=f192e161]:
+              - link [ref=f192e162] [cursor=pointer]:
+                - /url: https://x.com/ethglobal
+            - listitem [ref=f192e166]:
+              - link [ref=f192e167] [cursor=pointer]:
+                - /url: /discord
+            - listitem [ref=f192e171]:
+              - link [ref=f192e172] [cursor=pointer]:
+                - /url: https://www.youtube.com/ethglobal
+            - listitem [ref=f192e175]:
+              - link [ref=f192e176] [cursor=pointer]:
+                - /url: https://mirror.xyz/blog.ethglobal.eth
+  - region "Notifications alt+T"
+  - region "Notifications alt+T"
+  - alert [ref=f192e181]

@@ -1,0 +1,123 @@
+[     570ms] Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rL (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:42288)
+    at uW (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:83613)
+    at o3 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107294)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107176)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102021)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     572ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lR (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:47102)
+    at i (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:121372)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107116)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102021)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     572ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lR (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:47102)
+    at i (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:121372)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107116)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102021)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     582ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lR (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:47102)
+    at i (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:121372)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107116)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102021)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     583ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lR (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:47102)
+    at i (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:121372)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107116)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102021)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     583ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lR (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:47102)
+    at i (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:121372)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107116)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102021)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     583ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lR (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:47102)
+    at i (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:121372)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107116)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102021)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     583ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lR (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:47102)
+    at i (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:121372)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107116)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102021)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     583ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lR (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:47102)
+    at i (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:121372)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107116)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102021)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     584ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at lR (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:47102)
+    at i (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:121372)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107116)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102021)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     584ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at i (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:121036)
+    at o2 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107116)
+    at o0 (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:107044)
+    at oJ (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:106907)
+    at oj (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:103694)
+    at oA (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:9:102249)
+    at x (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1374)
+    at MessagePort.T (https://www.business-standard.com/_next/static/chunks/framework-77ae801ea60e204e.js:33:1904)
+[     528ms] [LOG] premium story is loading............ @ https://www.business-standard.com/_next/static/chunks/23859.f28d7ec5f6953729.js:0
+[     815ms] [LOG] Service Worker registered with scope Intersitial: https://www.business-standard.com/ @ https://www.business-standard.com/_next/static/chunks/80228.c0e091631398d16d.js:0
+[    3512ms] [LOG] _ga cookie not found. @ :0
+[    3520ms] ReferenceError: clevertap is not defined
+    at <anonymous>:1:1
+    at https://www.googletagmanager.com/gtm.js?id=GTM-M8D9H9R:890:429
+    at qS (https://www.googletagmanager.com/gtm.js?id=GTM-M8D9H9R:892:31)
+    at Hd.pS (https://www.googletagmanager.com/gtm.js?id=GTM-M8D9H9R:889:92)
+    at Hd.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-M8D9H9R:295:187)
+    at l.apply (https://www.googletagmanager.com/gtm.js?id=GTM-M8D9H9R:218:466)
+    at fb (https://www.googletagmanager.com/gtm.js?id=GTM-M8D9H9R:180:750)
+    at eb (https://www.googletagmanager.com/gtm.js?id=GTM-M8D9H9R:180:501)
+    at Hd.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-M8D9H9R:242:473)
+    at l.apply (https://www.googletagmanager.com/gtm.js?id=GTM-M8D9H9R:218:466)
+[    3547ms] [WARNING] [GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608180101/pubads_impl.js?cb=122880555:18
+[    3820ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608180101/pubads_impl.js?cb=122880555:18
+[    3932ms] [WARNING] Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either the publisherProvidedId or the __gads value when that is missing. @ https://cdn.jsdelivr.net/gh/prebid/shared-id/pubcid.js/docs/pubcid.min.js:0
+[    4012ms] [LOG] AffinityPrebid HVR 1784624662 h-n-c-11.2.0 Loaded @ https://cdn4-hbs.affinitymatrix.com/hvrlib/business-standard.com/1786724342/v2.js:0
+[    4224ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608180101/pubads_impl.js?cb=122880555:18
+[    4227ms] [INFO] afflib Geo is resolved @ https://cdn4-hbs.affinitymatrix.com/hvrlib/business-standard.com/1786724342/v2.js:0

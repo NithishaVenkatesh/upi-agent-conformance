@@ -1,0 +1,164 @@
+- generic [active] [ref=f191e1]:
+  - generic [ref=f191e2]:
+    - generic [ref=f191e4]:
+      - link [ref=f191e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=f191e18]:
+        - listitem [ref=f191e19]:
+          - link "Events" [ref=f191e20] [cursor=pointer]:
+            - /url: /events
+        - listitem [ref=f191e22]:
+          - link "ETHConf New" [ref=f191e23] [cursor=pointer]:
+            - /url: https://ethconf.com/?utm_source=ethglobal
+            - generic [ref=f191e24]:
+              - text: ETHConf
+              - generic [ref=f191e25]: New
+        - listitem [ref=f191e26]:
+          - link "Plus" [ref=f191e27] [cursor=pointer]:
+            - /url: /plus
+        - listitem [ref=f191e29]:
+          - link "Showcase" [ref=f191e30] [cursor=pointer]:
+            - /url: /showcase
+        - listitem [ref=f191e32]:
+          - link "Faucet" [ref=f191e33] [cursor=pointer]:
+            - /url: /faucet
+        - listitem [ref=f191e35]:
+          - link "Swag" [ref=f191e36] [cursor=pointer]:
+            - /url: /swag
+        - listitem [ref=f191e38]:
+          - link "About" [ref=f191e39] [cursor=pointer]:
+            - /url: /about
+      - link "Login" [ref=f191e42] [cursor=pointer]:
+        - /url: /auth?use_redirect=/showcase/hourglass-0gp1c
+    - generic [ref=f191e44]:
+      - generic [ref=f191e46]:
+        - generic [ref=f191e47]:
+          - generic [ref=f191e50]:
+            - img "Hourglass video demo" [ref=f191e51]
+            - button [ref=f191e53] [cursor=pointer]
+          - img "project screenshot 1" [ref=f191e58]
+          - img "project screenshot 2" [ref=f191e61]
+          - img "project screenshot 3" [ref=f191e64]
+          - img "project screenshot 4" [ref=f191e67]
+          - img "project screenshot 5" [ref=f191e70]
+          - img "project screenshot 6" [ref=f191e73]
+        - banner [ref=f191e75]:
+          - heading "Hourglass" [level=1] [ref=f191e76]
+          - paragraph [ref=f191e77]: Automate subscriptions, payrolls, DCA, and yield for Safe — non-custodial, revocable delegations.
+          - generic [ref=f191e78]:
+            - link "Live Demo" [ref=f191e79] [cursor=pointer]:
+              - /url: https://hourglass.box
+            - link "Source Code" [ref=f191e80] [cursor=pointer]:
+              - /url: https://github.com/intuition-box/Hourglass
+      - generic [ref=f191e81]:
+        - generic [ref=f191e82]:
+          - generic [ref=f191e84]:
+            - heading "Hourglass" [level=2] [ref=f191e85]
+            - heading "Created At" [level=3] [ref=f191e86]
+            - link "ETHGlobal Lisbon 2026" [ref=f191e87] [cursor=pointer]:
+              - /url: /events/lisbon2026
+          - generic [ref=f191e89]:
+            - heading "Project Description" [level=3] [ref=f191e90]
+            - generic [ref=f191e91]:
+              - paragraph [ref=f191e92]: Hourglass turns a Safe into an automation hub for recurring on-chain operations — subscriptions, DCA strategies, limit orders, and Uniswap LP positions with auto-compounding, without ever handing over custody of the funds.
+              - paragraph [ref=f191e93]: "The Safe signs one bounded, revocable delegation per operation instead of a blank-check approval. A delegate ,either a contributor on payroll or an autonomous agent, redeems it. The delegation's on-chain caveat enforcers pin exactly what can happen:"
+              - list [ref=f191e94]:
+                - listitem [ref=f191e95]: which contract
+                - listitem [ref=f191e96]: which method
+                - listitem [ref=f191e97]: how much
+                - listitem [ref=f191e98]: and where the money can land.
+              - paragraph [ref=f191e99]: A compromised or misbehaving delegate can trigger the bounded action. it can't redirect funds, exceed the cap, or touch anything else. Revoking is a single multisig action.
+              - paragraph [ref=f191e100]: "Hourglass provide two ways to execute Defi strategies :"
+              - list [ref=f191e101]:
+                - listitem [ref=f191e102]: you provide your agent the hourglass skill
+                - listitem [ref=f191e103]: you let us spin an agent on 0G for you In both case, the agent discover and redeems its own signed delegation and act within its scoped permission, no key handoff, same on-chain guarantees either way.
+            - heading "How it's Made" [level=3] [ref=f191e104]
+            - generic [ref=f191e105]:
+              - paragraph [ref=f191e106]: "Frontend is made with : -Vite"
+              - list [ref=f191e107]:
+                - listitem [ref=f191e108]: React
+                - listitem [ref=f191e109]: "TypeScript Safe App, using @safe-global/safe-apps-react-sdk to run inside Safe{Wallet} and wagmi/viem for chain reads."
+              - paragraph [ref=f191e110]: All delegation building and signing goes through MetaMask's Smart Accounts Kit (the Delegation Framework, ERC-7710) — every mandate (the deposit's exact-execution pins, the compound mandate's collect + increaseLiquidity scope, the subscription's period-transfer bound) is our own design, composed from the framework's on-chain enforcer contracts rather than custom Solidity we had to write and audit ourselves.
+              - paragraph [ref=f191e111]: The agent use The Graph to query yield opportunity, and move the Safe treasury on Uniswap LP positions by redeeming its delegation, then choose to auto-compounded (collect + increaseLiquidity) via the same delegation primitives; swaps route through the Uniswap Trading API with CLASSIC routing so the resulting router call stays redeemable under a delegation.
+              - paragraph [ref=f191e112]: The agent side (yield-agent.ts, run-compound.ts) runs on Bun with viem, discovering and redeeming plans with no custody of principal, only gas.
+              - paragraph [ref=f191e113]: We leverage the Intuition Protocol as the discovery register for the signed, off-chain delegation.
+        - generic [ref=f191e114]:
+          - img "background image" [ref=f191e115]
+          - generic [ref=f191e116]:
+            - heading "Join the mailing list" [level=2] [ref=f191e117]
+            - heading "Get the latest news and updates" [level=3] [ref=f191e118]
+            - generic [ref=f191e119]:
+              - textbox "Your email address" [ref=f191e121]
+              - button "Get on the list" [ref=f191e122] [cursor=pointer]
+    - contentinfo [ref=f191e123]:
+      - generic [ref=f191e124]:
+        - generic [ref=f191e136]:
+          - generic [ref=f191e137]:
+            - heading "Sign up to get the latest news and updates on ETHGlobal" [level=2] [ref=f191e138]
+            - generic [ref=f191e139]:
+              - textbox "Your email address" [ref=f191e140]
+              - button [ref=f191e141] [cursor=pointer]
+          - generic [ref=f191e144]:
+            - heading "Products" [level=2] [ref=f191e145]
+            - list [ref=f191e146]:
+              - listitem [ref=f191e147]:
+                - link "ETHConf" [ref=f191e148] [cursor=pointer]:
+                  - /url: https://ethconf.com/r/egcom
+              - listitem [ref=f191e149]:
+                - link "Events" [ref=f191e150] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f191e151]:
+                - link "Pragma" [ref=f191e152] [cursor=pointer]:
+                  - /url: /pragma
+              - listitem [ref=f191e153]:
+                - link "Packs" [ref=f191e154] [cursor=pointer]:
+                  - /url: /packs
+              - listitem [ref=f191e155]:
+                - link "Plus New" [ref=f191e156] [cursor=pointer]:
+                  - /url: /plus
+                  - text: Plus
+                  - generic [ref=f191e157]: New
+              - listitem [ref=f191e158]:
+                - link "Faucet" [ref=f191e159] [cursor=pointer]:
+                  - /url: /faucet
+          - generic [ref=f191e160]:
+            - heading "Legal" [level=2] [ref=f191e161]
+            - list [ref=f191e162]:
+              - listitem [ref=f191e163]:
+                - link "Rules & Conduct" [ref=f191e164] [cursor=pointer]:
+                  - /url: /rules
+              - listitem [ref=f191e165]:
+                - link "Privacy Policy" [ref=f191e166] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=f191e167]:
+            - heading "Company" [level=2] [ref=f191e168]
+            - list [ref=f191e169]:
+              - listitem [ref=f191e170]:
+                - link "About" [ref=f191e171] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f191e172]:
+                - link "Brand" [ref=f191e173] [cursor=pointer]:
+                  - /url: /brand
+              - listitem [ref=f191e174]:
+                - link "Careers Hiring" [ref=f191e175] [cursor=pointer]:
+                  - /url: /careers
+                  - text: Careers
+                  - generic [ref=f191e176]: Hiring
+        - generic [ref=f191e177]:
+          - paragraph [ref=f191e178]: © 2026 ETHGlobal. All rights reserved.
+          - list [ref=f191e179]:
+            - listitem [ref=f191e180]:
+              - link [ref=f191e181] [cursor=pointer]:
+                - /url: https://x.com/ethglobal
+            - listitem [ref=f191e185]:
+              - link [ref=f191e186] [cursor=pointer]:
+                - /url: /discord
+            - listitem [ref=f191e190]:
+              - link [ref=f191e191] [cursor=pointer]:
+                - /url: https://www.youtube.com/ethglobal
+            - listitem [ref=f191e194]:
+              - link [ref=f191e195] [cursor=pointer]:
+                - /url: https://mirror.xyz/blog.ethglobal.eth
+  - region "Notifications alt+T"
+  - region "Notifications alt+T"
+  - alert [ref=f191e200]

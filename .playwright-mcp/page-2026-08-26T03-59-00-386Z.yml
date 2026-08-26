@@ -1,0 +1,402 @@
+- generic [active] [ref=f74e1]:
+  - generic [ref=f74e2]:
+    - generic [ref=f74e4]:
+      - link "Skip to main content" [ref=f74e6] [cursor=pointer]:
+        - /url: "#mainsection"
+      - generic [ref=f74e7]:
+        - list:
+          - listitem [ref=f74e8]:
+            - button "Increase Letter Spacing Not Pressed" [ref=f74e9] [cursor=pointer]:
+              - img "Increase Letter Spacing" [ref=f74e10]
+              - generic [ref=f74e11]: Not Pressed
+          - listitem [ref=f74e12]:
+            - button "Increase Font Size Not Pressed" [ref=f74e13] [cursor=pointer]:
+              - img "Increase Font Size" [ref=f74e14]
+              - generic [ref=f74e15]: Not Pressed
+          - listitem [ref=f74e16]:
+            - button "Regular Font Size Pressed" [ref=f74e17] [cursor=pointer]:
+              - img "Regular Font Size" [ref=f74e18]
+              - generic [ref=f74e19]: Pressed
+          - listitem [ref=f74e20]:
+            - button "Decrease Font Size Not Pressed" [ref=f74e21] [cursor=pointer]:
+              - img "Decrease Font Size" [ref=f74e22]
+              - generic [ref=f74e23]: Not Pressed
+        - list:
+          - listitem [ref=f74e24] [cursor=pointer]:
+            - button "Apply Dark Theme Not Pressed" [ref=f74e25]:
+              - img "Apply Dark Theme" [ref=f74e26]
+              - generic [ref=f74e27]: Not Pressed
+          - listitem [ref=f74e28] [cursor=pointer]:
+            - button "Apply Normal Theme Pressed" [ref=f74e29]:
+              - img "Apply Normal Theme" [ref=f74e30]
+              - generic [ref=f74e31]: Pressed
+          - listitem [ref=f74e32] [cursor=pointer]:
+            - button "Apply Grey Theme Not Pressed" [ref=f74e33]:
+              - img "Apply Grey Theme" [ref=f74e34]
+              - generic [ref=f74e35]: Not Pressed
+        - generic:
+          - link "Print this page":
+            - /url: "#"
+            - img "Print this page" [ref=f74e36] [cursor=pointer]
+        - generic [ref=f74e37]:
+          - text: Change Language
+          - link "हिंदी" [ref=f74e38] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=f74e40]:
+      - banner [ref=f74e41]:
+        - link [ref=f74e43] [cursor=pointer]:
+          - /url: /home.aspx
+          - img "Logo of Official website of Reserve Bank of India" [ref=f74e44]
+      - search [ref=f74e45]:
+        - text: Search the Website
+        - textbox "Search the Website" [ref=f74e46]:
+          - /placeholder: Search
+        - button "Search" [ref=f74e47] [cursor=pointer]
+      - img "Beti Bachao Beti Padhao Logo" [ref=f74e50]
+    - navigation "Main" [ref=f74e52]:
+      - list [ref=f74e55]:
+        - listitem [ref=f74e56]:
+          - link "Home" [ref=f74e57] [cursor=pointer]:
+            - /url: https://rbi.org.in/home.aspx
+        - listitem [ref=f74e58]:
+          - button "About Us ▼" [ref=f74e59] [cursor=pointer]
+        - listitem [ref=f74e60]:
+          - button "Notification ▼" [ref=f74e61] [cursor=pointer]
+        - listitem [ref=f74e62]:
+          - link "Press Releases" [ref=f74e63] [cursor=pointer]:
+            - /url: /scripts/BS_PressReleaseDisplay.aspx
+        - listitem [ref=f74e64]:
+          - button "Speeches & Media Interactions ▼" [ref=f74e65] [cursor=pointer]
+        - listitem [ref=f74e66]:
+          - button "Publications ▼" [ref=f74e67] [cursor=pointer]
+        - listitem [ref=f74e68]:
+          - button "Legal Framework ▼" [ref=f74e69] [cursor=pointer]
+        - listitem [ref=f74e70]:
+          - button "Research ▼" [ref=f74e71] [cursor=pointer]
+        - listitem [ref=f74e72]:
+          - button "Statistics ▼" [ref=f74e73] [cursor=pointer]
+        - listitem [ref=f74e74]:
+          - button "Regulatory Reporting ▼" [ref=f74e75] [cursor=pointer]
+    - main [ref=f74e76]:
+      - navigation "Breadcrumb" [ref=f74e77]:
+        - list [ref=f74e78]:
+          - listitem [ref=f74e79]:
+            - link "Home" [ref=f74e80] [cursor=pointer]:
+              - /url: ../Home.aspx
+          - listitem [ref=f74e81]:
+            - link "Notifications" [ref=f74e82] [cursor=pointer]:
+              - /url: NotificationUser.aspx
+          - listitem [ref=f74e84]: Master Directions
+      - generic [ref=f74e86]:
+        - heading "Master Directions" [level=1] [ref=f74e87]
+        - generic [ref=f74e88]:
+          - link [ref=f74e89] [cursor=pointer]:
+            - /url: https://rbidocs.rbi.org.in/rdocs/notification/PDFs/396MDD002E435ECA145509929FC3ACBCFD0E9.PDF
+            - img "PDF - Digital Payments – E-mandate Framework, 2026" [ref=f74e90]
+          - text: (242 kb)
+          - heading "Digital Payments – E-mandate Framework, 2026" [level=2] [ref=f74e91]
+          - table [ref=f74e92]:
+            - rowgroup [ref=f74e93]:
+              - row [ref=f74e94]:
+                - cell [ref=f74e95]:
+                  - paragraph [ref=f74e96]: RBI/DPSS/2026-27/396 RBI/CO.DPSS.POLC.No.S56/02.14.003/2026-27
+                  - paragraph [ref=f74e97]: April 21, 2026
+                  - table [ref=f74e98]:
+                    - rowgroup [ref=f74e99]:
+                      - row [ref=f74e100]:
+                        - cell "Index" [ref=f74e101]
+                      - row [ref=f74e102]:
+                        - cell [ref=f74e103]:
+                          - link "Introduction" [ref=f74e104] [cursor=pointer]:
+                            - /url: "#12"
+                      - row [ref=f74e105]:
+                        - cell [ref=f74e106]:
+                          - link "Short Title and Commencement" [ref=f74e107] [cursor=pointer]:
+                            - /url: "#1"
+                      - row [ref=f74e108]:
+                        - cell [ref=f74e109]:
+                          - link "Applicability" [ref=f74e110] [cursor=pointer]:
+                            - /url: "#2"
+                      - row [ref=f74e111]:
+                        - cell [ref=f74e112]:
+                          - link "Definitions" [ref=f74e113] [cursor=pointer]:
+                            - /url: "#3"
+                      - row [ref=f74e114]:
+                        - cell [ref=f74e115]:
+                          - link "Registration and revocation of E-mandate" [ref=f74e116] [cursor=pointer]:
+                            - /url: "#4"
+                      - row [ref=f74e117]:
+                        - cell [ref=f74e118]:
+                          - link "Processing of First Transaction and Subsequent Recurring Transactions" [ref=f74e119] [cursor=pointer]:
+                            - /url: "#5"
+                      - row [ref=f74e120]:
+                        - cell [ref=f74e121]:
+                          - link "Pre-Transaction Notification" [ref=f74e122] [cursor=pointer]:
+                            - /url: "#6"
+                      - row [ref=f74e123]:
+                        - cell [ref=f74e124]:
+                          - link "Post-Transaction Notification" [ref=f74e125] [cursor=pointer]:
+                            - /url: "#7"
+                      - row [ref=f74e126]:
+                        - cell [ref=f74e127]:
+                          - link "Transaction Limits and Velocity Check" [ref=f74e128] [cursor=pointer]:
+                            - /url: "#8"
+                      - row [ref=f74e129]:
+                        - cell [ref=f74e130]:
+                          - link "Dispute Resolution and Grievance Redressal" [ref=f74e131] [cursor=pointer]:
+                            - /url: "#9"
+                      - row [ref=f74e132]:
+                        - cell [ref=f74e133]:
+                          - link "Other Provisions" [ref=f74e134] [cursor=pointer]:
+                            - /url: "#10"
+                      - row [ref=f74e135]:
+                        - cell [ref=f74e136]:
+                          - link "Repeal" [ref=f74e137] [cursor=pointer]:
+                            - /url: "#11"
+                  - paragraph [ref=f74e138]: Digital Payments – E-mandate Framework, 2026
+                  - paragraph [ref=f74e139]: In exercise of the powers conferred by Sections 10(2) read with Section 18 of the Payment and Settlement Systems (PSS) Act, 2007, the Reserve Bank of India (RBI), being satisfied that it is necessary and expedient in the public interest so to do, hereby consolidates all circulars pertaining to e-mandates and issues the Directions hereinafter specified.
+                  - paragraph [ref=f74e140]: 1. Short Title and Commencement
+                  - paragraph [ref=f74e141]: (a) These Directions shall be called the “Digital Payments - E-mandate Framework, 2026”.
+                  - paragraph [ref=f74e142]: (b) These Directions shall be effective immediately.
+                  - paragraph [ref=f74e143]: 2. Applicability
+                  - paragraph [ref=f74e144]: The provisions of these Directions shall be applicable to all Payment System Providers and Payment System Participants in respect of processing of recurring transactions, domestic or cross-border, using cards / PPI / UPI.
+                  - paragraph [ref=f74e145]: 3. Definitions
+                  - paragraph [ref=f74e146]:
+                    - text: (a) The terms ‘authentication’, ’factor of authentication’, ‘issuer’, ‘merchant’ will have the same meaning as defined in
+                    - link "Reserve Bank of India (Authentication mechanisms for digital payment transactions) Directions, 2025 dated September 25, 2025" [ref=f74e147] [cursor=pointer]:
+                      - /url: https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12898&Mode=0
+                    - text: and
+                    - link "Master Direction on Regulation of Payment Aggregator (PA) dated September 15, 2025" [ref=f74e148] [cursor=pointer]:
+                      - /url: https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12896
+                    - text: .
+                  - paragraph [ref=f74e149]: 4. Registration and revocation of E-Mandate
+                  - paragraph [ref=f74e150]: (a) A customer desirous of opting for e-mandate facility shall undertake a one-time registration process. The mandate shall be registered only after successful validation of additional factor of authentication (AFA), in addition to the normal process required by the issuer.
+                  - paragraph [ref=f74e151]: (b) Every e-mandate registered by the issuer shall specify the validity period of the e-mandate. The issuer shall provide the customer with a facility to modify the validity period or withdraw the e-mandate at any point of time. Information about this facility shall be clearly communicated to the customer at the time of registration.
+                  - paragraph [ref=f74e152]: (c) The e-mandate may be for either a pre-specified fixed amount or for a variable amount subject to the overall cap fixed by the RBI. In the case of variable e-mandates, the issuer shall provide the customer with a facility to specify the maximum value of any recurring transaction.
+                  - paragraph [ref=f74e153]: (d) The customer shall be given a facility to choose or change a mode among available options (SMS, email, etc.) for receiving the pre-transaction notification from the issuer.
+                  - paragraph [ref=f74e154]: (e) Any modification in, or withdrawal of, an existing e-mandate shall require AFA validation by the issuer.
+                  - paragraph [ref=f74e155]: 5. Processing of first transaction and subsequent recurring transactions
+                  - paragraph [ref=f74e156]: (a) The first transaction under an e-mandate shall require AFA validation. If the first transaction is processed along with registration of the e-mandate, then AFA validation may be combined.
+                  - paragraph [ref=f74e157]: (b) Payments under e-mandates shall not be subject to any other limits / controls set by the customer.
+                  - paragraph [ref=f74e158]: 6. Pre-transaction Notification
+                  - paragraph [ref=f74e159]: (a) An issuer shall send a pre-transaction notification to the customer, at least 24 hours prior to the actual charge / debit.
+                  - paragraph [ref=f74e160]: (b) The pre-transaction notification shall, at the minimum, inform the customer about the merchant’s name, transaction amount, date / time of debit, reference number of e-mandate, reason for debit, i.e., e-mandate registered by the customer.
+                  - paragraph [ref=f74e161]: (c) The issuer shall provider a customer with a facility to opt-out of any particular transaction or the e-mandate. Any such opt-out shall be validated by the issuer using AFA. An intimation to this effect shall be sent to the customer.
+                  - paragraph [ref=f74e162]: (d) Pre-transaction notification is not required for e-mandates registered to auto-replenish balances of FASTag, and National Common Mobility Card (NCMC).
+                  - paragraph [ref=f74e163]: 7. Post-transaction notification
+                  - paragraph [ref=f74e164]:
+                    - text: An issuer shall send a post-transaction notification to the customer. This notification shall, at the minimum, inform the customer about the merchant’s name, transaction amount, date and time of debit, reference number of transaction and e-mandate, reason for debit, i.e., e-mandate registered by the customer, and details on grievance redressal
+                    - superscript [ref=f74e165]:
+                      - link "1" [ref=f74e166] [cursor=pointer]:
+                        - /url: "#F1"
+                    - text: .
+                  - paragraph [ref=f74e167]: 8. Transaction limits and velocity check
+                  - paragraph [ref=f74e168]: (a) All recurring transactions may be authorised without AFA up to ₹15,000/- per transaction. Transactions above this amount shall be subject to AFA.
+                  - paragraph [ref=f74e169]: (b) Payment of insurance premiums, subscription to mutual funds, and credit card bill payments may be made without AFA up to ₹1,00,000/- per transaction.
+                  - paragraph [ref=f74e170]: 9. Dispute resolution and grievance redressal
+                  - paragraph [ref=f74e171]: (a) An appropriate dispute redressal system shall be put in place by the issuer to facilitate the customer to lodge grievance/s.
+                  - paragraph [ref=f74e172]: (b) RBI instructions on limiting liability of customers for unauthorised transactions shall be applicable to recurring transactions under e-mandates as well.
+                  - paragraph [ref=f74e173]: 10. Other provisions
+                  - paragraph [ref=f74e174]: (a) No charges shall be levied to the customer for availing the e-mandate facility for recurring transactions.
+                  - paragraph [ref=f74e175]:
+                    - text: (b) In case of cards, existing e-mandate(s) can be mapped to reissued cards
+                    - superscript [ref=f74e176]:
+                      - link "2" [ref=f74e177] [cursor=pointer]:
+                        - /url: "#F2"
+                    - text: .
+                  - paragraph [ref=f74e178]: (c) An acquirer shall ensure compliance with these directions by merchants on-boarded by them.
+                  - paragraph [ref=f74e179]: 11. Repeal
+                  - paragraph [ref=f74e180]: With the issue of these directions, the instructions/guidelines contained in the following circulars, issued by the Reserve Bank stand repealed.
+                  - text: No Circular No. Date Subject 1.
+                  - link "DPSS.CO.PD.No.447/02.14.003/2019-20" [ref=f74e181] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11668&Mode=0
+                  - text: August 21, 2019 Processing of e-mandate on cards for recurring transactions 2.
+                  - link "DPSS.CO.PD No.1324/02.23.001/2019-20" [ref=f74e182] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11784&Mode=0
+                  - text: January 10, 2020 Processing of e-mandate in Unified Payments Interface (UPI) for recurring transactions 3.
+                  - link "DPSS.CO.PD No.754/02.14.003/2020-21" [ref=f74e183] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12002&Mode=0
+                  - text: December 04, 2020 Processing of e-mandates for recurring transactions 4.
+                  - link "CO.DPSS.POLC.No.S34/02-14-003/2020" [ref=f74e184] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12051&Mode=0
+                  - text: March 31, 2021 Framework for processing of e-mandates for recurring online transactions 5. Clarification issued to IBA on e-mandate based recurring transactions October 08, 2021 RBI's framework for e-mandate based recurring transactions 6.
+                  - link "CO.DPSS.POLC.No.S-518/02.14.003/2022-23" [ref=f74e185] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12341&Mode=0
+                  - text: June 16, 2022 Processing of e-mandates for recurring transactions 7.
+                  - link "CO.DPSS.POLC.No.S-882/02.14.003/2023-24" [ref=f74e186] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12570&Mode=0
+                  - text: December 12, 2023 Processing of e-mandates for recurring transactions 8.
+                  - link "CO.DPSS.POLC.No.S528/02-14-003/2024-25" [ref=f74e187] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12722&Mode=0
+                  - text: August 22, 2024 Processing of e-mandates for recurring transactions
+                  - separator [ref=f74e188]
+                  - paragraph [ref=f74e189]:
+                    - superscript [ref=f74e190]: "1"
+                    - text: The requirement for providing details of grievance redressal is added, based on feedback.
+                  - paragraph [ref=f74e191]:
+                    - superscript [ref=f74e192]: "2"
+                    - text: This clause is added based on feedback.
+      - generic [ref=f74e194]:
+        - list:
+          - listitem [ref=f74e195]:
+            - link "2026" [ref=f74e196] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f74e197]:
+            - link "2025" [ref=f74e198] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f74e199]:
+            - link "2024" [ref=f74e200] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f74e201]:
+            - link "2023" [ref=f74e202] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f74e203]:
+            - link "2022" [ref=f74e204] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f74e205]:
+            - link "2021" [ref=f74e206] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f74e207]:
+            - link "2020" [ref=f74e208] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f74e209]:
+            - link "2019" [ref=f74e210] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f74e211]:
+            - link "2018" [ref=f74e212] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f74e213]:
+            - link "2017" [ref=f74e214] [cursor=pointer]:
+              - /url: "#"
+          - heading [level=2] [ref=f74e215]:
+            - link "Archives" [ref=f74e216] [cursor=pointer]:
+              - /url: javascript:void(0);
+    - generic [ref=f74e217]:
+      - link "Back to previous page" [ref=f74e218] [cursor=pointer]:
+        - /url: javascript:history.back()
+      - text: "Last Updated On: Apr 21, 2026"
+    - contentinfo [ref=f74e219]:
+      - generic [ref=f74e220]:
+        - generic [ref=f74e221]:
+          - generic [ref=f74e222]:
+            - heading "More Links :" [level=2] [ref=f74e223]
+            - list [ref=f74e224]:
+              - listitem [ref=f74e225]:
+                - link "Bank Holidays" [ref=f74e226] [cursor=pointer]:
+                  - /url: /Scripts/HolidayMatrixDisplay.aspx
+              - listitem [ref=f74e227]:
+                - link "Banking Glossary" [ref=f74e228] [cursor=pointer]:
+                  - /url: https://shabdavali.rbi.org.in/
+              - listitem [ref=f74e229]:
+                - link "Citizen's Charter" [ref=f74e230] [cursor=pointer]:
+                  - /url: /Scripts/CitiChart.aspx
+              - listitem [ref=f74e231]:
+                - link "Complaints" [ref=f74e232] [cursor=pointer]:
+                  - /url: /Scripts/Complaints.aspx
+              - listitem [ref=f74e233]:
+                - link "Contact Us" [ref=f74e234] [cursor=pointer]:
+                  - /url: /Scripts/contactus.aspx
+              - listitem [ref=f74e235]:
+                - link "COVID-19 Measures" [ref=f74e236] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894
+              - listitem [ref=f74e237]:
+                - link "E-LMS" [ref=f74e238] [cursor=pointer]:
+                  - /url: https://ncfe.org.in/e-lms
+              - listitem [ref=f74e239]:
+                - link "Events" [ref=f74e240] [cursor=pointer]:
+                  - /url: /Scripts/EventsDisplay.aspx
+              - listitem [ref=f74e241]:
+                - link "FAQs" [ref=f74e242] [cursor=pointer]:
+                  - /url: /Scripts/FAQDisplay.aspx
+              - listitem [ref=f74e243]:
+                - link "Financial Education" [ref=f74e244] [cursor=pointer]:
+                  - /url: https://www.rbi.org.in/FinancialEducation/
+              - listitem [ref=f74e245]:
+                - link "Forms" [ref=f74e246] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewForms.aspx
+              - listitem [ref=f74e247]:
+                - link "IFSC/MICR Codes" [ref=f74e248] [cursor=pointer]:
+                  - /url: /Scripts/IFSCMICRDetails.aspx
+              - listitem [ref=f74e249]:
+                - link "Important Websites" [ref=f74e250] [cursor=pointer]:
+                  - /url: /Scripts/OtherLinks.aspx
+              - listitem [ref=f74e251]:
+                - link "Opportunities@RBI" [ref=f74e252] [cursor=pointer]:
+                  - /url: https://opportunities.rbi.org.in/scripts/index.aspx
+              - listitem [ref=f74e253]:
+                - link "RBI Clarifications" [ref=f74e254] [cursor=pointer]:
+                  - /url: /Scripts/rbi_clarification.aspx
+              - listitem [ref=f74e255]:
+                - link "RBI Kehta Hai" [ref=f74e256] [cursor=pointer]:
+                  - /url: https://rbikehtahai.rbi.org.in/
+              - listitem [ref=f74e257]:
+                - link [ref=f74e258] [cursor=pointer]:
+                  - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh202910042026.pdf
+                  - text: RBI’s Vision and Values
+                  - img "PDF document" [ref=f74e259]
+                  - text: (652 KB)
+              - listitem [ref=f74e260]:
+                - link "Right to Information Act" [ref=f74e261] [cursor=pointer]:
+                  - /url: /Scripts/Righttoinfoact.aspx
+              - listitem [ref=f74e262]:
+                - link "Tenders" [ref=f74e263] [cursor=pointer]:
+                  - /url: /Scripts/BS_ViewTenders.aspx
+          - generic [ref=f74e264]:
+            - heading "Follow RBI" [level=2] [ref=f74e265]
+            - list [ref=f74e266]:
+              - listitem [ref=f74e267]:
+                - link [ref=f74e268] [cursor=pointer]:
+                  - /url: /Scripts/rss.aspx
+                  - img "RSS Icon" [ref=f74e269]
+                  - text: RSS
+              - listitem [ref=f74e270]:
+                - link [ref=f74e271] [cursor=pointer]:
+                  - /url: https://twitter.com/RBI
+                  - img "Twitter Icon" [ref=f74e272]
+                  - text: Twitter
+              - listitem [ref=f74e273]:
+                - link [ref=f74e274] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA
+                  - img "YouTube Icon" [ref=f74e275]
+                  - text: YouTube
+              - listitem [ref=f74e276]:
+                - link [ref=f74e277] [cursor=pointer]:
+                  - /url: https://instagram.com/reservebankofindia
+                  - img "Instagram Icon" [ref=f74e278]
+                  - text: Instagram
+              - listitem [ref=f74e279]:
+                - link [ref=f74e280] [cursor=pointer]:
+                  - /url: https://www.facebook.com/RBIsays
+                  - img "Facebook Icon" [ref=f74e281]
+                  - text: Facebook
+              - listitem [ref=f74e282]:
+                - link [ref=f74e283] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/reservebankofindia
+                  - img "LinkedIn Icon" [ref=f74e284]
+                  - text: LinkedIn
+            - link [ref=f74e285] [cursor=pointer]:
+              - /url: https://www.india.gov.in
+              - img "National Portal of India logo" [ref=f74e286]
+        - generic [ref=f74e289]:
+          - generic [ref=f74e290]: © Reserve Bank of India. All Rights Reserved.
+          - generic [ref=f74e291]:
+            - link "Sitemap" [ref=f74e292] [cursor=pointer]:
+              - /url: /Scripts/sitemap.aspx
+            - text: "|"
+            - link "Disclaimer" [ref=f74e293] [cursor=pointer]:
+              - /url: /Scripts/Disclaimer.aspx
+          - generic [ref=f74e295]: Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in
+          - generic [ref=f74e296]: "Website last updated date: Aug 25, 2026"
+          - link "Web Information Manager" [ref=f74e299] [cursor=pointer]:
+            - /url: https://www.rbi.org.in/scripts/wim.aspx
+          - generic [ref=f74e300]:
+            - link [ref=f74e301] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf
+              - text: Accessibility Statement
+              - img "PDF - Accessibility Statement" [ref=f74e302]
+              - text: (133 KB)
+            - text: "|"
+            - link "Screen Reader and Accessibility Help" [ref=f74e303] [cursor=pointer]:
+              - /url: /scripts/ScreenReader.aspx
+          - generic [ref=f74e305]: "Supports: Google Chrome 147+ | Firefox 150+ | Microsoft Edge Version 147+ | Safari 17+"
+  - status

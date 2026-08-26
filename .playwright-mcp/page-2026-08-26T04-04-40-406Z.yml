@@ -1,0 +1,292 @@
+- generic [active] [ref=f162e1]:
+  - banner [ref=f162e2]:
+    - button "Skip to content" [ref=f162e3] [cursor=pointer]
+    - button "Accessibility Feedback" [ref=f162e6] [cursor=pointer]
+    - generic [ref=f162e9]:
+      - link [ref=f162e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=f162e11]
+      - search [ref=f162e12]:
+        - button "Search" [ref=f162e15] [cursor=pointer]
+        - searchbox "Enter your search here – Search suggestions will show as you type" [ref=f162e16]: "\"Digital Personal Data Protection Rules, 2025\" notified gazette G.S.R. MeitY phased implementation"
+        - button "Search using voice" [ref=f162e20] [cursor=pointer]
+        - button "Search using an image" [ref=f162e23] [cursor=pointer]
+        - status [ref=f162e25]
+    - complementary "Account Rewards and Preferences" [ref=f162e26]:
+      - button "Microsoft Rewards" [ref=f162e27] [cursor=pointer]:
+        - generic [ref=f162e28]: Rewards
+      - link "Sign in" [ref=f162e44] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Search Filter" [ref=f162e46]:
+      - list [ref=f162e47]:
+        - listitem [ref=f162e48]:
+          - link "All" [ref=f162e49] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=f162e50]:
+          - link "Web" [ref=f162e51] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=eda2baa923debba2a138e5436c248f8e4dd5c98d480a7175b936b8300dd8b8bfJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPSUyMkRpZ2l0YWwrUGVyc29uYWwrRGF0YStQcm90ZWN0aW9uK1J1bGVzJTJjKzIwMjUlMjIrbm90aWZpZWQrZ2F6ZXR0ZStHLlMuUi4rTWVpdFkrcGhhc2VkK2ltcGxlbWVudGF0aW9uJndlYnNjcD0xJkZPUk09SERSV1ND&ntb=1
+        - listitem [ref=f162e52]:
+          - link "Search" [ref=f162e53] [cursor=pointer]:
+            - /url: /copilotsearch?q=%22Digital+Personal+Data+Protection+Rules%2c+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation&FORM=CSSCOP
+        - listitem [ref=f162e56]:
+          - link "Images" [ref=f162e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=10c09c22dbab312c307a8700c4da1551a7588a71f99a51d342503da601313f79JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L2ltYWdlcy9zZWFyY2g_cT0lMjJEaWdpdGFsK1BlcnNvbmFsK0RhdGErUHJvdGVjdGlvbitSdWxlcyUyYysyMDI1JTIyK25vdGlmaWVkK2dhemV0dGUrRy5TLlIuK01laXRZK3BoYXNlZCtpbXBsZW1lbnRhdGlvbiZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=f162e58]:
+          - link "Videos" [ref=f162e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a5dd1b1d4c447a3ad1f89d33b98f5443260fd9912cae9c65295243820f31ed21JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3ZpZGVvcy9zZWFyY2g_cT0lMjJEaWdpdGFsK1BlcnNvbmFsK0RhdGErUHJvdGVjdGlvbitSdWxlcyUyYysyMDI1JTIyK25vdGlmaWVkK2dhemV0dGUrRy5TLlIuK01laXRZK3BoYXNlZCtpbXBsZW1lbnRhdGlvbiZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=f162e60]:
+          - link "Maps" [ref=f162e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=61ca2cf9e361d88d75c2a3b95aeb2f39a77b1f38e1130f9b15fcc3dd526e14e5JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L21hcHM_cT0lMjJEaWdpdGFsK1BlcnNvbmFsK0RhdGErUHJvdGVjdGlvbitSdWxlcyUyYysyMDI1JTIyK25vdGlmaWVkK2dhemV0dGUrRy5TLlIuK01laXRZK3BoYXNlZCtpbXBsZW1lbnRhdGlvbiZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=f162e62]:
+          - link "Copilot" [ref=f162e63] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f552ded0b929cd2d2a184be68005800f35fbecf68ad8e16a4d44f15d3e307c34JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L2NoYXQ_cHJvbXB0PSUyMkRpZ2l0YWwrUGVyc29uYWwrRGF0YStQcm90ZWN0aW9uK1J1bGVzJTJjKzIwMjUlMjIrbm90aWZpZWQrZ2F6ZXR0ZStHLlMuUi4rTWVpdFkrcGhhc2VkK2ltcGxlbWVudGF0aW9uJnNlbmRxdWVyeT0xJkZPUk09U0NDT0RY&ntb=1
+        - listitem [ref=f162e64]:
+          - button [ref=f162e65] [cursor=pointer]
+  - generic [ref=f162e69]:
+    - main "Search Results" [ref=f162e70]:
+      - generic [ref=f162e72]:
+        - generic [ref=f162e73]:
+          - generic [ref=f162e74] [cursor=pointer]
+          - generic [ref=f162e76] [cursor=pointer]
+          - generic [ref=f162e78] [cursor=pointer]
+        - text: About 5,650 results
+      - list [ref=f162e80]:
+        - listitem [ref=f162e81]:
+          - link "pib.gov.in" [ref=f162e83] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f9501c882d63e7df6f24dd0d76f95c975b28c0a2c7a25236e3ec88beea85b5e0JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly9zdGF0aWMucGliLmdvdi5pbi9Xcml0ZVJlYWREYXRhL3NwZWNpZmljZG9jcy9kb2N1bWVudHMvMjAyNS9ub3YvZG9jMjAyNTExMTc2OTUzMDEucGRm&ntb=1
+            - img "Global web icon" [ref=f162e87]
+            - generic [ref=f162e88]:
+              - generic [ref=f162e89]: pib.gov.in
+              - generic [ref=f162e91]:
+                - generic [ref=f162e92]: https://static.pib.gov.in › WriteReadData › specificdocs › docu…
+                - text: · PDF file
+          - heading [level=2] [ref=f162e93]:
+            - link "DPDP Rules, 2025 Notified - static.pib.gov.in" [ref=f162e94] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=f9501c882d63e7df6f24dd0d76f95c975b28c0a2c7a25236e3ec88beea85b5e0JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly9zdGF0aWMucGliLmdvdi5pbi9Xcml0ZVJlYWREYXRhL3NwZWNpZmljZG9jcy9kb2N1bWVudHMvMjAyNS9ub3YvZG9jMjAyNTExMTc2OTUzMDEucGRm&ntb=1
+          - paragraph [ref=f162e96]: Introduction The Government of India notified the Digital Personal Data Protection (DPDP) Rules, 2025 on 14 November 2025. This …
+        - listitem [ref=f162e97]:
+          - link "unifiedchambers.com" [ref=f162e99] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ca768879d4494e4708be9dc5c35cdb51c71bd9cc0688c02d7c685f985ddc44beJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cudW5pZmllZGNoYW1iZXJzLmNvbS9ibG9nL2RwZHAtcnVsZXMtMjAyNS1ub3RpZmljYXRpb24tYW5hbHlzaXM&ntb=1
+            - img "Global web icon" [ref=f162e103]
+            - generic [ref=f162e104]:
+              - generic [ref=f162e105]: unifiedchambers.com
+              - generic [ref=f162e106]: https://www.unifiedchambers.com › blog
+          - heading [level=2] [ref=f162e109]:
+            - link "DPDP Rules 2025 Notified — G.S.R. 846 (E) Complete Analysis" [ref=f162e110] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=ca768879d4494e4708be9dc5c35cdb51c71bd9cc0688c02d7c685f985ddc44beJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cudW5pZmllZGNoYW1iZXJzLmNvbS9ibG9nL2RwZHAtcnVsZXMtMjAyNS1ub3RpZmljYXRpb24tYW5hbHlzaXM&ntb=1
+          - paragraph [ref=f162e112]: 14 Apr 2026 · This notification, issued as G.S.R. 846 (E), marks the operative phase of India’s first comprehensive data protection …
+        - listitem [ref=f162e113]:
+          - link "PwC India" [ref=f162e115] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6cc03441273f9c93d609a718a0b6528ff715aebbf0988a005cd8e861058adf68JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucHdjLmluL3Jlc2VhcmNoLWluc2lnaHRzL25ld3NfYWxlcnQvcmVndWxhdG9yeS1pbnNpZ2h0cy9tZWl0eS1ub3RpZmllcy1kaWdpdGFsLXBlcnNvbmFsLWRhdGEtcHJvdGVjdGlvbi1ydWxlcy0yMDI1Lmh0bWw&ntb=1
+            - img "Global web icon" [ref=f162e119]
+            - generic [ref=f162e120]:
+              - generic [ref=f162e121]: PwC India
+              - generic [ref=f162e122]: https://www.pwc.in › ...
+          - heading [level=2] [ref=f162e125]:
+            - link "MeitY notifies Digital Personal Data Protection Rules, 2025" [ref=f162e126] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=6cc03441273f9c93d609a718a0b6528ff715aebbf0988a005cd8e861058adf68JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cucHdjLmluL3Jlc2VhcmNoLWluc2lnaHRzL25ld3NfYWxlcnQvcmVndWxhdG9yeS1pbnNpZ2h0cy9tZWl0eS1ub3RpZmllcy1kaWdpdGFsLXBlcnNvbmFsLWRhdGEtcHJvdGVjdGlvbi1ydWxlcy0yMDI1Lmh0bWw&ntb=1
+          - paragraph [ref=f162e128]: On 13 November 2025, MeitY has now notified the Digital Personal Data Protection Rules, 2025 6 (DPDP Rules) along with its …
+        - listitem [ref=f162e129]:
+          - link "dpdpa.com" [ref=f162e131] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=16394102773b24267dc9e5a7ba4b1efe779d5304fc1759d3a1d9f676821c730eJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuZHBkcGEuY29tL0RQRFBfUnVsZXNfMjAyNV9FbmdsaXNoX29ubHkucGRm&ntb=1
+            - img "Global web icon" [ref=f162e135]
+            - generic [ref=f162e136]:
+              - generic [ref=f162e137]: dpdpa.com
+              - generic [ref=f162e139]:
+                - generic [ref=f162e140]: https://www.dpdpa.com
+                - text: · PDF file
+          - heading [level=2] [ref=f162e141]:
+            - link "MINISTRY OF ELECTRONICS AND INFORMATION TECHNOLOGY" [ref=f162e142] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=16394102773b24267dc9e5a7ba4b1efe779d5304fc1759d3a1d9f676821c730eJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuZHBkcGEuY29tL0RQRFBfUnVsZXNfMjAyNV9FbmdsaXNoX29ubHkucGRm&ntb=1
+          - paragraph [ref=f162e144]: Short title and commencement. — (1) These rules may be called the Digital Personal Data Protection Rules, 2025. Rules 1, 2 and 17 …
+        - listitem [ref=f162e145]:
+          - link "Press Information Bureau" [ref=f162e147] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=64704181c5fb8c115f34be9641d57ade4e4f496b8c7a8d362e7dc973763abaedJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly9waWIuZ292LmluL1ByZXNzUmVsZWFzZVBhZ2UuYXNweD9QUklEPTIxOTAwMTQ&ntb=1
+            - img "Global web icon" [ref=f162e151]
+            - generic [ref=f162e152]:
+              - generic [ref=f162e153]: Press Information Bureau
+              - generic [ref=f162e154]: https://pib.gov.in › PressReleasePage.aspx
+          - heading [level=2] [ref=f162e157]:
+            - link "Press Release Page | Press Information Bureau" [ref=f162e158] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=64704181c5fb8c115f34be9641d57ade4e4f496b8c7a8d362e7dc973763abaedJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly9waWIuZ292LmluL1ByZXNzUmVsZWFzZVBhZ2UuYXNweD9QUklEPTIxOTAwMTQ&ntb=1
+          - paragraph [ref=f162e160]: 14 Nov 2025 · The Government of India has notified the Digital Personal Data Protection (DPDP) Rules, 2025, marking the full …
+        - listitem [ref=f162e161]:
+          - link "Press Information Bureau" [ref=f162e163] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c4d5ea3a304765c50b621dc5bef06aee50f88a6bd557573a5f6da0e6c2d1b2dbJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly9waWIuZ292LmluL1ByZXNzUmVsZWFzZVBhZ2UuYXNweD9QUklEPTIxOTA2NTU&ntb=1
+            - img "Global web icon" [ref=f162e167]
+            - generic [ref=f162e168]:
+              - generic [ref=f162e169]: Press Information Bureau
+              - generic [ref=f162e170]: https://pib.gov.in › PressReleasePage.aspx
+          - heading [level=2] [ref=f162e173]:
+            - link "Press Release Page | Press Information Bureau" [ref=f162e174] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=c4d5ea3a304765c50b621dc5bef06aee50f88a6bd557573a5f6da0e6c2d1b2dbJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly9waWIuZ292LmluL1ByZXNzUmVsZWFzZVBhZ2UuYXNweD9QUklEPTIxOTA2NTU&ntb=1
+          - paragraph [ref=f162e176]: 14 Nov 2025 · The Government of India notified the Digital Personal Data Protection (DPDP) Rules, 2025 on 14 November 2025. …
+        - listitem [ref=f162e177]:
+          - link "Data Security Council of India (DSCI)" [ref=f162e179] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7f14065e7649a05b9121fea5edfb27518881408deb95b3002170bd58437b8a12JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuZHNjaS5pbi9maWxlcy9jb250ZW50L2RvY3VtZW50cy8yMDI1L0RpZ2l0YWwtUGVyc29uYWwtRGF0YS1Qcm90ZWN0aW9uLVJ1bGVzLTIwMjUucGRm&ntb=1
+            - img "Global web icon" [ref=f162e183]
+            - generic [ref=f162e184]:
+              - generic [ref=f162e185]: Data Security Council of India (DSCI)
+              - generic [ref=f162e187]:
+                - generic [ref=f162e188]: https://www.dsci.in › ... › documents
+                - text: · PDF file
+          - heading [level=2] [ref=f162e189]:
+            - link "Summary - Digital Personal Data Protection Rules, 2025" [ref=f162e190] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=7f14065e7649a05b9121fea5edfb27518881408deb95b3002170bd58437b8a12JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuZHNjaS5pbi9maWxlcy9jb250ZW50L2RvY3VtZW50cy8yMDI1L0RpZ2l0YWwtUGVyc29uYWwtRGF0YS1Qcm90ZWN0aW9uLVJ1bGVzLTIwMjUucGRm&ntb=1
+          - paragraph [ref=f162e192]: The Ministry of Electronics and Information Technology (MeitY) notified the Digital Personal Data Protection Rules, 2025 (DPDP …
+        - listitem [ref=f162e193]:
+          - link "dpo-india.com" [ref=f162e195] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=384c6e99b73d2e80f5dad61a62f72b22f0980c19ec3c9df512680a2deae26c6bJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuZHBvLWluZGlhLmNvbS9SZXNvdXJjZXMvcHJpdmFjeV9sYXdzX2luX0luZGlhL0RQRFAtQWN0K1J1bGVzLTIwMjUtRWZmZWN0aXZlLVNlY3Rpb25zLERlYWRsaW5lcy1XaGF0LVRvLURvLU5leHQucGRm&ntb=1
+            - img "Global web icon" [ref=f162e199]
+            - generic [ref=f162e200]:
+              - generic [ref=f162e201]: dpo-india.com
+              - generic [ref=f162e203]:
+                - generic [ref=f162e204]: https://www.dpo-india.com › Resources › privacy_laws_in_India
+                - text: · PDF file
+          - heading [level=2] [ref=f162e205]:
+            - link "MeitY Notification G.S.R. 846(E), 13 November 2025" [ref=f162e206] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=384c6e99b73d2e80f5dad61a62f72b22f0980c19ec3c9df512680a2deae26c6bJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuZHBvLWluZGlhLmNvbS9SZXNvdXJjZXMvcHJpdmFjeV9sYXdzX2luX0luZGlhL0RQRFAtQWN0K1J1bGVzLTIwMjUtRWZmZWN0aXZlLVNlY3Rpb25zLERlYWRsaW5lcy1XaGF0LVRvLURvLU5leHQucGRm&ntb=1
+          - paragraph [ref=f162e208]: "MeitY Notification G.S.R. 846(E), 13 November 2025 DPDP Act + Rules 2025: Effective Sections, Deadlines and What To-Do Next Me"
+        - listitem [ref=f162e209]:
+          - link "S.S. Rana & Co." [ref=f162e211] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8966e02f22ffc53558d43cbfd5401b697692aa61e3c8ca8da634b25e1542ee23JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly9zc3JhbmEuaW4vYXJ0aWNsZXMvbWVpdHktbm90aWZpZXMtZmluYWwtZGlnaXRhbC1wZXJzb25hbC1kYXRhLXByb3RlY3Rpb24tcnVsZXMtMjAyNS8&ntb=1
+            - img "Global web icon" [ref=f162e215]
+            - generic [ref=f162e216]:
+              - generic [ref=f162e217]: S.S. Rana & Co.
+              - generic [ref=f162e218]: https://ssrana.in › ...
+          - heading "MeitY Notifies Final Digital Personal Data Protection Rules 2025" [level=2] [ref=f162e221]:
+            - link "MeitY Notifies Final Digital Personal Data Protection Rules 2025":
+              - /url: https://www.bing.com/ck/a?!&&p=8966e02f22ffc53558d43cbfd5401b697692aa61e3c8ca8da634b25e1542ee23JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly9zc3JhbmEuaW4vYXJ0aWNsZXMvbWVpdHktbm90aWZpZXMtZmluYWwtZGlnaXRhbC1wZXJzb25hbC1kYXRhLXByb3RlY3Rpb24tcnVsZXMtMjAyNS8&ntb=1
+          - paragraph [ref=f162e223]: 14 Nov 2025 · Ministry of Electronics and Information Technology (hereinafter referred to as ‘MeitY’) has released the finalized Digital …
+        - listitem [ref=f162e224]:
+          - link "ALG India Law Offices LLP" [ref=f162e226] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=2b1f3b7834268f28a5d957377727cf5a3c94afef4aae80f5eba3969ad7c79141JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuYWxnaW5kaWEuY29tL3RoZS1kaWdpdGFsLXBlcnNvbmFsLWRhdGEtcHJvdGVjdGlvbi1ydWxlcy0yMDI1LWhhdmUtYmVlbi1vZmZpY2lhbGx5LW5vdGlmaWVkLWJ5LW1laXR5Lw&ntb=1
+            - img "Global web icon" [ref=f162e230]
+            - generic [ref=f162e231]:
+              - generic [ref=f162e232]: ALG India Law Offices LLP
+              - generic [ref=f162e233]: https://www.algindia.com
+          - heading "The Digital Personal Data Protection Rules, 2025 Have Been Officially ..." [level=2] [ref=f162e236]:
+            - link "The Digital Personal Data Protection Rules, 2025 Have Been Officially ...":
+              - /url: https://www.bing.com/ck/a?!&&p=2b1f3b7834268f28a5d957377727cf5a3c94afef4aae80f5eba3969ad7c79141JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cHM6Ly93d3cuYWxnaW5kaWEuY29tL3RoZS1kaWdpdGFsLXBlcnNvbmFsLWRhdGEtcHJvdGVjdGlvbi1ydWxlcy0yMDI1LWhhdmUtYmVlbi1vZmZpY2lhbGx5LW5vdGlmaWVkLWJ5LW1laXR5Lw&ntb=1
+          - paragraph [ref=f162e238]: "15 Nov 2025 · The Digital Personal Data Protection Rules, 2025 Have Been Officially Notified By Meity! Reported By: Uroosa …"
+        - listitem [ref=f162e239]:
+          - generic [ref=f162e241]:
+            - heading [level=2] [ref=f162e243]:
+              - link "Videos of Digital Personal Data Protection Rules 2025 Notified Gazett…" [ref=f162e244] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=64ca3d0cbd1b13a3f50dc9c7f4e2ff06a6e545d0aa57e3e0180b622f4dad8e8fJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3ZpZGVvcy9zZWFyY2g_cT0lMjJEaWdpdGFsK1BlcnNvbmFsK0RhdGErUHJvdGVjdGlvbitSdWxlcyUyYysyMDI1JTIyK25vdGlmaWVkK2dhemV0dGUrRy5TLlIuK01laXRZK3BoYXNlZCtpbXBsZW1lbnRhdGlvbiZxcHZ0PSUyMkRpZ2l0YWwrUGVyc29uYWwrRGF0YStQcm90ZWN0aW9uK1J1bGVzJTJjKzIwMjUlMjIrbm90aWZpZWQrZ2F6ZXR0ZStHLlMuUi4rTWVpdFkrcGhhc2VkK2ltcGxlbWVudGF0aW9uJkZPUk09VkRSRQ&ntb=1
+            - generic [ref=f162e250]:
+              - 'link "Digital Personal Data Protection Rules 2025: Complete Breakdown | UPSC Current Affairs 2025from YouTube · Duration: 40 minutes43 seconds · 26.8K views · uploaded on 9 months ago · uploaded by Vision IAS · Click to play. · The Puttaswamy (2017) judgement declared the Right to Privacy as a fundamental right under Article 21. Building on this, Parliament enacted the Digital Personal Data Protection (DPDP) Act, 2023, and now the Digital Personal Data Protection Rules, 2025 have been notified to operationalise India’s first comprehensive digital privacy framework ..." [ref=f162e253] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=a11298f0302b680fba48091554bb7923acf693b2f3375af9f4d309671dda162eJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9JTIyRGlnaXRhbCtQZXJzb25hbCtEYXRhK1Byb3RlY3Rpb24rUnVsZXMlMmMrMjAyNSUyMitub3RpZmllZCtnYXpldHRlK0cuUy5SLitNZWl0WStwaGFzZWQraW1wbGVtZW50YXRpb24mbWlkPUExOTUyRDk0MTkxRjY4REFGNjBCQTE5NTJEOTQxOTFGNjhEQUY2MEImY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUN3NHdvc2pDLURLcTk1eEk1a2x6OTJ3Jm1jaWQ9MTgyQTU2RDUzQjA4NDMyMzkxQjAyN0VGRjJGNjA0RUEmRk9STT1WSVJF&ntb=1
+                - generic [ref=f162e254]:
+                  - generic [ref=f162e255]:
+                    - 'img "Digital Personal Data Protection Rules 2025: Complete Breakdown | UPSC Current Affairs 2025" [ref=f162e257]'
+                    - generic [ref=f162e260]: 40:43
+                  - generic [ref=f162e264]:
+                    - 'generic "Digital Personal Data Protection Rules 2025: Complete Breakdown | UPSC Current Affairs 2025" [ref=f162e265]':
+                      - strong [ref=f162e266]: Digital
+                      - strong [ref=f162e267]: Personal
+                      - strong [ref=f162e268]: Data
+                      - strong [ref=f162e269]: Protection
+                      - strong [ref=f162e270]: Rules
+                      - strong [ref=f162e271]: "2025"
+                      - text: ": Complete Breakdown | UPSC Current Affairs"
+                      - strong [ref=f162e272]: "2025"
+                    - generic [ref=f162e273]:
+                      - generic [ref=f162e274]:
+                        - img "Video source site" [ref=f162e275]
+                        - text: YouTube · Vision IAS
+                      - generic [ref=f162e276]: 26.8K views · 9 months ago
+              - 'link "“India’s New Digital Personal Data Protection (DPDP) Rules 2025 — What You MUST Know!”from YouTube · Duration: 1 minutes15 seconds · 13 views · uploaded on 9 months ago · uploaded by Bandiz Technoz · Click to play. · 🇮🇳 India has a new data-privacy era! On 14 November 2025, the government officially notified the Digital Personal Data Protection Rules, 2025 (DPDP Rules 2025), implementing the earlier Digital Personal Data Protection Act, 2023 (DPDP Act 2023). This marks a major milestone in data protection — giving citizens more control over their ..." [ref=f162e279] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=89966615c24656621b1469a71cd64afb1fc361828cac744cb111f9104a0feb8dJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9JTIyRGlnaXRhbCtQZXJzb25hbCtEYXRhK1Byb3RlY3Rpb24rUnVsZXMlMmMrMjAyNSUyMitub3RpZmllZCtnYXpldHRlK0cuUy5SLitNZWl0WStwaGFzZWQraW1wbGVtZW50YXRpb24mbWlkPUMwRjQ0RkU2RDAzODA1OUZDRDE3QzBGNDRGRTZEMDM4MDU5RkNEMTcmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUNrMFZzaFVmNWVMWmNsbkRoSC04djJ3Jm1jaWQ9MTgyQTU2RDUzQjA4NDMyMzkxQjAyN0VGRjJGNjA0RUEmRk9STT1WSVJF&ntb=1
+                - generic [ref=f162e280]:
+                  - generic [ref=f162e281]:
+                    - img "“India’s New Digital Personal Data Protection (DPDP) Rules 2025 — What You MUST Know!”" [ref=f162e283]
+                    - generic [ref=f162e286]: 1:15
+                  - generic [ref=f162e290]:
+                    - generic "“India’s New Digital Personal Data Protection (DPDP) Rules 2025 — What You MUST Know!”" [ref=f162e291]:
+                      - text: “India’
+                      - strong [ref=f162e292]: s
+                      - text: New
+                      - strong [ref=f162e293]: Digital
+                      - strong [ref=f162e294]: Personal
+                      - strong [ref=f162e295]: Data
+                      - strong [ref=f162e296]: Protection
+                      - text: (DPDP)
+                      - strong [ref=f162e297]: Rules
+                      - strong [ref=f162e298]: "2025"
+                      - text: — What You MUST Know!”
+                    - generic [ref=f162e299]:
+                      - generic [ref=f162e300]:
+                        - img "Video source site" [ref=f162e301]
+                        - text: YouTube · Bandiz Technoz
+                      - generic [ref=f162e302]: 13 views · 9 months ago
+              - 'link "All Things Policy | Deconstructing the DPDPAfrom YouTube · Duration: 24 minutes47 seconds · 94 views · uploaded on 9 months ago · uploaded by Takshashila Institution · Click to play. · MeitY has officially notified the DPDP Rules 2025, paving the way for implementing India''s Digital Personal Data Protection Act. However, there are multiple aspects to be considered when reading the Act and Rules such as consent, data retention, children''s data protection, grievance redressal, etc. In this episode of All Things Policy, Adya ..." [ref=f162e305] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=0481d79082284a7f98362ba170336e14b50e930e266adc22117da63d14064740JmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9JTIyRGlnaXRhbCtQZXJzb25hbCtEYXRhK1Byb3RlY3Rpb24rUnVsZXMlMmMrMjAyNSUyMitub3RpZmllZCtnYXpldHRlK0cuUy5SLitNZWl0WStwaGFzZWQraW1wbGVtZW50YXRpb24mbWlkPTNGRjZGMkUxRTJCNzA4REM3MERBM0ZGNkYyRTFFMkI3MDhEQzcwREEmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUM1QVZyTDRyeUtoUjFWaTBIeGRnUDJRJm1jaWQ9MTgyQTU2RDUzQjA4NDMyMzkxQjAyN0VGRjJGNjA0RUEmRk9STT1WSVJF&ntb=1
+                - generic [ref=f162e306]:
+                  - generic [ref=f162e307]:
+                    - img "All Things Policy | Deconstructing the DPDPA" [ref=f162e309]
+                    - generic [ref=f162e312]: 24:47
+                  - generic [ref=f162e316]:
+                    - generic "All Things Policy | Deconstructing the DPDPA" [ref=f162e317]:
+                      - text: All
+                      - strong [ref=f162e318]
+                      - text: Things
+                      - strong [ref=f162e319]
+                      - text: Policy
+                      - strong [ref=f162e320]
+                      - text: "|"
+                      - strong [ref=f162e321]
+                      - text: Deconstructing
+                      - strong [ref=f162e322]
+                      - text: the
+                      - strong [ref=f162e323]
+                      - text: DPDPA
+                    - generic [ref=f162e324]:
+                      - generic [ref=f162e325]:
+                        - img "Video source site" [ref=f162e326]
+                        - text: YouTube · Takshashila Institution
+                      - generic [ref=f162e327]: 94 views · 9 months ago
+        - listitem [ref=f162e328]:
+          - navigation "More results for \"Digital Personal Data Protection Rules, 2025\" notified gazette G.S.R. MeitY phased implementation":
+            - list:
+              - listitem [ref=f162e329]:
+                - generic "Page 1" [ref=f162e330]: "1"
+              - listitem [ref=f162e331]:
+                - link "Page 2" [ref=f162e332] [cursor=pointer]:
+                  - /url: /search?q=%22Digital+Personal+Data+Protection+Rules%2c+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation&FPIG=182A56D53B08432391B027EFF2F604EA&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=f162e333]:
+                - link "Page 3" [ref=f162e334] [cursor=pointer]:
+                  - /url: /search?q=%22Digital+Personal+Data+Protection+Rules%2c+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation&FPIG=182A56D53B08432391B027EFF2F604EA&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=f162e335]:
+                - link "Next page" [ref=f162e336] [cursor=pointer]:
+                  - /url: /search?q=%22Digital+Personal+Data+Protection+Rules%2c+2025%22+notified+gazette+G.S.R.+MeitY+phased+implementation&FPIG=182A56D53B08432391B027EFF2F604EA&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=f162e337]:
+      - list
+  - contentinfo [ref=f162e338]:
+    - generic [ref=f162e339]:
+      - list:
+        - listitem [ref=f162e340]:
+          - link "Privacy" [ref=f162e341] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7046a8fc9f07ee6128d88f009b57af0b78149a29521e7e2ff7cb8c5658095c4fJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=f162e342]:
+          - link "Terms" [ref=f162e343] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=74f737b3a0c2954f5abe8f6489963fdf18108af5d7041fa64f2ddf0a4416bd2fJmltdHM9MTc4NzYxNjAwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
+  - generic [ref=f162e345]:
+    - generic:
+      - generic:
+        - generic:
+          - generic [ref=f162e347]:
+            - search [ref=f162e348]:
+              - textbox "Ask a follow-up" [ref=f162e349]:
+                - /placeholder: "Ask a follow-up "
+            - button "Send" [ref=f162e351] [cursor=pointer]
+          - navigation [ref=f162e356]:
+            - link "Key compliance requirements 2025" [ref=f162e357] [cursor=pointer]:
+              - /url: /copilotsearch?q=Key+compliance+requirements+2025&form=CSBSUG
+            - link "Key provisions of DPDP" [ref=f162e358] [cursor=pointer]:
+              - /url: /copilotsearch?q=Key+provisions+of+DPDP&form=CSBSUG
+            - link "Meity guidelines DPDP Rules" [ref=f162e359] [cursor=pointer]:
+              - /url: /copilotsearch?q=Meity+guidelines+DPDP+Rules&form=CSBSUG
+  - dialog "Quick Search"

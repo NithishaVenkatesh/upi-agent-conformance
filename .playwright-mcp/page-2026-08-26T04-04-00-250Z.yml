@@ -1,0 +1,430 @@
+- generic [active] [ref=f158e1]:
+  - generic [ref=f158e2]:
+    - generic [ref=f158e4]:
+      - link "Skip to main content" [ref=f158e6] [cursor=pointer]:
+        - /url: "#mainsection"
+      - generic [ref=f158e7]:
+        - list:
+          - listitem [ref=f158e8]:
+            - button "Increase Letter Spacing Not Pressed" [ref=f158e9] [cursor=pointer]:
+              - img "Increase Letter Spacing" [ref=f158e10]
+              - generic [ref=f158e11]: Not Pressed
+          - listitem [ref=f158e12]:
+            - button "Increase Font Size Not Pressed" [ref=f158e13] [cursor=pointer]:
+              - img "Increase Font Size" [ref=f158e14]
+              - generic [ref=f158e15]: Not Pressed
+          - listitem [ref=f158e16]:
+            - button "Regular Font Size Pressed" [ref=f158e17] [cursor=pointer]:
+              - img "Regular Font Size" [ref=f158e18]
+              - generic [ref=f158e19]: Pressed
+          - listitem [ref=f158e20]:
+            - button "Decrease Font Size Not Pressed" [ref=f158e21] [cursor=pointer]:
+              - img "Decrease Font Size" [ref=f158e22]
+              - generic [ref=f158e23]: Not Pressed
+        - list:
+          - listitem [ref=f158e24] [cursor=pointer]:
+            - button "Apply Dark Theme Not Pressed" [ref=f158e25]:
+              - img "Apply Dark Theme" [ref=f158e26]
+              - generic [ref=f158e27]: Not Pressed
+          - listitem [ref=f158e28] [cursor=pointer]:
+            - button "Apply Normal Theme Pressed" [ref=f158e29]:
+              - img "Apply Normal Theme" [ref=f158e30]
+              - generic [ref=f158e31]: Pressed
+          - listitem [ref=f158e32] [cursor=pointer]:
+            - button "Apply Grey Theme Not Pressed" [ref=f158e33]:
+              - img "Apply Grey Theme" [ref=f158e34]
+              - generic [ref=f158e35]: Not Pressed
+        - generic:
+          - link "Print this page":
+            - /url: "#"
+            - img "Print this page" [ref=f158e36] [cursor=pointer]
+        - generic [ref=f158e37]:
+          - text: Change Language
+          - link "हिंदी" [ref=f158e38] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=f158e40]:
+      - banner [ref=f158e41]:
+        - link [ref=f158e43] [cursor=pointer]:
+          - /url: /home.aspx
+          - img "Logo of Official website of Reserve Bank of India" [ref=f158e44]
+      - search [ref=f158e45]:
+        - text: Search the Website
+        - textbox "Search the Website" [ref=f158e46]:
+          - /placeholder: Search
+        - button "Search" [ref=f158e47] [cursor=pointer]
+      - img "Beti Bachao Beti Padhao Logo" [ref=f158e50]
+    - navigation "Main" [ref=f158e52]:
+      - list [ref=f158e55]:
+        - listitem [ref=f158e56]:
+          - link "Home" [ref=f158e57] [cursor=pointer]:
+            - /url: https://rbi.org.in/home.aspx
+        - listitem [ref=f158e58]:
+          - button "About Us ▼" [ref=f158e59] [cursor=pointer]
+        - listitem [ref=f158e60]:
+          - button "Notification ▼" [ref=f158e61] [cursor=pointer]
+        - listitem [ref=f158e62]:
+          - link "Press Releases" [ref=f158e63] [cursor=pointer]:
+            - /url: /scripts/BS_PressReleaseDisplay.aspx
+        - listitem [ref=f158e64]:
+          - button "Speeches & Media Interactions ▼" [ref=f158e65] [cursor=pointer]
+        - listitem [ref=f158e66]:
+          - button "Publications ▼" [ref=f158e67] [cursor=pointer]
+        - listitem [ref=f158e68]:
+          - button "Legal Framework ▼" [ref=f158e69] [cursor=pointer]
+        - listitem [ref=f158e70]:
+          - button "Research ▼" [ref=f158e71] [cursor=pointer]
+        - listitem [ref=f158e72]:
+          - button "Statistics ▼" [ref=f158e73] [cursor=pointer]
+        - listitem [ref=f158e74]:
+          - button "Regulatory Reporting ▼" [ref=f158e75] [cursor=pointer]
+    - generic [ref=f158e76]:
+      - main [ref=f158e77]:
+        - navigation "Breadcrumb" [ref=f158e78]:
+          - list [ref=f158e79]:
+            - listitem [ref=f158e80]:
+              - link "Home" [ref=f158e81] [cursor=pointer]:
+                - /url: ../Home.aspx
+            - listitem [ref=f158e82]:
+              - generic [ref=f158e83]: Speeches
+        - generic [ref=f158e85]:
+          - heading "Speeches & Media Interactions" [level=1] [ref=f158e86]
+          - generic [ref=f158e88]:
+            - link [ref=f158e89] [cursor=pointer]:
+              - /url: https://rbidocs.rbi.org.in/rdocs/Speeches/PDFs/CNBC19082026CF55BF0ABD2946A2B4ED62FF055A97AB.PDF
+              - img "PDF - A Vision for Responsible AI, Resilient Banking - Keynote Address<sup>1</sup> delivered by Shri Shirish Chandra Murmu, Deputy Governor, Reserve Bank of India, at the fourth edition of the CNBC-TV18 Banking Transformation Summit, Mumbai, August 19, 2026" [ref=f158e90]
+            - text: (155 kb)
+            - 'heading "Date : Aug 19, 2026" [level=2] [ref=f158e91]'
+            - heading [level=2] [ref=f158e92]:
+              - text: A Vision for Responsible AI, Resilient Banking - Keynote Address
+              - superscript [ref=f158e93]: "1"
+              - text: delivered by Shri Shirish Chandra Murmu, Deputy Governor, Reserve Bank of India, at the fourth edition of the CNBC-TV18 Banking Transformation Summit, Mumbai, August 19, 2026
+            - table [ref=f158e94]:
+              - rowgroup [ref=f158e95]:
+                - row [ref=f158e96]:
+                  - cell [ref=f158e97]:
+                    - paragraph [ref=f158e98]: Distinguished guests, colleagues from the banking and financial industry, ladies and gentlemen — Namaskar, and a very good afternoon.
+                    - paragraph [ref=f158e99]: "1. It is a privilege to address this distinguished gathering at the fourth edition of the CNBC-TV18 Banking Transformation Summit. This year’s theme captures, I think, exactly the right subjects for our times: “Scaling Bharat, Banking with Responsible AI”. And it gives us a timely opportunity to consider how responsible innovation, governance, prudence and trust might define the next era of Indian banking."
+                    - paragraph [ref=f158e100]:
+                      - text: 2. Let me begin with a story — one I return to whenever I think about what it means for banking to serve a country like ours. More than three decades ago, NABARD, with the support of the Reserve Bank, launched a modest pilot, linking about five hundred self-help groups to the formal banking system.
+                      - superscript [ref=f158e101]:
+                        - link "2" [ref=f158e102] [cursor=pointer]:
+                          - /url: "#F2"
+                      - text: Their members had little conventional collateral, no credit history, and barely any documentation of income. And yet their repayment capacity turned out to be strong — borne out, month after month, in the performance of those microloans. This savings led microfinance model has now become the largest coordinated financial inclusion programme in the world covering almost 100 million households in the country. With more than 84 per cent of the groups being exclusively women groups, the programme has provided the much-needed push to empowerment of women in the country.
+                    - paragraph [ref=f158e103]: "3. The point I wish to draw from this is not that the programme succeeded — though it did, remarkably. It is that the information relevant to lending was never actually absent. It was there all along: in the discipline of savings, in the rhythm of regular meetings, in how closely members knew one another’s circumstances, in mutual accountability. What formal finance lacked was not the information, but a means of using it. And even today, in far more sophisticated markets, economic capacity often exists quietly, waiting for formal systems to develop the means to recognise it."
+                    - paragraph [ref=f158e104]:
+                      - text: 4. And today the means have arrived, in the form of Artificial Intelligence. The question before us is how well, and how responsibly, we choose to use it. Four days ago, from the ramparts of the Red Fort, the Prime Minister spoke of training one crore young Indians in artificial intelligence within the year, so that India leads rather than follows in this field.
+                      - superscript [ref=f158e105]:
+                        - link "3" [ref=f158e106] [cursor=pointer]:
+                          - /url: "#F3"
+                      - text: I read that as a statement of intent and exhort you to ensure that innovation is rapid, at the same time accompanied by robust safeguards, applied with judgement and underpinned by accountability.
+                    - paragraph [ref=f158e107]:
+                      - text: "5. That, in essence, frames the three themes I want to speak on this afternoon: Growth and Capacity; Intelligence and Prudence; and Trust and Responsibility — with responsible AI adoption, which the Governor spoke of so lucidly at FIBAC last week"
+                      - superscript [ref=f158e108]:
+                        - link "4" [ref=f158e109] [cursor=pointer]:
+                          - /url: "#F4"
+                      - text: .
+                    - paragraph [ref=f158e110]: I. Growth and Capacity
+                    - paragraph [ref=f158e111]:
+                      - text: 6. Let me start with where we stand. India’s banking system today is well capitalised, with a capital-to-risk-weighted-assets ratio of 17.7 per cent. It is profitable, with profit after tax exceeding ₹4 lakh crore. And it is healthy, with gross non-performing assets down to 1.8 per cent. Stress tests suggest that the system is well placed to absorb adverse shocks.
+                      - superscript [ref=f158e112]:
+                        - link "5" [ref=f158e113] [cursor=pointer]:
+                          - /url: "#F5"
+                    - paragraph [ref=f158e114]: 7. Why does this matter? Because this strength is not an end in itself — it is the capacity that allows the system to support a larger and more complex economy. And here I would enter a caution. The contribution of banking to growth should not be measured only by the expansion of aggregate credit, or by the size of balance sheets. It must also be judged by whom finance actually reaches, whether rising consumer expectations are met, and how banks support the wider economic activity.
+                    - paragraph [ref=f158e115]: A. Financial Inclusion
+                    - paragraph [ref=f158e116]:
+                      - text: 8. On this count, there is real progress to report. The Financial Inclusion Index rose to 70.0 in March 2026, up from 67.0 a year earlier — an improvement driven largely by usage rather than by mere access.
+                      - superscript [ref=f158e117]:
+                        - link "6" [ref=f158e118] [cursor=pointer]:
+                          - /url: "#F6"
+                      - text: Inclusion acquires real economic value only when consumers can understand the financial choices before them, manage their finances, appreciate the risks involved, choose credit and investment products suited to their needs, and know their rights and responsibilities. The Reserve Bank, for its part, continues to advance this agenda through the National Strategy for Financial Inclusion and the National Strategy for Financial Education.
+                    - paragraph [ref=f158e119]: 9. Financial inclusion remains, I believe, one of India’s remarkable achievements. Its next phase must deepen digital inclusion while ensuring that those who need assistance, or other modes of access, are not left behind. AI has a meaningful role to play here — helping the system recognise capability wherever it is expressed differently, across language, location, livelihood, gender and channel, and using that data prudently to make financial services more accessible.
+                    - paragraph [ref=f158e120]: B. Changing Expectations
+                    - paragraph [ref=f158e121]: 10. Consumer expectations, of course, are not uniform. A younger, digitally confident customer in a rapidly growing economy such as ours may prize speed, convenience and real-time information. An older customer, or one less at ease with technology, may value assisted access, personal interaction and reassurance on security. A retail customer may want simplicity and predictability; a small business may need timely credit, flexible servicing, and products built around uneven cash flows. Banking, in other words, must scale across channels and across forms of engagement.
+                    - paragraph [ref=f158e122]: C. Broadening Interfaces
+                    - paragraph [ref=f158e123]: 11. Growth also brings greater variety and greater complexity — in products, in technology, in delivery arrangements. A single deposit or loan relationship today may involve digital onboarding, consent-based data sharing, automated and increasingly model-driven assessment, partnerships with other banks, non-banks or fintechs, and servicing through apps or third-party providers. These arrangements widen reach and convenience considerably. But they also demand clarity — clarity about who is responsible for product suitability, for the use of data, for service quality, and for continuity across the entire delivery chain.
+                    - paragraph [ref=f158e124]: D. Capacity Must Keep Pace
+                    - paragraph [ref=f158e125]: "12. As banks grow — as their reach, their transaction volumes and their delivery arrangements expand — their capacity must keep pace. Systems that perform well at today’s volumes may behave quite differently at tomorrow’s scale, and that calls for timely upgrades: in technology, in processes, in oversight — all of which innovation can help deliver. Banks should focus, in particular, on the functions critical to their resilience and on those that matter most directly to their customers. Resilience, I would argue, should be built into the design of growth — not bolted on after the expansion has already happened."
+                    - paragraph [ref=f158e126]: 13. And this requires people as much as it requires technology. Institutions need people capable of understanding new systems, of challenging models rather than simply trusting them, of overseeing external providers, and of connecting technological change to financial and conduct outcomes. As machines take over more of the routine tasks, what becomes indispensable is human judgement — validating a model, assessing its outcome, and stopping it when it begins to go rogue. And this shift requires institutions to reskill, and to grow their capability.
+                    - paragraph [ref=f158e127]: II. Intelligence and Prudence
+                    - paragraph [ref=f158e128]: 14. Growth of this kind — capacity that keeps pace, that reaches wider, that serves better — is, in substance, not merely the growth of a bank’s balance sheet. It is the emergence of a stronger and more capable financial system, one that truly supports customers and the economy. And this is precisely where intelligence comes into play.
+                    - paragraph [ref=f158e129]: A. The Several Levels of Intelligence
+                    - paragraph [ref=f158e130]: 15. Like growth, “intelligence” has wider connotation than artificial intelligence alone. I would think of it at four levels which are symbiotic in nature. First, analytical intelligence — of data, models and technology, where AI certainly belongs. Second, human intelligence — of experience, knowledge and judgement. Third, governance intelligence — the ability of boards and senior management to oversee an institution wisely. And fourth, collective intelligence — which emerges at the level of the system, when information is pooled across banks. The value lies less in any one of these than in how well they are combined.
+                    - paragraph [ref=f158e131]: B. Analytical Intelligence
+                    - paragraph [ref=f158e132]:
+                      - text: 16. Let me offer a slightly different perspective on credit growth, because the numbers are telling a more complicated story. In 2022-23, 52 per cent of fresh businesses entered the formal credit system. By 2025-26, that figure had fallen to 42 per cent — even as outstanding commercial credit grew by fourteen per cent over the year.
+                      - superscript [ref=f158e133]:
+                        - link "7" [ref=f158e134] [cursor=pointer]:
+                          - /url: "#F7"
+                      - text: "This did not happen for want of information: lenders today have access to richer data, and to materially stronger analytical capability, than at any point before. It points to something more structural — that our data and our technology may be getting better at serving those the system already understands, faster than they are developing the capacity to understand those it has never served."
+                    - paragraph [ref=f158e135]:
+                      - text: 17. This is not a new problem in economic thought. In 1970, George Akerlof showed how information asymmetry can produce adverse selection and shrink a market below what the underlying economic opportunity would justify.
+                      - superscript [ref=f158e136]:
+                        - link "8" [ref=f158e137] [cursor=pointer]:
+                          - /url: "#F8"
+                      - text: Extend that insight to credit. Where a lender genuinely lacks reliable information about a borrower, the absence of information should not, by itself, be mistaken for adverse information. Treating ‘we don’t know’ as though it meant ‘we know it’s bad’ leads to credit being denied where it need not be. This is precisely where banks must put their technological capabilities to work.
+                    - paragraph [ref=f158e138]: 18. So where is that intelligence to come from? Traditional lending leaned heavily on collateral, financial statements and credit bureau history. That world has expanded considerably. Cash flows, GST filings, utility payments, e-commerce records, mobile usage, agricultural and geospatial data — this alternative data offers a genuine opportunity to bring ‘credit invisibles’ into the formal system, and AI can help close that gap.
+                    - paragraph [ref=f158e139]: "19. The challenge lies in transforming conventional systems so that they can interpret information that does not arrive in readily usable form: an audio recording in which a borrower describes the purpose of a loan and the revenue of her business, in the language she is most comfortable with; an image of a crop, an inventory or a physical asset; weather patterns that shape seasonal cash flows. Captured with consent, tested for reliability and bias, and used responsibly, this can become evidence that strengthens human judgement."
+                    - paragraph [ref=f158e140]: 20. Much is made, and rightly so, of the productivity these technologies promise. Work that once consumed hours of skilled attention — reconciling records, summarising a credit file, answering a routine query — can now be compressed into minutes, releasing capacity for the judgement-intensive work that only people can do.
+                    - paragraph [ref=f158e141]: 21. But I would ask that we be careful how we measure that gain. Productivity in banking is not merely output per employee or the cost-to-income ratio; it is whether the same institution, with the same resources, reaches a borrower it could not reach before, resolves a grievance that would earlier have remained pending, prices risk more accurately. If AI compresses costs without widening reach or improving the customer’s experience, we shall have automated the existing system rather than improved it.
+                    - paragraph [ref=f158e142]: 22. A more consequential use is pattern recognition. AI can read not only structured indicators but audit observations, incident narratives, customer complaints and system logs together, identifying connections that may not be visible to single function — and so help a bank act on emerging weakness in fraud, conduct, operations or cyber risk before it becomes a disruption.
+                    - paragraph [ref=f158e143]: 23. As adoption of AI increases, banks must retain the judgement, the capability and the alternative arrangements needed to intervene when systems fail or behave in ways that were not anticipated. The ability to remain resilient in such circumstances is itself a critical organisational capability, form of intelligence — the ability to recognise, adapt and respond when the unexpected occurs.
+                    - paragraph [ref=f158e144]: C. Human Intelligence and Judgement
+                    - paragraph [ref=f158e145]: 24. AI can improve consistency, cut processing time, and surface patterns that conventional analysis might miss. But its correctness depends on the information it relies on and the conditions in which that information is applied. Performance that looks impressive in familiar territory may not carry over into new customer segments, new activities, or changed economic conditions. A model that performs well overall can still fail a small but already vulnerable group.
+                    - paragraph [ref=f158e146]: 25. Intelligence, therefore, demands clarity — about what a technology delivers, what it leaves out, and whether its output fits the decision at hand. This is where human judgement remains indispensable. And that involvement is meaningful only when the people responsible understand the basis of the decision and hold the authority to intervene — because a review conducted after the material choices have been made can undo neither those choices, nor the harm they may have caused.
+                    - paragraph [ref=f158e147]: D. Intelligence at the Top
+                    - paragraph [ref=f158e148]: 26. A resilient bank is, at its heart, the outcome of intelligent governance. The Board and the top management carry the ultimate accountability — for the decisions taken, for the assumptions those decisions rest on, and for the consequences that follow. Governance intelligence lies in their ability to convert the information flowing in from across the institution into a coherent strategic view.
+                    - paragraph [ref=f158e149]: 27. Its purpose is not to pull governance into day-to-day execution. It is to see where institutional capability or risk appetite is falling behind changing needs, and where separate weaknesses, each individually manageable, might combine into something larger. AI can help assemble this institution-wide view — but care must be taken not to introduce, in the process, a centralised algorithmic risk.
+                    - paragraph [ref=f158e150]: E. Intelligence Across the System
+                    - paragraph [ref=f158e151]: 28. We are all part of a deeply interconnected financial system, and that interconnection delivers real efficiency gains. But it cuts both ways. Where several institutions lean on the same data sources, the same models, the same technology providers or the same infrastructure, a single error or disruption can affect them all together. Prudence, in such a world, requires effective challenge, limits on undue concentration, and credible alternatives. The intelligence needed here cannot be assembled within any one institution— it has to be pooled.
+                    - paragraph [ref=f158e152]: 29. The same logic applies to digital fraud, which moves through multiple accounts, devices and intermediaries at once. When risk becomes collective, the intelligence marshalled against it must become collective too. MuleHunter.ai and the Digital Payments Intelligence Platform are the Reserve Bank’s answer to exactly this challenge — drawing together dispersed signals, with the help of AI, so that detection comes earlier and the response is better coordinated.
+                    - paragraph [ref=f158e153]: III. Trust and Responsibility
+                    - paragraph [ref=f158e154]: A. What Customers Actually Rely Upon
+                    - paragraph [ref=f158e155]:
+                      - text: 30. As banking becomes ever more deeply woven into daily economic life, trust is what allows customers to use financial services without examining every institution and every process standing behind them. A street vendor accepts a digital payment with the same confidence as a large retailer. Families transfer money across the length of the country without ever tracing the chain the payment travels through. In 2025-26 alone, the Unified Payments Interface processed over 24,000 crore transactions, worth close to ₹314 lakh crore.
+                      - superscript [ref=f158e156]:
+                        - link "9" [ref=f158e157] [cursor=pointer]:
+                          - /url: "#F9"
+                      - text: Not one of those transactions may have involved a conscious assessment, by the customer, of the institution standing behind it. Technology enables the transaction; confidence sustains its use.
+                    - paragraph [ref=f158e158]: 31. That confidence, in the end, rests on the trust customers place in banks. And trust does not come from prudential soundness and regulatory oversight alone. It depends equally on fair conduct, and on the quality of the customer’s actual experience.
+                    - paragraph [ref=f158e159]: B. Fair Conduct and Transparency
+                    - paragraph [ref=f158e160]:
+                      - text: 32. A customer’s financial position, or her ability to repay, does not by itself establish that a particular product, amount or tenor is suitable for her. Formal consent has limited value when the important terms are hard to understand, or when the material consequences become apparent only later. Responsible conduct, therefore, must be the foundation on which every product rests — and that responsibility must extend across the product’s entire life, not merely to the point of sale. The Key Facts Statement mandated by the Reserve Bank is one such instrument.
+                      - superscript [ref=f158e161]:
+                        - link "10" [ref=f158e162] [cursor=pointer]:
+                          - /url: "#F10"
+                      - text: Its purpose is to support an informed choice by the customer — not simply to tick a disclosure box.
+                    - paragraph [ref=f158e163]: "33. Trust is also weighed on another scale: the transparency of a bank’s processes, and the fairness with which a customer’s grievance is handled. A loan rejection, a lower rate of interest paid, or the withdrawal of a service should rest on considered reasoning — and that reasoning should be communicated clearly to the customer. The role of AI must be to help the bank see, explain and correct an error — not to make a rejection faster or more persuasive."
+                    - paragraph [ref=f158e164]: 34. Two things follow from this. First, a customer dealing with an automated system is entitled to know that this is what they are dealing with. Disclosure of that fact is not a courtesy; it is the basis on which a customer decides how much weight to place on what they are told, and what to do next.
+                    - paragraph [ref=f158e165]: 35. Second, wherever a decision materially affects a customer — a loan declined, a limit reduced, an account restricted, a claim denied — there must be a route to a person with the authority to look again. A machine may reach the decision; a person must own it. If a bank cannot say who that person is, it has not deployed a model — it has delegated its accountability.
+                    - paragraph [ref=f158e166]:
+                      - text: 36. And every complaint a customer files against a decision of the bank deserves a timely and fair response, one that genuinely looks into the customer’s concern. Bank’s Internal Ombudsman mechanism provides an additional layer of review before any rejection is communicated to the customer.
+                      - superscript [ref=f158e167]:
+                        - link "11" [ref=f158e168] [cursor=pointer]:
+                          - /url: "#F11"
+                      - text: Its value lies not in offering the bank extra cover, but in serving as a second check — to make sure that a decision adverse to the customer is, in fact, correct and impartial.
+                    - paragraph [ref=f158e169]: C. Communication
+                    - paragraph [ref=f158e170]: 37. Technology is reshaping consumer expectations in another way too. Not every credit appraisal, KYC update or grievance can be resolved at the speed of a payment. But what customers do expect, and reasonably so, is to be told what is required of them, why a process is taking time, where it currently stands, and what happens next. Clear communication is very often as important to trust as speed itself.
+                    - paragraph [ref=f158e171]: 38. The same holds true during service disruptions. Restoring a system technically is not enough if customers remain uncertain about their balances, about the status of their transactions, or about their access to funds. In that moment, clear communication matters as much as an orderly technical recovery.
+                    - paragraph [ref=f158e172]: Conclusion
+                    - paragraph [ref=f158e173]: 39. Let me conclude by drawing these threads together into five principles that I believe should guide banking through the era now opening before us, and as it supports India’s transition to a Viksit Bharat.
+                    - paragraph [ref=f158e174]: Include, to enhance capability — expand the frontiers of financial inclusion and help build genuine financial capability alongside it. Measure progress not only by the number of accounts opened, but by how effectively they are used and whether customers have the information and confidence to make informed financial decisions.
+                    - paragraph [ref=f158e175]: Adapt to change — stay responsive to shifts in technology, consumer behaviour, business models and the wider economy, so as to meet changing needs at scale. Build the skills ahead of the activity, not after it.
+                    - paragraph [ref=f158e176]: Understand what you use — know what a system does, where its limits and its vulnerabilities lie, and where accountability rests. That begins with a current inventory of every model and AI system in use, including those embedded in vendor products.
+                    - paragraph [ref=f158e177]: Enhance safeguards and deploy intelligence for resilience — anticipate and contain cyber fraud and other emerging risks, while protecting consumers and preserving market integrity. Test these systems adversely before deployment, and again at regular intervals thereafter. Further, use intelligence proactively to anticipate the unexpected, and preserve critical functions when disruptions occur.
+                    - paragraph [ref=f158e178]: Explain what you decide — a decision that materially affects a customer should be capable of being understood, questioned and, where wrong, corrected. Wherever an error could cause material harm, a person must retain the authority to intervene.
+                    - paragraph [ref=f158e179]: Thank you.
+                    - separator [ref=f158e180]
+                    - paragraph [ref=f158e181]:
+                      - superscript [ref=f158e182]: "1"
+                      - text: Contributions by RBI colleagues Ms. Chandni Trehan Saluja and Ms. Kavita Gangwal, Deputy General Managers; and Shri Bharadwaj Bantu, Assistant General Manager, are gratefully acknowledged.
+                    - paragraph [ref=f158e183]:
+                      - superscript [ref=f158e184]: "2"
+                      - text: NABARD, Self-Help Group Bank Linkage Programme.
+                      - link "https://www.nabard.org/content1.aspx?id=1758&catid=8&mid=8" [ref=f158e185] [cursor=pointer]:
+                        - /url: https://www.nabard.org/content1.aspx?id=1758&catid=8&mid=8
+                    - paragraph [ref=f158e186]:
+                      - superscript [ref=f158e187]: "3"
+                      - text: Text of the Prime Minister's address from the ramparts of the Red Fort on the occasion of the 80th Independence Day, August 15, 2026. Press Information Bureau, Government of India.
+                      - link "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299775& reg=48&lang=1" [ref=f158e188] [cursor=pointer]:
+                        - /url: https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2299775&reg=48&lang=1
+                    - paragraph [ref=f158e189]:
+                      - superscript [ref=f158e190]: "4"
+                      - text: "Winning in the AI Era: The New Playbook for Indian Banks — Inaugural Address by Shri Sanjay Malhotra, Governor, Reserve Bank of India, at the FIBAC 2026 Conference, Mumbai, August 11, 2026."
+                      - link "https://www.rbi.org.in/scripts/BS_SpeechesView.aspx?Id=1567" [ref=f158e191] [cursor=pointer]:
+                        - /url: https://www.rbi.org.in/scripts/BS_SpeechesView.aspx?Id=1567
+                    - paragraph [ref=f158e192]:
+                      - superscript [ref=f158e193]: "5"
+                      - text: Reserve Bank of India, Financial Stability Report, June 2026.
+                      - link "https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/0FSRJUNE2026_300626A120EF6C37694C8C933181147F1379D7.PDF" [ref=f158e194] [cursor=pointer]:
+                        - /url: https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/0FSRJUNE2026_300626A120EF6C37694C8C933181147F1379D7.PDF
+                    - paragraph [ref=f158e195]:
+                      - superscript [ref=f158e196]: "6"
+                      - text: Reserve Bank of India, Financial Inclusion Index for the year ended March 2026, released July 2026. The index rose to 70.0 from 67.0 in March 2025, with the improvement contributed largely by usage.
+                      - link "https://rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63164" [ref=f158e197] [cursor=pointer]:
+                        - /url: https://rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63164
+                    - paragraph [ref=f158e198]:
+                      - superscript [ref=f158e199]: "7"
+                      - text: MSME Pulse Report, July 2026, a joint publication of TransUnion CIBIL and SIDBI. The share of new-to-credit borrowers in commercial credit originations declined from 52 per cent in 2022-23 to 42 per cent in 2025-26, while outstanding commercial credit grew 14 per cent over the year to ₹65.8 lakh crore.
+                      - link "https://www.sidbi.in/head/uploads/msmepluse_documents/MSME_Pulse_Digital_Report_July_2026.pdf" [ref=f158e200] [cursor=pointer]:
+                        - /url: https://www.sidbi.in/head/uploads/msmepluse_documents/MSME_Pulse_Digital_Report_July_2026.pdf
+                    - paragraph [ref=f158e201]:
+                      - superscript [ref=f158e202]: "8"
+                      - text: "George A. Akerlof, \"The Market for 'Lemons': Quality Uncertainty and the Market Mechanism,\" Quarterly Journal of Economics, 1970."
+                      - link "https://www.nobelprize.org/prizes/economic-sciences/2001/akerlof/article/" [ref=f158e203] [cursor=pointer]:
+                        - /url: https://www.nobelprize.org/prizes/economic-sciences/2001/akerlof/article/
+                    - paragraph [ref=f158e204]:
+                      - superscript [ref=f158e205]: "9"
+                      - text: Press Information Bureau, Government of India, on UPI transaction volumes and value, 2025-26.
+                      - link "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2286608&lang=1& reg=48" [ref=f158e206] [cursor=pointer]:
+                        - /url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2286608&lang=1&reg=48
+                    - paragraph [ref=f158e207]:
+                      - superscript [ref=f158e208]: "10"
+                      - link "Reserve Bank of India, Commercial Banks — Responsible Business Conduct Directions, 2025" [ref=f158e209] [cursor=pointer]:
+                        - /url: https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13140
+                      - text: ", updated July 1, 2026, includes the provisions on the Key Facts Statement."
+                    - paragraph [ref=f158e210]:
+                      - superscript [ref=f158e211]: "11"
+                      - link "Reserve Bank of India, Commercial Banks — Internal Ombudsman Directions, 2026" [ref=f158e212] [cursor=pointer]:
+                        - /url: https://www.rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=13271
+                      - text: . The Directions provide for review of complaints partially or wholly rejected by the bank before the final decision is communicated to the customer. See also the Reserve Bank – Integrated Ombudsman Scheme, as revised with effect from July 1, 2026.
+        - generic [ref=f158e214]:
+          - heading [level=2] [ref=f158e215] [cursor=pointer]:
+            - link "2026" [ref=f158e216]:
+              - /url: "#"
+          - heading [level=2] [ref=f158e217] [cursor=pointer]:
+            - link "2025" [ref=f158e218]:
+              - /url: "#"
+          - heading [level=2] [ref=f158e219] [cursor=pointer]:
+            - link "2024" [ref=f158e220]:
+              - /url: "#"
+          - heading [level=2] [ref=f158e221] [cursor=pointer]:
+            - link "2023" [ref=f158e222]:
+              - /url: "#"
+          - heading [level=2] [ref=f158e223] [cursor=pointer]:
+            - link "2022" [ref=f158e224]:
+              - /url: "#"
+          - heading [level=2] [ref=f158e225] [cursor=pointer]:
+            - link "2021" [ref=f158e226]:
+              - /url: "#"
+          - heading [level=2] [ref=f158e227] [cursor=pointer]:
+            - link "2020" [ref=f158e228]:
+              - /url: "#"
+          - heading [level=2] [ref=f158e229] [cursor=pointer]:
+            - link "2019" [ref=f158e230]:
+              - /url: "#"
+          - heading [level=2] [ref=f158e231] [cursor=pointer]:
+            - link "2018" [ref=f158e232]:
+              - /url: "#"
+          - heading [level=2] [ref=f158e233] [cursor=pointer]:
+            - link "2017" [ref=f158e234]:
+              - /url: "#"
+          - heading [level=2] [ref=f158e235]:
+            - link "Archives" [ref=f158e236] [cursor=pointer]:
+              - /url: javascript:void(0);
+      - link "Back to previous page" [ref=f158e238] [cursor=pointer]:
+        - /url: javascript:history.back()
+      - contentinfo [ref=f158e239]:
+        - generic [ref=f158e240]:
+          - generic [ref=f158e241]:
+            - generic [ref=f158e242]:
+              - heading "More Links :" [level=2] [ref=f158e243]
+              - list [ref=f158e244]:
+                - listitem [ref=f158e245]:
+                  - link "Bank Holidays" [ref=f158e246] [cursor=pointer]:
+                    - /url: /Scripts/HolidayMatrixDisplay.aspx
+                - listitem [ref=f158e247]:
+                  - link "Banking Glossary" [ref=f158e248] [cursor=pointer]:
+                    - /url: https://shabdavali.rbi.org.in/
+                - listitem [ref=f158e249]:
+                  - link "Citizen's Charter" [ref=f158e250] [cursor=pointer]:
+                    - /url: /Scripts/CitiChart.aspx
+                - listitem [ref=f158e251]:
+                  - link "Complaints" [ref=f158e252] [cursor=pointer]:
+                    - /url: /Scripts/Complaints.aspx
+                - listitem [ref=f158e253]:
+                  - link "Contact Us" [ref=f158e254] [cursor=pointer]:
+                    - /url: /Scripts/contactus.aspx
+                - listitem [ref=f158e255]:
+                  - link "COVID-19 Measures" [ref=f158e256] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=3894
+                - listitem [ref=f158e257]:
+                  - link "E-LMS" [ref=f158e258] [cursor=pointer]:
+                    - /url: https://ncfe.org.in/e-lms
+                - listitem [ref=f158e259]:
+                  - link "Events" [ref=f158e260] [cursor=pointer]:
+                    - /url: /Scripts/EventsDisplay.aspx
+                - listitem [ref=f158e261]:
+                  - link "FAQs" [ref=f158e262] [cursor=pointer]:
+                    - /url: /Scripts/FAQDisplay.aspx
+                - listitem [ref=f158e263]:
+                  - link "Financial Education" [ref=f158e264] [cursor=pointer]:
+                    - /url: https://www.rbi.org.in/FinancialEducation/
+                - listitem [ref=f158e265]:
+                  - link "Forms" [ref=f158e266] [cursor=pointer]:
+                    - /url: /Scripts/BS_ViewForms.aspx
+                - listitem [ref=f158e267]:
+                  - link "IFSC/MICR Codes" [ref=f158e268] [cursor=pointer]:
+                    - /url: /Scripts/IFSCMICRDetails.aspx
+                - listitem [ref=f158e269]:
+                  - link "Important Websites" [ref=f158e270] [cursor=pointer]:
+                    - /url: /Scripts/OtherLinks.aspx
+                - listitem [ref=f158e271]:
+                  - link "Opportunities@RBI" [ref=f158e272] [cursor=pointer]:
+                    - /url: https://opportunities.rbi.org.in/scripts/index.aspx
+                - listitem [ref=f158e273]:
+                  - link "RBI Clarifications" [ref=f158e274] [cursor=pointer]:
+                    - /url: /Scripts/rbi_clarification.aspx
+                - listitem [ref=f158e275]:
+                  - link "RBI Kehta Hai" [ref=f158e276] [cursor=pointer]:
+                    - /url: https://rbikehtahai.rbi.org.in/
+                - listitem [ref=f158e277]:
+                  - link [ref=f158e278] [cursor=pointer]:
+                    - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Utkarsh202910042026.pdf
+                    - text: RBI’s Vision and Values
+                    - img "PDF document" [ref=f158e279]
+                    - text: (652 KB)
+                - listitem [ref=f158e280]:
+                  - link "Right to Information Act" [ref=f158e281] [cursor=pointer]:
+                    - /url: /Scripts/Righttoinfoact.aspx
+                - listitem [ref=f158e282]:
+                  - link "Tenders" [ref=f158e283] [cursor=pointer]:
+                    - /url: /Scripts/BS_ViewTenders.aspx
+            - generic [ref=f158e284]:
+              - heading "Follow RBI" [level=2] [ref=f158e285]
+              - list [ref=f158e286]:
+                - listitem [ref=f158e287]:
+                  - link [ref=f158e288] [cursor=pointer]:
+                    - /url: /Scripts/rss.aspx
+                    - img "RSS Icon" [ref=f158e289]
+                    - text: RSS
+                - listitem [ref=f158e290]:
+                  - link [ref=f158e291] [cursor=pointer]:
+                    - /url: https://twitter.com/RBI
+                    - img "Twitter Icon" [ref=f158e292]
+                    - text: Twitter
+                - listitem [ref=f158e293]:
+                  - link [ref=f158e294] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCIfCOl43tunZVNYafeC4RQA
+                    - img "YouTube Icon" [ref=f158e295]
+                    - text: YouTube
+                - listitem [ref=f158e296]:
+                  - link [ref=f158e297] [cursor=pointer]:
+                    - /url: https://instagram.com/reservebankofindia
+                    - img "Instagram Icon" [ref=f158e298]
+                    - text: Instagram
+                - listitem [ref=f158e299]:
+                  - link [ref=f158e300] [cursor=pointer]:
+                    - /url: https://www.facebook.com/RBIsays
+                    - img "Facebook Icon" [ref=f158e301]
+                    - text: Facebook
+                - listitem [ref=f158e302]:
+                  - link [ref=f158e303] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/reservebankofindia
+                    - img "LinkedIn Icon" [ref=f158e304]
+                    - text: LinkedIn
+              - link [ref=f158e305] [cursor=pointer]:
+                - /url: https://www.india.gov.in
+                - img "National Portal of India logo" [ref=f158e306]
+          - generic [ref=f158e309]:
+            - generic [ref=f158e310]: © Reserve Bank of India. All Rights Reserved.
+            - generic [ref=f158e311]:
+              - link "Sitemap" [ref=f158e312] [cursor=pointer]:
+                - /url: /Scripts/sitemap.aspx
+              - text: "|"
+              - link "Disclaimer" [ref=f158e313] [cursor=pointer]:
+                - /url: /Scripts/Disclaimer.aspx
+            - generic [ref=f158e315]: Website owned and managed by Reserve Bank of India. Contact us on helpdoc[at]rbi[dot]org[dot]in
+            - generic [ref=f158e316]: "Website last updated date: Aug 25, 2026"
+            - link "Web Information Manager" [ref=f158e319] [cursor=pointer]:
+              - /url: https://www.rbi.org.in/scripts/wim.aspx
+            - generic [ref=f158e320]:
+              - link [ref=f158e321] [cursor=pointer]:
+                - /url: https://rbidocs.rbi.org.in/rdocs/content/pdfs/Accessibility20012026.pdf
+                - text: Accessibility Statement
+                - img "PDF - Accessibility Statement" [ref=f158e322]
+                - text: (133 KB)
+              - text: "|"
+              - link "Screen Reader and Accessibility Help" [ref=f158e323] [cursor=pointer]:
+                - /url: /scripts/ScreenReader.aspx
+            - generic [ref=f158e325]: "Supports: Google Chrome 147+ | Firefox 150+ | Microsoft Edge Version 147+ | Safari 17+"
+  - status

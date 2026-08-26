@@ -1,0 +1,104 @@
+- generic [ref=f201e1]:
+  - banner:
+    - navigation [ref=f201e2]:
+      - generic [ref=f201e3]:
+        - link [ref=f201e5] [cursor=pointer]:
+          - /url: /
+          - img "Visa Developer Center" [ref=f201e6]
+        - navigation "Site" [ref=f201e7]:
+          - list [ref=f201e8]:
+            - listitem [ref=f201e9]:
+              - button "Products" [ref=f201e10] [cursor=pointer]
+            - listitem [ref=f201e11]:
+              - button "Resources" [ref=f201e12] [cursor=pointer]
+            - listitem [ref=f201e13]:
+              - button "Guides" [ref=f201e14] [cursor=pointer]
+            - listitem [ref=f201e15]:
+              - button "Support" [ref=f201e16] [cursor=pointer]
+            - listitem [ref=f201e17]:
+              - link "Sign In" [ref=f201e18] [cursor=pointer]:
+                - /url: /identity
+          - generic [ref=f201e21]:
+            - button "search" [ref=f201e22] [cursor=pointer]
+            - text:      
+          - text: menu
+  - generic [ref=f201e29]:
+    - heading "Getting Started with Visa's Trusted Agent Protocol" [level=1] [ref=f201e30]
+    - link "Product Overview" [ref=f201e32] [cursor=pointer]:
+      - /url: /capabilities/trusted-agent-protocol/overview
+  - generic [ref=f201e35]:
+    - list [ref=f201e38]:
+      - listitem [ref=f201e39]:
+        - link "Getting Started" [ref=f201e40] [cursor=pointer]:
+          - /url: /capabilities/trusted-agent-protocol/docs-getting-started
+      - listitem [ref=f201e41]:
+        - link "Trusted Agent Protocol Specifications" [ref=f201e42] [cursor=pointer]:
+          - /url: /capabilities/trusted-agent-protocol/trusted-agent-protocol-specifications
+      - listitem [ref=f201e43]:
+        - link "Product Terms" [ref=f201e44] [cursor=pointer]:
+          - /url: /capabilities/trusted-agent-protocol/product-terms
+      - listitem [ref=f201e45]:
+        - link "Sample Code Implementation" [ref=f201e46] [cursor=pointer]:
+          - /url: https://github.com/visa/trusted-agent-protocol
+    - generic [ref=f201e53]:
+      - heading "Getting Started" [level=3] [ref=f201e54]
+      - generic [ref=f201e55]:
+        - paragraph [ref=f201e56]: Welcome to the developer platform for the Trusted Agent Protocol! This content is provided for merchants and infrastructure providers who want to securely recognize and transact with Visa-approved AI agents. As agentic traffic and commerce become more prevalent, Visa's Trusted Agent Protocol provides a verifiable, cryptographic standard to help merchants differentiate legitimate agents from nefarious bots or web crawlers.
+        - paragraph [ref=f201e57]
+        - paragraph [ref=f201e58]: "This following are the two key resources needed to get started:"
+        - list [ref=f201e59]:
+          - listitem [ref=f201e60]: "The Trusted Agent Protocol: This is the official rulebook that details the technical processes for recognizing a Visa-approved agent, including the cryptographic standards (RFC9421), required message signature fields, and the process for validating an agent's intent."
+          - listitem [ref=f201e61]: "Sample Code Implementation: To make the protocol concrete, we provide practical code examples. These snippets demonstrate the use of public keys and how to construct the signature_base strings, which are the critical first steps in verifying an agent's signature on your end."
+        - paragraph [ref=f201e62]: "The core of the protocol is simple: a trusted agent will include a message signature in its request to your server. A merchant's primary task is to validate this signature. To do this, a merchant system will need to reconstruct the signature_base string using attributes from the request and then use the agent's public key to verify the signature. This process ensures the request, and thus the agent, is authentic, unaltered, and comes from a trustworthy source. Additionally the protocol describes signatures to enable consumer recognition and payment."
+        - paragraph [ref=f201e63]
+        - paragraph [ref=f201e64]: Continue to the pages in the sidebar to dive into the specifics of the protocol and how you can implement the Trusted Agent Protocol.
+  - contentinfo [ref=f201e65]:
+    - generic [ref=f201e66]:
+      - generic [ref=f201e67]:
+        - generic [ref=f201e68]:
+          - link [ref=f201e69] [cursor=pointer]:
+            - /url: http://www.visa.com
+            - img "Visa Inc logo" [ref=f201e70]
+          - paragraph [ref=f201e71]: Copyright 2015–2026 Visa. All rights reserved.
+        - list [ref=f201e73]:
+          - listitem [ref=f201e74]:
+            - link "Visa Global Sites" [ref=f201e75] [cursor=pointer]:
+              - /url: http://www.visa.com/globalgateway/gg_selectcountry.jsp
+          - listitem [ref=f201e76]:
+            - link "Visa Partner" [ref=f201e77] [cursor=pointer]:
+              - /url: https://partner.visa.com
+          - listitem [ref=f201e78]:
+            - link "Privacy Notice" [ref=f201e79] [cursor=pointer]:
+              - /url: https://visa.com/privacy
+          - listitem [ref=f201e80]:
+            - link "Your Privacy Rights" [ref=f201e81] [cursor=pointer]:
+              - /url: https://usa.visa.com/legal/global-privacy-notice/ca-privacy-rights.html
+          - listitem [ref=f201e94]:
+            - link "Cookie Preferences" [ref=f201e95] [cursor=pointer]:
+              - /url: https://policy.cookiereports.com/58ca76cf_panel-en-gb.js
+          - listitem [ref=f201e96]:
+            - link "Terms of Use" [ref=f201e97] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f201e98]:
+            - link "Security Terms" [ref=f201e99] [cursor=pointer]:
+              - /url: /pages/security-terms
+      - generic [ref=f201e101]:
+        - link "" [ref=f201e102] [cursor=pointer]:
+          - /url: https://github.com/visa
+        - link "" [ref=f201e104] [cursor=pointer]:
+          - /url: https://twitter.com/VisaDeveloper
+        - link "" [ref=f201e106] [cursor=pointer]:
+          - /url: https://www.youtube.com/playlist?list=PLbcVgosgfo3pF-kiMi_kn4Y0ndjB40w5A
+  - dialog [ref=f201e109]:
+    - generic [ref=f201e110]:
+      - heading "Cookies" [level=2] [ref=f201e111]
+      - paragraph [ref=f201e113]:
+        - text: We use cookies and similar technologies where essential to provide our website. We also use them to remember your preferences so that we can give you the best online experience, analyse your visits to our sites and enable personalized marketing (including through our marketing partners). For details, see our
+        - link "Cookie Notice. (External link, opens in a new window)" [ref=f201e114] [cursor=pointer]:
+          - /url: https://www.visa.com/cookie-notice
+          - text: Cookie Notice.
+      - generic [ref=f201e115]:
+        - button "Accept" [ref=f201e116] [cursor=pointer]
+        - button "Reject all" [ref=f201e117] [cursor=pointer]
+        - button "Review choices" [active] [ref=f201e118] [cursor=pointer]
+    - text: ✔ ✖ ✔ ✖ ✔ ✖ ✔ ✖

@@ -1,0 +1,47 @@
+- generic [active] [ref=f853e1]:
+  - banner [ref=f853e2]:
+    - button "Skip to content" [ref=f853e3] [cursor=pointer]
+    - button "Accessibility Feedback" [ref=f853e6] [cursor=pointer]
+    - generic [ref=f853e9]:
+      - link [ref=f853e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=f853e11]
+      - search [ref=f853e12]:
+        - button "Search" [ref=f853e15] [cursor=pointer]
+        - searchbox "Enter your search here – Search suggestions will show as you type" [ref=f853e16]: "\"Zoom Apps\" hackathon winners site:devpost.com"
+        - button "Search using an image" [ref=f853e19] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f853e21]:
+      - button "Microsoft Rewards" [ref=f853e22] [cursor=pointer]
+      - link "Sign in" [ref=f853e23] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Search Filter" [ref=f853e25]:
+      - list [ref=f853e26]:
+        - listitem [ref=f853e27]:
+          - link "All" [ref=f853e28] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=f853e29]:
+          - link "Web" [ref=f853e30] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c75b7d7e46e1e849a9fa3cadb06571be5f818b2c7165e9ff3b649ba514ad7cd4JmltdHM9MTc4NzcwMjQwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3NlYXJjaD9xPSUyMlpvb20rQXBwcyUyMitoYWNrYXRob24rd2lubmVycytzaXRlJTNhZGV2cG9zdC5jb20md2Vic2NwPTEmRk9STT1IRFJXU0M&ntb=1
+        - listitem [ref=f853e31]:
+          - link "Search" [ref=f853e32] [cursor=pointer]:
+            - /url: /copilotsearch?q=%22Zoom+Apps%22+hackathon+winners+site%3adevpost.com&FORM=CSSCOP
+        - listitem [ref=f853e35]:
+          - link "Images" [ref=f853e36] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c10f7b9e84c6488f841810bb20ab78291a161affbb01a69a46af40c03d9b47c6JmltdHM9MTc4NzcwMjQwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L2ltYWdlcy9zZWFyY2g_cT0lMjJab29tK0FwcHMlMjIraGFja2F0aG9uK3dpbm5lcnMrc2l0ZSUzYWRldnBvc3QuY29tJkZPUk09SERSU0My&ntb=1
+        - listitem [ref=f853e37]:
+          - link "Videos" [ref=f853e38] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e6d6f8bb897eba089f7fb1657c7cf4bf8086e0099ee2243caa33edf3616729eeJmltdHM9MTc4NzcwMjQwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L3ZpZGVvcy9zZWFyY2g_cT0lMjJab29tK0FwcHMlMjIraGFja2F0aG9uK3dpbm5lcnMrc2l0ZSUzYWRldnBvc3QuY29tJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=f853e39]:
+          - link "Maps" [ref=f853e40] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=254be4a3106046a4e1306af0e59137a6ce71a0a450700a659624c1e09a718f74JmltdHM9MTc4NzcwMjQwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1L21hcHM_cT0lMjJab29tK0FwcHMlMjIraGFja2F0aG9uK3dpbm5lcnMrc2l0ZSUzYWRldnBvc3QuY29tJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=f853e41]:
+          - button [ref=f853e42] [cursor=pointer]
+  - contentinfo [ref=f853e46]:
+    - generic [ref=f853e47]:
+      - list:
+        - listitem [ref=f853e48]:
+          - link "Privacy" [ref=f853e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=58144ceea87a8b1d9eb146c5f71e84bb1418a7f00449adb5e56eea1dd32a10a7JmltdHM9MTc4NzcwMjQwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=f853e50]:
+          - link "Terms" [ref=f853e51] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=77577c27e9f5ccd6c6a3907114e9902f659f3bd50636fd6c34d94aec45d1e2d9JmltdHM9MTc4NzcwMjQwMA&ptn=3&ver=2&hsh=4&fclid=048434f4-0176-614e-14fd-233500326033&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

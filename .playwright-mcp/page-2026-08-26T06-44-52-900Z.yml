@@ -1,0 +1,14 @@
+- generic [ref=f785e2]:
+  - separator [ref=f785e3]
+  - iframe [ref=f785e8]:
+    - generic [ref=f786e2]:
+      - generic [ref=f786e3]:
+        - checkbox "I'm not a robot" [ref=f786e7]
+        - generic [ref=f786e9]: I'm not a robot
+      - generic [ref=f786e12]: reCAPTCHA
+  - separator [ref=f785e9]
+  - generic [ref=f785e10]:
+    - text: About this page Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot.
+    - link "Why did this happen?" [ref=f785e11] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=f785e12]: "IP address: 103.114.211.183Time: 2026-08-26T06:44:50ZURL: https://www.google.com/search?q=%22reserve+pay%22+site%3Arazorpay.com+-docs&sei=YYuOarvID93dwN4PnKTCsQo"

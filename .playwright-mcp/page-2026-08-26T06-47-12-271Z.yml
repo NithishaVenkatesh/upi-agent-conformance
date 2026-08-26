@@ -1,0 +1,198 @@
+- generic [ref=f812e3]:
+  - banner [ref=f812e4]:
+    - generic [ref=f812e5]:
+      - generic [ref=f812e6]:
+        - link [ref=f812e7] [cursor=pointer]:
+          - /url: /
+          - img "Brave logo" [ref=f812e8]
+        - generic [ref=f812e10]:
+          - textbox "Search" [ref=f812e11]:
+            - /placeholder: Ask anything, find anything…
+            - text: "\"single block multiple debits\" UPI"
+          - generic [ref=f812e12]:
+            - button "Clear" [ref=f812e13] [cursor=pointer]
+            - button "Search" [ref=f812e17] [cursor=pointer]
+            - button "Ask" [ref=f812e20] [cursor=pointer]
+      - generic [ref=f812e29]:
+        - button "Rerank" [ref=f812e30] [cursor=pointer]
+        - button "Quick settings" [ref=f812e36] [cursor=pointer]
+  - navigation [ref=f812e42]:
+    - list [ref=f812e43]:
+      - listitem [ref=f812e44]:
+        - link "Ask" [ref=f812e45] [cursor=pointer]:
+          - /url: /ask?q=%22single+block+multiple+debits%22+UPI&source=web
+      - listitem [ref=f812e47]:
+        - link "All" [ref=f812e48] [cursor=pointer]:
+          - /url: /search?q=%22single+block+multiple+debits%22+UPI&source=web
+      - listitem [ref=f812e50]:
+        - link "Images" [ref=f812e51] [cursor=pointer]:
+          - /url: /images?q=%22single+block+multiple+debits%22+UPI&source=web
+      - listitem [ref=f812e53]:
+        - link "News" [ref=f812e54] [cursor=pointer]:
+          - /url: /news?q=%22single+block+multiple+debits%22+UPI&source=web
+      - listitem [ref=f812e56]:
+        - link "Videos" [ref=f812e57] [cursor=pointer]:
+          - /url: /videos?q=%22single+block+multiple+debits%22+UPI&source=web
+      - listitem [ref=f812e59]:
+        - link "Maps" [ref=f812e60] [cursor=pointer]:
+          - /url: /maps/search?q=%22single+block+multiple+debits%22+UPI&source=web
+      - listitem [ref=f812e62]:
+        - link "Goggles" [ref=f812e63] [cursor=pointer]:
+          - /url: /goggles?q=%22single+block+multiple+debits%22+UPI&source=web
+    - list [ref=f812e65]:
+      - button "Filters" [ref=f812e66] [cursor=pointer]
+  - main [ref=f812e70]:
+    - generic [ref=f812e75]:
+      - generic [ref=f812e76]:
+        - text: Query contains
+        - link "search operators" [ref=f812e77] [cursor=pointer]:
+          - /url: /help/operators
+      - link "Ignore operators" [ref=f812e79] [cursor=pointer]:
+        - /url: /search?q=%22single%20block%20multiple%20debits%22%20UPI&keywords=0&source=ignoreSiteOperators
+    - main [ref=f812e84]:
+      - generic [ref=f812e85]:
+        - generic [ref=f812e89]:
+          - link "🌐 complinity complinity.com › home › legal update NPCI issues Enhancements in UPI Single Block Multiple Debits (UPI Reserve Pay)" [ref=f812e90] [cursor=pointer]:
+            - /url: https://complinity.com/legal-update/npci-issues-enhancements-in-upi-single-block-multiple-debits-upi-reserve-pay--20722/
+            - generic [ref=f812e91]:
+              - img "🌐" [ref=f812e95]
+              - generic [ref=f812e96]:
+                - generic [ref=f812e97]: complinity
+                - generic [ref=f812e98]: complinity.com › home › legal update
+            - generic "NPCI issues Enhancements in UPI Single Block Multiple Debits (UPI Reserve Pay)" [ref=f812e100]
+          - generic [ref=f812e102]:
+            - text: 27 August 2025 - NPCI has launched UPI Single Block Multiple Debits, now called UPI Reserve Pay,
+            - strong [ref=f812e103]: allowing customers to block funds for multiple debits on a merchant platform until the block is used, revoked, or expires
+            - text: .
+        - generic [ref=f812e106]:
+          - generic [ref=f812e107]:
+            - link "🌐 Team Lease RegTech teamleaseregtech.com › updates › article › 34174 › npci-notified-regarding-the-enablement-of-the-upi-mandate-feature-of-s TeamLease RegTech - NPCI notified regarding the enablement of the UPI mandate feature of Single Block Multiple Debits" [ref=f812e108] [cursor=pointer]:
+              - /url: https://www.teamleaseregtech.com/updates/article/34174/npci-notified-regarding-the-enablement-of-the-upi-mandate-feature-of-s/
+              - generic [ref=f812e109]:
+                - img "🌐" [ref=f812e113]
+                - generic [ref=f812e114]:
+                  - generic [ref=f812e115]: Team Lease RegTech
+                  - generic [ref=f812e116]: teamleaseregtech.com › updates › article › 34174 › npci-notified-regarding-the-enablement-of-the-upi-mandate-feature-of-s
+              - generic "TeamLease RegTech - NPCI notified regarding the enablement of the UPI mandate feature of Single Block Multiple Debits" [ref=f812e118]
+            - generic [ref=f812e120]:
+              - text: • Single Block Multiple Debits ... where
+              - strong [ref=f812e121]: the customer can pre-authorize a transaction by blocking the funds in the account for multiple debits which shall be initiated later till the blocked funds get exhausted or the mandated service has been revoked
+              - text: ...
+          - link [ref=f812e123] [cursor=pointer]:
+            - /url: https://www.teamleaseregtech.com/updates/article/34174/npci-notified-regarding-the-enablement-of-the-upi-mandate-feature-of-s/
+        - generic [ref=f812e126]:
+          - generic [ref=f812e127]:
+            - 'link "🌐 Mintgenie mintgenie.livemint.com › news › personal-finance › single-block-and-multiple-debits-here-s-how-this-new-upi-feature-ensures-secure-payments-151670485348936 Single-block-and-multiple-debits: Here’s how this new UPI feature ensures secure payments" [ref=f812e128] [cursor=pointer]':
+              - /url: https://mintgenie.livemint.com/news/personal-finance/single-block-and-multiple-debits-here-s-how-this-new-upi-feature-ensures-secure-payments-151670485348936
+              - generic [ref=f812e129]:
+                - img "🌐" [ref=f812e133]
+                - generic [ref=f812e134]:
+                  - generic [ref=f812e135]: Mintgenie
+                  - generic [ref=f812e136]: mintgenie.livemint.com › news › personal-finance › single-block-and-multiple-debits-here-s-how-this-new-upi-feature-ensures-secure-payments-151670485348936
+              - 'generic "Single-block-and-multiple-debits: Here’s how this new UPI feature ensures secure payments" [ref=f812e138]'
+            - generic [ref=f812e140]:
+              - text: Dev Ashish, Founder, Stable Investor ... a new use case. This functionality
+              - strong [ref=f812e141]: enables UPI users to block funds in their accounts, which can then be debited in future at the time of need
+              - text: ....
+          - link [ref=f812e143] [cursor=pointer]:
+            - /url: https://mintgenie.livemint.com/news/personal-finance/single-block-and-multiple-debits-here-s-how-this-new-upi-feature-ensures-secure-payments-151670485348936
+        - generic [ref=f812e146]:
+          - generic [ref=f812e147]:
+            - link "🌐 Tomorrowmakers tomorrowmakers.com › financial-planning › new-single-block-multiple-debits-upi-feature-here-are-you-aware-article The new single block multiple debits UPI feature is here. Are you aware?" [ref=f812e148] [cursor=pointer]:
+              - /url: https://www.tomorrowmakers.com/financial-planning/new-single-block-multiple-debits-upi-feature-here-are-you-aware-article
+              - generic [ref=f812e149]:
+                - img "🌐" [ref=f812e153]
+                - generic [ref=f812e154]:
+                  - generic [ref=f812e155]: Tomorrowmakers
+                  - generic [ref=f812e156]: tomorrowmakers.com › financial-planning › new-single-block-multiple-debits-upi-feature-here-are-you-aware-article
+              - generic "The new single block multiple debits UPI feature is here. Are you aware?" [ref=f812e158]
+            - generic [ref=f812e160]:
+              - text: 11 April 2023 - It will
+              - strong [ref=f812e161]: enable customers to create a payment mandate against a particular merchant
+              - text: . They will be able to block funds in their bank account for specific purchases with the merchant that will be debited once the product or service is received.
+          - link [ref=f812e163] [cursor=pointer]:
+            - /url: https://www.tomorrowmakers.com/financial-planning/new-single-block-multiple-debits-upi-feature-here-are-you-aware-article
+        - generic [ref=f812e166]:
+          - generic [ref=f812e167]:
+            - link "🌐 Scribd scribd.com › document › 787532066 › UPI-OC-No-200-FY-24-25-Enablement-of-UPI-Mandate-Feature-of-Single-Block-Multiple-Debits UPI OC No 200 FY 24 25-Enablement of UPI Mandate Feature of Single Block Multiple Debits | PDF" [ref=f812e168] [cursor=pointer]:
+              - /url: https://www.scribd.com/document/787532066/UPI-OC-No-200-FY-24-25-Enablement-of-UPI-Mandate-Feature-of-Single-Block-Multiple-Debits
+              - generic [ref=f812e169]:
+                - img "🌐" [ref=f812e173]
+                - generic [ref=f812e174]:
+                  - generic [ref=f812e175]: Scribd
+                  - generic [ref=f812e176]: scribd.com › document › 787532066 › UPI-OC-No-200-FY-24-25-Enablement-of-UPI-Mandate-Feature-of-Single-Block-Multiple-Debits
+              - generic "UPI OC No 200 FY 24 25-Enablement of UPI Mandate Feature of Single Block Multiple Debits | PDF" [ref=f812e178]
+            - generic [ref=f812e179]: UPI OC No 200 FY 24 25–Enablement of UPI Mandate Feature of Single Block Multiple Debits - Free download as PDF File (.pdf) or read online for free.
+          - link [ref=f812e182] [cursor=pointer]:
+            - /url: https://www.scribd.com/document/787532066/UPI-OC-No-200-FY-24-25-Enablement-of-UPI-Mandate-Feature-of-Single-Block-Multiple-Debits
+        - generic [ref=f812e185]:
+          - generic [ref=f812e186]:
+            - link "🌐 DIGITAL TERMINAL digitalterminal.in › home › trending › paytm upi revolutionizes stock trading with single block multiple debit feature Paytm UPI Revolutionizes Stock Trading with Single Block Multiple Debit Feature" [ref=f812e187] [cursor=pointer]:
+              - /url: https://digitalterminal.in/trending/paytm-upi-revolutionizes-stock-trading-with-single-block-multiple-debit-feature
+              - generic [ref=f812e188]:
+                - img "🌐" [ref=f812e192]
+                - generic [ref=f812e193]:
+                  - generic [ref=f812e194]: DIGITAL TERMINAL
+                  - generic [ref=f812e195]: digitalterminal.in › home › trending › paytm upi revolutionizes stock trading with single block multiple debit feature
+              - generic "Paytm UPI Revolutionizes Stock Trading with Single Block Multiple Debit Feature" [ref=f812e197]
+            - generic [ref=f812e199]:
+              - text: 4 March 2025 - Paytm has announced that Paytm UPI now supports UPI Trading Blocks (also known as Single Block Multiple Debits),
+              - strong [ref=f812e200]: a feature designed to simplify broking experience for stock traders
+              - text: .
+          - link [ref=f812e202] [cursor=pointer]:
+            - /url: https://digitalterminal.in/trending/paytm-upi-revolutionizes-stock-trading-with-single-block-multiple-debit-feature
+        - generic [ref=f812e204]:
+          - generic [ref=f812e205]: Find elsewhere
+          - generic [ref=f812e209]:
+            - link "Google" [ref=f812e210] [cursor=pointer]:
+              - /url: /search?q=%22single%20block%20multiple%20debits%22%20UPI%20!g
+            - link "Bing" [ref=f812e211] [cursor=pointer]:
+              - /url: /search?q=%22single%20block%20multiple%20debits%22%20UPI%20!b
+            - link "Mojeek" [ref=f812e212] [cursor=pointer]:
+              - /url: /search?q=%22single%20block%20multiple%20debits%22%20UPI%20!mojeek
+        - button "Next" [disabled] [ref=f812e215]
+  - contentinfo [ref=f812e219]:
+    - generic [ref=f812e222]:
+      - generic [ref=f812e223]:
+        - heading "Resources" [level=6] [ref=f812e224]
+        - generic [ref=f812e225]:
+          - link "Brave Search Premium" [ref=f812e226] [cursor=pointer]:
+            - /url: https://account.brave.com/?intent=checkout&product=search
+          - link "Brave Search help" [ref=f812e227] [cursor=pointer]:
+            - /url: /help
+          - link "Transparency report" [ref=f812e228] [cursor=pointer]:
+            - /url: https://brave.com/transparency/
+          - link "Report a security issue" [ref=f812e229] [cursor=pointer]:
+            - /url: https://hackerone.com/brave
+          - link "Status" [ref=f812e230] [cursor=pointer]:
+            - /url: https://status.brave.app/
+      - generic [ref=f812e231]:
+        - heading "Products" [level=6] [ref=f812e232]
+        - generic [ref=f812e233]:
+          - link "Brave Browser" [ref=f812e234] [cursor=pointer]:
+            - /url: https://brave.com/download/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Search" [ref=f812e235] [cursor=pointer]:
+            - /url: https://search.brave.com
+          - link "Brave Wallet" [ref=f812e236] [cursor=pointer]:
+            - /url: https://brave.com/wallet/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Talk" [ref=f812e237] [cursor=pointer]:
+            - /url: https://talk.brave.com/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Firewall + VPN" [ref=f812e238] [cursor=pointer]:
+            - /url: https://brave.com/firewall-vpn/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Playlist" [ref=f812e239] [cursor=pointer]:
+            - /url: https://brave.com/playlist/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave News" [ref=f812e240] [cursor=pointer]:
+            - /url: https://brave.com/brave-news/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Rewards" [ref=f812e241] [cursor=pointer]:
+            - /url: https://brave.com/brave-rewards/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Search API" [ref=f812e242] [cursor=pointer]:
+            - /url: https://brave.com/search/api/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+          - link "Brave Ads" [ref=f812e243] [cursor=pointer]:
+            - /url: https://brave.com/brave-ads/?mtm_source=brave-search&mtm_medium=searchfooter&mtm_campaign=brave-search&mtm_content=evergreen
+      - generic [ref=f812e244]:
+        - heading "Policies" [level=6] [ref=f812e245]
+        - generic [ref=f812e246]:
+          - link "Privacy Policy" [ref=f812e247] [cursor=pointer]:
+            - /url: /help/privacy-policy
+          - link "Terms of Use" [ref=f812e248] [cursor=pointer]:
+            - /url: https://brave.com/terms-of-use/

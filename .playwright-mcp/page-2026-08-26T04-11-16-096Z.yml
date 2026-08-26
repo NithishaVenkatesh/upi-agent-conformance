@@ -1,0 +1,231 @@
+- generic [active] [ref=f197e1]:
+  - link "Skip to main content" [ref=f197e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f197e3]:
+    - banner [ref=f197e4]:
+      - generic [ref=f197e5]:
+        - link "SKALE Network Home" [ref=f197e7] [cursor=pointer]:
+          - /url: /
+          - img "SKALE Network Logo" [ref=f197e8]
+        - navigation "Main navigation" [ref=f197e20]:
+          - link "Blog" [ref=f197e21] [cursor=pointer]:
+            - /url: /blog
+          - link "Ecosystem (opens in new tab)" [ref=f197e22] [cursor=pointer]:
+            - /url: https://portal.skale.space/
+            - text: Ecosystem
+          - link "Tokenomics" [ref=f197e23] [cursor=pointer]:
+            - /url: /tokenomics
+          - link "Developers (opens in new tab)" [ref=f197e24] [cursor=pointer]:
+            - /url: https://docs.skale.space/welcome/get-started
+            - text: Developers
+        - generic [ref=f197e25]:
+          - list "Social links" [ref=f197e26]:
+            - listitem "X" [ref=f197e27] [cursor=pointer]
+            - listitem "Discord" [ref=f197e30] [cursor=pointer]
+            - listitem "Telegram" [ref=f197e33] [cursor=pointer]
+            - listitem "Github" [ref=f197e36] [cursor=pointer]
+          - link "Stake SKL" [ref=f197e40] [cursor=pointer]:
+            - /url: https://portal.skale.space/staking
+    - main [ref=f197e41]:
+      - generic [ref=f197e43]:
+        - generic [ref=f197e44]:
+          - link "Back to blog" [ref=f197e45] [cursor=pointer]:
+            - /url: /blog
+          - 'heading "SF Agentic Commerce x402 Hackathon: Recap and Winners" [level=1] [ref=f197e46]'
+          - generic [ref=f197e48]:
+            - img "SKALE Network" [ref=f197e50]
+            - generic [ref=f197e51]:
+              - link "SKALE Network" [ref=f197e52] [cursor=pointer]:
+                - /url: https://x.com/SkaleNetwork/
+              - paragraph [ref=f197e53]: February 25, 2026
+        - 'img "SF Agentic Commerce x402 Hackathon: Recap and Winners" [ref=f197e56]'
+      - generic [ref=f197e58]:
+        - article [ref=f197e59]:
+          - generic [ref=f197e60]:
+            - paragraph [ref=f197e61]:
+              - text: Last week, builders from across AI, agents, Web3, DeFi, and commerce came together for the
+              - link [ref=f197e62] [cursor=pointer]:
+                - /url: https://dorahacks.io/hackathon/x402/detail
+                - strong [ref=f197e63]: San Francisco Agentic Commerce x402 Hackathon
+              - text: . A hybrid, 3-day build sprint designed to push “agentic commerce” forward with agents that can act as real buyers and sellers.
+            - strong [ref=f197e65]: Event snapshot
+            - paragraph [ref=f197e66]: With build tracks from partners Coinbase, Google, and Virtuals, the SKALE-led hybrid hackathon (SF hub + global online participation) had over $50,000 in prizes to giveaway to some of the best hackers in the space. Emphasis was placed on shipping real demos that integrate x402 into an actual payment/commercial flow and projects were judged on partner integration (track-dependent), agentic depth, commerce realism, and polish/ship-ability.
+            - strong [ref=f197e68]: By the numbers
+            - list [ref=f197e69]:
+              - listitem [ref=f197e70]: 324 hackers registered
+              - listitem [ref=f197e71]: 86 builds submitted
+              - listitem [ref=f197e72]: 275k+ onchain transactions
+            - strong [ref=f197e74]: Winners
+            - strong [ref=f197e76]: "Overall Track: Best Agentic App / Agent"
+            - paragraph [ref=f197e77]:
+              - strong [ref=f197e78]:
+                - text: "1st Place:"
+                - link "World of Geneva" [ref=f197e79] [cursor=pointer]:
+                  - /url: http://dorahacks.io/buidl/39336
+              - text: "- A next-generation MMORPG where AI agents autonomously play the game while human players observe as agents complete quests, fight mobs, trade items, and progress through a multi-zone world."
+            - paragraph [ref=f197e80]:
+              - strong [ref=f197e81]:
+                - text: "2nd Place:"
+                - link "Moltbet" [ref=f197e82] [cursor=pointer]:
+                  - /url: http://dorahacks.io/buidl/39402
+              - text: "- A decentralized infrastructure layer for the agentic economy: a prediction market built specifically for autonomous AI agents"
+              - strong [ref=f197e83]: ","
+              - text: offering a headless/programmatic environment rather than a traditional human GUI.
+            - strong [ref=f197e85]: Track winners
+            - paragraph [ref=f197e86]:
+              - strong [ref=f197e87]: SKALE Track
+            - list [ref=f197e88]:
+              - listitem [ref=f197e89]:
+                - strong [ref=f197e90]:
+                  - text: "1st Place:"
+                  - link "World of Geneva" [ref=f197e91] [cursor=pointer]:
+                    - /url: http://dorahacks.io/buidl/39336
+              - listitem [ref=f197e92]:
+                - strong [ref=f197e93]:
+                  - text: "2nd Place:"
+                  - link "Pixie" [ref=f197e94] [cursor=pointer]:
+                    - /url: http://dorahacks.io/buidl/37726
+                - text: "- Trustless infrastructure for AI agents to compete, trade, and transact."
+            - paragraph [ref=f197e95]:
+              - strong [ref=f197e96]: "Coinbase Track: Agentic Tool Usage on x402"
+            - list [ref=f197e97]:
+              - listitem [ref=f197e98]:
+                - strong [ref=f197e99]:
+                  - text: "1st Place:"
+                  - link "Superpage" [ref=f197e100] [cursor=pointer]:
+                    - /url: http://dorahacks.io/buidl/39379
+                - text: "- Infrastructure enabling AI agents to participate in real-world commerce, bridging the AI agent economy with global e-commerce via autonomous payments on SKALE."
+              - listitem [ref=f197e101]:
+                - strong [ref=f197e102]:
+                  - text: "2nd Place:"
+                  - link "Pincer" [ref=f197e103] [cursor=pointer]:
+                    - /url: http://dorahacks.io/buidl/39269
+                - text: "- An ad-subsidy protocol that converts ad budgets into task subsidies, helping agents bypass HTTP 402 paywalls by matching sponsors to cover data fees in real time."
+            - paragraph [ref=f197e104]:
+              - strong [ref=f197e105]: "Virtuals Track: Best Trading / DeFi / AI Agent"
+            - list [ref=f197e106]:
+              - listitem [ref=f197e107]:
+                - strong [ref=f197e108]:
+                  - text: "1st Place:"
+                  - link "Moltbet" [ref=f197e109] [cursor=pointer]:
+                    - /url: http://dorahacks.io/buidl/39402
+              - listitem [ref=f197e110]:
+                - strong [ref=f197e111]:
+                  - text: "2nd Place:"
+                  - link "Legasi" [ref=f197e112] [cursor=pointer]:
+                    - /url: http://dorahacks.io/buidl/39347
+                - text: "- A credit + reputation layer for AI agents: credit lines, x402 payments, yield on idle funds, and on-chain reputation."
+            - paragraph [ref=f197e113]:
+              - strong [ref=f197e114]: "Google Track: Best Integration of AP2"
+            - list [ref=f197e115]:
+              - listitem [ref=f197e116]:
+                - strong [ref=f197e117]:
+                  - text: "1st Place:"
+                  - link "RequestTap" [ref=f197e118] [cursor=pointer]:
+                    - /url: https://dorahacks.io/buidl/39363
+                - text: "- An Open Source x402 Router for AI Agents"
+              - listitem [ref=f197e119]:
+                - strong [ref=f197e120]:
+                  - text: "2nd Place:"
+                  - link "Civiclens" [ref=f197e121] [cursor=pointer]:
+                    - /url: https://dorahacks.io/buidl/39375
+                  - text: ":"
+                - text: An x402 and AI-Powered Civic Rewards Platform
+            - strong [ref=f197e123]: "What’s next: Post-hackathon grants"
+            - paragraph [ref=f197e124]:
+              - text: To keep momentum going, SKALErecently announced a post-hackathon
+              - link "grant program" [ref=f197e125] [cursor=pointer]:
+                - /url: http://notion.so/skalelabs/San-Francisco-x402-Hackathon-250-000-Grant-Program-30384b42e3cb80328440c0d82e95fb9e?source=copy_link
+              - text: worth $250,000 of CREDITs. These CREDITs are to be allocated to outstanding projects that show innovation, technical excellence, and meaningful potential impact in the SKALE ecosystem. Teams must have registered for the hackathon, built on or integrated with SKALE during the event, and commit to continued development afterward.
+            - figure [ref=f197e126]:
+              - img "Article image" [ref=f197e128]
+            - strong [ref=f197e130]: Thank you
+            - paragraph [ref=f197e131]: Huge thanks to everyone who built, mentored, supported, and judged with a special shoutout to the partners who helped make the hackathon possible! The Agentic Commerce + x402 ecosystem is moving fast, and this hackathon proved that builders are ready to ship real, working prototypes in real time and fast. .
+            - paragraph [ref=f197e132]: ‍
+        - generic [ref=f197e133]:
+          - paragraph [ref=f197e134]: Share this post
+          - heading "Help spread the word across the Internet of Agents." [level=2] [ref=f197e135]
+          - generic [ref=f197e136]:
+            - link "Share on X" [ref=f197e137] [cursor=pointer]:
+              - /url: https://x.com/intent/tweet?text=SF%20Agentic%20Commerce%20x402%20Hackathon%3A%20Recap%20and%20Winners&url=https%3A%2F%2Fskale.space%2Fblog%2Fsan-francisco-agentic-commerce-x402-hackathon-recap-winners
+            - link "Share on LinkedIn" [ref=f197e138] [cursor=pointer]:
+              - /url: https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fskale.space%2Fblog%2Fsan-francisco-agentic-commerce-x402-hackathon-recap-winners
+            - link "Share on Telegram" [ref=f197e139] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fskale.space%2Fblog%2Fsan-francisco-agentic-commerce-x402-hackathon-recap-winners&text=SF%20Agentic%20Commerce%20x402%20Hackathon%3A%20Recap%20and%20Winners
+            - link "Share by Email" [ref=f197e140] [cursor=pointer]:
+              - /url: mailto:?subject=SF%20Agentic%20Commerce%20x402%20Hackathon%3A%20Recap%20and%20Winners&body=SF%20Agentic%20Commerce%20x402%20Hackathon%3A%20Recap%20and%20Winners%0A%0Ahttps%3A%2F%2Fskale.space%2Fblog%2Fsan-francisco-agentic-commerce-x402-hackathon-recap-winners
+      - generic [ref=f197e142]:
+        - generic [ref=f197e143]:
+          - generic [ref=f197e144]:
+            - paragraph [ref=f197e145]: Keep reading
+            - heading "Related updates from SKALE" [level=2] [ref=f197e146]
+          - link "View all posts" [ref=f197e147] [cursor=pointer]:
+            - /url: /blog
+        - generic [ref=f197e148]:
+          - 'link "Read article: Introducing AgentPit: The Sandbox for AI Prediction Market Agents" [ref=f197e149] [cursor=pointer]':
+            - /url: /blog/agentpit-the-sandbox-for-ai-prediction-market-agents
+            - generic [ref=f197e150]:
+              - generic [ref=f197e151]:
+                - 'img "Introducing AgentPit: The Sandbox for AI Prediction Market Agents" [ref=f197e152]'
+                - generic [ref=f197e154]: Announcement
+              - generic [ref=f197e156]:
+                - paragraph [ref=f197e157]: August 14, 2026
+                - 'heading "Introducing AgentPit: The Sandbox for AI Prediction Market Agents" [level=3] [ref=f197e158]'
+                - paragraph [ref=f197e159]: AgentPit is a Polymarket-compatible sandbox for building, testing, and benchmarking autonomous prediction market agents without risking real capital.
+                - generic [ref=f197e160]: Read article
+          - 'link "Read article: SKALE v5 Is Now Live on Ethereum Mainnet" [ref=f197e163] [cursor=pointer]':
+            - /url: /blog/skale-v5-is-now-live-on-ethereum-mainnet
+            - generic [ref=f197e164]:
+              - generic [ref=f197e165]:
+                - img "SKALE v5 Is Now Live on Ethereum Mainnet" [ref=f197e166]
+                - generic [ref=f197e168]: Engineering
+              - generic [ref=f197e170]:
+                - paragraph [ref=f197e171]: July 29, 2026
+                - heading "SKALE v5 Is Now Live on Ethereum Mainnet" [level=3] [ref=f197e172]
+                - paragraph [ref=f197e173]: SKALE v5 has officially been deployed to SKALE Ethereum Mainnet, bringing significant performance upgrades that make the network faster, more efficient, and easier to operate.
+                - generic [ref=f197e174]: Read article
+          - 'link "Read article: Why the Biggest Companies in 2036 Will Have More Agents Than Employees" [ref=f197e177] [cursor=pointer]':
+            - /url: /blog/why-the-biggest-companies-in-2036-will-have-more-agents-than-employees
+            - generic [ref=f197e178]:
+              - generic [ref=f197e179]:
+                - img "Why the Biggest Companies in 2036 Will Have More Agents Than Employees" [ref=f197e180]
+                - generic [ref=f197e182]: Ecosystem
+              - generic [ref=f197e184]:
+                - paragraph [ref=f197e185]: July 14, 2026
+                - heading "Why the Biggest Companies in 2036 Will Have More Agents Than Employees" [level=3] [ref=f197e186]
+                - paragraph [ref=f197e187]: A look at the inversion already in motion, and the infrastructure that will determine who survives it.
+                - generic [ref=f197e188]: Read article
+    - contentinfo [ref=f197e191]:
+      - generic [ref=f197e192]:
+        - generic [ref=f197e193]:
+          - link "SKALE Network Home" [ref=f197e194] [cursor=pointer]:
+            - /url: /
+            - img "SKALE Network Logo" [ref=f197e195]
+          - list "Social links" [ref=f197e206]:
+            - listitem "X" [ref=f197e207] [cursor=pointer]
+            - listitem "Discord" [ref=f197e210] [cursor=pointer]
+            - listitem "Telegram" [ref=f197e213] [cursor=pointer]
+            - listitem "Github" [ref=f197e216] [cursor=pointer]
+        - generic [ref=f197e220]:
+          - paragraph [ref=f197e221]: © 2026 N.O.D.E. Anstalt
+          - navigation "Footer navigation" [ref=f197e222]:
+            - link "Home" [ref=f197e223] [cursor=pointer]:
+              - /url: /
+            - link "Ecosystem (opens in new tab)" [ref=f197e224] [cursor=pointer]:
+              - /url: https://portal.skale.space/
+              - text: Ecosystem
+            - link "Tokenomics" [ref=f197e225] [cursor=pointer]:
+              - /url: /tokenomics
+            - link "Whitepaper" [ref=f197e226] [cursor=pointer]:
+              - /url: /whitepaper.pdf
+            - link "Developers (opens in new tab)" [ref=f197e227] [cursor=pointer]:
+              - /url: https://docs.skale.space/welcome/get-started
+              - text: Developers
+            - link "Blog" [ref=f197e228] [cursor=pointer]:
+              - /url: /blog
+            - link "Careers (opens in new tab)" [ref=f197e229] [cursor=pointer]:
+              - /url: https://jobs.skale.space/jobs
+              - text: Careers
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f197e230]

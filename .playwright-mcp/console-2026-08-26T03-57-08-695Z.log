@@ -1,0 +1,40 @@
+[     147ms] [ERROR] Not signed in with the identity provider. @ https://www.business-standard.com/finance/news/india-may-allow-agentic-ai-led-upi-transactions-under-new-npci-protocol-126070801343_1.html:0
+[     819ms] [LOG] GA4 IS WORKING HERE .... @ https://www.outlookbusiness.com/news/india-plans-ai-powered-upi-payments-framework-through-unified-agent-protocol:27
+[    1304ms] [LOG] Script Loaded Start @ https://www.outlookbusiness.com/outlook/outlook-business/assets/js/script.js?v=324082610:0
+[    1305ms] [LOG] show_io_vanish_ads null @ https://www.outlookbusiness.com/outlook/outlook-business/assets/js/script.js?v=324082610:0
+[    1446ms] Uncaught TypeError: Cannot read properties of null (reading 'style')
+    at onscroll (https://fea.assettype.com/outlook/outlook-business/assets/js/action.js?v=124082610:72:64)
+    at <anonymous> (https://fea.assettype.com/outlook/outlook-business/assets/js/action.js?v=124082610:47:2)
+[    1426ms] [LOG] Script Loaded End @ https://www.outlookbusiness.com/outlook/outlook-business/assets/js/script.js?v=324082610:0
+[    1917ms] [WARNING] [GPT] PubAdsService.set is deprecated, use googletag.setConfig({adsenseAttributes: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608200101/pubads_impl.js?cb=122880621:18
+[    1919ms] [WARNING] [GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-1741003029019-0.
+https://goo.gle/gpt-message#26 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608200101/pubads_impl.js?cb=122880621:18
+[    1920ms] [WARNING] [GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-1741003029019-0.
+https://goo.gle/gpt-message#26 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608200101/pubads_impl.js?cb=122880621:18
+[    2119ms] [WARNING] [Meta Pixel] - Removed parameters from custom data due to potential violations. Go to Events Manager to learn more. @ https://connect.facebook.net/en_US/fbevents.js:197
+[    2406ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608200101/pubads_impl.js?cb=122880621:18
+[    2436ms] [WARNING] Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either the publisherProvidedId or the __gads value when that is missing. @ https://cdn.jsdelivr.net/gh/prebid/shared-id/pubcid.js/docs/pubcid.min.js:0
+[    2548ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202608200101/pubads_impl.js?cb=122880621:18
+[    3080ms] [INFO] Powered by AMP ⚡ HTML – Version 2607210106000 https://www.outlookbusiness.com/news/india-plans-ai-powered-upi-payments-framework-through-unified-agent-protocol @ https://cdn.ampproject.org/rtv/012607210106000/amp4ads-v0.mjs:1
+[    5811ms] [LOG] Ads found: 7 @ https://www.outlookbusiness.com/news/india-plans-ai-powered-upi-payments-framework-through-unified-agent-protocol:252
+[    5818ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://www.outlookbusiness.com/news/india-plans-ai-powered-upi-payments-framework-through-unified-agent-protocol:0
+[    5819ms] [LOG] Visible: MPU1 @ https://www.outlookbusiness.com/news/india-plans-ai-powered-upi-payments-framework-through-unified-agent-protocol:235
+[    8811ms] [LOG] Loading Taboola... @ https://www.outlookbusiness.com/news/india-plans-ai-powered-upi-payments-framework-through-unified-agent-protocol:46
+[    9774ms] [WARNING] Taboola Push Option modes "alternating-thumbnails-rr" for placement-Right Rail Thumbnails, not present in Publisher Config modes. @ https://cdn.taboola.com/libtrc/outlookindia-outlookbusiness/loader.js:0
+[   10148ms] [WARNING] Mode 'alternating-thumbnails-rr' for Placement 'Right Rail Thumbnails' doesn't exist in configuration https://www.outlookbusiness.com/news/india-plans-ai-powered-upi-payments-framework-through-unified-agent-protocol @ https://cdn.taboola.com/libtrc/outlookindia-outlookbusiness/loader.js:0
+[   10149ms] [WARNING] Placements With no Content: Right Rail Thumbnails @ https://cdn.taboola.com/libtrc/outlookindia-outlookbusiness/loader.js:0
+[   10150ms] [WARNING] Mode 'alternating-thumbnails-rr' for Placement 'Right Rail Thumbnails' doesn't exist in configuration https://www.outlookbusiness.com/news/india-plans-ai-powered-upi-payments-framework-through-unified-agent-protocol @ https://cdn.taboola.com/libtrc/outlookindia-outlookbusiness/loader.js:0
+[   10150ms] [WARNING] Placements With no Content: Right Rail Thumbnails @ https://cdn.taboola.com/libtrc/outlookindia-outlookbusiness/loader.js:0
+[   10389ms] [WARNING] Placements With no Content: Below Article Thumbnails | Lazy Injected 1 @ https://cdn.taboola.com/libtrc/outlookindia-outlookbusiness/loader.js:0
+[   10390ms] [WARNING] Placements With no Content: Below Article Thumbnails | Lazy Injected 1 @ https://cdn.taboola.com/libtrc/outlookindia-outlookbusiness/loader.js:0
+[   16811ms] TypeError: Cannot read properties of undefined (reading 'classList')
+    at init (<anonymous>:14:17)
+    at next (<anonymous>:19:9)
+    at <anonymous>:33:9
+[   20313ms] TypeError: Cannot read properties of undefined (reading 'classList')
+    at init (<anonymous>:14:17)
+    at next (<anonymous>:19:9)
+    at <anonymous>:33:9
