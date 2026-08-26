@@ -1,0 +1,17 @@
+# H028 — GKE Turns 10 Hackathon — TIER 3 (finance-heavy: built on Bank of Anthos / Online Boutique)
+
+- Organizer: Google Cloud | 2025, announced ~Nov/Dec 2025 | Online, global (NA/LATAM/APAC/EMEA regional prizes)
+- Winners: https://cloud.google.com/blog/topics/developers-practitioners/winners-and-highlights-from-gke-hackathon
+- Notable: the base applications were Google's **Bank of Anthos** (retail banking microservices) and **Online Boutique** — so many submissions are literally banking/commerce agents.
+
+## VERIFIED PLACEMENTS
+| Placement | Team | Project | Problem | Solution | Tech | Repo | Evidence |
+|---|---|---|---|---|---|---|---|
+| **NA Regional Winner** | Anh Lam | **CardOS** — AI-Powered Credit Pre-Approval | Credit pre-approval uses static credit scores, not real spending behaviour | **7-agent pipeline** (Risk, Terms, Perks, **Challenger**, **Arbiter**, Policy agents + MCP server) over Bank of Anthos transaction data → personalised, profitability-balanced credit offers | GKE, Gemini, Python/Flask, PostgreSQL, Docker/K8s, MCP Server | NO_PUBLIC_REPOSITORY (demo http://34.120.148.160/) | FACT (placement); repo confirmed absent |
+| Honorable Mention | Ayan Liger | **Vigil AI** | Financial microservices lack real-time fraud defence without code changes | **Hierarchical multi-agent fraud detection/mitigation running as a sidecar layer** — zero modification to the existing app | GKE, K8s, Docker, Python, Go, FastAPI, Gemini 2.5 Flash, **ADK, A2A**, PostgreSQL | https://github.com/ayanliger/gke-turns10-hackathon-vigil (Python, 306 KB, pushed 2025-12-03) | FACT |
+| Honorable Mention | Julian Hecker | Voice Teller (Dial ADK + MCP) | Legacy IVR banking is clunky | AI phone agent for voice login, balance checks, transactions | GKE Autopilot, Google ADK, FastAPI VoiceBridge, FastMCP, Twilio, Bank of Anthos | https://github.com/julian-hecker/gke-hackathon (Python, 515 KB, 1★) | FACT |
+| EMEA Regional Winner | Victor Bash | Cartmate | Online shopping lacks conversational, style-aware assistance | **6-agent architecture**: conversational product discovery, visual style analysis, price comparison, cart management | React/TS, WebSocket, FastAPI, Redis, Vertex AI Gemini, Vision API, Perplexity, K8s, gRPC | https://github.com/victorbash400/Cartmate (JS, 1.6 MB) | FACT |
+| APAC Regional Winner | Rakesh E, Poujhit MU, Manjunathan R, Mary Shermila | V-Commerce Studio | E-commerce lacks proactive AI engagement | Personalised chat, virtual try-on, instant ad generation | GKE, Cloud Run, Vertex AI/Gemini, Veo 3, Go/Python, gRPC, RAG Engine, ADK, MCP | NO_PUBLIC_REPOSITORY (`GKE-hack/online-boutique` does **not** resolve — confirmed 404 via `gh repo view`) | FACT (placement); repo confirmed absent |
+| LATAM Regional Winner | Hudson Araújo, Gabriel Valentim, Samuel Cavalcanti, Giovanna Moeller | NeroFashion | Boutiques lack try-on + accessible descriptions | Plug-and-play AI microservice for Online Boutique | FastAPI, React, Gemini, Docker, GKE | frontend https://github.com/giovannamoeller/nero-fashion-frontend (TS, 921 KB, 3★) · backend https://github.com/xValentim/nero-fashion (Jupyter, 43 MB, 5★) | FACT |
+
+**Most transferable:** CardOS's **Challenger + Arbiter** agent roles (an explicit adversary and an explicit decider inside the pipeline) and Vigil AI's **sidecar** deployment model (add risk to an existing payment stack without touching it) — both map cleanly onto Razorpay Track 02.
