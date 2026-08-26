@@ -1,0 +1,90 @@
+{
+ "store_version": "2026-08-26.1",
+ "extractor_version": "naive-seed-0",
+ "claims": [
+  {
+   "id": "OC228-5-block-max",
+   "doc_sha256": "f478fbc17a0391c8e18864ee46e0f0839e685a98c750d36fed48566a37d2a3fc",
+   "circular": "NPCI/UPI/OC No.228",
+   "clause": "Issuer \u00a75",
+   "value_minor": 1000000,
+   "unit": "INR_paise",
+   "scope": "per_block",
+   "subject": "upi_reserve_pay_block_limit",
+   "status": "RESOLVED",
+   "quote": "The block created to be maximum of Rs.10,000 of block limit and up to 90 days."
+  },
+  {
+   "id": "OC228-5-block-days",
+   "doc_sha256": "f478fbc17a0391c8e18864ee46e0f0839e685a98c750d36fed48566a37d2a3fc",
+   "circular": "NPCI/UPI/OC No.228",
+   "clause": "Issuer \u00a75",
+   "value_minor": 90,
+   "unit": "days",
+   "scope": "per_block",
+   "subject": "upi_reserve_pay_block_validity",
+   "status": "RESOLVED",
+   "quote": "The block created to be maximum of Rs.10,000 of block limit and up to 90 days."
+  },
+  {
+   "id": "OC228-3-retry",
+   "doc_sha256": "f478fbc17a0391c8e18864ee46e0f0839e685a98c750d36fed48566a37d2a3fc",
+   "circular": "NPCI/UPI/OC No.228",
+   "clause": "Acquirer \u00a73",
+   "value_minor": 3,
+   "unit": "count_per_24h",
+   "scope": "timeout_declines_only",
+   "subject": "retry_budget",
+   "status": "RESOLVED",
+   "quote": "acquiring entities may retry maximum 3 times in 24 hours (no retries for any other declines)"
+  },
+  {
+   "id": "OC201-7-txn",
+   "doc_sha256": "da9dcfbd7bdeca33e26b28cf9f254bd7238293051aebd03e39ef4b0d2181210c",
+   "circular": "NPCI/UPI/OC No.201",
+   "clause": "\u00a77",
+   "value_minor": 500000,
+   "unit": "INR_paise",
+   "scope": "per_transaction",
+   "subject": "upi_circle_full_delegation",
+   "status": "RESOLVED",
+   "quote": "maximum per transaction limit of \u20b95000"
+  },
+  {
+   "id": "OC201-7-month",
+   "doc_sha256": "da9dcfbd7bdeca33e26b28cf9f254bd7238293051aebd03e39ef4b0d2181210c",
+   "circular": "NPCI/UPI/OC No.201",
+   "clause": "\u00a77",
+   "value_minor": 1500000,
+   "unit": "INR_paise",
+   "scope": "per_month_per_delegation",
+   "subject": "upi_circle_full_delegation",
+   "status": "RESOLVED",
+   "quote": "a maximum monthly limit of \u20b915,000/- per delegation"
+  },
+  {
+   "id": "OC228-4-one-block",
+   "doc_sha256": "f478fbc17a0391c8e18864ee46e0f0839e685a98c750d36fed48566a37d2a3fc",
+   "circular": "NPCI/UPI/OC No.228",
+   "clause": "Issuer \u00a74",
+   "value_minor": 1,
+   "unit": "count",
+   "scope": "per_customer_per_merchant",
+   "subject": "concurrent_blocks",
+   "status": "RESOLVED",
+   "quote": "One mobile number (assumed as one customer) is allowed to create only one block at a time for the particular merchant."
+  },
+  {
+   "id": "OC228-2-not-guarantee",
+   "doc_sha256": "f478fbc17a0391c8e18864ee46e0f0839e685a98c750d36fed48566a37d2a3fc",
+   "circular": "NPCI/UPI/OC No.228",
+   "clause": "Acquirer \u00a72",
+   "value_minor": 0,
+   "unit": "predicate",
+   "scope": "per_block",
+   "subject": "block_is_payment_guarantee",
+   "status": "RESOLVED",
+   "quote": "The block created shall not be treated as the guarantee of payment"
+  }
+ ]
+}
