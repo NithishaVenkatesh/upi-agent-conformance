@@ -22,9 +22,15 @@ from eval.probe_cache import load_cached_cases, ProbeCacheError
 
 GOOD = {
     "probed_at": "2026-08-27T01:43:15",
+    # NOTE: the caveat fields below are not decoration — eval/probe_cache.py
+    # REFUSES to load a finding without them. This fixture originally omitted
+    # them and the gate rejected it, which is the gate doing its job.
     "findings": [{"parameter": "max_amount", "api_enforces_paise": 1500000,
                   "circular_authorises_paise": 1000000,
-                  "circular": "NPCI/UPI/OC No.228 Issuer §5"}],
+                  "circular": "NPCI/UPI/OC No.228 Issuer §5",
+                  "framing": "the rail permits 1.5x what we can cite",
+                  "not_claimed": "that Razorpay is wrong",
+                  "alternatives_not_excluded": ["a later circular may have raised it"]}],
     "cases": [{"id": "live-api:sbmd-max-amount", "source": "razorpay live test API",
                "text": "t", "label": "FAIL",
                "declared": {"subject": "upi_reserve_pay_block_limit", "value": 1500000,
