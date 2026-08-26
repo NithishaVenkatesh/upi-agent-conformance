@@ -1,2 +1,0 @@
-[    4644ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.mastercard.com/global/en/business/issuers/agent-pay.html:0
-[    4948ms] [LOG] bootstraping hit date conversions @ https://www.mastercard.com/etc.clientlibs/marts/clientlibs/clientlib-site.lc-ba749dd27694e6bf31319ba0c00344cf-lc.min.js:30900
