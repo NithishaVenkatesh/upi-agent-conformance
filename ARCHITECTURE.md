@@ -34,7 +34,10 @@ REFUSED retry_not_permitted · NPCI/UPI/OC No.228 Acquirer §3 ·
 | Built, tested, running | gate · ledger + HEAD anchor · claim store · conformance engine · UCP profile + MCP server · buyer agent · naive baseline · LLM extractor · eval harness · **95 tests, 85% coverage** |
 | Live-verified | 4 real Indian merchants confirmed card-only via Playwright (`pytest -m network`) |
 | Awaiting credentials | Azure OpenAI (extractor runs against a deterministic fake meanwhile) · Razorpay test keys (capture is stubbed **and declared**) |
-| **`make eval` exits 2 deliberately** | 13 of the committed 50 claims harvested; the harness **suppresses the headline** rather than report a rate on a small n |
+| **`make eval` exits 2 — VACUOUS** | The scored pool is 6 controls + 8 unlabelled merchant profiles. **The positive class is empty**, so a detection rate would be 0/0. The five real drifts sit in the discovery set and are excluded by design to avoid inflating the rate. **Closing this is research labour, not configuration**: ~50 independently-sourced claims, hand-labelled against circulars the way OC-201 and OC-228 were. It is the largest remaining gap in the project — larger than the payment integration. (`FAILURES.md` #5) |
+| Extraction at scale — **unverified** | The 7 authoritative claims were hand-read from the scans, not produced end-to-end by `extract/llm.py`. Contract tests cover schema, hallucinated quotes and the naive-baseline comparison; they are not evidence of reliability across dozens of messier pages. |
+| E2E — **passing, but opt-in** | 3 Playwright tests (discovery → MCP purchase; live premise check). Network-marked, so `make test` stays offline. Last run 2026-08-26: **4 passed**, all four real merchants still card-only. Run with `pytest -m network`. |
+| Kill-gate 2 — **open** | Whether Razorpay test mode supports the Reserve Pay mandate flow is **unknown**. `tools/probe_testmode.py` is built but unrun. Fallback rail: UPI Autopay. |
 ## Components
 
 | Component | LLM? | Job |

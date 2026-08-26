@@ -112,3 +112,30 @@ It is the identical failure to the one the project exists to catch — a confide
 **The rule now applied everywhere:** *a check must prove it can fail before its pass is believed.* `self_conformance.py` runs three known-bad fixtures first. `eval/tamper.py` asserts its mutation bit. `eval/harness.py` refuses to print a headline below the committed n.
 
 **Cost:** ~25 minutes. **Verified:** 5/5 attacks caught with the guard active; guard itself proven by asserting on a no-op mutation.
+
+---
+
+## #5 · 2026-08-26 — The honesty harness reported a metric over an empty positive class
+
+**What broke.** An external reviewer read the committed eval output and asked what the 14 scored cases actually were. They were 6 conformant controls and 8 merchant profiles with no UPI handler at all.
+
+**Zero violations. The positive class was empty.**
+
+`detected = 0`, `true_fail = 0`. A detection rate of **0/0** measures nothing, and the harness printed it as a result — under a header explaining how careful it was being about effective *n*. The component whose entire purpose is to prevent a compromised measurement target had one.
+
+A second bug sat underneath. Eight cases carry the label `UNDETERMINED`, which `run_batch()` handled in neither the PASS nor the FAIL branch: they inflated `scored` to 14 while belonging to no class. The suite already asserts `true_pass + true_fail == scored` — **and passed**, because the fixture contained no `UNDETERMINED` labels. The test was fixture-blind. Real numbers: `scored=14`, `true_pass+true_fail=6`.
+
+**How I got out.**
+- The harness now refuses when `true_fail == 0`, with reason `VACUOUS`, and prints the size of the positive class beside every headline.
+- Separated two things that were conflated: **`unlabelled`** (no ground truth exists — the case cannot test anything) from **`undetermined`** (ground truth exists and the engine abstained). Only the second is a system behaviour worth reporting.
+- Replaced the fixture-blind test with one that includes an `UNDETERMINED` label, plus a test asserting an all-controls pool is reported as vacuous.
+
+Honest output now: `6 scored / 14 attempted (8 unlabelled, 0 abstained)`, `positive class: 0`, `VACUOUS`.
+
+**What I'd tell the next person.** **A metric can be vacuous in two directions, and everyone only checks one.** The field's known failure is a positive class so easy that a stump predicts it. This is the mirror image — a positive class so empty that nothing *can* be predicted — and it is harder to see, because every individual number looks defensible. `detected: 0` reads as modest rather than as broken.
+
+Ask of any evaluation: **how many true positives are in the denominator, and what would it take for this number to be wrong?** If nothing could make it wrong, it is not a measurement.
+
+This is the **fifth** instance of one shape in this project: a check that can silently do nothing while reporting success. It found me in the CI gate (#3), the tamper suite (#4), a unit test, and now the eval harness itself.
+
+**Cost:** ~35 minutes. **Verified:** `make eval` exits 2 with `VACUOUS`; 97 tests pass including two new regression tests; the invariant now holds on production data.

@@ -34,6 +34,7 @@ def _load_authorities() -> List[Authoritative]:
 @dataclass
 class Report:
     attempted: int = 0
+    unlabelled: int = 0
     scored: int = 0
     undetermined: int = 0
     true_pass: int = 0
@@ -45,6 +46,7 @@ class Report:
     detections: List[dict] = field(default_factory=list)
     headline_suppressed: bool = False
     suppression_reason: str = ""
+    vacuous: bool = False
     effective_n_note: str = ""
 
     def as_dict(self): return asdict(self)
@@ -57,6 +59,7 @@ class Report:
             rate = self.detected / self.scored if self.scored else 0
             L.append(f"conformance detection: {self.detected}/{self.scored} ({rate:.0%})")
         L.append(f"  effective n: {self.effective_n_note}")
+        L.append(f"  positive class (violations available to detect): {self.true_fail}")
         L.append(f"  UNDETERMINED (abstained): {self.undetermined}")
         L.append(f"  induced harm (wrongly refused a correct claim): {self.induced_harm}")
         L.append(f"  naive-regex baseline detected: {self.baseline_detected}/{self.scored}")
@@ -73,6 +76,12 @@ def run_batch(cases: List[dict], min_n: int = MIN_N, authorities=None) -> Report
         d = c["declared"]
         v = check_claim(Declared(subject=d["subject"], value=d["value"], unit=d["unit"],
                                  scope=d["scope"], source=c["source"]), auth)
+        # A case LABELLED undetermined is not a test of anything: there is no ground
+        # truth to be right or wrong about. It must leave the denominator entirely,
+        # or it silently inflates `scored` while belonging to no class.
+        if c["label"] == "UNDETERMINED":
+            r.unlabelled += 1
+            continue
         if v.result == "UNDETERMINED":
             r.undetermined += 1
             continue
@@ -102,7 +111,23 @@ def run_batch(cases: List[dict], min_n: int = MIN_N, authorities=None) -> Report
     if r.baseline_detected is None:
         r.baseline_detected = 0
 
-    r.effective_n_note = f"{r.scored} scored / {r.attempted} attempted"
+    r.effective_n_note = (f"{r.scored} scored / {r.attempted} attempted "
+                          f"({r.unlabelled} unlabelled, {r.undetermined} abstained)")
+
+    # A detection rate over an empty positive class is 0/0 — it measures nothing and
+    # must never be printed. Found by an external reviewer; the harness happily
+    # reported 0 detected of 0 available. Fifth instance of the same vacuity shape
+    # in this project (FAILURES.md #5).
+    if r.true_fail == 0:
+        r.vacuous = True
+        r.headline_suppressed = True
+        r.suppression_reason = (
+            f"VACUOUS: {r.true_fail} positive cases in the scored pool. A detection "
+            f"rate over an empty positive class is 0/0 and measures nothing. The pool "
+            f"needs claims that actually violate a circular, independently sourced and "
+            f"labelled — not controls and abstentions.")
+        return r
+
     if r.scored < min_n:
         r.headline_suppressed = True
         r.suppression_reason = (f"only {r.scored} claims scored; architecture commits to "

@@ -65,7 +65,47 @@ print(f"    {res['circular']} {res['clause']}")
 print(f"    \"{res['quote']}\"")
 print(f"    {res['detail']}")
 
-h(5, "The audit ledger")
+h(5, "The semantic catch — what no regex can reach")
+# Verbatim from Razorpay's own Reserve Pay documentation page.
+VENDOR_DOC = ("Guaranteed Collection: Funds are pre-blocked, ensuring you receive "
+              "payment regardless of customer's later financial situation.")
+print(f'  vendor doc says:\n    "{VENDOR_DOC}"\n')
+
+from extract.naive import naive_extract
+from extract.llm import extract_claims, FakeLLM, ExtractionError
+from conform.engine import check_claim, Declared, Authoritative
+from eval.harness import _load_authorities
+
+nb = naive_extract(VENDOR_DOC)
+print(f"  naive regex baseline  → {len(nb)} claims. It is looking for a rupee figure;")
+print( "                          this drift is a claim about MEANING, not a number.\n")
+
+try:
+    claims = extract_claims(VENDOR_DOC)
+    src = "Azure OpenAI (live)"
+except ExtractionError:
+    # No key present. Use the deterministic stand-in and SAY SO — a stubbed extractor
+    # presented as a live one would be the drift this project exists to catch.
+    claims = extract_claims(VENDOR_DOC, llm=FakeLLM([{
+        "subject": "block_is_payment_guarantee", "value": True, "unit": "predicate",
+        "scope": "per_block", "clause": "vendor-doc",
+        "quote": "Funds are pre-blocked, ensuring you receive payment", "confidence": 0.95}]))
+    src = "FakeLLM (deterministic stand-in — no AZURE_OPENAI_API_KEY present)"
+
+print(f"  extractor [{src}]")
+for c in claims:
+    print(f"    → {c['subject']} = {c['value']}   ({c['unit']}, origin={c['origin']})")
+
+auth = _load_authorities()
+for c in claims:
+    v = check_claim(Declared(subject=c["subject"], value=c["value"], unit=c["unit"],
+                             scope=c["scope"], source="razorpay/docs/reserve-pay"), auth)
+    print(f"\n  CONFORMANCE: {v.result}  {v.code}")
+    print(f"    {v.circular} {v.clause}")
+    print(f'    "{v.quote}"')
+    print(f"    {v.detail}")
+
+h(6, "The audit ledger")
 ok, msg = Ledger(path='eval/ledger.jsonl').verify()
 print(f"  {'OK' if ok else 'BROKEN'} — {msg}")
 print("  5 tamper attacks: python3 -m eval.tamper")

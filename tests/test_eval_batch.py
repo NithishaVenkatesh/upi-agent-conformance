@@ -29,8 +29,12 @@ def test_undetermined_counted_separately_never_as_pass():
     (An earlier version of this test compared integer VALUES, which collide by
     coincidence and assert nothing. Test the invariant, not the numbers.)"""
     r = run_batch(CASES)
-    assert r.undetermined == 1
-    assert r.scored == r.attempted - r.undetermined
+    # Two distinct things, deliberately separate:
+    #   unlabelled   — no ground truth exists for this case; it cannot test anything
+    #   undetermined — ground truth exists, and the engine abstained
+    # Both must leave the scored denominator; only the second is a system behaviour.
+    assert r.unlabelled == 1
+    assert r.scored == r.attempted - r.unlabelled - r.undetermined
     assert r.true_pass + r.true_fail == r.scored
     assert r.detected <= r.true_fail
 
@@ -56,6 +60,26 @@ def test_refuses_below_minimum_n():
     r = run_batch(CASES, min_n=50)
     assert r.headline_suppressed is True
     assert "50" in r.suppression_reason
+
+def test_undetermined_LABEL_leaves_the_denominator():
+    """Regression: 8 real cases labelled UNDETERMINED inflated `scored` while belonging
+    to no class, violating the invariant the suite already asserted. The old fixture had
+    no UNDETERMINED labels, so the test was fixture-blind and passed anyway."""
+    cases = CASES + [{"id":"u1","source":"x","text":"",
+                      "declared":{"subject":"upi_reserve_pay_block_limit","value":None,
+                                  "unit":"INR_paise","scope":"per_block"},
+                      "label":"UNDETERMINED"}]
+    r = run_batch(cases)
+    assert r.unlabelled == 2          # one already in CASES, plus the one added here
+    assert r.true_pass + r.true_fail == r.scored, "unlabelled case leaked into scored"
+
+def test_empty_positive_class_is_vacuous_not_zero_percent():
+    """A detection rate of 0/0 measures nothing and must be refused, not printed."""
+    controls_only = [c for c in CASES if c["label"] == "PASS"]
+    r = run_batch(controls_only, min_n=1)
+    assert r.vacuous is True
+    assert r.headline_suppressed is True
+    assert "VACUOUS" in r.suppression_reason
 
 def test_report_is_deterministic():
     assert run_batch(CASES).as_dict() == run_batch(CASES).as_dict()
