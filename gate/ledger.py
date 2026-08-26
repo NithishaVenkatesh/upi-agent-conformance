@@ -3,6 +3,16 @@ import hashlib, json, os
 
 GENESIS_ANCHOR = "corpus/claims/authoritative.json"
 
+# Three states, because two were not enough. `verify()` answers the MONEY PATH's
+# question — "is there anything here that contradicts itself?" — for which an
+# empty log is a legitimate True: the first authorisation of all time has nothing
+# behind it. `state()` answers the REPORTING question — "did you actually walk
+# anything?" — for which an empty log must never read as success.
+# Collapsing the two is what put `ledger OK` on a fresh clone. FAILURES.md #3(b).
+VERIFIED = "VERIFIED"
+EMPTY = "EMPTY"
+BROKEN = "BROKEN"
+
 def _h(prev: str, payload: dict) -> str:
     canon = json.dumps(payload, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256((prev + canon).encode()).hexdigest()
@@ -35,6 +45,19 @@ class Ledger:
         # internally-consistent chain that both walk directions accept. See FAILURES.md #2.
         json.dump({"count": len(es) + 1, "head": e["hash"]}, open(self.head_path, "w"))
         return e
+
+    def state(self):
+        """(VERIFIED | EMPTY | BROKEN, message). The reporting three-way.
+
+        EMPTY means there is genuinely nothing to check — no log AND no HEAD.
+        A log that is missing or emptied while HEAD survives is an ATTACK, not an
+        absence, and is BROKEN. That distinction is the whole fix."""
+        es = self._entries()
+        if not es and not os.path.exists(self.head_path):
+            return EMPTY, ("no ledger yet — nothing was walked. "
+                           "Run `make demo` first, then `make verify`.")
+        ok, msg = self.verify()
+        return (VERIFIED if ok else BROKEN), msg
 
     def verify(self):
         """Forward: each hash recomputes. Backward: each prev_hash matches its predecessor.
