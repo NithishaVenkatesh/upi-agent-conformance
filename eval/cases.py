@@ -101,26 +101,32 @@ def _conformant_controls():
 
 
 def _from_live_api():
-    """Bounds probed from the live Razorpay test API. The strongest case source we have:
-    the declared constraint is stated by the counterparty's own running code, not its
-    prose, so the label cannot be argued to have come from us. Requires test keys."""
-    try:
-        from eval.probe_cases import probe
-        cases, _ = probe(verbose=False)
-        return cases
-    except Exception:
-        return []          # no keys / no network — the batch reports the true count
+    """Bounds probed from the live Razorpay test API — the strongest case source we
+    have, because the declared constraint is stated by the counterparty's own running
+    code rather than its prose, so the label cannot be argued to have come from us.
+
+    Read from the COMMITTED cache, never probed here. The previous version wrapped a
+    live probe in `except Exception: return []`, so a missing key or a rate-limit at
+    judging time silently emptied the positive class and the harness reported VACUOUS
+    — a swallowed exception wearing the costume of a finding. It also fired ~33 live
+    order-creation calls on every `make eval`.
+
+    Failure is now LOUD by construction: see eval/probe_cache.py."""
+    from eval.probe_cache import load_cached_cases
+    cases, meta = load_cached_cases()
+    return cases, meta
 
 
 def harvest(include_discovery_set: bool = False, include_live_api: bool = True):
     """Returns (cases, provenance). Discovery-set cases are EXCLUDED by default:
     they were found by looking for drift, so scoring them inflates the rate."""
-    live = _from_live_api() if include_live_api else []
+    live, live_meta = _from_live_api() if include_live_api else ([], {"probed_at": "n/a"})
     cases = _from_live_profiles() + _conformant_controls() + live
     if include_discovery_set:
         cases += _published_drifts()
     prov = {
         "live_api_probed_bounds": len(live),
+        "live_api_probed_at": live_meta.get("probed_at", "unknown"),
         "live_ucp_profiles": len(_from_live_profiles()),
         "conformant_controls": len(_conformant_controls()),
         "discovery_set": len(_published_drifts()),
