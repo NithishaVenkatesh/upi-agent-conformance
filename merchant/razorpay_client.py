@@ -7,6 +7,10 @@ the same class of error this project exists to catch.
 """
 import base64, json, os, urllib.error, urllib.request
 
+from gate.config import load_env
+
+load_env()   # so every entry point sees .env, not just the probe
+
 
 class LiveKeyRefused(Exception):
     pass

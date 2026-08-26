@@ -9,9 +9,11 @@ described-but-absent.
   no ORM, no HTTP client library, no SDK.
 - **Third-party code used anywhere:** `pytest` (tests), `playwright` (network-marked
   E2E only), `pypdf`/`sips` (corpus rendering, one-off, documented in provenance).
-- **Size:** ~1,150 lines of runtime Python across 6 packages; ~700 lines of tests.
-- **Test suite:** 95 tests passing offline (`make test`), plus 3 network-marked E2E
-  tests excluded from the default run.
+- **Size:** ~1,473 lines of runtime Python across 6 packages; 831 lines of tests.
+- **Test suite:** **97 tests passing offline** (`make test`, 1.7s), plus 4
+  network-marked cases deselected (the live-merchant premise check, parametrised
+  over 4 hosts). The other two Playwright E2E tests run in the default suite
+  against a locally-spawned server.
 
 ---
 
@@ -24,7 +26,7 @@ described-but-absent.
 | `conform/` | `engine.py` | 162 | Declared-vs-authoritative constraint comparison engine |
 | `extract/` | `llm.py`, `naive.py` | 166 | LLM claim extraction (schema+quote enforced) and the regex ablation arm |
 | `agent/` | `buyer.py` | 69 | Buyer agent; LLM does product selection only |
-| `eval/` | `harness.py`, `cases.py`, `batch.py`, `demo.py`, `tamper.py`, `self_conformance.py`, `verify_ledger.py` | 491 | Batch scoring, case harvesting, demo, tamper attacks, CI self-checks |
+| `eval/` | `harness.py`, `cases.py`, `batch.py`, `demo.py`, `tamper.py`, `self_conformance.py`, `verify_ledger.py` | 558 | Batch scoring, case harvesting, demo, tamper attacks, CI self-checks |
 | `tools/` | `probe_testmode.py`, `repo_harvest.sh` | 188 | Razorpay test-mode capability probe; repo census harvester |
 | `corpus/` | JSON + PDFs + PNGs + checksums | — | Checksummed primary-source claim store |
 
@@ -276,13 +278,25 @@ every eval run.
 ### `eval/harness.py` (111 LOC)
 `run_batch(cases, min_n=50, authorities=None) -> Report`.
 
-The `Report` dataclass tracks `attempted, scored, undetermined, true_pass, true_fail,
-detected, missed, induced_harm, baseline_detected, detections, headline_suppressed,
-suppression_reason, effective_n_note`.
+The `Report` dataclass tracks `attempted, unlabelled, scored, undetermined, true_pass,
+true_fail, detected, missed, induced_harm, baseline_detected, detections,
+headline_suppressed, suppression_reason, vacuous, effective_n_note`.
 
 Properties enforced in code:
-- **Effective n** is reported beside the headline (`"N scored / M attempted"`).
-- **`UNDETERMINED` is counted separately** and can never become a pass.
+- **Effective n** is reported beside the headline, fully decomposed:
+  `"N scored / M attempted (U unlabelled, A abstained)"`.
+- **`unlabelled` and `undetermined` are separate counters.** A case whose *label* is
+  `UNDETERMINED` has no ground truth, so it cannot test anything and leaves the
+  denominator entirely (`unlabelled`). A case where the *engine* abstained is a system
+  behaviour and is counted as `undetermined`. Conflating the two inflates `scored` with
+  cases belonging to no class.
+- **Empty-positive-class refusal.** If `true_fail == 0` the report is marked
+  `vacuous=True`, the headline is suppressed, and the reason names the positive-class
+  size. A detection rate over an empty positive class is 0/0 and must never be printed.
+  This gate returns early, before the N-threshold check.
+- **The positive-class size is printed on every run** —
+  `"positive class (violations available to detect): N"` — so a 0/0 rate cannot hide
+  behind a healthy-looking denominator.
 - **Induced harm** — correct claims the system wrongly refused — is a first-class number
   computed from `PASS`-labelled controls.
 - **The naive-regex baseline is run on the same text** for every failing case, and its
@@ -315,8 +329,19 @@ Prints the provenance table, the batch report, then the discovery set **reported
 separately** with an explicit note that it is an existence proof, not a detection rate.
 Writes `eval/report.json`. **Exits 2** when the headline is suppressed.
 
-Current committed run: 14 scored / 14 attempted (8 live-profile + 6 controls),
-0 undetermined, 0 induced harm, headline **suppressed** against the N≥50 commitment.
+**Current run** (`eval/report.json`, reproduced live):
+`attempted=14`, `unlabelled=8`, `scored=6`, `undetermined=0`, `true_pass=6`,
+**`true_fail=0`**, `induced_harm=0`, `baseline_detected=0/6`.
+The headline is suppressed as **`VACUOUS`** — the 8 live-merchant profiles are
+`UNDETERMINED`-labelled and leave the denominator, and the 6 remaining cases are all
+conformant controls, so there are **zero violations available to detect**. The run
+exits 2.
+
+The discovery set is reported separately and detects **5/5**:
+`scope_mismatch` (OC-201 §7), `omitted` (OC-228 Issuer §5), `scope_mismatch`
+(OC-228 Issuer §5), `predicate_contradiction` (OC-228 Acquirer §2),
+`value_exceeds_authority` (OC-228 Issuer §5) — labelled in the output itself as an
+existence proof, not a detection rate.
 
 ### `eval/tamper.py` (75 LOC) — 5 attacks on the ledger
 `edit a payload in place`, `truncate the head`, `truncate the tail`,
@@ -343,12 +368,28 @@ the checker can fail before trusting it to pass.
 ### `eval/verify_ledger.py` (5 LOC)
 Thin CLI wrapper: verify, print, exit 0/1.
 
-### `eval/demo.py` (73 LOC) — `make demo`, ~2s, no network
-Five scenes: (1) the four live card-only merchant profiles; (2) this merchant's UCP
+### `eval/demo.py` (113 LOC) — `make demo`, ~2s, no network
+**Six scenes.** (1) the four live card-only merchant profiles; (2) this merchant's UCP
 profile with its UPI handler, methods, declared stub, and cited constraint table;
 (3) an agent buying successfully, printing the payment rail mode; (4) a refusal printing
-code, circular, clause, verbatim quote and detail; (5) ledger verification in both
-directions. Spins the real HTTP server on an ephemeral port and shuts it down.
+code, circular, clause, verbatim quote and detail; (5) **the semantic catch**;
+(6) ledger verification in both directions. Spins the real HTTP server on an ephemeral
+port and shuts it down.
+
+**Scene 5** runs the extraction→conformance path live on a verbatim sentence from a
+vendor documentation page ("Guaranteed Collection: Funds are pre-blocked, ensuring you
+receive payment…"):
+- the naive regex baseline is run first and returns **0 claims**, because it is looking
+  for a rupee figure and this drift is a claim about *meaning*;
+- `extract_claims()` is attempted against **live Azure OpenAI**, falling back to
+  `FakeLLM` — and the scene **prints which extractor produced the output**
+  (`"FakeLLM (deterministic stand-in — no AZURE_OPENAI_API_KEY present)"`), so a stubbed
+  extractor can never be mistaken for a live one;
+- the extracted claim (`origin=declared`) is passed to `check_claim()`, which returns
+  **`FAIL predicate_contradiction`** against OC-228 Acquirer §2 with the verbatim quote.
+
+This is the one place the LLM extractor and the conformance engine are demonstrated
+*composed*, on unseen vendor prose, rather than as a pre-scored batch entry.
 
 ---
 
@@ -362,17 +403,17 @@ directions. Spins the real HTTP server on an ephemeral port and shuts it down.
 | `test_merchant.py` | 10 | Profile declares `in.razorpay.upi`; advertises UPI methods not just card; valid UCP shape; declares its own bounds; serialises; integer-paise totals; unknown SKU rejected; idempotent completion |
 | `test_ledger.py` | 9 | Genesis linkage; forward/backward verification; in-place edit, tail truncation, full deletion and re-forge all detected; HEAD records count+tip; **genesis moves when the corpus changes** |
 | `test_extract_llm.py` | 9 | Beats the regex baseline on the same sentence; verbatim quotes present in source; hallucinated quote rejected; low confidence marked not dropped; malformed output raises; missing field and bad unit rejected; **prompt injection cannot become policy**; output is never authoritative |
-| `test_eval_batch.py` | 8 | Effective n reported; `UNDETERMINED` never a pass; induced harm reported; baseline runs alongside; empty batch refused; **below-minimum-N refused**; deterministic; every detection carries a citation |
+| `test_eval_batch.py` | 10 | Effective n reported; `UNDETERMINED` never a pass; induced harm reported; baseline runs alongside; empty batch refused; **below-minimum-N refused**; deterministic; every detection carries a citation; **an `UNDETERMINED` *label* leaves the denominator**; **an empty positive class is `VACUOUS`, not 0%** |
 | `test_razorpay.py` | 7 | **Live keys refused**; test keys accepted; integer paise amounts; idem key forwarded to the API; replay does not call Razorpay twice; timeout retryable; non-timeout decline not retryable even when it looks transient |
 | `test_agent.py` | 5 | **Agent module never imports the gate** (asserted by reading its source); plans then calls tools; surfaces refusal with clause; does not retry a non-timeout refusal; rejects an invented SKU |
 | `test_naive_baseline.py` | 5 | The baseline **reproduces** the 3× scope error, misses the true per-transaction limit, cannot see semantic drift, is deterministic, handles lakh/comma formats |
-| `test_e2e.py` | 3 (network-marked) | Real Playwright browser: discovery → MCP buy end-to-end; refusal reaches the browser agent with its clause; **the four real Indian merchants are card-only, checked against the live web** rather than asserted |
+| `test_e2e.py` | 3 (1 network-marked, parametrised ×4) | Real Playwright browser: discovery → MCP buy end-to-end **(runs offline, in the default suite)**; refusal reaches the browser agent with its clause **(offline)**; **the four real Indian merchants are card-only, checked against the live web** rather than asserted (network-marked, 4 deselected by default) |
 
 `tests/conftest.py` provides `_FakeMerchant` fixtures in allowing and refusing modes,
 counting `complete_checkout` calls so retry behaviour is observable.
 
 `pyproject.toml` registers a `network` marker and sets `addopts = "-q -m 'not network'"`,
-so the default run is offline and deterministic.
+so the default run is offline and deterministic: **97 passed, 4 deselected in 1.67s**.
 
 ---
 
@@ -450,10 +491,35 @@ intersection with 4 live merchant UCP captures (8), market (7), track scorecard,
 5. **Quotes are verbatim or the claim is dropped.**
 6. **Test-mode only, by construction.** A live Razorpay key is refused before any
    request is made, in both the client and the probe.
-7. **Measurement refuses to flatter.** Headline suppression below N, separate
-   `UNDETERMINED` accounting, first-class induced-harm, discovery set excluded by
-   default, baseline arm always reported.
+7. **Measurement refuses to flatter.** Headline suppression below N, **refusal to
+   report any rate over an empty positive class**, `unlabelled` separated from
+   `undetermined`, first-class induced-harm, discovery set excluded by default,
+   baseline arm always reported, positive-class size printed every run.
 8. **Verification surfaces self-test.** Both the tamper suite and the self-conformance
    checker prove they can fail before they are trusted to pass.
 9. **Known limits are stated in code.** The ledger's docstring names the attack it
    cannot detect; the UCP payload declares its own stubbed delegation layer.
+
+---
+
+## 13. What the code says is not yet done
+
+Read out of the code and its committed output, not from a roadmap:
+
+- **The flagship detection rate does not exist.** `eval/report.json` currently has
+  `true_fail=0`. The scored pool is 6 conformant controls; the 8 live merchant profiles
+  are correctly `UNDETERMINED` and excluded. The harness refuses to print a rate, and
+  `make eval` exits 2. Closing this needs independently-sourced claims that actually
+  violate a circular — corpus labour, not configuration.
+- **The N≥50 commitment is unmet** — 6 scored against `MIN_N = 50`. The vacuity gate
+  fires first, so the N-threshold message is currently unreachable in the real run.
+- **The delegation layer is a stub**, declared as such inside the served UCP payload
+  (`"STUBBED — Razorpay TSP has no public API"`).
+- **Extraction at scale is unverified.** `extract/llm.py` is exercised only against
+  `FakeLLM` in the test suite and in `make demo`; there is no committed run of the
+  Azure extractor over the circular corpus.
+- **The ledger cannot detect a both-files re-forge** — stated in its own docstring.
+- **In-memory state only.** `CheckoutStore`, block state and `used_idem_keys` live in
+  process memory; a restart loses every block balance and idempotency record.
+- **`eval/demo.py`'s module docstring still lists five scenes** while the file now runs
+  six — a small internal drift in the file that added the sixth.

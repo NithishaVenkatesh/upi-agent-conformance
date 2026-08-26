@@ -139,3 +139,29 @@ Ask of any evaluation: **how many true positives are in the denominator, and wha
 This is the **fifth** instance of one shape in this project: a check that can silently do nothing while reporting success. It found me in the CI gate (#3), the tamper suite (#4), a unit test, and now the eval harness itself.
 
 **Cost:** ~35 minutes. **Verified:** `make eval` exits 2 with `VACUOUS`; 97 tests pass including two new regression tests; the invariant now holds on production data.
+
+---
+
+## #6 · 2026-08-27 — Our own drift table contained a drift
+
+**What broke.** Drift #2 in our table read: *"Razorpay MCP server — no limit stated or validated at all."* We had asserted it since the first architecture draft, and it was load-bearing: it is the omission entry, and the one that makes the gap look like negligence rather than under-documentation.
+
+Test keys arrived. Ninety seconds of probing the live API refuted it:
+
+```
+"The max_amount field is mandatory for UPI mandate creation."
+"Max amount for SBMD mandate cannot be greater than Rs. 15,000.00"
+"Token expiry cannot be greater than 90 days for SBMD mandate."
+```
+
+`max_amount` is **mandatory**, and both bounds are **enforced server-side**. The claim was derived from reading the MCP tool schema — where the limits genuinely are undocumented — and then generalised to "no validation", which does not follow. **Reading an interface tells you what it documents, not what it enforces.**
+
+**How I got out.** Narrowed the claim to what the evidence supports: *the tool schema does not document the limits, but the API rejects violations — so a caller learns the bound by having a request refused rather than by reading the interface.* Still a real gap, and a smaller one.
+
+**What I'd tell the next person.** We spent days building a system to catch restatements that outran their source, and shipped one in our own headline table for the entire duration. It survived because it was never executable: nothing in the test suite could refute a claim about someone else's server, so nothing did.
+
+**The rule: a claim about a system you have not run is a hypothesis.** Ours read as a finding for four days. The fix is not more careful reading — it is getting credentials earlier, because the API answered in ninety seconds what documentation could not answer at all.
+
+Sixth instance of one shape. The first five were checks that could not fail. This one is a **claim that could not be checked** — the same defect, one level up.
+
+**Cost:** ~15 minutes to refute, four days believed. **Verified:** `eval/probe_cases.py` reproduces both bounds by binary search; `research/11_final_selection/LIVE_API_FINDINGS.md` records the corrected claim and two new drifts found by execution.

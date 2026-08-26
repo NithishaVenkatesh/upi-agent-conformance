@@ -100,13 +100,27 @@ def _conformant_controls():
     ]
 
 
-def harvest(include_discovery_set: bool = False):
+def _from_live_api():
+    """Bounds probed from the live Razorpay test API. The strongest case source we have:
+    the declared constraint is stated by the counterparty's own running code, not its
+    prose, so the label cannot be argued to have come from us. Requires test keys."""
+    try:
+        from eval.probe_cases import probe
+        cases, _ = probe(verbose=False)
+        return cases
+    except Exception:
+        return []          # no keys / no network — the batch reports the true count
+
+
+def harvest(include_discovery_set: bool = False, include_live_api: bool = True):
     """Returns (cases, provenance). Discovery-set cases are EXCLUDED by default:
     they were found by looking for drift, so scoring them inflates the rate."""
-    cases = _from_live_profiles() + _conformant_controls()
+    live = _from_live_api() if include_live_api else []
+    cases = _from_live_profiles() + _conformant_controls() + live
     if include_discovery_set:
         cases += _published_drifts()
     prov = {
+        "live_api_probed_bounds": len(live),
         "live_ucp_profiles": len(_from_live_profiles()),
         "conformant_controls": len(_conformant_controls()),
         "discovery_set": len(_published_drifts()),

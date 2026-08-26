@@ -1,0 +1,45 @@
+{
+ "probed_at": "2026-08-27T01:43:15",
+ "findings": [
+  {
+   "parameter": "max_amount",
+   "api_enforces_paise": 1500000,
+   "circular_authorises_paise": 1000000,
+   "circular": "NPCI/UPI/OC No.228 Issuer \u00a75"
+  },
+  {
+   "parameter": "expire_at_days",
+   "api_enforces": 91,
+   "circular_authorises": 90,
+   "circular": "NPCI/UPI/OC No.228 Issuer \u00a75"
+  }
+ ],
+ "cases": [
+  {
+   "id": "live-api:sbmd-max-amount",
+   "source": "razorpay live test API (probed, not documented)",
+   "text": "API accepts token.max_amount up to 1500000 paise for single_block_multiple_debit",
+   "declared": {
+    "subject": "upi_reserve_pay_block_limit",
+    "value": 1500000,
+    "unit": "INR_paise",
+    "scope": "per_block"
+   },
+   "label": "FAIL",
+   "note": "the bound Razorpay's own code enforces, vs OC-228 Issuer \u00a75"
+  },
+  {
+   "id": "live-api:sbmd-validity",
+   "source": "razorpay live test API (probed, not documented)",
+   "text": "API accepts token.expire_at up to 91 days",
+   "declared": {
+    "subject": "upi_reserve_pay_block_validity",
+    "value": 91,
+    "unit": "days",
+    "scope": "per_block"
+   },
+   "label": "FAIL",
+   "note": "vs OC-228 Issuer \u00a75 'up to 90 days'"
+  }
+ ]
+}
