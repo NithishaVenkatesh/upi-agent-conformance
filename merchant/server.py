@@ -12,7 +12,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 from merchant.ucp import build_profile
 from merchant.checkout import CheckoutStore, CATALOG
-from merchant.razorpay_client import default_capture
+from merchant.razorpay_client import default_capture, classify_failure
 from gate.decide import decide
 from gate.ledger import Ledger
 
@@ -30,7 +30,11 @@ TOOLS = [
     {"name": "update_checkout", "description": "Update a checkout session",
      "inputSchema": {"type": "object", "properties": {"checkout_id": {"type": "string"}},
                      "required": ["checkout_id"]}},
-    {"name": "complete_checkout", "description": "Pay. Passes through the bounded gate.",
+    {"name": "complete_checkout",
+     "description": ("Pay. Passes through the bounded gate. Re-sending the same "
+                     "idem_key after a failure is a retry; whether that retry is "
+                     "permitted is decided from what the rail did, per OC-228 "
+                     "Acquirer §3 — not from anything the caller asserts."),
      "inputSchema": {"type": "object",
                      "properties": {"checkout_id": {"type": "string"},
                                     "idem_key": {"type": "string"}},
@@ -41,7 +45,11 @@ TOOLS = [
 def _default_block(now, **over):
     b = {"max_minor": 1000000, "remaining_minor": 1000000, "created_ts": now,
          "expires_ts": now + 86400 * 30, "merchant_id": "demo", "customer_id": "cust_demo",
-         "retries_24h": 0, "used_idem_keys": set(), "concurrent_blocks_same_merchant": 0}
+         "retries_24h": 0, "used_idem_keys": set(), "concurrent_blocks_same_merchant": 0,
+         # What the rail actually did, per idem_key. The gate's §3 questions are
+         # answered from THIS, never from the caller: an agent that could assert
+         # retry_of_timeout=True would bypass §3 by saying so. FINDINGS.md M3.
+         "observed_failures": {}}
     b.update(over or {})
     # Guards the read-decide-debit sequence for THIS block. Travels with the block
     # rather than the checkout, because the thing that must be serialised is the
@@ -111,18 +119,52 @@ class Merchant:
                                     "idem_key": args["idem_key"]})
                 return {"id": c.id, "status": c.status, "order_id": c.order_id,
                         "replayed": True, "capture_mode": self.capture_mode}
-            req = {"amount_minor": c.total_minor, "idem_key": args["idem_key"]}
+            # Retry facts are OBSERVED, not asserted. This idem_key is a retry iff we
+            # already watched the rail fail on it, and it is a timeout retry iff that
+            # failure was a timeout. Reading either from `args` would let any agent
+            # walk past OC-228 §3 by claiming the exemption. FINDINGS.md M3.
+            prior = block["observed_failures"].get(args["idem_key"])
+            req = {"amount_minor": c.total_minor, "idem_key": args["idem_key"],
+                   "is_retry": prior is not None,
+                   "retry_of_timeout": bool(prior and prior["retryable"])}
             d = decide(req, block, "PASS", now)
             self.ledger.append({"event": "authorise", "checkout": c.id,
-                                "decision": d.code, "clause": d.clause})
+                                "decision": d.code, "clause": d.clause,
+                                "is_retry": req["is_retry"]})
             if not d.allowed:
                 # The clause travels with the refusal. An agent that knows WHY can
                 # comply; one that only sees 403 retries, which OC-228 §3 forbids.
                 return {"_error": True, "code": d.code, "clause": d.clause,
                         "circular": d.circular, "quote": d.quote, "detail": d.detail}
-            done = self.store.complete(c.id, args["idem_key"], capture=self.capture)
+
+            if req["is_retry"]:
+                block["retries_24h"] += 1
+
+            # The rail can fail. Before, the exception escaped _complete() entirely:
+            # the handler caught only KeyError, so the agent got a dropped TCP
+            # connection, and the ledger was left asserting `authorised` for a payment
+            # that never happened. FINDINGS.md H3.
+            try:
+                done = self.store.complete(c.id, args["idem_key"], capture=self.capture)
+            except Exception as e:                       # noqa: BLE001 — rail-agnostic
+                kind = "timeout" if "timeout" in str(e).lower() else type(e).__name__
+                cls = classify_failure(kind)
+                block["observed_failures"][args["idem_key"]] = cls
+                self.ledger.append({"event": "capture_failed", "checkout": c.id,
+                                    "idem_key": args["idem_key"], "kind": kind,
+                                    "retryable": cls["retryable"]})
+                # Nothing is debited and no idem_key is burned: the payment did not
+                # happen, so the block must look exactly as it did before the attempt.
+                return {"_error": True, "code": "capture_failed",
+                        "retryable": cls["retryable"], "clause": cls["clause"],
+                        "circular": cls["circular"], "quote": cls["clause_quote"],
+                        "detail": f"payment rail failed: {e}"}
+
             block["remaining_minor"] -= c.total_minor
             block["used_idem_keys"].add(args["idem_key"])
+            block["observed_failures"].pop(args["idem_key"], None)
+            self.ledger.append({"event": "captured", "checkout": c.id,
+                                "order_id": done.order_id})
             return {"id": done.id, "status": done.status, "order_id": done.order_id,
                     "capture_mode": self.capture_mode}
 
