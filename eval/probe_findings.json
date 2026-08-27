@@ -1,31 +1,31 @@
 {
- "probed_at": "2026-08-27T01:43:15",
+ "probed_at": "2026-08-27T06:05:01",
  "findings": [
   {
    "parameter": "max_amount",
    "api_enforces_paise": 1500000,
    "circular_authorises_paise": 1000000,
-   "circular": "NPCI/UPI/OC No.228 Issuer §5",
-   "framing": "the live rail permits 1.5x what the circular we can retrieve authorises, and nothing in the tool schema, the docs, or the API surfaces or explains the difference",
-   "not_claimed": "that Razorpay is wrong, or that ₹15,000 is unauthorised",
+   "circular": "NPCI/UPI/OC No.228 Issuer \u00a75",
    "alternatives_not_excluded": [
-    "a later circular may have raised the SBMD cap and may not be in our corpus — OC-228 is the most recent we could retrieve, and NPCI returns 403 to programmatic access, so our enumeration may be incomplete",
-    "a different purpose code may apply — our own corpus shows PC-76 (securities) operating at ₹5 lakh, so SBMD caps are demonstrably purpose-dependent",
+    "a later circular may have raised the SBMD cap and may not be in our corpus \u2014 OC-228 is the most recent we could retrieve, and NPCI returns 403 to programmatic access, so our enumeration may be incomplete",
+    "a different purpose code may apply \u2014 our own corpus shows PC-76 (securities) operating at \u20b95 lakh, so SBMD caps are demonstrably purpose-dependent",
     "test mode may use different limits from production"
-   ]
+   ],
+   "not_claimed": "that Razorpay is wrong, or that \u20b915,000 is unauthorised",
+   "framing": "the live rail permits 1.5x what the circular we can retrieve authorises, and nothing in the tool schema, the docs, or the API surfaces or explains the difference"
   },
   {
    "parameter": "expire_at_days",
    "api_enforces": 91,
    "circular_authorises": 90,
-   "circular": "NPCI/UPI/OC No.228 Issuer §5",
-   "framing": "the API's own rejection message says 90 days while the API accepts 91 — the message and the enforcement disagree by one day, on the same endpoint",
-   "not_claimed": "that Razorpay is wrong, or that a 91-day block is unauthorised",
+   "circular": "NPCI/UPI/OC No.228 Issuer \u00a75",
    "alternatives_not_excluded": [
     "a later circular may have adjusted the validity ceiling and may not be in our corpus",
-    "the boundary may be inclusive-vs-exclusive rather than an error — 91 days from creation may be intended to mean 90 whole days elapsed",
+    "the boundary may be inclusive-vs-exclusive rather than an error \u2014 91 days from creation may be intended to mean 90 whole days elapsed",
     "test mode may use different limits from production"
-   ]
+   ],
+   "not_claimed": "that Razorpay is wrong, or that a 91-day block is unauthorised",
+   "framing": "the API's own rejection message says 90 days while the API accepts 91 \u2014 the message and the enforcement disagree by one day, on the same endpoint"
   }
  ],
  "cases": [
@@ -40,7 +40,7 @@
     "scope": "per_block"
    },
    "label": "FAIL",
-   "note": "the bound Razorpay's own code enforces, vs OC-228 Issuer §5"
+   "note": "the bound Razorpay's own code enforces, vs NPCI/UPI/OC No.228 Issuer \u00a75"
   },
   {
    "id": "live-api:sbmd-validity",
@@ -53,7 +53,7 @@
     "scope": "per_block"
    },
    "label": "FAIL",
-   "note": "vs OC-228 Issuer §5 'up to 90 days'"
+   "note": "vs NPCI/UPI/OC No.228 Issuer \u00a75 'The block created to be maximum of Rs.10,000 of block limit and up to 90 days.'"
   }
  ]
 }
