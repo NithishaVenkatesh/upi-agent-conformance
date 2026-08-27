@@ -1,5 +1,5 @@
 """Hash-chained, append-only ledger. Verified forward AND backward."""
-import hashlib, json, os
+import hashlib, json, os, threading
 
 GENESIS_ANCHOR = "corpus/claims/authoritative.json"
 
@@ -25,6 +25,17 @@ class Ledger:
     def __init__(self, path="eval/ledger.jsonl"):
         self.path = path
         os.makedirs(os.path.dirname(path), exist_ok=True)
+        # append() is read-modify-write: it reads the tail to learn prev_hash and seq,
+        # then writes. Unlocked, two threads read the same tail and both emit seq=N,
+        # and the backward walk breaks PERMANENTLY. merchant/server.py is a
+        # ThreadingHTTPServer that appends on every completion, so two concurrent
+        # agents were enough. FINDINGS.md C1.
+        #
+        # The reason this was the worst bug in the project: the resulting message is
+        # byte-identical to what eval/tamper.py prints for a real attack. Normal
+        # traffic produced the signature of tampering, and the chain cannot be
+        # repaired afterwards without breaking the genesis anchor.
+        self._lock = threading.Lock()
 
     def _entries(self):
         if not os.path.exists(self.path):
@@ -36,14 +47,27 @@ class Ledger:
         return self.path + ".head"
 
     def append(self, payload: dict) -> dict:
-        es = self._entries()
-        prev = es[-1]["hash"] if es else genesis()
-        e = {"seq": len(es), "prev_hash": prev, "payload": payload, "hash": _h(prev, payload)}
-        with open(self.path, "a") as f:
-            f.write(json.dumps(e) + "\n")
-        # HEAD commits to length + tip. Without it, truncating the tail leaves an
-        # internally-consistent chain that both walk directions accept. See FAILURES.md #2.
-        json.dump({"count": len(es) + 1, "head": e["hash"]}, open(self.head_path, "w"))
+        """Serialised. The whole read-modify-write is one critical section: reading the
+        tail, deriving prev_hash/seq, writing the entry and rewriting HEAD are a single
+        indivisible step or the chain is not a chain.
+
+        KNOWN LIMIT: this is an in-process lock. It makes one Ledger instance safe for
+        the ThreadingHTTPServer, which is the deployed configuration. It does NOT make
+        two PROCESSES safe against each other — that needs fcntl.flock on the log.
+        Stated rather than implied, because an in-process lock advertised as durable
+        mutual exclusion would be the same class of overclaim this project exists to
+        catch."""
+        with self._lock:
+            es = self._entries()
+            prev = es[-1]["hash"] if es else genesis()
+            e = {"seq": len(es), "prev_hash": prev, "payload": payload,
+                 "hash": _h(prev, payload)}
+            with open(self.path, "a") as f:
+                f.write(json.dumps(e) + "\n")
+            # HEAD commits to length + tip. Without it, truncating the tail leaves an
+            # internally-consistent chain that both walk directions accept. FAILURES.md #2.
+            json.dump({"count": len(es) + 1, "head": e["hash"]},
+                      open(self.head_path, "w"))
         return e
 
     def state(self):

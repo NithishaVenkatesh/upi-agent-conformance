@@ -7,7 +7,7 @@ Every completion passes through gate.decide(). A refusal returns the clause that
 authorises it, because an agent told only "403" learns nothing and will retry — which
 OC-228 §3 forbids for non-timeout declines.
 """
-import json, time
+import json, threading, time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 from merchant.ucp import build_profile
@@ -43,6 +43,10 @@ def _default_block(now, **over):
          "expires_ts": now + 86400 * 30, "merchant_id": "demo", "customer_id": "cust_demo",
          "retries_24h": 0, "used_idem_keys": set(), "concurrent_blocks_same_merchant": 0}
     b.update(over or {})
+    # Guards the read-decide-debit sequence for THIS block. Travels with the block
+    # rather than the checkout, because the thing that must be serialised is the
+    # reservation, not the session that draws on it. See _complete(). FINDINGS.md C2.
+    b["_lock"] = threading.RLock()
     return b
 
 
@@ -82,30 +86,45 @@ class Merchant:
         c = self.store.get(args["checkout_id"])
         block = self.blocks.get(c.id) or _default_block(now)
 
-        # Replay is resolved BEFORE the gate. The architecture says a duplicate request
-        # returns the original response with no side effects; refusing it would tell a
-        # correctly-behaving agent its payment failed, and OC-228 §3 then forbids the
-        # retry it would reasonably attempt. The gate's idempotency check remains as a
-        # backstop for keys that never completed.
-        if args["idem_key"] in block["used_idem_keys"]:
-            self.ledger.append({"event": "replay", "checkout": c.id,
-                                "idem_key": args["idem_key"]})
-            return {"id": c.id, "status": c.status, "order_id": c.order_id,
-                    "replayed": True, "capture_mode": self.capture_mode}
-        req = {"amount_minor": c.total_minor, "idem_key": args["idem_key"]}
-        d = decide(req, block, "PASS", now)
-        self.ledger.append({"event": "authorise", "checkout": c.id,
-                            "decision": d.code, "clause": d.clause})
-        if not d.allowed:
-            # The clause travels with the refusal. An agent that knows WHY can comply;
-            # one that only sees 403 retries, which OC-228 §3 forbids.
-            return {"_error": True, "code": d.code, "clause": d.clause,
-                    "circular": d.circular, "quote": d.quote, "detail": d.detail}
-        done = self.store.complete(c.id, args["idem_key"], capture=self.capture)
-        block["remaining_minor"] -= c.total_minor
-        block["used_idem_keys"].add(args["idem_key"])
-        return {"id": done.id, "status": done.status, "order_id": done.order_id,
-                "capture_mode": self.capture_mode}
+        # ONE CRITICAL SECTION PER BLOCK. decide() answers "is there room?" and the
+        # debit below makes that answer true; between them the block must not move.
+        # Unlocked, N threads read the same remaining_minor, all pass, and all debit —
+        # the gate citing Issuer §5 while the balance goes negative behind it.
+        #
+        # HONEST SCOPE (FINDINGS.md C2): this is NOT reachable in the current code,
+        # because create_checkout hands every checkout its own block, so concurrent
+        # completions touch disjoint state. It becomes reachable the moment one block
+        # is drawn on by more than one checkout — which is what single_block_multiple_debit
+        # MEANS, and is the direction this has to go. The lock is here so that change is
+        # a data-model change and not also a correctness regression.
+        #
+        # The capture call is inside the lock deliberately: debits against one
+        # reservation must serialise. That bounds throughput per block, not globally.
+        with block["_lock"]:
+            # Replay is resolved BEFORE the gate. The architecture says a duplicate
+            # request returns the original response with no side effects; refusing it
+            # would tell a correctly-behaving agent its payment failed, and OC-228 §3
+            # then forbids the retry it would reasonably attempt. The gate's idempotency
+            # check remains as a backstop for keys that never completed.
+            if args["idem_key"] in block["used_idem_keys"]:
+                self.ledger.append({"event": "replay", "checkout": c.id,
+                                    "idem_key": args["idem_key"]})
+                return {"id": c.id, "status": c.status, "order_id": c.order_id,
+                        "replayed": True, "capture_mode": self.capture_mode}
+            req = {"amount_minor": c.total_minor, "idem_key": args["idem_key"]}
+            d = decide(req, block, "PASS", now)
+            self.ledger.append({"event": "authorise", "checkout": c.id,
+                                "decision": d.code, "clause": d.clause})
+            if not d.allowed:
+                # The clause travels with the refusal. An agent that knows WHY can
+                # comply; one that only sees 403 retries, which OC-228 §3 forbids.
+                return {"_error": True, "code": d.code, "clause": d.clause,
+                        "circular": d.circular, "quote": d.quote, "detail": d.detail}
+            done = self.store.complete(c.id, args["idem_key"], capture=self.capture)
+            block["remaining_minor"] -= c.total_minor
+            block["used_idem_keys"].add(args["idem_key"])
+            return {"id": done.id, "status": done.status, "order_id": done.order_id,
+                    "capture_mode": self.capture_mode}
 
 
 def make_server(port=8080, host="demo.example"):
@@ -113,6 +132,9 @@ def make_server(port=8080, host="demo.example"):
 
     class H(BaseHTTPRequestHandler):
         protocol_version = "HTTP/1.1"
+        # Exposed so tests can reach the state the server is actually serving —
+        # concurrency behaviour cannot be asserted against a different instance.
+        merchant = m
 
         def log_message(self, *a):  # quiet under test
             pass
