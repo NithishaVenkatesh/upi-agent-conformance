@@ -6,9 +6,11 @@
 > M1, M2, L1, L3 remain open. The suite is now **168 passing, 8 deselected**; `make
 > verify` green; `make eval` unchanged at positive class 2, detected 2.
 >
-> One item is deliberately NOT closed: the ₹15,000 figure in the committed cache was
-> produced by the **old, unguarded** search. The guards are in; the number has not been
-> re-probed under them. See "Open" at the end.
+> **Second pass, 2026-08-27:** M1, M2 and M5 are now fixed, **C2 is un-withdrawn**
+> (M5 made blocks shared, so the contended path is real and the lock is load-bearing),
+> and the headline figures have been **re-probed under the new guards and came back
+> unchanged** — ₹15,000 and 91 days, no INDETERMINATE abort, no ceiling hit, caveats
+> preserved. Suite: **183 passing, 8 deselected**. Remaining open: M4, L1, L3.
 
 Read of the working tree at `812fef1`, 2026-08-27. Every finding below was
 **reproduced against the running code**, not inferred from a read. Repro commands are
@@ -79,11 +81,17 @@ per-`Merchant`, so one instance lock suffices for the in-process case; a file lo
 
 ---
 
-### ~~C2 · The block balance can be overdrawn~~ — WITHDRAWN, my error
+### C2 · The block balance can be overdrawn — WITHDRAWN, then RESTORED by M5
 
-> **I got this wrong.** It is **not reachable** in the current code and I reported it as
-> a live critical. Downgraded to a latent issue; the guard was installed anyway (see
-> below), but the finding as originally written was false.
+> **I got this wrong, and then it became right.** As originally written it was false:
+> not reachable, reported as a live critical. After M5 made blocks shared per
+> (customer, merchant) — which is what SBMD requires — the contended path is real, and
+> the lock installed in `413c1d5` is load-bearing rather than latent. The sequence
+> matters: the guard went in first, so the data-model change was a modelling fix and
+> not also a correctness regression.
+>
+> The original report was still wrong on the evidence I had at the time, and the
+> reasoning below stands as the record of how.
 >
 > **What I did wrong.** `create_checkout` gives every checkout its **own** block object,
 > so concurrent completions touch disjoint state. My reproduction aliased the blocks
@@ -281,6 +289,8 @@ Three problems in one path:
 
 ### M1 · The ground-truth label is a hardcoded constant, not the claim store
 
+> **FIXED** — `0581a7c`.
+
 **Where:** `eval/probe_cases.py:78` (`"FAIL" if max_amt > 1_000_000 else "PASS"`) and
 `:93` (`"FAIL" if max_days > 90 else "PASS"`).
 
@@ -296,6 +306,8 @@ from a constant in our source, not from the circular. Deriving it from
 `_load_authorities()` would make the docstring literally true.
 
 ### M2 · `render_comparison()` — the caveat gate's enforcement arm — has no production callers
+
+> **FIXED** — `0581a7c`.
 
 **Where:** `eval/probe_cache.py:98`.
 
@@ -399,6 +411,14 @@ not be silently reused to describe a different number.
 
 ### M5 · One block per checkout is not `single_block_multiple_debit`
 
+> **FIXED** — `92fc9dc`. Treated as blocking rather than documented: a declared
+> capability that does not match the primitive is this project's own thesis pointed
+> inward, and the exact check a sharp reviewer has been taught to run. Blocks are now
+> keyed by `(customer_id, merchant_id)` — one reservation, many debits, drawn down
+> until the bound refuses. Two consequences: `insufficient_block_balance` can finally
+> fire through accumulated draw-down (the case §5 exists for), and OC-228 Issuer §4
+> becomes structural rather than a field we assert about ourselves. 9 tests.
+
 **Where:** `merchant/server.py` `create_checkout` —
 `self.blocks[c.id] = _default_block(...)`.
 
@@ -473,29 +493,30 @@ Two suggested additions, in priority order:
 | ID | Status | Note |
 |---|---|---|
 | C1 | **fixed** `413c1d5` | in-process lock; cross-process needs `fcntl.flock` |
-| C2 | **withdrawn** | my error — not reachable; guard installed as latent |
+| C2 | **restored** `92fc9dc` | wrong when filed; real once M5 shared the blocks |
 | C3 | **fixed** `705b0e8` | first attempt did nothing; fixed at conftest import |
-| H1 | **fixed** `89c5725` | three-way probe outcome; **number not yet re-probed** |
+| H1 | **fixed** `89c5725` | three-way outcome; **re-probed, figures unchanged** |
 | H2 | **fixed** `89c5725` | ceiling assertion |
 | H3 | **fixed** `853f45a` | rail failure now structured, recorded, classified |
 | H4 | **fixed** `89c5725` | caveats carried across regeneration |
-| M1 | open | label derived from a hardcoded constant, not the claim store |
-| M2 | open | `render_comparison()` still has no production caller |
+| M1 | **fixed** `0581a7c` | label now read from the checksummed store |
+| M2 | **fixed** `0581a7c` | `make eval` renders only through the gate |
 | M3 | **fixed** `853f45a` | §3 reachable, and un-spoofable |
 | M4 | open | non-numeric confidence crashes rather than drops |
-| M5 | open (new) | one block per checkout is not SBMD |
+| M5 | **fixed** `92fc9dc` | real SBMD: one block, many debits |
 | L1 | open | `append()` is O(n) per call |
 | L2 | **fixed** `89c5725` | non-JSON error bodies |
 | L3 | open | `load_env()` returns names it skipped |
 
-**The one thing to do before anything external-facing ships.** The ₹15,000 and 91-day
-figures in `eval/probe_findings.json` were produced by the **old** search — the one that
-could not tell a throttle from a rule, and could not tell a bound from its own ceiling.
-The guards are now in place, but they have not been run against the live API. Until
-`make probe` is re-run under the new classifier, the headline number is *plausible but
-not verified to the standard this repo now enforces*. That is a live-API action that
-rewrites committed evidence, so it is a decision, not something to slip into a fix
-commit.
+**The headline number is now verified, not merely obtained.** `make probe` was re-run
+against the live test API under the new classifier on 2026-08-27T06:05:01. Both figures
+came back **unchanged** — ₹15,000 and 91 days — with no `INDETERMINATE` abort (every
+non-200 during the search was attributable to the probed parameter), no ceiling hit, and
+all three hedge fields carried across intact with no `value_changed_since_caveat` flag.
+
+That the numbers did not move is itself the finding: the originals were not artifacts of
+an unclassified rate-limit or of the search range. The disclosure draft and the `/drift`
+scene can cite them as verified.
 
 ## Two notes on this review's own reliability
 
