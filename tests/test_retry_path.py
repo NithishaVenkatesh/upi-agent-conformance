@@ -79,10 +79,12 @@ def test_the_ledger_records_the_failure_not_just_the_authorisation(tmp_path):
 def test_a_failed_capture_does_not_consume_the_block_balance(tmp_path):
     m = _merchant(tmp_path, _Rail(fail_times=1))
     cid = _checkout(m)
-    before = m.blocks[cid]["remaining_minor"]
+    blk = m.block_for(cid)
+    before = blk["remaining_minor"]
     m.call("complete_checkout", {"checkout_id": cid, "idem_key": "t5"})
-    assert m.blocks[cid]["remaining_minor"] == before, "debited for a payment that failed"
-    assert "t5" not in m.blocks[cid]["used_idem_keys"], "idem key burned on a failure"
+    assert blk["remaining_minor"] == before, "debited for a payment that failed"
+    assert blk["debits"] == 0, "a failed capture counted as a debit"
+    assert "t5" not in blk["used_idem_keys"], "idem key burned on a failure"
 
 
 # --------------------------------------------------- M3: §3 reachable from the server

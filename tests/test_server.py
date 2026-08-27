@@ -77,8 +77,14 @@ def test_malformed_json_rejected(base):
     assert e.value.code == 400
 
 def test_replayed_idem_key_returns_same_order(base):
+    # Its own customer, therefore its own reservation. Blocks are now shared per
+    # (customer, merchant) — real SBMD — so earlier tests in this module draw down
+    # the default block and this one would otherwise be refused for lack of funds.
+    # That refusal is the bound working; the old assumption was that every checkout
+    # came with fresh money. FINDINGS.md M5.
     c = _rpc(base, "tools/call", {"name":"create_checkout",
-        "arguments":{"items":[{"id":"sku3","qty":1}],"currency":"INR"}})["result"]
+        "arguments":{"items":[{"id":"sku3","qty":1}],"currency":"INR",
+                     "block":{"customer_id":"cust_replay"}}})["result"]
     a = _rpc(base,"tools/call",{"name":"complete_checkout",
         "arguments":{"checkout_id":c["id"],"idem_key":"dup"}})["result"]
     b2 = _rpc(base,"tools/call",{"name":"complete_checkout",

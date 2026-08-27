@@ -63,26 +63,35 @@ def test_concurrent_appends_lose_no_entries(tmp_path):
 # ---------------------------------------------------- C2: the block balance
 
 def _merchant_with_shared_block(tmp_path, remaining_minor):
-    """One block shared by several checkouts, which is what a real UPI block is:
-    one reservation the merchant draws down repeatedly."""
+    """One block drawn on by several checkouts.
+
+    This helper used to ALIAS the blocks together by hand, because the server gave
+    every checkout its own. That aliasing is what made me report C2 as a live
+    critical when it was not reachable — a condition I introduced, then read as a
+    property of the system. Since M5 the server shares blocks per (customer,
+    merchant) natively, so the helper no longer fabricates the premise: it just
+    opens checkouts and sets the balance."""
     m = Merchant("demo.example")
     m.ledger = Ledger(path=str(tmp_path / "l.jsonl"))
     m.capture = lambda checkout, idem_key=None: f"order_{checkout.id}"
     m.capture_mode = "fake (concurrency test)"
     ids = [m.call("create_checkout", {"items": [{"id": "sku1", "qty": 1}],
                                       "currency": "INR"})["id"] for _ in range(8)]
-    shared = m.blocks[ids[0]]
+    shared = m.block_for(ids[0])
+    assert all(m.block_for(i) is shared for i in ids), "server did not share the block"
     shared["remaining_minor"] = remaining_minor
-    for cid in ids:
-        m.blocks[cid] = shared
     return m, ids, shared
 
 
 def test_concurrent_completes_cannot_overdraw_the_block(tmp_path):
-    """FINDINGS.md C2. decide() checks amount <= remaining; server.py decrements
-    later, unsynchronised. Eight concurrent completes against a block with room for
-    two all passed, and remaining went to -Rs.9,996 — while the ledger recorded every
-    one as 'authorised, clause: Issuer S5'. The clause cited while it is violated."""
+    """FINDINGS.md C2 + M5. decide() checks amount <= remaining; server.py decrements
+    later. Eight concurrent completes against a block with room for two all passed,
+    and remaining went to -Rs.9,996, while the ledger recorded every one as
+    'authorised, clause: Issuer S5' — the clause cited while it is violated.
+
+    I originally reported this as live and it was not: blocks were per-checkout, so
+    the completions never contended. It IS live now that M5 shares them, which is
+    what SBMD requires. The lock went in first, deliberately."""
     tote = 249900
     m, ids, shared = _merchant_with_shared_block(tmp_path, remaining_minor=tote * 2)
     barrier = threading.Barrier(len(ids))

@@ -51,6 +51,7 @@ def _default_block(now, **over):
          # retry_of_timeout=True would bypass §3 by saying so. FINDINGS.md M3.
          "observed_failures": {}}
     b.update(over or {})
+    b["debits"] = 0
     # Guards the read-decide-debit sequence for THIS block. Travels with the block
     # rather than the checkout, because the thing that must be serialised is the
     # reservation, not the session that draws on it. See _complete(). FINDINGS.md C2.
@@ -64,9 +65,40 @@ class Merchant:
     def __init__(self, host="demo.example"):
         self.host = host
         self.store = CheckoutStore()
+        # Keyed by (customer_id, merchant_id) — NOT by checkout. FINDINGS.md M5.
+        #
+        # merchant/ucp.py advertises mandate="single_block_multiple_debit". The
+        # previous model gave every checkout its own fresh block, debited it once and
+        # discarded it, which is single-block-SINGLE-debit wearing SBMD's name: a
+        # declared capability that did not match the behaviour underneath. That is the
+        # same defect as the "Guaranteed Collection" contradiction this project detects
+        # in someone else's documentation, and it was in ours.
+        #
+        # Keying by (customer, merchant) also makes OC-228 Issuer §4 — one concurrent
+        # block per customer per merchant — structural rather than a field we assert.
         self.blocks = {}
+        self._checkout_block = {}
         self.capture, self.capture_mode = default_capture()
         self.ledger = Ledger(path="eval/ledger.jsonl")
+        self._blocks_lock = threading.Lock()
+
+    def block_for(self, checkout_id):
+        """The reservation this checkout draws on."""
+        return self.blocks[self._checkout_block[checkout_id]]
+
+    def _open_block(self, now, checkout_id, override):
+        """Get-or-create the single block for this (customer, merchant).
+
+        An explicit `block` argument REPLACES the reservation, because that is how a
+        caller says "a new block with these terms" — which the demo needs in order to
+        show a block whose declared cap exceeds the circular's."""
+        over = dict(override or {})
+        key = (over.get("customer_id", "cust_demo"), over.get("merchant_id", "demo"))
+        with self._blocks_lock:
+            if override or key not in self.blocks:
+                self.blocks[key] = _default_block(now, **over)
+            self._checkout_block[checkout_id] = key
+        return self.blocks[key]
 
     def call(self, name, args):
         now = int(time.time())
@@ -80,7 +112,7 @@ class Merchant:
             return {"id": args["id"], **CATALOG[args["id"]]}
         if name == "create_checkout":
             c = self.store.create(args["items"], args["currency"])
-            self.blocks[c.id] = _default_block(now, **(args.get("block") or {}))
+            self._open_block(now, c.id, args.get("block"))
             return {"id": c.id, "status": c.status, "total_minor": c.total_minor,
                     "currency": c.currency}
         if name == "update_checkout":
@@ -92,19 +124,21 @@ class Merchant:
 
     def _complete(self, args, now):
         c = self.store.get(args["checkout_id"])
-        block = self.blocks.get(c.id) or _default_block(now)
+        if c.id not in self._checkout_block:
+            self._open_block(now, c.id, None)
+        block = self.block_for(c.id)
 
         # ONE CRITICAL SECTION PER BLOCK. decide() answers "is there room?" and the
         # debit below makes that answer true; between them the block must not move.
         # Unlocked, N threads read the same remaining_minor, all pass, and all debit —
         # the gate citing Issuer §5 while the balance goes negative behind it.
         #
-        # HONEST SCOPE (FINDINGS.md C2): this is NOT reachable in the current code,
-        # because create_checkout hands every checkout its own block, so concurrent
-        # completions touch disjoint state. It becomes reachable the moment one block
-        # is drawn on by more than one checkout — which is what single_block_multiple_debit
-        # MEANS, and is the direction this has to go. The lock is here so that change is
-        # a data-model change and not also a correctness regression.
+        # FINDINGS.md C2. I first reported this as live, was wrong (blocks were
+        # per-checkout, so completions touched disjoint state), and withdrew it. M5 then
+        # made blocks shared per (customer, merchant), because that is what SBMD means —
+        # so the path IS live now, and this lock is load-bearing rather than latent.
+        # The guard preceded the data-model change deliberately: that change is a
+        # modelling fix, not also a correctness regression.
         #
         # The capture call is inside the lock deliberately: debits against one
         # reservation must serialise. That bounds throughput per block, not globally.
@@ -161,6 +195,7 @@ class Merchant:
                         "detail": f"payment rail failed: {e}"}
 
             block["remaining_minor"] -= c.total_minor
+            block["debits"] += 1
             block["used_idem_keys"].add(args["idem_key"])
             block["observed_failures"].pop(args["idem_key"], None)
             self.ledger.append({"event": "captured", "checkout": c.id,
