@@ -2,6 +2,7 @@
 import json, sys
 from eval.cases import harvest, _published_drifts
 from eval.harness import run_batch
+from eval.probe_cache import load_cached_cases, render_comparison
 
 def main():
     cases, prov = harvest(include_discovery_set=False)
@@ -15,6 +16,21 @@ def main():
 
     r = run_batch(cases)
     print(r.render())
+
+    # THE LIVE-API DRIFT, rendered through the gate rather than formatted here.
+    # FINDINGS.md M2: render_comparison() existed, was tested, and had no production
+    # caller — the enforcement arm of the caveat gate protecting the single number
+    # this submission leans on hardest was wired to nothing. H4 then proved, in the
+    # same session, that a generator and its validator drift apart exactly through
+    # gaps like this. So the figures reach a human ONLY through the function that
+    # refuses to print them bare.
+    _, meta = load_cached_cases()
+    print(f"\n live-API drift (probed {meta['probed_at']}), rendered through the")
+    print(" caveat gate — these figures cannot be printed without their hedge:\n")
+    for f in meta["findings"]:
+        for line in render_comparison(f).splitlines():
+            print(f"   {line}")
+        print()
 
     print("\n discovery set (reported SEPARATELY — not part of the rate):")
     d = run_batch(_published_drifts(), min_n=1)

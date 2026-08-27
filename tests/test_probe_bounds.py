@@ -158,3 +158,47 @@ def test_the_shipped_artifact_still_passes_its_own_gate():
     from eval.probe_cache import load_cached_cases
     cases, meta = load_cached_cases()
     assert cases and meta["findings"]
+
+
+# ------------------------------- M1: the label must come from the circular, not us
+
+def test_the_authority_is_read_from_the_claim_store():
+    """FINDINGS.md M1. The thresholds were hardcoded here, duplicating the store."""
+    from eval.probe_cases import _authority
+    a = _authority("upi_reserve_pay_block_limit", "INR_paise")
+    assert a.value == 1_000_000 and a.circular.startswith("NPCI")
+    assert a.quote, "authority arrived without the sentence that states it"
+    d = _authority("upi_reserve_pay_block_validity", "days")
+    assert d.value == 90
+
+
+def test_an_unknown_subject_refuses_rather_than_defaulting():
+    """Fail closed: no authority means no label, not a guessed one."""
+    from eval.probe_cases import _authority
+    with pytest.raises(RuntimeError) as e:
+        _authority("not_a_real_subject", "INR_paise")
+    assert "do not hardcode" in str(e.value)
+
+
+def test_no_hardcoded_thresholds_remain_in_the_case_generator():
+    """The constants themselves are gone, not merely unused — a stale duplicate is
+    what silently disagrees with the store after the store is corrected."""
+    import inspect
+    import eval.probe_cases as pc
+    body = inspect.getsource(pc.probe)
+    for magic in ("1_000_000", "1000000", "> 90", "90 else"):
+        assert magic not in body, f"threshold {magic!r} still hardcoded in probe()"
+
+
+def test_the_committed_labels_agree_with_the_store_today():
+    """Guards the shipped artifact against drift between the cache and the corpus."""
+    from eval.probe_cache import load_cached_cases
+    from eval.probe_cases import _authority
+    cases, _ = load_cached_cases()
+    for c in cases:
+        d = c["declared"]
+        a = _authority(d["subject"], d["unit"])
+        expected = "FAIL" if d["value"] > a.value else "PASS"
+        assert c["label"] == expected, (
+            f"{c['id']}: cached label {c['label']} disagrees with {a.circular} "
+            f"{a.clause} ({a.value})")

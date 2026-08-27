@@ -153,11 +153,35 @@ def _bisect_checked(fn, lo, hi, tol=1):
     return result
 
 
+def _authority(subject, unit):
+    """The bound the CIRCULAR sets, read from the checksummed store.
+
+    FINDINGS.md M1. These were hardcoded — `"FAIL" if max_amt > 1_000_000` and
+    `if max_days > 90` — duplicating OC228-5-block-max and OC228-5-block-days as
+    magic numbers in this file. Low severity as a bug; the store and the constants
+    agreed. High severity as a CLAIM, because this module's own docstring says
+    "Nobody can argue the label came from us. The API said it; the circular judges
+    it." The declared value did come from the API. The LABEL came from a constant we
+    typed. That is a small live instance of the exact pattern FAILURES.md is built
+    around, sitting inside the machinery that detects it.
+
+    Now the circular judges it, literally: same JSON the conformance engine reads."""
+    from eval.harness import _load_authorities
+    for a in _load_authorities():
+        if a.subject == subject and a.unit == unit:
+            return a
+    raise RuntimeError(
+        f"no authority for {subject!r}/{unit!r} in the claim store — refusing to label "
+        f"a probed bound against a constant. Add the claim, do not hardcode the number.")
+
+
 def probe(verbose=True):
     """Returns (cases, findings). Each case is a real declared bound from the live API."""
     auth = _auth()
     cid = _customer(auth)
     findings, cases = [], []
+    amt_auth = _authority("upi_reserve_pay_block_limit", "INR_paise")
+    day_auth = _authority("upi_reserve_pay_block_validity", "days")
 
     max_amt = _bisect_checked(lambda v: _try_mandate(auth, cid, v, 30)[0], 100_00, 100_000_00)
     if verbose:
@@ -168,12 +192,13 @@ def probe(verbose=True):
         "text": f"API accepts token.max_amount up to {max_amt} paise for single_block_multiple_debit",
         "declared": {"subject": "upi_reserve_pay_block_limit", "value": max_amt,
                      "unit": "INR_paise", "scope": "per_block"},
-        "label": "FAIL" if max_amt > 1_000_000 else "PASS",
-        "note": "the bound Razorpay's own code enforces, vs OC-228 Issuer §5",
+        "label": "FAIL" if max_amt > amt_auth.value else "PASS",
+        "note": f"the bound Razorpay's own code enforces, vs {amt_auth.circular} "
+                f"{amt_auth.clause}",
     })
     findings.append({"parameter": "max_amount", "api_enforces_paise": max_amt,
-                     "circular_authorises_paise": 1_000_000,
-                     "circular": "NPCI/UPI/OC No.228 Issuer §5"})
+                     "circular_authorises_paise": amt_auth.value,
+                     "circular": f"{amt_auth.circular} {amt_auth.clause}"})
 
     max_days = _bisect_checked(lambda d: _try_mandate(auth, cid, 500_000, d)[0], 1, 400)
     if verbose:
@@ -184,12 +209,12 @@ def probe(verbose=True):
         "text": f"API accepts token.expire_at up to {max_days} days",
         "declared": {"subject": "upi_reserve_pay_block_validity", "value": max_days,
                      "unit": "days", "scope": "per_block"},
-        "label": "FAIL" if max_days > 90 else "PASS",
-        "note": "vs OC-228 Issuer §5 'up to 90 days'",
+        "label": "FAIL" if max_days > day_auth.value else "PASS",
+        "note": f"vs {day_auth.circular} {day_auth.clause} {day_auth.quote!r}",
     })
     findings.append({"parameter": "expire_at_days", "api_enforces": max_days,
-                     "circular_authorises": 90,
-                     "circular": "NPCI/UPI/OC No.228 Issuer §5"})
+                     "circular_authorises": day_auth.value,
+                     "circular": f"{day_auth.circular} {day_auth.clause}"})
     return cases, findings
 
 

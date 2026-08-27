@@ -113,3 +113,45 @@ def test_the_committed_findings_render_with_their_hedge():
     for f in meta["findings"]:
         out = render_comparison(f)
         assert "cannot rule out" in out.lower() or "not" in out.lower()
+
+
+# ---------------------------------------------- M2: the gate must have a caller
+
+def test_make_eval_renders_the_figures_through_the_gate(capsys):
+    """FINDINGS.md M2. render_comparison() was tested and had no production caller —
+    the enforcement arm of the caveat gate, protecting the number this submission
+    leans on hardest, was wired to nothing. H4 proved in the same session that a
+    generator and its validator drift apart precisely through gaps like this."""
+    import eval.batch
+    eval.batch.main()
+    out = capsys.readouterr().out
+    assert "WHAT THIS IS NOT" in out, "the figures reached stdout without their hedge"
+    assert "We cannot rule out" in out
+    assert "WHAT IT IS" in out
+
+
+def test_the_shipped_figures_never_appear_without_their_caveat(capsys):
+    """The assertion that actually protects the claim: if a rupee figure from the
+    probe is on screen, the words that hedge it are on screen too."""
+    import eval.batch
+    from eval.probe_cache import load_cached_cases
+    eval.batch.main()
+    out = capsys.readouterr().out
+    _, meta = load_cached_cases()
+    for f in meta["findings"]:
+        api = f.get("api_enforces_paise") or f.get("api_enforces")
+        shown = f"₹{api // 100:,}" if "api_enforces_paise" in f else f"{api} days"
+        if shown in out:
+            assert f["not_claimed"][:40] in out, f"{shown} printed without not_claimed"
+
+
+def test_a_finding_that_loses_its_hedge_breaks_make_eval_loudly(monkeypatch):
+    """Fail loud, not quiet: a stripped caveat must stop the run, not print bare."""
+    import eval.batch
+    from eval.probe_cache import CaveatMissing
+    bare = ({}, {"probed_at": "x", "findings": [
+        {"parameter": "max_amount", "api_enforces_paise": 1500000,
+         "circular_authorises_paise": 1000000, "circular": "OC-228"}]})
+    monkeypatch.setattr(eval.batch, "load_cached_cases", lambda *a, **k: bare)
+    with pytest.raises((CaveatMissing, Exception)):
+        eval.batch.main()
