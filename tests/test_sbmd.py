@@ -143,3 +143,68 @@ def test_the_profile_advertises_sbmd_and_the_server_performs_it(tmp_path):
     _pay(m, first, "p1")
     _pay(m, _co(m), "p2")
     assert blk["debits"] == 2, "advertised multiple debits, performed fewer"
+
+
+def test_simultaneous_drawdown_over_http_is_exact(tmp_path):
+    """The adversarial scenario, end to end: ONE reservation, twelve simultaneous
+    debits over the real ThreadingHTTPServer, room for exactly four.
+
+    This is the case that could not exist before M5 — with per-checkout blocks there
+    was nothing to contend for, so the C1/C2 repro was only ever exercised against a
+    model where contention was structurally impossible. Confirmed to fire: with both
+    locks replaced by no-ops this fails 3/3 with `overdrawn to -1499400`, and the
+    ledger arm with `chain break between seq 22 and 23`."""
+    import json, urllib.request
+    from merchant.server import make_server
+
+    srv = make_server(port=0)
+    m = srv.RequestHandlerClass.merchant
+    m.ledger = Ledger(path=str(tmp_path / "l.jsonl"))
+    m.capture = lambda c, idem_key=None: f"order_{c.id}"
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    base = f"http://127.0.0.1:{srv.server_address[1]}/api/ucp/mcp"
+
+    def rpc(name, a):
+        b = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "tools/call",
+                        "params": {"name": name, "arguments": a}}).encode()
+        r = urllib.request.Request(base, data=b, method="POST")
+        r.add_header("Content-Type", "application/json")
+        with urllib.request.urlopen(r, timeout=10) as x:
+            return json.loads(x.read())
+
+    N, ROOM = 12, 4
+    try:
+        ids = [rpc("create_checkout", {"items": [{"id": "sku1", "qty": 1}],
+                                       "currency": "INR"})["result"]["id"]
+               for _ in range(N)]
+        blk = m.block_for(ids[0])
+        assert all(m.block_for(i) is blk for i in ids), "not one reservation"
+        blk["remaining_minor"] = TOTE * ROOM
+        start = blk["remaining_minor"]
+
+        barrier = threading.Barrier(N)
+        out = {}
+
+        def buy(i):
+            barrier.wait()
+            out[i] = rpc("complete_checkout",
+                         {"checkout_id": ids[i], "idem_key": f"d{i}"})
+
+        ts = [threading.Thread(target=buy, args=(i,)) for i in range(N)]
+        [t.start() for t in ts]
+        [t.join() for t in ts]
+    finally:
+        srv.shutdown()
+
+    captured = [r for r in out.values() if "result" in r]
+    refused = [r["error"] for r in out.values() if "error" in r]
+
+    assert len(captured) == ROOM, f"block had room for {ROOM}, {len(captured)} captured"
+    assert blk["remaining_minor"] >= 0, f"overdrawn to {blk['remaining_minor']}"
+    assert start - blk["remaining_minor"] == len(captured) * TOTE, "draw-down not exact"
+    assert blk["debits"] == ROOM
+    assert {r["code"] for r in refused} == {"insufficient_block_balance"}
+    assert all(r["clause"] and r["circular"] for r in refused), \
+        "a refusal travelled without the clause authorising it"
+    ok, msg = m.ledger.verify()
+    assert ok, f"audit trail broken by simultaneous draw-down: {msg}"

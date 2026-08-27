@@ -73,3 +73,47 @@ def test_extractor_output_is_never_authoritative():
     from the checksummed store. The gate reads the store, never this."""
     for c in extract_claims(OC201_S7, llm=FakeLLM(GOOD)):
         assert c["origin"] == "declared"
+
+
+# ------------------------------------------- FINDINGS.md M4: malformed confidence
+
+def test_a_non_numeric_confidence_drops_that_claim_not_the_batch():
+    """The module's rule 1 is 'anything malformed is rejected, never repaired', and it
+    is implemented that way for missing fields, bad units and hallucinated quotes —
+    each one `continue`s past the bad claim. Confidence was the exception: float()
+    raised out of the loop, so ONE malformed claim discarded every VALID claim
+    beside it. A parse error taking down good data is not rejection, it is loss."""
+    mixed = [
+        {"subject": "upi_circle_full_delegation", "value": 1500000, "unit": "INR_paise",
+         "scope": "per_month_per_delegation", "clause": "§7",
+         "quote": "a maximum monthly limit of ₹15,000/- per delegation",
+         "confidence": "high"},                                   # <- malformed
+        {"subject": "upi_circle_full_delegation", "value": 500000, "unit": "INR_paise",
+         "scope": "per_transaction", "clause": "§7",
+         "quote": "maximum per transaction limit of ₹5000",
+         "confidence": 0.95},                                     # <- valid
+    ]
+    out = extract_claims(OC201_S7, llm=FakeLLM(mixed))
+    assert len(out) == 1, "a malformed confidence took a valid claim down with it"
+    assert out[0]["value"] == 500000
+
+
+@pytest.mark.parametrize("bad", ["high", None, "", [], {}, "0.9x", float("nan")])
+def test_every_unusable_confidence_is_rejected_the_same_way(bad):
+    """Rejected, never coerced. NaN matters specifically: it is a float, so it passes
+    float() and then fails EVERY comparison — silently becoming UNDETERMINED by
+    accident rather than by decision."""
+    claim = [{"subject": "upi_circle_full_delegation", "value": 500000,
+              "unit": "INR_paise", "scope": "per_transaction", "clause": "§7",
+              "quote": "maximum per transaction limit of ₹5000", "confidence": bad}]
+    assert extract_claims(OC201_S7, llm=FakeLLM(claim)) == []
+
+
+def test_a_numeric_string_confidence_is_still_honoured():
+    """Rejecting the unusable must not mean rejecting the merely un-parsed: "0.95" is
+    a number the model wrote as a string, not a malformed value."""
+    claim = [{"subject": "upi_circle_full_delegation", "value": 500000,
+              "unit": "INR_paise", "scope": "per_transaction", "clause": "§7",
+              "quote": "maximum per transaction limit of ₹5000", "confidence": "0.95"}]
+    out = extract_claims(OC201_S7, llm=FakeLLM(claim))
+    assert len(out) == 1 and out[0]["status"] == "RESOLVED"

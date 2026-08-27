@@ -118,7 +118,22 @@ def extract_claims(text: str, llm=None, keep_undetermined: bool = False) -> List
             continue
         if _normalise_quote(str(c["quote"])) not in hay:
             continue                                        # rule 2: hallucinated quote
-        status = "RESOLVED" if float(c["confidence"]) >= CONFIDENCE_FLOOR else "UNDETERMINED"
+        # Rule 1 again, and the one place it was not applied. Every other malformed
+        # field `continue`s past the bad claim; confidence used to call float()
+        # unguarded, so a model answering "high" raised out of the LOOP and discarded
+        # every VALID claim beside it. A parse error taking good data down with it is
+        # not rejection, it is loss. FINDINGS.md M4.
+        #
+        # NaN is called out separately because it is the quiet one: it IS a float, so
+        # it survives the conversion and then fails every comparison, arriving at
+        # UNDETERMINED by accident rather than by decision.
+        try:
+            conf = float(c["confidence"])
+        except (TypeError, ValueError):
+            continue
+        if conf != conf or not (0.0 <= conf <= 1.0):     # NaN, or outside the scale
+            continue
+        status = "RESOLVED" if conf >= CONFIDENCE_FLOOR else "UNDETERMINED"
         if status == "UNDETERMINED" and not keep_undetermined:
             continue
         out.append({**{k: c[k] for k in REQUIRED},

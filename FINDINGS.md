@@ -10,7 +10,14 @@
 > (M5 made blocks shared, so the contended path is real and the lock is load-bearing),
 > and the headline figures have been **re-probed under the new guards and came back
 > unchanged** — ₹15,000 and 91 days, no INDETERMINATE abort, no ceiling hit, caveats
-> preserved. Suite: **183 passing, 8 deselected**. Remaining open: M4, L1, L3.
+> preserved. Suite: **193 passing, 8 deselected**.
+>
+> **Third pass:** M4 fixed (it was a live one-line bug, not an architectural limitation
+> — wrong to have grouped it with L1/L3). The concurrent draw-down scenario has been
+> **re-run against the real shared-block model** and confirmed to fire: with both locks
+> replaced by no-ops it fails 3/3 (`overdrawn to -1499400`, `chain break between seq 22
+> and 23`); with them restored, 3/3 green. Remaining open: **L1 and L3 only**, both
+> stated-and-accepted.
 
 Read of the working tree at `812fef1`, 2026-08-27. Every finding below was
 **reproduced against the running code**, not inferred from a read. Repro commands are
@@ -344,6 +351,12 @@ enforcement unreachable at the other.
 
 ### M4 · A non-numeric `confidence` crashes extraction instead of dropping the claim
 
+> **FIXED** — `float()` is guarded, and NaN and out-of-range are rejected explicitly
+> rather than arriving at `UNDETERMINED` by accident. 9 tests including the mixed batch
+> (one malformed claim used to discard the valid claim beside it) and a check that a
+> numeric *string* like `"0.95"` is still honoured — rejecting the unusable must not
+> mean rejecting the merely un-parsed.
+
 **Where:** `extract/llm.py:120` (`float(c["confidence"])`).
 
 The module's stated rule 1 is "anything malformed is rejected, never repaired," and it is
@@ -502,7 +515,7 @@ Two suggested additions, in priority order:
 | M1 | **fixed** `0581a7c` | label now read from the checksummed store |
 | M2 | **fixed** `0581a7c` | `make eval` renders only through the gate |
 | M3 | **fixed** `853f45a` | §3 reachable, and un-spoofable |
-| M4 | open | non-numeric confidence crashes rather than drops |
+| M4 | **fixed** | guarded; NaN/out-of-range rejected explicitly |
 | M5 | **fixed** `92fc9dc` | real SBMD: one block, many debits |
 | L1 | open | `append()` is O(n) per call |
 | L2 | **fixed** `89c5725` | non-JSON error bodies |
@@ -530,3 +543,34 @@ passed its own tests and protected nothing, because pytest builds module-scoped 
 first. The suite stayed green. It was caught only by asserting against the live object
 (`RazorpayCapture / live-test-mode`) instead of trusting the fixture's own promise —
 which is the same lesson FAILURES.md #3 and #4 already record, relearned.
+
+---
+
+## Confirming the guards can still fire under the new model
+
+The concurrency guards were written against the OLD per-checkout-block model, where
+contention was structurally impossible — so passing under the new shared-block model
+proves nothing on its own. Locks replaced with no-ops, then re-run:
+
+```
+--- locks OFF, 3/3 runs ---
+  AssertionError: overdrawn to -1499400
+  AssertionError: concurrent appends corrupted the chain: backward: chain break between seq 22 and 23
+--- locks restored, 3/3 runs ---
+  6 passed
+```
+
+And the adversarial scenario end to end — one reservation, twelve simultaneous debits
+over the real `ThreadingHTTPServer`, room for exactly four, 3/3 identical:
+
+```
+  block: Rs.9,996 -> Rs.0  (room for exactly 4)
+  captured 4   refused 8      debits counter: 4
+  arithmetic exact: True      balance non-negative: True
+  refusal codes: {'insufficient_block_balance'}
+  every refusal cites a clause: True
+  ledger: OK — 16 entries verified (forward, backward, HEAD-anchored)
+```
+
+Promoted from a scratch script into `tests/test_sbmd.py` so it runs on every `make
+test` rather than being a claim made once.
