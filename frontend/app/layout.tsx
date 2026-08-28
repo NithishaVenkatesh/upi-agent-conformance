@@ -1,94 +1,65 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const geist = Geist({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: "--font-geist",
 });
 
 export const metadata: Metadata = {
-  title: "Compliance Gateway - Regulatory Payment Platform",
-  description: "Real-time regulatory compliance for UPI payments with NPCI/RBI verification",
+  title: "in.razorpay.upi — Payment Compliance Dashboard",
+  description:
+    "AI-powered regulatory compliance for UPI payments. Verify payment terms against NPCI/RBI circulars.",
+  icons: {
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%2310b981'>✓</text></svg>",
+  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex bg-gray-50">
-        {/* Sidebar Navigation */}
-        <div className="w-64 bg-gradient-to-b from-gray-900 to-gray-800 text-white p-6 shadow-lg sticky top-0 h-screen overflow-y-auto">
-          <h1 className="text-2xl font-bold mb-8">
-            <span className="text-blue-400">⚖️</span> Compliance
-          </h1>
-
-          <nav className="space-y-1 mb-8">
-            <Link
-              href="/dashboard"
-              className="block px-4 py-3 rounded-lg hover:bg-gray-700 transition-colors text-sm font-medium"
-            >
-              📊 Dashboard
-            </Link>
-            <Link
-              href="/payments"
-              className="block px-4 py-3 rounded-lg hover:bg-gray-700 transition-colors text-sm font-medium"
-            >
-              💳 Payments
-            </Link>
-            <Link
-              href="/violations"
-              className="block px-4 py-3 rounded-lg hover:bg-gray-700 transition-colors text-sm font-medium"
-            >
-              ⚠️ Violations
-            </Link>
-            <Link
-              href="/merchant"
-              className="block px-4 py-3 rounded-lg hover:bg-gray-700 transition-colors text-sm font-medium"
-            >
-              👤 Merchant
-            </Link>
-            <Link
-              href="/reports"
-              className="block px-4 py-3 rounded-lg hover:bg-gray-700 transition-colors text-sm font-medium"
-            >
-              📋 Reports
-            </Link>
-          </nav>
-
-          <div className="mt-auto pt-8 border-t border-gray-700">
-            <div className="text-xs text-gray-400 space-y-3">
-              <div className="flex items-start gap-2">
-                <span>🔐</span>
-                <span>NPCI/RBI Compliant</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <span>✅</span>
-                <span>Audit Trail Enabled</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <span>🛡️</span>
-                <span>Deterministic Money Path</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <span>📜</span>
-                <span>Kill-Gate 2 Passed</span>
+    <html lang="en" className={geist.variable}>
+      <body className="min-h-screen bg-white dark:bg-slate-950 antialiased">
+        <div className="flex flex-col min-h-screen">
+          {/* Header */}
+          <header className="border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+            <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-3">
+                  <div className="text-2xl font-bold text-green-600">✓</div>
+                  <div>
+                    <h1 className="text-xl font-bold text-slate-900 dark:text-white">
+                      in.razorpay.upi
+                    </h1>
+                    <p className="text-sm text-slate-600 dark:text-slate-400">
+                      Payment Compliance Dashboard
+                    </p>
+                  </div>
+                </div>
+                <div className="text-sm text-slate-600 dark:text-slate-400">
+                  Demo Mode
+                </div>
               </div>
             </div>
-          </div>
-        </div>
+          </header>
 
-        {/* Main Content */}
-        <div className="flex-1">
-          {children}
+          {/* Main Content */}
+          <main className="flex-1 max-w-7xl mx-auto w-full px-4 py-8 sm:px-6 lg:px-8">
+            {children}
+          </main>
+
+          {/* Footer */}
+          <footer className="border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 mt-auto">
+            <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
+              <p className="text-sm text-slate-600 dark:text-slate-400">
+                NPCI/UPI compliance enforced deterministically. Every decision cites regulatory authority.
+              </p>
+            </div>
+          </footer>
         </div>
       </body>
     </html>
