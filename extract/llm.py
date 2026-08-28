@@ -74,8 +74,6 @@ class AzureOpenAILLM:
         body = json.dumps({
             "messages": [{"role": "system", "content": system},
                          {"role": "user", "content": user}],
-            "temperature": 0,
-            "response_format": {"type": "json_object"},
         }).encode()
         req = urllib.request.Request(url, data=body, method="POST")
         req.add_header("Content-Type", "application/json")

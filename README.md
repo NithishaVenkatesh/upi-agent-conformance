@@ -24,3 +24,18 @@ committed the exact error it was built to catch.
 
 Track 01 · Razorpay AI Buildathon. Money path is deterministic; the delegation layer is
 stubbed and declared.
+
+---
+
+## Security & Operational Limits
+
+**Ledger tamper detection:** The hash-chained ledger (`eval/ledger.jsonl`) detects accidental corruption and internal consistency violations. **Limitation:** An attacker with write access to BOTH the ledger file AND the HEAD marker (`eval/ledger.jsonl.head`) can rebuild the chain undetectably. For production deployment:
+- Use an append-only storage service (Git, S3 with object lock, Cloud Firestore) instead of local JSONL
+- Cryptographically sign entries with an offline key
+- Document operational procedures to prevent concurrent writes (this server uses an in-process lock, not fcntl, so multi-process setups are unsafe)
+
+**HTTP protocol:** The merchant server uses HTTP/1.1 with keep-alive enabled. On localhost, this is safe. For WAN deployment, consider:
+- Switching to HTTP/2 (better multiplexing, simpler framing)
+- Documenting that idempotency keys are per-connection (replays across connections are the caller's responsibility, per OC-228 Acquirer §3)
+
+**CORS:** The merchant server (`merchant/server.py`) accepts POST requests only from localhost origins (`127.0.0.1` and `localhost`). This prevents CSRF attacks from arbitrary webpages. If deployed on a remote host, update the origin check to match your deployment domain.

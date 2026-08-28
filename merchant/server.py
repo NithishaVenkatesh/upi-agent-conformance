@@ -245,6 +245,12 @@ def make_server(port=8080, host="demo.example"):
         def do_POST(self):
             if self.path != "/api/ucp/mcp":
                 return self._send(404, {"error": "not found"})
+            # Localhost-only service: reject cross-origin POST from non-localhost sources.
+            # This prevents CSRF attacks from malicious webpages.
+            origin = self.headers.get("Origin", "")
+            if origin and not (origin.startswith("http://127.0.0.1") or
+                             origin.startswith("http://localhost")):
+                return self._send(403, {"error": "origin not allowed"})
             n = int(self.headers.get("Content-Length", 0))
             try:
                 rpc = json.loads(self.rfile.read(n))
