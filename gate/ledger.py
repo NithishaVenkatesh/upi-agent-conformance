@@ -42,6 +42,10 @@ class Ledger:
             return []
         return [json.loads(l) for l in open(self.path) if l.strip()]
 
+    def read_all(self):
+        """Return all ledger entries as a list for API consumption."""
+        return self._entries()
+
     @property
     def head_path(self):
         return self.path + ".head"

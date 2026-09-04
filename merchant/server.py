@@ -7,7 +7,7 @@ Every completion passes through gate.decide(). A refusal returns the clause that
 authorises it, because an agent told only "403" learns nothing and will retry — which
 OC-228 §3 forbids for non-timeout declines.
 """
-import json, threading, time
+import json, threading, time, os
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 from merchant.ucp import build_profile
@@ -226,13 +226,28 @@ def make_server(port=8080, host="demo.example"):
 
         def do_GET(self):
             if self.path == "/.well-known/ucp":
-                return self._send(200, build_profile(m.host))
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json")
+                self.send_header("Access-Control-Allow-Origin", "*")
+                self.end_headers()
+                self.wfile.write(json.dumps(build_profile(m.host)).encode())
+                return
+            if self.path == "/api/ledger":
+                try:
+                    entries = m.ledger.read_all()
+                    self.send_response(200)
+                    self.send_header("Content-Type", "application/json")
+                    self.send_header("Access-Control-Allow-Origin", "*")
+                    self.end_headers()
+                    self.wfile.write(json.dumps(entries).encode())
+                except Exception as e:
+                    self._send(500, {"error": str(e)})
+                return
             if self.path == "/":
-                # A real origin, so a browser-based agent can fetch the MCP endpoint
-                # without being blocked by the null origin of about:blank.
                 body = (b"<!doctype html><meta charset=utf-8><title>demo merchant</title>"
                         b"<h1>Demo merchant</h1><p>Agent-payable by UPI.</p>"
                         b"<ul><li><a href='/.well-known/ucp'>/.well-known/ucp</a></li>"
+                        b"<li><a href='/api/ledger'>/api/ledger</a></li>"
                         b"<li>POST /api/ucp/mcp</li></ul>")
                 self.send_response(200)
                 self.send_header("Content-Type", "text/html; charset=utf-8")
@@ -245,11 +260,11 @@ def make_server(port=8080, host="demo.example"):
         def do_POST(self):
             if self.path != "/api/ucp/mcp":
                 return self._send(404, {"error": "not found"})
-            # Localhost-only service: reject cross-origin POST from non-localhost sources.
-            # This prevents CSRF attacks from malicious webpages.
+            # Check origin is allowed: localhost for dev, environment variable for prod
             origin = self.headers.get("Origin", "")
-            if origin and not (origin.startswith("http://127.0.0.1") or
-                             origin.startswith("http://localhost")):
+            allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://127.0.0.1,http://localhost").split(",")
+            is_allowed = not origin or any(origin.startswith(allowed.strip()) for allowed in allowed_origins)
+            if origin and not is_allowed:
                 return self._send(403, {"error": "origin not allowed"})
             n = int(self.headers.get("Content-Length", 0))
             try:
@@ -273,11 +288,14 @@ def make_server(port=8080, host="demo.example"):
                 return self._send(200, {"jsonrpc": "2.0", "id": rid,
                                         "error": {"code": "not_found", "detail": str(e)}})
 
-    return ThreadingHTTPServer(("127.0.0.1", port), H)
+    # Bind to 0.0.0.0 for deployed environments, 127.0.0.1 for localhost
+    bind_host = os.getenv("BIND_HOST", "127.0.0.1")
+    return ThreadingHTTPServer((bind_host, port), H)
 
 
 if __name__ == "__main__":
-    s = make_server(port=8080)
-    print(f"merchant on http://127.0.0.1:{s.server_address[1]}  "
-          f"(/.well-known/ucp · /api/ucp/mcp)")
+    port = int(os.getenv("PORT", 8080))
+    s = make_server(port=port)
+    print(f"merchant on http://{s.server_address[0]}:{s.server_address[1]}  "
+          f"(/.well-known/ucp · /api/ledger · /api/ucp/mcp)")
     s.serve_forever()
