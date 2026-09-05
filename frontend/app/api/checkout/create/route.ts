@@ -40,13 +40,17 @@ export async function POST(req: NextRequest) {
     });
 
     if (!response.ok) {
+      const errorText = await response.text();
+      console.error(`Backend error ${response.status}:`, errorText);
       throw new Error(`Backend returned ${response.status}`);
     }
 
     const result = await response.json();
+    console.log("Checkout response:", result);
 
     // Handle JSON-RPC error response
     if (result.error) {
+      console.error("Gate error:", result.error);
       return NextResponse.json(
         { error: result.error.detail || "Failed to create checkout" },
         { status: 400 }
