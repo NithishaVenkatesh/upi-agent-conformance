@@ -83,7 +83,20 @@ class Merchant:
         self.ledger = Ledger(path=ledger_path)
         print(f"[INIT] Ledger path: {ledger_path}", flush=True)
         print(f"[INIT] Ledger exists: {os.path.exists(ledger_path)}", flush=True)
-        print(f"[INIT] Ledger entries: {len(self.ledger.read_all())}", flush=True)
+        entries = self.ledger.read_all()
+        print(f"[INIT] Ledger entries: {len(entries)}", flush=True)
+
+        # Seed demo data if ledger is empty
+        if len(entries) == 0:
+            demo_txns = [
+                {"customer": "Rajesh Kumar", "merchant": "TechStore", "amount": 50000, "status": "ALLOWED", "clause": "NPCI/UPI OC No.228 §2", "reason": "Within limit"},
+                {"customer": "Priya Singh", "merchant": "Fashion Hub", "amount": 150000, "status": "BLOCKED", "clause": "NPCI/UPI OC No.228 §5", "reason": "Exceeds ₹100,000 daily limit"},
+                {"customer": "Amit Patel", "merchant": "Electronics Plus", "amount": 75000, "status": "ALLOWED", "clause": "NPCI/UPI OC No.228 §2", "reason": "Compliant with policy"},
+            ]
+            for txn in demo_txns:
+                self.ledger.append(txn)
+            print(f"[INIT] Seeded {len(demo_txns)} demo transactions", flush=True)
+
         self._blocks_lock = threading.Lock()
 
     def block_for(self, checkout_id):
