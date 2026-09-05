@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { ShieldCheck, ShieldX, ShoppingCart, Sparkles } from "lucide-react";
+import { ShieldCheck, ShieldX } from "lucide-react";
 import type { GateDecision, Transaction } from "@/lib/types";
 import { Verdict } from "@/components/verdict";
 import { Money } from "@/components/money";
@@ -398,20 +398,6 @@ export default function Dashboard() {
 
   return (
     <div className="flex-1 overflow-y-auto bg-[--color-paper]">
-      {/* Navigation Links */}
-      <div className="bg-blue-50 border-b border-blue-200 px-10 py-3 flex gap-6 text-sm">
-        <Link href="/app" className="font-500 text-blue-900">Dashboard</Link>
-        <Link href="/app/checkout" className="flex items-center gap-2 text-blue-700 hover:text-blue-900">
-          <ShoppingCart size={16} />
-          Checkout Flow
-        </Link>
-        <Link href="/app/showcase" className="flex items-center gap-2 text-blue-700 hover:text-blue-900">
-          <Sparkles size={16} />
-          Decision Gallery
-        </Link>
-        <Link href="/app/ledger" className="text-blue-700 hover:text-blue-900">Ledger</Link>
-      </div>
-
       {/* 1. Status strip */}
       <StatusStrip />
 

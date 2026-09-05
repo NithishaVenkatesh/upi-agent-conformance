@@ -1,9 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
-import { ShoppingCart, Minus, Plus, Zap, CheckCircle2, AlertCircle } from "lucide-react";
+import { Minus, Plus } from "lucide-react";
 import type { GateDecision } from "@/lib/types";
+import { Verdict } from "@/components/verdict";
+import { Money } from "@/components/money";
+import { Cite } from "@/components/cite";
 
 const CATALOG = [
   { id: "sku1", name: "Cotton tote", price_minor: 249900, description: "Eco-friendly cotton tote bag" },
@@ -61,10 +64,9 @@ export default function CheckoutPage() {
 
   const createCheckout = async () => {
     if (cart.length === 0) return;
-
     setLoading(true);
+
     try {
-      // Call backend to create checkout
       const response = await fetch("/api/checkout/create", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -75,7 +77,6 @@ export default function CheckoutPage() {
       });
 
       if (!response.ok) throw new Error("Failed to create checkout");
-
       const session = await response.json();
       setCheckout({ ...session, status: "ready" });
     } catch (error) {
@@ -93,12 +94,10 @@ export default function CheckoutPage() {
 
   const processPayment = async () => {
     if (!checkout) return;
-
     setCheckout(prev => prev ? { ...prev, status: "processing" } : null);
     setLoading(true);
 
     try {
-      // Call backend to complete checkout (processes through gate)
       const response = await fetch("/api/checkout/complete", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -109,16 +108,13 @@ export default function CheckoutPage() {
       });
 
       if (!response.ok) throw new Error("Payment failed");
-
       const result = await response.json();
       setCheckout(prev =>
         prev ? { ...prev, status: "completed", decision: result.decision } : null
       );
     } catch (error) {
       console.error("Payment processing failed:", error);
-      setCheckout(prev =>
-        prev ? { ...prev, status: "failed" } : null
-      );
+      setCheckout(prev => prev ? { ...prev, status: "failed" } : null);
     } finally {
       setLoading(false);
     }
@@ -128,37 +124,37 @@ export default function CheckoutPage() {
     <div className="space-y-8">
       {/* Header */}
       <div className="border-b border-[--color-rule] pb-6">
-        <h1 className="text-2xl font-600 text-[--color-ink] mb-2">
-          Checkout
-        </h1>
+        <h1 className="text-xl font-600 text-[--color-ink] mb-2">Checkout</h1>
         <p className="text-sm text-[--color-ink-2]">
           Experience compliance-first payments through the UPI gate
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-3 gap-8">
         {/* Product Catalog */}
         <div className="col-span-2 space-y-6">
           <div>
-            <h2 className="text-lg font-600 text-[--color-ink] mb-4">Products</h2>
+            <h2 className="text-13px font-600 text-[--color-ink] uppercase tracking-wide mb-4">
+              Products
+            </h2>
             <div className="space-y-3">
               {CATALOG.map(product => (
                 <div
                   key={product.id}
-                  className="flex items-center justify-between p-4 border border-[--color-rule] rounded-md hover:bg-[--color-surface-2]"
+                  className="flex items-center justify-between p-4 border border-[--color-rule] rounded-[3px] hover:bg-[--color-surface-2]"
                 >
-                  <div>
-                    <h3 className="font-500 text-[--color-ink]">{product.name}</h3>
-                    <p className="text-sm text-[--color-ink-2]">{product.description}</p>
-                    <p className="text-lg font-600 text-[--color-positive] mt-2">
-                      ₹{(product.price_minor / 100).toFixed(2)}
+                  <div className="flex-1">
+                    <h3 className="font-500 text-13px text-[--color-ink]">{product.name}</h3>
+                    <p className="text-12px text-[--color-ink-2] mt-1">{product.description}</p>
+                    <p className="font-600 text-13px text-[--color-ink] mt-2">
+                      <Money minor={product.price_minor} />
                     </p>
                   </div>
                   <button
                     onClick={() => addToCart(product.id)}
-                    className="px-4 py-2 bg-[--color-primary] text-white rounded-md font-500 hover:opacity-90 transition"
+                    className="px-4 py-2.5 bg-[--color-pass] text-white rounded-[3px] font-500 text-13px hover:opacity-90 transition min-h-[40px]"
                   >
-                    Add to Cart
+                    Add
                   </button>
                 </div>
               ))}
@@ -168,35 +164,36 @@ export default function CheckoutPage() {
 
         {/* Cart Summary */}
         <div className="space-y-4">
-          <div className="border border-[--color-rule] rounded-md p-6 bg-[--color-surface-2]">
-            <h2 className="flex items-center gap-2 text-lg font-600 text-[--color-ink] mb-4">
-              <ShoppingCart size={20} />
+          <div className="border border-[--color-rule] rounded-[3px] p-6 bg-[--color-surface]">
+            <h2 className="font-600 text-13px text-[--color-ink] uppercase tracking-wide mb-4">
               Cart
             </h2>
 
             {cart.length === 0 ? (
-              <p className="text-sm text-[--color-ink-2]">No items in cart</p>
+              <p className="text-12px text-[--color-ink-2]">No items</p>
             ) : (
-              <div className="space-y-3 mb-4">
+              <div className="space-y-2 mb-4">
                 {cart.map(item => (
-                  <div key={item.id} className="flex items-center justify-between p-2 bg-white rounded border border-[--color-rule]">
+                  <div key={item.id} className="flex items-center justify-between p-2 bg-[--color-paper] rounded-[3px] border border-[--color-rule-2]">
                     <div className="flex-1">
-                      <p className="text-sm font-500 text-[--color-ink]">{item.name}</p>
-                      <p className="text-xs text-[--color-ink-2]">₹{(item.price_minor / 100).toFixed(2)} × {item.qty}</p>
+                      <p className="text-12px font-500 text-[--color-ink]">{item.name}</p>
+                      <p className="text-11px text-[--color-ink-2]">
+                        <Money minor={item.price_minor} /> × {item.qty}
+                      </p>
                     </div>
                     <div className="flex items-center gap-1">
                       <button
                         onClick={() => updateQty(item.id, item.qty - 1)}
-                        className="p-1 hover:bg-gray-100 rounded"
+                        className="p-1 hover:bg-[--color-rule] rounded"
                       >
-                        <Minus size={14} />
+                        <Minus size={12} />
                       </button>
-                      <span className="w-6 text-center text-xs">{item.qty}</span>
+                      <span className="w-6 text-center text-11px">{item.qty}</span>
                       <button
                         onClick={() => updateQty(item.id, item.qty + 1)}
-                        className="p-1 hover:bg-gray-100 rounded"
+                        className="p-1 hover:bg-[--color-rule] rounded"
                       >
-                        <Plus size={14} />
+                        <Plus size={12} />
                       </button>
                     </div>
                   </div>
@@ -205,13 +202,13 @@ export default function CheckoutPage() {
             )}
 
             <div className="border-t border-[--color-rule] pt-4 mb-4">
-              <div className="flex justify-between mb-2">
-                <span className="text-sm text-[--color-ink-2]">Subtotal:</span>
-                <span className="font-500 text-[--color-ink]">₹{(cartTotal / 100).toFixed(2)}</span>
+              <div className="flex justify-between mb-2 text-12px">
+                <span className="text-[--color-ink-2]">Subtotal:</span>
+                <span className="font-500 text-[--color-ink]"><Money minor={cartTotal} /></span>
               </div>
-              <div className="flex justify-between">
-                <span className="font-600 text-[--color-ink]">Total:</span>
-                <span className="font-700 text-lg text-[--color-primary]">₹{(cartTotal / 100).toFixed(2)}</span>
+              <div className="flex justify-between font-600 text-13px">
+                <span className="text-[--color-ink]">Total:</span>
+                <span className="text-[--color-ink]"><Money minor={cartTotal} /></span>
               </div>
             </div>
 
@@ -219,22 +216,21 @@ export default function CheckoutPage() {
               <button
                 onClick={createCheckout}
                 disabled={cart.length === 0 || loading}
-                className="w-full py-2 bg-[--color-primary] text-white rounded-md font-500 hover:opacity-90 disabled:opacity-50 transition"
+                className="w-full py-2.5 bg-[--color-pass] text-white rounded-[3px] font-500 text-13px hover:opacity-90 disabled:opacity-50 transition min-h-[44px]"
               >
-                {loading ? "Creating checkout..." : "Proceed to Payment"}
+                {loading ? "Creating..." : "Proceed to Payment"}
               </button>
             ) : (
               <div className="space-y-2">
-                <div className="p-2 bg-blue-50 border border-blue-200 rounded text-xs text-blue-700">
+                <div className="p-2 bg-[--color-pass-bg] border border-[--color-pass] rounded-[3px] text-11px text-[--color-ink]">
                   <p className="font-500">Checkout Created</p>
-                  <p className="font-mono text-xs mt-1">{checkout.id}</p>
+                  <p className="font-mono text-10px mt-1 text-[--color-ink-2]">{checkout.id}</p>
                 </div>
                 <button
                   onClick={processPayment}
                   disabled={checkout.status !== "ready" || loading}
-                  className="w-full py-2 bg-[--color-positive] text-white rounded-md font-500 hover:opacity-90 disabled:opacity-50 transition flex items-center justify-center gap-2"
+                  className="w-full py-2.5 bg-[--color-pass] text-white rounded-[3px] font-500 text-13px hover:opacity-90 disabled:opacity-50 transition min-h-[44px]"
                 >
-                  <Zap size={16} />
                   {loading ? "Processing..." : "Process Payment"}
                 </button>
               </div>
@@ -243,45 +239,42 @@ export default function CheckoutPage() {
 
           {/* Decision Detail */}
           {checkout?.decision && (
-            <div className={`border rounded-md p-4 ${checkout.decision.allowed ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200"}`}>
+            <div className={`border rounded-[3px] p-4 ${
+              checkout.decision.allowed
+                ? "bg-[--color-pass-bg] border-[--color-pass]"
+                : "bg-[--color-fail-bg] border-[--color-fail]"
+            }`}>
               <button
                 onClick={() => setShowDecisionDetail(!showDecisionDetail)}
-                className="w-full flex items-center gap-2 font-600 text-sm"
+                className="w-full flex items-center justify-between font-600 text-12px text-[--color-ink]"
               >
-                {checkout.decision.allowed ? (
-                  <>
-                    <CheckCircle2 size={16} className="text-green-600" />
-                    <span className="text-green-900">Payment Allowed</span>
-                  </>
-                ) : (
-                  <>
-                    <AlertCircle size={16} className="text-red-600" />
-                    <span className="text-red-900">Payment Refused</span>
-                  </>
-                )}
+                <span>{checkout.decision.allowed ? "✓ Allowed" : "✗ Refused"}</span>
+                <span className="text-11px">{showDecisionDetail ? "−" : "+"}</span>
               </button>
 
               {showDecisionDetail && (
-                <div className="mt-4 space-y-2 text-xs">
+                <div className="mt-3 space-y-2 text-11px">
                   <div>
-                    <p className="font-500 text-gray-700">Decision:</p>
-                    <p className="font-mono bg-white p-2 rounded border border-gray-200">{checkout.decision.code}</p>
+                    <p className="font-500 text-[--color-ink]">Decision Code:</p>
+                    <p className="font-mono bg-[--color-surface] p-2 rounded-[3px] border border-[--color-rule] mt-1 text-[--color-ink-2]">
+                      {checkout.decision.code}
+                    </p>
                   </div>
                   <div>
-                    <p className="font-500 text-gray-700">Clause:</p>
-                    <p className="font-mono bg-white p-2 rounded border border-gray-200">{checkout.decision.clause}</p>
+                    <p className="font-500 text-[--color-ink]">Regulatory Citation:</p>
+                    <Cite circular={checkout.decision.circular} clause={checkout.decision.clause} />
                   </div>
                   <div>
-                    <p className="font-500 text-gray-700">Regulatory Reference:</p>
-                    <p className="font-mono bg-white p-2 rounded border border-gray-200">{checkout.decision.circular}</p>
+                    <p className="font-500 text-[--color-ink]">Quote:</p>
+                    <p className="bg-[--color-surface] p-2 rounded-[3px] border border-[--color-rule] mt-1 italic text-[--color-ink]">
+                      {checkout.decision.quote}
+                    </p>
                   </div>
                   <div>
-                    <p className="font-500 text-gray-700">Quote:</p>
-                    <p className="bg-white p-2 rounded border border-gray-200 italic">{checkout.decision.quote}</p>
-                  </div>
-                  <div>
-                    <p className="font-500 text-gray-700">Detail:</p>
-                    <p className="bg-white p-2 rounded border border-gray-200">{checkout.decision.detail}</p>
+                    <p className="font-500 text-[--color-ink]">Details:</p>
+                    <p className="bg-[--color-surface] p-2 rounded-[3px] border border-[--color-rule] mt-1 text-[--color-ink]">
+                      {checkout.decision.detail}
+                    </p>
                   </div>
                 </div>
               )}
@@ -290,10 +283,11 @@ export default function CheckoutPage() {
         </div>
       </div>
 
-      {/* Links */}
-      <div className="flex gap-4 text-sm">
-        <Link href="/app" className="text-blue-600 hover:underline">← Back to Dashboard</Link>
-        <Link href="/app/ledger" className="text-blue-600 hover:underline">View Transaction Ledger →</Link>
+      {/* Footer Links */}
+      <div className="border-t border-[--color-rule] pt-6 text-sm">
+        <Link href="/app" className="text-[--color-ink] hover:text-[--color-pass]">
+          ← Back to Dashboard
+        </Link>
       </div>
     </div>
   );

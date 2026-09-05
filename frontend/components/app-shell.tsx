@@ -11,11 +11,15 @@ import {
   Play,
   Menu,
   X,
+  ShoppingCart,
+  Sparkles,
 } from "lucide-react";
 import { motion } from "motion/react";
 
 const navItems = [
   { href: "/app", label: "Overview", icon: LayoutGrid },
+  { href: "/app/checkout", label: "Checkout", icon: ShoppingCart },
+  { href: "/app/showcase", label: "Decisions", icon: Sparkles },
   { href: "/app/transactions", label: "Transactions", icon: ArrowLeftRight },
   { href: "/app/constraints", label: "Constraints", icon: Scale },
   { href: "/app/ledger", label: "Ledger", icon: Link2 },
