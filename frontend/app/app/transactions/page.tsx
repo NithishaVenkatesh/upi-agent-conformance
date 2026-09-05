@@ -253,14 +253,11 @@ export default function TransactionsPage() {
         if (response.ok) {
           const ledgerEntries = await response.json();
           setTransactions(transformLedgerToTransactions(ledgerEntries));
-          setError(null);
         } else {
           setTransactions(MOCK_TRANSACTIONS);
-          setError(null);
         }
       } catch (error) {
         setTransactions(MOCK_TRANSACTIONS);
-        setError(null);
       } finally {
         setLoading(false);
       }
