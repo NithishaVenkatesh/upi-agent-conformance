@@ -35,8 +35,12 @@ export default function TransactionDetail() {
           throw new Error("Failed to fetch ledger");
         }
 
+        console.log("⏳ Parsing JSON...");
         const entries = await response.json();
-        console.log("📝 Ledger entries count:", entries.length);
+        console.log("✅ JSON parsed");
+        console.log("📝 Ledger entries type:", typeof entries);
+        console.log("📝 Ledger entries:", entries);
+        console.log("📝 Ledger entries count:", Array.isArray(entries) ? entries.length : "not array");
 
         // Find the transaction matching the ID (checkout ID)
         let transactionData = null;
