@@ -175,39 +175,93 @@ function transformLedgerToTransactions(entries: any[]): Array<{
   decision: GateDecision;
   customer_id: string;
 }> {
-  const checkouts = new Map<string, any>();
-  const statusMap = new Map<string, "ALLOWED" | "REFUSED" | "UNDETERMINED">();
+  // Map checkout IDs to their transaction data
+  const transactionMap = new Map<string, any>();
 
+  // First pass: collect all events for each checkout
   for (const entry of entries) {
     const p = entry.payload;
+    const checkoutId = p.checkout;
+
+    if (!transactionMap.has(checkoutId)) {
+      transactionMap.set(checkoutId, {
+        checkout_id: checkoutId,
+        seq: entry.seq,
+        timestamp: new Date().getTime(), // Use current time if not provided
+        amount_minor: 0,
+        status: "UNDETERMINED" as const,
+        decision: null,
+      });
+    }
+
+    const tx = transactionMap.get(checkoutId)!;
+
+    // Process different event types
     if (p.event === "authorise") {
-      if (!checkouts.has(p.checkout)) {
-        checkouts.set(p.checkout, { checkout_id: p.checkout, timestamp: Date.now() });
-      }
-      if (p.decision === "authorised") {
-        statusMap.set(p.checkout, "ALLOWED");
-      } else {
-        statusMap.set(p.checkout, "REFUSED");
-      }
-      checkouts.get(p.checkout).decision = {
+      // Store authorise decision
+      tx.decision = {
         allowed: p.decision === "authorised",
         code: p.decision,
         clause: p.clause || "Unknown",
-        circular: "NPCI/UPI/OC No.228",
-        quote: "Payment processed according to regulatory bounds.",
-        detail: p.decision === "authorised" ? "Amount within limit" : "Payment declined",
+        circular: p.circular || "NPCI/UPI/OC No.228",
+        quote: p.quote || "Payment processed according to regulatory bounds.",
+        detail: p.detail || (p.decision === "authorised" ? "Amount within limit" : "Payment declined"),
       };
+
+      // Set status based on decision
+      if (p.decision === "authorised") {
+        tx.status = "ALLOWED";
+      } else {
+        tx.status = "REFUSED";
+      }
+    } else if (p.event === "captured") {
+      // Payment was captured successfully
+      tx.status = "ALLOWED";
+      if (!tx.decision) {
+        tx.decision = {
+          allowed: true,
+          code: "authorised",
+          clause: "Issuer §5",
+          circular: "NPCI/UPI/OC No.228",
+          quote: "Payment authorized and captured",
+          detail: "Payment successfully processed",
+        };
+      }
+    } else if (p.event === "capture_failed") {
+      // Capture failed
+      tx.status = "REFUSED";
+      if (!tx.decision) {
+        tx.decision = {
+          allowed: false,
+          code: p.kind || "capture_failed",
+          clause: p.clause || "Acquirer §3",
+          circular: "NPCI/UPI/OC No.228",
+          quote: p.quote || "Payment capture failed",
+          detail: p.detail || "Payment could not be processed",
+        };
+      }
+    } else if (p.event === "replay") {
+      // Idempotent replay - treat as same status as before
+      if (!tx.status || tx.status === "UNDETERMINED") {
+        tx.status = "ALLOWED";
+      }
     }
   }
 
-  return Array.from(checkouts.values()).map((c: any) => ({
-    id: c.checkout_id,
-    timestamp: c.timestamp,
-    amount_minor: Math.floor(Math.random() * 500000),
-    status: statusMap.get(c.checkout_id) || "UNDETERMINED",
-    decision: c.decision,
-    customer_id: "cust_demo",
-  }));
+  // Convert map to array, excluding entries without decision data
+  const transactions = Array.from(transactionMap.values())
+    .filter(tx => tx.decision) // Only include transactions with decisions
+    .map(tx => ({
+      id: tx.checkout_id,
+      timestamp: tx.timestamp,
+      amount_minor: tx.amount_minor || 100000, // Default to ₹1000 if not available
+      status: tx.status,
+      decision: tx.decision,
+      customer_id: "cust_demo",
+    }))
+    .sort((a, b) => b.timestamp - a.timestamp); // Sort newest first
+
+  return transactions;
 }
 
 function CountersRow({ allowed, refused, undetermined, transactions }: { allowed: number; refused: number; undetermined: number; transactions: any[] }) {

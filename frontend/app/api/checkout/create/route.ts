@@ -2,12 +2,12 @@ import { NextRequest, NextResponse } from "next/server";
 
 /**
  * POST /api/checkout/create
- * Creates a checkout session by calling the merchant backend
+ * Creates a checkout session by calling the merchant backend via MCP
  */
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { items, currency } = body;
+    const { items, currency, block } = body;
 
     if (!items || !Array.isArray(items) || items.length === 0) {
       return NextResponse.json(
@@ -16,25 +16,50 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Call merchant backend to create checkout
-    const merchantUrl = process.env.MERCHANT_URL || "http://localhost:8080";
-    const response = await fetch(`${merchantUrl}/checkout/create`, {
+    // Call merchant backend MCP endpoint
+    const merchantUrl = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.MERCHANT_URL || "http://127.0.0.1:8080";
+    const response = await fetch(`${merchantUrl}/api/ucp/mcp`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        Origin: req.headers.get("origin") || "http://localhost",
       },
       body: JSON.stringify({
-        items,
-        currency: currency || "INR",
+        jsonrpc: "2.0",
+        method: "tools/call",
+        params: {
+          name: "create_checkout",
+          arguments: {
+            items,
+            currency: currency || "INR",
+            ...(block && { block }),
+          },
+        },
+        id: 1,
       }),
     });
 
     if (!response.ok) {
-      throw new Error(`Merchant server returned ${response.status}`);
+      throw new Error(`Backend returned ${response.status}`);
     }
 
-    const checkout = await response.json();
-    return NextResponse.json(checkout);
+    const result = await response.json();
+
+    // Handle JSON-RPC error response
+    if (result.error) {
+      return NextResponse.json(
+        { error: result.error.detail || "Failed to create checkout" },
+        { status: 400 }
+      );
+    }
+
+    // Return the checkout session
+    return NextResponse.json({
+      id: result.result?.id,
+      status: result.result?.status,
+      total_minor: result.result?.total_minor,
+      currency: result.result?.currency,
+    });
   } catch (error) {
     console.error("Checkout creation failed:", error);
     return NextResponse.json(
