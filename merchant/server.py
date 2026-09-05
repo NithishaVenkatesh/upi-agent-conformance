@@ -81,12 +81,9 @@ class Merchant:
         self.capture, self.capture_mode = default_capture()
         ledger_path = os.getenv("LEDGER_PATH", "/tmp/ledger.jsonl")
         self.ledger = Ledger(path=ledger_path)
-        print(f"[INIT] Ledger path: {ledger_path}", flush=True)
-        print(f"[INIT] Ledger exists: {os.path.exists(ledger_path)}", flush=True)
-        entries = self.ledger.read_all()
-        print(f"[INIT] Ledger entries: {len(entries)}", flush=True)
 
         # Seed demo data if ledger is empty
+        entries = self.ledger.read_all()
         if len(entries) == 0:
             demo_txns = [
                 {"customer": "Rajesh Kumar", "merchant": "TechStore", "amount": 50000, "status": "ALLOWED", "clause": "NPCI/UPI OC No.228 §2", "reason": "Within limit"},
@@ -95,7 +92,6 @@ class Merchant:
             ]
             for txn in demo_txns:
                 self.ledger.append(txn)
-            print(f"[INIT] Seeded {len(demo_txns)} demo transactions", flush=True)
 
         self._blocks_lock = threading.Lock()
 
@@ -252,14 +248,12 @@ def make_server(port=8080, host="demo.example"):
             if self.path == "/api/ledger":
                 try:
                     entries = m.ledger.read_all()
-                    print(f"[API] /api/ledger returning {len(entries)} entries", flush=True)
                     self.send_response(200)
                     self.send_header("Content-Type", "application/json")
                     self.send_header("Access-Control-Allow-Origin", "*")
                     self.end_headers()
                     self.wfile.write(json.dumps(entries).encode())
                 except Exception as e:
-                    print(f"[API] /api/ledger ERROR: {e}", flush=True)
                     self._send(500, {"error": str(e)})
                 return
             if self.path == "/":
