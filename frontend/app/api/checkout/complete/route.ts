@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Call merchant backend MCP endpoint
-    const merchantUrl = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.MERCHANT_URL || "http://127.0.0.1:8080";
+    const merchantUrl = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.MERCHANT_URL || "http://localhost:8080";
     const response = await fetch(`${merchantUrl}/api/ucp/mcp`, {
       method: "POST",
       headers: {
