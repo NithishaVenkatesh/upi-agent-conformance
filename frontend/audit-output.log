@@ -1,0 +1,143 @@
+
+Running 6 tests using 1 worker
+
+
+
+============================================================
+AUDIT COMPLETE - FINDINGS SUMMARY
+============================================================
+
+Total Issues Found: 0
+  🔴 Critical: 0
+  🟠 High: 0
+  🟡 Medium: 0
+  🔵 Low: 0
+
+
+📊 ISSUES BY CATEGORY:
+
+
+✅ Full report saved to: ui-audit-report.json
+  ✘  1 ui-audit.spec.ts:23:7 › UI/UX Comprehensive Audit › Landing page - Visual & Interaction Audit (1.5s)
+
+
+============================================================
+AUDIT COMPLETE - FINDINGS SUMMARY
+============================================================
+
+Total Issues Found: 0
+  🔴 Critical: 0
+  🟠 High: 0
+  🟡 Medium: 0
+  🔵 Low: 0
+
+
+📊 ISSUES BY CATEGORY:
+
+
+✅ Full report saved to: ui-audit-report.json
+  ✘  2 ui-audit.spec.ts:187:7 › UI/UX Comprehensive Audit › Dashboard - Interactive Elements Audit (1.8s)
+
+
+=== RESPONSIVE DESIGN AUDIT ===
+
+Testing at viewport: 375x667
+[HIGH] Responsive Design: Horizontal scrolling detected - body width 512px exceeds viewport 375px
+[MEDIUM] Mobile UX: Touch target too small: 32x32px (should be 44x44px minimum)
+  ✓  3 ui-audit.spec.ts:333:7 › UI/UX Comprehensive Audit › Responsive Design & Mobile Audit (1.4s)
+
+
+=== ACCESSIBILITY AUDIT ===
+
+Found 0 images
+Found 3 headings
+
+Found 2 inputs
+[LOW] Accessibility: Input field missing ID attribute
+[LOW] Accessibility: Input field missing ID attribute
+  ✓  4 ui-audit.spec.ts:395:7 › UI/UX Comprehensive Audit › Accessibility & WCAG Compliance Audit (1.3s)
+
+
+=== PERFORMANCE & CONSISTENCY AUDIT ===
+
+Found 71 CSS custom properties
+Used 3 different fonts: "IBM Plex Sans", "IBM Plex Sans Fallback", Newsreader, "Newsreader Fallback", "IBM Plex Mono", "IBM Plex Mono Fallback"
+Found 1 different text colors
+Performance: DOMContentLoaded=0ms, Load=0ms
+  ✓  5 ui-audit.spec.ts:478:7 › UI/UX Comprehensive Audit › Performance & Visual Consistency Audit (487ms)
+
+
+=== SPECIFIC UX ISSUES ===
+
+
+
+============================================================
+AUDIT COMPLETE - FINDINGS SUMMARY
+============================================================
+
+Total Issues Found: 4
+  🔴 Critical: 0
+  🟠 High: 1
+  🟡 Medium: 1
+  🔵 Low: 2
+
+
+📊 ISSUES BY CATEGORY:
+
+Responsive Design (1 issues)
+  • [high] Horizontal scrolling detected - body width 512px exceeds viewport 375px
+    → Impact: Poor mobile experience, users must scroll horizontally
+
+Mobile UX (1 issues)
+  • [medium] Touch target too small: 32x32px (should be 44x44px minimum)
+    → Impact: Users on mobile will have difficulty tapping buttons
+
+Accessibility (2 issues)
+  • [low] Input field missing ID attribute
+    → Impact: Labels cannot be properly associated with inputs
+  • [low] Input field missing ID attribute
+    → Impact: Labels cannot be properly associated with inputs
+
+
+✅ Full report saved to: ui-audit-report.json
+  ✓  6 ui-audit.spec.ts:565:7 › UI/UX Comprehensive Audit › Specific UX Issue Verification (810ms)
+
+
+  1) ui-audit.spec.ts:23:7 › UI/UX Comprehensive Audit › Landing page - Visual & Interaction Audit ─
+
+    TypeError: page.wait is not a function
+
+      26 |     // Wait for page to load
+      27 |     await page.waitForLoadState("networkidle");
+    > 28 |     await page.wait(1000);
+         |                ^
+      29 |
+      30 |     // 1. CHECK: Button visibility and contrast
+      31 |     const ctaButtons = await page.locator('button, [role="button"], a').all();
+        at /Users/nithisha/Work/Hackathons/Razorpayy/RazorPay/frontend/ui-audit.spec.ts:28:16
+
+    Error Context: test-results/ui-audit-UI-UX-Comprehensi-30aa4----Visual-Interaction-Audit/error-context.md
+
+    Error Context: test-results/ui-audit-UI-UX-Comprehensi-30aa4----Visual-Interaction-Audit/error-context.md
+
+  2) ui-audit.spec.ts:187:7 › UI/UX Comprehensive Audit › Dashboard - Interactive Elements Audit ───
+
+    TypeError: page.wait is not a function
+
+      188 |     await page.goto(`${BASE_URL}/app`);
+      189 |     await page.waitForLoadState("networkidle");
+    > 190 |     await page.wait(1500);
+          |                ^
+      191 |
+      192 |     console.log("\n\n=== DASHBOARD AUDIT ===\n");
+      193 |
+        at /Users/nithisha/Work/Hackathons/Razorpayy/RazorPay/frontend/ui-audit.spec.ts:190:16
+
+    Error Context: test-results/ui-audit-UI-UX-Comprehensi-33dcb--Interactive-Elements-Audit/error-context.md
+
+    Error Context: test-results/ui-audit-UI-UX-Comprehensi-33dcb--Interactive-Elements-Audit/error-context.md
+
+  2 failed
+    ui-audit.spec.ts:23:7 › UI/UX Comprehensive Audit › Landing page - Visual & Interaction Audit ──
+    ui-audit.spec.ts:187:7 › UI/UX Comprehensive Audit › Dashboard - Interactive Elements Audit ────
+  4 passed (14.1s)

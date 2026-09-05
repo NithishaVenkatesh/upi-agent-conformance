@@ -1,0 +1,668 @@
+{
+  "timestamp": "2026-09-03T09:39:07.363Z",
+  "totalIssues": 45,
+  "critical": 0,
+  "high": 0,
+  "medium": 2,
+  "low": 43,
+  "byCategory": {
+    "Hidden Content": [
+      {
+        "severity": "low",
+        "category": "Hidden Content",
+        "issue": "Content is hidden but contains text: \"in.razorpay.upi — Payment Gate@font-face{font-fami\"",
+        "location": "Hidden element",
+        "impact": "Users cannot see this content even if it's important",
+        "details": "Display: none, Visibility: visible"
+      },
+      {
+        "severity": "low",
+        "category": "Hidden Content",
+        "issue": "Content is hidden but contains text: \"in.razorpay.upi — Payment Gate\"",
+        "location": "Hidden element",
+        "impact": "Users cannot see this content even if it's important",
+        "details": "Display: none, Visibility: visible"
+      },
+      {
+        "severity": "low",
+        "category": "Hidden Content",
+        "issue": "Content is hidden but contains text: \"@font-face{font-family:'__nextjs-Geist';font-style\"",
+        "location": "Hidden element",
+        "impact": "Users cannot see this content even if it's important",
+        "details": "Display: none, Visibility: visible"
+      }
+    ],
+    "Empty Container": [
+      {
+        "severity": "low",
+        "category": "Empty Container",
+        "issue": "Empty container with class: w-6 h-6 bg-[--color-ink]",
+        "location": "Empty div/section",
+        "impact": "Wasted space or structural issue"
+      }
+    ],
+    "CTA Visibility": [
+      {
+        "severity": "low",
+        "category": "CTA Visibility",
+        "issue": "No primary-styled CTA buttons found",
+        "location": "Page buttons",
+        "impact": "All buttons have similar importance, hard to identify main action"
+      }
+    ],
+    "Missing States": [
+      {
+        "severity": "low",
+        "category": "Missing States",
+        "issue": "Button has no hover state: \"Sign in\"",
+        "location": "Button: Sign in",
+        "impact": "Users don't get visual feedback on hover"
+      },
+      {
+        "severity": "low",
+        "category": "Missing States",
+        "issue": "Button has no hover state: \"\"",
+        "location": "Button: ",
+        "impact": "Users don't get visual feedback on hover"
+      }
+    ],
+    "Placeholder Text": [
+      {
+        "severity": "low",
+        "category": "Placeholder Text",
+        "issue": "Found placeholder/template text: \"in.razorpay.upi — Payment Gate@font-face{font-fami\"",
+        "location": "Element with template text",
+        "impact": "Looks unfinished/broken to users"
+      },
+      {
+        "severity": "low",
+        "category": "Placeholder Text",
+        "issue": "Found placeholder/template text: \"Sign in as judgeVerify payment compliance decision\"",
+        "location": "Element with template text",
+        "impact": "Looks unfinished/broken to users"
+      }
+    ],
+    "Text Overflow": [
+      {
+        "severity": "medium",
+        "category": "Text Overflow",
+        "issue": "Text is overflowing container: \"Customercounterparty_not_conformant...\"",
+        "location": "Overflowing text element",
+        "impact": "Content is cut off or hidden from view",
+        "details": "Box size: 49.25x80px"
+      },
+      {
+        "severity": "medium",
+        "category": "Text Overflow",
+        "issue": "Text is overflowing container: \"counterparty_not_conformant...\"",
+        "location": "Overflowing text element",
+        "impact": "Content is cut off or hidden from view",
+        "details": "Box size: 49.25x24px"
+      }
+    ],
+    "Truncated Content": [
+      {
+        "severity": "low",
+        "category": "Truncated Content",
+        "issue": "Content is truncated with ellipsis: \"counterparty_not_conformant\"",
+        "location": "Ellipsis element",
+        "impact": "Full text not visible, users may miss important info"
+      },
+      {
+        "severity": "low",
+        "category": "Truncated Content",
+        "issue": "Content is truncated with ellipsis: \"counterparty_not_conformant\"",
+        "location": "Ellipsis element",
+        "impact": "Full text not visible, users may miss important info"
+      }
+    ],
+    "Overlapping Elements": [
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Mobile",
+        "location": "Mobile viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Tablet",
+        "location": "Tablet viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Desktop",
+        "location": "Desktop viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Desktop",
+        "location": "Desktop viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Desktop",
+        "location": "Desktop viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Desktop",
+        "location": "Desktop viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Desktop",
+        "location": "Desktop viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Desktop",
+        "location": "Desktop viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Desktop",
+        "location": "Desktop viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Desktop",
+        "location": "Desktop viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Desktop",
+        "location": "Desktop viewport",
+        "impact": "Content may be hard to read or interact with"
+      },
+      {
+        "severity": "low",
+        "category": "Overlapping Elements",
+        "issue": "Elements overlap at same position in Desktop",
+        "location": "Desktop viewport",
+        "impact": "Content may be hard to read or interact with"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "severity": "medium",
+      "category": "Text Overflow",
+      "issue": "Text is overflowing container: \"Customercounterparty_not_conformant...\"",
+      "location": "Overflowing text element",
+      "impact": "Content is cut off or hidden from view",
+      "details": "Box size: 49.25x80px"
+    },
+    {
+      "severity": "medium",
+      "category": "Text Overflow",
+      "issue": "Text is overflowing container: \"counterparty_not_conformant...\"",
+      "location": "Overflowing text element",
+      "impact": "Content is cut off or hidden from view",
+      "details": "Box size: 49.25x24px"
+    },
+    {
+      "severity": "low",
+      "category": "Hidden Content",
+      "issue": "Content is hidden but contains text: \"in.razorpay.upi — Payment Gate@font-face{font-fami\"",
+      "location": "Hidden element",
+      "impact": "Users cannot see this content even if it's important",
+      "details": "Display: none, Visibility: visible"
+    },
+    {
+      "severity": "low",
+      "category": "Hidden Content",
+      "issue": "Content is hidden but contains text: \"in.razorpay.upi — Payment Gate\"",
+      "location": "Hidden element",
+      "impact": "Users cannot see this content even if it's important",
+      "details": "Display: none, Visibility: visible"
+    },
+    {
+      "severity": "low",
+      "category": "Hidden Content",
+      "issue": "Content is hidden but contains text: \"@font-face{font-family:'__nextjs-Geist';font-style\"",
+      "location": "Hidden element",
+      "impact": "Users cannot see this content even if it's important",
+      "details": "Display: none, Visibility: visible"
+    },
+    {
+      "severity": "low",
+      "category": "Empty Container",
+      "issue": "Empty container with class: w-6 h-6 bg-[--color-ink]",
+      "location": "Empty div/section",
+      "impact": "Wasted space or structural issue"
+    },
+    {
+      "severity": "low",
+      "category": "CTA Visibility",
+      "issue": "No primary-styled CTA buttons found",
+      "location": "Page buttons",
+      "impact": "All buttons have similar importance, hard to identify main action"
+    },
+    {
+      "severity": "low",
+      "category": "Missing States",
+      "issue": "Button has no hover state: \"Sign in\"",
+      "location": "Button: Sign in",
+      "impact": "Users don't get visual feedback on hover"
+    },
+    {
+      "severity": "low",
+      "category": "Missing States",
+      "issue": "Button has no hover state: \"\"",
+      "location": "Button: ",
+      "impact": "Users don't get visual feedback on hover"
+    },
+    {
+      "severity": "low",
+      "category": "Placeholder Text",
+      "issue": "Found placeholder/template text: \"in.razorpay.upi — Payment Gate@font-face{font-fami\"",
+      "location": "Element with template text",
+      "impact": "Looks unfinished/broken to users"
+    },
+    {
+      "severity": "low",
+      "category": "Placeholder Text",
+      "issue": "Found placeholder/template text: \"Sign in as judgeVerify payment compliance decision\"",
+      "location": "Element with template text",
+      "impact": "Looks unfinished/broken to users"
+    },
+    {
+      "severity": "low",
+      "category": "Truncated Content",
+      "issue": "Content is truncated with ellipsis: \"counterparty_not_conformant\"",
+      "location": "Ellipsis element",
+      "impact": "Full text not visible, users may miss important info"
+    },
+    {
+      "severity": "low",
+      "category": "Truncated Content",
+      "issue": "Content is truncated with ellipsis: \"counterparty_not_conformant\"",
+      "location": "Ellipsis element",
+      "impact": "Full text not visible, users may miss important info"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Mobile",
+      "location": "Mobile viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Tablet",
+      "location": "Tablet viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Desktop",
+      "location": "Desktop viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Desktop",
+      "location": "Desktop viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Desktop",
+      "location": "Desktop viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Desktop",
+      "location": "Desktop viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Desktop",
+      "location": "Desktop viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Desktop",
+      "location": "Desktop viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Desktop",
+      "location": "Desktop viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Desktop",
+      "location": "Desktop viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Desktop",
+      "location": "Desktop viewport",
+      "impact": "Content may be hard to read or interact with"
+    },
+    {
+      "severity": "low",
+      "category": "Overlapping Elements",
+      "issue": "Elements overlap at same position in Desktop",
+      "location": "Desktop viewport",
+      "impact": "Content may be hard to read or interact with"
+    }
+  ]
+}

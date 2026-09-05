@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-03T09:28:17.658Z",
+  "totalIssues": 3,
+  "critical": 0,
+  "high": 0,
+  "medium": 1,
+  "low": 2,
+  "findings": [
+    {
+      "severity": "medium",
+      "category": "Mobile UX",
+      "issue": "Touch target too small: 32x32px (should be 44x44px minimum)",
+      "location": "Landing page - Touch targets",
+      "impact": "Users on mobile will have difficulty tapping buttons"
+    },
+    {
+      "severity": "low",
+      "category": "UX",
+      "issue": "No visible validation error on empty email submission",
+      "location": "Login page - Form validation",
+      "impact": "Users may not know why form didn't submit"
+    },
+    {
+      "severity": "low",
+      "category": "UX",
+      "issue": "Demo credentials are not pre-filled as advertised",
+      "location": "Login page - Credentials",
+      "impact": "Users need to type credentials manually in demo"
+    }
+  ]
+}

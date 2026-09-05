@@ -1,328 +1,164 @@
-/**
- * Dashboard Page
- * Entry point showing overview, metrics, recent transactions
- */
+"use client";
 
-import { Suspense } from "react";
-import { STATUS_COLORS, STATUS_TEXT } from "@/lib/constants";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
+import { Ruling } from "@/components/ruling";
 
-// Skeleton component for loading state
-function MetricsSkeleton() {
-  return (
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-      {[...Array(4)].map((_, i) => (
-        <div
-          key={i}
-          className="bg-slate-200 dark:bg-slate-700 rounded-lg h-32 animate-pulse"
-        />
-      ))}
-    </div>
-  );
-}
-
-function TransactionTableSkeleton() {
-  return (
-    <div className="space-y-2">
-      {[...Array(5)].map((_, i) => (
-        <div
-          key={i}
-          className="bg-slate-200 dark:bg-slate-700 rounded h-12 animate-pulse"
-        />
-      ))}
-    </div>
-  );
-}
-
-// Metrics card component
-function MetricCard({
-  label,
-  value,
-  status,
-}: {
-  label: string;
-  value: number;
-  status: "ALLOWED" | "REFUSED" | "UNDETERMINED" | "total";
-}) {
-  const getStatusIcon = (s: string) => {
-    switch (s) {
-      case "ALLOWED":
-        return "✓";
-      case "REFUSED":
-        return "✗";
-      case "UNDETERMINED":
-        return "?";
-      default:
-        return "";
-    }
-  };
-
-  const getColor = (s: string) => {
-    switch (s) {
-      case "ALLOWED":
-        return "text-green-600 dark:text-green-400";
-      case "REFUSED":
-        return "text-red-600 dark:text-red-400";
-      case "UNDETERMINED":
-        return "text-orange-600 dark:text-orange-400";
-      default:
-        return "text-blue-600 dark:text-blue-400";
-    }
+export default function Landing() {
+  const router = useRouter();
+  const heroDecision = {
+    allowed: false,
+    code: "counterparty_not_conformant",
+    clause: "Acquirer §2",
+    quote: "The block created shall not be treated as the guarantee of payment",
+    circular: "NPCI/UPI/OC No.228",
+    detail: "Merchant claims otherwise",
   };
 
   return (
-    <div className="bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 p-6">
-      <div className="flex items-start justify-between">
-        <div>
-          <p className="text-sm text-slate-600 dark:text-slate-400">{label}</p>
-          <p className={`text-3xl font-bold mt-2 ${getColor(status)}`}>
-            {getStatusIcon(status)} {value}
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-// Transaction row component
-function TransactionRow({
-  timestamp,
-  amount,
-  merchant,
-  customer,
-  status,
-}: {
-  timestamp: string;
-  amount: string;
-  merchant: string;
-  customer: string;
-  status: "ALLOWED" | "REFUSED" | "UNDETERMINED";
-}) {
-  const statusColor = STATUS_COLORS[status];
-  const statusText = STATUS_TEXT[status];
-
-  return (
-    <div className="border-b border-slate-200 dark:border-slate-700 py-4 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
-      <div className="grid grid-cols-6 gap-4 items-center">
-        <div className="text-sm text-slate-600 dark:text-slate-400">
-          {timestamp}
-        </div>
-        <div className="text-sm font-medium text-slate-900 dark:text-white">
-          {amount}
-        </div>
-        <div className="text-sm text-slate-600 dark:text-slate-400">
-          {merchant}
-        </div>
-        <div className="text-sm text-slate-600 dark:text-slate-400">
-          {customer}
-        </div>
-        <div
-          className="text-sm font-medium"
-          style={{ color: statusColor }}
-        >
-          {statusText}
-        </div>
-        <div className="text-right">
-          <button className="text-sm text-blue-600 dark:text-blue-400 hover:underline">
-            Details
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-// Demo data
-const DEMO_TRANSACTIONS = [
-  {
-    id: 1,
-    timestamp: "2026-08-28 14:32",
-    amount: "₹2,499",
-    merchant: "demo",
-    customer: "cust_001",
-    status: "ALLOWED" as const,
-  },
-  {
-    id: 2,
-    timestamp: "2026-08-28 14:28",
-    amount: "₹3,899",
-    merchant: "demo",
-    customer: "cust_001",
-    status: "REFUSED" as const,
-  },
-  {
-    id: 3,
-    timestamp: "2026-08-28 14:25",
-    amount: "₹1,299",
-    merchant: "demo",
-    customer: "cust_002",
-    status: "ALLOWED" as const,
-  },
-  {
-    id: 4,
-    timestamp: "2026-08-28 14:20",
-    amount: "₹5,000",
-    merchant: "demo",
-    customer: "cust_003",
-    status: "ALLOWED" as const,
-  },
-  {
-    id: 5,
-    timestamp: "2026-08-28 14:15",
-    amount: "₹6,000",
-    merchant: "demo",
-    customer: "cust_003",
-    status: "UNDETERMINED" as const,
-  },
-];
-
-export default function Dashboard() {
-  const totalTransactions = DEMO_TRANSACTIONS.length;
-  const passed = DEMO_TRANSACTIONS.filter(
-    (t) => t.status === "ALLOWED"
-  ).length;
-  const refused = DEMO_TRANSACTIONS.filter(
-    (t) => t.status === "REFUSED"
-  ).length;
-  const undetermined = DEMO_TRANSACTIONS.filter(
-    (t) => t.status === "UNDETERMINED"
-  ).length;
-
-  return (
-    <div className="space-y-8">
+    <main className="min-h-screen bg-[--color-paper]">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-green-50 to-blue-50 dark:from-slate-900 dark:to-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 p-8">
-        <div className="flex items-start justify-between">
-          <div>
-            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
-              Payment Terms Compliance
-            </h2>
-            <p className="text-slate-600 dark:text-slate-400 mt-2">
-              ✓ COMPLIANT (3 of 3 rules pass)
-            </p>
-            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4">
-              Last verified: just now
-            </p>
-          </div>
-          <button className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
-            View Details
-          </button>
-        </div>
-      </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-12 sm:py-20 sm:pb-32">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24">
+          {/* Left Column: Legal Quote + Collision */}
+          <div className="space-y-12">
+            <div>
+              <h1
+                className="font-doc text-[2.5rem] leading-[1.35] text-[--color-ink] max-w-[35ch]"
+                style={{ fontVariant: "normal", fontWeight: 400 }}
+              >
+                The block created shall not be treated as the guarantee of payment.
+              </h1>
 
-      {/* Metrics Cards */}
-      <div className="space-y-2">
-        <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
-          Transaction Summary
-        </h3>
-        <Suspense fallback={<MetricsSkeleton />}>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <MetricCard label="Total Transactions" value={totalTransactions} status="total" />
-            <MetricCard label="Passed ✓" value={passed} status="ALLOWED" />
-            <MetricCard label="Refused ✗" value={refused} status="REFUSED" />
-            <MetricCard label="Undetermined ?" value={undetermined} status="UNDETERMINED" />
-          </div>
-        </Suspense>
-      </div>
-
-      {/* Recent Transactions */}
-      <div className="space-y-4">
-        <div className="flex items-center justify-between">
-          <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
-            Recent Transactions
-          </h3>
-          <div className="text-sm text-slate-600 dark:text-slate-400">
-            <select className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded px-3 py-1 text-slate-900 dark:text-white">
-              <option value="">All Status</option>
-              <option value="ALLOWED">Passed</option>
-              <option value="REFUSED">Refused</option>
-              <option value="UNDETERMINED">Undetermined</option>
-            </select>
-          </div>
-        </div>
-
-        <div className="bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 overflow-hidden">
-          <Suspense fallback={<TransactionTableSkeleton />}>
-            <div className="hidden md:grid md:grid-cols-6 gap-4 bg-slate-50 dark:bg-slate-900 px-6 py-3 border-b border-slate-200 dark:border-slate-700">
-              <div className="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider">
-                Timestamp
-              </div>
-              <div className="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider">
-                Amount
-              </div>
-              <div className="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider">
-                Merchant
-              </div>
-              <div className="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider">
-                Customer
-              </div>
-              <div className="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider">
-                Status
-              </div>
-              <div className="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider text-right">
-                Action
+              <div className="mt-4 space-y-1">
+                <div className="text-12px tracking-wide font-mono text-[--color-ink-2] uppercase">
+                  NPCI/UPI OC No.228
+                </div>
+                <div className="text-12px tracking-wide font-mono text-[--color-ink-2] uppercase">
+                  Acquirer §2
+                </div>
               </div>
             </div>
 
-            {DEMO_TRANSACTIONS.map((txn) => (
-              <TransactionRow
-                key={txn.id}
-                timestamp={txn.timestamp}
-                amount={txn.amount}
-                merchant={txn.merchant}
-                customer={txn.customer}
-                status={txn.status}
-              />
-            ))}
-          </Suspense>
+            {/* Typographic Collision: Struck Merchant Claim */}
+            <div className="pt-4 border-t border-[--color-rule]">
+              <div className="text-[1.25rem] font-600 text-[--color-fail] line-through">
+                Guaranteed Collection
+              </div>
+              <p className="text-14px text-[--color-ink] mt-6 leading-relaxed max-w-[45ch]">
+                Merchant terms say otherwise. We catch it before the money moves.
+              </p>
+            </div>
+
+            {/* Actions */}
+            <div className="flex gap-4 pt-6 flex-col sm:flex-row">
+              <button
+                onClick={() => router.push("/login")}
+                className="px-8 py-3 bg-[--color-ink] text-[--color-paper] rounded-[3px] font-600 text-15px hover:bg-[#14313A] hover:text-white focus-visible:outline-2 focus-visible:outline-[--color-ink] focus-visible:outline-offset-0 active:bg-[#0a1619] active:scale-[0.98] transition-all duration-150 text-center min-h-[48px] flex items-center justify-center shadow-md hover:shadow-lg"
+              >
+                Open the dashboard
+              </button>
+              <a
+                href="#architecture"
+                className="px-6 py-3 text-[--color-ink-2] border-b border-[--color-ink-2] font-500 text-14px hover:text-[--color-ink] hover:border-[--color-ink] focus-visible:outline-2 focus-visible:outline-[--color-ink] focus-visible:outline-offset-0 active:opacity-60 transition-all duration-150 text-center min-h-[48px] flex items-center justify-center"
+              >
+                Read the architecture
+              </a>
+            </div>
+          </div>
+
+          {/* Right Column: Ruling Component */}
+          <div>
+            <Ruling decision={heroDecision} variant="full" />
+          </div>
         </div>
-
-        <button className="text-sm text-blue-600 dark:text-blue-400 hover:underline">
-          View All Transactions →
-        </button>
       </div>
 
-      {/* Quick Actions */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <button className="p-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors text-left">
-          <div className="text-2xl mb-2">📋</div>
-          <div className="font-semibold text-slate-900 dark:text-white">
-            Constraints
+      {/* Process Blocks: Extract, Conform, Enforce */}
+      <div className="border-t border-[--color-rule] bg-[--color-surface]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-8 py-12 sm:py-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12">
+            {[
+              {
+                title: "Extract",
+                description: "Parse merchant claims, regulator policy, acquirer terms into structured rules."
+              },
+              {
+                title: "Conform",
+                description: "Cross-reference claims against regulation. Identify contradictions and gaps."
+              },
+              {
+                title: "Enforce",
+                description: "Block payments when claims don't match terms. Log the gate code and clause."
+              }
+            ].map((block, i) => (
+              <div key={i} className="space-y-3 border-t-2 border-[--color-rule] pt-6">
+                <h3 className="text-14px font-600 text-[--color-ink] tracking-wide uppercase">
+                  {block.title}
+                </h3>
+                <p className="text-13px text-[--color-ink-2] leading-relaxed">
+                  {block.description}
+                </p>
+              </div>
+            ))}
           </div>
-          <div className="text-sm text-slate-600 dark:text-slate-400">
-            View declared vs authority
-          </div>
-        </button>
-
-        <button className="p-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors text-left">
-          <div className="text-2xl mb-2">⚖️</div>
-          <div className="font-semibold text-slate-900 dark:text-white">
-            Rules
-          </div>
-          <div className="text-sm text-slate-600 dark:text-slate-400">
-            Active compliance rules
-          </div>
-        </button>
-
-        <button className="p-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors text-left">
-          <div className="text-2xl mb-2">📊</div>
-          <div className="font-semibold text-slate-900 dark:text-white">
-            Ledger
-          </div>
-          <div className="text-sm text-slate-600 dark:text-slate-400">
-            Audit trail timeline
-          </div>
-        </button>
-
-        <button className="p-4 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors text-left">
-          <div className="text-2xl mb-2">🎯</div>
-          <div className="font-semibold text-slate-900 dark:text-white">
-            Demo Mode
-          </div>
-          <div className="text-sm text-slate-600 dark:text-slate-400">
-            Reset preloaded data
-          </div>
-        </button>
+        </div>
       </div>
-    </div>
+
+      {/* Stats Row */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-8 sm:py-16">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8">
+          {[
+            { value: "195", label: "tests" },
+            { value: "7", label: "claims" },
+            { value: "8", label: "codes" },
+            { value: "0", label: "LLM on money path" },
+          ].map((stat, i) => (
+            <div key={i}>
+              <div className="font-600 text-[1.75rem] text-[--color-ink] tabular-nums">
+                {stat.value}
+              </div>
+              <div className="text-12px text-[--color-ink-3] mt-2 tracking-wide">
+                {stat.label}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Architecture Section */}
+      <section id="architecture" className="border-t border-[--color-rule] bg-[--color-surface] py-12 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-8">
+          <h2 className="text-2xl font-600 text-[--color-ink] mb-8">Architecture</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+              <h3 className="text-14px font-600 text-[--color-ink] tracking-wide uppercase mb-4">
+                The Money Path
+              </h3>
+              <p className="text-14px text-[--color-ink-2] leading-relaxed mb-4">
+                Every transaction flows through the bounded payment gate. The gate makes a deterministic decision based on merchant claims, regulatory policy, and acquirer terms.
+              </p>
+              <p className="text-14px text-[--color-ink-2] leading-relaxed">
+                No LLM is on the money path. The gate uses structured rules extracted by an agent, then applies them mechanistically. Refusals cite the specific clause that was violated.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-14px font-600 text-[--color-ink] tracking-wide uppercase mb-4">
+                The Ledger
+              </h3>
+              <p className="text-14px text-[--color-ink-2] leading-relaxed mb-4">
+                Every gate decision is sealed into a hash-chained ledger. The chain is anchored to a HEAD marker, enabling verification that:
+              </p>
+              <ul className="text-14px text-[--color-ink-2] leading-relaxed space-y-2 ml-4">
+                <li>• No entries have been deleted</li>
+                <li>• No entries have been modified</li>
+                <li>• The order is preserved</li>
+                <li>• The gate's decision history is tamper-evident</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
