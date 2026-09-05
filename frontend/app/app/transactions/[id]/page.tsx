@@ -7,6 +7,110 @@ import { Ruling } from "@/components/ruling";
 import { JSONPayload } from "@/components/json-payload";
 import type { GateDecision } from "@/lib/types";
 
+// Mock transaction data for all possible tx-N IDs
+const MOCK_TX_DATA: Record<string, any> = {
+  "tx-1": {
+    decision: {
+      allowed: true,
+      code: "authorised",
+      clause: "Issuer §3",
+      circular: "NPCI/UPI/OC No.228",
+      quote: "Issuer may set limits on UPI payment amounts within regulatory bounds.",
+      detail: "Amount within limit",
+    },
+    payload: {
+      transactionId: "tx-1",
+      status: "completed",
+      amount: 249900,
+      currency: "INR",
+      timestamp: new Date(Date.now() - 240000).toISOString(),
+      merchant: { id: "demo", name: "Demo Merchant" },
+      customer: { id: "cust_001", phone: "+91-9876543210" },
+      method: "upi",
+    },
+  },
+  "tx-2": {
+    decision: {
+      allowed: false,
+      code: "duplicate_block_for_merchant",
+      clause: "Issuer §5",
+      circular: "NPCI/UPI/OC No.228",
+      quote: "No concurrent blocks from the same merchant to the same customer.",
+      detail: "Duplicate block detected",
+    },
+    payload: {
+      transactionId: "tx-2",
+      status: "declined",
+      amount: 389900,
+      currency: "INR",
+      timestamp: new Date(Date.now() - 180000).toISOString(),
+      merchant: { id: "demo", name: "Demo Merchant" },
+      customer: { id: "cust_002", phone: "+91-9876543210" },
+      method: "upi",
+    },
+  },
+  "tx-3": {
+    decision: {
+      allowed: true,
+      code: "authorised",
+      clause: "Issuer §3",
+      circular: "NPCI/UPI/OC No.228",
+      quote: "Issuer may set limits on UPI payment amounts within regulatory bounds.",
+      detail: "Amount within limit",
+    },
+    payload: {
+      transactionId: "tx-3",
+      status: "completed",
+      amount: 129900,
+      currency: "INR",
+      timestamp: new Date(Date.now() - 120000).toISOString(),
+      merchant: { id: "demo", name: "Demo Merchant" },
+      customer: { id: "cust_003", phone: "+91-9876543210" },
+      method: "upi",
+    },
+  },
+  "tx-4": {
+    decision: {
+      allowed: true,
+      code: "authorised",
+      clause: "Issuer §3",
+      circular: "NPCI/UPI/OC No.228",
+      quote: "Issuer may set limits on UPI payment amounts within regulatory bounds.",
+      detail: "Amount within limit",
+    },
+    payload: {
+      transactionId: "tx-4",
+      status: "completed",
+      amount: 500000,
+      currency: "INR",
+      timestamp: new Date(Date.now() - 60000).toISOString(),
+      merchant: { id: "demo", name: "Demo Merchant" },
+      customer: { id: "cust_004", phone: "+91-9876543210" },
+      method: "upi",
+    },
+  },
+  "tx-5": {
+    decision: {
+      allowed: false,
+      code: "insufficient_block_balance",
+      clause: "Issuer §2",
+      circular: "NPCI/UPI/OC No.228",
+      quote: "Customer must maintain sufficient funds in the payment instrument.",
+      detail: "Insufficient balance",
+    },
+    payload: {
+      transactionId: "tx-5",
+      status: "declined",
+      amount: 600000,
+      currency: "INR",
+      timestamp: new Date().toISOString(),
+      merchant: { id: "demo", name: "Demo Merchant" },
+      customer: { id: "cust_005", phone: "+91-9876543210" },
+      method: "upi",
+    },
+  },
+};
+
 export default function TransactionDetail() {
   const params = useParams();
   const transactionId = params?.id as string;
@@ -16,98 +120,72 @@ export default function TransactionDetail() {
 
   useEffect(() => {
     const fetchTransaction = async () => {
-      console.log("📍 TransactionDetail: fetching", transactionId);
       if (!transactionId) {
-        console.log("❌ No transaction ID");
         setError("Transaction ID not found");
         setLoading(false);
         return;
       }
 
       try {
-        // Fetch all ledger entries
         const apiUrl = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8080";
-        console.log("🔍 Fetching from:", apiUrl);
-        const response = await fetch(`${apiUrl}/api/ledger`);
-        console.log("📊 Response:", response.status);
 
-        if (!response.ok) {
-          throw new Error("Failed to fetch ledger");
-        }
+        try {
+          const response = await fetch(`${apiUrl}/api/ledger`, {
+            signal: AbortSignal.timeout(5000)
+          });
 
-        console.log("⏳ Parsing JSON...");
-        const entries = await response.json();
-        console.log("✅ JSON parsed");
-        console.log("📝 Ledger entries type:", typeof entries);
-        console.log("📝 Ledger entries:", entries);
-        console.log("📝 Ledger entries count:", Array.isArray(entries) ? entries.length : "not array");
+          if (response.ok) {
+            const entries = await response.json();
 
-        // Find the transaction matching the ID (checkout ID)
-        let transactionData = null;
-        if (Array.isArray(entries) && entries.length > 0) {
-          for (const entry of entries) {
-            if (entry.payload?.checkout === transactionId) {
-              transactionData = entry;
-              break;
+            if (Array.isArray(entries) && entries.length > 0) {
+              for (const entry of entries) {
+                if (entry.payload?.checkout === transactionId) {
+                  const payload = entry.payload;
+                  const decision: GateDecision = {
+                    allowed: payload.decision === "authorised",
+                    code: payload.decision,
+                    clause: payload.clause || "Unknown",
+                    circular: payload.circular || "NPCI/UPI/OC No.228",
+                    quote: payload.quote || "Payment processed according to regulatory bounds.",
+                    detail: payload.detail || "Payment processed",
+                  };
+
+                  setTransaction({
+                    decision,
+                    payload: {
+                      transactionId,
+                      status: payload.event === "captured" ? "completed" :
+                              payload.decision === "authorised" ? "authorized" : "declined",
+                      amount: 100000,
+                      currency: "INR",
+                      timestamp: new Date().toISOString(),
+                      merchant: { id: "demo", name: "Demo Merchant" },
+                      customer: { id: "cust_demo", phone: "+91-9876543210" },
+                      method: "upi",
+                      ledgerSeq: entry.seq,
+                      ledgerHash: entry.hash,
+                      prevHash: entry.prev_hash,
+                    },
+                  });
+                  setLoading(false);
+                  return;
+                }
+              }
             }
           }
+        } catch (fetchErr) {
+          console.warn("Backend unavailable, using mock data:", fetchErr);
         }
 
-        if (!transactionData) {
-          // Use fallback for mock transactions (tx-1, tx-2, etc.)
-          console.log("⚠️ Transaction not in ledger, using mock data for:", transactionId);
-          const mockTx = {
-            decision: fallbackDecision,
-            payload: { ...fallbackPayload, transactionId },
-          };
-          console.log("✅ Setting mock transaction:", mockTx);
-          setTransaction(mockTx);
-          setLoading(false);
-          return;
+        // Fallback to mock data
+        if (MOCK_TX_DATA[transactionId]) {
+          setTransaction(MOCK_TX_DATA[transactionId]);
+        } else {
+          setError(`Transaction ${transactionId} not found`);
         }
-
-        // Extract decision from ledger entry
-        const payload = transactionData.payload;
-        const decision: GateDecision = {
-          allowed: payload.decision === "authorised",
-          code: payload.decision,
-          clause: payload.clause || "Unknown",
-          circular: payload.circular || "NPCI/UPI/OC No.228",
-          quote: payload.quote || "Payment processed according to regulatory bounds.",
-          detail: payload.detail || "Payment processed",
-        };
-
-        // Create transaction payload to display
-        const txPayload = {
-          transactionId: transactionId,
-          status: payload.event === "captured" ? "completed" :
-                  payload.decision === "authorised" ? "authorized" : "declined",
-          amount: 100000, // Default amount in paise
-          currency: "INR",
-          timestamp: new Date().toISOString(),
-          merchant: {
-            id: "demo",
-            name: "Demo Merchant",
-          },
-          customer: {
-            id: "cust_demo",
-            phone: "+91-9876543210",
-          },
-          method: "upi",
-          ledgerSeq: transactionData.seq,
-          ledgerHash: transactionData.hash,
-          prevHash: transactionData.prev_hash,
-        };
-
-        console.log("✅ Setting real transaction");
-        setTransaction({
-          decision,
-          payload: txPayload,
-        });
       } catch (err) {
-        console.error("❌ Error:", err);
+        console.error("Error:", err);
         setError("Failed to load transaction details");
-        setLoading(false);
       } finally {
         setLoading(false);
       }
@@ -116,36 +194,6 @@ export default function TransactionDetail() {
     fetchTransaction();
   }, [transactionId]);
 
-  // Fallback decision for error/loading states
-  const fallbackDecision: GateDecision = {
-    allowed: true,
-    code: "authorised",
-    clause: "Issuer §5",
-    quote: "The block created to be maximum of Rs.10,000 of block limit and up to 90 days.",
-    circular: "NPCI/UPI/OC No.228",
-    detail: "₹2,499 within ₹7,501 remaining",
-  };
-
-  const fallbackPayload = {
-    transactionId: transactionId || "unknown",
-    status: "pending",
-    amount: 249900,
-    currency: "INR",
-    timestamp: new Date().toISOString(),
-    merchant: {
-      id: "mrch_xyz789",
-      name: "Example Store",
-    },
-    customer: {
-      id: "cust_abc123",
-      phone: "+91-9876543210",
-    },
-    method: "upi",
-    metadata: {
-      orderId: "ORD-20260903-001",
-      source: "mobile-app",
-    },
-  };
 
   if (loading) {
     return (
