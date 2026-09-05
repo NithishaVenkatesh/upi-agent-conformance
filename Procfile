@@ -1,1 +1,1 @@
-web: cd /workspace && python -m merchant.server
+web: python -m merchant.server
