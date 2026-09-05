@@ -109,8 +109,12 @@ export default function CheckoutPage() {
 
       if (!response.ok) throw new Error("Payment failed");
       const result = await response.json();
+
+      // Response always includes decision (normalized in API route)
+      // Status is "completed" if success, "failed" if decision.allowed=false
+      const status = result.success ? "completed" : "failed";
       setCheckout(prev =>
-        prev ? { ...prev, status: "completed", decision: result.decision } : null
+        prev ? { ...prev, status, decision: result.decision } : null
       );
     } catch (error) {
       console.error("Payment processing failed:", error);

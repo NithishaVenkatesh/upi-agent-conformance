@@ -148,7 +148,19 @@ export default function TransactionDetail() {
     );
   }
 
-  const displayTransaction = transaction || { decision: fallbackDecision, payload: fallbackPayload };
+  // Only show transaction data if successfully loaded — don't use fallback for display
+  if (!transaction) {
+    return (
+      <div className="flex items-center justify-center py-12">
+        <div className="text-center">
+          <div className="text-14px text-[--color-ink-2] mb-2">Transaction not available</div>
+          <div className="text-12px text-[--color-ink-3]">No data could be retrieved for this transaction</div>
+        </div>
+      </div>
+    );
+  }
+
+  const displayTransaction = transaction;
 
   return (
     <div className="space-y-8">

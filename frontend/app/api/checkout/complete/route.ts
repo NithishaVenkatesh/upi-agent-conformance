@@ -50,7 +50,8 @@ export async function POST(req: NextRequest) {
       return NextResponse.json(
         {
           success: false,
-          error: {
+          decision: {
+            allowed: false,
             code: result.error.code,
             clause: result.error.clause,
             circular: result.error.circular,
@@ -62,22 +63,24 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Success response
+    // Success response: backend doesn't return decision details, only checkout confirmation
+    // Frontend knows: if capture succeeded (no _error), then gate allowed it
+    const backendResult = result.result || {};
     return NextResponse.json({
       success: true,
       checkout: {
-        id: result.result?.id,
-        status: result.result?.status,
-        order_id: result.result?.order_id,
+        id: backendResult.id,
+        status: backendResult.status,
+        order_id: backendResult.order_id,
       },
-      orderId: result.result?.order_id,
+      orderId: backendResult.order_id,
       decision: {
         allowed: true,
         code: "authorised",
-        clause: result.result?.clause || "Issuer §5",
+        clause: "Issuer §5",
         circular: "NPCI/UPI/OC No.228",
-        quote: "Payment authorized",
-        detail: result.result?.detail || "Payment processed",
+        quote: "Payment authorized by compliance gate",
+        detail: "Payment captured successfully",
       },
     });
   } catch (error) {

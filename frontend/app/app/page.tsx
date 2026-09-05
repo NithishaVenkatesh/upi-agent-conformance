@@ -418,9 +418,11 @@ export default function Dashboard() {
         const response = await fetch(`${apiUrl}/api/ledger`);
         if (!response.ok) throw new Error("Failed to fetch ledger");
         const entries = await response.json();
+        // Only use real data — empty ledger is valid, not an error
         const transformed = transformLedgerToTransactions(entries);
-        setTransactions(transformed.length > 0 ? transformed : FALLBACK_MOCK_TRANSACTIONS);
+        setTransactions(transformed);
       } catch (error) {
+        // Only use mock data when backend is unavailable
         console.warn("Backend unavailable, using mock data", error);
         setTransactions(FALLBACK_MOCK_TRANSACTIONS);
       } finally {
