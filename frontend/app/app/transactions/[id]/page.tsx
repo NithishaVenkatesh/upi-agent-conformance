@@ -16,7 +16,9 @@ export default function TransactionDetail() {
 
   useEffect(() => {
     const fetchTransaction = async () => {
+      console.log("📍 TransactionDetail: fetching", transactionId);
       if (!transactionId) {
+        console.log("❌ No transaction ID");
         setError("Transaction ID not found");
         setLoading(false);
         return;
@@ -25,30 +27,37 @@ export default function TransactionDetail() {
       try {
         // Fetch all ledger entries
         const apiUrl = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8080";
+        console.log("🔍 Fetching from:", apiUrl);
         const response = await fetch(`${apiUrl}/api/ledger`);
-        
+        console.log("📊 Response:", response.status);
+
         if (!response.ok) {
           throw new Error("Failed to fetch ledger");
         }
 
         const entries = await response.json();
+        console.log("📝 Ledger entries count:", entries.length);
 
         // Find the transaction matching the ID (checkout ID)
         let transactionData = null;
-        for (const entry of entries) {
-          if (entry.payload.checkout === transactionId) {
-            transactionData = entry;
-            break;
+        if (Array.isArray(entries) && entries.length > 0) {
+          for (const entry of entries) {
+            if (entry.payload?.checkout === transactionId) {
+              transactionData = entry;
+              break;
+            }
           }
         }
 
         if (!transactionData) {
           // Use fallback for mock transactions (tx-1, tx-2, etc.)
-          console.log("Transaction not in ledger, using mock data");
-          setTransaction({
+          console.log("⚠️ Transaction not in ledger, using mock data for:", transactionId);
+          const mockTx = {
             decision: fallbackDecision,
             payload: { ...fallbackPayload, transactionId },
-          });
+          };
+          console.log("✅ Setting mock transaction:", mockTx);
+          setTransaction(mockTx);
           setLoading(false);
           return;
         }
@@ -67,7 +76,7 @@ export default function TransactionDetail() {
         // Create transaction payload to display
         const txPayload = {
           transactionId: transactionId,
-          status: payload.event === "captured" ? "completed" : 
+          status: payload.event === "captured" ? "completed" :
                   payload.decision === "authorised" ? "authorized" : "declined",
           amount: 100000, // Default amount in paise
           currency: "INR",
@@ -86,13 +95,15 @@ export default function TransactionDetail() {
           prevHash: transactionData.prev_hash,
         };
 
+        console.log("✅ Setting real transaction");
         setTransaction({
           decision,
           payload: txPayload,
         });
       } catch (err) {
-        console.error("Failed to fetch transaction:", err);
+        console.error("❌ Error:", err);
         setError("Failed to load transaction details");
+        setLoading(false);
       } finally {
         setLoading(false);
       }
