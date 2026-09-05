@@ -156,7 +156,7 @@ export default function CheckoutPage() {
                   </div>
                   <button
                     onClick={() => addToCart(product.id)}
-                    className="px-4 py-2.5 bg-[--color-pass] text-white rounded-[3px] font-500 text-13px hover:opacity-90 transition min-h-[40px]"
+                    className="px-4 py-2.5 bg-black text-white rounded-[3px] font-500 text-13px hover:opacity-80 transition min-h-[40px]"
                   >
                     Add
                   </button>
@@ -220,20 +220,20 @@ export default function CheckoutPage() {
               <button
                 onClick={createCheckout}
                 disabled={cart.length === 0 || loading}
-                className="w-full py-2.5 bg-[--color-pass] text-white rounded-[3px] font-500 text-13px hover:opacity-90 disabled:opacity-50 transition min-h-[44px]"
+                className="w-full py-2.5 bg-black text-white rounded-[3px] font-500 text-13px hover:opacity-80 disabled:opacity-50 transition min-h-[44px]"
               >
                 {loading ? "Creating..." : "Proceed to Payment"}
               </button>
             ) : (
               <div className="space-y-2">
-                <div className="p-2 bg-[--color-pass-bg] border border-[--color-pass] rounded-[3px] text-11px text-[--color-ink]">
-                  <p className="font-500">Checkout Created</p>
-                  <p className="font-mono text-10px mt-1 text-[--color-ink-2]">{checkout.id}</p>
+                <div className="p-3 bg-blue-50 border border-blue-200 rounded-[3px] text-11px text-blue-900">
+                  <p className="font-500">✓ Session Created</p>
+                  <p className="font-mono text-10px mt-1 text-blue-700">{checkout.id}</p>
                 </div>
                 <button
                   onClick={processPayment}
                   disabled={checkout.status !== "ready" || loading}
-                  className="w-full py-2.5 bg-[--color-pass] text-white rounded-[3px] font-500 text-13px hover:opacity-90 disabled:opacity-50 transition min-h-[44px]"
+                  className="w-full py-2.5 bg-black text-white rounded-[3px] font-500 text-13px hover:opacity-80 disabled:opacity-50 transition min-h-[44px]"
                 >
                   {loading ? "Processing..." : "Process Payment"}
                 </button>
