@@ -211,33 +211,90 @@ function TransactionsTable({
   );
 }
 
-function transformLedgerToTransactions(ledgerEntries: any[]): typeof MOCK_TRANSACTIONS {
-  return ledgerEntries.map((entry, idx) => {
-    const payload = entry.payload || {};
-    const amount = payload.amount || 0;
-    const status = payload.status === "BLOCKED" ? "REFUSED" : "ALLOWED";
+function transformLedgerToTransactions(entries: any[]): typeof MOCK_TRANSACTIONS {
+  const transactionMap = new Map<string, any>();
 
-    return {
-      id: `tx-${entry.seq || idx}`,
-      timestamp: Date.now() - (idx * 60000),
-      amount_minor: amount * 100,
-      status: status as "ALLOWED" | "REFUSED" | "UNDETERMINED",
-      decision: {
-        allowed: status === "ALLOWED",
-        code: status === "ALLOWED" ? "authorised" : "blocked",
-        clause: payload.clause || "NPCI/UPI OC No.228",
+  for (const entry of entries) {
+    const p = entry;
+    const checkoutId = p.checkout;
+
+    if (!transactionMap.has(checkoutId)) {
+      transactionMap.set(checkoutId, {
+        checkout_id: checkoutId,
+        seq: entry.seq,
+        timestamp: new Date().getTime(),
+        amount_minor: 0,
+        status: "UNDETERMINED" as const,
+        decision: null,
+      });
+    }
+
+    const tx = transactionMap.get(checkoutId)!;
+
+    if (p.event === "authorise") {
+      tx.decision = {
+        allowed: p.decision === "authorised",
+        code: p.decision,
+        clause: p.clause || "Unknown",
         circular: "NPCI/UPI/OC No.228",
-        quote: payload.reason || (status === "ALLOWED" ? "Within limits" : "Transaction blocked"),
-        detail: payload.reason || "",
-      },
-      customer_id: payload.customer || `cust_${idx}`,
-    };
-  });
+        quote: "Payment processed according to regulatory bounds.",
+        detail: p.decision === "authorised" ? "Amount within limit" : "Payment declined",
+      };
+
+      if (p.decision === "authorised") {
+        tx.status = "ALLOWED";
+      } else {
+        tx.status = "REFUSED";
+      }
+    } else if (p.event === "captured") {
+      tx.status = "ALLOWED";
+      if (!tx.decision) {
+        tx.decision = {
+          allowed: true,
+          code: "authorised",
+          clause: "Issuer §5",
+          circular: "NPCI/UPI/OC No.228",
+          quote: "Payment authorized and captured",
+          detail: "Payment successfully processed",
+        };
+      }
+    } else if (p.event === "capture_failed") {
+      tx.status = "REFUSED";
+      if (!tx.decision) {
+        tx.decision = {
+          allowed: false,
+          code: p.kind || "capture_failed",
+          clause: "Acquirer §3",
+          circular: "NPCI/UPI/OC No.228",
+          quote: "Payment capture failed",
+          detail: "Payment could not be processed",
+        };
+      }
+    } else if (p.event === "replay") {
+      if (!tx.status || tx.status === "UNDETERMINED") {
+        tx.status = "ALLOWED";
+      }
+    }
+  }
+
+  const transactions = Array.from(transactionMap.values())
+    .filter(tx => tx.decision)
+    .map(tx => ({
+      id: tx.checkout_id,
+      timestamp: tx.timestamp,
+      amount_minor: tx.amount_minor || 100000,
+      status: tx.status,
+      decision: tx.decision,
+      customer_id: "cust_demo",
+    }))
+    .sort((a, b) => b.timestamp - a.timestamp);
+
+  return transactions;
 }
 
 export default function TransactionsPage() {
   const [statusFilter, setStatusFilter] = useState("all");
-  const [transactions, setTransactions] = useState<typeof MOCK_TRANSACTIONS>([]);
+  const [transactions, setTransactions] = useState<typeof MOCK_TRANSACTIONS>(MOCK_TRANSACTIONS);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -250,12 +307,12 @@ export default function TransactionsPage() {
           signal: AbortSignal.timeout(15000)
         });
 
-        if (response.ok) {
-          const ledgerEntries = await response.json();
-          setTransactions(transformLedgerToTransactions(ledgerEntries));
-        } else {
-          setTransactions(MOCK_TRANSACTIONS);
-        }
+        if (!response.ok) throw new Error(`Failed to fetch ledger: ${response.status}`);
+
+        const ledgerEntries = await response.json();
+        const transformed = transformLedgerToTransactions(ledgerEntries);
+
+        setTransactions(transformed.length > 0 ? transformed : MOCK_TRANSACTIONS);
       } catch (error) {
         setTransactions(MOCK_TRANSACTIONS);
       } finally {
