@@ -88,23 +88,23 @@ REFUSED retry_not_permitted · NPCI/UPI/OC No.228 Acquirer §3 ·
 ```mermaid
 graph TD
     A["Customer Initiates<br/>Payment via Agent"] -->|Merchant + Amount| B["Merchant Server<br/>Checkout Orchestration"]
-    B -->|Create Block<br/>Amount, Retry Info| C["GATE: Decide"]
+    B -->|Create Block| C["GATE: Decide"]
 
-    C -->|Check 1:<br/>Conformance Verdict| D{"PASS?"}
-    C -->|Check 2:<br/>Block Cap ≤ ₹10k"|  D
-    C -->|Check 3:<br/>Amount ≤ Remaining| D
-    C -->|Check 4:<br/>Retries ≤ 3/24h| D
-    C -->|Check 5:<br/>Validity ≤ 90d| D
-    C -->|Check 6:<br/>One Block per<br/>Customer+Merchant| D
+    C -->|Check 1: Verdict| D{PASS?}
+    C -->|Check 2: Cap OK| D
+    C -->|Check 3: Balance OK| D
+    C -->|Check 4: Retries OK| D
+    C -->|Check 5: Validity OK| D
+    C -->|Check 6: One Block| D
 
-    D -->|PASS| E["Capture with<br/>Razorpay"]
-    D -->|FAIL| F["Log Refusal<br/>with Clause Citation"]
+    D -->|YES| E["Capture with<br/>Razorpay"]
+    D -->|NO| F["Log Refusal<br/>Cite Clause"]
 
-    E -->|Log Decision| G["Ledger<br/>Hash-Chained<br/>Tamper-Proof"]
+    E -->|Log Decision| G["Ledger<br/>Hash-Chained"]
     F -->|Log Refusal| G
 
-    E -->|200 Receipt| H["Success"]
-    F -->|403 + Clause| I["Refusal with<br/>Regulatory Citation"]
+    E -->|200 Success| H["Transaction OK"]
+    F -->|403 Denied| I["Refused<br/>with Citation"]
 
     style C fill:#1e3a5f,stroke:#0f172a,color:#fff
     style E fill:#10b981,stroke:#059669,color:#fff
@@ -120,15 +120,15 @@ graph TD
 
 ```mermaid
 graph LR
-    A["NPCI Circular<br/>Scanned PDF"] -->|LLM Extraction| B["Structured Claim<br/>Value + Unit + Scope<br/>+ Meaning"]
+    A["NPCI Circular<br/>PDF"] -->|LLM Extract| B["Structured<br/>Claim"]
 
-    B -->|Schema Validated<br/>Hallucination Filtered| C["Authoritative<br/>Claim Store<br/>Checksummed"]
+    B -->|Validated| C["Claim Store<br/>Checksummed"]
 
-    C -->|Integer + Enum| D["Conformance Engine<br/>NO LLM"]
+    C -->|Integer| D["Conformance<br/>Engine"]
 
-    D -->|Decidable| E["Gate Decision<br/>NO LLM<br/>Pure Function"]
+    D -->|Decidable| E["Gate Decision<br/>Pure Function"]
 
-    E -->|Replayable| F["Ledger<br/>NO LLM<br/>Hash-Chained"]
+    E -->|Replayable| F["Ledger<br/>Hash-Chained"]
 
     style A fill:#60a5fa,stroke:#3b82f6,color:#fff
     style B fill:#60a5fa,stroke:#3b82f6,color:#fff
@@ -139,9 +139,9 @@ graph LR
 ```
 
 **Why this split matters:**
-- **Extraction requires semantic understanding:** "₹15,000 per delegation" ≠ "₹15,000 per transaction" (same number, different meaning)
-- **Conformance is pure integer comparison:** 25000 > 10000 = True (LLM would add nondeterminism and risk)
-- **Gate is a pure function:** Given same (amount, block_state, verdict, timestamp), always same decision. Replayable from ledger.
+- **Extraction requires semantic understanding:** "15000 per delegation" vs "15000 per transaction" (same number, different meaning) — LLM needed
+- **Conformance is pure integer comparison:** 25000 > 10000 = True — LLM adds unnecessary risk
+- **Gate is a pure function:** Given same inputs, always same decision — replayable and auditable
 
 ---
 
@@ -151,13 +151,13 @@ Every transaction decision is logged with a cryptographic chain. If anyone modif
 
 ```mermaid
 graph LR
-    A["Entry 1<br/>hash: 0xa1b2..."] -->|Chained| B["Entry 2<br/>prev: 0xa1b2<br/>hash: 0xc3d4..."]
-    B -->|Chained| C["Entry 3<br/>prev: 0xc3d4<br/>hash: 0xe5f6..."]
+    A["Entry 1<br/>hash: 0xa1b2"] -->|Chained| B["Entry 2<br/>prev: 0xa1b2"]
+    B -->|Chained| C["Entry 3<br/>prev: 0xc3d4"]
 
-    A -.->|Modified| A2["Entry 1 TAMPERED<br/>hash: 0xZZZZ..."]
-    A2 -.->|Chain Breaks| B2["Entry 2<br/>prev: 0xa1b2<br/>MISMATCH ❌"]
+    A -.->|If Modified| A2["Entry 1<br/>TAMPERED"]
+    A2 -.->|Chain Breaks| B2["Entry 2<br/>MISMATCH"]
 
-    C -->|HEAD Anchor| H["HEAD File<br/>Length: 3<br/>Hash: 0xe5f6..."]
+    C -->|HEAD Anchor| H["HEAD File<br/>Length: 3<br/>Hash OK"]
 
     style A fill:#10b981,stroke:#059669,color:#fff
     style B fill:#10b981,stroke:#059669,color:#fff
@@ -227,34 +227,24 @@ This project didn't hide failures—it documented them, fixed them, and added CI
 
 ```mermaid
 graph TB
-    A["CORPUS<br/>Regulatory Documents<br/>SHA-256 Checksums<br/>Immutable Versions"]
-
-    B["EXTRACT<br/>LLM-Powered<br/>PDF → Structured Claims<br/>Schema-Validated<br/>Hallucination-Filtered"]
-
-    C["CLAIMS STORE<br/>Authoritative Claims<br/>Keyed by doc_sha256 + clause<br/>Append-Only"]
-
-    D["CONFORM<br/>Declared ×<br/>Authoritative →<br/>PASS/FAIL/UNDETERMINED"]
-
-    E["GATE<br/>Pure Function<br/>Deterministic Enforcement<br/>Per-Request Decision"]
-
-    F["LEDGER<br/>Hash-Chained<br/>HEAD Anchor<br/>Tamper Detection"]
-
-    G["MERCHANT<br/>UCP Handler<br/>Checkout Store<br/>MCP Tools"]
-
-    H["AGENT<br/>Goal Decomposition<br/>Product Choice<br/>Off Money Path"]
-
-    I["EVAL<br/>Conformance Batch<br/>Tamper Tests<br/>Self-Conformance CI"]
+    A["CORPUS<br/>Documents"]
+    B["EXTRACT<br/>LLM"]
+    C["CLAIMS<br/>Store"]
+    D["CONFORM<br/>Engine"]
+    E["GATE<br/>Decision"]
+    F["LEDGER<br/>Audit Trail"]
+    G["MERCHANT<br/>Server"]
+    H["AGENT<br/>Buyer"]
+    I["EVAL<br/>Tests"]
 
     A --> B
     B --> C
     C --> D
     D --> E
     E --> F
-
     E --> G
     G --> H
     H --> G
-
     F --> I
     D --> I
 
@@ -323,13 +313,13 @@ make eval
 ## Test Coverage Distribution
 
 ```mermaid
-pie title Test Distribution Across 181 Functions
+pie title Test Distribution - 181 Functions
     "Gate Logic" : 45
-    "Ledger & Tamper" : 28
+    "Ledger Tamper" : 28
     "Conformance" : 22
     "Extraction" : 18
     "Merchant Server" : 21
-    "Integration & E2E" : 27
+    "Integration" : 27
 ```
 
 ---
@@ -418,12 +408,10 @@ npm install && npm run dev   # localhost:3000
 
 ```mermaid
 graph LR
-    A["Customer in India<br/>Has UPI Account"] -->|80%+ prefer| B["UPI Payment"]
-
-    B -->|Merchant Restricted<br/>Card-Only| C["Abandoned Checkout<br/>Lost Revenue"]
-
-    A -->|20% fallback| D["Card Payment"]
-    D -->|Works| E["Transaction Completes"]
+    A["Customer<br/>Has UPI"] -->|80% prefer| B["UPI Path"]
+    B -->|Restricted| C["Abandoned<br/>Lost Revenue"]
+    A -->|20% fallback| D["Card Path"]
+    D -->|Works| E["Success"]
 
     style A fill:#e0f2fe,stroke:#0284c7
     style B fill:#dbeafe,stroke:#0284c7
