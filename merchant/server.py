@@ -79,7 +79,7 @@ class Merchant:
         self.blocks = {}
         self._checkout_block = {}
         self.capture, self.capture_mode = default_capture()
-        ledger_path = os.getenv("LEDGER_PATH", "eval/ledger.jsonl")
+        ledger_path = os.getenv("LEDGER_PATH", "/tmp/ledger.jsonl")
         self.ledger = Ledger(path=ledger_path)
         print(f"[INIT] Ledger path: {ledger_path}", flush=True)
         print(f"[INIT] Ledger exists: {os.path.exists(ledger_path)}", flush=True)
