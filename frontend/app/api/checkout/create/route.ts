@@ -16,9 +16,18 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Call merchant backend MCP endpoint
+    // Determine merchant URL from environment
     const merchantUrl = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.MERCHANT_URL || "http://localhost:8080";
-    const response = await fetch(`${merchantUrl}/api/ucp/mcp`, {
+    const endpoint = `${merchantUrl}/api/ucp/mcp`;
+
+    console.log("=== CHECKOUT CREATE ===");
+    console.log("NEXT_PUBLIC_API_BASE_URL:", process.env.NEXT_PUBLIC_API_BASE_URL);
+    console.log("MERCHANT_URL:", process.env.MERCHANT_URL);
+    console.log("Resolved merchantUrl:", merchantUrl);
+    console.log("Calling endpoint:", endpoint);
+    console.log("Request origin:", req.headers.get("origin"));
+
+    const response = await fetch(endpoint, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -39,10 +48,15 @@ export async function POST(req: NextRequest) {
       }),
     });
 
+    console.log(`Backend response status: ${response.status}`);
+
     if (!response.ok) {
       const errorText = await response.text();
       console.error(`Backend error ${response.status}:`, errorText);
-      throw new Error(`Backend returned ${response.status}`);
+      return NextResponse.json(
+        { error: `Backend returned ${response.status}: ${errorText}` },
+        { status: response.status }
+      );
     }
 
     const result = await response.json();
@@ -67,7 +81,7 @@ export async function POST(req: NextRequest) {
   } catch (error) {
     console.error("Checkout creation failed:", error);
     return NextResponse.json(
-      { error: "Failed to create checkout" },
+      { error: error instanceof Error ? error.message : "Failed to create checkout" },
       { status: 500 }
     );
   }
