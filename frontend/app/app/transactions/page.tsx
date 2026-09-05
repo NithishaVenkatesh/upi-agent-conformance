@@ -297,33 +297,45 @@ export default function TransactionsPage() {
   const [transactions, setTransactions] = useState<typeof MOCK_TRANSACTIONS>(MOCK_TRANSACTIONS);
   const [loading, setLoading] = useState(true);
 
+  console.log("TransactionsPage rendered, transactions count:", transactions.length);
+
   useEffect(() => {
     const fetchTransactions = async () => {
+      console.log("=== FETCH START ===");
       try {
         const apiBase = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8080";
+        console.log("API Base:", apiBase);
 
         const response = await fetch(`${apiBase}/api/ledger`, {
           method: "GET",
           signal: AbortSignal.timeout(15000)
         });
 
+        console.log("Response status:", response.status);
+
         if (!response.ok) throw new Error(`Failed to fetch ledger: ${response.status}`);
 
         const ledgerEntries = await response.json();
-        console.log("Ledger entries type:", typeof ledgerEntries, Array.isArray(ledgerEntries));
+        console.log("✅ Raw entries:", ledgerEntries);
+        console.log("✅ Is array?", Array.isArray(ledgerEntries));
+        console.log("✅ Length:", Array.isArray(ledgerEntries) ? ledgerEntries.length : "N/A");
 
         if (!Array.isArray(ledgerEntries) || ledgerEntries.length === 0) {
-          console.log("Empty or invalid ledger, using mock data");
+          console.log("⚠️ EMPTY LEDGER - Setting MOCK_TRANSACTIONS (5 items)");
           setTransactions(MOCK_TRANSACTIONS);
+          setLoading(false);
           return;
         }
 
+        console.log("Processing real ledger entries...");
         const transformed = transformLedgerToTransactions(ledgerEntries);
-        console.log("Transformed count:", transformed.length);
+        console.log("✅ Transformed count:", transformed.length);
         setTransactions(transformed.length > 0 ? transformed : MOCK_TRANSACTIONS);
+        setLoading(false);
       } catch (error) {
+        console.error("❌ ERROR:", error);
+        console.log("Setting MOCK_TRANSACTIONS due to error");
         setTransactions(MOCK_TRANSACTIONS);
-      } finally {
         setLoading(false);
       }
     };
