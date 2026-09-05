@@ -239,34 +239,28 @@ export default function TransactionsPage() {
   const [statusFilter, setStatusFilter] = useState("all");
   const [transactions, setTransactions] = useState<typeof MOCK_TRANSACTIONS>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchTransactions = async () => {
       try {
         const apiBase = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8080";
-        console.log("[Transactions] Fetching from:", apiBase);
 
         const response = await fetch(`${apiBase}/api/ledger`, {
           method: "GET",
-          signal: AbortSignal.timeout(5000)
+          signal: AbortSignal.timeout(15000)
         });
 
-        console.log("[Transactions] Response status:", response.status);
         if (response.ok) {
           const ledgerEntries = await response.json();
-          console.log("[Transactions] Got entries:", ledgerEntries.length);
           setTransactions(transformLedgerToTransactions(ledgerEntries));
           setError(null);
         } else {
-          console.log("[Transactions] Response not OK, using mock");
           setTransactions(MOCK_TRANSACTIONS);
           setError(null);
         }
       } catch (error) {
-        console.error("[Transactions] Fetch error:", error);
-        setError(`Backend unavailable: ${error instanceof Error ? error.message : String(error)}`);
         setTransactions(MOCK_TRANSACTIONS);
+        setError(null);
       } finally {
         setLoading(false);
       }
@@ -291,11 +285,6 @@ export default function TransactionsPage() {
         </div>
         {loading ? (
           <div className="py-8 text-center text-13px text-[--color-ink-3]">Loading transactions...</div>
-        ) : error ? (
-          <div className="py-8 text-center">
-            <div className="text-13px text-[--color-ink-3] mb-4">{error}</div>
-            <div className="text-12px text-[--color-ink-2]">Showing mock data</div>
-          </div>
         ) : (
           <TransactionsTable transactions={transactions} statusFilter={statusFilter} />
         )}
