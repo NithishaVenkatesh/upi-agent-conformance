@@ -82,16 +82,8 @@ class Merchant:
         ledger_path = os.getenv("LEDGER_PATH", "/tmp/ledger.jsonl")
         self.ledger = Ledger(path=ledger_path)
 
-        # Seed demo data if ledger is empty
-        entries = self.ledger.read_all()
-        if len(entries) == 0:
-            demo_txns = [
-                {"customer": "Rajesh Kumar", "merchant": "TechStore", "amount": 50000, "status": "ALLOWED", "clause": "NPCI/UPI OC No.228 §2", "reason": "Within limit"},
-                {"customer": "Priya Singh", "merchant": "Fashion Hub", "amount": 150000, "status": "BLOCKED", "clause": "NPCI/UPI OC No.228 §5", "reason": "Exceeds ₹100,000 daily limit"},
-                {"customer": "Amit Patel", "merchant": "Electronics Plus", "amount": 75000, "status": "ALLOWED", "clause": "NPCI/UPI OC No.228 §2", "reason": "Compliant with policy"},
-            ]
-            for txn in demo_txns:
-                self.ledger.append(txn)
+        # Demo data removed - ledger is populated by actual transactions only
+        # Frontend expects entries with payload.checkout, payload.event, payload.decision structure
 
         self._blocks_lock = threading.Lock()
 
