@@ -153,14 +153,14 @@ function TransactionsTable({
   };
 
   return (
-    <div className="mx-10 my-8">
-      <table className="w-full border-collapse">
+    <div className="mx-10 my-8 overflow-x-auto">
+      <table className="w-full border-collapse table-fixed">
         <thead>
           <tr className="border-b border-[--color-rule] text-[--color-ink-3]">
-            <th className="text-left text-12px font-400 pb-3 py-3 px-0">Time</th>
-            <th className="text-right text-12px font-400 pb-3 py-3 px-0">Amount</th>
-            <th className="text-left text-12px font-400 pb-3 py-3 px-0">Customer</th>
-            <th className="text-left text-12px font-400 pb-3 py-3 px-0">Verdict</th>
+            <th className="text-left text-12px font-400 pb-3 py-3 px-3 w-16">Time</th>
+            <th className="text-right text-12px font-400 pb-3 py-3 px-3 w-24">Amount</th>
+            <th className="text-left text-12px font-400 pb-3 py-3 px-3 flex-1">Customer</th>
+            <th className="text-left text-12px font-400 pb-3 py-3 px-3 w-40">Verdict</th>
           </tr>
         </thead>
         <tbody>
@@ -174,26 +174,26 @@ function TransactionsTable({
               aria-label={`Transaction ${formatTime(tx.timestamp)}, ${tx.customer_id}, verdict: ${tx.status}`}
               className="border-b border-[--color-rule-2] hover:bg-[--color-paper] focus-visible:outline-2 focus-visible:outline-[--color-ink] focus-visible:outline-offset-0 transition-colors cursor-pointer"
             >
-              <td className="py-2 px-0">
-                <span className="text-12px font-[--font-mono] text-[--color-ink-2] flex items-center min-h-[48px]">
+              <td className="py-2 px-3">
+                <span className="text-12px font-[--font-mono] text-[--color-ink-2] flex items-center min-h-[48px] whitespace-nowrap">
                   {formatTime(tx.timestamp)}
                 </span>
               </td>
-              <td className="py-2 px-0 text-right">
-                <span className="text-13px font-500 tabular-nums text-[--color-ink] flex items-center justify-end min-h-[48px]">
+              <td className="py-2 px-3 text-right">
+                <span className="text-13px font-500 tabular-nums text-[--color-ink] flex items-center justify-end min-h-[48px] whitespace-nowrap">
                   <Money minor={tx.amount_minor} />
                 </span>
               </td>
-              <td className="py-2 px-0">
-                <span className="text-12px font-[--font-mono] text-[--color-ink] flex items-center min-h-[48px]">
+              <td className="py-2 px-3">
+                <span className="text-12px font-[--font-mono] text-[--color-ink] flex items-center min-h-[48px] truncate">
                   {tx.customer_id}
                 </span>
               </td>
-              <td className="py-2 px-0">
+              <td className="py-2 px-3">
                 <div className="flex items-center gap-2 min-h-[48px]">
                   <Verdict status={tx.status} />
                   {tx.status === "REFUSED" && (
-                    <code className="text-11px font-[--font-mono] text-[--color-ink-2]">{tx.decision.clause}</code>
+                    <code className="text-11px font-[--font-mono] text-[--color-ink-2] whitespace-nowrap">{tx.decision.clause}</code>
                   )}
                 </div>
               </td>
