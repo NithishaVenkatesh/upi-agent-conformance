@@ -434,7 +434,7 @@ export default function Dashboard() {
         console.log("Transformed transactions:", transformed);
         console.log("Transformed count:", transformed.length);
 
-        setTransactions(transformed);
+        setTransactions(transformed.length > 0 ? transformed : FALLBACK_MOCK_TRANSACTIONS);
       } catch (error) {
         // Only use mock data when backend is unavailable
         console.error("Fetch error:", error);
