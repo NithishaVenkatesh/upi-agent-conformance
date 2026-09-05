@@ -1,0 +1,115 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  🚀 RAZORPAY PAYMENT GATE - DEPLOYMENT CARD 🚀               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📊 STATUS: ✅ READY TO DEPLOY (100% Complete)
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ WHAT'S BEEN DONE                                                             │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ✅ Backend API endpoint added:   GET /api/ledger                            │
+│  ✅ Frontend API integration:     Fetches real ledger data                    │
+│  ✅ Environment variables:        BIND_HOST, PORT, ALLOWED_ORIGINS           │
+│  ✅ CORS support:                 Cross-origin requests allowed              │
+│  ✅ Deployment files:             Procfile, requirements.txt                 │
+│  ✅ Guides created:               4 deployment guides                        │
+│  ✅ Git committed:                All changes pushed                         │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ DEPLOYMENT IN 3 STEPS (15 minutes)                                           │
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                               │
+│ 1️⃣  BACKEND → Railway.app (5 min)                                           │
+│     ├─ Go to: https://railway.app                                            │
+│     ├─ Create new project from GitHub                                        │
+│     ├─ Set env vars: PORT=8080, BIND_HOST=0.0.0.0                           │
+│     └─ Deploy → Copy URL to clipboard                                        │
+│                                                                               │
+│ 2️⃣  FRONTEND → Vercel.com (10 min)                                          │
+│     ├─ Go to: https://vercel.com                                             │
+│     ├─ Import repo, set Root: RazorPay/frontend                              │
+│     ├─ Add env vars with Railway URL from Step 1                             │
+│     └─ Deploy → Copy URL to clipboard                                        │
+│                                                                               │
+│ 3️⃣  UPDATE CORS (2 min)                                                     │
+│     ├─ Go back to Railway                                                    │
+│     ├─ Update ALLOWED_ORIGINS with Vercel URL from Step 2                    │
+│     └─ Save (auto-redeploys)                                                 │
+│                                                                               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ ENVIRONMENT VARIABLES CHEAT SHEET                                            │
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                               │
+│ RAILWAY (Backend):                                                           │
+│   PORT=8080                                                                  │
+│   BIND_HOST=0.0.0.0                                                          │
+│   ALLOWED_ORIGINS=https://your-vercel-url.vercel.app,http://localhost:3000  │
+│                                                                               │
+│ VERCEL (Frontend):                                                           │
+│   NEXT_PUBLIC_API_BASE_URL=https://your-railway-url.railway.app             │
+│   NEXT_PUBLIC_MERCHANT_SERVER_URL=https://your-railway-url.railway.app      │
+│   NEXT_PUBLIC_DEMO_MODE=true                                                 │
+│                                                                               │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ DEMO LOGIN CREDENTIALS                                                       │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Email:    judge@razorpay.dev                                                │
+│  Password: demo                                                              │
+│  Use on:   Your Vercel URL                                                   │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ DOCUMENTATION GUIDE                                                          │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  📖 First time?        → DEPLOY_STEP_BY_STEP.md (visual walkthrough)         │
+│  📋 Need checklist?    → DEPLOYMENT_CHECKLIST.md (track progress)            │
+│  📚 Full reference?    → DEPLOYMENT_GUIDE.md (complete guide)                │
+│  🎯 Quick start?       → READY_TO_DEPLOY.md (overview)                      │
+│  🔧 Troubleshooting?   → DEPLOYMENT_GUIDE.md → Part 5                       │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ VERIFICATION CHECKLIST                                                       │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  [ ] Frontend URL loads                                                      │
+│  [ ] Can login with judge@razorpay.dev / demo                                │
+│  [ ] Dashboard shows transaction table                                       │
+│  [ ] Click transaction → detail page loads                                   │
+│  [ ] Browser console (F12) has NO red errors                                 │
+│  [ ] Backend API responds: https://your-railway.railway.app/api/ledger       │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ KEY URLS TO SAVE                                                             │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  Railway Dashboard: https://railway.app                                      │
+│  Vercel Dashboard:  https://vercel.com/dashboard                             │
+│  Your Frontend:     https://[your-vercel-url].vercel.app                     │
+│  Your Backend:      https://[your-railway-url].railway.app                   │
+│  Backend API:       https://[your-railway-url].railway.app/api/ledger        │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ IF SOMETHING BREAKS                                                          │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  1. Check the logs first (Vercel → Deployments; Railway → Logs)             │
+│  2. Verify env vars match actual URLs                                        │
+│  3. Wait 2-3 minutes for deployment to fully propagate                       │
+│  4. Check CORS error? → Update ALLOWED_ORIGINS in Railway                    │
+│  5. Backend missing? → Frontend falls back to mock data (still works!)        │
+│  6. Still stuck? → Read DEPLOYMENT_GUIDE.md Part 5 (Troubleshooting)         │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║  🎉 YOU'RE READY TO DEPLOY! Open DEPLOY_STEP_BY_STEP.md and follow along.  ║
+║     You'll be live in 15 minutes.                                            ║
+║                                                                              ║
+║  Good luck with your demo! 🚀                                                ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝

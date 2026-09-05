@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPI Compliance Gate - Demo Script</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: white;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #000;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            color: #000;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 8px;
+        }
+
+        .timing {
+            display: inline-block;
+            background: #f0f7ff;
+            color: #0066cc;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .script-section {
+            margin-bottom: 24px;
+        }
+
+        .narration {
+            background: #fafafa;
+            padding: 16px;
+            border-left: 4px solid #0066cc;
+            margin-bottom: 12px;
+            line-height: 1.7;
+            font-size: 15px;
+            color: #333;
+        }
+
+        .stage-direction {
+            color: #0066cc;
+            font-weight: 600;
+            margin: 12px 0;
+            font-size: 14px;
+        }
+
+        .pause-note {
+            color: #666;
+            font-size: 13px;
+            margin-left: 16px;
+            font-style: italic;
+        }
+
+        .key-points {
+            background: #f9fafb;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 24px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .key-points h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #000;
+        }
+
+        .key-points ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .key-points li {
+            margin-bottom: 8px;
+            padding-left: 24px;
+            position: relative;
+            font-size: 14px;
+        }
+
+        .key-points li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        .timing-breakdown {
+            background: #f0f7ff;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .timing-breakdown table {
+            width: 100%;
+            margin-top: 12px;
+        }
+
+        .timing-breakdown td {
+            padding: 6px 0;
+            padding-right: 16px;
+        }
+
+        .timing-breakdown td:first-child {
+            font-weight: 600;
+            color: #0066cc;
+        }
+
+        .total-time {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 2px solid #0066cc;
+            font-weight: 700;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background: #e5e7eb;
+            margin: 32px 0;
+        }
+
+        .avoid-section {
+            background: #fff3cd;
+            padding: 16px;
+            border-left: 4px solid #ff9800;
+            border-radius: 4px;
+            margin-top: 24px;
+        }
+
+        .avoid-section h3 {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #856404;
+        }
+
+        .avoid-section ul {
+            list-style-position: inside;
+            font-size: 13px;
+            color: #856404;
+        }
+
+        .avoid-section li {
+            margin-bottom: 4px;
+        }
+
+        .product-list {
+            background: #f9fafb;
+            padding: 12px 16px;
+            border-radius: 4px;
+            margin: 8px 0;
+            font-size: 14px;
+            font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+        }
+
+        .decision-list {
+            background: #f9fafb;
+            padding: 12px 16px;
+            border-radius: 4px;
+            margin: 8px 0;
+            font-size: 13px;
+        }
+
+        .decision-item {
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .decision-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .decision-code {
+            font-weight: 600;
+            color: #0066cc;
+            font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+            h2 {
+                page-break-after: avoid;
+            }
+            .script-section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎬 UPI Compliance Gate</h1>
+    <h1 style="font-size: 24px; color: #0066cc; margin-top: -8px;">Hackathon Demo Script (4:30 MAX)</h1>
+    <p class="subtitle">⏱️ Read at natural pace with pauses. Total: 4 minutes 30 seconds</p>
+
+    <hr>
+
+    <!-- OPENING -->
+    <div class="script-section">
+        <h2>
+            <span class="timing">0:00 — 0:15</span>
+            OPENING
+        </h2>
+
+        <div class="narration">
+            "Alright, so... um, this is a UPI compliance gate. Think about payment blocks as regulatory liability. Every single transaction through this system gets checked against seven strict rules from NPCI's OC-228 circular. And, like, the system is deterministic — you can trace exactly why a payment was allowed or refused. Let me show you."
+        </div>
+
+        <div class="pause-note">[Pause 2 seconds — let it sink in]</div>
+    </div>
+
+    <hr>
+
+    <!-- DASHBOARD -->
+    <div class="script-section">
+        <h2>
+            <span class="timing">0:15 — 0:50</span>
+            DASHBOARD WALKTHROUGH
+        </h2>
+
+        <div class="stage-direction">[Navigate to Overview tab — left sidebar is already selected]</div>
+
+        <div class="narration">
+            "Here's the dashboard. So you see these transactions? Green ones are allowed. Red ones — uh, those got refused. Let me walk through the logic. On the left, I'm looking at, like, five different transactions with different outcomes."
+        </div>
+
+        <div class="stage-direction">[Point to first transaction: ₹2,499 - ALLOWED]</div>
+
+        <div class="narration">
+            "This one? ₹2,499. Allowed. Why? Because it passes all compliance checks — amount is within limits, customer has funds, no duplicate blocks, all good."
+        </div>
+
+        <div class="stage-direction">[Point to second transaction: ₹3,899 - REFUSED]</div>
+
+        <div class="narration">
+            "But this one — ₹3,899 — refused. Why? Duplicate block. Customer already has an active block with this merchant. OC-228 explicitly says: no concurrent blocks from the same merchant to the same customer. Pretty strict."
+        </div>
+
+        <div class="narration">
+            "These aren't random decisions. Each one is — um, cryptographically signed and added to an immutable ledger. You can scroll down to the ledger tab and see the hash chain if you want, but for now..."
+        </div>
+
+        <div class="pause-note">[Pause 1 second]</div>
+    </div>
+
+    <hr>
+
+    <!-- CHECKOUT FLOW -->
+    <div class="script-section">
+        <h2>
+            <span class="timing">0:50 — 2:45</span>
+            CHECKOUT FLOW (LIVE DEMO)
+        </h2>
+
+        <div class="stage-direction">[Click Checkout in sidebar]</div>
+
+        <div class="narration">
+            "Let me demonstrate a live transaction. I'm going to the Checkout page. You see three products here:"
+        </div>
+
+        <div class="product-list">
+            • Cotton tote — ₹2,499<br>
+            • Canvas backpack — ₹3,899<br>
+            • Laptop sleeve — ₹1,499
+        </div>
+
+        <div class="stage-direction">[Click Add on Cotton tote]</div>
+
+        <div class="narration">
+            "I'm adding the cotton tote to my cart. Now I have ₹2,499 in the cart. Let me add, uh, one more item. Adding the canvas backpack."
+        </div>
+
+        <div class="stage-direction">[Click Add on Canvas backpack]</div>
+
+        <div class="narration">
+            "Alright, so now my cart is ₹2,499 plus ₹3,899... that's ₹6,398 total. Notice on the right side, the Cart Summary shows the subtotal and total. Everything is under the ₹10,000 cap mandated by NPCI."
+        </div>
+
+        <div class="stage-direction">[Click "Proceed to Payment"]</div>
+
+        <div class="narration">
+            "Now I'm clicking 'Proceed to Payment'. This calls the backend's create_checkout MCP tool. The backend validates — does the customer exist? Are we issuing a valid block? — and returns a checkout session."
+        </div>
+
+        <div class="pause-note">[Wait for response — approximately 2 seconds]</div>
+
+        <div class="narration">
+            "Checkout created. See the session ID? Now comes the compliance gate. I'm clicking 'Process Payment'."
+        </div>
+
+        <div class="stage-direction">[Click "Process Payment"]</div>
+
+        <div class="narration">
+            "This is where the magic happens. The frontend calls the complete_checkout MCP tool. The backend runs all seven compliance checks:"
+        </div>
+
+        <div class="pause-note">[Wait for response — approximately 3 seconds]</div>
+
+        <div class="stage-direction">[Point to Decision Detail section — should show "✓ Allowed"]</div>
+
+        <div class="narration">
+            "Payment went through. The decision code is authorised. And look — the regulatory citation is right there. 'Issuer §3' from NPCI/UPI/OC No.228. The quote says, 'Issuer may set limits on UPI payment amounts within regulatory bounds.' That's literally from the NPCI circular. We extract this from the authoritative PDF and compare it to what the merchant claims to support."
+        </div>
+
+        <div class="stage-direction">[Click to expand decision detail if needed]</div>
+
+        <div class="narration">
+            "You see the detail? 'Payment captured successfully.' This is deterministic. Same merchant, same customer, same amounts — you'll always get the same decision. That's the point. Regulators want certainty."
+        </div>
+
+        <div class="pause-note">[Pause 2 seconds]</div>
+    </div>
+
+    <hr>
+
+    <!-- DECISION GALLERY -->
+    <div class="script-section">
+        <h2>
+            <span class="timing">2:45 — 4:15</span>
+            DECISION GALLERY (ALL 8 CODES)
+        </h2>
+
+        <div class="stage-direction">[Click Showcase in sidebar]</div>
+
+        <div class="narration">
+            "Now, here's what makes this interesting. Let me show you all eight possible decision codes."
+        </div>
+
+        <div class="stage-direction">[Scroll to show the 2-column grid]</div>
+
+        <div class="narration">
+            "We have eight outcomes. One allowed, seven refusal codes. Let me go through them:"
+        </div>
+
+        <div class="stage-direction">[Point to each card as you narrate]</div>
+
+        <div class="decision-list">
+            <div class="decision-item">
+                <span class="decision-code">authorised</span> — um, transaction passes all checks. Amount is within ₹10,000 cap, customer has funds, everything good.
+            </div>
+
+            <div class="decision-item">
+                <span class="decision-code">cap_exceeds_authority</span> — merchant tried to create a block for ₹15,000. OC-228 says blocks must be ≤ ₹10,000. Refused.
+            </div>
+
+            <div class="decision-item">
+                <span class="decision-code">insufficient_block_balance</span> — customer tried a ₹10,000 block but only has ₹5,000 available. Refused immediately.
+            </div>
+
+            <div class="decision-item">
+                <span class="decision-code">block_expired</span> — the block was created 91 days ago. Regulations say max is 90 days. Refused.
+            </div>
+
+            <div class="decision-item">
+                <span class="decision-code">validity_exceeds_authority</span> — merchant requested a block valid for 120 days. OC-228 says 90 days max. Refused.
+            </div>
+
+            <div class="decision-item">
+                <span class="decision-code">duplicate_block_for_merchant</span> — same merchant tried to create a second block for the same customer. No concurrent blocks allowed. Refused.
+            </div>
+
+            <div class="decision-item">
+                <span class="decision-code">retry_not_permitted</span> — customer tried to retry after a decline. NPCI only allows retries on timeout failures. Refused.
+            </div>
+
+            <div class="decision-item">
+                <span class="decision-code">retry_budget_exhausted</span> — customer already retried three times in 24 hours. Fourth retry? Over budget. Refused.
+            </div>
+        </div>
+
+        <div class="pause-note">[Pause 1 second]</div>
+
+        <div class="stage-direction">[Scroll down to Coverage & Proof section]</div>
+
+        <div class="narration">
+            "Look at the coverage. Eight decision codes. One allowed. Seven refusal codes. All tied to two NPCI circulars — OC-228 is the primary one."
+        </div>
+
+        <div class="pause-note">[Pause 1 second]</div>
+    </div>
+
+    <hr>
+
+    <!-- CLOSING -->
+    <div class="script-section">
+        <h2>
+            <span class="timing">4:15 — 4:30</span>
+            CLOSING
+        </h2>
+
+        <div class="narration">
+            "So... what you're looking at is — uh — Razorpay's UPI compliance infrastructure. Every block is checked against these rules. Every decision is signed and recorded in an immutable ledger with SHA-256 hashing and tamper detection. Merchants can't claim they didn't know the rules. Customers can't dispute the decision — it's deterministic and auditable."
+        </div>
+
+        <div class="pause-note">[Pause 1 second]</div>
+
+        <div class="narration">
+            "This is production-ready. Deployed on Railway. Ready to handle real transactions through the UPI network. Questions?"
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- TIMING BREAKDOWN -->
+    <div class="timing-breakdown">
+        <strong>⏱️ TIMING BREAKDOWN</strong>
+        <table>
+            <tr>
+                <td>Opening</td>
+                <td>0:15</td>
+            </tr>
+            <tr>
+                <td>Dashboard Demo</td>
+                <td>0:35</td>
+            </tr>
+            <tr>
+                <td>Checkout Flow</td>
+                <td>1:55</td>
+            </tr>
+            <tr>
+                <td>Decision Gallery</td>
+                <td>1:30</td>
+            </tr>
+            <tr>
+                <td>Closing</td>
+                <td>0:15</td>
+            </tr>
+            <tr class="total-time">
+                <td>TOTAL TIME</td>
+                <td>4:30</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- KEY POINTS -->
+    <div class="key-points">
+        <h3>✨ KEY POINTS TO EMPHASIZE</h3>
+        <ul>
+            <li><strong>Determinism</strong> — Same input = Same output, always</li>
+            <li><strong>Regulatory alignment</strong> — Every decision cites OC-228</li>
+            <li><strong>Production-ready</strong> — MCP protocol, idempotency keys, error handling</li>
+            <li><strong>Immutable audit trail</strong> — Hash-chained ledger, tamper detection</li>
+            <li><strong>Real data</strong> — Not mock, these are actual compliance checks</li>
+        </ul>
+    </div>
+
+    <!-- AVOID SECTION -->
+    <div class="avoid-section">
+        <h3>⚠️ THINGS TO AVOID</h3>
+        <ul>
+            <li>Don't go into backend code details (gate/decide.py)</li>
+            <li>Don't explain the PDF extraction pipeline</li>
+            <li>Don't mention specific error codes unless asked</li>
+            <li>Keep focus on WHAT the system does, not HOW internally</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <p style="text-align: center; color: #999; font-size: 12px; margin-top: 40px;">
+        Prepared for Global Glocal Hackathon • UPI Compliance Gate Demo<br>
+        Ready to print or save as PDF — Press Ctrl+P (or Cmd+P on Mac) → Select "Save as PDF"
+    </p>
+</body>
+</html>

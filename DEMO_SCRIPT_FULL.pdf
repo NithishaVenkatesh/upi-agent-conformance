@@ -1,0 +1,134 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 5005 >>
+stream
+BT /F1 10 Tf 50 750 Td (#  COMPLETE LIVE DEMO SCRIPT - RAZORPAY UPI COMPLIANCE
+## Full Script with Screen Cues \(4:30-5:00 minutes\)
+### Read naturally with filler words - Just follow the cues!
+
+---
+
+## [0:00-0:30] OPENING & HOOK
+
+**[NO SCREEN YET - Just you talking to camera]**
+
+"Alright, um, so like... quick question, right? How many people actually use UPI for payments? Like, literally everyone, right? 
+
+It's crazy because, uh, 80% of Indian customers prefer UPI over cards. Like, seriously, it's the most popular payment method. But here's the thing that absolutely blows my mindmost online merchants? They're like, 'Nope, cards only.'
+
+And you're like, um, why? Why would they reject the most popular payment method? 
+
+Well, uh, I figured it out. And it's actually, like, a massive compliance gap that nobody's talking about. So that's what I built. Let me show you."
+
+---
+
+## [0:30-1:00] THE PROBLEM EXPLAINED
+
+**[SHOW: Homepage/Landing page of ymy app - clean, simple view]**
+
+"Okay, so um, the problem is actually pretty straightforward when you think about it, right? Like, merchants set payment limits in their term sheets, yeah? They're like, 'I'm gonna accept UPI blocks up to 25,000. My payment window is 91 days. Unlimited retry attempts.' All that stuff.
+
+But, uh... there's a tiny problem. The RBI and NPCIthe National Payments Corporation of Indiathey release these regulatory circulars, right? OC-228 and all that. And they're very, very specific about what's actually allowed.
+
+[GESTURE AT SCREEN]
+
+Like, blocks must be  10,000. Validity windows must be  90 days. Three retry attempts per 24 hours. That's it. Those are the actual rules.
+
+So, um, what happens is you get this situation where merchants claim one thing, regulators require another, and... there's no system checking if those numbers actually match. Like, zero validation. A transaction processes, everything seems fine, and thenboomcompliance violation. Nobody catches it until it's too late."
+
+---
+
+## [1:00-1:30] WHAT WE FOUND
+
+**[STILL ON HOMEPAGE - Maybe point to different areas]**
+
+"So, uh, we actually dug into this. We researched Razorpay's own term sheets and regulatory circulars, and like... I found five actual drifts. Real gaps. Not theoretical stuffactual, like, concrete examples where what merchants claim contradicts what regulators require.
+
+[PAUSE]
+
+I'm talking:
+- Merchants claim 25,000 blocks, but the cap is 10,000, yeah?
+- 91-day validity windows versus the actual 90-day limit
+- Unlimited retries when it's actually three per 24 hours
+- And, um, like, three more similar situations
+
+[GESTURES]
+
+I found these. Real findings. And nobody was catching them. So, uh, I'm like, 'Okay, I need to build a system that validates this automatically.'
+
+That's what this is."
+
+---
+
+## [1:30-2:15] INTRODUCING THE SOLUTION
+
+**[NAVIGATE TO: Dashboard/Main app view]**
+
+"Alright, so, um, what I built is like an AI-powered compliance gate, right? Think of it as a bouncer for UPI transactions that actually knows the regulatory rules.
+
+[WAIT FOR PAGE TO LOAD]
+
+Here's the system, yeah? There are, like, three main parts:
+
+First, um, I extract regulatory claims from merchant PDFs using LLM extraction with schema validation. So merchants submit their term sheets, we pull out the specific numbers'15,000 per transaction,' '90-day validity,' all that. We capture what they *claim* they're allowed to do.
+
+Second, uh, we compare those claims against our corpus of authoritative regulatory documents. Like, the actual NPCI circulars. The real rules. I'm comparing claimed versus authoritative.
+
+Thirdand this is, like, the critical partour deterministic gate enforces six specific checks on every single transaction. [COUNTS ON FINGERS] Block cap  10,000. Validity  90 days. Balance check. Retry budgetthree per 24 hours. One block per customer-merchant pair. Idempotency key validation.
+
+All six. Every transaction. No exceptions."
+
+---
+
+## [2:15-2:45] SHOW THE DASHBOARD & REFUSED TRANSACTION
+
+**[SHOW: Dashboard with transaction list - make sure there are some REFUSED ones visible]**
+
+"Okay, so, um, like, look at this screen, right? This is my transaction ledger. Every payment that goes through my system is here.
+
+[POINT TO SCREEN]
+
+You see the green ones? Those are accepted. You see the red ones? Those are compliance refused. Why? Because they violate one of my six rules.
+
+Uh, and here's the thing that's, like, actually really coolwhen I refuse a transaction, I don't just say 'no.' We cite the exact regulatory clause. Like, we tell you exactly why.
+
+[CLICK INTO A REFUSED TRANSACTION]
+
+Watch, let me click into one of these refused transactions to show you what I mean."
+
+**[WAIT FOR DETAILED VIEW TO LOAD]**
+
+"Okay, so, um, here's one I refused. The merchant claimed they support 25,000 blocks. But, uh, that's not allowed. OC-228 explicitly says blocks must be  10,000.
+
+[POINT TO SCREEN ELEMENTS AS YOU MENTION THEM]
+
+Look at what I show:
+- The merchant's claimed amount: 25,000
+- The ru) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000229 00000 n 
+0000000350 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+449
+%%EOF

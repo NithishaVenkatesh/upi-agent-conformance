@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razorpay UPI Compliance - Demo Script</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #fff;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+            .section {
+                page-break-inside: avoid;
+                margin-bottom: 20px;
+            }
+        }
+
+        h1 {
+            font-size: 28px;
+            margin: 30px 0 10px 0;
+            color: #1a1a1a;
+            border-bottom: 3px solid #007acc;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin: 25px 0 10px 0;
+            color: #333;
+            background: #f5f5f5;
+            padding: 10px;
+            border-left: 4px solid #007acc;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin: 15px 0 8px 0;
+            color: #555;
+        }
+
+        p {
+            margin: 8px 0;
+            text-align: justify;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fafafa;
+            border-radius: 5px;
+        }
+
+        .screen-cue {
+            background: #e8f4f8;
+            border-left: 4px solid #007acc;
+            padding: 10px;
+            margin: 10px 0;
+            font-style: italic;
+            color: #0066cc;
+        }
+
+        .narration {
+            background: #fff9e6;
+            border-left: 4px solid #ff9800;
+            padding: 10px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .action {
+            background: #f0f0f0;
+            border-left: 4px solid #666;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 13px;
+            color: #555;
+        }
+
+        .timing {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 10px;
+            margin: 10px 0;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .checklist {
+            background: #fff3e0;
+            border-left: 4px solid #ff6f00;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 3px;
+        }
+
+        .checklist li {
+            margin: 5px 0;
+            margin-left: 20px;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 13px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #007acc;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        .header-block {
+            background: linear-gradient(135deg, #007acc 0%, #0050a0 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .header-block h1 {
+            color: white;
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-block p {
+            margin: 10px 0;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .tips {
+            background: #f3e5f5;
+            border-left: 4px solid #9c27b0;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 3px;
+        }
+
+        .tips strong {
+            color: #6a1b9a;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+        }
+
+        .print-hint {
+            background: #fff;
+            border: 2px solid #ff9800;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .print-hint strong {
+            color: #ff6f00;
+        }
+
+        @media print {
+            .print-hint {
+                display: none;
+            }
+            .header-block {
+                page-break-after: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-block">
+        <h1>🎥 Razorpay UPI Compliance Demo</h1>
+        <p>Complete Live Demo Script (4:30-5:00 minutes)</p>
+        <p style="font-size: 12px; margin-top: 15px;">Read naturally • First-person narration • Perfect for jury submission</p>
+    </div>
+
+    <div class="print-hint">
+        <strong>💡 Print to PDF:</strong> Use Cmd+P (Mac) or Ctrl+P (Windows) to save this as PDF for easy reading during recording
+    </div>
+
+    <div class="section">
+        <h2>[0:00-0:30] OPENING & HOOK</h2>
+        <div class="screen-cue">
+            <strong>[NO SCREEN YET - Just you talking to camera]</strong>
+        </div>
+        <div class="narration">
+            "Alright, um, so like... quick question, right? How many people actually use UPI for payments? Like, literally everyone, right? <br><br>
+            It's crazy because, uh, 80% of Indian customers prefer UPI over cards. Like, seriously, it's the most popular payment method. But here's the thing that absolutely blows my mind—most online merchants? They're like, 'Nope, cards only.'<br><br>
+            And you're like, um, why? Why would they reject the most popular payment method? <br><br>
+            Well, uh, I figured it out. And it's actually, like, a massive compliance gap that nobody's talking about. So that's what I built. Let me show you."
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>[0:30-1:00] THE PROBLEM EXPLAINED</h2>
+        <div class="screen-cue">
+            <strong>[SHOW: Homepage/Landing page of your app - clean, simple view]</strong>
+        </div>
+        <div class="narration">
+            "Okay, so um, the problem is actually pretty straightforward when you think about it, right? Like, merchants set payment limits in their term sheets, yeah? They're like, 'I'm gonna accept UPI blocks up to ₹25,000. My payment window is 91 days. Unlimited retry attempts.' All that stuff.<br><br>
+            But, uh... there's a tiny problem. The RBI and NPCI—the National Payments Corporation of India—they release these regulatory circulars, right? OC-228 and all that. And they're very, very specific about what's actually allowed.<br><br>
+            Like, blocks must be ≤ ₹10,000. Validity windows must be ≤ 90 days. Three retry attempts per 24 hours. That's it. Those are the actual rules.<br><br>
+            So, um, what happens is you get this situation where merchants claim one thing, regulators require another, and... there's no system checking if those numbers actually match. Like, zero validation. A transaction processes, everything seems fine, and then—boom—compliance violation. Nobody catches it until it's too late."
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>[1:00-1:30] WHAT I FOUND</h2>
+        <div class="screen-cue">
+            <strong>[STILL ON HOMEPAGE - Maybe point to different areas]</strong>
+        </div>
+        <div class="narration">
+            "So, uh, I actually dug into this. I researched Razorpay's own term sheets and regulatory circulars, and like... I found five actual drifts. Real gaps. Not theoretical stuff—actual, like, concrete examples where what merchants claim contradicts what regulators require.<br><br>
+            I'm talking:
+            <ul>
+                <li>Merchants claim ₹25,000 blocks, but the cap is ₹10,000, yeah?</li>
+                <li>91-day validity windows versus the actual 90-day limit</li>
+                <li>Unlimited retries when it's actually three per 24 hours</li>
+                <li>And, um, like, three more similar situations</li>
+            </ul>
+            I found these. Real findings. And nobody was catching them. So, uh, I'm like, 'Okay, I need to build a system that validates this automatically.'<br><br>
+            That's what this is."
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>[1:30-2:15] INTRODUCING THE SOLUTION</h2>
+        <div class="screen-cue">
+            <strong>[NAVIGATE TO: Dashboard/Main app view]</strong>
+        </div>
+        <div class="narration">
+            "Alright, so, um, what I built is like an AI-powered compliance gate, right? Think of it as a bouncer for UPI transactions that actually knows the regulatory rules.<br><br>
+            Here's the system, yeah? There are, like, three main parts:<br><br>
+            <strong>First,</strong> um, I extract regulatory claims from merchant PDFs using LLM extraction with schema validation. So merchants submit their term sheets, I pull out the specific numbers—'₹15,000 per transaction,' '90-day validity,' all that. I capture what they <em>claim</em> they're allowed to do.<br><br>
+            <strong>Second,</strong> uh, I compare those claims against my corpus of authoritative regulatory documents. Like, the actual NPCI circulars. The real rules. I'm comparing claimed versus authoritative.<br><br>
+            <strong>Third</strong>—and this is, like, the critical part—my deterministic gate enforces six specific checks on every single transaction. <em>[COUNTS ON FINGERS]</em> Block cap ≤ ₹10,000. Validity ≤ 90 days. Balance check. Retry budget—three per 24 hours. One block per customer-merchant pair. Idempotency key validation.<br><br>
+            All six. Every transaction. No exceptions."
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>[2:15-2:45] SHOW THE DASHBOARD & REFUSED TRANSACTION</h2>
+        <div class="screen-cue">
+            <strong>[SHOW: Dashboard with transaction list - make sure there are some REFUSED ones visible]</strong>
+        </div>
+        <div class="narration">
+            "Okay, so, um, like, look at this screen, right? This is my transaction ledger. Every payment that goes through my system is here.<br><br>
+            You see the green ones? Those are accepted. You see the red ones? Those are compliance refused. Why? Because they violate one of my six rules.<br><br>
+            Uh, and here's the thing that's, like, actually really cool—when I refuse a transaction, I don't just say 'no.' I cite the exact regulatory clause. Like, I tell you exactly why."
+        </div>
+        <div class="action">
+            <strong>Action:</strong> Click into a REFUSED transaction
+        </div>
+        <div class="narration">
+            "Watch, let me click into one of these refused transactions to show you what I mean."
+        </div>
+        <div class="screen-cue">
+            <strong>[WAIT FOR DETAILED VIEW TO LOAD]</strong>
+        </div>
+        <div class="narration">
+            "Okay, so, um, here's one I refused. The merchant claimed they support ₹25,000 blocks. But, uh, that's not allowed. OC-228 explicitly says blocks must be ≤ ₹10,000.<br><br>
+            Look at what I show:
+            <ul>
+                <li>The merchant's claimed amount: ₹25,000</li>
+                <li>The rule they violated: 'Block cap must be ≤ ₹10,000'</li>
+                <li>The exact regulatory clause: OC-228, Section 3.2</li>
+                <li>The direct quote from the circular: [READ IF VISIBLE]</li>
+                <li>My decision: REFUSED, with full reasoning</li>
+            </ul>
+            Like, this is auditability, yeah? This is what regulatory compliance should actually look like. It's not arbitrary. It's not 'trust us.' It's 'here's the rule, here's the quote, here's why I said no.'"
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>[2:45-3:20] SHOW THE LEDGER & HASH CHAIN</h2>
+        <div class="screen-cue">
+            <strong>[NAVIGATE TO: Ledger view - show the hash chain structure]</strong>
+        </div>
+        <div class="narration">
+            "Alright, um, now here's where I get into the actually hardcore engineering stuff, right?<br><br>
+            This is my audit ledger. Every single transaction is cryptographically chained. Like, literally every transaction is hashed, and the next one includes the hash of the previous one. It's like, uh... imagine a blockchain, but for payments.<br><br>
+            Why do I do this? Because, um, in fintech—in payments, especially—you <em>cannot</em> have tampering. Ever. If someone tries to edit a transaction, truncate the ledger, delete records... the chain breaks. I detect it immediately.<br><br>
+            <strong>I actually tested this against five different attack vectors:</strong>
+            <ul>
+                <li>Edit an existing transaction? Detected.</li>
+                <li>Truncate the head of the ledger? Detected.</li>
+                <li>Truncate the tail? Detected.</li>
+                <li>Try to re-forge the chain? Detected.</li>
+                <li>Delete everything? Detected.</li>
+            </ul>
+            Five attacks, uh, five detection vectors. All caught. That's the kind of trust you need in a compliance system. You need cryptographic proof that nothing's been tampered with."
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>[3:20-4:15] LIVE TRANSACTION FLOW DEMO</h2>
+        <div class="screen-cue">
+            <strong>[NAVIGATE BACK TO: Homepage/Checkout page]</strong>
+        </div>
+        <div class="narration">
+            "Okay, um, let me walk you through what actually happens when a valid transaction goes through my system, yeah?<br><br>
+            So, like, here's a merchant homepage. Customer's browsing, um, they add some items to cart, and then they go to checkout."
+        </div>
+        <div class="action">
+            <strong>Action:</strong> Click through to checkout
+        </div>
+        <div class="narration">
+            "Alright, so, uh, customer is at checkout. This is like a normal e-commerce flow. They're gonna select UPI as their payment method."
+        </div>
+        <div class="action">
+            <strong>Action:</strong> Point to payment options
+        </div>
+        <div class="narration">
+            "Watch what happens now. When they click UPI, my compliance gate springs to life in the background. It's doing six simultaneous checks.<br><br>
+            Behind the scenes—and I'm gonna walk you through each check:<br><br>
+            <strong>Number one:</strong> Is this merchant's UPI Compliance Profile valid? ✓ Check.<br><br>
+            <strong>Number two:</strong> Is the block cap within regulatory limits? The transaction is for, um, ₹8,500. The rule is ≤ ₹10,000. ✓ Check.<br><br>
+            <strong>Number three:</strong> Is the validity window within 90 days? ✓ Check.<br><br>
+            <strong>Number four:</strong> Does the customer have sufficient balance? ✓ Check.<br><br>
+            <strong>Number five:</strong> Are we within the retry budget? Three attempts per 24 hours. ✓ Check.<br><br>
+            <strong>Number six:</strong> One block per customer-merchant pair, and is the idempotency key valid? ✓ Check.<br><br>
+            All six pass. Transaction succeeds. Money flows through."
+        </div>
+        <div class="screen-cue">
+            <strong>[SHOW TRANSACTION SUCCESS SCREEN]</strong>
+        </div>
+        <div class="narration">
+            "Look—'Transaction Accepted.' The funds are transferred. Both the merchant and the regulator have complete auditability of every decision I made."
+        </div>
+        <div class="action">
+            <strong>Action:</strong> Navigate back to Ledger to show the new entry
+        </div>
+        <div class="narration">
+            "And, um, if you look at the ledger now—there's my transaction right there. With the hash chain extended. Cryptographically verified. Immutable."
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>[4:15-4:45] PROOF POINTS & FINDINGS</h2>
+        <div class="screen-cue">
+            <strong>[SHOW: Metrics/Proof slide or just point to different parts of the app]</strong>
+        </div>
+        <div class="narration">
+            "Alright, so like, um, all of this isn't theoretical, right? I actually built this. I tested this. Here's the proof:<br><br>
+            <strong>Number one: 181 unit tests.</strong> All passing. These cover every scenario—valid transactions, boundary cases, rule violations, tamper detection. Everything. Like, uh, 181 comprehensive tests.<br><br>
+            <strong>Number two: Five actual regulatory drifts found</strong> in Razorpay's own systems. Not hypothetical. Real gaps between what they claim and what NPCI actually requires.<br><br>
+            <strong>Number three: Four Indian merchants verified</strong> via live automated testing. I confirmed they're card-only due to compliance uncertainty. My system eliminates that uncertainty entirely.<br><br>
+            <strong>Number four: 100% deterministic and auditable.</strong> Every transaction decision is replayable. Feed in the same input, you get the exact same output. That's what auditability means.<br><br>
+            And, um, technically—this is the nerdy part—the core gate logic is pure Python with zero external dependencies. I'm talking stdlib only. Why? Because when you're touching money, um, determinism matters. You can't have 'good enough.' You can't have frameworks introducing randomness or side effects. It's binary: pass or fail. That's it."
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>[4:45-5:00] CLOSING & IMPACT</h2>
+        <div class="screen-cue">
+            <strong>[BACK TO: You, camera - not showing screen anymore]</strong>
+        </div>
+        <div class="narration">
+            "Okay, so like... um, here's what this actually means in the real world, yeah?<br><br>
+            Right now, merchants are avoiding UPI entirely because compliance is too confusing. They're losing access to 80% of their potential customer base. Or they accept the risk and hope nothing goes wrong.<br><br>
+            I've changed that equation. Compliance is no longer something merchants worry about <em>after</em> the transaction. It's enforced <em>during</em> the transaction. Deterministically. With full regulatory citations. With cryptographic proof.<br><br>
+            <strong style="font-size: 16px;">This is how fintech infrastructure should work at scale:</strong>
+            <ul>
+                <li>AI where you need semantic understanding—that's the extraction layer.</li>
+                <li>Deterministic logic where you need auditability—that's the gate.</li>
+                <li>Cryptography where you need trust—that's the ledger.</li>
+            </ul>
+            <strong style="font-size: 16px;">I'm literally building the compliance infrastructure for Indian digital payments. And, uh, that's what I think is genuinely important.</strong><br><br>
+            That's Razorpay UPI Compliance Engine."
+        </div>
+        <div class="action">
+            <strong>Action:</strong> Smile, confident nod
+        </div>
+        <div class="narration">
+            "Questions?"
+        </div>
+    </div>
+
+    <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+
+    <div class="section">
+        <h2>📋 SCREEN NAVIGATION GUIDE</h2>
+        <h3>Section 1: Homepage</h3>
+        <ul>
+            <li><strong>What to show:</strong> Clean app interface, homepage/landing</li>
+            <li><strong>Action:</strong> Just display, narrate about the problem</li>
+        </ul>
+
+        <h3>Section 2: Dashboard</h3>
+        <ul>
+            <li><strong>What to show:</strong> Transaction list with mixed accepted (green) and refused (red) transactions</li>
+            <li><strong>Action:</strong> Scroll to show variety, point to status column</li>
+        </ul>
+
+        <h3>Section 3: Detailed Transaction View (Refused)</h3>
+        <ul>
+            <li><strong>What to click:</strong> Click any REFUSED transaction</li>
+            <li><strong>What to show:</strong>
+                <ul>
+                    <li>Merchant's claimed amount</li>
+                    <li>Regulatory rule violated</li>
+                    <li>Exact clause reference (e.g., OC-228, Section X.X)</li>
+                    <li>Quote from the circular</li>
+                    <li>Decision: REFUSED</li>
+                </ul>
+            </li>
+            <li><strong>Action:</strong> Point to each element as you narrate</li>
+        </ul>
+
+        <h3>Section 4: Ledger View</h3>
+        <ul>
+            <li><strong>What to navigate to:</strong> Ledger/Audit Trail section</li>
+            <li><strong>What to show:</strong> Hash chain structure, multiple transactions with hashes</li>
+            <li><strong>Action:</strong> Zoom in on one hash if possible, point to chain links</li>
+        </ul>
+
+        <h3>Section 5: Checkout Flow</h3>
+        <ul>
+            <li><strong>What to navigate to:</strong> Home > Products > Checkout</li>
+            <li><strong>What to show:</strong>
+                <ul>
+                    <li>Product selection page</li>
+                    <li>Cart/Checkout button</li>
+                    <li>Payment options (UPI selected)</li>
+                    <li>Transaction in progress</li>
+                    <li>Success screen</li>
+                </ul>
+            </li>
+            <li><strong>Action:</strong> Click through slowly, pause at each step as you narrate the gate checks</li>
+        </ul>
+
+        <h3>Section 6: Ledger Updated</h3>
+        <ul>
+            <li><strong>What to show:</strong> Go back to Ledger, show the new transaction added</li>
+            <li><strong>What to highlight:</strong> The new entry, the extended hash chain</li>
+        </ul>
+
+        <h3>Section 7: Metrics/Proof (Optional)</h3>
+        <ul>
+            <li><strong>What to show:</strong> Can be a slide, or just reference metrics from your README</li>
+            <li><strong>What to display:</strong> 181 tests, 5 drifts found, 4 merchants verified, 100% deterministic</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>⏱️ TIMING BREAKDOWN</h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Section</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>0:00-0:30</td>
+                <td>Hook & Intro</td>
+                <td>30s</td>
+            </tr>
+            <tr>
+                <td>0:30-1:00</td>
+                <td>Problem Explanation</td>
+                <td>30s</td>
+            </tr>
+            <tr>
+                <td>1:00-1:30</td>
+                <td>What I Found</td>
+                <td>30s</td>
+            </tr>
+            <tr>
+                <td>1:30-2:15</td>
+                <td>Solution Overview</td>
+                <td>45s</td>
+            </tr>
+            <tr>
+                <td>2:15-2:45</td>
+                <td>Dashboard & Refused TX</td>
+                <td>30s</td>
+            </tr>
+            <tr>
+                <td>2:45-3:20</td>
+                <td>Ledger & Hash Chain</td>
+                <td>35s</td>
+            </tr>
+            <tr>
+                <td>3:20-4:15</td>
+                <td>Live Transaction Flow</td>
+                <td>55s</td>
+            </tr>
+            <tr>
+                <td>4:15-4:45</td>
+                <td>Proof Points</td>
+                <td>30s</td>
+            </tr>
+            <tr>
+                <td>4:45-5:00</td>
+                <td>Closing</td>
+                <td>15s</td>
+            </tr>
+            <tr style="font-weight: bold; background: #e8f4f8;">
+                <td>TOTAL</td>
+                <td></td>
+                <td>5:00</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section checklist">
+        <h2>✅ PRE-DEMO CHECKLIST</h2>
+        <ul>
+            <li>App is loaded and ready to demo</li>
+            <li>Have a REFUSED transaction ready to show (or create test data)</li>
+            <li>Ledger view works and shows hash chain clearly</li>
+            <li>Can navigate through checkout flow smoothly</li>
+            <li>Read through script once before recording</li>
+            <li>Screen is visible and legible (test resolution)</li>
+            <li>Audio is clear (test mic)</li>
+            <li>You're in a quiet room (no background noise)</li>
+            <li>Have water nearby (helps with speaking)</li>
+        </ul>
+    </div>
+
+    <div class="section tips">
+        <h2>💡 DELIVERY TIPS FOR READING THIS SCRIPT</h2>
+        <ul>
+            <li><strong>Filler words are intentional</strong> — The "um," "uh," "like," "yeah" make it sound natural, not rehearsed</li>
+            <li><strong>Pauses matter</strong> — [PAUSE] means take a breath, let people absorb</li>
+            <li><strong>Point at screen</strong> — Use your cursor or finger to emphasize what you're talking about</li>
+            <li><strong>Energy builds</strong> — Start conversational, get more technical in the middle, close with impact</li>
+            <li><strong>You're confident</strong> — You know this stuff. Sound like it.</li>
+            <li><strong>Read naturally</strong> — Don't rush through sections. Match your narration to the clicks/loads</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🎯 SCRIPT READING NOTES</h2>
+        <p><strong>You're not memorizing this.</strong> You're reading it naturally while doing the demo. So:</p>
+        <ul>
+            <li>Glance at the script when you need the next talking point</li>
+            <li>Let your eyes go back to the screen while narrating</li>
+            <li>If you mess up a word, just keep going—it's natural</li>
+            <li>If you click something and it takes a second to load, keep talking</li>
+            <li>The script is your safety net, not a straitjacket</li>
+        </ul>
+        <p style="margin-top: 15px;"><strong>The magic happens when you sound like you're explaining this to a friend, not reading from a script.</strong></p>
+        <p style="margin-top: 15px; font-size: 16px; color: #007acc;"><strong>You've built something genuinely cool. Let that come through. 🚀</strong></p>
+    </div>
+
+    <footer style="text-align: center; margin-top: 50px; padding: 20px; color: #999; font-size: 12px; border-top: 1px solid #eee;">
+        <p>DEMO_SCRIPT_FULL.html • Razorpay UPI Compliance Engine • Ready for jury submission</p>
+        <p style="margin-top: 5px;">Print or save as PDF using your browser (Cmd+P or Ctrl+P)</p>
+    </footer>
+</body>
+</html>
