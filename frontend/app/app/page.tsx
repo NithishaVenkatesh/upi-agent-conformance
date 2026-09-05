@@ -399,7 +399,10 @@ function TransactionsTable({
 
       {filtered.length === 0 && (
         <div className="py-8 text-center text-13px text-[--color-ink-3]">
-          No transactions with status "{statusFilter}"
+          <p>No transactions with status "{statusFilter}"</p>
+          <p className="text-12px text-[--color-ink-3] mt-2">
+            Total transactions: {transactions.length}
+          </p>
         </div>
       )}
     </div>
@@ -415,14 +418,26 @@ export default function Dashboard() {
     const fetchTransactions = async () => {
       try {
         const apiUrl = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8080";
+        console.log("Fetching ledger from:", apiUrl);
+
         const response = await fetch(`${apiUrl}/api/ledger`);
-        if (!response.ok) throw new Error("Failed to fetch ledger");
+        console.log("Response status:", response.status);
+
+        if (!response.ok) throw new Error(`Failed to fetch ledger: ${response.status}`);
+
         const entries = await response.json();
+        console.log("Raw entries received:", entries);
+        console.log("Entries count:", Array.isArray(entries) ? entries.length : "not array");
+
         // Only use real data — empty ledger is valid, not an error
         const transformed = transformLedgerToTransactions(entries);
+        console.log("Transformed transactions:", transformed);
+        console.log("Transformed count:", transformed.length);
+
         setTransactions(transformed);
       } catch (error) {
         // Only use mock data when backend is unavailable
+        console.error("Fetch error:", error);
         console.warn("Backend unavailable, using mock data", error);
         setTransactions(FALLBACK_MOCK_TRANSACTIONS);
       } finally {
