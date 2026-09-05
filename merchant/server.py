@@ -79,7 +79,8 @@ class Merchant:
         self.blocks = {}
         self._checkout_block = {}
         self.capture, self.capture_mode = default_capture()
-        self.ledger = Ledger(path="eval/ledger.jsonl")
+        ledger_path = os.getenv("LEDGER_PATH", "eval/ledger.jsonl")
+        self.ledger = Ledger(path=ledger_path)
         self._blocks_lock = threading.Lock()
 
     def block_for(self, checkout_id):
