@@ -215,7 +215,7 @@ function transformLedgerToTransactions(entries: any[]): typeof MOCK_TRANSACTIONS
   const transactionMap = new Map<string, any>();
 
   for (const entry of entries) {
-    const p = entry;
+    const p = entry.payload;
     const checkoutId = p.checkout;
 
     if (!transactionMap.has(checkoutId)) {
@@ -236,9 +236,9 @@ function transformLedgerToTransactions(entries: any[]): typeof MOCK_TRANSACTIONS
         allowed: p.decision === "authorised",
         code: p.decision,
         clause: p.clause || "Unknown",
-        circular: "NPCI/UPI/OC No.228",
-        quote: "Payment processed according to regulatory bounds.",
-        detail: p.decision === "authorised" ? "Amount within limit" : "Payment declined",
+        circular: p.circular || "NPCI/UPI/OC No.228",
+        quote: p.quote || "Payment processed according to regulatory bounds.",
+        detail: p.detail || (p.decision === "authorised" ? "Amount within limit" : "Payment declined"),
       };
 
       if (p.decision === "authorised") {
@@ -264,10 +264,10 @@ function transformLedgerToTransactions(entries: any[]): typeof MOCK_TRANSACTIONS
         tx.decision = {
           allowed: false,
           code: p.kind || "capture_failed",
-          clause: "Acquirer §3",
+          clause: p.clause || "Acquirer §3",
           circular: "NPCI/UPI/OC No.228",
-          quote: "Payment capture failed",
-          detail: "Payment could not be processed",
+          quote: p.quote || "Payment capture failed",
+          detail: p.detail || "Payment could not be processed",
         };
       }
     } else if (p.event === "replay") {
