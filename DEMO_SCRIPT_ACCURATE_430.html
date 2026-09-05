@@ -84,7 +84,7 @@
             font-style: italic;
         }
 
-        .key-points {
+        .key-insight {
             background: #f9fafb;
             padding: 20px;
             border-radius: 8px;
@@ -92,31 +92,32 @@
             border: 1px solid #e5e7eb;
         }
 
-        .key-points h3 {
+        .key-insight h3 {
             font-size: 16px;
             font-weight: 700;
             margin-bottom: 12px;
             color: #000;
         }
 
-        .key-points ul {
-            list-style: none;
-            margin-left: 0;
+        .key-insight ol {
+            margin-left: 20px;
         }
 
-        .key-points li {
+        .key-insight li {
             margin-bottom: 8px;
-            padding-left: 24px;
-            position: relative;
             font-size: 14px;
         }
 
-        .key-points li:before {
-            content: "✓";
-            position: absolute;
-            left: 0;
+        .key-insight strong {
             color: #0066cc;
-            font-weight: bold;
+        }
+
+        .key-insight .callout {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #e5e7eb;
+            font-style: italic;
+            color: #555;
         }
 
         .timing-breakdown {
@@ -181,13 +182,15 @@
             margin-bottom: 4px;
         }
 
-        .product-list {
+        .seven-rules {
             background: #f9fafb;
             padding: 12px 16px;
             border-radius: 4px;
             margin: 8px 0;
-            font-size: 14px;
+            font-size: 13px;
+            line-height: 1.8;
             font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+            color: #333;
         }
 
         .decision-list {
@@ -216,6 +219,12 @@
             font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
         }
 
+        .emoji-section {
+            text-align: center;
+            font-size: 32px;
+            margin: 20px 0;
+        }
+
         @media print {
             body {
                 padding: 0;
@@ -236,18 +245,48 @@
 
     <hr>
 
-    <!-- OPENING -->
+    <!-- PROBLEM SETUP -->
     <div class="script-section">
         <h2>
-            <span class="timing">0:00 — 0:15</span>
-            OPENING
+            <span class="timing">0:00 — 0:35</span>
+            PROBLEM SETUP
         </h2>
 
         <div class="narration">
-            "Alright, so... um, this is a UPI compliance gate. Think about payment blocks as regulatory liability. Every single transaction through this system gets checked against seven strict rules from NPCI's OC-228 circular. And, like, the system is deterministic — you can trace exactly why a payment was allowed or refused. Let me show you."
+            "So, um, here's the thing with UPI payments. Banks can create payment blocks — like, a customer reserves ₹10,000 for a merchant, right? But NPCI has seven strict rules about these blocks. How much? ₹10,000 max. How long? 90 days max. No duplicate blocks. And if you violate these rules... there's huge regulatory liability."
         </div>
 
-        <div class="pause-note">[Pause 2 seconds — let it sink in]</div>
+        <div class="pause-note">[Pause 1 second]</div>
+
+        <div class="narration">
+            "But here's the problem — there's <strong>no deterministic gate</strong> checking this automatically. It's scattered across different systems, inconsistent, and when something goes wrong — you have no audit trail. No proof. NPCI audits you? You're scrambling to explain what happened."
+        </div>
+
+        <div class="pause-note">[Pause 1 second]</div>
+
+        <div class="narration">
+            "So I built a compliance gate."
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- SOLUTION -->
+    <div class="script-section">
+        <h2>
+            <span class="timing">0:35 — 0:50</span>
+            THE SOLUTION
+        </h2>
+
+        <div class="narration">
+            "Every transaction gets checked against all seven rules from NPCI's OC-228 circular. And it's deterministic — same input, same output, always. Cryptographically signed. Immutable ledger. You can trace exactly why a payment was allowed or refused."
+        </div>
+
+        <div class="pause-note">[Pause 1 second]</div>
+
+        <div class="narration">
+            "Let me show you."
+        </div>
     </div>
 
     <hr>
@@ -255,30 +294,30 @@
     <!-- DASHBOARD -->
     <div class="script-section">
         <h2>
-            <span class="timing">0:15 — 0:50</span>
+            <span class="timing">0:50 — 1:25</span>
             DASHBOARD WALKTHROUGH
         </h2>
 
-        <div class="stage-direction">[Navigate to Overview tab — left sidebar is already selected]</div>
+        <div class="stage-direction">[Navigate to Overview tab — left sidebar]</div>
 
         <div class="narration">
-            "Here's the dashboard. So you see these transactions? Green ones are allowed. Red ones — uh, those got refused. Let me walk through the logic. On the left, I'm looking at, like, five different transactions with different outcomes."
+            "Here's the dashboard. These are real transactions running through the gate. Green ones? Allowed. Red ones — uh, those got refused."
         </div>
 
         <div class="stage-direction">[Point to first transaction: ₹2,499 - ALLOWED]</div>
 
         <div class="narration">
-            "This one? ₹2,499. Allowed. Why? Because it passes all compliance checks — amount is within limits, customer has funds, no duplicate blocks, all good."
+            "This one — ₹2,499. Why allowed? Passes all seven checks. Amount is within the ₹10,000 cap, customer has funds, no duplicate blocks, validity under 90 days. All good."
         </div>
 
         <div class="stage-direction">[Point to second transaction: ₹3,899 - REFUSED]</div>
 
         <div class="narration">
-            "But this one — ₹3,899 — refused. Why? Duplicate block. Customer already has an active block with this merchant. OC-228 explicitly says: no concurrent blocks from the same merchant to the same customer. Pretty strict."
+            "But this one — ₹3,899 — refused. Why? Duplicate block. Customer already has an active block with this merchant. OC-228 explicitly says: 'No concurrent blocks from the same merchant to the same customer.' That's literally from the circular. The gate caught it. Refused."
         </div>
 
         <div class="narration">
-            "These aren't random decisions. Each one is — um, cryptographically signed and added to an immutable ledger. You can scroll down to the ledger tab and see the hash chain if you want, but for now..."
+            "Each decision is cryptographically signed and added to an immutable ledger. You can see the hash chain, see which rules were checked, everything."
         </div>
 
         <div class="pause-note">[Pause 1 second]</div>
@@ -289,67 +328,77 @@
     <!-- CHECKOUT FLOW -->
     <div class="script-section">
         <h2>
-            <span class="timing">0:50 — 2:45</span>
+            <span class="timing">1:25 — 3:10</span>
             CHECKOUT FLOW (LIVE DEMO)
         </h2>
 
         <div class="stage-direction">[Click Checkout in sidebar]</div>
 
         <div class="narration">
-            "Let me demonstrate a live transaction. I'm going to the Checkout page. You see three products here:"
+            "Now let me show you a live transaction. Going to the Checkout page. Three products:"
         </div>
 
-        <div class="product-list">
-            • Cotton tote — ₹2,499<br>
-            • Canvas backpack — ₹3,899<br>
-            • Laptop sleeve — ₹1,499
+        <div class="stage-direction">[Point to products]</div>
+
+        <div class="narration">
+            "Cotton tote — ₹2,499. Canvas backpack — ₹3,899. Laptop sleeve — ₹1,499."
         </div>
 
         <div class="stage-direction">[Click Add on Cotton tote]</div>
 
         <div class="narration">
-            "I'm adding the cotton tote to my cart. Now I have ₹2,499 in the cart. Let me add, uh, one more item. Adding the canvas backpack."
+            "Added to cart. Now let me add the canvas backpack."
         </div>
 
         <div class="stage-direction">[Click Add on Canvas backpack]</div>
 
         <div class="narration">
-            "Alright, so now my cart is ₹2,499 plus ₹3,899... that's ₹6,398 total. Notice on the right side, the Cart Summary shows the subtotal and total. Everything is under the ₹10,000 cap mandated by NPCI."
+            "Alright, both items in cart now. ₹2,499 plus ₹3,899 equals ₹6,398 total. Under the ₹10,000 NPCI cap. That's rule one checked."
         </div>
 
         <div class="stage-direction">[Click "Proceed to Payment"]</div>
 
         <div class="narration">
-            "Now I'm clicking 'Proceed to Payment'. This calls the backend's create_checkout MCP tool. The backend validates — does the customer exist? Are we issuing a valid block? — and returns a checkout session."
+            "Clicking 'Proceed to Payment'. The backend creates a checkout session."
         </div>
 
         <div class="pause-note">[Wait for response — approximately 2 seconds]</div>
 
         <div class="narration">
-            "Checkout created. See the session ID? Now comes the compliance gate. I'm clicking 'Process Payment'."
+            "Done. Now — the compliance gate. Clicking 'Process Payment'."
         </div>
 
         <div class="stage-direction">[Click "Process Payment"]</div>
 
         <div class="narration">
-            "This is where the magic happens. The frontend calls the complete_checkout MCP tool. The backend runs all seven compliance checks:"
+            "This is where all seven rules get checked:"
         </div>
 
-        <div class="pause-note">[Wait for response — approximately 3 seconds]</div>
+        <div class="pause-note">[Pause 1 second]</div>
 
-        <div class="stage-direction">[Point to Decision Detail section — should show "✓ Allowed"]</div>
+        <div class="seven-rules">
+            One — block amount ≤ ₹10,000? Check.<br>
+            Two — customer has funds? Check.<br>
+            Three — duplicate block for this merchant? No, check.<br>
+            Four — block expired? No, check.<br>
+            Five — validity window ≤ 90 days? Check.<br>
+            Six — is this a retry and is it allowed? Check.<br>
+            Seven — retry budget exhausted? Check.
+        </div>
+
+        <div class="pause-note">[Wait for response — approximately 2 seconds]</div>
+
+        <div class="stage-direction">[Point to Decision Detail section — "✓ Allowed"]</div>
 
         <div class="narration">
-            "Payment went through. The decision code is authorised. And look — the regulatory citation is right there. 'Issuer §3' from NPCI/UPI/OC No.228. The quote says, 'Issuer may set limits on UPI payment amounts within regulatory bounds.' That's literally from the NPCI circular. We extract this from the authoritative PDF and compare it to what the merchant claims to support."
+            "Payment authorized. Decision code: 'authorised'. Regulatory citation: 'Issuer §3' from NPCI/UPI/OC No.228. The actual quote: 'Issuer may set limits on UPI payment amounts within regulatory bounds.' Extracted directly from the NPCI PDF. We parse the authoritative document and compare."
         </div>
-
-        <div class="stage-direction">[Click to expand decision detail if needed]</div>
 
         <div class="narration">
-            "You see the detail? 'Payment captured successfully.' This is deterministic. Same merchant, same customer, same amounts — you'll always get the same decision. That's the point. Regulators want certainty."
+            "Same merchant, same customer, same amounts — you'll <strong>always</strong> get the same decision. That's the determinism the regulators want."
         </div>
 
-        <div class="pause-note">[Pause 2 seconds]</div>
+        <div class="pause-note">[Pause 1 second]</div>
     </div>
 
     <hr>
@@ -357,64 +406,58 @@
     <!-- DECISION GALLERY -->
     <div class="script-section">
         <h2>
-            <span class="timing">2:45 — 4:15</span>
+            <span class="timing">3:10 — 4:10</span>
             DECISION GALLERY (ALL 8 CODES)
         </h2>
 
         <div class="stage-direction">[Click Showcase in sidebar]</div>
 
         <div class="narration">
-            "Now, here's what makes this interesting. Let me show you all eight possible decision codes."
+            "Now, all eight possible decision codes. One allowed, seven refusal codes:"
         </div>
 
         <div class="stage-direction">[Scroll to show the 2-column grid]</div>
 
-        <div class="narration">
-            "We have eight outcomes. One allowed, seven refusal codes. Let me go through them:"
-        </div>
-
-        <div class="stage-direction">[Point to each card as you narrate]</div>
+        <div class="stage-direction">[Point to each card]</div>
 
         <div class="decision-list">
             <div class="decision-item">
-                <span class="decision-code">authorised</span> — um, transaction passes all checks. Amount is within ₹10,000 cap, customer has funds, everything good.
+                <span class="decision-code">Authorised</span> — passes all checks. Good.
             </div>
 
             <div class="decision-item">
-                <span class="decision-code">cap_exceeds_authority</span> — merchant tried to create a block for ₹15,000. OC-228 says blocks must be ≤ ₹10,000. Refused.
+                <span class="decision-code">Cap Exceeds Authority</span> — ₹15,000 block? OC-228 says max ₹10,000. Refused.
             </div>
 
             <div class="decision-item">
-                <span class="decision-code">insufficient_block_balance</span> — customer tried a ₹10,000 block but only has ₹5,000 available. Refused immediately.
+                <span class="decision-code">Insufficient Balance</span> — customer has ₹5,000, tried to block ₹10,000. Refused.
             </div>
 
             <div class="decision-item">
-                <span class="decision-code">block_expired</span> — the block was created 91 days ago. Regulations say max is 90 days. Refused.
+                <span class="decision-code">Block Expired</span> — created 91 days ago. Max is 90 days. Refused.
             </div>
 
             <div class="decision-item">
-                <span class="decision-code">validity_exceeds_authority</span> — merchant requested a block valid for 120 days. OC-228 says 90 days max. Refused.
+                <span class="decision-code">Validity Exceeds Authority</span> — 120-day validity requested. OC-228 says 90 max. Refused.
             </div>
 
             <div class="decision-item">
-                <span class="decision-code">duplicate_block_for_merchant</span> — same merchant tried to create a second block for the same customer. No concurrent blocks allowed. Refused.
+                <span class="decision-code">Duplicate Block</span> — same merchant, second block for same customer. Refused.
             </div>
 
             <div class="decision-item">
-                <span class="decision-code">retry_not_permitted</span> — customer tried to retry after a decline. NPCI only allows retries on timeout failures. Refused.
+                <span class="decision-code">Retry Not Permitted</span> — retrying after a decline. Only timeout failures can retry. Refused.
             </div>
 
             <div class="decision-item">
-                <span class="decision-code">retry_budget_exhausted</span> — customer already retried three times in 24 hours. Fourth retry? Over budget. Refused.
+                <span class="decision-code">Retry Budget Exhausted</span> — fourth retry in 24 hours. Budget is three. Refused.
             </div>
         </div>
 
-        <div class="pause-note">[Pause 1 second]</div>
-
-        <div class="stage-direction">[Scroll down to Coverage & Proof section]</div>
+        <div class="stage-direction">[Scroll down to Coverage & Proof]</div>
 
         <div class="narration">
-            "Look at the coverage. Eight decision codes. One allowed. Seven refusal codes. All tied to two NPCI circulars — OC-228 is the primary one."
+            "Eight decision codes. One allowed. Seven refusal codes. All traceable to NPCI/UPI/OC No.228."
         </div>
 
         <div class="pause-note">[Pause 1 second]</div>
@@ -425,18 +468,22 @@
     <!-- CLOSING -->
     <div class="script-section">
         <h2>
-            <span class="timing">4:15 — 4:30</span>
+            <span class="timing">4:10 — 4:30</span>
             CLOSING
         </h2>
 
         <div class="narration">
-            "So... what you're looking at is — uh — Razorpay's UPI compliance infrastructure. Every block is checked against these rules. Every decision is signed and recorded in an immutable ledger with SHA-256 hashing and tamper detection. Merchants can't claim they didn't know the rules. Customers can't dispute the decision — it's deterministic and auditable."
+            "So what you're looking at is — um — a production-ready compliance infrastructure. Every block is checked deterministically. Every decision is cryptographically signed. Immutable, tamper-proof ledger with SHA-256 hashing."
         </div>
 
         <div class="pause-note">[Pause 1 second]</div>
 
         <div class="narration">
-            "This is production-ready. Deployed on Railway. Ready to handle real transactions through the UPI network. Questions?"
+            "This solves the problem. Merchants have proof of compliance. Banks have audit trails. Regulators have certainty. When NPCI audits? You have deterministic, cryptographically signed evidence of every decision."
+        </div>
+
+        <div class="narration">
+            "Deployed on Railway. Ready to handle real UPI transactions. Questions?"
         </div>
     </div>
 
@@ -447,7 +494,11 @@
         <strong>⏱️ TIMING BREAKDOWN</strong>
         <table>
             <tr>
-                <td>Opening</td>
+                <td>Problem Setup</td>
+                <td>0:35</td>
+            </tr>
+            <tr>
+                <td>Solution Intro</td>
                 <td>0:15</td>
             </tr>
             <tr>
@@ -456,15 +507,15 @@
             </tr>
             <tr>
                 <td>Checkout Flow</td>
-                <td>1:55</td>
+                <td>1:45</td>
             </tr>
             <tr>
                 <td>Decision Gallery</td>
-                <td>1:30</td>
+                <td>1:00</td>
             </tr>
             <tr>
                 <td>Closing</td>
-                <td>0:15</td>
+                <td>0:20</td>
             </tr>
             <tr class="total-time">
                 <td>TOTAL TIME</td>
@@ -473,16 +524,18 @@
         </table>
     </div>
 
-    <!-- KEY POINTS -->
-    <div class="key-points">
-        <h3>✨ KEY POINTS TO EMPHASIZE</h3>
-        <ul>
-            <li><strong>Determinism</strong> — Same input = Same output, always</li>
-            <li><strong>Regulatory alignment</strong> — Every decision cites OC-228</li>
-            <li><strong>Production-ready</strong> — MCP protocol, idempotency keys, error handling</li>
-            <li><strong>Immutable audit trail</strong> — Hash-chained ledger, tamper detection</li>
-            <li><strong>Real data</strong> — Not mock, these are actual compliance checks</li>
-        </ul>
+    <!-- KEY INSIGHT -->
+    <div class="key-insight">
+        <h3>✨ KEY INSIGHT — Story Arc for Judges</h3>
+        <ol>
+            <li><strong>The problem</strong> — regulatory liability, audit risks, no deterministic proof</li>
+            <li><strong>Why it matters</strong> — banks face fines, compliance violations</li>
+            <li><strong>The solution</strong> — deterministic gate, immutable audit trail, cryptographic proof</li>
+            <li><strong>The demo</strong> — catches violations in real-time</li>
+        </ol>
+        <div class="callout">
+            The judges want to hear: "I identified a real problem and built something that solves it."
+        </div>
     </div>
 
     <!-- AVOID SECTION -->
@@ -500,7 +553,7 @@
 
     <p style="text-align: center; color: #999; font-size: 12px; margin-top: 40px;">
         Prepared for Global Glocal Hackathon • UPI Compliance Gate Demo<br>
-        Ready to print or save as PDF — Press Ctrl+P (or Cmd+P on Mac) → Select "Save as PDF"
+        Ready to print or save as PDF — Press Cmd+P (Mac) or Ctrl+P (Windows) → Select "Save as PDF"
     </p>
 </body>
 </html>
