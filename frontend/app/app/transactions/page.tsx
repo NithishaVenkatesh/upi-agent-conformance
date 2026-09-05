@@ -310,8 +310,16 @@ export default function TransactionsPage() {
         if (!response.ok) throw new Error(`Failed to fetch ledger: ${response.status}`);
 
         const ledgerEntries = await response.json();
-        const transformed = transformLedgerToTransactions(ledgerEntries);
+        console.log("Ledger entries type:", typeof ledgerEntries, Array.isArray(ledgerEntries));
 
+        if (!Array.isArray(ledgerEntries) || ledgerEntries.length === 0) {
+          console.log("Empty or invalid ledger, using mock data");
+          setTransactions(MOCK_TRANSACTIONS);
+          return;
+        }
+
+        const transformed = transformLedgerToTransactions(ledgerEntries);
+        console.log("Transformed count:", transformed.length);
         setTransactions(transformed.length > 0 ? transformed : MOCK_TRANSACTIONS);
       } catch (error) {
         setTransactions(MOCK_TRANSACTIONS);
