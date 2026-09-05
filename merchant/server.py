@@ -289,7 +289,7 @@ def make_server(port=8080, host="demo.example"):
                                         "error": {"code": "not_found", "detail": str(e)}})
 
     # Bind to 0.0.0.0 for deployed environments, 127.0.0.1 for localhost
-    bind_host = os.getenv("BIND_HOST", "127.0.0.1")
+    bind_host = os.getenv("BIND_HOST", "0.0.0.0" if os.getenv("PORT") else "127.0.0.1")
     return ThreadingHTTPServer((bind_host, port), H)
 
 
