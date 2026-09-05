@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { ShieldCheck, ShieldX } from "lucide-react";
 import type { GateDecision } from "@/lib/types";
@@ -211,8 +211,55 @@ function TransactionsTable({
   );
 }
 
+function transformLedgerToTransactions(ledgerEntries: any[]): typeof MOCK_TRANSACTIONS {
+  return ledgerEntries.map((entry, idx) => {
+    const payload = entry.payload || {};
+    const amount = payload.amount || 0;
+    const status = payload.status === "BLOCKED" ? "REFUSED" : "ALLOWED";
+
+    return {
+      id: `tx-${entry.seq || idx}`,
+      timestamp: Date.now() - (idx * 60000),
+      amount_minor: amount * 100,
+      status: status as "ALLOWED" | "REFUSED" | "UNDETERMINED",
+      decision: {
+        allowed: status === "ALLOWED",
+        code: status === "ALLOWED" ? "authorised" : "blocked",
+        clause: payload.clause || "NPCI/UPI OC No.228",
+        circular: "NPCI/UPI/OC No.228",
+        quote: payload.reason || (status === "ALLOWED" ? "Within limits" : "Transaction blocked"),
+        detail: payload.reason || "",
+      },
+      customer_id: payload.customer || `cust_${idx}`,
+    };
+  });
+}
+
 export default function TransactionsPage() {
   const [statusFilter, setStatusFilter] = useState("all");
+  const [transactions, setTransactions] = useState<typeof MOCK_TRANSACTIONS>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchTransactions = async () => {
+      try {
+        const apiBase = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8080";
+        const response = await fetch(`${apiBase}/api/ledger`);
+        if (response.ok) {
+          const ledgerEntries = await response.json();
+          setTransactions(transformLedgerToTransactions(ledgerEntries));
+        } else {
+          setTransactions(MOCK_TRANSACTIONS);
+        }
+      } catch (error) {
+        setTransactions(MOCK_TRANSACTIONS);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchTransactions();
+  }, []);
 
   const statusOptions = [
     { label: "All", value: "all" },
@@ -228,7 +275,11 @@ export default function TransactionsPage() {
         <div className="mb-4">
           <SegmentedControl value={statusFilter} onChange={setStatusFilter} options={statusOptions} />
         </div>
-        <TransactionsTable transactions={MOCK_TRANSACTIONS} statusFilter={statusFilter} />
+        {loading ? (
+          <div className="py-8 text-center text-13px text-[--color-ink-3]">Loading transactions...</div>
+        ) : (
+          <TransactionsTable transactions={transactions} statusFilter={statusFilter} />
+        )}
       </div>
     </div>
   );
